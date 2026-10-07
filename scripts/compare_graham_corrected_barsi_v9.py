@@ -80,8 +80,7 @@ def main():
              for scenario in ("central", "conservative")},
          "Cenários de BESST v9 ausentes/duplicados")
 
-    index = {(int(x["year"]), x["rule"]): [] for x in annual for _ in GRAHAM for y in [int(x["year"])]
-             for rule in GRAHAM if rule == _}
+    index = {(int(x["year"]), rule): [] for x in annual for rule in GRAHAM}
     for x in positions:
         y = int(x["year"])
         if x["rule"] in GRAHAM and (y, x["rule"]) in index:
