@@ -41,3 +41,55 @@ Corte: 30/06/2026. Atualizado em 07/10/2026. **Esta trilha não promove nenhum a
 Cada uma das 12 combinações exige: (1) cotações nominais nas duas pontas e nas datas-ex, conferidas contra a fonte original; (2) proventos completos com data-com, tipo, valor e todas as tranches; (3) eventos de quantidade completos com fator na convenção correta; (4) fonte/evidência e exceções registradas; (5) ausência de duplicidade com v6; (6) eventual marcação `RECONCILED` apenas depois de cumprir os itens anteriores.
 
 Consolidação atualizada para **renovação anual**: `python scripts/compare_graham_corrected_barsi_v9.py`. A manutenção de posições Graham da v9 NÃO foi recalculada com a seleção corrigida e não deve ser confundida com os novos retornos de renovação.
+
+## Renovação e manutenção corrigidas — continuação v11
+
+O relatório de 07/10 confirmou: 18/18 paridades originais, 18/18 pesos/contribuições da
+renovação corrigida, cinco eventos TGMA conferidos, 24/24 preços de fronteira
+presentes, oito eventos societários sem alertas mecânicos e 12 ativo/ano que
+continuam sem certificação documental.
+
+A manutenção Graham original da v9 **não pode ser reaproveitada**, pois suas
+seleções anuais são anteriores às correções R00/R03/R16. O novo script
+`scripts/graham_corrected_maintenance_v11.py` calcula, para cada formação
+entre 2020 e 2025, R00/R03/R16 em *buy and hold*, sem renovar seleção
+nem rebalancear. Usa o mesmo motor de eventos v6 até 2026, mantendo as
+saídas por posição e contabilizando conversões, OPA e caixa do motor.
+
+A varredura adicional da B3/SQLite é **restrita a eventos fora das janelas
+anuais já reproduzidas na v10**; nas janelas fechadas, eventos novos ou
+fatores conflitantes entram na lista de alerta, não são somados
+silenciosamente. Mesmo fora delas, um pagamento novo no mesmo dia-com
+de outro pagamento já existente fica em revisão. Isso protege a consistência
+da v10 e evita dupla contagem, mas não certifica a completude.
+
+O script `scripts/compare_maintenance_graham_barsi_v11.py` compara
+18 carteiras Graham corrigidas, 48 cenários BESST manutenção da v9 e seis
+marcos BOVA11. Recompõe também, para cada ano de formação, as estratégias
+com renovação anual (Graham da v10 e BESST da v9). Uma verificação
+independente dos arquivos congelados BESST confirmou que os oito
+produtos anuais reproduzem os oito retornos totais v9.
+
+Os três arquivos congelados BESST, auditáveis, estão em
+`research/graham_v6_comparison/`: `besst_v9_renewal_frozen.csv`,
+`besst_v9_maintenance_frozen.csv` e `besst_v9_annual_frozen.csv`.
+
+**Restrição operacional:** v11 depende de CSVs e do SQLite locais,
+não versionados, que não podem ser lidos pelo GitHub remoto. O código foi
+publicado, mas a apuração completa precisa ser executada no Codespaces.
+Não inferir resultados de manutenção corrigida antes dessa execução e
+não promover nenhum status a `RECONCILED` automaticamente.
+
+### Execução local (somente leitura dos dados)
+
+```bash
+git fetch origin
+git show origin/audit/graham-v6-coverage-7:scripts/graham_corrected_maintenance_v11.py > scripts/graham_corrected_maintenance_v11.py
+git show origin/audit/graham-v6-coverage-7:scripts/compare_maintenance_graham_barsi_v11.py > scripts/compare_maintenance_graham_barsi_v11.py
+mkdir -p research/graham_v6_comparison
+git show origin/audit/graham-v6-coverage-7:research/graham_v6_comparison/besst_v9_annual_frozen.csv > research/graham_v6_comparison/besst_v9_annual_frozen.csv
+git show origin/audit/graham-v6-coverage-7:research/graham_v6_comparison/besst_v9_maintenance_frozen.csv > research/graham_v6_comparison/besst_v9_maintenance_frozen.csv
+python -m py_compile scripts/graham_corrected_maintenance_v11.py scripts/compare_maintenance_graham_barsi_v11.py
+python scripts/graham_corrected_maintenance_v11.py &&
+python scripts/compare_maintenance_graham_barsi_v11.py
+```
