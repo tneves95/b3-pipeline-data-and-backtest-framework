@@ -54,3 +54,7 @@ python data/barsi_v9/unpacked/Barsi_Graham_Comparacao_Final_v9/scripts/reproduzi
 A reprodução pode requerer dependências Python do ambiente. Se falhar, registrar exceção; não substituir a versão v9 por uma aproximação.
 
 **Metodologia:** o `LEIA_ME.md` do pacote informa retorno bruto, proventos pelo direito, sem impostos/custos; BESST 2020–2021 é event-level exato e 2021–2026 opera em precisão material, com alguns checkpoints exatos herdados e cenários central/conservador. As faixas NÃO são intervalos de confiança estatísticos. Não classificar os resultados v9 como plenamente certificados por ter reproduzido os hashes.
+
+## Reprodução verificada pelo coordenador (07/10/2026)
+
+Extraímos o ZIP completo, executamos `scripts/reproduzir_v9.py` em ambiente Python isolado e verificamos: **4/4 scripts executados com sucesso**, **11/11 arquivos finais com SHA-256 idêntico ao publicado** e `all_identical=true`. Isso comprova reprodutibilidade do artefato e dos algoritmos presentes, mas **não** certifica que as estimativas de 2021–2026 sejam retornos exatos por eventos nem elimina necessidade de auditoria de premissas.
