@@ -1,0 +1,27 @@
+{
+  "reference": "graham_corrigido_anuais_eventos.csv (v10); mesma data e critérios",
+  "legacy_v6_parity": "18/18",
+  "first_year_parity": "18/18",
+  "portfolio_cohorts": 18,
+  "positions": 162,
+  "supplementary_events_used": 181,
+  "documentary_policy": "REINVEST",
+  "documentary_amendments": 7,
+  "method_version": "v11.1_documental",
+  "unresolved_b3_conflicts": 45,
+  "execution_errors": 0,
+  "certified": false,
+  "capital_per_portfolio": 10000.0,
+  "standalone_position_capital": 10000.0,
+  "position_units": "cash_final/final_assets: standalone; *_allocated: multiplied by initial weight",
+  "daily_missing_note": "Interim NAV unavailable without exact quote; no fill. Entry, exit and reinvestment remain strict.",
+  "notes": [
+    "Manutenção sem rebalancear desde cada junho até junho/2026",
+    "Proventos reinvestidos na data-ex segundo o motor legado",
+    "Os intervalos protegidos pela v10 nunca recebem eventos B3 novos de forma silenciosa",
+    "Fonte nominal SQLite não é certificação independente da B3",
+    "Eventos societários fora do catálogo capturado não são presumidos",
+    "Nenhum ativo recebeu RECONCILED automaticamente",
+    "Renovação dos anos 2021-2026 usa seleção corrigida de cada ano"
+  ]
+}

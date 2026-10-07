@@ -1,0 +1,243 @@
+{
+  "baseline": "v11.2 PROVISORIA",
+  "all_v12_unchanged": true,
+  "ranks_changed_joint": {
+    "maintain": 0,
+    "renew": 4
+  },
+  "wins_central": [
+    {
+      "mechanism": "maintain",
+      "scenario": "central",
+      "strategy": "R00",
+      "cohorts": 6,
+      "wins": 2,
+      "win_definition": "LIDERANCA_INCLUI_EMPATES; SOMA_PODE_EXCEDER_SEIS",
+      "beats_bova": 5,
+      "mean_rank": 3.3333333333333335,
+      "best_rank": 1,
+      "worst_rank": 7,
+      "min_cagr": 0.1645000873131537,
+      "max_cagr": 0.308742523673764,
+      "inference": "DESCRITIVO; SEIS_COORTES_SOBREPOSTAS; NAO_TESTE_ESTATISTICO"
+    },
+    {
+      "mechanism": "maintain",
+      "scenario": "central",
+      "strategy": "R03",
+      "cohorts": 6,
+      "wins": 2,
+      "win_definition": "LIDERANCA_INCLUI_EMPATES; SOMA_PODE_EXCEDER_SEIS",
+      "beats_bova": 6,
+      "mean_rank": 2.1666666666666665,
+      "best_rank": 1,
+      "worst_rank": 4,
+      "min_cagr": 0.15421605959606466,
+      "max_cagr": 0.30639972754527944,
+      "inference": "DESCRITIVO; SEIS_COORTES_SOBREPOSTAS; NAO_TESTE_ESTATISTICO"
+    },
+    {
+      "mechanism": "maintain",
+      "scenario": "central",
+      "strategy": "R16",
+      "cohorts": 6,
+      "wins": 1,
+      "win_definition": "LIDERANCA_INCLUI_EMPATES; SOMA_PODE_EXCEDER_SEIS",
+      "beats_bova": 6,
+      "mean_rank": 4.666666666666667,
+      "best_rank": 1,
+      "worst_rank": 7,
+      "min_cagr": 0.1463158801934683,
+      "max_cagr": 0.29274399645946003,
+      "inference": "DESCRITIVO; SEIS_COORTES_SOBREPOSTAS; NAO_TESTE_ESTATISTICO"
+    },
+    {
+      "mechanism": "maintain",
+      "scenario": "central",
+      "strategy": "B00S",
+      "cohorts": 6,
+      "wins": 2,
+      "win_definition": "LIDERANCA_INCLUI_EMPATES; SOMA_PODE_EXCEDER_SEIS",
+      "beats_bova": 6,
+      "mean_rank": 2.3333333333333335,
+      "best_rank": 1,
+      "worst_rank": 4,
+      "min_cagr": 0.14425203427162314,
+      "max_cagr": 0.3177018107740113,
+      "inference": "DESCRITIVO; SEIS_COORTES_SOBREPOSTAS; NAO_TESTE_ESTATISTICO"
+    },
+    {
+      "mechanism": "renew",
+      "scenario": "central",
+      "strategy": "R00",
+      "cohorts": 6,
+      "wins": 2,
+      "win_definition": "LIDERANCA_INCLUI_EMPATES; SOMA_PODE_EXCEDER_SEIS",
+      "beats_bova": 5,
+      "mean_rank": 2.8333333333333335,
+      "best_rank": 1,
+      "worst_rank": 7,
+      "min_cagr": 0.18279988355675125,
+      "max_cagr": 0.31744500748944326,
+      "inference": "DESCRITIVO; SEIS_COORTES_SOBREPOSTAS; NAO_TESTE_ESTATISTICO"
+    },
+    {
+      "mechanism": "renew",
+      "scenario": "central",
+      "strategy": "R03",
+      "cohorts": 6,
+      "wins": 2,
+      "win_definition": "LIDERANCA_INCLUI_EMPATES; SOMA_PODE_EXCEDER_SEIS",
+      "beats_bova": 6,
+      "mean_rank": 2,
+      "best_rank": 1,
+      "worst_rank": 3,
+      "min_cagr": 0.22904657637388137,
+      "max_cagr": 0.3082019283286015,
+      "inference": "DESCRITIVO; SEIS_COORTES_SOBREPOSTAS; NAO_TESTE_ESTATISTICO"
+    },
+    {
+      "mechanism": "renew",
+      "scenario": "central",
+      "strategy": "B00S",
+      "cohorts": 6,
+      "wins": 2,
+      "win_definition": "LIDERANCA_INCLUI_EMPATES; SOMA_PODE_EXCEDER_SEIS",
+      "beats_bova": 6,
+      "mean_rank": 2.1666666666666665,
+      "best_rank": 1,
+      "worst_rank": 4,
+      "min_cagr": 0.17545850027957566,
+      "max_cagr": 0.3177743494900942,
+      "inference": "DESCRITIVO; SEIS_COORTES_SOBREPOSTAS; NAO_TESTE_ESTATISTICO"
+    }
+  ],
+  "ranking_orders_central": [
+    {
+      "start_year": 2020,
+      "mechanism": "maintain",
+      "scenario": "central",
+      "order": "R00 > R03 > R16 > B00S > B00 > B06 > BOVA11 > B06S",
+      "winner": "R00",
+      "winner_return": 1.4931396895893965,
+      "runner_up": "R03",
+      "winner_margin_pp": 12.919446100015142
+    },
+    {
+      "start_year": 2020,
+      "mechanism": "renew",
+      "scenario": "central",
+      "order": "R03 > R16 > R00 > B00S > B00 > B06 > B06S > BOVA11",
+      "winner": "R03",
+      "winner_return": 2.651978290975356,
+      "runner_up": "R16",
+      "winner_margin_pp": 17.008423773078142
+    },
+    {
+      "start_year": 2021,
+      "mechanism": "maintain",
+      "scenario": "central",
+      "order": "R03 = R16 > R00 > B00S > B00 > B06 = B06S > BOVA11",
+      "winner": "R03 = R16",
+      "winner_return": 2.609826440937715,
+      "runner_up": "R16",
+      "winner_margin_pp": 0.0
+    },
+    {
+      "start_year": 2021,
+      "mechanism": "renew",
+      "scenario": "central",
+      "order": "R00 > R03 > B00S > R16 > B00 > B06S > B06 > BOVA11",
+      "winner": "R00",
+      "winner_return": 1.9315525909324935,
+      "runner_up": "R03",
+      "winner_margin_pp": 12.753715108423647
+    },
+    {
+      "start_year": 2022,
+      "mechanism": "maintain",
+      "scenario": "central",
+      "order": "B00S > R03 > B00 > B06 > B06S > R00 > R16 > BOVA11",
+      "winner": "B00S",
+      "winner_return": 1.6557913083796922,
+      "runner_up": "R03",
+      "winner_margin_pp": 9.73078682040378
+    },
+    {
+      "start_year": 2022,
+      "mechanism": "renew",
+      "scenario": "central",
+      "order": "B00S > R03 > R00 > B00 > R16 > B06S > B06 > BOVA11",
+      "winner": "B00S",
+      "winner_return": 1.592493297002374,
+      "runner_up": "R03",
+      "winner_margin_pp": 2.680525579942117
+    },
+    {
+      "start_year": 2023,
+      "mechanism": "maintain",
+      "scenario": "central",
+      "order": "R00 > B00S > R03 > B00 > B06S > B06 > R16 > BOVA11",
+      "winner": "R00",
+      "winner_return": 1.1790744554718868,
+      "runner_up": "B00S",
+      "winner_margin_pp": 23.663518110011374
+    },
+    {
+      "start_year": 2023,
+      "mechanism": "renew",
+      "scenario": "central",
+      "order": "R00 > B00S > R03 > R16 > B00 > B06S > B06 > BOVA11",
+      "winner": "R00",
+      "winner_return": 1.0040599642831936,
+      "runner_up": "B00S",
+      "winner_margin_pp": 3.0636646647679955
+    },
+    {
+      "start_year": 2024,
+      "mechanism": "maintain",
+      "scenario": "central",
+      "order": "B00S > R00 > B00 > R03 > B06S > B06 > R16 > BOVA11",
+      "winner": "B00S",
+      "winner_return": 0.7383064741979397,
+      "runner_up": "R00",
+      "winner_margin_pp": 2.3605788259295934
+    },
+    {
+      "start_year": 2024,
+      "mechanism": "renew",
+      "scenario": "central",
+      "order": "B00S > R00 > R03 > R16 > B00 > B06S > B06 > BOVA11",
+      "winner": "B00S",
+      "winner_return": 0.7384982580019441,
+      "runner_up": "R00",
+      "winner_margin_pp": 0.08706561851388184
+    },
+    {
+      "start_year": 2025,
+      "mechanism": "maintain",
+      "scenario": "central",
+      "order": "R03 > B00S > R16 > BOVA11 > B00 > B06S > R00 > B06",
+      "winner": "R03",
+      "winner_return": 0.30616075689403943,
+      "runner_up": "B00S",
+      "winner_margin_pp": 3.785351957510441
+    },
+    {
+      "start_year": 2025,
+      "mechanism": "renew",
+      "scenario": "central",
+      "order": "R03 > B00S > R16 > BOVA11 > B00 > B06S > R00 > B06",
+      "winner": "R03",
+      "winner_return": 0.30616075689403943,
+      "runner_up": "B00S",
+      "winner_margin_pp": 3.785351957510441
+    }
+  ],
+  "risk_paths_computable": {
+    "FULL_NOMINAL_EVENT_PATH": 44,
+    "NOT_ESTIMATED_RESIDUAL_EVENT_PATHS_MISSING": 48,
+    "INCOMPLETE_NO_METRICS": 4
+  },
+  "strategic_scope": "Exploratorio; seis coortes sobrepostas, sem teste estatistico ou universo alternativo; encerrar auditoria dirigida nesta rodada"
+}

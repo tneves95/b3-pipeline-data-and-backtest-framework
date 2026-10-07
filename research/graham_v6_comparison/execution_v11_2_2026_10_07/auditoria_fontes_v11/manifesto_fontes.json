@@ -1,0 +1,85 @@
+{
+  "ri_sources": [
+    {
+      "artifact": "research/graham_v6_comparison/ri_events_verified_2026_10_07.csv",
+      "artifact_sha256": "01959737d81dfc508ac1893247a4c50dd6efbf096e00f7e200c7ced7e2ef003b",
+      "retrieved_date": "2026-10-07",
+      "method": "transcricao de fatos das paginas oficiais via ferramenta web",
+      "limitation": "HTTP 403 no download direto; hash se refere ao CSV transcrito, nao ao HTML"
+    }
+  ],
+  "cotahist_sources": [
+    {
+      "year": 2020,
+      "filename": "COTAHIST_A2020.ZIP",
+      "bytes": 37181542,
+      "sha256": "86442168939b9da7b3cc1ec1662c333ee5ab4c75f2be1865b5bf55ba4c52168f",
+      "source_url": "https://bvmf.bmfbovespa.com.br/InstDados/SerHist/COTAHIST_A2020.ZIP",
+      "provenance": "arquivo local preexistente; nao houve novo download independente"
+    },
+    {
+      "year": 2021,
+      "filename": "COTAHIST_A2021.ZIP",
+      "bytes": 49678679,
+      "sha256": "b0d4aed17d609c7ba615a23320c2fd513b580a251ae7d884a5015ef8a3fe4705",
+      "source_url": "https://bvmf.bmfbovespa.com.br/InstDados/SerHist/COTAHIST_A2021.ZIP",
+      "provenance": "arquivo local preexistente; nao houve novo download independente"
+    },
+    {
+      "year": 2022,
+      "filename": "COTAHIST_A2022.ZIP",
+      "bytes": 58597842,
+      "sha256": "a4f9015b755f797d9c08b0d13f19dbfab18a6c75f379c0271a1cf1b5f6323cd8",
+      "source_url": "https://bvmf.bmfbovespa.com.br/InstDados/SerHist/COTAHIST_A2022.ZIP",
+      "provenance": "arquivo local preexistente; nao houve novo download independente"
+    },
+    {
+      "year": 2023,
+      "filename": "COTAHIST_A2023.ZIP",
+      "bytes": 70216090,
+      "sha256": "ad1603788d78aaa1de806498572277f1d9443f88ae116452751b5800cb23523e",
+      "source_url": "https://bvmf.bmfbovespa.com.br/InstDados/SerHist/COTAHIST_A2023.ZIP",
+      "provenance": "arquivo local preexistente; nao houve novo download independente"
+    },
+    {
+      "year": 2024,
+      "filename": "COTAHIST_A2024.ZIP",
+      "bytes": 79261198,
+      "sha256": "96a003d10fab0fa2ace0c64cdc2b892b4c111adf9da8e538aa0b28437bd2a172",
+      "source_url": "https://bvmf.bmfbovespa.com.br/InstDados/SerHist/COTAHIST_A2024.ZIP",
+      "provenance": "arquivo local preexistente; nao houve novo download independente"
+    },
+    {
+      "year": 2025,
+      "filename": "COTAHIST_A2025.ZIP",
+      "bytes": 89056788,
+      "sha256": "6cc0ad851c8f605ca30418acac48be81f1767f6ed05b4f563772d06ae448047d",
+      "source_url": "https://bvmf.bmfbovespa.com.br/InstDados/SerHist/COTAHIST_A2025.ZIP",
+      "provenance": "arquivo local preexistente; nao houve novo download independente"
+    },
+    {
+      "year": 2026,
+      "filename": "COTAHIST_A2026.ZIP",
+      "bytes": 92505617,
+      "sha256": "6aa0558c7d2571a6ec28393402f9ccceb6a0fa859af196d29d9ee137ff99efdf",
+      "source_url": "https://bvmf.bmfbovespa.com.br/InstDados/SerHist/COTAHIST_A2026.ZIP",
+      "provenance": "arquivo local preexistente; nao houve novo download independente"
+    }
+  ],
+  "quotes": {
+    "OK_ARQUIVO_BRUTO": 116,
+    "AUSENTE_COTAHIST": 1
+  },
+  "cash": {
+    "VALOR_DATA_PRESENTES": 55,
+    "AUSENTE_NO_MOTOR": 3,
+    "TRATAMENTO_ECONOMICO_PENDENTE": 2,
+    "VALOR_DIVERGENTE_REVISAR": 1
+  },
+  "certified": false,
+  "limitations": [
+    "Relação de proventos do RI não prova ausência de todos os eventos societários",
+    "ALOS3/TGMA3/SBSP3: documentos específicos precisam de confronto integral adicional",
+    "Auditoria Barsi e conciliação das posições são registradas separadamente em auditoria_besst_v9"
+  ]
+}

@@ -1,0 +1,3092 @@
+[
+  {
+    "event_id": "V13_SAPR4_2020-06-30_JCP_116",
+    "ticker": "SAPR4",
+    "share_class": "PN",
+    "isin": "BRSAPRACNPR6",
+    "record_date": "2020-06-30",
+    "ex_date": "2020-07-01",
+    "kind": "JCP",
+    "amount": 0.10282945022,
+    "pay_date_or_deadline": "2021-06-18",
+    "source_ids": [
+      "SAPR_HIST"
+    ],
+    "source_urls": [
+      "https://ri.sanepar.com.br/docs/Sanepar-2025-12-18-cW6NmzgB.pdf"
+    ],
+    "source_sha256": [
+      "1248c0760ce88d4e4c5ea1acc2262d11fad55eee5742481bfe45247d84459bf8"
+    ],
+    "locator": "Pagina 1, coluna PN SAPR4; data do direito",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Data-ex efetiva: primeira sessao B3 apos data do direito. Tabela tem erros tipograficos: 01/07/2023 sabado; 29/04/2021 para dividendo aprovado 28/04/2022. Sem trocar PN por ON."
+  },
+  {
+    "event_id": "V13_VIVT4_2020-06-30_JCP_115",
+    "ticker": "VIVT4",
+    "share_class": "PN",
+    "isin": "BRVIVTACNPR7",
+    "record_date": "2020-06-30",
+    "ex_date": "2020-07-01",
+    "kind": "JCP",
+    "amount": 0.54980825489,
+    "pay_date_or_deadline": "2021-07-13",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 90, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_VIVT4_2020-09-28_JCP_114",
+    "ticker": "VIVT4",
+    "share_class": "PN",
+    "isin": "BRVIVTACNPR7",
+    "record_date": "2020-09-28",
+    "ex_date": "2020-09-29",
+    "kind": "JCP",
+    "amount": 0.39708373964,
+    "pay_date_or_deadline": "2021-07-13",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 88, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_TIMS3_2020-10-19_JCP_027",
+    "ticker": "TIMS3",
+    "share_class": "ON",
+    "isin": "BRTIMSACNOR5",
+    "record_date": "2020-10-19",
+    "ex_date": "2020-10-20",
+    "kind": "JCP",
+    "amount": 0.206542925,
+    "pay_date_or_deadline": "2020-11-10",
+    "source_ids": [
+      "TIM_2020-10-07_5",
+      "TIM_2020-10-30_4"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/4c4aa51f-1235-4aa1-8b83-adc92e8dacc3/f254c76d-5442-4947-aad9-e2816de7e7d3?origin=2",
+      "https://api.mziq.com/mzfilemanager/v2/d/4c4aa51f-1235-4aa1-8b83-adc92e8dacc3/be78844f-4634-42c0-ae1c-a18bd2d7782e?origin=2"
+    ],
+    "source_sha256": [
+      "533a7efed556542901c33cb7bc3e0b115c786d27ab35bdb600bb845329666129",
+      "f87386b7167faf82b55e23baf72e0e69c8752b7d9626f3acf2770cd90c27ba0b"
+    ],
+    "locator": "Avisos individuais; datas-com prevalecem sobre coluna Data-Ex inconsistente da tabela RI",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valores brutos; retificacoes substituem, antecipacoes de pagamento nao criam novo direito."
+  },
+  {
+    "event_id": "V13_PSSA3_2020-10-30_JCP_000",
+    "ticker": "PSSA3",
+    "share_class": "ON",
+    "isin": "BRPSSAACNOR7",
+    "record_date": "2020-10-30",
+    "ex_date": "2020-11-03",
+    "kind": "JCP",
+    "amount": 0.55962046524,
+    "pay_date_or_deadline": "2021-04-12",
+    "source_ids": [
+      "PSSA_2020-10-27_0",
+      "PSSA_2021-03-31_8"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/f9e62720-e79a-1676-864d-2a184a052c0f?origin=2",
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/493a6ff0-1341-22f7-1a72-d9896b29432f?origin=2"
+    ],
+    "source_sha256": [
+      "d5c643ef2493b2f69e7e5549d96975485d698ca9f1685b8c49b623ea396c64bb",
+      "8e2d7c6c99eefe4086957c9d4ed7be18bcddeeeea947b03e3a5e4735bde77829"
+    ],
+    "locator": "Avisos/ratificacoes, valores brutos; conferidos por parcela",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valor bruto nominal; data-com B3 confrontada nos avisos. Ratificacoes nao criam novo direito."
+  },
+  {
+    "event_id": "V13_VIVT3_2020-11-27_JCP_113",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2020-11-27",
+    "ex_date": "2020-11-30",
+    "kind": "JCP",
+    "amount": 0.23690201678,
+    "pay_date_or_deadline": "2021-07-13",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 86, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_TIMS3_2020-12-18_JCP_028",
+    "ticker": "TIMS3",
+    "share_class": "ON",
+    "isin": "BRTIMSACNOR5",
+    "record_date": "2020-12-18",
+    "ex_date": "2020-12-21",
+    "kind": "JCP",
+    "amount": 0.240868584,
+    "pay_date_or_deadline": "2021-01-22",
+    "source_ids": [
+      "TIM_2020-12-10_2",
+      "TIM_2020-12-10_3"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/4c4aa51f-1235-4aa1-8b83-adc92e8dacc3/c586e22e-1cf8-403d-8731-dc96ab412253?origin=2",
+      "https://api.mziq.com/mzfilemanager/v2/d/4c4aa51f-1235-4aa1-8b83-adc92e8dacc3/620d660d-c87e-4aec-b107-f541814149da?origin=2"
+    ],
+    "source_sha256": [
+      "1d3b2926f213df4700a8de4d5aba36be9f40d9ccd0e84735c5c2ae9e1888f1d7",
+      "d4198717217c7392002cc598d2050cab03c05ef69ae69b02fd66b777442e8440"
+    ],
+    "locator": "Avisos individuais; datas-com prevalecem sobre coluna Data-Ex inconsistente da tabela RI",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valores brutos; retificacoes substituem, antecipacoes de pagamento nao criam novo direito."
+  },
+  {
+    "event_id": "V13_VIVT3_2020-12-28_DIV_111",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2020-12-28",
+    "ex_date": "2020-12-29",
+    "kind": "DIV",
+    "amount": 0.71082712945,
+    "pay_date_or_deadline": "2021-10-05",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 84, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_VIVT3_2020-12-28_JCP_112",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2020-12-28",
+    "ex_date": "2020-12-29",
+    "kind": "JCP",
+    "amount": 0.15401254471,
+    "pay_date_or_deadline": "2021-07-13",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 85, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_SAPR4_2020-12-30_JCP_117",
+    "ticker": "SAPR4",
+    "share_class": "PN",
+    "isin": "BRSAPRACNPR6",
+    "record_date": "2020-12-30",
+    "ex_date": "2021-01-04",
+    "kind": "JCP",
+    "amount": 0.09945351755,
+    "pay_date_or_deadline": "2021-06-18",
+    "source_ids": [
+      "SAPR_HIST"
+    ],
+    "source_urls": [
+      "https://ri.sanepar.com.br/docs/Sanepar-2025-12-18-cW6NmzgB.pdf"
+    ],
+    "source_sha256": [
+      "1248c0760ce88d4e4c5ea1acc2262d11fad55eee5742481bfe45247d84459bf8"
+    ],
+    "locator": "Pagina 1, coluna PN SAPR4; data do direito",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Data-ex efetiva: primeira sessao B3 apos data do direito. Tabela tem erros tipograficos: 01/07/2023 sabado; 29/04/2021 para dividendo aprovado 28/04/2022. Sem trocar PN por ON."
+  },
+  {
+    "event_id": "V13_VIVT3_2021-02-26_JCP_109",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2021-02-26",
+    "ex_date": "2021-03-01",
+    "kind": "JCP",
+    "amount": 0.08889560697,
+    "pay_date_or_deadline": "2022-07-19",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 79, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_PSSA3_2021-03-31_DIV_001",
+    "ticker": "PSSA3",
+    "share_class": "ON",
+    "isin": "BRPSSAACNOR7",
+    "record_date": "2021-03-31",
+    "ex_date": "2021-04-01",
+    "kind": "DIV",
+    "amount": 0.92344850098,
+    "pay_date_or_deadline": "2021-10-29",
+    "source_ids": [
+      "PSSA_2021-03-31_8",
+      "PSSA_2021-10-26_3"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/493a6ff0-1341-22f7-1a72-d9896b29432f?origin=2",
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/41759930-edbb-5e54-ff18-92877b91d282?origin=2"
+    ],
+    "source_sha256": [
+      "8e2d7c6c99eefe4086957c9d4ed7be18bcddeeeea947b03e3a5e4735bde77829",
+      "2b9c54015e2672c3ba389dfdf7baa12cfae2b8ad7dbb8207efcaab5d5491e90f"
+    ],
+    "locator": "Avisos/ratificacoes, valores brutos; conferidos por parcela",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valor bruto nominal; data-com B3 confrontada nos avisos. Ratificacoes nao criam novo direito."
+  },
+  {
+    "event_id": "V13_PSSA3_2021-03-31_DIV_023",
+    "ticker": "PSSA3",
+    "share_class": "ON",
+    "isin": "BRPSSAACNOR7",
+    "record_date": "2021-03-31",
+    "ex_date": "2021-04-01",
+    "kind": "DIV",
+    "amount": 0.25760941409,
+    "pay_date_or_deadline": "2021-04-12",
+    "source_ids": [
+      "PSSA_2021-03-31_8"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/493a6ff0-1341-22f7-1a72-d9896b29432f?origin=2"
+    ],
+    "source_sha256": [
+      "8e2d7c6c99eefe4086957c9d4ed7be18bcddeeeea947b03e3a5e4735bde77829"
+    ],
+    "locator": "Parcelas distintas do dividendo residual ja presente na B3",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Parcela adicional documental; nao somar o total agregado novamente."
+  },
+  {
+    "event_id": "V13_PSSA3_2021-03-31_DIV_024",
+    "ticker": "PSSA3",
+    "share_class": "ON",
+    "isin": "BRPSSAACNOR7",
+    "record_date": "2021-03-31",
+    "ex_date": "2021-04-01",
+    "kind": "DIV",
+    "amount": 0.46218607548,
+    "pay_date_or_deadline": "2021-04-12",
+    "source_ids": [
+      "PSSA_2021-03-31_8"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/493a6ff0-1341-22f7-1a72-d9896b29432f?origin=2"
+    ],
+    "source_sha256": [
+      "8e2d7c6c99eefe4086957c9d4ed7be18bcddeeeea947b03e3a5e4735bde77829"
+    ],
+    "locator": "Parcelas distintas do dividendo residual ja presente na B3",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Parcela adicional documental; nao somar o total agregado novamente."
+  },
+  {
+    "event_id": "V13_VIVT3_2021-03-31_JCP_108",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2021-03-31",
+    "ex_date": "2021-04-01",
+    "kind": "JCP",
+    "amount": 0.16009837668,
+    "pay_date_or_deadline": "2022-07-19",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 78, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_VIVT3_2021-04-15_DIV_110",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2021-04-15",
+    "ex_date": "2021-04-16",
+    "kind": "DIV",
+    "amount": 0.94181786762,
+    "pay_date_or_deadline": "2021-10-05",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 83, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_VIVT3_2021-04-30_JCP_107",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2021-04-30",
+    "ex_date": "2021-05-03",
+    "kind": "JCP",
+    "amount": 0.16611398457,
+    "pay_date_or_deadline": "2022-07-19",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 77, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_TIMS3_2021-06-21_JCP_029",
+    "ticker": "TIMS3",
+    "share_class": "ON",
+    "isin": "BRTIMSACNOR5",
+    "record_date": "2021-06-21",
+    "ex_date": "2021-06-22",
+    "kind": "JCP",
+    "amount": 0.144654605,
+    "pay_date_or_deadline": "2021-07-20",
+    "source_ids": [
+      "TIM_2021-06-09_7"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/4c4aa51f-1235-4aa1-8b83-adc92e8dacc3/ec8c4a27-ea86-4980-8cb4-8beef111e7ac?origin=2"
+    ],
+    "source_sha256": [
+      "78d5be9f9633763817a4f6b6b8fb49a146a751e238c4fb5c99753e268ed19b6a"
+    ],
+    "locator": "Avisos individuais; datas-com prevalecem sobre coluna Data-Ex inconsistente da tabela RI",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valores brutos; retificacoes substituem, antecipacoes de pagamento nao criam novo direito."
+  },
+  {
+    "event_id": "V13_SAPR4_2021-06-30_JCP_118",
+    "ticker": "SAPR4",
+    "share_class": "PN",
+    "isin": "BRSAPRACNPR6",
+    "record_date": "2021-06-30",
+    "ex_date": "2021-07-01",
+    "kind": "JCP",
+    "amount": 0.10309993116,
+    "pay_date_or_deadline": "2022-06-24",
+    "source_ids": [
+      "SAPR_HIST"
+    ],
+    "source_urls": [
+      "https://ri.sanepar.com.br/docs/Sanepar-2025-12-18-cW6NmzgB.pdf"
+    ],
+    "source_sha256": [
+      "1248c0760ce88d4e4c5ea1acc2262d11fad55eee5742481bfe45247d84459bf8"
+    ],
+    "locator": "Pagina 1, coluna PN SAPR4; data do direito",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Data-ex efetiva: primeira sessao B3 apos data do direito. Tabela tem erros tipograficos: 01/07/2023 sabado; 29/04/2021 para dividendo aprovado 28/04/2022. Sem trocar PN por ON."
+  },
+  {
+    "event_id": "V13_VIVT3_2021-06-30_JCP_106",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2021-06-30",
+    "ex_date": "2021-07-01",
+    "kind": "JCP",
+    "amount": 0.37390025008,
+    "pay_date_or_deadline": "2022-07-19",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 76, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_PSSA3_2021-07-29_JCP_002",
+    "ticker": "PSSA3",
+    "share_class": "ON",
+    "isin": "BRPSSAACNOR7",
+    "record_date": "2021-07-29",
+    "ex_date": "2021-07-30",
+    "kind": "JCP",
+    "amount": 0.69151091,
+    "pay_date_or_deadline": "2022-04-11",
+    "source_ids": [
+      "PSSA_2021-10-26_2",
+      "PSSA_2022-03-31_10",
+      "PSSA_2022-03-31_8"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/84eee7cb-7942-984d-6623-ff1f2c09cdbe?origin=2",
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/c01dc413-7f12-69a6-0b0a-53d2e29990ed?origin=2",
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/bd82067a-476b-c3a3-b00a-9a8d540f77cb?origin=2"
+    ],
+    "source_sha256": [
+      "642b28c10e0ecbb68d5a46a6eb41f000862e47ef79e13f5efee2be9c7659a1e6",
+      "00cabac83a7079b26cf446353f5c71eafc969e8e1c94b86ca38e04726ab7fa9b",
+      "9bf67d4b91442da91a96c6fef1efde652011cb964f13a3650dd4b9d709cc8cd4"
+    ],
+    "locator": "Avisos/ratificacoes, valores brutos; conferidos por parcela",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valor bruto nominal; data-com B3 confrontada nos avisos. Ratificacoes nao criam novo direito."
+  },
+  {
+    "event_id": "V13_TIMS3_2021-09-29_JCP_030",
+    "ticker": "TIMS3",
+    "share_class": "ON",
+    "isin": "BRTIMSACNOR5",
+    "record_date": "2021-09-29",
+    "ex_date": "2021-09-30",
+    "kind": "JCP",
+    "amount": 0.056809776,
+    "pay_date_or_deadline": "2021-10-27",
+    "source_ids": [
+      "TIM_2021-09-24_3"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/4c4aa51f-1235-4aa1-8b83-adc92e8dacc3/fa04ad1c-865b-81a3-87f8-ff70523311ae?origin=2"
+    ],
+    "source_sha256": [
+      "d8fb58327e70858f48f46850eceae8c9295a15d9cf631dada93d2c334f5c00b4"
+    ],
+    "locator": "Avisos individuais; datas-com prevalecem sobre coluna Data-Ex inconsistente da tabela RI",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valores brutos; retificacoes substituem, antecipacoes de pagamento nao criam novo direito."
+  },
+  {
+    "event_id": "V13_VIVT3_2021-09-30_JCP_105",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2021-09-30",
+    "ex_date": "2021-10-01",
+    "kind": "JCP",
+    "amount": 0.35728835197,
+    "pay_date_or_deadline": "2022-07-19",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 75, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_PSSA3_2021-10-29_JCP_003",
+    "ticker": "PSSA3",
+    "share_class": "ON",
+    "isin": "BRPSSAACNOR7",
+    "record_date": "2021-10-29",
+    "ex_date": "2021-11-01",
+    "kind": "JCP",
+    "amount": 0.2773017152,
+    "pay_date_or_deadline": "2022-04-11",
+    "source_ids": [
+      "PSSA_2021-11-18_0",
+      "PSSA_2022-03-31_10",
+      "PSSA_2022-03-31_8"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/0c125129-e67a-53e9-aa2c-5b25822a1a8c?origin=2",
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/c01dc413-7f12-69a6-0b0a-53d2e29990ed?origin=2",
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/bd82067a-476b-c3a3-b00a-9a8d540f77cb?origin=2"
+    ],
+    "source_sha256": [
+      "5b3c39a46ffd8359bbaaa7ff3ee9f1c9a2be994d0ef449540179e204da8ebf0f",
+      "00cabac83a7079b26cf446353f5c71eafc969e8e1c94b86ca38e04726ab7fa9b",
+      "9bf67d4b91442da91a96c6fef1efde652011cb964f13a3650dd4b9d709cc8cd4"
+    ],
+    "locator": "Avisos/ratificacoes, valores brutos; conferidos por parcela",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valor bruto nominal; data-com B3 confrontada nos avisos. Ratificacoes nao criam novo direito."
+  },
+  {
+    "event_id": "V13_TIMS3_2021-12-20_JCP_031",
+    "ticker": "TIMS3",
+    "share_class": "ON",
+    "isin": "BRTIMSACNOR5",
+    "record_date": "2021-12-20",
+    "ex_date": "2021-12-21",
+    "kind": "JCP",
+    "amount": 0.231366129,
+    "pay_date_or_deadline": "2022-01-25",
+    "source_ids": [
+      "TIM_2021-12-15_0"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/4c4aa51f-1235-4aa1-8b83-adc92e8dacc3/44eca3b7-91a5-79c3-458a-10bea257e8bd?origin=2"
+    ],
+    "source_sha256": [
+      "b34bc94adfd0d55806a535227cd896593a8ad3bc4a69f78c672f7b200474b684"
+    ],
+    "locator": "Avisos individuais; datas-com prevalecem sobre coluna Data-Ex inconsistente da tabela RI",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valores brutos; retificacoes substituem, antecipacoes de pagamento nao criam novo direito."
+  },
+  {
+    "event_id": "V13_VIVT3_2021-12-27_DIV_103",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2021-12-27",
+    "ex_date": "2021-12-28",
+    "kind": "DIV",
+    "amount": 0.89448730817,
+    "pay_date_or_deadline": "2022-10-18",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 73, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_VIVT3_2021-12-27_JCP_104",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2021-12-27",
+    "ex_date": "2021-12-28",
+    "kind": "JCP",
+    "amount": 0.48004152205,
+    "pay_date_or_deadline": "2022-07-19",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 74, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_SAPR4_2021-12-30_JCP_119",
+    "ticker": "SAPR4",
+    "share_class": "PN",
+    "isin": "BRSAPRACNPR6",
+    "record_date": "2021-12-30",
+    "ex_date": "2022-01-03",
+    "kind": "JCP",
+    "amount": 0.11927003059,
+    "pay_date_or_deadline": "2022-06-24",
+    "source_ids": [
+      "SAPR_HIST"
+    ],
+    "source_urls": [
+      "https://ri.sanepar.com.br/docs/Sanepar-2025-12-18-cW6NmzgB.pdf"
+    ],
+    "source_sha256": [
+      "1248c0760ce88d4e4c5ea1acc2262d11fad55eee5742481bfe45247d84459bf8"
+    ],
+    "locator": "Pagina 1, coluna PN SAPR4; data do direito",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Data-ex efetiva: primeira sessao B3 apos data do direito. Tabela tem erros tipograficos: 01/07/2023 sabado; 29/04/2021 para dividendo aprovado 28/04/2022. Sem trocar PN por ON."
+  },
+  {
+    "event_id": "V13_VIVT3_2022-02-25_JCP_101",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2022-02-25",
+    "ex_date": "2022-03-02",
+    "kind": "JCP",
+    "amount": 0.10739500713,
+    "pay_date_or_deadline": "2023-04-18",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 68, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_TIMS3_2022-03-28_JCP_032",
+    "ticker": "TIMS3",
+    "share_class": "ON",
+    "isin": "BRTIMSACNOR5",
+    "record_date": "2022-03-28",
+    "ex_date": "2022-03-29",
+    "kind": "JCP",
+    "amount": 0.080564991,
+    "pay_date_or_deadline": "2022-04-27",
+    "source_ids": [
+      "TIM_2022-03-22_16"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/4c4aa51f-1235-4aa1-8b83-adc92e8dacc3/d66d8c7b-438f-f636-8557-60ffdf4a2e60?origin=2"
+    ],
+    "source_sha256": [
+      "ca9bc219b2b3f54dfe5028db5b64c804fe481ce298f565ee80ba30aec51f54ea"
+    ],
+    "locator": "Avisos individuais; datas-com prevalecem sobre coluna Data-Ex inconsistente da tabela RI",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valores brutos; retificacoes substituem, antecipacoes de pagamento nao criam novo direito."
+  },
+  {
+    "event_id": "V13_PSSA3_2022-03-31_DIV_004",
+    "ticker": "PSSA3",
+    "share_class": "ON",
+    "isin": "BRPSSAACNOR7",
+    "record_date": "2022-03-31",
+    "ex_date": "2022-04-01",
+    "kind": "DIV",
+    "amount": 0.41032952435,
+    "pay_date_or_deadline": "2022-11-29",
+    "source_ids": [
+      "PSSA_2022-03-31_10",
+      "PSSA_2022-03-31_8",
+      "PSSA_2022-11-23_2"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/c01dc413-7f12-69a6-0b0a-53d2e29990ed?origin=2",
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/bd82067a-476b-c3a3-b00a-9a8d540f77cb?origin=2",
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/ae2ce35a-8763-7d60-073f-ca45097755f1?origin=2"
+    ],
+    "source_sha256": [
+      "00cabac83a7079b26cf446353f5c71eafc969e8e1c94b86ca38e04726ab7fa9b",
+      "9bf67d4b91442da91a96c6fef1efde652011cb964f13a3650dd4b9d709cc8cd4",
+      "144e4794e87294e90ac731cdbe1a25fc2270c35647be7711c525197c438fdf81"
+    ],
+    "locator": "Avisos/ratificacoes, valores brutos; conferidos por parcela",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valor bruto nominal; data-com B3 confrontada nos avisos. Ratificacoes nao criam novo direito."
+  },
+  {
+    "event_id": "V13_PSSA3_2022-03-31_DIV_025",
+    "ticker": "PSSA3",
+    "share_class": "ON",
+    "isin": "BRPSSAACNOR7",
+    "record_date": "2022-03-31",
+    "ex_date": "2022-04-01",
+    "kind": "DIV",
+    "amount": 0.03717026792,
+    "pay_date_or_deadline": "2022-11-29",
+    "source_ids": [
+      "PSSA_2022-03-31_10"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/c01dc413-7f12-69a6-0b0a-53d2e29990ed?origin=2"
+    ],
+    "source_sha256": [
+      "00cabac83a7079b26cf446353f5c71eafc969e8e1c94b86ca38e04726ab7fa9b"
+    ],
+    "locator": "Parcelas distintas do dividendo residual ja presente na B3",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Parcela adicional documental; nao somar o total agregado novamente."
+  },
+  {
+    "event_id": "V13_VIVT3_2022-03-31_JCP_100",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2022-03-31",
+    "ex_date": "2022-04-01",
+    "kind": "JCP",
+    "amount": 0.14929120379,
+    "pay_date_or_deadline": "2023-04-18",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 67, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_VIVT3_2022-04-26_DIV_102",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2022-04-26",
+    "ex_date": "2022-04-27",
+    "kind": "DIV",
+    "amount": 1.21200233929,
+    "pay_date_or_deadline": "2022-10-18",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 72, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_SAPR4_2022-04-28_DIV_120",
+    "ticker": "SAPR4",
+    "share_class": "PN",
+    "isin": "BRSAPRACNPR6",
+    "record_date": "2022-04-28",
+    "ex_date": "2022-04-29",
+    "kind": "DIV",
+    "amount": 0.01207917757,
+    "pay_date_or_deadline": "2022-06-24",
+    "source_ids": [
+      "SAPR_HIST"
+    ],
+    "source_urls": [
+      "https://ri.sanepar.com.br/docs/Sanepar-2025-12-18-cW6NmzgB.pdf"
+    ],
+    "source_sha256": [
+      "1248c0760ce88d4e4c5ea1acc2262d11fad55eee5742481bfe45247d84459bf8"
+    ],
+    "locator": "Pagina 1, coluna PN SAPR4; data do direito",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Data-ex efetiva: primeira sessao B3 apos data do direito. Tabela tem erros tipograficos: 01/07/2023 sabado; 29/04/2021 para dividendo aprovado 28/04/2022. Sem trocar PN por ON."
+  },
+  {
+    "event_id": "V13_VIVT3_2022-04-29_JCP_099",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2022-04-29",
+    "ex_date": "2022-05-02",
+    "kind": "JCP",
+    "amount": 0.08962197427,
+    "pay_date_or_deadline": "2023-04-18",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 66, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_TIMS3_2022-06-23_JCP_033",
+    "ticker": "TIMS3",
+    "share_class": "ON",
+    "isin": "BRTIMSACNOR5",
+    "record_date": "2022-06-23",
+    "ex_date": "2022-06-24",
+    "kind": "JCP",
+    "amount": 0.111637201,
+    "pay_date_or_deadline": "2022-07-20",
+    "source_ids": [
+      "TIM_2022-06-15_11"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/4c4aa51f-1235-4aa1-8b83-adc92e8dacc3/bc75af4c-8995-f1c7-4dd9-96c258fe802b?origin=2"
+    ],
+    "source_sha256": [
+      "e8a075a2312f6b8bf572dca966c7a938a55eb535474ba9866f24f8c4b28f4d14"
+    ],
+    "locator": "Avisos individuais; datas-com prevalecem sobre coluna Data-Ex inconsistente da tabela RI",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valores brutos; retificacoes substituem, antecipacoes de pagamento nao criam novo direito."
+  },
+  {
+    "event_id": "V13_SAPR4_2022-06-30_JCP_121",
+    "ticker": "SAPR4",
+    "share_class": "PN",
+    "isin": "BRSAPRACNPR6",
+    "record_date": "2022-06-30",
+    "ex_date": "2022-07-01",
+    "kind": "JCP",
+    "amount": 0.105230683,
+    "pay_date_or_deadline": "2023-06-27",
+    "source_ids": [
+      "SAPR_HIST"
+    ],
+    "source_urls": [
+      "https://ri.sanepar.com.br/docs/Sanepar-2025-12-18-cW6NmzgB.pdf"
+    ],
+    "source_sha256": [
+      "1248c0760ce88d4e4c5ea1acc2262d11fad55eee5742481bfe45247d84459bf8"
+    ],
+    "locator": "Pagina 1, coluna PN SAPR4; data do direito",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Data-ex efetiva: primeira sessao B3 apos data do direito. Tabela tem erros tipograficos: 01/07/2023 sabado; 29/04/2021 para dividendo aprovado 28/04/2022. Sem trocar PN por ON."
+  },
+  {
+    "event_id": "V13_VIVT3_2022-06-30_JCP_098",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2022-06-30",
+    "ex_date": "2022-07-01",
+    "kind": "JCP",
+    "amount": 0.28731296499,
+    "pay_date_or_deadline": "2023-04-18",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 65, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_PSSA3_2022-08-30_JCP_005",
+    "ticker": "PSSA3",
+    "share_class": "ON",
+    "isin": "BRPSSAACNOR7",
+    "record_date": "2022-08-30",
+    "ex_date": "2022-08-31",
+    "kind": "JCP",
+    "amount": 0.62330389068,
+    "pay_date_or_deadline": "2023-04-11",
+    "source_ids": [
+      "PSSA_2022-08-24_6",
+      "PSSA_2022-08-25_5",
+      "PSSA_2023-03-31_6"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/4283e85d-e75d-f77c-2344-92e1a5e53405?origin=2",
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/7c50ca38-1ebc-6181-44f4-b4691917af27?origin=2",
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/41d3f69d-2eaf-9718-f70f-a7a11423b31a?origin=2"
+    ],
+    "source_sha256": [
+      "c30dbb282846baadecbc27ad6fd1287c7d6d97bdb05f3cfc5a1d7e7e0d19e89a",
+      "3658cdb7311bfc82afc3f5d5b2a46eba928606f64802ed7bc08aa32dafcc9da2",
+      "53b4910bf4093a2035caf371ea2748750b5d6d6b7e73a13e43a5ba64f078b493"
+    ],
+    "locator": "Avisos/ratificacoes, valores brutos; conferidos por parcela",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valor bruto nominal; data-com B3 confrontada nos avisos. Ratificacoes nao criam novo direito."
+  },
+  {
+    "event_id": "V13_VIVT3_2022-08-31_JCP_097",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2022-08-31",
+    "ex_date": "2022-09-01",
+    "kind": "JCP",
+    "amount": 0.17975006784,
+    "pay_date_or_deadline": "2023-04-18",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 64, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_TIMS3_2022-09-21_JCP_034",
+    "ticker": "TIMS3",
+    "share_class": "ON",
+    "isin": "BRTIMSACNOR5",
+    "record_date": "2022-09-21",
+    "ex_date": "2022-09-22",
+    "kind": "JCP",
+    "amount": 0.101211247,
+    "pay_date_or_deadline": "2023-01-24",
+    "source_ids": [
+      "TIM_2022-09-22_3",
+      "TIM_2022-12-12_0"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/4c4aa51f-1235-4aa1-8b83-adc92e8dacc3/e8292dc6-6925-d665-bf16-5f2fa1b5dd91?origin=2",
+      "https://api.mziq.com/mzfilemanager/v2/d/4c4aa51f-1235-4aa1-8b83-adc92e8dacc3/cb7f9c33-0c95-4504-aef8-f40895087360?origin=2"
+    ],
+    "source_sha256": [
+      "94b2ca9431b035bdd91dd5ce4b543bf89fe47a3888e471f7af0985663864e80a",
+      "eba802048db771179bcf9c02d63c79feb78f33d11d771479e664d978ac8d795d"
+    ],
+    "locator": "Avisos individuais; datas-com prevalecem sobre coluna Data-Ex inconsistente da tabela RI",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valores brutos; retificacoes substituem, antecipacoes de pagamento nao criam novo direito."
+  },
+  {
+    "event_id": "V13_TIMS3_2022-09-21_JCP_056",
+    "ticker": "TIMS3",
+    "share_class": "ON",
+    "isin": "BRTIMSACNOR5",
+    "record_date": "2022-09-21",
+    "ex_date": "2022-09-22",
+    "kind": "JCP",
+    "amount": 0.097080175,
+    "pay_date_or_deadline": "2022-10-31",
+    "source_ids": [
+      "TIM_2022-09-22_3"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/4c4aa51f-1235-4aa1-8b83-adc92e8dacc3/e8292dc6-6925-d665-bf16-5f2fa1b5dd91?origin=2"
+    ],
+    "source_sha256": [
+      "94b2ca9431b035bdd91dd5ce4b543bf89fe47a3888e471f7af0985663864e80a"
+    ],
+    "locator": "Tabela de parcelas",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Duas parcelas de mesmo valor sao direitos distintos; mesma quantidade na data-com para todas as parcelas."
+  },
+  {
+    "event_id": "V13_PSSA3_2022-10-31_JCP_006",
+    "ticker": "PSSA3",
+    "share_class": "ON",
+    "isin": "BRPSSAACNOR7",
+    "record_date": "2022-10-31",
+    "ex_date": "2022-11-01",
+    "kind": "JCP",
+    "amount": 0.08777106007,
+    "pay_date_or_deadline": "2023-11-29",
+    "source_ids": [
+      "PSSA_2022-10-26_3",
+      "PSSA_2023-03-31_6",
+      "PSSA_2023-11-08_1"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/93c93bbe-d850-f472-be6b-d36e031cbee7?origin=2",
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/41d3f69d-2eaf-9718-f70f-a7a11423b31a?origin=2",
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/478c2702-5245-8bef-9e67-f34653abeda5?origin=2"
+    ],
+    "source_sha256": [
+      "8d4caac74b66ebeb299de1ee452cbda7c61eafaf2d50670b4a0bdaa70423b0fe",
+      "53b4910bf4093a2035caf371ea2748750b5d6d6b7e73a13e43a5ba64f078b493",
+      "e836d21c98e23b813636f08d24b0d1ef438d3bdf24f3760974aa0079cb2d5dd1"
+    ],
+    "locator": "Avisos/ratificacoes, valores brutos; conferidos por parcela",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valor bruto nominal; data-com B3 confrontada nos avisos. Ratificacoes nao criam novo direito."
+  },
+  {
+    "event_id": "V13_TIMS3_2022-12-21_JCP_035",
+    "ticker": "TIMS3",
+    "share_class": "ON",
+    "isin": "BRTIMSACNOR5",
+    "record_date": "2022-12-21",
+    "ex_date": "2022-12-22",
+    "kind": "JCP",
+    "amount": 0.187955005,
+    "pay_date_or_deadline": "2023-01-24",
+    "source_ids": [
+      "TIM_2022-12-12_0"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/4c4aa51f-1235-4aa1-8b83-adc92e8dacc3/cb7f9c33-0c95-4504-aef8-f40895087360?origin=2"
+    ],
+    "source_sha256": [
+      "eba802048db771179bcf9c02d63c79feb78f33d11d771479e664d978ac8d795d"
+    ],
+    "locator": "Avisos individuais; datas-com prevalecem sobre coluna Data-Ex inconsistente da tabela RI",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valores brutos; retificacoes substituem, antecipacoes de pagamento nao criam novo direito."
+  },
+  {
+    "event_id": "V13_SAPR4_2022-12-29_JCP_122",
+    "ticker": "SAPR4",
+    "share_class": "PN",
+    "isin": "BRSAPRACNPR6",
+    "record_date": "2022-12-29",
+    "ex_date": "2023-01-02",
+    "kind": "JCP",
+    "amount": 0.189992322,
+    "pay_date_or_deadline": "2023-06-27",
+    "source_ids": [
+      "SAPR_HIST"
+    ],
+    "source_urls": [
+      "https://ri.sanepar.com.br/docs/Sanepar-2025-12-18-cW6NmzgB.pdf"
+    ],
+    "source_sha256": [
+      "1248c0760ce88d4e4c5ea1acc2262d11fad55eee5742481bfe45247d84459bf8"
+    ],
+    "locator": "Pagina 1, coluna PN SAPR4; data do direito",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Data-ex efetiva: primeira sessao B3 apos data do direito. Tabela tem erros tipograficos: 01/07/2023 sabado; 29/04/2021 para dividendo aprovado 28/04/2022. Sem trocar PN por ON."
+  },
+  {
+    "event_id": "V13_VIVT3_2022-12-29_DIV_095",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2022-12-29",
+    "ex_date": "2023-01-02",
+    "kind": "DIV",
+    "amount": 0.60112166983,
+    "pay_date_or_deadline": "2023-07-18",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 62, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_VIVT3_2022-12-29_JCP_096",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2022-12-29",
+    "ex_date": "2023-01-02",
+    "kind": "JCP",
+    "amount": 0.42980199393,
+    "pay_date_or_deadline": "2023-04-18",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 63, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_VIVT3_2023-02-28_JCP_093",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2023-02-28",
+    "ex_date": "2023-03-01",
+    "kind": "JCP",
+    "amount": 0.06377175272,
+    "pay_date_or_deadline": "2023-10-18",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 57, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_VIVT3_2023-03-31_JCP_092",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2023-03-31",
+    "ex_date": "2023-04-03",
+    "kind": "JCP",
+    "amount": 0.17452594815,
+    "pay_date_or_deadline": "2023-10-18",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 56, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_TIMS3_2023-04-10_DIV_036",
+    "ticker": "TIMS3",
+    "share_class": "ON",
+    "isin": "BRTIMSACNOR5",
+    "record_date": "2023-04-10",
+    "ex_date": "2023-04-11",
+    "kind": "DIV",
+    "amount": 0.247852753,
+    "pay_date_or_deadline": "2023-04-18",
+    "source_ids": [
+      "TIM_2023-03-30_9"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/4c4aa51f-1235-4aa1-8b83-adc92e8dacc3/65baccdd-ad03-3938-5dcf-db9a05043e8c?origin=2"
+    ],
+    "source_sha256": [
+      "bd7ed4fa532714fb65a1ccd03ac17064e3a353fa9d65bdbdac5b7a78ace166ed"
+    ],
+    "locator": "Avisos individuais; datas-com prevalecem sobre coluna Data-Ex inconsistente da tabela RI",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valores brutos; retificacoes substituem, antecipacoes de pagamento nao criam novo direito."
+  },
+  {
+    "event_id": "V13_VIVT3_2023-04-13_DIV_094",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2023-04-13",
+    "ex_date": "2023-04-14",
+    "kind": "DIV",
+    "amount": 0.49753818865,
+    "pay_date_or_deadline": "2023-07-18",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 61, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_TIMS3_2023-04-25_JCP_037",
+    "ticker": "TIMS3",
+    "share_class": "ON",
+    "isin": "BRTIMSACNOR5",
+    "record_date": "2023-04-25",
+    "ex_date": "2023-04-26",
+    "kind": "JCP",
+    "amount": 0.095010222,
+    "pay_date_or_deadline": "2023-05-09",
+    "source_ids": [
+      "TIM_2023-04-19_7"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/4c4aa51f-1235-4aa1-8b83-adc92e8dacc3/1bb47dfa-27fa-b744-32bc-1c8d88460d5e?origin=2"
+    ],
+    "source_sha256": [
+      "683a6cf041cff817a771e8991024e96700e4a4f0a0577ec3365cc92393cf9057"
+    ],
+    "locator": "Avisos individuais; datas-com prevalecem sobre coluna Data-Ex inconsistente da tabela RI",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valores brutos; retificacoes substituem, antecipacoes de pagamento nao criam novo direito."
+  },
+  {
+    "event_id": "V13_VIVT3_2023-05-31_JCP_091",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2023-05-31",
+    "ex_date": "2023-06-01",
+    "kind": "JCP",
+    "amount": 0.19278174179,
+    "pay_date_or_deadline": "2024-04-23",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 55, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_TIMS3_2023-06-22_JCP_038",
+    "ticker": "TIMS3",
+    "share_class": "ON",
+    "isin": "BRTIMSACNOR5",
+    "record_date": "2023-06-22",
+    "ex_date": "2023-06-23",
+    "kind": "JCP",
+    "amount": 0.119795497,
+    "pay_date_or_deadline": "2023-07-12",
+    "source_ids": [
+      "TIM_2023-06-12_5",
+      "TIM_2023-07-10_4"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/4c4aa51f-1235-4aa1-8b83-adc92e8dacc3/f9bfbb53-bd62-8696-5738-d8d4278047c5?origin=2",
+      "https://api.mziq.com/mzfilemanager/v2/d/4c4aa51f-1235-4aa1-8b83-adc92e8dacc3/83680557-8387-d00f-24f1-bfd20a1effa5?origin=2"
+    ],
+    "source_sha256": [
+      "895ff961c809611c751b2a84823ad2caf17b72d72a26147551fdcd36cba0dd80",
+      "f8de3dd542bd7d50a5856ce854aa57d22ab3a599cdf88362776b31a04b92411f"
+    ],
+    "locator": "Avisos individuais; datas-com prevalecem sobre coluna Data-Ex inconsistente da tabela RI",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valores brutos; retificacoes substituem, antecipacoes de pagamento nao criam novo direito."
+  },
+  {
+    "event_id": "V13_PSSA3_2023-06-29_JCP_007",
+    "ticker": "PSSA3",
+    "share_class": "ON",
+    "isin": "BRPSSAACNOR7",
+    "record_date": "2023-06-29",
+    "ex_date": "2023-06-30",
+    "kind": "JCP",
+    "amount": 0.58940881104,
+    "pay_date_or_deadline": "2024-04-10",
+    "source_ids": [
+      "PSSA_2023-06-26_3",
+      "PSSA_2024-03-28_10"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/48f3e545-5f5b-0f87-1454-e0d6df50b7a5?origin=2",
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/3ada0e5c-8000-0a0c-803a-056115098836?origin=2"
+    ],
+    "source_sha256": [
+      "aa8f783b995e3e0fabd88f8c3503c8720feed3336fd1ceeb9f0de29605734370",
+      "283979c520832e8ee0a162ffdbc56136b72c270d267d2eb121d4f976fb93bbb9"
+    ],
+    "locator": "Avisos/ratificacoes, valores brutos; conferidos por parcela",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valor bruto nominal; data-com B3 confrontada nos avisos. Ratificacoes nao criam novo direito."
+  },
+  {
+    "event_id": "V13_SAPR4_2023-06-30_JCP_123",
+    "ticker": "SAPR4",
+    "share_class": "PN",
+    "isin": "BRSAPRACNPR6",
+    "record_date": "2023-06-30",
+    "ex_date": "2023-07-03",
+    "kind": "JCP",
+    "amount": 0.183464015,
+    "pay_date_or_deadline": "2024-06-27",
+    "source_ids": [
+      "SAPR_HIST"
+    ],
+    "source_urls": [
+      "https://ri.sanepar.com.br/docs/Sanepar-2025-12-18-cW6NmzgB.pdf"
+    ],
+    "source_sha256": [
+      "1248c0760ce88d4e4c5ea1acc2262d11fad55eee5742481bfe45247d84459bf8"
+    ],
+    "locator": "Pagina 1, coluna PN SAPR4; data do direito",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Data-ex efetiva: primeira sessao B3 apos data do direito. Tabela tem erros tipograficos: 01/07/2023 sabado; 29/04/2021 para dividendo aprovado 28/04/2022. Sem trocar PN por ON."
+  },
+  {
+    "event_id": "V13_VIVT3_2023-07-31_JCP_090",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2023-07-31",
+    "ex_date": "2023-08-01",
+    "kind": "JCP",
+    "amount": 0.24425856212,
+    "pay_date_or_deadline": "2024-04-23",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 54, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_VIVT3_2023-08-31_JCP_089",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2023-08-31",
+    "ex_date": "2023-09-01",
+    "kind": "JCP",
+    "amount": 0.15997040299,
+    "pay_date_or_deadline": "2024-04-23",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 53, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_TIMS3_2023-09-21_JCP_039",
+    "ticker": "TIMS3",
+    "share_class": "ON",
+    "isin": "BRTIMSACNOR5",
+    "record_date": "2023-09-21",
+    "ex_date": "2023-09-22",
+    "kind": "JCP",
+    "amount": 0.175576373,
+    "pay_date_or_deadline": "2023-10-23",
+    "source_ids": [
+      "TIM_2023-09-18_3"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/4c4aa51f-1235-4aa1-8b83-adc92e8dacc3/d33fa338-50a0-bacd-2e30-a8d3cd8573cf?origin=2"
+    ],
+    "source_sha256": [
+      "078a976bd0acc313ae457517bfc68446b9dea6de88d51ff74328a95c5a448bd3"
+    ],
+    "locator": "Avisos individuais; datas-com prevalecem sobre coluna Data-Ex inconsistente da tabela RI",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valores brutos; retificacoes substituem, antecipacoes de pagamento nao criam novo direito."
+  },
+  {
+    "event_id": "V13_VIVT3_2023-09-22_JCP_088",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2023-09-22",
+    "ex_date": "2023-09-25",
+    "kind": "JCP",
+    "amount": 0.12073237961,
+    "pay_date_or_deadline": "2024-04-23",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 52, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_PSSA3_2023-09-28_JCP_008",
+    "ticker": "PSSA3",
+    "share_class": "ON",
+    "isin": "BRPSSAACNOR7",
+    "record_date": "2023-09-28",
+    "ex_date": "2023-09-29",
+    "kind": "JCP",
+    "amount": 0.29169001539,
+    "pay_date_or_deadline": "2024-11-28",
+    "source_ids": [
+      "PSSA_2023-09-25_2",
+      "PSSA_2024-03-28_10"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/278b0bbf-318b-7e48-5e64-4da0386b1ef5?origin=2",
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/3ada0e5c-8000-0a0c-803a-056115098836?origin=2"
+    ],
+    "source_sha256": [
+      "4717f0771765eb6518a603aedd313c27fc6ffcdeee8b3e450dd373a63b5e6178",
+      "283979c520832e8ee0a162ffdbc56136b72c270d267d2eb121d4f976fb93bbb9"
+    ],
+    "locator": "Avisos/ratificacoes, valores brutos; conferidos por parcela",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valor bruto nominal; data-com B3 confrontada nos avisos. Ratificacoes nao criam novo direito."
+  },
+  {
+    "event_id": "V13_VIVT3_2023-10-23_JCP_087",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2023-10-23",
+    "ex_date": "2023-10-24",
+    "kind": "JCP",
+    "amount": 0.09057496634,
+    "pay_date_or_deadline": "2024-04-23",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 51, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_TIMS3_2023-12-21_JCP_040",
+    "ticker": "TIMS3",
+    "share_class": "ON",
+    "isin": "BRTIMSACNOR5",
+    "record_date": "2023-12-21",
+    "ex_date": "2023-12-22",
+    "kind": "JCP",
+    "amount": 0.270594175,
+    "pay_date_or_deadline": "2024-01-23",
+    "source_ids": [
+      "TIM_2023-12-06_0"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/4c4aa51f-1235-4aa1-8b83-adc92e8dacc3/91b24dc2-38fd-230c-4323-946e884a2ae0?origin=2"
+    ],
+    "source_sha256": [
+      "d9995e4e8d1f133e8addb1c955b99b0efa9ae3da34b8f032b219d2a491d0f8a6"
+    ],
+    "locator": "Avisos individuais; datas-com prevalecem sobre coluna Data-Ex inconsistente da tabela RI",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valores brutos; retificacoes substituem, antecipacoes de pagamento nao criam novo direito."
+  },
+  {
+    "event_id": "V13_VIVT3_2023-12-26_JCP_086",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2023-12-26",
+    "ex_date": "2023-12-27",
+    "kind": "JCP",
+    "amount": 0.51434601687,
+    "pay_date_or_deadline": "2024-04-23",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 50, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_PSSA3_2023-12-27_JCP_009",
+    "ticker": "PSSA3",
+    "share_class": "ON",
+    "isin": "BRPSSAACNOR7",
+    "record_date": "2023-12-27",
+    "ex_date": "2023-12-28",
+    "kind": "JCP",
+    "amount": 0.53022069535,
+    "pay_date_or_deadline": "2024-04-10",
+    "source_ids": [
+      "PSSA_2023-12-21_0"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/f7090ee5-156b-83e5-90db-4d562bf4c5da?origin=2"
+    ],
+    "source_sha256": [
+      "8d35bb58c4e56d57c8109ae380fce420c11d6468be8701a14ef137390d76d714"
+    ],
+    "locator": "Avisos/ratificacoes, valores brutos; conferidos por parcela",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valor bruto nominal; data-com B3 confrontada nos avisos. Ratificacoes nao criam novo direito."
+  },
+  {
+    "event_id": "V13_SAPR4_2023-12-28_JCP_124",
+    "ticker": "SAPR4",
+    "share_class": "PN",
+    "isin": "BRSAPRACNPR6",
+    "record_date": "2023-12-28",
+    "ex_date": "2024-01-02",
+    "kind": "JCP",
+    "amount": 0.125236075,
+    "pay_date_or_deadline": "2024-06-27",
+    "source_ids": [
+      "SAPR_HIST"
+    ],
+    "source_urls": [
+      "https://ri.sanepar.com.br/docs/Sanepar-2025-12-18-cW6NmzgB.pdf"
+    ],
+    "source_sha256": [
+      "1248c0760ce88d4e4c5ea1acc2262d11fad55eee5742481bfe45247d84459bf8"
+    ],
+    "locator": "Pagina 1, coluna PN SAPR4; data do direito",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Data-ex efetiva: primeira sessao B3 apos data do direito. Tabela tem erros tipograficos: 01/07/2023 sabado; 29/04/2021 para dividendo aprovado 28/04/2022. Sem trocar PN por ON."
+  },
+  {
+    "event_id": "V13_TIMS3_2024-03-22_JCP_041",
+    "ticker": "TIMS3",
+    "share_class": "ON",
+    "isin": "BRTIMSACNOR5",
+    "record_date": "2024-03-22",
+    "ex_date": "2024-03-25",
+    "kind": "JCP",
+    "amount": 0.082636124,
+    "pay_date_or_deadline": "2024-04-22",
+    "source_ids": [
+      "TIM_2024-03-19_10",
+      "TIM_2024-04-18_7"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/4c4aa51f-1235-4aa1-8b83-adc92e8dacc3/c868d86f-70be-ac1e-09f4-aa649775ffce?origin=2",
+      "https://api.mziq.com/mzfilemanager/v2/d/4c4aa51f-1235-4aa1-8b83-adc92e8dacc3/faf16da3-dab4-e1dd-f656-258905eb9fb1?origin=2"
+    ],
+    "source_sha256": [
+      "bc97bf9f47143dd47e6e870d995f4761e8df881de075d9103dc6ca9e20aa9bdf",
+      "0a751017a7fc71a3da67908dca823de9d5625a017887572dcdc87dbfef22a762"
+    ],
+    "locator": "Avisos individuais; datas-com prevalecem sobre coluna Data-Ex inconsistente da tabela RI",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valores brutos; retificacoes substituem, antecipacoes de pagamento nao criam novo direito."
+  },
+  {
+    "event_id": "V13_PSSA3_2024-03-28_DIV_010",
+    "ticker": "PSSA3",
+    "share_class": "ON",
+    "isin": "BRPSSAACNOR7",
+    "record_date": "2024-03-28",
+    "ex_date": "2024-04-01",
+    "kind": "DIV",
+    "amount": 0.09359840086,
+    "pay_date_or_deadline": "2024-11-28",
+    "source_ids": [
+      "PSSA_2024-04-24_8",
+      "PSSA_2024-04-24_9",
+      "PSSA_2024-11-22_1"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/ba54f038-ceec-de5f-c468-8a33b22d345a?origin=2",
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/b5cca7ab-60ac-611f-1138-e8ff6eeaf480?origin=2",
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/12d0f45e-e5c8-5f7a-dbc5-3e171187dab9?origin=2"
+    ],
+    "source_sha256": [
+      "772822f734a440ca42849338d31a00258f1c89f2d07d8011d16f652899a78dbf",
+      "772822f734a440ca42849338d31a00258f1c89f2d07d8011d16f652899a78dbf",
+      "5d3a761d011311e4c5624e7adedd5137a13309cb9803c80ec783bbf6f3504731"
+    ],
+    "locator": "Avisos/ratificacoes, valores brutos; conferidos por parcela",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valor bruto nominal; data-com B3 confrontada nos avisos. Ratificacoes nao criam novo direito."
+  },
+  {
+    "event_id": "V13_PSSA3_2024-03-28_JCP_011",
+    "ticker": "PSSA3",
+    "share_class": "ON",
+    "isin": "BRPSSAACNOR7",
+    "record_date": "2024-03-28",
+    "ex_date": "2024-04-01",
+    "kind": "JCP",
+    "amount": 0.29935563114,
+    "pay_date_or_deadline": "2025-04-10",
+    "source_ids": [
+      "PSSA_2024-03-25_12",
+      "PSSA_2025-03-28_9",
+      "PSSA_2025-04-01_8"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/595d4d3e-f1bf-31d5-9d2d-53b9f100a5b7?origin=2",
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/a730da5f-6984-07cc-1fac-1fab6adcd8e6?origin=2",
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/c51162ba-772b-3276-e991-5239fc18f0bc?origin=2"
+    ],
+    "source_sha256": [
+      "b27a2e744d84a9f6280fe7ab9fdf3bc163fc27752c9ff1126d6597647c371594",
+      "8a73bcffc144c40fd789060751470cce82fb06c54598f037dca91dfa1b1eb026",
+      "7157e8152cfc55da0200917df3472890310faa5f79850695edc50d903050e076"
+    ],
+    "locator": "Avisos/ratificacoes, valores brutos; conferidos por parcela",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valor bruto nominal; data-com B3 confrontada nos avisos. Ratificacoes nao criam novo direito."
+  },
+  {
+    "event_id": "V13_VIVT3_2024-03-28_JCP_084",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2024-03-28",
+    "ex_date": "2024-04-01",
+    "kind": "JCP",
+    "amount": 0.18153388831,
+    "pay_date_or_deadline": "2024-12-17",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 45, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_TIMS3_2024-04-09_DIV_042",
+    "ticker": "TIMS3",
+    "share_class": "ON",
+    "isin": "BRTIMSACNOR5",
+    "record_date": "2024-04-09",
+    "ex_date": "2024-04-10",
+    "kind": "DIV",
+    "amount": 0.180146751,
+    "pay_date_or_deadline": "2024-10-22",
+    "source_ids": [
+      "TIM_2024-04-16_8",
+      "TIM_2024-04-18_6"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/4c4aa51f-1235-4aa1-8b83-adc92e8dacc3/1c513fe5-4ad4-c0cd-56b1-b8cf5e09401c?origin=2",
+      "https://api.mziq.com/mzfilemanager/v2/d/4c4aa51f-1235-4aa1-8b83-adc92e8dacc3/56b8f088-3226-1f4d-1e20-01d4c3f66c49?origin=2"
+    ],
+    "source_sha256": [
+      "8a58c1d1ac091d23a90c4bca242343274c670dcdbde682b79550638aa2880d16",
+      "4ddbce4e05a93a735a5b5d8213e2b9f839cd20b36328a4e868ac56b64fe4f8ac"
+    ],
+    "locator": "Avisos individuais; datas-com prevalecem sobre coluna Data-Ex inconsistente da tabela RI",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valores brutos; retificacoes substituem, antecipacoes de pagamento nao criam novo direito."
+  },
+  {
+    "event_id": "V13_TIMS3_2024-04-09_DIV_057",
+    "ticker": "TIMS3",
+    "share_class": "ON",
+    "isin": "BRTIMSACNOR5",
+    "record_date": "2024-04-09",
+    "ex_date": "2024-04-10",
+    "kind": "DIV",
+    "amount": 0.180559931,
+    "pay_date_or_deadline": "2024-04-22",
+    "source_ids": [
+      "TIM_2024-04-16_8"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/4c4aa51f-1235-4aa1-8b83-adc92e8dacc3/1c513fe5-4ad4-c0cd-56b1-b8cf5e09401c?origin=2"
+    ],
+    "source_sha256": [
+      "8a58c1d1ac091d23a90c4bca242343274c670dcdbde682b79550638aa2880d16"
+    ],
+    "locator": "Tabela de parcelas",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Duas parcelas de mesmo valor sao direitos distintos; mesma quantidade na data-com para todas as parcelas."
+  },
+  {
+    "event_id": "V13_TIMS3_2024-04-09_DIV_058",
+    "ticker": "TIMS3",
+    "share_class": "ON",
+    "isin": "BRTIMSACNOR5",
+    "record_date": "2024-04-09",
+    "ex_date": "2024-04-10",
+    "kind": "DIV",
+    "amount": 0.180559931,
+    "pay_date_or_deadline": "2024-07-23",
+    "source_ids": [
+      "TIM_2024-04-16_8"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/4c4aa51f-1235-4aa1-8b83-adc92e8dacc3/1c513fe5-4ad4-c0cd-56b1-b8cf5e09401c?origin=2"
+    ],
+    "source_sha256": [
+      "8a58c1d1ac091d23a90c4bca242343274c670dcdbde682b79550638aa2880d16"
+    ],
+    "locator": "Tabela de parcelas",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Duas parcelas de mesmo valor sao direitos distintos; mesma quantidade na data-com para todas as parcelas."
+  },
+  {
+    "event_id": "V13_VIVT3_2024-04-10_CAPITAL_REDUCTION_085",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2024-04-10",
+    "ex_date": "2024-04-11",
+    "kind": "CAPITAL_REDUCTION",
+    "amount": 0.90766944153,
+    "pay_date_or_deadline": "2024-07-10",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 46, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_VIVT3_2024-04-29_JCP_083",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2024-04-29",
+    "ex_date": "2024-04-30",
+    "kind": "JCP",
+    "amount": 0.23009418789,
+    "pay_date_or_deadline": "2024-12-17",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 44, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_TIMS3_2024-06-21_JCP_043",
+    "ticker": "TIMS3",
+    "share_class": "ON",
+    "isin": "BRTIMSACNOR5",
+    "record_date": "2024-06-21",
+    "ex_date": "2024-06-24",
+    "kind": "JCP",
+    "amount": 0.124069241,
+    "pay_date_or_deadline": "2024-07-23",
+    "source_ids": [
+      "TIM_2024-06-14_4"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/4c4aa51f-1235-4aa1-8b83-adc92e8dacc3/a9b987e8-5f5b-af7e-b56d-4353e72d5c13?origin=2"
+    ],
+    "source_sha256": [
+      "78408a263b8703caa4b40bd1d888dcfe3168e1fbabdbc1be2f5e46fddbcec281"
+    ],
+    "locator": "Avisos individuais; datas-com prevalecem sobre coluna Data-Ex inconsistente da tabela RI",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valores brutos; retificacoes substituem, antecipacoes de pagamento nao criam novo direito."
+  },
+  {
+    "event_id": "V13_VIVT3_2024-06-26_JCP_082",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2024-06-26",
+    "ex_date": "2024-06-27",
+    "kind": "JCP",
+    "amount": 0.10622650585,
+    "pay_date_or_deadline": "2024-12-17",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 43, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_PSSA3_2024-06-28_JCP_012",
+    "ticker": "PSSA3",
+    "share_class": "ON",
+    "isin": "BRPSSAACNOR7",
+    "record_date": "2024-06-28",
+    "ex_date": "2024-07-01",
+    "kind": "JCP",
+    "amount": 0.31918046848,
+    "pay_date_or_deadline": "2025-04-10",
+    "source_ids": [
+      "PSSA_2024-07-04_4",
+      "PSSA_2025-03-28_9",
+      "PSSA_2025-04-01_8"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/e777cb3f-2ccb-ec02-431c-98d1c9239971?origin=2",
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/a730da5f-6984-07cc-1fac-1fab6adcd8e6?origin=2",
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/c51162ba-772b-3276-e991-5239fc18f0bc?origin=2"
+    ],
+    "source_sha256": [
+      "77384b7609f1dc70ebc9b5eecd789a13b4d94f758c4a48d66531dc4d2fac6fb3",
+      "8a73bcffc144c40fd789060751470cce82fb06c54598f037dca91dfa1b1eb026",
+      "7157e8152cfc55da0200917df3472890310faa5f79850695edc50d903050e076"
+    ],
+    "locator": "Avisos/ratificacoes, valores brutos; conferidos por parcela",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valor bruto nominal; data-com B3 confrontada nos avisos. Ratificacoes nao criam novo direito."
+  },
+  {
+    "event_id": "V13_SAPR4_2024-06-28_JCP_125",
+    "ticker": "SAPR4",
+    "share_class": "PN",
+    "isin": "BRSAPRACNPR6",
+    "record_date": "2024-06-28",
+    "ex_date": "2024-07-01",
+    "kind": "JCP",
+    "amount": 0.152871556,
+    "pay_date_or_deadline": "2025-06-26",
+    "source_ids": [
+      "SAPR_HIST"
+    ],
+    "source_urls": [
+      "https://ri.sanepar.com.br/docs/Sanepar-2025-12-18-cW6NmzgB.pdf"
+    ],
+    "source_sha256": [
+      "1248c0760ce88d4e4c5ea1acc2262d11fad55eee5742481bfe45247d84459bf8"
+    ],
+    "locator": "Pagina 1, coluna PN SAPR4; data do direito",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Data-ex efetiva: primeira sessao B3 apos data do direito. Tabela tem erros tipograficos: 01/07/2023 sabado; 29/04/2021 para dividendo aprovado 28/04/2022. Sem trocar PN por ON."
+  },
+  {
+    "event_id": "V13_VIVT3_2024-07-26_JCP_081",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2024-07-26",
+    "ex_date": "2024-07-29",
+    "kind": "JCP",
+    "amount": 0.39562415244,
+    "pay_date_or_deadline": "2025-04-08",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 42, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_VIVT3_2024-08-26_JCP_080",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2024-08-26",
+    "ex_date": "2024-08-27",
+    "kind": "JCP",
+    "amount": 0.24416460273,
+    "pay_date_or_deadline": "2025-04-08",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 41, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_TIMS3_2024-09-23_JCP_044",
+    "ticker": "TIMS3",
+    "share_class": "ON",
+    "isin": "BRTIMSACNOR5",
+    "record_date": "2024-09-23",
+    "ex_date": "2024-09-24",
+    "kind": "JCP",
+    "amount": 0.12394591,
+    "pay_date_or_deadline": "2024-10-23",
+    "source_ids": [
+      "TIM_2024-09-17_2"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/4c4aa51f-1235-4aa1-8b83-adc92e8dacc3/fe09b9a3-18a3-e37d-1df3-896ec7b734c4?origin=2"
+    ],
+    "source_sha256": [
+      "b2c1affb4c3b5a68b6fb88edf1453e3f8803c282b3067397be9cc7ba91089695"
+    ],
+    "locator": "Avisos individuais; datas-com prevalecem sobre coluna Data-Ex inconsistente da tabela RI",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valores brutos; retificacoes substituem, antecipacoes de pagamento nao criam novo direito."
+  },
+  {
+    "event_id": "V13_PSSA3_2024-09-27_JCP_013",
+    "ticker": "PSSA3",
+    "share_class": "ON",
+    "isin": "BRPSSAACNOR7",
+    "record_date": "2024-09-27",
+    "ex_date": "2024-09-30",
+    "kind": "JCP",
+    "amount": 0.4098231569,
+    "pay_date_or_deadline": "2025-04-10",
+    "source_ids": [
+      "PSSA_2024-09-24_3",
+      "PSSA_2025-03-28_9",
+      "PSSA_2025-04-01_8"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/570ca052-e3e2-0149-87a1-af4b28a97d7e?origin=2",
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/a730da5f-6984-07cc-1fac-1fab6adcd8e6?origin=2",
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/c51162ba-772b-3276-e991-5239fc18f0bc?origin=2"
+    ],
+    "source_sha256": [
+      "2b9dbb874e487a356d3cacb8a9be53ade79acf4f152c6ca12b912d09261d2250",
+      "8a73bcffc144c40fd789060751470cce82fb06c54598f037dca91dfa1b1eb026",
+      "7157e8152cfc55da0200917df3472890310faa5f79850695edc50d903050e076"
+    ],
+    "locator": "Avisos/ratificacoes, valores brutos; conferidos por parcela",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valor bruto nominal; data-com B3 confrontada nos avisos. Ratificacoes nao criam novo direito."
+  },
+  {
+    "event_id": "V13_TIMS3_2024-12-23_JCP_045",
+    "ticker": "TIMS3",
+    "share_class": "ON",
+    "isin": "BRTIMSACNOR5",
+    "record_date": "2024-12-23",
+    "ex_date": "2024-12-26",
+    "kind": "JCP",
+    "amount": 0.268528123,
+    "pay_date_or_deadline": "2025-01-23",
+    "source_ids": [
+      "TIM_2024-12-17_0"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/4c4aa51f-1235-4aa1-8b83-adc92e8dacc3/460d56a0-3839-eea2-ca39-3b7a421cc079?origin=2"
+    ],
+    "source_sha256": [
+      "d53a7d7ee592631d315665634a4d1048bd7e92eefda00f77be556af5903fe662"
+    ],
+    "locator": "Avisos individuais; datas-com prevalecem sobre coluna Data-Ex inconsistente da tabela RI",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valores brutos; retificacoes substituem, antecipacoes de pagamento nao criam novo direito."
+  },
+  {
+    "event_id": "V13_VIVT3_2024-12-26_JCP_079",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2024-12-26",
+    "ex_date": "2024-12-27",
+    "kind": "JCP",
+    "amount": 0.73769769041,
+    "pay_date_or_deadline": "2025-04-08",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 40, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_PSSA3_2024-12-30_JCP_014",
+    "ticker": "PSSA3",
+    "share_class": "ON",
+    "isin": "BRPSSAACNOR7",
+    "record_date": "2024-12-30",
+    "ex_date": "2025-01-02",
+    "kind": "JCP",
+    "amount": 0.42105133122,
+    "pay_date_or_deadline": "2025-11-28",
+    "source_ids": [
+      "PSSA_2025-01-06_13",
+      "PSSA_2025-03-28_9",
+      "PSSA_2025-04-01_8",
+      "PSSA_2025-11-19_2"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/40e2196e-eb57-3662-b172-55aa2cb52627?origin=2",
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/a730da5f-6984-07cc-1fac-1fab6adcd8e6?origin=2",
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/c51162ba-772b-3276-e991-5239fc18f0bc?origin=2",
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/da5a8cba-c0a0-3baf-39e4-4db496dbb574?origin=2"
+    ],
+    "source_sha256": [
+      "8d8d8304ae07173bc5cdab42aed30bae70acf0fd4f1b9fa52a9fda590fabd16a",
+      "8a73bcffc144c40fd789060751470cce82fb06c54598f037dca91dfa1b1eb026",
+      "7157e8152cfc55da0200917df3472890310faa5f79850695edc50d903050e076",
+      "fdb67b1a659c90a433f45e4bc2f3afb6666e4af169ddf8db67b8cfb103949b4b"
+    ],
+    "locator": "Avisos/ratificacoes, valores brutos; conferidos por parcela",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valor bruto nominal; data-com B3 confrontada nos avisos. Ratificacoes nao criam novo direito."
+  },
+  {
+    "event_id": "V13_SAPR4_2024-12-30_JCP_126",
+    "ticker": "SAPR4",
+    "share_class": "PN",
+    "isin": "BRSAPRACNPR6",
+    "record_date": "2024-12-30",
+    "ex_date": "2025-01-02",
+    "kind": "JCP",
+    "amount": 0.162991019,
+    "pay_date_or_deadline": "2025-06-26",
+    "source_ids": [
+      "SAPR_HIST"
+    ],
+    "source_urls": [
+      "https://ri.sanepar.com.br/docs/Sanepar-2025-12-18-cW6NmzgB.pdf"
+    ],
+    "source_sha256": [
+      "1248c0760ce88d4e4c5ea1acc2262d11fad55eee5742481bfe45247d84459bf8"
+    ],
+    "locator": "Pagina 1, coluna PN SAPR4; data do direito",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Data-ex efetiva: primeira sessao B3 apos data do direito. Tabela tem erros tipograficos: 01/07/2023 sabado; 29/04/2021 para dividendo aprovado 28/04/2022. Sem trocar PN por ON."
+  },
+  {
+    "event_id": "V13_TIMS3_2025-02-17_JCP_046",
+    "ticker": "TIMS3",
+    "share_class": "ON",
+    "isin": "BRTIMSACNOR5",
+    "record_date": "2025-02-17",
+    "ex_date": "2025-02-18",
+    "kind": "JCP",
+    "amount": 0.082624038,
+    "pay_date_or_deadline": "2025-04-22",
+    "source_ids": [
+      "TIM_2025-02-10_22"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/4c4aa51f-1235-4aa1-8b83-adc92e8dacc3/c3e2e836-6075-b3ce-b317-55fd6a9c84d5?origin=2"
+    ],
+    "source_sha256": [
+      "4e348a1675e1f3d219c8f5ae9a67544e0422888d7de45eb1e9733badc0f2fa19"
+    ],
+    "locator": "Avisos individuais; datas-com prevalecem sobre coluna Data-Ex inconsistente da tabela RI",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valores brutos; retificacoes substituem, antecipacoes de pagamento nao criam novo direito."
+  },
+  {
+    "event_id": "V13_VIVT3_2025-02-24_JCP_077",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2025-02-24",
+    "ex_date": "2025-02-25",
+    "kind": "JCP",
+    "amount": 0.1109323796,
+    "pay_date_or_deadline": "2025-12-02",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 35, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_VIVT3_2025-02-27_CAPITAL_REDUCTION_078",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2025-02-27",
+    "ex_date": "2025-02-28",
+    "kind": "CAPITAL_REDUCTION",
+    "amount": 1.23337023478,
+    "pay_date_or_deadline": "2025-07-15",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 36, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_VIVT3_2025-03-24_JCP_076",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2025-03-24",
+    "ex_date": "2025-03-25",
+    "kind": "JCP",
+    "amount": 0.12345360441,
+    "pay_date_or_deadline": "2025-12-02",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 34, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_PSSA3_2025-03-28_DIV_015",
+    "ticker": "PSSA3",
+    "share_class": "ON",
+    "isin": "BRPSSAACNOR7",
+    "record_date": "2025-03-28",
+    "ex_date": "2025-03-31",
+    "kind": "DIV",
+    "amount": 0.4788939515,
+    "pay_date_or_deadline": "2025-11-28",
+    "source_ids": [
+      "PSSA_2025-03-28_9",
+      "PSSA_2025-04-01_8",
+      "PSSA_2025-11-19_2"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/a730da5f-6984-07cc-1fac-1fab6adcd8e6?origin=2",
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/c51162ba-772b-3276-e991-5239fc18f0bc?origin=2",
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/da5a8cba-c0a0-3baf-39e4-4db496dbb574?origin=2"
+    ],
+    "source_sha256": [
+      "8a73bcffc144c40fd789060751470cce82fb06c54598f037dca91dfa1b1eb026",
+      "7157e8152cfc55da0200917df3472890310faa5f79850695edc50d903050e076",
+      "fdb67b1a659c90a433f45e4bc2f3afb6666e4af169ddf8db67b8cfb103949b4b"
+    ],
+    "locator": "Avisos/ratificacoes, valores brutos; conferidos por parcela",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valor bruto nominal; data-com B3 confrontada nos avisos. Ratificacoes nao criam novo direito."
+  },
+  {
+    "event_id": "V13_PSSA3_2025-03-28_DIV_026",
+    "ticker": "PSSA3",
+    "share_class": "ON",
+    "isin": "BRPSSAACNOR7",
+    "record_date": "2025-03-28",
+    "ex_date": "2025-03-31",
+    "kind": "DIV",
+    "amount": 0.12691131299,
+    "pay_date_or_deadline": "2025-04-10",
+    "source_ids": [
+      "PSSA_2025-04-01_8"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/c51162ba-772b-3276-e991-5239fc18f0bc?origin=2"
+    ],
+    "source_sha256": [
+      "7157e8152cfc55da0200917df3472890310faa5f79850695edc50d903050e076"
+    ],
+    "locator": "Parcelas distintas do dividendo residual ja presente na B3",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Parcela adicional documental; nao somar o total agregado novamente."
+  },
+  {
+    "event_id": "V13_PSSA3_2025-03-28_JCP_016",
+    "ticker": "PSSA3",
+    "share_class": "ON",
+    "isin": "BRPSSAACNOR7",
+    "record_date": "2025-03-28",
+    "ex_date": "2025-03-31",
+    "kind": "JCP",
+    "amount": 0.4327368133,
+    "pay_date_or_deadline": "2026-04-10",
+    "source_ids": [
+      "PSSA_2025-03-26_10",
+      "PSSA_2026-03-31_10"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/2e6836fc-964e-5c54-74c0-a476d1b256eb?origin=2",
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/5fc07a56-476a-56fa-1f90-8b87c4a74dfe?origin=2"
+    ],
+    "source_sha256": [
+      "f19de1ba1068cebca19aab713b23afc82529e8be86b72c20b3d98ac9fe03355b",
+      "59b2f194493adfdb0b2dea4e0b5efbbbff3e32cc2e8dfb451bb6677d4d18f28d"
+    ],
+    "locator": "Avisos/ratificacoes, valores brutos; conferidos por parcela",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valor bruto nominal; data-com B3 confrontada nos avisos. Ratificacoes nao criam novo direito."
+  },
+  {
+    "event_id": "V13_TIMS3_2025-03-31_JCP_047",
+    "ticker": "TIMS3",
+    "share_class": "ON",
+    "isin": "BRTIMSACNOR5",
+    "record_date": "2025-03-31",
+    "ex_date": "2025-04-01",
+    "kind": "JCP",
+    "amount": 0.202495716,
+    "pay_date_or_deadline": "2026-04-22",
+    "source_ids": [
+      "TIM_2025-03-24_16",
+      "TIM_2026-04-16_5"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/4c4aa51f-1235-4aa1-8b83-adc92e8dacc3/63e953d4-a03b-a28c-2791-3e2e5f65522e?origin=2",
+      "https://api.mziq.com/mzfilemanager/v2/d/4c4aa51f-1235-4aa1-8b83-adc92e8dacc3/81ea23ff-0f2a-9337-a19e-18732415238d?origin=2"
+    ],
+    "source_sha256": [
+      "6904eea1f8f265a94708d8a1aa6b4886af714388510f3f42e17227fc5d6d49e7",
+      "e459535837e05f35f7f8a8659f561a9f28e8cc664eb635a67c1cb5971e953441"
+    ],
+    "locator": "Avisos individuais; datas-com prevalecem sobre coluna Data-Ex inconsistente da tabela RI",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valores brutos; retificacoes substituem, antecipacoes de pagamento nao criam novo direito."
+  },
+  {
+    "event_id": "V13_TIMS3_2025-04-03_DIV_048",
+    "ticker": "TIMS3",
+    "share_class": "ON",
+    "isin": "BRTIMSACNOR5",
+    "record_date": "2025-04-03",
+    "ex_date": "2025-04-04",
+    "kind": "DIV",
+    "amount": 0.282667489,
+    "pay_date_or_deadline": "2025-10-21",
+    "source_ids": [
+      "TIM_2025-03-27_15",
+      "TIM_2025-10-15_3"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/4c4aa51f-1235-4aa1-8b83-adc92e8dacc3/762980b9-e792-0a74-6f3f-67a09abe2c68?origin=2",
+      "https://api.mziq.com/mzfilemanager/v2/d/4c4aa51f-1235-4aa1-8b83-adc92e8dacc3/874a85d8-21a6-3d74-940e-4a72a17a74d8?origin=2"
+    ],
+    "source_sha256": [
+      "e93c254b0c1e0e38e27f8fb1c8f801dcd99d341be49f339aca4ffa7f2c2c1d4b",
+      "75c54f494858c500913bbabecd9bf13f9c82c12815a2e8d4b78c3d3f234b8f7d"
+    ],
+    "locator": "Avisos individuais; datas-com prevalecem sobre coluna Data-Ex inconsistente da tabela RI",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valores brutos; retificacoes substituem, antecipacoes de pagamento nao criam novo direito."
+  },
+  {
+    "event_id": "V13_TIMS3_2025-04-03_DIV_059",
+    "ticker": "TIMS3",
+    "share_class": "ON",
+    "isin": "BRTIMSACNOR5",
+    "record_date": "2025-04-03",
+    "ex_date": "2025-04-04",
+    "kind": "DIV",
+    "amount": 0.282254233,
+    "pay_date_or_deadline": "2025-04-22",
+    "source_ids": [
+      "TIM_2025-03-27_15"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/4c4aa51f-1235-4aa1-8b83-adc92e8dacc3/762980b9-e792-0a74-6f3f-67a09abe2c68?origin=2"
+    ],
+    "source_sha256": [
+      "e93c254b0c1e0e38e27f8fb1c8f801dcd99d341be49f339aca4ffa7f2c2c1d4b"
+    ],
+    "locator": "Tabela de parcelas",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Duas parcelas de mesmo valor sao direitos distintos; mesma quantidade na data-com para todas as parcelas."
+  },
+  {
+    "event_id": "V13_TIMS3_2025-04-03_DIV_060",
+    "ticker": "TIMS3",
+    "share_class": "ON",
+    "isin": "BRTIMSACNOR5",
+    "record_date": "2025-04-03",
+    "ex_date": "2025-04-04",
+    "kind": "DIV",
+    "amount": 0.282254233,
+    "pay_date_or_deadline": "2025-07-23",
+    "source_ids": [
+      "TIM_2025-03-27_15"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/4c4aa51f-1235-4aa1-8b83-adc92e8dacc3/762980b9-e792-0a74-6f3f-67a09abe2c68?origin=2"
+    ],
+    "source_sha256": [
+      "e93c254b0c1e0e38e27f8fb1c8f801dcd99d341be49f339aca4ffa7f2c2c1d4b"
+    ],
+    "locator": "Tabela de parcelas",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Duas parcelas de mesmo valor sao direitos distintos; mesma quantidade na data-com para todas as parcelas."
+  },
+  {
+    "event_id": "V13_VIVT3_2025-04-11_JCP_075",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2025-04-11",
+    "ex_date": "2025-04-14",
+    "kind": "JCP",
+    "amount": 0.14814432785,
+    "pay_date_or_deadline": "2026-04-14",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 33, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_TIMS3_2025-05-21_JCP_049",
+    "ticker": "TIMS3",
+    "share_class": "ON",
+    "isin": "BRTIMSACNOR5",
+    "record_date": "2025-05-21",
+    "ex_date": "2025-05-22",
+    "kind": "JCP",
+    "amount": 0.124084855,
+    "pay_date_or_deadline": "2025-07-23",
+    "source_ids": [
+      "TIM_2025-05-05_13"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/4c4aa51f-1235-4aa1-8b83-adc92e8dacc3/0013d0b5-ccfb-f36d-38e0-d593d79e4c33?origin=2"
+    ],
+    "source_sha256": [
+      "5525500be594caac6556aec95414fd324798803df8da8c518c9076d2f2861136"
+    ],
+    "locator": "Avisos individuais; datas-com prevalecem sobre coluna Data-Ex inconsistente da tabela RI",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valores brutos; retificacoes substituem, antecipacoes de pagamento nao criam novo direito."
+  },
+  {
+    "event_id": "V13_VIVT3_2025-05-22_JCP_074",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2025-05-22",
+    "ex_date": "2025-05-23",
+    "kind": "JCP",
+    "amount": 0.15431700818,
+    "pay_date_or_deadline": "2026-04-14",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 32, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_VIVT3_2025-06-23_JCP_073",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2025-06-23",
+    "ex_date": "2025-06-24",
+    "kind": "JCP",
+    "amount": 0.06193311167,
+    "pay_date_or_deadline": "2026-04-14",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 31, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_PSSA3_2025-06-26_JCP_017",
+    "ticker": "PSSA3",
+    "share_class": "ON",
+    "isin": "BRPSSAACNOR7",
+    "record_date": "2025-06-26",
+    "ex_date": "2025-06-27",
+    "kind": "JCP",
+    "amount": 0.4832081062,
+    "pay_date_or_deadline": "2026-04-10",
+    "source_ids": [
+      "PSSA_2025-06-23_7",
+      "PSSA_2026-03-31_10"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/2db74f29-0975-b7c2-5402-9b64be1a06ee?origin=2",
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/5fc07a56-476a-56fa-1f90-8b87c4a74dfe?origin=2"
+    ],
+    "source_sha256": [
+      "f92a65c14ca97f23b7d4650bb84da6771044591b47ac728a4c20d1a26e179ee3",
+      "59b2f194493adfdb0b2dea4e0b5efbbbff3e32cc2e8dfb451bb6677d4d18f28d"
+    ],
+    "locator": "Avisos/ratificacoes, valores brutos; conferidos por parcela",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valor bruto nominal; data-com B3 confrontada nos avisos. Ratificacoes nao criam novo direito."
+  },
+  {
+    "event_id": "V13_SAPR4_2025-06-30_JCP_127",
+    "ticker": "SAPR4",
+    "share_class": "PN",
+    "isin": "BRSAPRACNPR6",
+    "record_date": "2025-06-30",
+    "ex_date": "2025-07-01",
+    "kind": "JCP",
+    "amount": 0.286861032,
+    "pay_date_or_deadline": "2026-06-26",
+    "source_ids": [
+      "SAPR_HIST"
+    ],
+    "source_urls": [
+      "https://ri.sanepar.com.br/docs/Sanepar-2025-12-18-cW6NmzgB.pdf"
+    ],
+    "source_sha256": [
+      "1248c0760ce88d4e4c5ea1acc2262d11fad55eee5742481bfe45247d84459bf8"
+    ],
+    "locator": "Pagina 1, coluna PN SAPR4; data do direito",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Data-ex efetiva: primeira sessao B3 apos data do direito. Tabela tem erros tipograficos: 01/07/2023 sabado; 29/04/2021 para dividendo aprovado 28/04/2022. Sem trocar PN por ON."
+  },
+  {
+    "event_id": "V13_TIMS3_2025-07-25_JCP_050",
+    "ticker": "TIMS3",
+    "share_class": "ON",
+    "isin": "BRTIMSACNOR5",
+    "record_date": "2025-07-25",
+    "ex_date": "2025-07-28",
+    "kind": "JCP",
+    "amount": 0.1323151001,
+    "pay_date_or_deadline": "2025-10-21",
+    "source_ids": [
+      "TIM_2025-07-22_8"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/4c4aa51f-1235-4aa1-8b83-adc92e8dacc3/b70c1dd1-8c25-def3-dcf4-a93d901b4918?origin=2"
+    ],
+    "source_sha256": [
+      "028e733a27f48e0b92fd60e2942e82a5256c71246f351687495ca86ca8b02c03"
+    ],
+    "locator": "Avisos individuais; datas-com prevalecem sobre coluna Data-Ex inconsistente da tabela RI",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valores brutos; retificacoes substituem, antecipacoes de pagamento nao criam novo direito."
+  },
+  {
+    "event_id": "V13_VIVT3_2025-07-25_JCP_072",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2025-07-25",
+    "ex_date": "2025-07-28",
+    "kind": "JCP",
+    "amount": 0.10253443523,
+    "pay_date_or_deadline": "2026-04-14",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 30, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_VIVT3_2025-08-25_JCP_071",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2025-08-25",
+    "ex_date": "2025-08-26",
+    "kind": "JCP",
+    "amount": 0.07793317353,
+    "pay_date_or_deadline": "2026-04-14",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 29, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_VIVT3_2025-09-22_JCP_070",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2025-09-22",
+    "ex_date": "2025-09-23",
+    "kind": "JCP",
+    "amount": 0.12480636869,
+    "pay_date_or_deadline": "2026-04-14",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 28, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_PSSA3_2025-09-25_JCP_018",
+    "ticker": "PSSA3",
+    "share_class": "ON",
+    "isin": "BRPSSAACNOR7",
+    "record_date": "2025-09-25",
+    "ex_date": "2025-09-26",
+    "kind": "JCP",
+    "amount": 0.53380435871,
+    "pay_date_or_deadline": "2026-04-10",
+    "source_ids": [
+      "PSSA_2025-09-22_5",
+      "PSSA_2026-03-31_10"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/d5711793-58d6-82f4-b474-008bee510428?origin=2",
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/5fc07a56-476a-56fa-1f90-8b87c4a74dfe?origin=2"
+    ],
+    "source_sha256": [
+      "36017688ee1c9193c5eaca7c328b6c1cf13d5dfaead59d5cd75bdbdb25b01c76",
+      "59b2f194493adfdb0b2dea4e0b5efbbbff3e32cc2e8dfb451bb6677d4d18f28d"
+    ],
+    "locator": "Avisos/ratificacoes, valores brutos; conferidos por parcela",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valor bruto nominal; data-com B3 confrontada nos avisos. Ratificacoes nao criam novo direito."
+  },
+  {
+    "event_id": "V13_TIMS3_2025-09-26_JCP_051",
+    "ticker": "TIMS3",
+    "share_class": "ON",
+    "isin": "BRTIMSACNOR5",
+    "record_date": "2025-09-26",
+    "ex_date": "2025-09-29",
+    "kind": "JCP",
+    "amount": 0.1995452456,
+    "pay_date_or_deadline": "2026-01-21",
+    "source_ids": [
+      "TIM_2025-10-03_4"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/4c4aa51f-1235-4aa1-8b83-adc92e8dacc3/4d85e48c-99f9-7d97-8169-1e3a158f4c34?origin=2"
+    ],
+    "source_sha256": [
+      "a3aaa36cf3ca3b972fe8806a947abe702c8eb9e3479142f69e5d14e06d63eae2"
+    ],
+    "locator": "Avisos individuais; datas-com prevalecem sobre coluna Data-Ex inconsistente da tabela RI",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valores brutos; retificacoes substituem, antecipacoes de pagamento nao criam novo direito."
+  },
+  {
+    "event_id": "V13_VIVT3_2025-10-27_JCP_069",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2025-10-27",
+    "ex_date": "2025-10-28",
+    "kind": "JCP",
+    "amount": 0.11856605026,
+    "pay_date_or_deadline": "2026-04-14",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 27, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_VIVT3_2025-11-24_JCP_068",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2025-11-24",
+    "ex_date": "2025-11-25",
+    "kind": "JCP",
+    "amount": 0.1063014382,
+    "pay_date_or_deadline": "2026-04-14",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 26, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_TIMS3_2025-12-19_DIV_052",
+    "ticker": "TIMS3",
+    "share_class": "ON",
+    "isin": "BRTIMSACNOR5",
+    "record_date": "2025-12-19",
+    "ex_date": "2025-12-22",
+    "kind": "DIV",
+    "amount": 0.7491354635,
+    "pay_date_or_deadline": "2025-12-30",
+    "source_ids": [
+      "TIM_2025-12-26_0"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/4c4aa51f-1235-4aa1-8b83-adc92e8dacc3/a90ba21d-abd1-b1d8-b86f-3aaf8864a22e?origin=2"
+    ],
+    "source_sha256": [
+      "c9ac1abedb223c2af06c2be376cae0dad3ddf002d95155e3ae9e2b7f180b18a0"
+    ],
+    "locator": "Avisos individuais; datas-com prevalecem sobre coluna Data-Ex inconsistente da tabela RI",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valores brutos; retificacoes substituem, antecipacoes de pagamento nao criam novo direito."
+  },
+  {
+    "event_id": "V13_TIMS3_2025-12-22_JCP_053",
+    "ticker": "TIMS3",
+    "share_class": "ON",
+    "isin": "BRTIMSACNOR5",
+    "record_date": "2025-12-22",
+    "ex_date": "2025-12-23",
+    "kind": "JCP",
+    "amount": 0.1757968072,
+    "pay_date_or_deadline": "2026-06-30",
+    "source_ids": [
+      "TIM_2026-01-02_12"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/4c4aa51f-1235-4aa1-8b83-adc92e8dacc3/5053180d-b455-fbe7-7774-9c55ddd309c9?origin=2"
+    ],
+    "source_sha256": [
+      "33d462486c15285d339f1e8cd73797ab4b0e727295aa791c184ad5f4dab71f42"
+    ],
+    "locator": "Avisos individuais; datas-com prevalecem sobre coluna Data-Ex inconsistente da tabela RI",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valores brutos; retificacoes substituem, antecipacoes de pagamento nao criam novo direito."
+  },
+  {
+    "event_id": "V13_PSSA3_2025-12-26_JCP_019",
+    "ticker": "PSSA3",
+    "share_class": "ON",
+    "isin": "BRPSSAACNOR7",
+    "record_date": "2025-12-26",
+    "ex_date": "2025-12-29",
+    "kind": "JCP",
+    "amount": 0.53760384028,
+    "pay_date_or_deadline": "2026-04-10",
+    "source_ids": [
+      "PSSA_2025-12-26_0",
+      "PSSA_2026-03-31_10"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/327fe168-5b79-7e0a-4b23-ad197ef5a182?origin=2",
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/5fc07a56-476a-56fa-1f90-8b87c4a74dfe?origin=2"
+    ],
+    "source_sha256": [
+      "670748026d1cce2c6cda2859980551c7716e904ef663757be99d97ea5e6e60a3",
+      "59b2f194493adfdb0b2dea4e0b5efbbbff3e32cc2e8dfb451bb6677d4d18f28d"
+    ],
+    "locator": "Avisos/ratificacoes, valores brutos; conferidos por parcela",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valor bruto nominal; data-com B3 confrontada nos avisos. Ratificacoes nao criam novo direito."
+  },
+  {
+    "event_id": "V13_VIVT3_2025-12-29_JCP_067",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2025-12-29",
+    "ex_date": "2025-12-30",
+    "kind": "JCP",
+    "amount": 0.10952537999,
+    "pay_date_or_deadline": "2026-04-14",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 25, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_SAPR4_2025-12-30_JCP_128",
+    "ticker": "SAPR4",
+    "share_class": "PN",
+    "isin": "BRSAPRACNPR6",
+    "record_date": "2025-12-30",
+    "ex_date": "2026-01-02",
+    "kind": "JCP",
+    "amount": 0.112528535,
+    "pay_date_or_deadline": "2026-06-26",
+    "source_ids": [
+      "SAPR_HIST"
+    ],
+    "source_urls": [
+      "https://ri.sanepar.com.br/docs/Sanepar-2025-12-18-cW6NmzgB.pdf"
+    ],
+    "source_sha256": [
+      "1248c0760ce88d4e4c5ea1acc2262d11fad55eee5742481bfe45247d84459bf8"
+    ],
+    "locator": "Pagina 1, coluna PN SAPR4; data do direito",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Data-ex efetiva: primeira sessao B3 apos data do direito. Tabela tem erros tipograficos: 01/07/2023 sabado; 29/04/2021 para dividendo aprovado 28/04/2022. Sem trocar PN por ON."
+  },
+  {
+    "event_id": "V13_VIVT3_2026-02-23_JCP_065",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2026-02-23",
+    "ex_date": "2026-02-24",
+    "kind": "JCP",
+    "amount": 0.10170213856,
+    "pay_date_or_deadline": "Até 30/04/2027",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 20, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_TIMS3_2026-03-23_JCP_054",
+    "ticker": "TIMS3",
+    "share_class": "ON",
+    "isin": "BRTIMSACNOR5",
+    "record_date": "2026-03-23",
+    "ex_date": "2026-03-24",
+    "kind": "JCP",
+    "amount": 0.1632708888,
+    "pay_date_or_deadline": "2026-04-22",
+    "source_ids": [
+      "TIM_2026-03-18_6",
+      "TIM_2026-04-16_5"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/4c4aa51f-1235-4aa1-8b83-adc92e8dacc3/892687da-d4ef-6268-740a-f790682cbf9d?origin=2",
+      "https://api.mziq.com/mzfilemanager/v2/d/4c4aa51f-1235-4aa1-8b83-adc92e8dacc3/81ea23ff-0f2a-9337-a19e-18732415238d?origin=2"
+    ],
+    "source_sha256": [
+      "6b2f5794d73c60e4adf3f0496734e55d7c9f1cd22c119440ceb7ba869aa0d55b",
+      "e459535837e05f35f7f8a8659f561a9f28e8cc664eb635a67c1cb5971e953441"
+    ],
+    "locator": "Avisos individuais; datas-com prevalecem sobre coluna Data-Ex inconsistente da tabela RI",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valores brutos; retificacoes substituem, antecipacoes de pagamento nao criam novo direito."
+  },
+  {
+    "event_id": "V13_VIVT3_2026-03-25_JCP_064",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2026-03-25",
+    "ex_date": "2026-03-26",
+    "kind": "JCP",
+    "amount": 0.06258593142,
+    "pay_date_or_deadline": "Até 30/04/2027",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 19, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_PSSA3_2026-03-30_JCP_020",
+    "ticker": "PSSA3",
+    "share_class": "ON",
+    "isin": "BRPSSAACNOR7",
+    "record_date": "2026-03-30",
+    "ex_date": "2026-03-31",
+    "kind": "JCP",
+    "amount": 0.54231784082,
+    "pay_date_or_deadline": "A_DEFINIR_CONFORME_AVISO",
+    "source_ids": [
+      "PSSA_2026-03-25_12",
+      "PSSA_2026-03-30_11"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/e08580a4-e955-9ee1-6c71-cf3552965f03?origin=2",
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/c7efe69b-d37e-c02f-fff7-a51df3341ac0?origin=2"
+    ],
+    "source_sha256": [
+      "c3ce76034a60c743d1ea5158e85b52ba5c4fb34d02bcd8813f37e30ca301e90a",
+      "4c1de6b0e00c6cdcf591832a647ec6cfa6ac59c8aedc03b80d68b1a68253f632"
+    ],
+    "locator": "Avisos/ratificacoes, valores brutos; conferidos por parcela",
+    "status": "PROVISORIO_B3_RETIFICACAO_IMAGEM",
+    "note": "B3 0.54231784082; proposta 0.54228396511; PDF retificador sem texto extraivel. Diferenca preservada em sensibilidade, sem nova pesquisa de centavos."
+  },
+  {
+    "event_id": "V13_PSSA3_2026-03-31_DIV_021",
+    "ticker": "PSSA3",
+    "share_class": "ON",
+    "isin": "BRPSSAACNOR7",
+    "record_date": "2026-03-31",
+    "ex_date": "2026-04-01",
+    "kind": "DIV",
+    "amount": 0.88610135766,
+    "pay_date_or_deadline": "ATE_2026-11-30",
+    "source_ids": [
+      "PSSA_2026-03-31_10"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/5fc07a56-476a-56fa-1f90-8b87c4a74dfe?origin=2"
+    ],
+    "source_sha256": [
+      "59b2f194493adfdb0b2dea4e0b5efbbbff3e32cc2e8dfb451bb6677d4d18f28d"
+    ],
+    "locator": "Avisos/ratificacoes, valores brutos; conferidos por parcela",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valor bruto nominal; data-com B3 confrontada nos avisos. Ratificacoes nao criam novo direito."
+  },
+  {
+    "event_id": "V13_VIVT3_2026-04-27_JCP_063",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2026-04-27",
+    "ex_date": "2026-04-28",
+    "kind": "JCP",
+    "amount": 0.11421932485,
+    "pay_date_or_deadline": "Até 30/04/2027",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 18, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_VIVT3_2026-05-22_CAPITAL_REDUCTION_066",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2026-05-22",
+    "ex_date": "2026-05-25",
+    "kind": "CAPITAL_REDUCTION",
+    "amount": 1.25171862845,
+    "pay_date_or_deadline": "2026-07-14",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 21, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_VIVT3_2026-05-27_JCP_062",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2026-05-27",
+    "ex_date": "2026-05-28",
+    "kind": "JCP",
+    "amount": 0.18775779427,
+    "pay_date_or_deadline": "Até 30/04/2027",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 17, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  },
+  {
+    "event_id": "V13_PSSA3_2026-06-22_JCP_022",
+    "ticker": "PSSA3",
+    "share_class": "ON",
+    "isin": "BRPSSAACNOR7",
+    "record_date": "2026-06-22",
+    "ex_date": "2026-06-23",
+    "kind": "JCP",
+    "amount": 0.51280364554,
+    "pay_date_or_deadline": "ATE_2027-04-30",
+    "source_ids": [
+      "PSSA_2026-06-17_3"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/b77a3922-d280-4451-b3ee-0afec4577834/f8d74364-4778-d466-02ec-0d7bf05ca8fa?origin=2"
+    ],
+    "source_sha256": [
+      "2e77eb7340ed67c2b84cde0685d18efdb8f2dc232ac99e669c0a96aa7b0ec110"
+    ],
+    "locator": "Avisos/ratificacoes, valores brutos; conferidos por parcela",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valor bruto nominal; data-com B3 confrontada nos avisos. Ratificacoes nao criam novo direito."
+  },
+  {
+    "event_id": "V13_TIMS3_2026-06-22_JCP_055",
+    "ticker": "TIMS3",
+    "share_class": "ON",
+    "isin": "BRTIMSACNOR5",
+    "record_date": "2026-06-22",
+    "ex_date": "2026-06-23",
+    "kind": "JCP",
+    "amount": 0.1674573219,
+    "pay_date_or_deadline": "2026-07-22",
+    "source_ids": [
+      "TIM_2026-06-17_4"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/4c4aa51f-1235-4aa1-8b83-adc92e8dacc3/25999361-3614-1392-dad2-f96e99522a8d?origin=2"
+    ],
+    "source_sha256": [
+      "05684d295824d537714cb6df648f76ffeb750e6622b45aad0bec977414a4b53e"
+    ],
+    "locator": "Avisos individuais; datas-com prevalecem sobre coluna Data-Ex inconsistente da tabela RI",
+    "status": "PRIMARIA_CONFRONTADA_B3",
+    "note": "Valores brutos; retificacoes substituem, antecipacoes de pagamento nao criam novo direito."
+  },
+  {
+    "event_id": "V13_VIVT3_2026-06-26_JCP_061",
+    "ticker": "VIVT3",
+    "share_class": "ON",
+    "isin": "BRVIVTACNOR0",
+    "record_date": "2026-06-26",
+    "ex_date": "2026-06-29",
+    "kind": "JCP",
+    "amount": 0.07197382114,
+    "pay_date_or_deadline": "Até 30/04/2027",
+    "source_ids": [
+      "VIVT_XLS"
+    ],
+    "source_urls": [
+      "https://api.mziq.com/mzfilemanager/v2/d/24165f81-24d6-4648-bf9f-66712905d5a2/34b95df5-e8c3-6d48-b667-42e740e0df5e?origin=2"
+    ],
+    "source_sha256": [
+      "294d963a36024af970ef836b69e50b13618b40cc882c40ea4d2277ce96a6486c"
+    ],
+    "locator": "Planilha Proventos_Telefonica Brasil_PT, linha 16, coluna H bruta; nota linha 9 sem ajuste anterior a 15/04/2025",
+    "status": "PRIMARIA_PLANILHA_NOMINAL",
+    "note": "Reinvestir restituicoes na ex, conforme convencao previamente adotada para restituição; sem custos/impostos."
+  }
+]

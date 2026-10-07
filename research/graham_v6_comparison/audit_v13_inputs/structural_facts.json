@@ -1,0 +1,71 @@
+[
+  {
+    "event_id": "V13_TIM_MERGER",
+    "date": "2020-10-13",
+    "kind": "MERGER",
+    "asset": "TIMP3",
+    "legs": [
+      [
+        "TIMS3",
+        1.0
+      ]
+    ],
+    "source_ids": [
+      "TIM_MERGER",
+      "TIM_2020-10-05_6",
+      "TIM_CVM"
+    ],
+    "note": "ON->ON 1:1; TIMP3 encerrada; sem caixa/OPA de acionista dissidente"
+  },
+  {
+    "event_id": "V13_VIVT_CONVERSION",
+    "date": "2020-11-23",
+    "kind": "CONVERSION",
+    "asset": "VIVT4",
+    "legs": [
+      [
+        "VIVT3",
+        1.0
+      ]
+    ],
+    "source_ids": [
+      "VIVT_DF20"
+    ],
+    "note": "PN->ON 1:1; VIVT4 encerrada; nenhum preco sintetico"
+  },
+  {
+    "event_id": "V13_PSSA_BONUS",
+    "date": "2021-10-21",
+    "kind": "BONUS",
+    "asset": "PSSA3",
+    "factor": 2.0,
+    "source_ids": [
+      "PSSA_2021-10-20_4"
+    ],
+    "note": "100% de bonificacao. Anuncio de INTENCAO split 1:3 em maio nao executado; nao adicionar."
+  },
+  {
+    "event_id": "V13_VIVT_SPLIT",
+    "date": "2025-04-15",
+    "kind": "SPLIT",
+    "asset": "VIVT3",
+    "factor": 2.0,
+    "source_ids": [
+      "VIVT_XLS",
+      "VIVT_DF25"
+    ],
+    "note": "40:1 seguido de 1:80 = 2 na convencao fracionaria v6; leilao de sobras real nao simulado"
+  },
+  {
+    "event_id": "V13_TIM_GROUP_SPLIT",
+    "date": "2025-07-03",
+    "kind": "SPLIT",
+    "asset": "TIMS3",
+    "factor": 1.0,
+    "source_ids": [
+      "TIM_SPLIT_EFFECTIVE",
+      "TIM_FRACTIONS"
+    ],
+    "note": "100:1 seguido de 1:100 = 1 na convencao fracionaria v6; leilao de sobras real nao simulado"
+  }
+]
