@@ -12,6 +12,7 @@ qualquer período a RECONCILED. Registra explicitamente lacunas e conflitos.
 from __future__ import annotations
 
 import csv
+import argparse
 import hashlib
 import json
 import math
@@ -19,14 +20,20 @@ import sqlite3
 import sys
 from collections import Counter, defaultdict
 from datetime import date
+from dataclasses import asdict
 from pathlib import Path
 
 ROOT = Path.cwd()
 END = "2026-06-30"
 sys.path.insert(0, str(ROOT))
 from graham_v6_event_bridge import graham_event_resume as bridge  # noqa: E402
-from graham_v6_event_bridge.motor_eventos import Engine, Event  # noqa: E402
 import graham_recalc_returns_2020_2026 as selections_source  # noqa: E402
+
+# The bridge loads motor_eventos as a top-level module. Loading it again via
+# the package path creates distinct MissingData classes: Engine.value would
+# then fail to catch PriceBook.exact's exception on an untraded interim day.
+# Reuse the very same engine/types as the bridge, without changing v6.
+Engine, Event = bridge.Engine, bridge.Event
 
 
 def read_csv(path):
@@ -203,6 +210,12 @@ def supplement_b3(con, calendar, tickers, existing, protection):
             extra.append(new)
             existing_stock[(ticker, exdate, kind)].append(new)
             audit.append(audit_row(ticker, dc, kind, mult, source, "ADICIONADO_MANTER_PROVISORIO"))
+            if source != "B3":
+                row = audit_row(ticker, dc, kind, mult, source,
+                                "ESTRUTURA_ESTIMADA_SEM_DOCUMENTO",
+                                "Preservada somente para reproduzir v11; origem não é documento B3. Ver cenário documental.")
+                alerts.append(row)
+                audit.append(row)
 
         unknown = con.execute(
             f"SELECT event_date,event_type,source FROM corporate_actions "
@@ -211,7 +224,9 @@ def supplement_b3(con, calendar, tickers, existing, protection):
             "'BONUS_SHARES','STOCK_SPLIT','REVERSE_SPLIT','SPLIT')",
             isins + ["2020-06-30", END]).fetchall()
         for dc, typ, source in unknown:
-            audit.append(audit_row(ticker, dc, typ, "", source, "EVENTO_FORA_ESCOPO_VERIFICAR"))
+            row = audit_row(ticker, dc, typ, "", source, "EVENTO_FORA_ESCOPO_VERIFICAR")
+            audit.append(row)
+            alerts.append(row)
     return extra, audit, alerts
 
 
@@ -234,8 +249,9 @@ def safe_result(engine, date0, end, ticker):
     return value
 
 
-def run():
-    out = ROOT / "graham_v6_event_results" / "manutencao_corrigida_v11"
+def run(out=None, documentary_policy=None):
+    suffix = "manutencao_documental_v11_1" if documentary_policy else "manutencao_corrigida_v11"
+    out = out or ROOT / "graham_v6_event_results" / suffix
     input_dir = ROOT / "graham_v6_event_results"
     original_annual = read_csv(input_dir / "graham_corrigido_anuais_eventos.csv")
     assert len(original_annual) == 6 and {int(x["year"]) for x in original_annual} == set(bridge.WINDOWS)
@@ -262,10 +278,21 @@ def run():
         )
 
     events = legacy_events + pre_extra + full_extra
+    amendments = []
+    if documentary_policy:
+        from scripts.graham_v11_documentary_sensitivity import documented_events
+        evidence = read_csv(ROOT / "research/graham_v6_comparison/ri_events_verified_2026_10_07.csv")
+        events, amendments = documented_events(events, evidence, extended_book, documentary_policy)
+        # This diagnosed source is removed explicitly in the amendment ledger.
+        alerts = [r for r in alerts if not (r["ticker"] == "SYNE3" and
+                  r["status"] == "ESTRUTURA_ESTIMADA_SEM_DOCUMENTO")]
     engine = Engine(extended_book, events, coverage)
     yearly = []
     holdings = []
     failures = []
+    first_year_rows = []
+    final_positions = []
+    annual_path = []
     # Blindagem: primeiros 12 meses de manutenção devem ser exatamente a
     # mesma carteira/mesmos eventos da renovação anual já apurada na v10.
     first_year_ok = 0
@@ -287,6 +314,9 @@ def run():
                     f"1º ano divergente: {year} {rule}; manutenção={got:.10f} vs v10={ref:.10f}"
                 )
             first_year_ok += 1
+            first_year_rows.append({"start_year": year, "rule": rule, "start": start,
+                                   "end": first_end, "maintenance": got, "annual_v10": ref,
+                                   "delta": got - ref, "status": "OK"})
             pieces = []
             for ticker, weight in sorted(w.items()):
                 try:
@@ -306,10 +336,16 @@ def run():
                 holdings.append({
                     "start_year": year, "rule": rule, "ticker": ticker,
                     "weight": weight, "return": ret, "contribution": weight * ret,
+                    "initial_capital_standalone": res["initial_value"],
+                    "initial_capital_allocated": weight * res["initial_value"],
                     "cash_final": res["cash"], "final_assets": json.dumps(
                         res["holdings"], ensure_ascii=False, sort_keys=True),
+                    "cash_final_allocated": weight * res["cash"],
+                    "final_assets_allocated": json.dumps(
+                        {t: weight * q for t, q in res["holdings"].items()}, sort_keys=True),
                     "gaps": json.dumps(gaps, ensure_ascii=False, sort_keys=True),
                     "events_applied": res["events_applied"],
+                    "daily_missing": res["daily_missing"],
                     "status": "PROVISORIO_COBERTURA" if gaps else "COBERTURA_V6"})
             if len(pieces) != len(w):
                 result = ""
@@ -320,13 +356,34 @@ def run():
                 # Invariante: carteira multiativo equivale à soma das posições.
                 try:
                     state_full = engine.initialize(start, w)
-                    engine.advance(state_full, END)
+                    previous_value = state_full.initial_value
+                    for period in range(year, 2026):
+                        period_end = bridge.WINDOWS[period][1]
+                        engine.advance(state_full, period_end)
+                        nav = engine.value(state_full, period_end)["nav"]
+                        annual_path.append({"start_year": year, "rule": rule,
+                                            "period_year": period, "end": period_end,
+                                            "nav": nav, "cash": state_full.cash,
+                                            "period_return": nav / previous_value - 1,
+                                            "cumulative_return": nav / state_full.initial_value - 1})
+                        previous_value = nav
                     direct = engine.result(state_full, require_complete=False)["return"]
                     diff = direct - result
                     if not math.isclose(direct, result, abs_tol=1e-8, rel_tol=1e-10):
                         failures.append({"year": year, "rule": rule, "ticker": "CARTEIRA",
                                          "status": "DIVERGENCIA_MULTIATIVO",
                                          "detail": f"agregado={result}; direto={direct}"})
+                    final_nav = engine.value(state_full, END)["nav"]
+                    for asset, quantity in sorted(state_full.holdings.items()):
+                        price = extended_book.exact(asset, END)
+                        final_positions.append({"start_year": year, "rule": rule,
+                                                "asset": asset, "quantity": quantity,
+                                                "price": price, "value": quantity * price,
+                                                "final_weight": quantity * price / final_nav})
+                    final_positions.append({"start_year": year, "rule": rule,
+                                            "asset": "CASH", "quantity": state_full.cash,
+                                            "price": 1, "value": state_full.cash,
+                                            "final_weight": state_full.cash / final_nav})
                 except Exception as ex:
                     diff = ""
                     failures.append({"year": year, "rule": rule, "ticker": "CARTEIRA",
@@ -346,14 +403,16 @@ def run():
                 "renew_minus_maintain_pp": 100 * (rolling - result) if result != "" else "",
                 "bova_return": benchmark,
                 "multiasset_delta": diff, "status": status,
-                "source": "V6_EVENT_ENGINE_B3_SQLITE_SUPPLEMENT_PROVISIONAL"})
+                "source": "V6_EVENT_ENGINE_DOCUMENTARY_V11_1_PROVISIONAL" if documentary_policy else "V6_EVENT_ENGINE_B3_SQLITE_SUPPLEMENT_PROVISIONAL"})
 
     # Não substituir arquivos existentes antes da validação de paridade.
     cols_year = ["start_year", "start", "end", "rule", "n", "maintain_return",
                  "maintain_cagr", "renew_return", "renew_minus_maintain_pp",
                  "bova_return", "multiasset_delta", "status", "source"]
     cols_pos = ["start_year", "rule", "ticker", "weight", "return",
-                "contribution", "cash_final", "final_assets", "gaps", "events_applied", "status"]
+                "contribution", "cash_final", "final_assets", "gaps", "events_applied", "daily_missing",
+                "initial_capital_standalone", "initial_capital_allocated", "cash_final_allocated",
+                "final_assets_allocated", "status"]
     cols_audit = ["ticker", "date_com", "kind", "amount_or_multiplier",
                   "source", "status", "detail"]
     out.mkdir(parents=True, exist_ok=True)
@@ -362,16 +421,33 @@ def run():
     write_csv(out / "b3_suplementacao_auditavel.csv", b3_audit, cols_audit)
     write_csv(out / "alertas_documentais.csv", alerts, cols_audit)
     write_csv(out / "erros_execucao.csv", failures, ["year", "rule", "ticker", "status", "detail"])
+    write_csv(out / "paridade_primeiro_ano.csv", first_year_rows,
+              ["start_year", "rule", "start", "end", "maintenance", "annual_v10", "delta", "status"])
+    write_csv(out / "posicoes_finais_carteira.csv", final_positions,
+              ["start_year", "rule", "asset", "quantity", "price", "value", "final_weight"])
+    write_csv(out / "trajetoria_anual_manutencao.csv", annual_path,
+              ["start_year", "rule", "period_year", "end", "nav", "cash", "period_return", "cumulative_return"])
+    (out / "eventos_utilizados.json").write_text(
+        json.dumps([asdict(e) for e in events], ensure_ascii=False, indent=2), encoding="utf-8")
+    write_csv(out / "alteracoes_documentais.csv", amendments,
+              ["action", "event_id", "asset", "date", "old_value", "new_value", "source", "reason"])
     summary = {
         "reference": "graham_corrigido_anuais_eventos.csv (v10); mesma data e critérios",
         "legacy_v6_parity": "18/18",
         "first_year_parity": f"{first_year_ok}/18",
         "portfolio_cohorts": len(yearly),
         "positions": len(holdings),
-        "supplementary_events_used": len(full_extra),
+        "supplementary_events_used": sum(e in events for e in full_extra),
+        "documentary_policy": documentary_policy,
+        "documentary_amendments": len(amendments),
+        "method_version": "v11.1_documental" if documentary_policy else "v11_reproducao",
         "unresolved_b3_conflicts": len(alerts),
         "execution_errors": len(failures),
         "certified": False,
+        "capital_per_portfolio": 10000.0,
+        "standalone_position_capital": 10000.0,
+        "position_units": "cash_final/final_assets: standalone; *_allocated: multiplied by initial weight",
+        "daily_missing_note": "Interim NAV unavailable without exact quote; no fill. Entry, exit and reinvestment remain strict.",
         "notes": [
             "Manutenção sem rebalancear desde cada junho até junho/2026",
             "Proventos reinvestidos na data-ex segundo o motor legado",
@@ -385,7 +461,7 @@ def run():
     (out / "resumo_auditoria.json").write_text(
         json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"PARIDADE v6: 18/18 | PRIMEIRO ANO vs v10: {first_year_ok}/18")
-    print(f"COMPLEMENTOS B3 FORA DAS JANELAS ANUAIS: {len(full_extra)}")
+    print(f"COMPLEMENTOS RETIDOS: {summary['supplementary_events_used']} | ALTERAÇÕES DOCUMENTAIS: {len(amendments)}")
     print(f"ALERTAS DOCUMENTAIS: {len(alerts)} | ERROS DE CÁLCULO: {len(failures)}")
     print("MANUTENÇÃO GRAHAM CORRIGIDA POR COORTE (2020–2026):")
     for r in yearly:
@@ -404,4 +480,9 @@ def run():
 
 
 if __name__ == "__main__":
-    raise SystemExit(run())
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--out", type=Path, help="Diretório de saída; use um destino novo para preservar checkpoints")
+    parser.add_argument("--documentary-policy", choices=("KEEP_CASH", "REINVEST"),
+                        help="Aplica alterações rastreáveis; REINVEST autorizado pelo usuário em 07/10/2026")
+    args = parser.parse_args()
+    raise SystemExit(run(args.out, args.documentary_policy))

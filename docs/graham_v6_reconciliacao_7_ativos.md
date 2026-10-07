@@ -1,5 +1,9 @@
 # Graham corrigido × BESST v9 — trilha de conciliação
 
+**Atualização de execução:** a manutenção v11 foi executada e revisada na v11.2.
+Consulte [resultados, correções, testes e pendências](graham_v11_execucao_2026_10_07.md).
+As instruções abaixo preservam o checkpoint anterior; a apuração já não está pendente de execução.
+
 Corte: 30/06/2026. Atualizado em 07/10/2026. **Esta trilha não promove nenhum ativo a `RECONCILED`.**
 
 ## Escopo das 12 combinações ativo/ano

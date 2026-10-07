@@ -1,0 +1,40 @@
+{
+  "archive": "Pacote_Barsi_Graham_Comparacao_Final_v9_2026-10-06.zip",
+  "archive_sha256": "52911a31c01f5466e0d161d1d21ea8bbab1aa5aad3454bd0b943c1122df307a9",
+  "scripts": [
+    {
+      "script": "compute_besst.py",
+      "returncode": 0,
+      "script_sha256": "09d1327cf74b79991a32c82e463602b3bfdd7645f8ceababa0bef1d1ec2a81c7"
+    },
+    {
+      "script": "compute_maintenance.py",
+      "returncode": 0,
+      "script_sha256": "5363502d869091c6601c8c90c3efdc5f9c8bd4e8c730e1882bd2a1604cbae60f"
+    },
+    {
+      "script": "complete_graham_maintenance.py",
+      "returncode": 0,
+      "script_sha256": "9e0068053a210021772358f5e4372327e30c26b97654d4469e4415c6dc9c1f1f"
+    },
+    {
+      "script": "consolidate_v9.py",
+      "returncode": 0,
+      "script_sha256": "266b385403beae33ebbdb3f5a990441f25fef900bf5d3ca4023c89a410a1ec2c"
+    }
+  ],
+  "reproduced_csv_files": 15,
+  "all_csv_identical": true,
+  "frozen_aggregate_values": "104/104 rows match source package (48 annual + 48 maintenance + 8 full renewal)",
+  "portfolio_weight_contribution_checks": 96,
+  "positions": 1212,
+  "patrimony_mismatches": 32,
+  "dates_match_graham": true,
+  "certified": false,
+  "method_differences": [
+    "Barsi material returns: interpolated yearly cash, end-of-interval reinvestment",
+    "Some central return factors replaced by v6 checkpoints without updating approximate cash/stock",
+    "Sensitivity low/high uses a different approximation where central uses exact anchors",
+    "These checks reproduce the prior model; they do not certify point-in-time selection or events"
+  ]
+}

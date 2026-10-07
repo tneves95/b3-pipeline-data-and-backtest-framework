@@ -10,6 +10,7 @@ a manutenção mantém a seleção inicial e reinveste proventos. Sem custos/tri
 """
 from __future__ import annotations
 import csv
+import argparse
 import json
 import math
 from collections import defaultdict
@@ -66,20 +67,29 @@ def cumulative_annual(index, start_year, portfolio, scenario=None, field="return
     return f - 1
 
 
-def main():
+def main(graham_dir=None, output_dir=None):
     work = ROOT / "graham_v6_event_results"
-    v11 = work / "manutencao_corrigida_v11"
+    v11 = graham_dir or work / "manutencao_corrigida_v11"
     rs = read(v11 / "graham_18_coortes.csv")
     summary = json.loads((v11 / "resumo_auditoria.json").read_text(encoding="utf-8"))
+    graham_status = ("CALCULADO_PROVISORIO_V11_1" if summary.get("documentary_policy")
+                     else "CALCULADO_PROVISORIO_V11")
     if summary["legacy_v6_parity"] != "18/18" or summary["first_year_parity"] != "18/18":
         raise RuntimeError("Paridade Graham não passou")
     if summary["execution_errors"] or any(r["status"] == "INCOMPLETO" for r in rs):
         raise RuntimeError("Existem carteiras incompletas: consultar erros_execucao.csv")
     expected_set(rs, ("start_year", "rule"),
                  {(str(y), r) for y in YEAR_START for r in GRAHAM}, "Manutenção Graham")
+    for row in rs:
+        if row["start"] != YEAR_START[int(row["start_year"])] or row["end"] != END:
+            raise RuntimeError("Datas de manutenção Graham incompatíveis com a comparação")
     corrected_annual = read(work / "graham_corrigido_anuais_eventos.csv")
     expected_set(corrected_annual, ("year",), {(str(y),) for y in YEAR_START},
                  "Anuais Graham corrigidos")
+    for row in corrected_annual:
+        year = int(row["year"])
+        if row["start"] != YEAR_START[year] or row["end"] != YEAR_START.get(year + 1, END):
+            raise RuntimeError("Datas anuais Graham incompatíveis com a comparação")
     aidx = {r["year"]: r for r in corrected_annual}
     mx = {(r["start_year"], r["rule"]): r for r in rs}
 
@@ -125,11 +135,13 @@ def main():
                                 bova=bench_renew, maintain_cagr=(1+hold)**(1/duration)-1,
                                 renew_cagr=(1+renew)**(1/duration)-1,
                                 renew_minus_maintain_pp=100*(renew-hold),
-                                status="CALCULADO_PROVISORIO_V11"))
+                                status=graham_status))
         for strategy in BESST:
             for scenario in SCENARIOS:
                 h = bm[(str(year), strategy, scenario)]
                 hold = val(h["return"], "BESST manutenção")
+                if not (val(h["low"], "manutenção low") <= hold <= val(h["high"], "manutenção high")):
+                    raise RuntimeError(f"Limites BESST manutenção inválidos: {year} {strategy} {scenario}")
                 renew = cumulative_annual(bi, year, strategy, scenario)
                 low = math.prod(1+val(bi[(str(y),strategy,scenario)]["low"],"BESST low")
                                 for y in range(year,2026))-1
@@ -167,7 +179,7 @@ def main():
                 rank.append(dict(start_year=year, mechanism=mechanism, rank=rank_no,
                                  strategy=r["strategy"], result=r[mechanism],
                                  status=r["status"]))
-    out = work / "comparacao_manutencao_renovacao_v11"
+    out = output_dir or work / "comparacao_manutencao_renovacao_v11"
     write(out / "comparacao_72_cenarios.csv", records,
           ["start_year","strategy","family","scenario","maintain","renew",
            "maintain_low","maintain_high","renew_low","renew_high",
@@ -176,6 +188,8 @@ def main():
           ["start_year","mechanism","rank","strategy","result","status"])
     report = {
         "provisional": True,
+        "Graham_method_version": summary.get("method_version", "v11"),
+        "Graham_documentary_policy": summary.get("documentary_policy"),
         "rows": len(records),
         "rankings": len(rank),
         "start_years": list(YEAR_START),
@@ -184,7 +198,26 @@ def main():
         "BOVA11": "mesmas datas por coorte; retorno nominal",
         "scenario_interpretation": "low/high BESST são sensibilidades, não IC estatísticos",
         "caveat": "sem custo/impostos; proteção de paridade não prova completude documental; não cobre retornos líquidos reais",
+        "BESST_dates_evidence": "datas herdadas da especificação v9; os CSVs congelados só contêm anos, sem prova independente das datas de execução",
+        "BESST_positions_evidence": "composição, pesos, contribuições e motor v9 não incluídos nos três CSVs congelados; reprodução apenas agregada",
     }
+    source_audit_path = work / "auditoria_besst_v9" / "manifesto_auditoria.json"
+    if source_audit_path.exists():
+        source_audit = json.loads(source_audit_path.read_text(encoding="utf-8"))
+        if not source_audit["all_csv_identical"] or not source_audit["dates_match_graham"]:
+            raise RuntimeError("Auditoria do pacote Barsi não passou")
+        report["BESST_dates_evidence"] = "Datas conferidas no pacote v9 original e em sua reprodução integral"
+        report["BESST_positions_evidence"] = (
+            f"{source_audit['positions']} registros; {source_audit['portfolio_weight_contribution_checks']} "
+            f"carteiras com pesos/contribuições conciliados; {source_audit['patrimony_mismatches']} "
+            "posições com ancoragem de retorno sem conciliação de caixa/ações")
+        report["BESST_archive_sha256"] = source_audit["archive_sha256"]
+        reconciliation_path = work / "auditoria_besst_v9" / "manifesto_patrimonio_conciliado.json"
+        if reconciliation_path.exists():
+            reconciliation = json.loads(reconciliation_path.read_text(encoding="utf-8"))
+            if reconciliation["remaining_arithmetic_mismatches"]:
+                raise RuntimeError("Patrimônio Barsi ainda não concilia")
+            report["BESST_positions_evidence"] += "; correção de apresentação por checkpoint: 32 divergências resolvidas, retornos preservados"
     (out / "manifesto_comparacao_v11.json").write_text(
         json.dumps(report, indent=2, ensure_ascii=False), encoding="utf-8")
     print("VERIFICADO: 18 Graham + 48 BESST + 6 BOVA = 72 linhas")
@@ -201,4 +234,8 @@ def main():
 
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--graham-dir", type=Path)
+    parser.add_argument("--out", type=Path)
+    args = parser.parse_args()
+    raise SystemExit(main(args.graham_dir, args.out))

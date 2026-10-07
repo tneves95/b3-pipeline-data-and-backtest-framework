@@ -1,6 +1,6 @@
 # Pacote-fonte Barsi × Graham v9 (06/10/2026)
 
-**Estado:** localizado no acervo de arquivos da conversa do ChatGPT; **NÃO** existe uma cópia do ZIP completo no repositório GitHub nem no Codespaces até o usuário carregá-lo.
+**Estado atualizado em 07/10/2026:** ZIP completo recebido na raiz do Codespaces, com tamanho e SHA-256 iguais aos registrados abaixo. O executor reproduziu os quatro scripts originais e confrontou 15 CSVs gerados, incluindo os 11 arquivos finais verificados pelo coordenador. Posições e patrimônio foram conciliados; [relatório da execução](graham_v11_execucao_2026_10_07.md). Os caminhos e instruções abaixo preservam o registro do fornecimento original; o ZIP não é versionado.
 
 ## Arquivo completo (para reprodução)
 
