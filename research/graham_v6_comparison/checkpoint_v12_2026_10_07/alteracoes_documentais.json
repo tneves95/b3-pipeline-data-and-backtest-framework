@@ -1,0 +1,254 @@
+[
+  {
+    "alert_id": "A12",
+    "action": "REPLACE",
+    "event": {
+      "event_id": "V12_ALERT_12",
+      "date": "2025-04-25",
+      "kind": "CASH",
+      "asset": "CPLE3",
+      "source": "https://api.mziq.com/mzfilemanager/v2/d/16a31b1b-5ecd-4214-a2e0-308a2393e330/c71f7177-6e9c-6fa9-8329-b3a4e5668038?origin=1",
+      "record_date": "2025-04-24",
+      "amount": 0.39850301,
+      "factor": 1.0,
+      "legs": [],
+      "reinvest": "",
+      "price": null,
+      "quantity": null,
+      "order": 50,
+      "note": "CASH_DIVIDEND; bruto; pagamento=2025-05-15; audit alert 12"
+    },
+    "old_id": "CPLE3_2025-04-24_DIV_19"
+  },
+  {
+    "alert_id": "A13",
+    "action": "REPLACE",
+    "event": {
+      "event_id": "V12_ALERT_13",
+      "date": "2026-01-02",
+      "kind": "CASH",
+      "asset": "CPLE3",
+      "source": "https://api.mziq.com/mzfilemanager/v2/d/16a31b1b-5ecd-4214-a2e0-308a2393e330/9e7c31ff-8290-49b4-d586-e043b31e16dc?origin=2",
+      "record_date": "2025-12-30",
+      "amount": 0.45453469202,
+      "factor": 1.0,
+      "legs": [],
+      "reinvest": "",
+      "price": null,
+      "quantity": null,
+      "order": 50,
+      "note": "CASH_DIVIDEND; bruto; pagamento=2026-06-30; audit alert 13"
+    },
+    "old_id": "CPLE3_2025-12-30_DIV_21"
+  },
+  {
+    "alert_id": "A14",
+    "action": "REPLACE",
+    "event": {
+      "event_id": "V12_ALERT_14",
+      "date": "2026-01-02",
+      "kind": "CASH",
+      "asset": "CPLE3",
+      "source": "https://api.mziq.com/mzfilemanager/v2/d/16a31b1b-5ecd-4214-a2e0-308a2393e330/9e7c31ff-8290-49b4-d586-e043b31e16dc?origin=2",
+      "record_date": "2025-12-30",
+      "amount": 0.37036160091,
+      "factor": 1.0,
+      "legs": [],
+      "reinvest": "",
+      "price": null,
+      "quantity": null,
+      "order": 50,
+      "note": "JCP; bruto; pagamento=2026-01-19; audit alert 14"
+    },
+    "old_id": "CPLE3_2025-12-30_JCP_20"
+  },
+  {
+    "alert_id": "A20",
+    "action": "ADD",
+    "event": {
+      "event_id": "V12_ALERT_20",
+      "date": "2023-11-22",
+      "kind": "CASH",
+      "asset": "GRND3",
+      "source": "https://ri.grendene.com.br/PT/Informacoes-Financeiras/Historico-de-Dividendos",
+      "record_date": "2023-11-21",
+      "amount": 0.022169082,
+      "factor": 1.0,
+      "legs": [],
+      "reinvest": "",
+      "price": null,
+      "quantity": null,
+      "order": 50,
+      "note": "JCP; bruto; pagamento=2023-12-06; audit alert 20"
+    },
+    "old_id": ""
+  },
+  {
+    "alert_id": "A21",
+    "action": "ADD",
+    "event": {
+      "event_id": "V12_ALERT_21",
+      "date": "2024-05-03",
+      "kind": "CASH",
+      "asset": "GRND3",
+      "source": "https://ri.grendene.com.br/PT/Informacoes-Financeiras/Historico-de-Dividendos",
+      "record_date": "2024-05-02",
+      "amount": 0.105302829,
+      "factor": 1.0,
+      "legs": [],
+      "reinvest": "",
+      "price": null,
+      "quantity": null,
+      "order": 50,
+      "note": "JCP; bruto; pagamento=2024-05-15; audit alert 21"
+    },
+    "old_id": ""
+  },
+  {
+    "alert_id": "A22",
+    "action": "ADD",
+    "event": {
+      "event_id": "V12_ALERT_22",
+      "date": "2024-11-22",
+      "kind": "CASH",
+      "asset": "GRND3",
+      "source": "https://ri.grendene.com.br/PT/Informacoes-Financeiras/Historico-de-Dividendos",
+      "record_date": "2024-11-21",
+      "amount": 0.060964796,
+      "factor": 1.0,
+      "legs": [],
+      "reinvest": "",
+      "price": null,
+      "quantity": null,
+      "order": 50,
+      "note": "JCP; bruto; pagamento=2024-12-05; audit alert 22"
+    },
+    "old_id": ""
+  },
+  {
+    "alert_id": "A23",
+    "action": "ADD",
+    "event": {
+      "event_id": "V12_ALERT_23",
+      "date": "2025-04-23",
+      "kind": "CASH",
+      "asset": "GRND3",
+      "source": "https://ri.grendene.com.br/PT/Informacoes-Financeiras/Historico-de-Dividendos",
+      "record_date": "2025-04-22",
+      "amount": 0.121929591,
+      "factor": 1.0,
+      "legs": [],
+      "reinvest": "",
+      "price": null,
+      "quantity": null,
+      "order": 50,
+      "note": "JCP; bruto; pagamento=2025-05-07; audit alert 23"
+    },
+    "old_id": ""
+  },
+  {
+    "alert_id": "A24",
+    "action": "ADD",
+    "event": {
+      "event_id": "V12_ALERT_24",
+      "date": "2025-11-24",
+      "kind": "CASH",
+      "asset": "GRND3",
+      "source": "https://ri.grendene.com.br/PT/Informacoes-Financeiras/Historico-de-Dividendos",
+      "record_date": "2025-11-21",
+      "amount": 0.06650705,
+      "factor": 1.0,
+      "legs": [],
+      "reinvest": "",
+      "price": null,
+      "quantity": null,
+      "order": 50,
+      "note": "JCP; bruto; pagamento=2025-12-10; audit alert 24"
+    },
+    "old_id": ""
+  },
+  {
+    "alert_id": "A25",
+    "action": "ADD",
+    "event": {
+      "event_id": "V12_ALERT_25",
+      "date": "2025-12-12",
+      "kind": "CASH",
+      "asset": "GRND3",
+      "source": "https://ri.grendene.com.br/PT/Informacoes-Financeiras/Historico-de-Dividendos",
+      "record_date": "2025-12-11",
+      "amount": 0.049880287,
+      "factor": 1.0,
+      "legs": [],
+      "reinvest": "",
+      "price": null,
+      "quantity": null,
+      "order": 50,
+      "note": "JCP; bruto; pagamento=2025-12-26; audit alert 25"
+    },
+    "old_id": ""
+  },
+  {
+    "alert_id": "A26",
+    "action": "ADD",
+    "event": {
+      "event_id": "V12_ALERT_26",
+      "date": "2026-04-24",
+      "kind": "CASH",
+      "asset": "GRND3",
+      "source": "https://ri.grendene.com.br/PT/Informacoes-Financeiras/Historico-de-Dividendos",
+      "record_date": "2026-04-23",
+      "amount": 0.090892968,
+      "factor": 1.0,
+      "legs": [],
+      "reinvest": "",
+      "price": null,
+      "quantity": null,
+      "order": 50,
+      "note": "JCP; bruto; pagamento=2026-05-13; audit alert 26"
+    },
+    "old_id": ""
+  },
+  {
+    "alert_id": "A27",
+    "action": "ADD",
+    "event": {
+      "event_id": "V12_ALERT_27",
+      "date": "2026-05-22",
+      "kind": "CASH",
+      "asset": "GRND3",
+      "source": "https://ri.grendene.com.br/PT/Informacoes-Financeiras/Historico-de-Dividendos",
+      "record_date": "2026-05-21",
+      "amount": 0.033253525,
+      "factor": 1.0,
+      "legs": [],
+      "reinvest": "",
+      "price": null,
+      "quantity": null,
+      "order": 50,
+      "note": "JCP; bruto; pagamento=2026-06-10; audit alert 27"
+    },
+    "old_id": ""
+  },
+  {
+    "alert_id": "A31",
+    "action": "ADD",
+    "event": {
+      "event_id": "V12_ALERT_31",
+      "date": "2025-12-15",
+      "kind": "CASH",
+      "asset": "SLCE3",
+      "source": "https://api.mziq.com/mzfilemanager/v2/d/a975c39b-3eca-4ad8-9330-2c0a0b8d1060/3b6ef6ae-acf9-230a-eb06-847e55ee90b9?origin=1",
+      "record_date": "2025-12-12",
+      "amount": 0.04529051,
+      "factor": 1.0,
+      "legs": [],
+      "reinvest": "",
+      "price": null,
+      "quantity": null,
+      "order": 50,
+      "note": "JCP; bruto; pagamento=2025-12-23; audit alert 31"
+    },
+    "old_id": ""
+  }
+]
