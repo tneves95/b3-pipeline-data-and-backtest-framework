@@ -220,12 +220,18 @@ def upsert_fundamentals_pit(conn: sqlite3.Connection, df: pd.DataFrame) -> int:
         INSERT OR REPLACE INTO fundamentals_pit (
             filing_id, cnpj, ticker, period_end, filing_date, filing_version,
             doc_type, fiscal_year, quarter,
-            revenue, net_income, ebitda, total_assets, equity, net_debt,
+            revenue, net_income, ebitda, total_assets,
+            current_assets, current_liabilities,
+            operating_cash_flow, financial_debt, capital_social,
+            equity, net_debt,
             shares_outstanding, shares_on, shares_pn, net_income_ttm
         ) VALUES (
             :filing_id, :cnpj, :ticker, :period_end, :filing_date, :filing_version,
             :doc_type, :fiscal_year, :quarter,
-            :revenue, :net_income, :ebitda, :total_assets, :equity, :net_debt,
+            :revenue, :net_income, :ebitda, :total_assets,
+            :current_assets, :current_liabilities,
+            :operating_cash_flow, :financial_debt, :capital_social,
+            :equity, :net_debt,
             :shares_outstanding, :shares_on, :shares_pn, :net_income_ttm
         )
     """
@@ -233,7 +239,10 @@ def upsert_fundamentals_pit(conn: sqlite3.Connection, df: pd.DataFrame) -> int:
     # Fill optional columns not present in df with None
     optional_cols = [
         "ticker", "fiscal_year", "quarter",
-        "revenue", "net_income", "ebitda", "total_assets", "equity", "net_debt",
+        "revenue", "net_income", "ebitda", "total_assets",
+        "current_assets", "current_liabilities",
+        "operating_cash_flow", "financial_debt", "capital_social",
+        "equity", "net_debt",
         "shares_outstanding", "shares_on", "shares_pn", "net_income_ttm",
     ]
     for col in optional_cols:
@@ -400,18 +409,21 @@ def upsert_fundamentals_monthly(conn: sqlite3.Connection, df: pd.DataFrame) -> i
     sql = """
         INSERT OR REPLACE INTO fundamentals_monthly (
             month_end, ticker,
-            revenue, net_income, ebitda, total_assets, equity, net_debt,
+            revenue, net_income, ebitda, total_assets,
+            current_assets, current_liabilities, equity, net_debt,
             shares_outstanding, net_income_ttm
         ) VALUES (
             :month_end, :ticker,
-            :revenue, :net_income, :ebitda, :total_assets, :equity, :net_debt,
+            :revenue, :net_income, :ebitda, :total_assets,
+            :current_assets, :current_liabilities, :equity, :net_debt,
             :shares_outstanding, :net_income_ttm
         )
     """
 
     # Fill optional columns not present in df with None
     optional_cols = [
-        "revenue", "net_income", "ebitda", "total_assets", "equity", "net_debt",
+        "revenue", "net_income", "ebitda", "total_assets",
+        "current_assets", "current_liabilities", "equity", "net_debt",
         "shares_outstanding", "net_income_ttm",
     ]
     for col in optional_cols:

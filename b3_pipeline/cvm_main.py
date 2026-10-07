@@ -122,7 +122,8 @@ def materialize_fundamentals_monthly(conn: sqlite3.Connection) -> int:
 
     # Load all fundamentals_pit rows with a matched ticker
     raw_metrics = [
-        "revenue", "net_income", "ebitda", "total_assets", "equity",
+        "revenue", "net_income", "ebitda", "total_assets",
+        "current_assets", "current_liabilities", "equity",
         "net_debt", "shares_outstanding", "net_income_ttm",
     ]
     metrics_sql = ", ".join(f"f.{m}" for m in raw_metrics)
@@ -210,6 +211,7 @@ def materialize_fundamentals_monthly(conn: sqlite3.Connection) -> int:
     # Ratio columns (pe_ratio, pb_ratio, ev_ebitda) intentionally excluded — compute dynamically at query time
     output_cols = [
         "month_end", "ticker", "revenue", "net_income", "ebitda", "total_assets",
+        "current_assets", "current_liabilities",
         "equity", "net_debt", "shares_outstanding", "net_income_ttm",
     ]
     result_df = combined[output_cols].copy()

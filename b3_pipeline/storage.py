@@ -141,6 +141,11 @@ CREATE TABLE IF NOT EXISTS fundamentals_pit (
     net_income REAL,
     ebitda REAL,
     total_assets REAL,
+    current_assets REAL,
+    current_liabilities REAL,
+    operating_cash_flow REAL,
+    financial_debt REAL,
+    capital_social REAL,
     equity REAL,
     net_debt REAL,
     shares_outstanding REAL,
@@ -185,6 +190,8 @@ CREATE TABLE IF NOT EXISTS fundamentals_monthly (
     net_income REAL,
     ebitda REAL,
     total_assets REAL,
+    current_assets REAL,
+    current_liabilities REAL,
     equity REAL,
     net_debt REAL,
     shares_outstanding REAL,
@@ -382,6 +389,25 @@ def _migrate_schema(conn: sqlite3.Connection) -> None:
         if cols and "net_income_ttm" not in cols:
             logger.info(f"Migrating: adding net_income_ttm column to {table}")
             cursor.execute(f"ALTER TABLE {table} ADD COLUMN net_income_ttm REAL")
+
+    # Add current-assets/current-liabilities fields used by Graham-style screens.
+    for table in ("fundamentals_pit", "fundamentals_monthly"):
+        cursor.execute(f"PRAGMA table_info({table})")
+        cols = {row[1] for row in cursor.fetchall()}
+        for col in ("current_assets", "current_liabilities"):
+            if cols and col not in cols:
+                logger.info(f"Migrating: adding {col} column to {table}")
+                cursor.execute(f"ALTER TABLE {table} ADD COLUMN {col} REAL")
+
+    # Campos adicionais usados na réplica Graham R03/R16.
+    cursor.execute("PRAGMA table_info(fundamentals_pit)")
+    pit_cols = {row[1] for row in cursor.fetchall()}
+    for col in ("operating_cash_flow", "financial_debt", "capital_social"):
+        if pit_cols and col not in pit_cols:
+            logger.info(f"Migrating: adding {col} column to fundamentals_pit")
+            cursor.execute(
+                f"ALTER TABLE fundamentals_pit ADD COLUMN {col} REAL"
+            )
 
     # Add per-class share counts to fundamentals_pit if missing
     cursor.execute("PRAGMA table_info(fundamentals_pit)")

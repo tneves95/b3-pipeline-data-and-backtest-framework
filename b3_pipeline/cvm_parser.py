@@ -49,6 +49,10 @@ LIABILITY_ACCOUNT_MAP = {
     "2.02.01": "_long_debt",   # Empréstimos e Financiamentos (LP)
 }
 
+CASHFLOW_ACCOUNT_MAP = {
+    "6.01": "operating_cash_flow",  # Caixa Líquido Atividades Operacionais
+}
+
 ALL_ACCOUNT_MAP = {**INCOME_ACCOUNT_MAP, **ASSET_ACCOUNT_MAP, **LIABILITY_ACCOUNT_MAP}
 
 # Legal filing deadlines (days after period end), used as a conservative
@@ -288,6 +292,21 @@ def _extract_metrics_from_csvs(
         dre = _load_statement_with_ind_fallback(zf, "DRE")
         bpa = _load_statement_with_ind_fallback(zf, "BPA")
         bpp = _load_statement_with_ind_fallback(zf, "BPP")
+
+        # Demonstração dos Fluxos de Caixa:
+        # preferir método indireto (MI); usar método direto (MD)
+        # apenas para companhias ausentes no MI.
+        dfc_mi = _load_statement_with_ind_fallback(zf, "DFC_MI")
+        dfc_md = _load_statement_with_ind_fallback(zf, "DFC_MD")
+
+        if dfc_mi is None or dfc_mi.empty:
+            dfc = dfc_md
+        elif dfc_md is None or dfc_md.empty:
+            dfc = dfc_mi
+        else:
+            mi_cnpjs = set(dfc_mi["CNPJ_CIA"].dropna())
+            md_only = dfc_md[~dfc_md["CNPJ_CIA"].isin(mi_cnpjs)]
+            dfc = pd.concat([dfc_mi, md_only], ignore_index=True)
         # Main metadata CSV (e.g. dfp_cia_aberta_2023.csv / itr_cia_aberta_2023.csv)
         # is the only file that contains DT_RECEB (filing receipt date).
         # Match it exactly -- sub-tables like dfp_cia_aberta_parecer_2023.csv
@@ -350,10 +369,30 @@ def _extract_metrics_from_csvs(
         if not dre_pivot.empty:
             frames["dre"] = (dre, dre_pivot)
 
+    if dfc is not None and not dfc.empty:
+        dfc = _inject_receb(_filter_ultimo(dfc))
+        # ITR pode conter valores trimestrais e acumulados no ano.
+        dfc = _select_ytd_rows(dfc)
+        dfc = _build_group_key(dfc, fallback_days)
+        dfc_pivot = _pivot_accounts(dfc, CASHFLOW_ACCOUNT_MAP)
+        if not dfc_pivot.empty:
+            frames["dfc"] = (dfc, dfc_pivot)
+
     if bpa is not None and not bpa.empty:
         bpa = _inject_receb(_filter_ultimo(bpa))
         bpa = _build_group_key(bpa, fallback_days)
-        bpa_pivot = _pivot_accounts(bpa, ASSET_ACCOUNT_MAP)
+        _bpa_parts = [
+            p for p in (
+                _pivot_accounts(bpa, ASSET_ACCOUNT_MAP),
+                # Current assets: select semantically, not only by fixed code,
+                # because charts of accounts differ across filer types.
+                _desc_account_rows(
+                    bpa, r"1\.01", "Ativo Circulante", "current_assets"
+                ),
+            )
+            if not p.empty
+        ]
+        bpa_pivot = pd.concat(_bpa_parts, ignore_index=True) if _bpa_parts else pd.DataFrame()
         if not bpa_pivot.empty:
             frames["bpa"] = (bpa, bpa_pivot)
 
@@ -363,6 +402,15 @@ def _extract_metrics_from_csvs(
         _bpp_parts = [
             p for p in (
                 _pivot_accounts(bpp, LIABILITY_ACCOUNT_MAP),
+                _desc_account_rows(
+                    bpp, r"2\.01", "Passivo Circulante", "current_liabilities"
+                ),
+                # Seleciona somente a conta de topo "Capital Social Realizado".
+                # Não captura subcontas como 2.03.01.01.
+                _desc_account_rows(
+                    bpp, r"2\.\d{2}\.\d{2}",
+                    "Capital Social Realizado", "capital_social"
+                ),
                 _desc_account_rows(bpp, r"2\.\d{2}", "Patrimônio Líquido", "equity"),
             )
             if not p.empty
@@ -398,6 +446,8 @@ def _extract_metrics_from_csvs(
     for key, (raw_df, pivot_df) in frames.items():
         if key == "dre":
             account_map = INCOME_ACCOUNT_MAP
+        elif key == "dfc":
+            account_map = CASHFLOW_ACCOUNT_MAP
         elif key == "bpa":
             account_map = ASSET_ACCOUNT_MAP
         else:
@@ -413,7 +463,21 @@ def _extract_metrics_from_csvs(
     # NULL — bank-chart filers report no 1.01.01/2.01.04/2.02.01, and a fake
     # net_debt of 0 for a bank is a wrong value, not a neutral one.
     parts = merged.reindex(columns=["_short_debt", "_long_debt", "_cash"])
-    net = parts["_short_debt"].fillna(0) + parts["_long_debt"].fillna(0) - parts["_cash"].fillna(0)
+
+    debt_parts = parts[["_short_debt", "_long_debt"]]
+    gross_debt = (
+        debt_parts["_short_debt"].fillna(0)
+        + debt_parts["_long_debt"].fillna(0)
+    )
+    merged["financial_debt"] = gross_debt.where(
+        debt_parts.notna().any(axis=1)
+    )
+
+    net = (
+        parts["_short_debt"].fillna(0)
+        + parts["_long_debt"].fillna(0)
+        - parts["_cash"].fillna(0)
+    )
     merged["net_debt"] = net.where(parts.notna().any(axis=1))
 
     # Drop intermediate helper columns
@@ -458,6 +522,8 @@ def _extract_metrics_from_csvs(
     # ── Build fundamentals_df ─────────────────────────────────────────────────
     metric_cols = [
         c for c in ["revenue", "net_income", "ebitda", "total_assets",
+                    "current_assets", "current_liabilities",
+                    "operating_cash_flow", "financial_debt", "capital_social",
                     "equity", "net_debt", "shares_outstanding"]
         if c in merged.columns
     ]
@@ -659,7 +725,10 @@ def parse_fre_zip(
         "version": "filing_version",
     }, inplace=True)
     fundamentals_df["doc_type"] = doc_type
-    for col in ["revenue", "net_income", "ebitda", "total_assets", "equity", "net_debt"]:
+    for col in [
+        "revenue", "net_income", "ebitda", "total_assets",
+        "current_assets", "current_liabilities", "equity", "net_debt"
+    ]:
         fundamentals_df[col] = None
 
     return filings_df, fundamentals_df
