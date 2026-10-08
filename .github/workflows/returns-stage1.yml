@@ -1,0 +1,30 @@
+name: Percentage returns 2014-2026 stage 1
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/*stage1*.py'
+      - 'tests/test_returns_stage1.py'
+      - 'research/returns_2014_2026_inputs/**'
+      - 'research/returns_2014_2026_results/**'
+      - 'docs/checkpoint_returns_2014_2026_stage1.md'
+      - '.github/workflows/returns-stage1.yml'
+  push:
+    branches: [study/returns-2014-2026-stage1]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  offline-percentage-replay:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - name: Install test dependency
+        run: python -m pip install pytest==8.3.5
+      - name: Verify percentage calculations and missing-data policy offline
+        run: python -m pytest -q tests/test_returns_stage1.py
+      - name: Check generated results are unchanged
+        run: git diff --exit-code -- research/returns_2014_2026_results docs/checkpoint_returns_2014_2026_stage1.md

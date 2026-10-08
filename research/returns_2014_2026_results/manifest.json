@@ -1,0 +1,75 @@
+{
+  "status": "PARTIAL_NOT_FULL_FOUR_PORTFOLIO_STUDY",
+  "dates": [
+    "2014-06-30",
+    "2015-06-30",
+    "2016-06-30",
+    "2017-06-30",
+    "2018-06-29",
+    "2019-06-28",
+    "2020-06-30",
+    "2021-06-30",
+    "2022-06-30",
+    "2023-06-30",
+    "2024-06-28",
+    "2025-06-30",
+    "2026-06-30"
+  ],
+  "complete_requested_portfolios": 0,
+  "complete_benchmark_intervals": 12,
+  "conditional_legacy_portfolio_intervals": 12,
+  "strict_annual_numeric_cells": 12,
+  "strict_annual_missing_portfolio_cells": 48,
+  "baseline_commit": "fc62733",
+  "monetary_simulation": false,
+  "taxes": false,
+  "external_contributions": false,
+  "inputs": [
+    {
+      "path": "research/graham_v6_comparison/execution_v11_2_2026_10_07/direitos_itsa_v11_2/anuais_capital_10000.csv",
+      "sha256": "2002f93662fae4357a65d3fca575520d638bebf6960542d3907f4f786fb0f95f"
+    },
+    {
+      "path": "research/graham_v6_comparison/checkpoint_v13_2026_10_07/comparacao_anuais_manutencao_v13.csv",
+      "sha256": "31e9f6526f07b67677a313c88f5a898b779604b85e9b26129f6c8ebefa55f9a4"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "annual_excess_pp.csv",
+      "sha256": "b479a097c7dff465d53e2cc980320f2d623ea49a476ff4a3f1a82a4ed72c9425"
+    },
+    {
+      "path": "annual_returns_pct.csv",
+      "sha256": "0e27ea2d9df59a6d1f0fe960881bbd30258c72ef4740fa7130bc761b3826980b"
+    },
+    {
+      "path": "conditional_legacy_membership_changes.csv",
+      "sha256": "9dcfa04e3a8d99ba7efb9f2e338ae5ff3a0e19003f2931dcbd52a3d9825a8469"
+    },
+    {
+      "path": "conditional_legacy_segments_pct.csv",
+      "sha256": "32f5d2cd53de3ed7da92befe434cc5bc7a1124f49dc7fb56bfce87a69064820b"
+    },
+    {
+      "path": "conditional_legacy_weights.csv",
+      "sha256": "4b641fe307023726c214712f19c18eb8587d98753ea8724657e5b547a4ca97bc"
+    },
+    {
+      "path": "consolidated_pct.csv",
+      "sha256": "8fa680f43b684a40ebbc50a5f207d12da7c888883456cccc3829239ad44d563f"
+    },
+    {
+      "path": "cumulative_returns_pct.csv",
+      "sha256": "97bc9400f62ab01823f4b84d2b0c7c2184abbb9e278008e8209d1ec2079f10c4"
+    },
+    {
+      "path": "ibov_june_closes.csv",
+      "sha256": "21492f282eb19eec1f556c83963ced8a8b9cb1a5a84c9c8babd87f2c97d3664f"
+    },
+    {
+      "path": "portfolio_status.csv",
+      "sha256": "2462f0990fbb98da5982cd2d49330bad3d82a4666e13149e68010ea4af8ad17c"
+    }
+  ]
+}
