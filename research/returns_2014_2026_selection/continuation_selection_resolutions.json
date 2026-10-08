@@ -1,0 +1,55 @@
+[
+  {
+    "strategy": "R03",
+    "years": [
+      2016
+    ],
+    "ticker": "LINX3",
+    "status": "PASS",
+    "source": "FRE 25942 recebido 2013-04-05; continuation_targeted_fre.json",
+    "reason": "FRE lucro consolidado 2009 12489062.39 e dividendo 9845419.36; 2010–2015 ja positivos. Crescimento muito superior a 33%, inclusive usando LL ajustado individual 12488062.39 como sensibilidade de perimetro."
+  },
+  {
+    "strategy": "R03",
+    "years": [
+      2017,
+      2018,
+      2019
+    ],
+    "ticker": "CSAN3",
+    "status": "FAIL",
+    "source": "FRE 11307 recebido 2011-08-18; continuation_targeted_fre.json",
+    "reason": "Distribuicao do exercicio encerrado 2009-03-31 igual a zero: F4 falha."
+  },
+  {
+    "strategy": "R03",
+    "years": [
+      2018,
+      2019
+    ],
+    "ticker": "CAML3",
+    "status": "FAIL",
+    "source": "originals/camil_fre_72320.bin.gz; CVM received 2018-03-15; InformacoesFinanceirasSelecionadas.xml",
+    "reason": "FY2016 dividend zero. Original FRE72320 predates both June cutoffs."
+  },
+  {
+    "strategy": "B00S",
+    "years": [
+      2019
+    ],
+    "ticker": "IRBR3",
+    "status": "PASS",
+    "source": "continuation_b00s_targeted_fre.json; FRE73863 received 2018-05-07",
+    "reason": "FY2014 positive NI601542000 and distributions440604871.45; remaining FY2015–2018 already positive in PIT screener."
+  },
+  {
+    "strategy": "B00S",
+    "years": [
+      2017
+    ],
+    "ticker": "BBSE3",
+    "status": "FAIL",
+    "source": "FRE; issuer incorporated 2012-12-20; existing company history",
+    "reason": "2012 is a short formation stub; five full historical years not available at June2017."
+  }
+]

@@ -1,0 +1,106 @@
+{
+  "status": "FOUR_CONTINUOUS_QUALIFIED_RECONSTRUCTIONS_NOT_FULL_PIT_CERTIFICATION",
+  "dates": [
+    "2014-06-30",
+    "2015-06-30",
+    "2016-06-30",
+    "2017-06-30",
+    "2018-06-29",
+    "2019-06-28",
+    "2020-06-30",
+    "2021-06-30",
+    "2022-06-30",
+    "2023-06-30",
+    "2024-06-28",
+    "2025-06-30",
+    "2026-06-30"
+  ],
+  "complete_requested_portfolios": 4,
+  "full_trajectories_are_qualified_reconstructions": true,
+  "complete_benchmark_intervals": 12,
+  "conditional_legacy_portfolio_intervals": 12,
+  "annual_numeric_cells": 60,
+  "annual_missing_portfolio_cells": 0,
+  "calculated_portfolio_intervals": 48,
+  "selection_source": "research/returns_2014_2026_selection/established_selections.csv",
+  "baseline_commit": "5cf7eb4",
+  "monetary_simulation": false,
+  "taxes": false,
+  "external_contributions": false,
+  "inputs": [
+    {
+      "path": "research/returns_2014_2026_selection/continuation_immutable_inputs.json",
+      "sha256": "795700bde851a2c99d13d7409a2fe0cad2a874d422bebdac6f9f817b23e7dd95"
+    },
+    {
+      "path": "research/returns_2014_2026_selection/continuation_selection_resolutions.json",
+      "sha256": "e5523001e88e5392bc091659baf43c4ecc6fc724fddf56e5e326c8486a57b57f"
+    },
+    {
+      "path": "research/returns_2014_2026_selection/cache/continuation_events.json.gz",
+      "sha256": "b358941ea340e359bf0532e769cd6a729dfdf18f8440179dd53b35913e9cbae9"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "annual_attribution_summary.csv",
+      "sha256": "73c02e6c55178ff438088334656d3bd2270b9dad93439c4cbe4ffcfe86927ef0"
+    },
+    {
+      "path": "annual_excess_pp.csv",
+      "sha256": "83836e8fc2ef14f9513d5e920e89b785aff789fb7b421a3ad952daf28e9e22cb"
+    },
+    {
+      "path": "annual_holdings_attribution.csv",
+      "sha256": "c954ef59273c7613193adfd804674bd2a8a6a723d977fdb23585527f46b8215c"
+    },
+    {
+      "path": "annual_ranks.csv",
+      "sha256": "1dddbd2f7d8d214f7ec1844a9175b3c91cd792f3cf249a07432e548be93e7c87"
+    },
+    {
+      "path": "annual_returns_pct.csv",
+      "sha256": "044737e7ca69e072bc6234d8a6ca5c451173afecc3aaf7e492aa0b4aa4203945"
+    },
+    {
+      "path": "attribution_end_lineage.csv",
+      "sha256": "5c10e898889f30cb96b761c46c55a2ac68e613ea282478c0b073eb8ce7370581"
+    },
+    {
+      "path": "attribution_event_lineage.csv",
+      "sha256": "fabfcc0df6d6545f512aa54729323f35a06001ccfb70eb0c3adf43e6c7d4a6d7"
+    },
+    {
+      "path": "attribution_redemption_transfers.csv",
+      "sha256": "e246f6838058f36802de263517e37d0d332c68745ae0db76eef8efd94db94b7a"
+    },
+    {
+      "path": "conditional_legacy_membership_changes.csv",
+      "sha256": "9dcfa04e3a8d99ba7efb9f2e338ae5ff3a0e19003f2931dcbd52a3d9825a8469"
+    },
+    {
+      "path": "conditional_legacy_segments_pct.csv",
+      "sha256": "32f5d2cd53de3ed7da92befe434cc5bc7a1124f49dc7fb56bfce87a69064820b"
+    },
+    {
+      "path": "conditional_legacy_weights.csv",
+      "sha256": "4b641fe307023726c214712f19c18eb8587d98753ea8724657e5b547a4ca97bc"
+    },
+    {
+      "path": "consolidated_pct.csv",
+      "sha256": "dfeb2fd290182366b4673acb02e6051aaa7bdc765e009ed20a777bd36ffeab2d"
+    },
+    {
+      "path": "cumulative_returns_pct.csv",
+      "sha256": "cafa4347cb66ddf0e89091c888f27d19ccc335fc507165eab17885215ed68636"
+    },
+    {
+      "path": "ibov_june_closes.csv",
+      "sha256": "21492f282eb19eec1f556c83963ced8a8b9cb1a5a84c9c8babd87f2c97d3664f"
+    },
+    {
+      "path": "portfolio_status.csv",
+      "sha256": "3d4f28f8a1917d5b2a5d806c5fae593d5249e231721db58e0198631106e38178"
+    }
+  ]
+}

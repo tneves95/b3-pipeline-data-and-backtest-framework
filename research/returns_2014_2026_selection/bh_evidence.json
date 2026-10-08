@@ -1,0 +1,57 @@
+{
+  "scope": "Eight original issuers, gross continuous dimensionless index, June 2014 to June 2026. Directed event repair, not universal certification of distributions.",
+  "selection": {
+    "source": "bh_selection_2014.csv; bh_ranking_2014.csv; inherited market_cap_2014.csv and PIT FRE/FCA extracts",
+    "unquoted_classes": "Use last observed historical ON quote; if no observed ON quote, use PN proxy. Sensitivity doubles these ON prices and leaves eight selected names unchanged. This is a convention, not proof of an absolute valuation bound.",
+    "multiple_pn_classes": "Inherited aggregate PN valuation remains an approximation for nonleaders with multiple preferred classes; selected leaders do not require that approximation.",
+    "hypermarcas": "Historical mixed business classified by predominant 2013 revenue, not by modern Hypera profile.",
+    "hypermarcas_release": "originals/hypera_2013_release.pdf.gz, dated 2014-02-21, pages 1 and 3; total revenue 4258.7 million, Farma about 2300 million. The later API publication timestamp reflects migration, not historical availability."
+  },
+  "structural_sources": {
+    "WEGE3": ["https://ri.weg.net/4433-2/", "owned_capital_events_fre.json", "cache/market.json.gz"],
+    "ITUB4": [
+      "https://www.itau.com.br/relacoes-com-investidores/informacoes-ao-mercado/recompra/",
+      "https://www.itau.com.br/relacoes-com-investidores/noticias/como-um-desdobramento-de-acoes-afeta-seus-investimentos/",
+      "https://www.itau.com.br/download-file/v2/d/42787847-4cf6-4461-94a5-40ed237dca33/7dc16db5-79b7-c83b-a95b-bb1f448f8bc2?origin=1",
+      "owned_capital_events_fre.json"
+    ],
+    "BBDC4": [
+      "https://www.sec.gov/Archives/edgar/data/1160330/000129281415000536/bbd20150317_6k.htm",
+      "https://www.sec.gov/Archives/edgar/data/1160330/000129281416004110/bbd20160404_6k.htm",
+      "https://www.sec.gov/Archives/edgar/data/1160330/000129281418000741/bbd20180319_6k.htm",
+      "https://www.sec.gov/Archives/edgar/data/1160330/000129281420001161/bbd20200403_6k.htm",
+      "originals/bradesco_remuneracao.html.gz"
+    ],
+    "TBLE3_EGIE3": ["originals/engie_bonus_2018_doe.pdf.gz, original DOE SC 2018-12-10 page 34; explicit 1:4, record 2018-12-11, ex 2018-12-12", "cache/market.json.gz, 2025 bonus 40%"],
+    "CMIG4": ["originals/cemig_dividends.pdf.gz", "https://ri.cemig.com.br/docs/cemig-2022-04-29-bzpJCM7P.pdf", "owned_capital_events_fre.json", "cache/market.json.gz"],
+    "RADL3": ["https://ri.rd.com.br/Download.aspx?Arquivo=HFkRorg9OyPF+k5NkdNbXw%3D%3D", "originals/radl_bonus_2023.pdf.gz", "owned_capital_events_fre.json", "cache/market.json.gz"]
+  },
+  "bradesco_2017": "Record 2017-04-28 in official remuneration table; next session 2017-05-02 is ex. Do not use secondary 2017-04-28 ex-date.",
+  "radl_2023": "Issuer AGM notice dated 2023-04-19 expressly gives record 2023-05-19, ex 2023-05-22. Approval date alone is not ex-date. B3 auction notice independently confirms ratio 1:25.",
+  "renames": ["TBLE3 -> EGIE3 on 2016-07-21, same issuer and ON class", "CCRO3 -> MOTV3 on 2025-05-02, same issuer and ON class"],
+  "cemig_right": {
+    "source": "https://ri.cemig.com.br/docs/cemig-2017-10-26-NBfWkJHw.pdf",
+    "record_date": "2017-10-26",
+    "ex_date": "2017-10-27",
+    "right_per_old_share": 0.158876242,
+    "first_right_quote": {"date":"2017-10-30","ticker":"CMIG2","close":1.21},
+    "convention": "Detach old entitlement, retain right until first traded close, convert into parent index units. No external subscription funding."
+  },
+  "xp_spinoff": {
+    "source": "https://www.b3.com.br/data/files/2B/07/87/FF/03CCB710125B4AB7DC0D8AA8/OC%20108-2021%20PRE%20Tratamento%20das%20Posi%C3%A7%C3%B5es,%20Garantias%20e%20Carteiras%20de%20%C3%8Dndices%20%20Reorganiza%C3%A7%C3%A3o%20Societ%C3%A1ria%20-%20Invest.%20Ita%C3%BA%20Unibanco%20na%20XP%20Inc.%20(PT).pdf",
+    "record_date": "2021-10-01",
+    "ex_date": "2021-10-04",
+    "old_itub_per_xp_bdr": 43.3128323,
+    "convention": "Both ITUB4 and XPBR31 remain held. COTAHIST closes replace the incomplete SQLite XP series after October 2022."
+  },
+  "xp_distributions": [
+    {"ex_date":"2023-09-11","usd":0.58,"source":"https://api.mziq.com/mzfilemanager/v2/d/d1820734-8b3f-4a23-8642-331a3a8561a6/974f8122-1809-7583-6d0a-c5e21b2004b8?origin=1"},
+    {"ex_date":"2023-12-12","usd":0.73,"source":"https://api.mziq.com/mzfilemanager/v2/d/d1820734-8b3f-4a23-8642-331a3a8561a6/bcf8391a-ada6-8146-717d-479c39aa4bd9?origin=1"},
+    {"ex_date":"2024-12-10","usd":0.65,"source":"https://www.sec.gov/Archives/edgar/data/1787425/000095010324016520/dp220822_ex9902.htm"},
+    {"ex_date":"2025-12-10","usd":0.18,"source":"https://www.sec.gov/Archives/edgar/data/1787425/000095010325014854/dp237494_ex9901.htm"},
+    {"ex_date":"2026-06-10","usd":0.20,"source":"https://www.sec.gov/Archives/edgar/data/1787425/000095010326007333/dp246817_ex9901.htm"}
+  ],
+  "xp_fx_convention": "USD per BDR multiplied by ex-date PTAX venda, frozen BCB original responses in originals/xp_gross_ptax.json. Reinvest in XPBR31 at that local close. Gross theoretical return: no taxes, depositary fees or operational settlement simulation. First USD 0.58 uses issuer rounded announcement precision.",
+  "hypermarcas_private_issues": "2014 private capital increase exchanged Cosmed shares; later small increases relate to employee options. No free entitlement for existing HYPE3 holders.",
+  "ccr_2017": "Public offering at bookbuilding price, not a bonus. No automatically credited free shares in the index."
+}

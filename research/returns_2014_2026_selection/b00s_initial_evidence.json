@@ -1,0 +1,44 @@
+{
+  "status": "EXPLORATORY_WITH_DISCLOSED_RIGHT_ASSUMPTIONS",
+  "GETI4": {
+    "amounts": "CVM DFP 44287 pagamento PN 87: 1.072620; ITR 50033 pagamento PN 80: 0.336960. Precisao declarada nos XML preservada.",
+    "record_dates": ["2014-08-06", "2015-05-08"],
+    "record_date_corroboration": "https://www.fundamentus.com.br/proventos.php?interface=mobile&papel=geti4&tipo=2",
+    "qualification": "Valores de fonte primaria CVM; datas-com corroboradas por tabela historica secundaria, nao por aviso original arquivado. Sem presumir proventos zero."
+  },
+  "TIMP3": {
+    "source": "originals/tim_2015_ago.pdf.gz",
+    "amount": 0.151751431,
+    "record_date": "2015-05-12",
+    "ex_date": "2015-05-13",
+    "note": "Ata primaria prevalece sobre tabela atual RI que chama 12/05 de data-ex e arredonda para 0.1515. Segunda parcela paga em setembro/2014 tinha direito destacado antes da formacao de junho/2014, por isso excluida."
+  },
+  "LIGT3": {
+    "issuer_report": "https://www.light.com.br/Documentos%20Compartilhados/Relatorio-Anual-de-Sustentabilidade/RS%202014.pdf",
+    "agm_transcription": "https://ptdocz.com/doc/768708/light-s.a.-cnpj-n%C2%BA-03.378.521-0001-75-nire-n%C2%BA-33.300.263.16",
+    "amount": 0.7719,
+    "record_date": "2015-04-10",
+    "ex_date": "2015-04-13",
+    "qualification": "Valor no relatorio primario; aprovacao e direito na data da AGO em transcricao do documento. Original da ata ainda nao arquivado. Dividendo pago em dezembro/2014 tinha data-ex abril/2014, anterior a formacao."
+  },
+  "CPFE3": {
+    "source": "https://www.sec.gov/Archives/edgar/data/1300482/000129281415001033/cpl20150429_6k.htm",
+    "ex_date": "2015-04-30",
+    "factor": 1.03194510783
+  },
+  "ABCB4": {
+    "first_right": "FRE confirma 2.541904%; data-com 30/06/2014 (na formacao); data-ex 01/07/2014. Direito ABCB2 e separado antes do reinvestimento do JCP simultaneo, vendido na primeira cotacao COTAHIST 02/07 a 2.30 e reinvestido no proprio ativo.",
+    "first_right_date_corroboration": "https://www.infomoney.com.br/negocios/acoes-do-itau-sanepar-e-2-bancos-ficam-ex-neste-pregao-na-bovespa/",
+    "second_right": "B3 BDI transcrito informa 2.763470%, preco de emissao 10.242504, data-ex 02/01/2015. Nao usar percentual 3.57531927% inconsistente do FRE. Direito vendido no primeiro fechamento disponivel, 08/01/2015, a 1.75, reinvestido no ativo.",
+    "b3_bdi_transcription": "https://ptdocz.com/doc/440744/ibovespa",
+    "qualification": "Prova B3 indireta por transcricao; aviso original de direitos ainda nao arquivado. Emissao deliberada em junho/2015 tem direito apos o corte de 30/06/2015."
+  },
+  "TRPL4": {
+    "source": "b00s_initial_capital_events_fre.json; FRE 56621 aumento 172049",
+    "ratio": 0.05631994,
+    "qualification": "Data-ex 17/07/2014 inferida como pregao seguinte a deliberacao. Monetizacao teorica do direito na primeira cotacao efetiva TRPL2 em 21/07/2014, a 3.95. Nao ha reinvestimento de proventos entre estas datas; deslocar o destacamento dentro desse intervalo nao muda o retorno anual.",
+    "identity": "Historico de distribuicoes sob ISAE4 ligado ao mesmo CNPJ/classe, precos sob TRPL4."
+  },
+  "VIVT4": "Aumento de abril/2015 foi oferta publica/bookbuilding; aumento de maio foi incorporacao GVT. Nao sao bonificacoes. Sem direito VIVT2 cotado nos COTAHIST 2014–junho/2015; nenhuma subscricao facultativa financiada externamente e simulada.",
+  "scope": "20 emissores e pesos iniciais preservados. Reinvestimento teorico bruto na data-ex; direitos vendidos no primeiro fechamento observado, sem aporte, caixa, dinheiro investido ou IR. Esta janela e comum ao B00S B2 e BH+entradas antes da primeira revisao."
+}

@@ -1,0 +1,5 @@
+# Attribution workbook generation and independent workbook validation only.
+XlsxWriter==3.2.5
+openpyxl==3.1.5
+# Imported by the existing frozen-book readers; no pandas arithmetic in attribution.
+pandas>=2.2.3,<4
