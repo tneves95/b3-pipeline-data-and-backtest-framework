@@ -1,5 +1,5 @@
 {
-  "status": "PARTIAL_NOT_FULL_FOUR_PORTFOLIO_STUDY",
+  "status": "FOUR_CONTINUOUS_QUALIFIED_RECONSTRUCTIONS_NOT_FULL_PIT_CERTIFICATION",
   "dates": [
     "2014-06-30",
     "2015-06-30",
@@ -15,36 +15,44 @@
     "2025-06-30",
     "2026-06-30"
   ],
-  "complete_requested_portfolios": 1,
+  "complete_requested_portfolios": 4,
   "full_trajectories_are_qualified_reconstructions": true,
   "complete_benchmark_intervals": 12,
   "conditional_legacy_portfolio_intervals": 12,
-  "annual_numeric_cells": 28,
-  "annual_missing_portfolio_cells": 32,
-  "calculated_portfolio_intervals": 16,
+  "annual_numeric_cells": 60,
+  "annual_missing_portfolio_cells": 0,
+  "calculated_portfolio_intervals": 48,
   "selection_source": "research/returns_2014_2026_selection/established_selections.csv",
-  "baseline_commit": "fc62733",
+  "baseline_commit": "5cf7eb4",
   "monetary_simulation": false,
   "taxes": false,
   "external_contributions": false,
   "inputs": [
     {
-      "path": "research/graham_v6_comparison/execution_v11_2_2026_10_07/direitos_itsa_v11_2/anuais_capital_10000.csv",
-      "sha256": "2002f93662fae4357a65d3fca575520d638bebf6960542d3907f4f786fb0f95f"
+      "path": "research/returns_2014_2026_selection/continuation_immutable_inputs.json",
+      "sha256": "795700bde851a2c99d13d7409a2fe0cad2a874d422bebdac6f9f817b23e7dd95"
     },
     {
-      "path": "research/graham_v6_comparison/checkpoint_v13_2026_10_07/comparacao_anuais_manutencao_v13.csv",
-      "sha256": "31e9f6526f07b67677a313c88f5a898b779604b85e9b26129f6c8ebefa55f9a4"
+      "path": "research/returns_2014_2026_selection/continuation_selection_resolutions.json",
+      "sha256": "e5523001e88e5392bc091659baf43c4ecc6fc724fddf56e5e326c8486a57b57f"
+    },
+    {
+      "path": "research/returns_2014_2026_selection/cache/continuation_events.json.gz",
+      "sha256": "b358941ea340e359bf0532e769cd6a729dfdf18f8440179dd53b35913e9cbae9"
     }
   ],
   "outputs": [
     {
       "path": "annual_excess_pp.csv",
-      "sha256": "da8ee1f10c6488dbec9a879b99a829692bf895ed55bd8db56e38f77b8b4ffdbc"
+      "sha256": "83836e8fc2ef14f9513d5e920e89b785aff789fb7b421a3ad952daf28e9e22cb"
+    },
+    {
+      "path": "annual_ranks.csv",
+      "sha256": "1dddbd2f7d8d214f7ec1844a9175b3c91cd792f3cf249a07432e548be93e7c87"
     },
     {
       "path": "annual_returns_pct.csv",
-      "sha256": "c3303b30416570a3fa28cb1c126a8202ac78f53d06a482ba0e4583da27c3ab0a"
+      "sha256": "044737e7ca69e072bc6234d8a6ca5c451173afecc3aaf7e492aa0b4aa4203945"
     },
     {
       "path": "conditional_legacy_membership_changes.csv",
@@ -60,11 +68,11 @@
     },
     {
       "path": "consolidated_pct.csv",
-      "sha256": "8492f2417f3af4d7b3c375cd24e3b91bd7fc618788be73e5686af1a0e081e0d9"
+      "sha256": "dfeb2fd290182366b4673acb02e6051aaa7bdc765e009ed20a777bd36ffeab2d"
     },
     {
       "path": "cumulative_returns_pct.csv",
-      "sha256": "7a8c38616599927be261727468ee3b8e7045f22d164e1e7c5b51ee16d0024e17"
+      "sha256": "cafa4347cb66ddf0e89091c888f27d19ccc335fc507165eab17885215ed68636"
     },
     {
       "path": "ibov_june_closes.csv",
@@ -72,7 +80,7 @@
     },
     {
       "path": "portfolio_status.csv",
-      "sha256": "0e635f0c891558b4ed106956ed69419d5b3a57e4e36edd08e740a9bfdc1606e2"
+      "sha256": "3d4f28f8a1917d5b2a5d806c5fae593d5249e231721db58e0198631106e38178"
     }
   ]
 }

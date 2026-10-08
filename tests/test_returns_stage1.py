@@ -72,19 +72,21 @@ def test_tables_include_ibov_and_do_not_mislabel_legacy_fragments():
         assert len(rows) == 12
         assert all(all(n in r for n in m.NAMES) for r in rows)
         assert all(r['R03 B2'] for r in rows[:2])
-        assert all(r['R03 B2']=='' for r in rows[2:])
+        assert all(r['R03 B2'] for r in rows[2:])
         assert all(rows[0][n] for n in m.NAMES[1:3])
-        assert all(all(r[n] == "" for n in m.NAMES[1:3]) for r in rows[1:])
+        assert all(all(r[n] for n in m.NAMES[1:3]) for r in rows[1:])
         assert all(r['BH padrão'] for r in rows)
         assert all(r["IBOV"] for r in rows)
 
 
-def test_new_segments_chain_from_2014_and_stop_at_first_gap():
+def test_new_segments_chain_from_2014_without_resetting_at_2020():
     annual=m.read(m.OUTPUT/'annual_returns_pct.csv')
     accumulated=m.read(m.OUTPUT/'cumulative_returns_pct.csv')
     expected=100*((1+float(annual[0]['R03 B2'])/100)*(1+float(annual[1]['R03 B2'])/100)-1)
     assert float(accumulated[1]['R03 B2'])==pytest.approx(expected)
-    assert accumulated[2]['R03 B2']=='' and accumulated[-1]['R03 B2']==''
+    for name in m.NAMES:
+        expected=m.chain([float(r[name])/100 for r in annual])
+        assert [float(r[name])/100 for r in accumulated]==pytest.approx(expected)
 
 
 def test_ibov_cumulative_matches_independent_endpoint_ratio():

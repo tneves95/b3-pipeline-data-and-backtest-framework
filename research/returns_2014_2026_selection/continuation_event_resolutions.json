@@ -1,0 +1,318 @@
+[
+  {
+    "id": "GUAR_SPLIT_20190502",
+    "ticker": "GUAR3",
+    "ex_date": "2019-05-02",
+    "kind": "SHARES",
+    "factor": 8,
+    "source": "continuation_capital_events_fre.json; FRE 94423 desdobramento 23682; COTAHIST quotation break",
+    "qualification": "Ex-date is first session after 2019-04-30 approval, corroborated by COTAHIST; no distribution intervenes."
+  },
+  {
+    "id": "GETI_TIET_20160104",
+    "ticker": "GETI4",
+    "ex_date": "2016-01-04",
+    "kind": "CONVERSION",
+    "legs": [
+      [
+        "TIET11",
+        1
+      ]
+    ],
+    "source": "https://www.santander.com.br/document/wps/AEST_TIETE_AVISO_AO_MERCADO_WEBSITE.PDF; p18; COTAHIST last GETI 2015-12-30, first TIET 2016-01-04",
+    "qualification": "Units represent the inherited 1ON+4PN bundle; no elective rebalance."
+  },
+  {
+    "id": "TIET_AESB_20210329_TIET3",
+    "ticker": "TIET3",
+    "ex_date": "2021-03-29",
+    "kind": "CONVERSION",
+    "legs": [
+      [
+        "AESB3",
+        0.2
+      ]
+    ],
+    "source": "https://s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/valorri-uploads/bs/2022/L/V/FifA9TTYS7Ll9x2AUc4A/aes-brasil-15607669-05032022-certificado.pdf; reorganization; COTAHIST"
+  },
+  {
+    "id": "TIET_AESB_20210329_TIET4",
+    "ticker": "TIET4",
+    "ex_date": "2021-03-29",
+    "kind": "CONVERSION",
+    "legs": [
+      [
+        "AESB3",
+        0.2
+      ]
+    ],
+    "source": "https://s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/valorri-uploads/bs/2022/L/V/FifA9TTYS7Ll9x2AUc4A/aes-brasil-15607669-05032022-certificado.pdf; reorganization; COTAHIST"
+  },
+  {
+    "id": "AESB_AURE_20241101",
+    "ticker": "AESB3",
+    "ex_date": "2024-11-01",
+    "kind": "CONVERSION",
+    "legs": [
+      [
+        "AURE3",
+        0.67498865568
+      ]
+    ],
+    "amount": 1.1843883261,
+    "source": "originals/aes_auren_2024.bin.gz; B3 OC143/2024; default option1"
+  },
+  {
+    "id": "EDP_REDEMPTION_20230913",
+    "ticker": "ENBR3",
+    "ex_date": "2023-09-13",
+    "kind": "REDEMPTION",
+    "amount": 24.23,
+    "source": "originals/edp_redemption_2023.bin.gz",
+    "qualification": "Compulsory redemption. Index entitlement redistributed proportionally to surviving holdings on actual redemption payment date; no idle balance."
+  },
+  {
+    "id": "CPLE_PNB_PNA_20251110",
+    "ticker": "CPLE6",
+    "ex_date": "2025-11-10",
+    "kind": "CONVERSION",
+    "legs": [
+      [
+        "CPLE5",
+        1
+      ]
+    ],
+    "source": "https://www.sec.gov/Archives/edgar/data/1041792/000129281425003781/elp20251104_6k.htm"
+  },
+  {
+    "id": "CPLE_PNA_ON_20251222",
+    "ticker": "CPLE5",
+    "ex_date": "2025-12-22",
+    "kind": "CONVERSION",
+    "legs": [
+      [
+        "CPLE3",
+        1
+      ]
+    ],
+    "amount": 0.7749,
+    "source": "B3 CL055/2025-VNC https://b3.com.br/data/files/50/05/93/F6/AFAEA9105B12E5A9AC094EA8/CL%20055-2025-VNC%20TRATAMENTO%20DAS%20POSICOES%20GARANTIAS%20E%20DAS%20CARTEIRAS%20DE%20%C3%8DNDICES%20EM%20VIRTUDE%20DA%20CONVERSAO_%20EN.pdf"
+  },
+  {
+    "id": "CPLE6_SPLIT_20210312",
+    "ticker": "CPLE6",
+    "ex_date": "2021-03-12",
+    "kind": "SHARES",
+    "factor": 10,
+    "replace_dates": [
+      "2021-03-12"
+    ],
+    "source": "CPLE_RI; B3; same capital event as frozen CPLE3 v12"
+  },
+  {
+    "id": "CPFE_BONUS_20160502",
+    "ticker": "CPFE3",
+    "ex_date": "2016-05-02",
+    "kind": "SHARES",
+    "factor": 1.0250757045,
+    "replace_dates": [
+      "2016-05-02"
+    ],
+    "source": "b00s_initial_capital_events_fre.json; FRE 2.50757045% approved 2016-04-29",
+    "qualification": "Ex date first session after approval; verify no intervening distribution."
+  },
+  {
+    "id": "TIET_AESB_20210329_UNIT",
+    "ticker": "TIET11",
+    "ex_date": "2021-03-29",
+    "kind": "CONVERSION",
+    "legs": [
+      [
+        "AESB3",
+        1
+      ]
+    ],
+    "source": "https://s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/valorri-uploads/bs/2022/L/V/FifA9TTYS7Ll9x2AUc4A/aes-brasil-15607669-05032022-certificado.pdf; reorganization; COTAHIST"
+  },
+  {
+    "id": "TIMP_GROSS_2016-04-13",
+    "ticker": "TIMP3",
+    "ex_date": "2016-04-13",
+    "kind": "DISTRIBUTION",
+    "amount": 0.1936,
+    "source": "research/graham_v6_comparison/audit_v13_inputs/documents/TIM_DIV.html.gz",
+    "qualification": "2016/17 table rounds to four decimals; following B3 session after record-date column."
+  },
+  {
+    "id": "TIMP_GROSS_2017-04-20",
+    "ticker": "TIMP3",
+    "ex_date": "2017-04-20",
+    "kind": "DISTRIBUTION",
+    "amount": 0.0614,
+    "source": "research/graham_v6_comparison/audit_v13_inputs/documents/TIM_DIV.html.gz",
+    "qualification": "2016/17 table rounds to four decimals; following B3 session after record-date column."
+  },
+  {
+    "id": "TIMP_GROSS_2017-11-16",
+    "ticker": "TIMP3",
+    "ex_date": "2017-11-16",
+    "kind": "DISTRIBUTION",
+    "amount": 0.0785,
+    "source": "research/graham_v6_comparison/audit_v13_inputs/documents/TIM_DIV.html.gz",
+    "qualification": "2016/17 table rounds to four decimals; following B3 session after record-date column."
+  },
+  {
+    "id": "TIMP_GROSS_2018-04-20",
+    "ticker": "TIMP3",
+    "ex_date": "2018-04-20",
+    "kind": "DISTRIBUTION",
+    "amount": 0.042690439,
+    "source": "research/graham_v6_comparison/audit_v13_inputs/documents/TIM_DIV.html.gz",
+    "qualification": "2016/17 table rounds to four decimals; following B3 session after record-date column."
+  },
+  {
+    "id": "TIMP_GROSS_2018-05-14",
+    "ticker": "TIMP3",
+    "ex_date": "2018-05-14",
+    "kind": "DISTRIBUTION",
+    "amount": 0.095040657,
+    "source": "research/graham_v6_comparison/audit_v13_inputs/documents/TIM_DIV.html.gz",
+    "qualification": "2016/17 table rounds to four decimals; following B3 session after record-date column."
+  },
+  {
+    "id": "TIMP_GROSS_2018-07-26",
+    "ticker": "TIMP3",
+    "ex_date": "2018-07-26",
+    "kind": "DISTRIBUTION",
+    "amount": 0.099162742,
+    "source": "research/graham_v6_comparison/audit_v13_inputs/documents/TIM_DIV.html.gz",
+    "qualification": "2016/17 table rounds to four decimals; following B3 session after record-date column."
+  },
+  {
+    "id": "TIMP_GROSS_2019-01-03",
+    "ticker": "TIMP3",
+    "ex_date": "2019-01-03",
+    "kind": "DISTRIBUTION",
+    "amount": 0.156997806,
+    "source": "research/graham_v6_comparison/audit_v13_inputs/documents/TIM_DIV.html.gz",
+    "qualification": "2016/17 table rounds to four decimals; following B3 session after record-date column."
+  },
+  {
+    "id": "TIMP_GROSS_2019-08-12",
+    "ticker": "TIMP3",
+    "ex_date": "2019-08-12",
+    "kind": "DISTRIBUTION",
+    "amount": 0.152419292,
+    "source": "research/graham_v6_comparison/audit_v13_inputs/documents/TIM_DIV.html.gz",
+    "qualification": "2016/17 table rounds to four decimals; following B3 session after record-date column."
+  },
+  {
+    "id": "TIMP_GROSS_2019-10-08",
+    "ticker": "TIMP3",
+    "ex_date": "2019-10-08",
+    "kind": "DISTRIBUTION",
+    "amount": 0.156471242,
+    "source": "research/graham_v6_comparison/audit_v13_inputs/documents/TIM_DIV.html.gz",
+    "qualification": "2016/17 table rounds to four decimals; following B3 session after record-date column."
+  },
+  {
+    "id": "TIMP_GROSS_2020-01-20",
+    "ticker": "TIMP3",
+    "ex_date": "2020-01-20",
+    "kind": "DISTRIBUTION",
+    "amount": 0.102353024,
+    "source": "research/graham_v6_comparison/audit_v13_inputs/documents/TIM_DIV.html.gz",
+    "qualification": "2016/17 table rounds to four decimals; following B3 session after record-date column."
+  },
+  {
+    "id": "AXIA_PNC_20251222",
+    "ticker": "ELET3",
+    "ex_date": "2025-12-22",
+    "kind": "SPINOFF",
+    "successor": "AXIA7",
+    "ratio": 0.2628378881074,
+    "source": "https://mzgroup.com.br/fatosrelevantes/fato-relevante-aprovacao-integral-das-materias-da-age/"
+  },
+  {
+    "id": "NEOE_REDEMPTION_20260515",
+    "ticker": "NEOE3",
+    "ex_date": "2026-05-15",
+    "kind": "REDEMPTION",
+    "amount": 34.02,
+    "source": "Issuer notice dated 2026-05-13 https://investidor10.com.br/acoes/link_comunicado/NEOE3/42178/",
+    "qualification": "Compulsory redemption; same proportional index redistribution as ENBR."
+  },
+  {
+    "id": "CSMG_SPLIT_20201126",
+    "ticker": "CSMG3",
+    "ex_date": "2020-11-26",
+    "kind": "SHARES",
+    "factor": 3,
+    "source": "https://ri.copasa.com.br/informacoes-financeiras/dividendos/; continuation_capital_events_fre.json"
+  },
+  {
+    "id": "LIGT_NET_NEUTRAL_20210628",
+    "ticker": "LIGT3",
+    "ex_date": "2021-06-28",
+    "kind": "SHARES",
+    "factor": 1,
+    "replace_dates": [
+      "2021-06-28"
+    ],
+    "source": "continuation_capital_events_fre.json; same-day reverse split and split net 1; nominal prices corroborate"
+  },
+  {
+    "id": "LIGT_RIGHT_20260520",
+    "ticker": "LIGT3",
+    "ex_date": "2026-05-20",
+    "kind": "RIGHT",
+    "successor": "LIGT1",
+    "ratio": 0.64010296629,
+    "source": "https://api.mziq.com/mzfilemanager/v2/d/50b51302-4c48-4351-b296-bfcbe65fd70a/d20ec8b4-d8be-2a6f-bb53-943e312fa046?origin=2"
+  },
+  {
+    "id": "LIGT_RIGHT_REALIZE_2026",
+    "ticker": "LIGT1",
+    "ex_date": "2026-05-20",
+    "kind": "RIGHT_REINVEST",
+    "successor": "LIGT3",
+    "source": "COTAHIST; first negotiated right; index fractions"
+  },
+  {
+    "id": "GETI_DIST_20150810",
+    "ticker": "GETI4",
+    "ex_date": "2015-08-10",
+    "kind": "DISTRIBUTION",
+    "amount": 0.3712,
+    "source": "https://www.fundamentus.com.br/proventos.php?interface=mobile&papel=geti4&tipo=2",
+    "qualification": "Historical four-decimal corroboration; CVM51290 identified but download reset. +/-0.00005 rounding sensitivity, distinct from source certification."
+  },
+  {
+    "id": "IRBR_SPLIT_20190926",
+    "ticker": "IRBR3",
+    "ex_date": "2019-09-26",
+    "kind": "SHARES",
+    "factor": 3,
+    "replace_dates": [
+      "2019-09-26"
+    ],
+    "source": "continuation_irb_capital_fre.json; COTAHIST ex-date"
+  },
+  {
+    "id": "IRBR_RIGHT_20200714",
+    "ticker": "IRBR3",
+    "ex_date": "2020-07-14",
+    "kind": "RIGHT",
+    "successor": "IRBR1",
+    "ratio": 0.35938828,
+    "source": "https://mz-prod-cvm.s3.amazonaws.com/24180/IPE/2020/07c8e745-6838-42ce-a258-76ed0a75a731/20200709223717127593_24180_775149.pdf"
+  },
+  {
+    "id": "IRBR_RIGHT_REALIZE_20200714",
+    "ticker": "IRBR1",
+    "ex_date": "2020-07-14",
+    "kind": "RIGHT_REINVEST",
+    "successor": "IRBR3",
+    "source": "COTAHIST first negotiated close"
+  }
+]

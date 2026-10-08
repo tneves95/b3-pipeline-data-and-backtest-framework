@@ -96,17 +96,13 @@ def table(headers, rows):
 
 def main():
     OUTPUT.mkdir(parents=True, exist_ok=True)
-    sources = json.loads((INPUT / "b3/sources.json").read_text())
-    closes = []
-    for source in sources:
-        path = INPUT / "b3" / source["path"]
-        assert hashlib.sha256(path.read_bytes()).hexdigest() == source["sha256"]
-        day, level = june_close(json.loads(path.read_text()), source["year"])
-        closes.append(dict(year=source["year"], date=day, ibov_points=level, source=source["url"], sha256=source["sha256"]))
-    closes.sort(key=lambda r: r["year"])
-    assert [r["year"] for r in closes] == list(range(2014, 2027))
-    assert closes[-1]["date"] == "2026-06-30"
-    write(OUTPUT / "ibov_june_closes.csv", closes)
+    # Accepted benchmark is read verbatim; no recollection or recomputation of closes.
+    from stage1_continuation_audit import verify_frozen
+    verify_frozen()
+    closes = read(OUTPUT / "ibov_june_closes.csv")
+    for r in closes:
+        r['year'] = int(r['year']); r['ibov_points'] = float(r['ibov_points'])
+    assert [r['year'] for r in closes] == list(range(2014, 2027))
     benchmark = [b["ibov_points"]/a["ibov_points"]-1 for a, b in zip(closes, closes[1:])]
     series = {name: [None]*12 for name in NAMES[:-1]} | {"IBOV": benchmark}
     established = read(ROOT / "research/returns_2014_2026_selection/established_segments_pct.csv")
@@ -119,7 +115,9 @@ def main():
     calculation_status = {(r['portfolio'], int(r['year'])):r['return_status'] for r in established}
     for filename, expected in [
         ('bh_annual_pct.csv','GROSS_CONTINUOUS_OWNED_RIGHTS'),
-        ('b00s_initial_pct.csv','EXPLORATORY_DIRECTED_EVENTS_WITH_DISCLOSED_RIGHT_ASSUMPTIONS')]:
+        ('b00s_initial_pct.csv','EXPLORATORY_DIRECTED_EVENTS_WITH_DISCLOSED_RIGHT_ASSUMPTIONS'),
+        *[(stem+'_pct.csv','CONTINUOUS_QUALIFIED_RECONSTRUCTION') for stem in
+          ('r03_continuation','b00s_b2_continuation','b00s_bh_continuation')]]:
         for r in read(ROOT/'research/returns_2014_2026_selection'/filename):
             i=int(r['year'])-2014
             assert r['start']==closes[i]['date'] and r['end']==closes[i+1]['date']
@@ -143,57 +141,39 @@ def main():
             ex[n+"_minus_IBOV_pp"] = None if series[n][i] is None else 100*(series[n][i]-benchmark[i])
             statuses.append(base | dict(portfolio=n, status=calculation_status.get((n,2014+i),'PENDING_SELECTION_OR_EVENTS'),
                 reason=("Ranking 2014 com convencoes de classes explicitadas; eventos e direitos continuos" if n=='BH padrão' else
-                        "Exploratorio: selecao estabelecida; fontes dirigidas e ressalvas documentadas") if series[n][i] is not None else reasons[n]))
+                        "Reconstrucao qualificada: sem nova entrada INDETERMINATE; continuidade, fontes e sensibilidades publicadas") if series[n][i] is not None else reasons[n]))
         excess.append(ex)
     write(OUTPUT / "annual_returns_pct.csv", annual)
     write(OUTPUT / "cumulative_returns_pct.csv", accumulated)
     write(OUTPUT / "annual_excess_pp.csv", excess)
     write(OUTPUT / "portfolio_status.csv", statuses)
     stats = [dict(portfolio=n) | summary(series[n], benchmark, closes[0]["date"], closes[-1]["date"], n=="IBOV") for n in NAMES]
-    # Rankings require all five comparable trajectories; IBOV alone is not a winner.
+    ranks=[]
+    for row in annual:
+        ordered=sorted(NAMES,key=lambda n:row[n],reverse=True)
+        ranks.append({k:row[k] for k in ('period','start','end')} |
+                     {n:1+sum(row[u]>row[n] for u in ordered) for n in NAMES})
+    write(OUTPUT/'annual_ranks.csv',ranks)
+    for r in stats:
+        n=r['portfolio']
+        r['mean_rank']=statistics.mean(row[n] for row in ranks)
+        r['final_rank']=1+sum(other['total_return_pct']>r['total_return_pct'] for other in stats)
+        if n!='IBOV':
+            r['consistency_rank']=1+sum(other['above_ibov_years']>r['above_ibov_years']
+                for other in stats if other['portfolio']!='IBOV')
     write(OUTPUT / "consolidated_pct.csv", stats)
 
-    # Recompute percentage comparisons for inherited windows; not a new starting cohort.
-    graham_path = LEGACY / "execution_v11_2_2026_10_07/direitos_itsa_v11_2/anuais_capital_10000.csv"
-    barsi_path = LEGACY / "checkpoint_v13_2026_10_07/comparacao_anuais_manutencao_v13.csv"
-    gr = {int(r["year"]): r for r in read(graham_path)}
-    br = {int(r["year"]): r for r in read(barsi_path) if r["strategy"] == "B00S" and r["scenario"] == "central"
-          and r["mechanism"] == "annual" and r["experiment"] == "v12_plus_v13"}
-    assert set(gr) == set(br) == set(range(2020, 2026))
-    segments = []
-    for y in range(2020, 2026):
-        i = y - 2014
-        assert gr[y]["start"] == closes[i]["date"] and gr[y]["end"] == closes[i+1]["date"]
-        g, b = float(gr[y]["R03"]), float(br[y]["central_return"])
-        segments.append(dict(period=f"{y}–{y+1}", start=closes[i]["date"], end=closes[i+1]["date"],
-            R03_inherited_pct=100*g, B00S_inherited_pct=100*b, IBOV_pct=100*benchmark[i],
-            R03_minus_IBOV_pp=100*(g-benchmark[i]), B00S_minus_IBOV_pp=100*(b-benchmark[i]),
-            status="CONDITIONAL_LEGACY_REFERENCE_NOT_VALIDATED_STAGE1",
-            R03_source=str(graham_path.relative_to(ROOT)), B00S_source=str(barsi_path.relative_to(ROOT))))
-    write(OUTPUT / "conditional_legacy_segments_pct.csv", segments)
-
-    # Existing selections, with known years explicitly scoped and previous history unknown.
-    weights = [r for r in read(LEGACY / "execution_v11_2_2026_10_07/carteiras_selecionadas_768_posicoes.csv")
-               if (r["strategy"], r["scenario"]) in [("R03", "corrigido"), ("B00S", "central")]]
-    write(OUTPUT / "conditional_legacy_weights.csv", weights)
-    changes = []
-    for strategy in ("R03", "B00S"):
-        previous = None
-        for y in range(2020,2026):
-            current = {r["ticker"] for r in weights if r["strategy"] == strategy and int(r["year"]) == y}
-            assert math.isclose(sum(float(r["weight"]) for r in weights if r["strategy"] == strategy and int(r["year"]) == y), 1, abs_tol=1e-12)
-            changes.append(dict(year=y, strategy=strategy, members=";".join(sorted(current)),
-                additions=None if previous is None else ";".join(sorted(current-previous)),
-                removals=None if previous is None else ";".join(sorted(previous-current)),
-                status="PREVIOUS_SELECTION_UNKNOWN" if previous is None else "LEGACY_TICKER_DIFF_REQUIRES_ISSUER_CONTINUITY"))
-            previous = current
-    write(OUTPUT / "conditional_legacy_membership_changes.csv", changes)
+    # Accepted legacy artifacts remain references and are never rewritten.
+    segments=read(OUTPUT/'conditional_legacy_segments_pct.csv')
+    for r in segments:
+        for k in ('R03_inherited_pct','B00S_inherited_pct','IBOV_pct'):
+            r[k]=float(r[k])
 
     from stage1_report import render
     total = stats[-1]
     report = render(annual, accumulated, stats, segments, NAMES, pct, table)
     (ROOT / "docs/checkpoint_returns_2014_2026_stage1.md").write_text("\n".join(report), encoding="utf-8")
-    manifest = dict(status="PARTIAL_NOT_FULL_FOUR_PORTFOLIO_STUDY", dates=[r['date'] for r in closes],
+    manifest = dict(status="FOUR_CONTINUOUS_QUALIFIED_RECONSTRUCTIONS_NOT_FULL_PIT_CERTIFICATION", dates=[r['date'] for r in closes],
         complete_requested_portfolios=sum(all(r is not None for r in series[n]) for n in NAMES[:-1]),
         full_trajectories_are_qualified_reconstructions=True,
         complete_benchmark_intervals=12, conditional_legacy_portfolio_intervals=12,
@@ -201,9 +181,11 @@ def main():
         annual_missing_portfolio_cells=sum(r is None for n in NAMES[:-1] for r in series[n]),
         calculated_portfolio_intervals=sum(r is not None for n in NAMES[:-1] for r in series[n]),
         selection_source="research/returns_2014_2026_selection/established_selections.csv",
-        baseline_commit="fc62733", monetary_simulation=False, taxes=False, external_contributions=False,
+        baseline_commit="5cf7eb4", monetary_simulation=False, taxes=False, external_contributions=False,
         inputs=[dict(path=str(p.relative_to(ROOT)),sha256=hashlib.sha256(p.read_bytes()).hexdigest())
-                for p in [graham_path,barsi_path]],
+                for p in [ROOT/"research/returns_2014_2026_selection/continuation_immutable_inputs.json",
+                          ROOT/"research/returns_2014_2026_selection/continuation_selection_resolutions.json",
+                          ROOT/"research/returns_2014_2026_selection/cache/continuation_events.json.gz"]],
         outputs=[dict(path=p.name,sha256=hashlib.sha256(p.read_bytes()).hexdigest()) for p in sorted(OUTPUT.glob('*.csv'))])
     (OUTPUT / "manifest.json").write_text(json.dumps(manifest, indent=2, ensure_ascii=False)+"\n")
     print(json.dumps(total,ensure_ascii=False,indent=2))
