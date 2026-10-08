@@ -6,395 +6,302 @@
     "cnpj": "02474103000119",
     "company": "TRACTEBEL ENERGIA SA",
     "sector": "Energia",
-    "category": "INDETERMINATE",
+    "category": "QUALIFIED_SATISFACTORY",
+    "assessment_status": "ASSESSED",
     "dimensions": {
       "durability": {
-        "status": "INDETERMINATE",
-        "favorable": "GERAÇÃO E COMERCIALIZAÇÃO DE ENERGIA ELÉTRICA",
-        "missing": "Historical concession/contract durability, competitive position and pricing power",
+        "status": "SATISFACTORY",
+        "reason": "Long-lived operating generation assets, an established national selling organization and inflation-linked medium/long contracts support durable cash generation; protection concerns sales visibility, not guaranteed physical supply.",
+        "favorable": "24 operating plants across12 states;6,964.7MW own installed capacity and approximately6% of national capacity. Q1 contracted availability96.6% for2014,98.3% for2015 and93.5% for2016. Existing contracts reprice for inflation;1Q14 selling price+6.0%.",
+        "contrary_evidence": "Hydro accounts for79.8%; MRE pools but does not remove system hydrology risk. Q1 PLD and purchases demonstrate actual exposure; thermal fuel and environmental obligations remain.",
+        "missing": "",
         "evidence": [
           {
-            "cnpj": "02474103000119",
-            "received": "2014-05-06",
-            "name": "TRACTEBEL ENERGIA SA",
-            "sector": "Energia Elétrica",
-            "activity": "GERAÇÃO E COMERCIALIZAÇÃO DE ENERGIA ELÉTRICA",
-            "cvm": "017329",
-            "docid": "36729",
-            "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=36729"
+            "docid": "34713",
+            "group": 412,
+            "pages": [
+              1,
+              82,
+              97
+            ],
+            "received": "2014-02-20",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34713",
+            "original": "review_originals/cvm_34713_g412.pdf.gz",
+            "original_sha256": "d58f7cd2c9305805f9bcecc3270a5a0eff1c0e8c939149933453615cadca8eda"
+          },
+          {
+            "docid": "34713",
+            "group": 1653,
+            "pages": [
+              4,
+              11
+            ],
+            "received": "2014-02-20",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34713",
+            "original": "review_originals/cvm_34713_g1653.pdf.gz",
+            "original_sha256": "a91d104d11ce51d49872f2e6bb1d819bcb5efe0806cc60fca3504acd82ead428"
+          },
+          {
+            "docid": "36427",
+            "group": 193,
+            "pages": [
+              53
+            ],
+            "received": "2014-04-25",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36427",
+            "original": "review_originals/cvm_36427_g193.pdf.gz",
+            "original_sha256": "23434b4cbac198aeb04ab75081fe44229a7fc31f29cdf2e9fb0831111b9cb653"
+          },
+          {
+            "docid": "36427",
+            "group": 192,
+            "pages": [
+              1,
+              3,
+              4
+            ],
+            "received": "2014-04-25",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36427",
+            "original": "review_originals/cvm_36427_g192.pdf.gz",
+            "original_sha256": "9c403f8dab1a91a6654b757b8d2f0ecc3bb4852abbfaafdc43aae82f22e241ba"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       },
       "capital_economics": {
-        "status": "INDETERMINATE",
-        "favorable": {
-          "roe_parent_5": [
-            null,
-            0.25450180702418423,
-            0.2751985734742053,
-            0.2722894918497431,
-            0.26445394657065796
-          ],
-          "normalized_profit": 1494728433.9625368
-        },
-        "missing": "Cycle-normalized ROIC/incremental returns or risk-adjusted prudential ROE; historical peer/capital comparison",
+        "status": "SATISFACTORY",
+        "reason": "Demonstrated operating economics through varying conditions are satisfactory. Reported ROCE is explicitly EBIT/noncurrent assets, not after-tax ROIC, and is considered with margins, adjusted profit and the actual Q1 shock; no new universal hurdle is introduced.",
+        "favorable": "2011–2013 ROCE22.9%,24.7%,23.1%;2013 EBIT2,387.2m, EBITDA3,042.6m and after-tax attributed profit after identified gains1,384.412m. Debt cost8.1% disclosed, not confused with WACC. Even Q1 under stress retains EBIT546.426m and EBITDA694.139m.",
+        "contrary_evidence": "EBIT fell6.0% in2013 and Q1 net income31.9%; capital-intensive assets depend on regulated dispatch, purchased energy and concession obligations. The operating-return series does not certify the VVAL reinvestor channel.",
+        "missing": "",
         "evidence": [
           {
-            "fiscal_year": 2009,
-            "metric": "attributable_ni",
-            "value": 1090867000.0,
-            "docid": "6427",
-            "received": "2011-04-08",
-            "reference": "2010-12-31",
-            "period_end": "2009-12-31",
-            "perimeter": "con",
-            "account": "3.11.01",
-            "description": "Atribuído a Sócios da Empresa Controladora",
-            "source": "dfp_cia_aberta_DRE_con_2010.csv",
-            "archive_sha256": "c6a9c95c2510e8a71bb583084492e9c52c3f423a3be56f1c5d2dd4f6960677ff",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2010.zip"
-          },
-          {
-            "fiscal_year": 2010,
-            "metric": "attributable_ni",
-            "value": 1211649000.0,
-            "docid": "14145",
-            "received": "2012-02-07",
-            "reference": "2011-12-31",
-            "period_end": "2010-12-31",
-            "perimeter": "con",
-            "account": "3.11.01",
-            "description": "Atribuído a Sócios da Empresa Controladora",
-            "source": "dfp_cia_aberta_DRE_con_2011.csv",
-            "archive_sha256": "858423fba40124d7a30abea4e70248f7251e1d2c792e9fcece5a57afd3115f34",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2011.zip"
-          },
-          {
-            "fiscal_year": 2011,
-            "metric": "attributable_ni",
-            "value": 1447636000.0,
-            "docid": "24153",
-            "received": "2013-02-07",
-            "reference": "2012-12-31",
-            "period_end": "2011-12-31",
-            "perimeter": "con",
-            "account": "3.11.01",
-            "description": "Atribuído a Sócios da Empresa Controladora",
-            "source": "dfp_cia_aberta_DRE_con_2012.csv",
-            "archive_sha256": "3aff7a726d324d29924887eed45bbc58bc30b66cd9079bafe701d55efdfe0849",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2012.zip"
-          },
-          {
-            "fiscal_year": 2012,
-            "metric": "attributable_ni",
-            "value": 1490454000.0,
             "docid": "34713",
+            "group": 1653,
+            "pages": [
+              12,
+              16,
+              19,
+              21,
+              22
+            ],
             "received": "2014-02-20",
-            "reference": "2013-12-31",
-            "period_end": "2012-12-31",
-            "perimeter": "con",
-            "account": "3.11.01",
-            "description": "Atribuído a Sócios da Empresa Controladora",
-            "source": "dfp_cia_aberta_DRE_con_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34713",
+            "original": "review_originals/cvm_34713_g1653.pdf.gz",
+            "original_sha256": "a91d104d11ce51d49872f2e6bb1d819bcb5efe0806cc60fca3504acd82ead428"
           },
           {
-            "fiscal_year": 2013,
-            "metric": "attributable_ni",
-            "value": 1436112000.0,
-            "docid": "34713",
-            "received": "2014-02-20",
-            "reference": "2013-12-31",
-            "period_end": "2013-12-31",
-            "perimeter": "con",
-            "account": "3.11.01",
-            "description": "Atribuído a Sócios da Empresa Controladora",
-            "source": "dfp_cia_aberta_DRE_con_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+            "docid": "36427",
+            "group": 192,
+            "pages": [
+              3,
+              4,
+              5,
+              6
+            ],
+            "received": "2014-04-25",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36427",
+            "original": "review_originals/cvm_36427_g192.pdf.gz",
+            "original_sha256": "9c403f8dab1a91a6654b757b8d2f0ecc3bb4852abbfaafdc43aae82f22e241ba"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       },
       "earnings_reliability": {
-        "status": "INDETERMINATE",
-        "favorable": {
-          "positive_attributable_years": 5,
-          "audit_records": 4
-        },
-        "missing": "Profit/cash/recurring earnings bridge; provisions and extraordinary items reviewed in dated notes",
+        "status": "SATISFACTORY",
+        "reason": "The issuer reconciles material accounting and one-off items, distinguishes cost/volume/price drivers and recognizes impairment and disputed costs. These allow a credible recurring analysis without assuming that volatility is an accounting flaw.",
+        "favorable": "2012 IAS19 profit bridge is explicit;2013 net nonrecurring gains51.7m are quantified, thermal impairment49.4m is retained, and54.5m CNPE costs remain recognized despite an injunction. Q1 CCEE swing−143.6m is disclosed rather than hidden by revenue growth. KPMG unqualified fiscal audit reviewed in the CVM dated audit extract.",
+        "contrary_evidence": "CCEE combines different credit/debit components in one settlement; hydrological volatility and remaining disputes affect future accounting estimates. Market and operational nonfinancial data are not audited in the same sense as financial statements.",
+        "missing": "",
         "evidence": [
           {
             "docid": "34713",
+            "group": 412,
+            "pages": [
+              16,
+              17
+            ],
             "received": "2014-02-20",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34713",
+            "original": "review_originals/cvm_34713_g412.pdf.gz",
+            "original_sha256": "d58f7cd2c9305805f9bcecc3270a5a0eff1c0e8c939149933453615cadca8eda"
           },
           {
             "docid": "34713",
+            "group": 1653,
+            "pages": [
+              16,
+              19,
+              33
+            ],
             "received": "2014-02-20",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34713",
+            "original": "review_originals/cvm_34713_g1653.pdf.gz",
+            "original_sha256": "a91d104d11ce51d49872f2e6bb1d819bcb5efe0806cc60fca3504acd82ead428"
           },
           {
-            "docid": "34713",
-            "received": "2014-02-20",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
-          },
-          {
-            "docid": "34713",
-            "received": "2014-02-20",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+            "docid": "36427",
+            "group": 192,
+            "pages": [
+              3,
+              4,
+              5,
+              6
+            ],
+            "received": "2014-04-25",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36427",
+            "original": "review_originals/cvm_36427_g192.pdf.gz",
+            "original_sha256": "9c403f8dab1a91a6654b757b8d2f0ecc3bb4852abbfaafdc43aae82f22e241ba"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       },
       "financial_resilience": {
-        "status": "INDETERMINATE",
-        "favorable": {
-          "parent_equity_latest": 5361373000.0
-        },
-        "missing": "Debt maturity, interest coverage and committed maintenance/expansion CAPEX",
+        "status": "SATISFACTORY",
+        "reason": "Liquidity, debt maturity and stated covenant compliance support resilience under the already observed Q1 operating downturn. This is a solvency assessment, not a claim that returns are insensitive to drought.",
+        "favorable": "Dec2013 net debt2,271.2m and gross debt/EBITDA1.1; March2014 cash1,132.671m, loans3,406.992m of which354.360m current, and debentures180.786m current. Borrowing and debenture covenants complied with at both dates; new USD100m loan fully swapped to97% CDI.",
+        "contrary_evidence": "Funding expands in Q1; concession liabilities1,653.818m are additional to gross financial loans and debentures. Residual foreign-currency exposure and hydrological costs remain; cash should not be treated as sufficient for every imaginable shock.",
+        "missing": "",
         "evidence": [
           {
             "docid": "34713",
+            "group": 1653,
+            "pages": [
+              12,
+              20,
+              21
+            ],
             "received": "2014-02-20",
-            "reference": "2013-12-31",
-            "period_end": "2013-12-31",
-            "perimeter": "ind",
-            "account": "2.03",
-            "description": "Patrimônio Líquido",
-            "source": "dfp_cia_aberta_BPP_ind_2013.csv",
-            "archive_sha256": "",
-            "url": ""
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34713",
+            "original": "review_originals/cvm_34713_g1653.pdf.gz",
+            "original_sha256": "a91d104d11ce51d49872f2e6bb1d819bcb5efe0806cc60fca3504acd82ead428"
+          },
+          {
+            "docid": "34713",
+            "group": 412,
+            "pages": [
+              49,
+              50
+            ],
+            "received": "2014-02-20",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34713",
+            "original": "review_originals/cvm_34713_g412.pdf.gz",
+            "original_sha256": "d58f7cd2c9305805f9bcecc3270a5a0eff1c0e8c939149933453615cadca8eda"
+          },
+          {
+            "docid": "36427",
+            "group": 193,
+            "pages": [
+              5,
+              20,
+              21,
+              23,
+              24
+            ],
+            "received": "2014-04-25",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36427",
+            "original": "review_originals/cvm_36427_g193.pdf.gz",
+            "original_sha256": "23434b4cbac198aeb04ab75081fe44229a7fc31f29cdf2e9fb0831111b9cb653"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       },
       "capital_allocation": {
-        "status": "INDETERMINATE",
-        "favorable": {
-          "historical_payout": [
-            0.5712008631,
-            0.55,
-            1.0,
-            1.0,
-            null
-          ],
-          "distributions": [
-            623918804.02,
-            664369766.0,
-            1429345876.95,
-            1546389377.36,
-            null
-          ]
-        },
-        "missing": "Maintenance versus expansion CAPEX, sustainable dividends, adjusted per-share and incremental economic growth",
+        "status": "SATISFACTORY",
+        "reason": "Actual maintenance/expansion spending, operating asset delivery and reduction of2013 net debt accompany shareholder distributions. High payout is not presumed bad when maturity and funding are evidenced; it does not satisfy the separate VVAL retention test.",
+        "favorable": "2013 investment684.5m splits443.3m expansion and241.2m maintenance/revitalization. Trairí/Guajiru add55.4MW commercially operating;2014 Ferrari acquisition and remaining wind projects are disclosed. Dividend proposal1,474.2m equals100% adjusted distributable income; debt declined3.5% in2013 despite investment.",
+        "contrary_evidence": "Payout leaves little retained profit; expansion historically uses roughly one-third equity and two-thirds debt. Q1 incorporates additional debt and acquisition obligations; realized project performance must be revisited when it changes materially.",
+        "missing": "",
         "evidence": [
           {
-            "docid": "26745",
-            "received": "2013-05-07",
-            "reference": "",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "fre_cia_aberta_distribuicao_dividendos_2012.csv",
-            "archive_sha256": "cd48dd32bab6d410dc523a3de0d27ca3bb7ebd8c403e6fa1de647b1454fbd069",
-            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=26745",
-            "fiscal_year": 2009,
-            "raw": {
-              "CNPJ_Companhia": "02.474.103/0001-19",
-              "Data_Referencia": "2012-01-01",
-              "Versao": "8",
-              "ID_Documento": "26745",
-              "Nome_Companhia": "ENGIE BRASIL ENERGIA S.A.",
-              "Data_Inicio_Exercicio_Social": "2009-01-01",
-              "Data_Fim_Exercicio_Social": "2009-12-31",
-              "Lucro_Liquido_Ajustado": "1092293174.43",
-              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "24.51910164",
-              "Lucro_Liquido_Retido": "466947815.10",
-              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "57.12008631",
-              "Dividendo_Distribuido_Total": "623918804.02",
-              "Data_Aprovacao_Retencao": "2010-04-23"
-            }
+            "docid": "34713",
+            "group": 412,
+            "pages": [
+              2
+            ],
+            "received": "2014-02-20",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34713",
+            "original": "review_originals/cvm_34713_g412.pdf.gz",
+            "original_sha256": "d58f7cd2c9305805f9bcecc3270a5a0eff1c0e8c939149933453615cadca8eda"
           },
           {
-            "docid": "36731",
-            "received": "2014-05-06",
-            "reference": "",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "fre_cia_aberta_distribuicao_dividendos_2013.csv",
-            "archive_sha256": "2c746f2cf0636236972a06be1d4e15dabaac15281e88753505acae9385a76f79",
-            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=36731",
-            "fiscal_year": 2010,
-            "raw": {
-              "CNPJ_Companhia": "02.474.103/0001-19",
-              "Data_Referencia": "2013-01-01",
-              "Versao": "7",
-              "ID_Documento": "36731",
-              "Nome_Companhia": "ENGIE BRASIL ENERGIA S.A.",
-              "Data_Inicio_Exercicio_Social": "2010-01-01",
-              "Data_Fim_Exercicio_Social": "2010-12-31",
-              "Lucro_Liquido_Ajustado": "1207945029.05",
-              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "23.88574785",
-              "Lucro_Liquido_Retido": "547278682.70",
-              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "55.00000000",
-              "Dividendo_Distribuido_Total": "664369766.00",
-              "Data_Aprovacao_Retencao": "2011-04-05"
-            }
+            "docid": "34713",
+            "group": 1653,
+            "pages": [
+              19,
+              20,
+              21,
+              22
+            ],
+            "received": "2014-02-20",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34713",
+            "original": "review_originals/cvm_34713_g1653.pdf.gz",
+            "original_sha256": "a91d104d11ce51d49872f2e6bb1d819bcb5efe0806cc60fca3504acd82ead428"
           },
           {
-            "docid": "36731",
-            "received": "2014-05-06",
-            "reference": "",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "fre_cia_aberta_distribuicao_dividendos_2013.csv",
-            "archive_sha256": "2c746f2cf0636236972a06be1d4e15dabaac15281e88753505acae9385a76f79",
-            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=36731",
-            "fiscal_year": 2011,
-            "raw": {
-              "CNPJ_Companhia": "02.474.103/0001-19",
-              "Data_Referencia": "2013-01-01",
-              "Versao": "7",
-              "ID_Documento": "36731",
-              "Nome_Companhia": "ENGIE BRASIL ENERGIA S.A.",
-              "Data_Inicio_Exercicio_Social": "2011-01-01",
-              "Data_Fim_Exercicio_Social": "2011-12-31",
-              "Lucro_Liquido_Ajustado": "1429345876.95",
-              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "26.57197900",
-              "Lucro_Liquido_Retido": "18290650.84",
-              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "100.00000000",
-              "Dividendo_Distribuido_Total": "1429345876.95",
-              "Data_Aprovacao_Retencao": "2012-03-21"
-            }
-          },
-          {
-            "docid": "36731",
-            "received": "2014-05-06",
-            "reference": "",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "fre_cia_aberta_distribuicao_dividendos_2013.csv",
-            "archive_sha256": "2c746f2cf0636236972a06be1d4e15dabaac15281e88753505acae9385a76f79",
-            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=36731",
-            "fiscal_year": 2012,
-            "raw": {
-              "CNPJ_Companhia": "02.474.103/0001-19",
-              "Data_Referencia": "2013-01-01",
-              "Versao": "7",
-              "ID_Documento": "36731",
-              "Nome_Companhia": "ENGIE BRASIL ENERGIA S.A.",
-              "Data_Inicio_Exercicio_Social": "2012-01-01",
-              "Data_Fim_Exercicio_Social": "2012-12-31",
-              "Lucro_Liquido_Ajustado": "1546389377.36",
-              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "28.30742300",
-              "Lucro_Liquido_Retido": "46892416.86",
-              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "100.00000000",
-              "Dividendo_Distribuido_Total": "1546389377.36",
-              "Data_Aprovacao_Retencao": "2013-04-17"
-            }
+            "docid": "36427",
+            "group": 193,
+            "pages": [
+              12,
+              20,
+              21,
+              27
+            ],
+            "received": "2014-04-25",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36427",
+            "original": "review_originals/cvm_36427_g193.pdf.gz",
+            "original_sha256": "23434b4cbac198aeb04ab75081fe44229a7fc31f29cdf2e9fb0831111b9cb653"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       },
       "governance": {
-        "status": "INDETERMINATE",
-        "favorable": {
-          "dated_shareholder_right_records": 4,
-          "dated_related_party_records": 71
-        },
-        "missing": "Review of material conflicts, related parties and audit opinions before cutoff; no ex-post controversy inference",
+        "status": "SATISFACTORY",
+        "reason": "Specific minority and transaction-review structures, transparent related-party contracts and fiscal oversight support satisfactory governance despite concentrated control. Listing status alone is not used as proof.",
+        "favorable": "Two minority representatives on the nine-member board, a fiscal council with three independent members and one minority representative, a special independent committee for related-party transactions, full voting shares and100% tagalong. Related-party energy/O&M contracts state prices or cost bases; independent auditor supplied no nonaudit services in2013.",
+        "contrary_evidence": "GDF SUEZ controls68.71%, Banco Clássico10%; no audit committee, and the related-party committee is not permanent. Guarantees and intragroup electricity transactions are material and require ongoing review; no abuse is inferred from ownership alone.",
+        "missing": "",
         "evidence": [
           {
             "docid": "34713",
+            "group": 1653,
+            "pages": [
+              4,
+              23,
+              24,
+              33
+            ],
             "received": "2014-02-20",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34713",
+            "original": "review_originals/cvm_34713_g1653.pdf.gz",
+            "original_sha256": "a91d104d11ce51d49872f2e6bb1d819bcb5efe0806cc60fca3504acd82ead428"
           },
           {
             "docid": "34713",
+            "group": 412,
+            "pages": [
+              90,
+              91,
+              92
+            ],
             "received": "2014-02-20",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34713",
+            "original": "review_originals/cvm_34713_g412.pdf.gz",
+            "original_sha256": "d58f7cd2c9305805f9bcecc3270a5a0eff1c0e8c939149933453615cadca8eda"
           },
           {
-            "docid": "34713",
-            "received": "2014-02-20",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
-          },
-          {
-            "docid": "34713",
-            "received": "2014-02-20",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+            "docid": "36427",
+            "group": 193,
+            "pages": [
+              38,
+              48,
+              49,
+              50
+            ],
+            "received": "2014-04-25",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36427",
+            "original": "review_originals/cvm_36427_g193.pdf.gz",
+            "original_sha256": "23434b4cbac198aeb04ab75081fe44229a7fc31f29cdf2e9fb0831111b9cb653"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       }
     },
-    "limitation": "Structured CVM facts establish availability, not all six economic conclusions. No scoring or future outcomes.",
+    "limitation": "Documentary economic review of originals",
     "special_case": ""
   },
   "annual_evidence_updates": [
@@ -404,8 +311,10 @@
       "ticker": "TBLE3",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "02474103000119:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "GERAÇÃO E COMERCIALIZAÇÃO DE ENERGIA ELÉTRICA",
@@ -782,8 +691,10 @@
       "ticker": "TBLE3",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "02474103000119:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "GERAÇÃO E COMERCIALIZAÇÃO DE ENERGIA ELÉTRICA",
@@ -1160,8 +1071,10 @@
       "ticker": "TBLE3",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "02474103000119:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "GERAÇÃO E COMERCIALIZAÇÃO DE ENERGIA ELÉTRICA",
@@ -1586,8 +1499,10 @@
       "ticker": "TBLE3",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "02474103000119:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "GERAÇÃO E COMERCIALIZAÇÃO DE ENERGIA ELÉTRICA",
@@ -2012,8 +1927,10 @@
       "ticker": "TBLE3",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "02474103000119:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "GERAÇÃO E COMERCIALIZAÇÃO DE ENERGIA ELÉTRICA",
@@ -2438,8 +2355,10 @@
       "ticker": "TBLE3",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "02474103000119:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "GERAÇÃO E COMERCIALIZAÇÃO DE ENERGIA ELÉTRICA",
@@ -2892,8 +2811,10 @@
       "ticker": "TBLE3",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "02474103000119:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "GERAÇÃO E COMERCIALIZAÇÃO DE ENERGIA ELÉTRICA",
@@ -3366,8 +3287,10 @@
       "ticker": "TBLE3",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "02474103000119:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "GERAÇÃO, COMERCIALIZAÇÃO E TRANSMISSÃO DE ENERGIA ELÉTRICA",
@@ -3840,8 +3763,10 @@
       "ticker": "TBLE3",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "02474103000119:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "GERAÇÃO, COMERCIALIZAÇÃO E TRANSMISSÃO DE ENERGIA ELÉTRICA",
@@ -4286,8 +4211,10 @@
       "ticker": "TBLE3",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "02474103000119:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "GERAÇÃO, COMERCIALIZAÇÃO E TRANSMISSÃO DE ENERGIA ELÉTRICA",

@@ -7,418 +7,236 @@
     "company": "COMPANHIA DE SANEAMENTO DE MINAS GERAIS",
     "sector": "Saneamento",
     "category": "INDETERMINATE",
+    "assessment_status": "ASSESSED",
     "dimensions": {
       "durability": {
-        "status": "INDETERMINATE",
-        "favorable": "Prestar Serviços de Saneamento.",
-        "missing": "Historical concession/contract durability, competitive position and pricing power",
+        "status": "SATISFACTORY",
+        "reason": "Essential network utility with municipal concessions, installed monopoly infrastructure, recurrent billing and tariff regulation; documented expansion in served population and renewed concessions supports continuity.",
+        "favorable": "Essential network utility with municipal concessions, installed monopoly infrastructure, recurrent billing and tariff regulation; documented expansion in served population and renewed concessions supports continuity.",
+        "contrary_evidence": "Tariffs depend on ARSAE and actual service level;1Q14 report describes sewage tariffs reduced90%→50% where only collection was provided and mandatory refunds.",
+        "missing": "",
         "evidence": [
           {
-            "cnpj": "17281106000103",
-            "received": "2014-05-07",
-            "name": "COMPANHIA DE SANEAMENTO DE MINAS GERAIS",
-            "sector": "Saneamento, Serv. Água e Gás",
-            "activity": "Prestar Serviços de Saneamento.",
-            "cvm": "019445",
-            "docid": "36797",
-            "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=36797"
+            "docid": "34244",
+            "group": 1653,
+            "pages": [
+              1,
+              2,
+              3
+            ],
+            "received": "2014-01-30",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34244",
+            "original": "review_originals/cvm_34244_g1653.pdf.gz",
+            "original_sha256": "b7601c2840b7c7578990b4f9198ecf322feb6743fca8d17949a00c85e0713d01"
+          },
+          {
+            "docid": "36764",
+            "group": 192,
+            "pages": [
+              5,
+              15,
+              16
+            ],
+            "received": "2014-05-06",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36764",
+            "original": "review_originals/cvm_36764_g192.pdf.gz",
+            "original_sha256": "1cd848b67bdd405b2751197dd05537d0675a085e8ea5fc24a1f79c83de244dc5"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       },
       "capital_economics": {
         "status": "INDETERMINATE",
-        "favorable": {
-          "roe_parent_5": [
-            null,
-            0.1692262912999713,
-            0.10695526884914296,
-            0.10209710842875559,
-            0.08173382123696987
-          ],
-          "normalized_profit": 538041091.5434182
-        },
-        "missing": "Cycle-normalized ROIC/incremental returns or risk-adjusted prudential ROE; historical peer/capital comparison",
+        "reason": "Actual analysis does not establish adequate economics of the reinvestment cycle:2013 EPS3.52 versus4.04, ROE7.9%, adjusted EBITDA+1.1% nominal while depreciation+13.4%;1Q14 EPS0.98 unchanged nominal and EBIT+0.77%. Simplified2013 operating ROIC is6.85% using effective tax or6.10% using34%, not a certified WACC comparison.",
+        "favorable": "Actual analysis does not establish adequate economics of the reinvestment cycle:2013 EPS3.52 versus4.04, ROE7.9%, adjusted EBITDA+1.1% nominal while depreciation+13.4%;1Q14 EPS0.98 unchanged nominal and EBIT+0.77%. Simplified2013 operating ROIC is6.85% using effective tax or6.10% using34%, not a certified WACC comparison.",
+        "contrary_evidence": "Expansion/commissioning lags and regulated tariff revisions could explain weak returns, so no structural rejection. Need demonstrable project/regulated capital return or normalized multiyear return analysis sufficient to explain lag.",
+        "missing": "Expansion/commissioning lags and regulated tariff revisions could explain weak returns, so no structural rejection. Need demonstrable project/regulated capital return or normalized multiyear return analysis sufficient to explain lag.",
         "evidence": [
           {
-            "fiscal_year": 2009,
-            "metric": "attributable_ni",
-            "value": 519244000.0,
-            "docid": "5323",
-            "received": "2011-03-17",
-            "reference": "2010-12-31",
-            "period_end": "2009-12-31",
-            "perimeter": "con",
-            "account": "3.11.01",
-            "description": "Atribuído a Sócios da Empresa Controladora",
-            "source": "dfp_cia_aberta_DRE_con_2010.csv",
-            "archive_sha256": "c6a9c95c2510e8a71bb583084492e9c52c3f423a3be56f1c5d2dd4f6960677ff",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2010.zip"
-          },
-          {
-            "fiscal_year": 2010,
-            "metric": "attributable_ni",
-            "value": 669776000.0,
-            "docid": "14868",
-            "received": "2012-03-09",
-            "reference": "2011-12-31",
-            "period_end": "2010-12-31",
-            "perimeter": "con",
-            "account": "3.11.01",
-            "description": "Atribuído a Sócios da Empresa Controladora",
-            "source": "dfp_cia_aberta_DRE_con_2011.csv",
-            "archive_sha256": "858423fba40124d7a30abea4e70248f7251e1d2c792e9fcece5a57afd3115f34",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2011.zip"
-          },
-          {
-            "fiscal_year": 2011,
-            "metric": "attributable_ni",
-            "value": 464507000.0,
-            "docid": "24718",
-            "received": "2013-03-06",
-            "reference": "2012-12-31",
-            "period_end": "2011-12-31",
-            "perimeter": "con",
-            "account": "3.11.01",
-            "description": "Atribuído a Sócios da Empresa Controladora",
-            "source": "dfp_cia_aberta_DRE_con_2012.csv",
-            "archive_sha256": "3aff7a726d324d29924887eed45bbc58bc30b66cd9079bafe701d55efdfe0849",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2012.zip"
-          },
-          {
-            "fiscal_year": 2012,
-            "metric": "attributable_ni",
-            "value": 481723000.0,
             "docid": "34244",
+            "group": 1653,
+            "pages": [
+              13,
+              14,
+              15
+            ],
             "received": "2014-01-30",
-            "reference": "2013-12-31",
-            "period_end": "2012-12-31",
-            "perimeter": "con",
-            "account": "3.11.01",
-            "description": "Atribuído a Sócios da Empresa Controladora",
-            "source": "dfp_cia_aberta_DRE_con_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34244",
+            "original": "review_originals/cvm_34244_g1653.pdf.gz",
+            "original_sha256": "b7601c2840b7c7578990b4f9198ecf322feb6743fca8d17949a00c85e0713d01"
           },
           {
-            "fiscal_year": 2013,
-            "metric": "attributable_ni",
-            "value": 419795000.0,
-            "docid": "34244",
-            "received": "2014-01-30",
-            "reference": "2013-12-31",
-            "period_end": "2013-12-31",
-            "perimeter": "con",
-            "account": "3.11.01",
-            "description": "Atribuído a Sócios da Empresa Controladora",
-            "source": "dfp_cia_aberta_DRE_con_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+            "docid": "36764",
+            "group": 192,
+            "pages": [
+              15
+            ],
+            "received": "2014-05-06",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36764",
+            "original": "review_originals/cvm_36764_g192.pdf.gz",
+            "original_sha256": "1cd848b67bdd405b2751197dd05537d0675a085e8ea5fc24a1f79c83de244dc5"
+          },
+          {
+            "docid": "36764",
+            "group": 193,
+            "pages": [
+              26
+            ],
+            "received": "2014-05-06",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36764",
+            "original": "review_originals/cvm_36764_g193.pdf.gz",
+            "original_sha256": "85f4c20546570e14a774970b0ec3bc3945a6bb0768ce8cd5634a7434cdb90c03"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       },
       "earnings_reliability": {
-        "status": "INDETERMINATE",
-        "favorable": {
-          "positive_attributable_years": 5,
-          "audit_records": 5
-        },
-        "missing": "Profit/cash/recurring earnings bridge; provisions and extraordinary items reviewed in dated notes",
+        "status": "SATISFACTORY",
+        "reason": "Audited statements and explicit restatement bridge preserve attributable consolidated profit. Reclassified2012 operating cash669.408m is explained;2013 operating cash664.649m is greater than NI419.795m, with construction margin separately identified. ICMS issue investigated without evidence of unprovided probable liability.",
+        "favorable": "Audited statements and explicit restatement bridge preserve attributable consolidated profit. Reclassified2012 operating cash669.408m is explained;2013 operating cash664.649m is greater than NI419.795m, with construction margin separately identified. ICMS issue investigated without evidence of unprovided probable liability.",
+        "contrary_evidence": "2010 extraordinary profit review remains material to valuation normalization; audit cannot prove adequacy of all earnings projections.",
+        "missing": "",
         "evidence": [
           {
             "docid": "34244",
+            "group": 412,
+            "pages": [
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              114
+            ],
             "received": "2014-01-30",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34244",
+            "original": "review_originals/cvm_34244_g412.pdf.gz",
+            "original_sha256": "6aea964a1fdca22a0a8a8180766d7e6e5ff82484f7e3ce7660b3c143594ab41c"
           },
           {
             "docid": "34244",
+            "group": 1653,
+            "pages": [
+              13,
+              14
+            ],
             "received": "2014-01-30",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
-          },
-          {
-            "docid": "34244",
-            "received": "2014-01-30",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
-          },
-          {
-            "docid": "34244",
-            "received": "2014-01-30",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
-          },
-          {
-            "docid": "34244",
-            "received": "2014-01-30",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34244",
+            "original": "review_originals/cvm_34244_g1653.pdf.gz",
+            "original_sha256": "b7601c2840b7c7578990b4f9198ecf322feb6743fca8d17949a00c85e0713d01"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       },
       "financial_resilience": {
-        "status": "INDETERMINATE",
-        "favorable": {
-          "parent_equity_latest": 5337359000.0
-        },
-        "missing": "Debt maturity, interest coverage and committed maintenance/expansion CAPEX",
+        "status": "SATISFACTORY",
+        "reason": "Debt has disclosed amortization/covenants and long-term project financing. Company reports no covenant breach bothDec2013 andMar2014.2013 net debt about2.896b against1.14b adjusted EBITDA, still within disclosed3.0 covenant; this is observed headroom, not an invented quality threshold.",
+        "favorable": "Debt has disclosed amortization/covenants and long-term project financing. Company reports no covenant breach bothDec2013 andMar2014.2013 net debt about2.896b against1.14b adjusted EBITDA, still within disclosed3.0 covenant; this is observed headroom, not an invented quality threshold.",
+        "contrary_evidence": "Cash fell497.701m→261.938m;2013 operating cash664.649m less investment cash796.828m, so future expansion depends partly on funding. Medium leverage and water/regulatory costs require monitoring.",
+        "missing": "",
         "evidence": [
           {
             "docid": "34244",
+            "group": 412,
+            "pages": [
+              51,
+              52,
+              55,
+              56,
+              57,
+              58,
+              60,
+              61
+            ],
             "received": "2014-01-30",
-            "reference": "2013-12-31",
-            "period_end": "2013-12-31",
-            "perimeter": "ind",
-            "account": "2.03",
-            "description": "Patrimônio Líquido",
-            "source": "dfp_cia_aberta_BPP_ind_2013.csv",
-            "archive_sha256": "",
-            "url": ""
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34244",
+            "original": "review_originals/cvm_34244_g412.pdf.gz",
+            "original_sha256": "6aea964a1fdca22a0a8a8180766d7e6e5ff82484f7e3ce7660b3c143594ab41c"
+          },
+          {
+            "docid": "36764",
+            "group": 193,
+            "pages": [
+              16
+            ],
+            "received": "2014-05-06",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36764",
+            "original": "review_originals/cvm_36764_g193.pdf.gz",
+            "original_sha256": "85f4c20546570e14a774970b0ec3bc3945a6bb0768ce8cd5634a7434cdb90c03"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       },
       "capital_allocation": {
         "status": "INDETERMINATE",
-        "favorable": {
-          "historical_payout": [
-            0.3282,
-            0.3347578267,
-            0.3296552475,
-            0.3308555555,
-            null
-          ],
-          "distributions": [
-            172386906.06,
-            224212758.14,
-            153127170.04,
-            159380716.82,
-            null
-          ]
-        },
-        "missing": "Maintenance versus expansion CAPEX, sustainable dividends, adjusted per-share and incremental economic growth",
+        "reason": "JCP35% of adjusted profit and retained capital policy are sustainable on current earnings, but CAPEX909.2m alongside lowerEPS and essentially flat EBITDA does not alone demonstrate productive incremental return. Distinguish network service growth from economic value per share.",
+        "favorable": "JCP35% of adjusted profit and retained capital policy are sustainable on current earnings, but CAPEX909.2m alongside lowerEPS and essentially flat EBITDA does not alone demonstrate productive incremental return. Distinguish network service growth from economic value per share.",
+        "contrary_evidence": "No automatic penalty for payout35% or negative FCF in expansion. Need material investment economics and commissioning/revenue bridge, including related subsidiary funding, before promotion.",
+        "missing": "No automatic penalty for payout35% or negative FCF in expansion. Need material investment economics and commissioning/revenue bridge, including related subsidiary funding, before promotion.",
         "evidence": [
           {
-            "docid": "26507",
-            "received": "2013-05-02",
-            "reference": "",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "fre_cia_aberta_distribuicao_dividendos_2012.csv",
-            "archive_sha256": "cd48dd32bab6d410dc523a3de0d27ca3bb7ebd8c403e6fa1de647b1454fbd069",
-            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=26507",
-            "fiscal_year": 2009,
-            "raw": {
-              "CNPJ_Companhia": "17.281.106/0001-03",
-              "Data_Referencia": "2012-01-01",
-              "Versao": "18",
-              "ID_Documento": "26507",
-              "Nome_Companhia": "CIA SANEAMENTO DE MINAS GERAIS-COPASA MG",
-              "Data_Inicio_Exercicio_Social": "2009-01-01",
-              "Data_Fim_Exercicio_Social": "2009-12-31",
-              "Lucro_Liquido_Ajustado": "525306639.05",
-              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "14.07800000",
-              "Lucro_Liquido_Retido": "319732726.19",
-              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "32.82000000",
-              "Dividendo_Distribuido_Total": "172386906.06",
-              "Data_Aprovacao_Retencao": "2010-04-27"
-            }
+            "docid": "34244",
+            "group": 1653,
+            "pages": [
+              2,
+              13,
+              14,
+              15,
+              16
+            ],
+            "received": "2014-01-30",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34244",
+            "original": "review_originals/cvm_34244_g1653.pdf.gz",
+            "original_sha256": "b7601c2840b7c7578990b4f9198ecf322feb6743fca8d17949a00c85e0713d01"
           },
           {
-            "docid": "36952",
-            "received": "2014-05-08",
-            "reference": "",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "fre_cia_aberta_distribuicao_dividendos_2013.csv",
-            "archive_sha256": "2c746f2cf0636236972a06be1d4e15dabaac15281e88753505acae9385a76f79",
-            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=36952",
-            "fiscal_year": 2010,
-            "raw": {
-              "CNPJ_Companhia": "17.281.106/0001-03",
-              "Data_Referencia": "2013-01-01",
-              "Versao": "26",
-              "ID_Documento": "36952",
-              "Nome_Companhia": "CIA SANEAMENTO DE MINAS GERAIS-COPASA MG",
-              "Data_Inicio_Exercicio_Social": "2010-01-01",
-              "Data_Fim_Exercicio_Social": "2010-12-31",
-              "Lucro_Liquido_Ajustado": "669776000.00",
-              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "15.86325564",
-              "Lucro_Liquido_Retido": "416395122.27",
-              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "33.47578267",
-              "Dividendo_Distribuido_Total": "224212758.14",
-              "Data_Aprovacao_Retencao": "2011-04-15"
-            }
-          },
-          {
-            "docid": "36952",
-            "received": "2014-05-08",
-            "reference": "",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "fre_cia_aberta_distribuicao_dividendos_2013.csv",
-            "archive_sha256": "2c746f2cf0636236972a06be1d4e15dabaac15281e88753505acae9385a76f79",
-            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=36952",
-            "fiscal_year": 2011,
-            "raw": {
-              "CNPJ_Companhia": "17.281.106/0001-03",
-              "Data_Referencia": "2013-01-01",
-              "Versao": "26",
-              "ID_Documento": "36952",
-              "Nome_Companhia": "CIA SANEAMENTO DE MINAS GERAIS-COPASA MG",
-              "Data_Inicio_Exercicio_Social": "2011-01-01",
-              "Data_Fim_Exercicio_Social": "2011-12-31",
-              "Lucro_Liquido_Ajustado": "464507000.00",
-              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "10.24586620",
-              "Lucro_Liquido_Retido": "284379030.07",
-              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "32.96552475",
-              "Dividendo_Distribuido_Total": "153127170.04",
-              "Data_Aprovacao_Retencao": "2012-04-13"
-            }
-          },
-          {
-            "docid": "36952",
-            "received": "2014-05-08",
-            "reference": "",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "fre_cia_aberta_distribuicao_dividendos_2013.csv",
-            "archive_sha256": "2c746f2cf0636236972a06be1d4e15dabaac15281e88753505acae9385a76f79",
-            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=36952",
-            "fiscal_year": 2012,
-            "raw": {
-              "CNPJ_Companhia": "17.281.106/0001-03",
-              "Data_Referencia": "2013-01-01",
-              "Versao": "26",
-              "ID_Documento": "36952",
-              "Nome_Companhia": "CIA SANEAMENTO DE MINAS GERAIS-COPASA MG",
-              "Data_Inicio_Exercicio_Social": "2012-01-01",
-              "Data_Fim_Exercicio_Social": "2012-12-31",
-              "Lucro_Liquido_Ajustado": "481723000.00",
-              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "9.65325682",
-              "Lucro_Liquido_Retido": "295992759.80",
-              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "33.08555555",
-              "Dividendo_Distribuido_Total": "159380716.82",
-              "Data_Aprovacao_Retencao": "2013-04-11"
-            }
+            "docid": "36764",
+            "group": 193,
+            "pages": [
+              26
+            ],
+            "received": "2014-05-06",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36764",
+            "original": "review_originals/cvm_36764_g193.pdf.gz",
+            "original_sha256": "85f4c20546570e14a774970b0ec3bc3945a6bb0768ce8cd5634a7434cdb90c03"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       },
       "governance": {
-        "status": "INDETERMINATE",
-        "favorable": {
-          "dated_shareholder_right_records": 4,
-          "dated_related_party_records": 0
-        },
-        "missing": "Review of material conflicts, related parties and audit opinions before cutoff; no ex-post controversy inference",
+        "status": "SATISFACTORY",
+        "reason": "Single common class,100%tagalong,62.5%independent directors and arbitration documented. Financial restatements and subsidiary related funding are disclosed with terms; unqualified audit and investigatedICMS issue do not establish a structural governance failure.",
+        "favorable": "Single common class,100%tagalong,62.5%independent directors and arbitration documented. Financial restatements and subsidiary related funding are disclosed with terms; unqualified audit and investigatedICMS issue do not establish a structural governance failure.",
+        "contrary_evidence": "State control51.1%, COPANOR concession/subsidiary funding and water-mineral losses are conflicts to monitor; independence percentage alone is insufficient and not treated as automatic qualification.",
+        "missing": "",
         "evidence": [
           {
             "docid": "34244",
+            "group": 1653,
+            "pages": [
+              16,
+              18
+            ],
             "received": "2014-01-30",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34244",
+            "original": "review_originals/cvm_34244_g1653.pdf.gz",
+            "original_sha256": "b7601c2840b7c7578990b4f9198ecf322feb6743fca8d17949a00c85e0713d01"
           },
           {
             "docid": "34244",
+            "group": 412,
+            "pages": [
+              36,
+              37,
+              111,
+              112,
+              114
+            ],
             "received": "2014-01-30",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
-          },
-          {
-            "docid": "34244",
-            "received": "2014-01-30",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
-          },
-          {
-            "docid": "34244",
-            "received": "2014-01-30",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
-          },
-          {
-            "docid": "34244",
-            "received": "2014-01-30",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34244",
+            "original": "review_originals/cvm_34244_g412.pdf.gz",
+            "original_sha256": "6aea964a1fdca22a0a8a8180766d7e6e5ff82484f7e3ce7660b3c143594ab41c"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       }
     },
-    "limitation": "Structured CVM facts establish availability, not all six economic conclusions. No scoring or future outcomes.",
+    "limitation": "Documentary economic review of originals",
     "special_case": ""
   },
   "annual_evidence_updates": [
@@ -428,8 +246,10 @@
       "ticker": "CSMG3",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "17281106000103:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "Prestar Serviços de Saneamento.",
@@ -806,8 +626,10 @@
       "ticker": "CSMG3",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "17281106000103:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "Prestar Serviços de Saneamento.",
@@ -1328,8 +1150,10 @@
       "ticker": "CSMG3",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "17281106000103:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "Prestar Serviços de Saneamento.",
@@ -1802,8 +1626,10 @@
       "ticker": "CSMG3",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "17281106000103:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "Planejar, executar, ampliar, remodelar e explorar serviços públicos de saneamento básico, envolvendo abastecimento de água potável, esgotamento sanitário e limpeza urbana e manejo de resíduos sólidos.",
@@ -2324,8 +2150,10 @@
       "ticker": "CSMG3",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "17281106000103:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "Planejar, executar, ampliar, remodelar e explorar serviços públicos de saneamento básico, envolvendo abastecimento de água potável, esgotamento sanitário e limpeza urbana e manejo de resíduos sólidos.",
@@ -2818,8 +2646,10 @@
       "ticker": "CSMG3",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "17281106000103:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "Planejar, executar, ampliar, remodelar e explorar serviços públicos de saneamento básico, envolvendo abastecimento de água potável, esgotamento sanitário e limpeza urbana e manejo de resíduos sólidos.",

@@ -77,6 +77,6 @@ def test_exact_decimal_attribution_and_corporate_descendants(runs):
 
 def test_no_fictitious_zero_or_late_start():
     ds={(r['year'],r['ticker']):dict(quality_category='INDETERMINATE') for r in m.candidates()}
-    run=m.simulate('VQ',ds)
+    run=m.simulate('VQ',ds,end_year=2025)
     assert len(run['annual'])==12 and not run['holdings']
     assert all(r['return_pct']=='' and r['status']=='NOT_FORMED' for r in run['annual'])

@@ -54,6 +54,24 @@ def verify_frozen():
             if sha(ROOT/r['path'])!=r['sha256']:raise ValueError(('PR3 changed',r['path']))
     return count
 
+def verify_accepted_controls():
+    """Compare the accepted control observations, including weights/attribution.
+
+    Cross-variant rank is presentation, not a frozen observation: adding an
+    actually formed portfolio may change its position in the comparison.
+    """
+    snapshot=json.loads((INPUT/'accepted_v0_v10.json').read_text())
+    for name,expected in snapshot['tables'].items():
+        rows=read(RESULT/name)
+        keys=list(expected[0]) if expected else []
+        keys=[k for k in keys if k!='final_rank']
+        if expected and 'variant' in expected[0]:
+            rows=[r for r in rows if r['variant'] in ['V0','V10']]
+        actual=[{k:r[k] for k in keys} for r in rows]
+        frozen=[{k:r[k] for k in keys} for r in expected]
+        if actual!=frozen:raise ValueError(('Accepted V0/V10 changed',name))
+    return len(snapshot['tables'])
+
 @lru_cache(maxsize=1)
 def candidates():
     """Exactly the accepted control's PASS universe, not a rerun of its screener."""
@@ -168,10 +186,14 @@ def concentration(variant, year, phase, values):
         issuer_hhi=sum(w*w for w in ws),sector_hhi=sum(w*w for w in sector.values()),
         sector_weights_pct=json.dumps({s:100*w for s,w in sorted(sector.items())},ensure_ascii=False,sort_keys=True))
 
-def simulate(variant, frozen=None, include=None):
+def reviewed_through():
+    return json.loads((INPUT/'review_progress.json').read_text())['completed_formation_year']
+
+def simulate(variant, frozen=None, include=None, end_year=None):
+    if end_year is None:end_year=2025 if variant in ['V0','V10'] else reviewed_through()
     quote, bydate=market(); units={}; annual=[]; holdings=[]; positions=[]; reviews=[]; risk=[]; decisions=[]; transfers=[]
     cands=candidates(); frozen=frozen or {}
-    for year in range(2014,2026):
+    for year in range(2014,end_year+1):
         start,end=DATES[year],DATES[year+1]
         rows=[r for r in cands if r['year']==year]
         status,base_targets=selection('B00S',year); status=status.copy()
@@ -259,7 +281,8 @@ def linked_attribution(holdings, cumulative):
                 labels[key]=(r['company'],r['sector'])
                 if r['ticker']:tickers[key].add(r['ticker'])
             # The immutable control and replay can differ below machine precision.
-            residual=Decimal(str(cumulative[-1][variant]))-sum(totals.values(),Decimal(0))
+            closing=next(r[variant] for r in reversed(cumulative) if r[variant]!='')
+            residual=Decimal(str(closing))-sum(totals.values(),Decimal(0))
             if abs(residual)>Decimal('1e-8'):raise ValueError(('Linked attribution mismatch',variant,residual))
             totals['NUMERICAL_RESIDUAL']+=residual
             labels['NUMERICAL_RESIDUAL']=('Numerical reconciliation','')
@@ -274,7 +297,7 @@ def workbook():
     import xlsxwriter
     b=xlsxwriter.Workbook(RESULT/'b00s_four_variants.xlsx',{'strings_to_urls':False,'strings_to_formulas':False})
     b.set_properties({'title':'Experimento B00S V2','created':datetime(2026,10,8)})
-    for filename in ['consolidated_pct','annual_returns_pct','cumulative_returns_pct','portfolio_status','risk_concentration','turnover_by_year','holdings_by_june','attribution_cumulative','positions_by_june','review_ledger','selection_decisions','coverage_by_year_sector','sensitivity_summary','sensitivity_annual_pct']:
+    for filename in ['checkpoint_summary','consolidated_pct','annual_returns_pct','cumulative_returns_pct','portfolio_status','risk_concentration','turnover_by_year','holdings_by_june','attribution_cumulative','positions_by_june','review_ledger','selection_decisions','coverage_by_year_sector','sensitivity_summary','sensitivity_annual_pct']:
         p=RESULT/(filename+'.csv')
         if not p.exists():continue
         rows=read(p);ws=b.add_worksheet(filename[:31]);keys=list(rows[0]);ws.freeze_panes(1,2)
@@ -311,7 +334,11 @@ def publish(runs):
             c[v]=matches[0][key] if matches else 100*(math.prod(1+float(r[key])/100 for r in frozen[:y-2014+1])-1)
         ac.append(a);cu.append(c)
     write(RESULT/'annual_returns_pct.csv',ac);write(RESULT/'cumulative_returns_pct.csv',cu)
-    write(RESULT/'portfolio_status.csv',[dict(variant=r['variant'],year=r['year'],status=r['status']) for r in annual])
+    status_rows=[dict(variant=r['variant'],year=r['year'],status=r['status']) for r in annual]
+    for v in ['VVAL','VQ']:
+        status_rows.extend(dict(variant=v,year=y,status='AWAITING_CHRONOLOGICAL_REVIEW')
+                           for y in range(reviewed_through()+1,2026))
+    write(RESULT/'portfolio_status.csv',status_rows)
     stats=[]
     for v in ['V0','V10','VVAL','VQ','IBOV','R03 B2','BH padrão']:
         vals=[float(r[v]) for r in ac if r[v]!=''];levels=[1]+[1+float(r[v])/100 for r in cu if r[v]!='']
@@ -324,7 +351,7 @@ def publish(runs):
             annual_population_std_pct=statistics.pstdev(vals) if vals else '',
             annual_close_max_drawdown_pct=100*min(x/max(levels[:i+1])-1 for i,x in enumerate(levels)) if complete else '',
             vs_v0_pp=final-float(cu[-1]['V0']) if complete else '',vs_ibov_pp=final-float(cu[-1]['IBOV']) if complete else '',
-            final_rank='',mean_annual_rank='',coverage='INHERITED_QUALIFIED' if v in ['V0','V10','R03 B2','BH padrão'] else 'FROZEN_REFERENCE' if v=='IBOV' else 'EVIDENCE_ONLY_NOT_COMPARABLE_TO_FULL_UNIVERSE' if complete else 'NOT_FORMED_OR_PENDING'))
+            final_rank='',mean_annual_rank='',coverage='INHERITED_QUALIFIED' if v in ['V0','V10','R03 B2','BH padrão'] else 'FROZEN_REFERENCE' if v=='IBOV' else 'EVIDENCE_ONLY_NOT_COMPARABLE_TO_FULL_UNIVERSE' if complete else 'REVIEWED_BATCH_ONLY' if vals else 'NOT_FORMED_OR_PENDING'))
     for s in stats:
         if s['periods']==12:
             # Exclude evidence-limited portfolios from an unconditional winner ranking.
@@ -356,6 +383,9 @@ def publish(runs):
         d=dec[r['year'],r['ticker']];f=facts.get((r['year'],r['ticker']),{})
         rows.append(dict(r,v10_decision=d['decision'],v10_reason=d['reason'],liquidity_rank=d['liquidity_rank'],
             valuation_status=f.get('valuation_status','PENDING'),normalized_profit=f.get('normalized_profit'),
+            normalized_pe_lower=(f.get('normalized_pe_interval') or {}).get('lower'),
+            normalized_pe_upper=(f.get('normalized_pe_interval') or {}).get('upper'),
+            documentary_review_status=f.get('documentary_review_status','PENDING'),
             normalized_pe=f.get('normalized_pe'),market_cap=f.get('market_cap'),real_eps_cagr=f.get('real_eps_cagr'),
             average_payout=f.get('average_payout'),return_on_capital_median=f.get('return_on_capital_median'),
             bazin_normalized_dy=f.get('bazin_normalized_dy'),
@@ -365,6 +395,22 @@ def publish(runs):
             graham_pe_pb=f.get('graham_pe_pb'),
             quality_category=f.get('quality_category','PENDING'),missing=f.get('missing',''),dossier=f.get('dossier','')))
     write(RESULT/'selection_decisions.csv',rows)
+    close=reviewed_through()+1;checkpoint=[]
+    for v in ['V0','V10','VVAL','VQ','IBOV']:
+        ret=cu[close-2015][v]
+        rr=[r for r in runs.get(v,{}).get('risk',[]) if r['year']==close and r['phase']=='PERIOD_END']
+        initial=[r for r in runs.get(v,{}).get('risk',[]) if r['year']==2014 and r['phase']=='AFTER_REVIEW']
+        trades=[r for r in turnover if r['variant']==v and 2014<int(r['year'])<close]
+        checkpoint.append(dict(variant=v,start=DATES[2014],end=DATES[close],periods=close-2014,
+            return_pct=ret,vs_ibov_pp=float(ret)-float(cu[close-2015]['IBOV']) if ret!='' else '',
+            vs_v0_pp=float(ret)-float(cu[close-2015]['V0']) if ret!='' else '',
+            initial_companies=initial[0]['companies'] if initial else '',
+            initial_top5_pct=initial[0]['top5_pct'] if initial else '',
+            final_largest_pct=rr[0]['largest_company_pct'] if rr else '',final_top5_pct=rr[0]['top5_pct'] if rr else '',
+            revision_turnover_pct=math.fsum(float(r['one_way_turnover_pct']) for r in trades) if v in runs else '',
+            revisions=len(trades),scope='Reviewed chronological batch; formation is not turnover'))
+    write(RESULT/'checkpoint_summary.csv',checkpoint)
+    verify_accepted_controls()
     workbook()
     manifest=dict(protocol_commit=PROTOCOL_SHA,baseline_commit='8d394e9ab563daebe43603a3e85f35f43c1402bc',
         protected_stage1_files=verify_frozen(),variants={v:sum(r['return_pct']!='' for r in d['annual']) for v,d in runs.items()},

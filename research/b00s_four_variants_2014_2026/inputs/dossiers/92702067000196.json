@@ -7,394 +7,167 @@
     "company": "BANCO DO ESTADO DO RIO GRANDE DO SUL SA",
     "sector": "Bancos",
     "category": "INDETERMINATE",
+    "assessment_status": "ASSESSED",
     "dimensions": {
       "durability": {
-        "status": "INDETERMINATE",
-        "favorable": "Banco Múltiplo atuante nas carteiras comercial, crédito, financiamento e investimento, crédito imobiliário, desenvolvimento e arrendamento mercantil e de investimentos.",
-        "missing": "Historical concession/contract durability, competitive position and pricing power",
+        "status": "SATISFACTORY",
+        "favorable": "Convênio2012 assegura folha de servidores por cinco anos e canal consignado; rede regional.",
+        "contrary_evidence": "Concentração Rio Grande do Sul e no controlador estatal.",
+        "reason": "Exclusividade contratual comprova franquia persistente no corte; não se extrapola além de2017.",
+        "missing": "",
         "evidence": [
           {
-            "cnpj": "92702067000196",
-            "received": "2014-05-05",
-            "name": "BANCO DO ESTADO DO RIO GRANDE DO SUL SA",
-            "sector": "Bancos",
-            "activity": "Banco Múltiplo atuante nas carteiras comercial, crédito, financiamento e investimento, crédito imobiliário, desenvolvimento e arrendamento mercantil e de investimentos.",
-            "cvm": "001210",
-            "docid": "36617",
-            "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=36617"
+            "docid": "35198",
+            "group": 412,
+            "pages": [
+              144
+            ],
+            "received": "2014-03-14",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35198",
+            "original": "review_originals/cvm_35198_g412.pdf.gz",
+            "original_sha256": "06e42a3fcc365fb9a09b731c6585f20dad63f9fd841526a135b9838c5efbcbf8"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       },
       "capital_economics": {
         "status": "INDETERMINATE",
-        "favorable": {
-          "roe_parent_5": [
-            null,
-            0.20926825044147604,
-            0.22629903994669737,
-            0.18454113991130774,
-            0.1530901578429258
-          ],
-          "normalized_profit": null
-        },
-        "missing": "Cycle-normalized ROIC/incremental returns or risk-adjusted prudential ROE; historical peer/capital comparison",
+        "favorable": "Lucro IFRS749 mi em2013; rentabilidade recorrente anualizada11,1% no1T14.",
+        "contrary_evidence": "Margem financeira2013 caiu312,4 mi; retorno1T14 pressionado mesmo após extraordinários.",
+        "reason": "A franquia dá lucro, mas compressão de margem e projetos novos ainda não demonstram retorno adequado ao capital ao longo do ciclo.",
+        "missing": "Separar efeito transitório e estrutural da queda de margem/retorno.",
         "evidence": [
           {
-            "fiscal_year": 2009,
-            "metric": "attributable_ni",
-            "value": 0.0,
-            "docid": "6997",
-            "received": "2011-05-02",
-            "reference": "2010-12-31",
-            "period_end": "2009-12-31",
-            "perimeter": "con",
-            "account": "3.09.01",
-            "description": "Atribuído a Sócios da Empresa Controladora",
-            "source": "dfp_cia_aberta_DRE_con_2010.csv",
-            "archive_sha256": "c6a9c95c2510e8a71bb583084492e9c52c3f423a3be56f1c5d2dd4f6960677ff",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2010.zip"
-          },
-          {
-            "fiscal_year": 2010,
-            "metric": "attributable_ni",
-            "value": 760031000.0,
-            "docid": "15629",
-            "received": "2012-03-29",
-            "reference": "2011-12-31",
-            "period_end": "2010-12-31",
-            "perimeter": "con",
-            "account": "3.09.01",
-            "description": "Atribuído a Sócios da Empresa Controladora",
-            "source": "dfp_cia_aberta_DRE_con_2011.csv",
-            "archive_sha256": "858423fba40124d7a30abea4e70248f7251e1d2c792e9fcece5a57afd3115f34",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2011.zip"
-          },
-          {
-            "fiscal_year": 2011,
-            "metric": "attributable_ni",
-            "value": 934021000.0,
-            "docid": "25439",
-            "received": "2013-03-27",
-            "reference": "2012-12-31",
-            "period_end": "2011-12-31",
-            "perimeter": "con",
-            "account": "3.09.01",
-            "description": "Atribuído a Sócios da Empresa Controladora",
-            "source": "dfp_cia_aberta_DRE_con_2012.csv",
-            "archive_sha256": "3aff7a726d324d29924887eed45bbc58bc30b66cd9079bafe701d55efdfe0849",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2012.zip"
-          },
-          {
-            "fiscal_year": 2012,
-            "metric": "attributable_ni",
-            "value": 833587000.0,
             "docid": "35198",
+            "group": 1653,
+            "pages": [
+              2,
+              3
+            ],
             "received": "2014-03-14",
-            "reference": "2013-12-31",
-            "period_end": "2012-12-31",
-            "perimeter": "con",
-            "account": "3.09.01",
-            "description": "Atribuído a Sócios da Empresa Controladora",
-            "source": "dfp_cia_aberta_DRE_con_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35198",
+            "original": "review_originals/cvm_35198_g1653.pdf.gz",
+            "original_sha256": "b2cc00a2fc57381027af5ca226d414bf305e3e09742bfd37a72b45bd930f7d50"
           },
           {
-            "fiscal_year": 2013,
-            "metric": "attributable_ni",
-            "value": 748803000.0,
-            "docid": "35198",
-            "received": "2014-03-14",
-            "reference": "2013-12-31",
-            "period_end": "2013-12-31",
-            "perimeter": "con",
-            "account": "3.09.01",
-            "description": "Atribuído a Sócios da Empresa Controladora",
-            "source": "dfp_cia_aberta_DRE_con_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+            "docid": "37382",
+            "group": 192,
+            "pages": [
+              2
+            ],
+            "received": "2014-05-13",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37382",
+            "original": "review_originals/cvm_37382_g192.pdf.gz",
+            "original_sha256": "50dfa10bb8db7d3fbf3ca9a50561aa912e86393f8c8f54fee310b13aa2c87acf"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       },
       "earnings_reliability": {
-        "status": "INDETERMINATE",
-        "favorable": {
-          "positive_attributable_years": 4,
-          "audit_records": 4
-        },
-        "missing": "Profit/cash/recurring earnings bridge; provisions and extraordinary items reviewed in dated notes",
+        "status": "SATISFACTORY",
+        "favorable": "Ponte BRGAAP791,6→IFRS749 mi; 1T14 contábil77,8→recorrente137,9 mi com60,1 mi de PAI/migração previdenciária líquidos.",
+        "contrary_evidence": "Recorrente é gerencial e não elimina custo econômico das reestruturações.",
+        "reason": "Diferenças são identificadas e quantificadas; conservar os custos no lucro reportado e não confundir os dois padrões.",
+        "missing": "",
         "evidence": [
           {
             "docid": "35198",
+            "group": 1653,
+            "pages": [
+              2,
+              3
+            ],
             "received": "2014-03-14",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35198",
+            "original": "review_originals/cvm_35198_g1653.pdf.gz",
+            "original_sha256": "b2cc00a2fc57381027af5ca226d414bf305e3e09742bfd37a72b45bd930f7d50"
           },
           {
-            "docid": "35198",
-            "received": "2014-03-14",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
-          },
-          {
-            "docid": "35198",
-            "received": "2014-03-14",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
-          },
-          {
-            "docid": "35198",
-            "received": "2014-03-14",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+            "docid": "37382",
+            "group": 192,
+            "pages": [
+              2
+            ],
+            "received": "2014-05-13",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37382",
+            "original": "review_originals/cvm_37382_g192.pdf.gz",
+            "original_sha256": "50dfa10bb8db7d3fbf3ca9a50561aa912e86393f8c8f54fee310b13aa2c87acf"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       },
       "financial_resilience": {
-        "status": "INDETERMINATE",
-        "favorable": {
-          "parent_equity_latest": 5147862000.0
-        },
-        "missing": "BCB Basel/NPL/provision coverage under contemporaneous rules",
+        "status": "SATISFACTORY",
+        "favorable": "Capital total18,34%, principal13,99%, vs mínimos11%/4,5%; PL1T14 R$5,159 bi.",
+        "contrary_evidence": "Dívida subordinada integra capital e definições mudaram em outubro2013; comparação antiga não é homogênea.",
+        "reason": "Folga prudencial ampla e patrimônio após despesa extraordinária sustentam solvência do corte, sem presumir apoio estatal.",
+        "missing": "",
         "evidence": [
           {
             "docid": "35198",
+            "group": 412,
+            "pages": [
+              143
+            ],
             "received": "2014-03-14",
-            "reference": "2013-12-31",
-            "period_end": "2013-12-31",
-            "perimeter": "ind",
-            "account": "2.05",
-            "description": "Patrimônio Líquido",
-            "source": "dfp_cia_aberta_BPP_ind_2013.csv",
-            "archive_sha256": "",
-            "url": ""
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35198",
+            "original": "review_originals/cvm_35198_g412.pdf.gz",
+            "original_sha256": "06e42a3fcc365fb9a09b731c6585f20dad63f9fd841526a135b9838c5efbcbf8"
+          },
+          {
+            "docid": "37382",
+            "group": 192,
+            "pages": [
+              2,
+              3
+            ],
+            "received": "2014-05-13",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37382",
+            "original": "review_originals/cvm_37382_g192.pdf.gz",
+            "original_sha256": "50dfa10bb8db7d3fbf3ca9a50561aa912e86393f8c8f54fee310b13aa2c87acf"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       },
       "capital_allocation": {
         "status": "INDETERMINATE",
-        "favorable": {
-          "historical_payout": [
-            0.3999999999,
-            0.4,
-            0.4,
-            0.4,
-            null
-          ],
-          "distributions": [
-            205615999.93,
-            281672004.21,
-            343652598.43,
-            311064340.05,
-            null
-          ]
-        },
-        "missing": "Maintenance versus expansion CAPEX, sustainable dividends, adjusted per-share and incremental economic growth",
+        "favorable": "Reestruturação previdenciária e PAI explicitados; novos negócios de serviços.",
+        "contrary_evidence": "1T14 JCP66,1 mi consome a maior parte do lucro contábil77,8 mi; benefício futuro do PAI ainda não demonstrado.",
+        "reason": "Capital permite absorver despesas, porém sustentabilidade do investimento e distribuição sob margens menores exige acompanhamento.",
+        "missing": "Retorno efetivo da reestruturação e cobertura das distribuições no ciclo.",
         "evidence": [
           {
-            "docid": "28152",
-            "received": "2013-05-23",
-            "reference": "",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "fre_cia_aberta_distribuicao_dividendos_2012.csv",
-            "archive_sha256": "cd48dd32bab6d410dc523a3de0d27ca3bb7ebd8c403e6fa1de647b1454fbd069",
-            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=28152",
-            "fiscal_year": 2009,
-            "raw": {
-              "CNPJ_Companhia": "92.702.067/0001-96",
-              "Data_Referencia": "2012-01-01",
-              "Versao": "18",
-              "ID_Documento": "28152",
-              "Nome_Companhia": "BCO ESTADO DO RIO GRANDE DO SUL S.A.",
-              "Data_Inicio_Exercicio_Social": "2009-01-01",
-              "Data_Fim_Exercicio_Social": "2009-12-31",
-              "Lucro_Liquido_Ajustado": "514041000.00",
-              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "16.70000000",
-              "Lucro_Liquido_Retido": "0.00",
-              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "39.99999999",
-              "Dividendo_Distribuido_Total": "205615999.93",
-              "Data_Aprovacao_Retencao": ""
-            }
-          },
-          {
-            "docid": "36839",
-            "received": "2014-05-07",
-            "reference": "",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "fre_cia_aberta_distribuicao_dividendos_2013.csv",
-            "archive_sha256": "2c746f2cf0636236972a06be1d4e15dabaac15281e88753505acae9385a76f79",
-            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=36839",
-            "fiscal_year": 2010,
-            "raw": {
-              "CNPJ_Companhia": "92.702.067/0001-96",
-              "Data_Referencia": "2013-01-01",
-              "Versao": "21",
-              "ID_Documento": "36839",
-              "Nome_Companhia": "BCO ESTADO DO RIO GRANDE DO SUL S.A.",
-              "Data_Inicio_Exercicio_Social": "2010-01-31",
-              "Data_Fim_Exercicio_Social": "2010-12-31",
-              "Lucro_Liquido_Ajustado": "704180010.51",
-              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "20.41000000",
-              "Lucro_Liquido_Retido": "0.00",
-              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "40.00000000",
-              "Dividendo_Distribuido_Total": "281672004.21",
-              "Data_Aprovacao_Retencao": ""
-            }
-          },
-          {
-            "docid": "36839",
-            "received": "2014-05-07",
-            "reference": "",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "fre_cia_aberta_distribuicao_dividendos_2013.csv",
-            "archive_sha256": "2c746f2cf0636236972a06be1d4e15dabaac15281e88753505acae9385a76f79",
-            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=36839",
-            "fiscal_year": 2011,
-            "raw": {
-              "CNPJ_Companhia": "92.702.067/0001-96",
-              "Data_Referencia": "2013-01-01",
-              "Versao": "21",
-              "ID_Documento": "36839",
-              "Nome_Companhia": "BCO ESTADO DO RIO GRANDE DO SUL S.A.",
-              "Data_Inicio_Exercicio_Social": "2011-01-31",
-              "Data_Fim_Exercicio_Social": "2011-12-31",
-              "Lucro_Liquido_Ajustado": "859131496.08",
-              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "21.91000000",
-              "Lucro_Liquido_Retido": "0.00",
-              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "40.00000000",
-              "Dividendo_Distribuido_Total": "343652598.43",
-              "Data_Aprovacao_Retencao": ""
-            }
-          },
-          {
-            "docid": "36839",
-            "received": "2014-05-07",
-            "reference": "",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "fre_cia_aberta_distribuicao_dividendos_2013.csv",
-            "archive_sha256": "2c746f2cf0636236972a06be1d4e15dabaac15281e88753505acae9385a76f79",
-            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=36839",
-            "fiscal_year": 2012,
-            "raw": {
-              "CNPJ_Companhia": "92.702.067/0001-96",
-              "Data_Referencia": "2013-01-01",
-              "Versao": "21",
-              "ID_Documento": "36839",
-              "Nome_Companhia": "BCO ESTADO DO RIO GRANDE DO SUL S.A.",
-              "Data_Inicio_Exercicio_Social": "2012-01-31",
-              "Data_Fim_Exercicio_Social": "2012-12-31",
-              "Lucro_Liquido_Ajustado": "777660850.12",
-              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "17.62000000",
-              "Lucro_Liquido_Retido": "0.00",
-              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "40.00000000",
-              "Dividendo_Distribuido_Total": "311064340.05",
-              "Data_Aprovacao_Retencao": ""
-            }
+            "docid": "37382",
+            "group": 192,
+            "pages": [
+              2
+            ],
+            "received": "2014-05-13",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37382",
+            "original": "review_originals/cvm_37382_g192.pdf.gz",
+            "original_sha256": "50dfa10bb8db7d3fbf3ca9a50561aa912e86393f8c8f54fee310b13aa2c87acf"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       },
       "governance": {
         "status": "INDETERMINATE",
-        "favorable": {
-          "dated_shareholder_right_records": 21,
-          "dated_related_party_records": 180
-        },
-        "missing": "Review of material conflicts, related parties and audit opinions before cutoff; no ex-post controversy inference",
+        "favorable": "Contratos com Estado discriminam obrigações e contrapartidas; exclusividade de folha tem valor.",
+        "contrary_evidence": "Arrecadação, SIAC e outros serviços ao controlador não remunerados; créditos FCVS734,722 mi.",
+        "reason": "A reciprocidade impede chamar serviços gratuitos de abuso por si só; benefício líquido/condições da troca não está quantificado para aprovação.",
+        "missing": "Comutatividade econômica do pacote de serviços ao controlador.",
         "evidence": [
           {
             "docid": "35198",
+            "group": 412,
+            "pages": [
+              143,
+              144
+            ],
             "received": "2014-03-14",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
-          },
-          {
-            "docid": "35198",
-            "received": "2014-03-14",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
-          },
-          {
-            "docid": "35198",
-            "received": "2014-03-14",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
-          },
-          {
-            "docid": "35198",
-            "received": "2014-03-14",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35198",
+            "original": "review_originals/cvm_35198_g412.pdf.gz",
+            "original_sha256": "06e42a3fcc365fb9a09b731c6585f20dad63f9fd841526a135b9838c5efbcbf8"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       }
     },
-    "limitation": "Structured CVM facts establish availability, not all six economic conclusions. No scoring or future outcomes.",
+    "limitation": "Documentary economic review of originals",
     "special_case": ""
   },
   "annual_evidence_updates": [
@@ -404,8 +177,10 @@
       "ticker": "BRSR6",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "92702067000196:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "Banco Múltiplo atuante nas carteiras comercial, crédito, financiamento e investimento, crédito imobiliário, desenvolvimento e arrendamento mercantil e de investimentos.",
@@ -782,8 +557,10 @@
       "ticker": "BRSR6",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "92702067000196:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "Banco Múltiplo atuante nas carteiras comercial, crédito, financiamento e investimento, crédito imobiliário, desenvolvimento e arrendamento mercantil e de investimentos.",
@@ -1160,8 +937,10 @@
       "ticker": "BRSR6",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "92702067000196:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "Banco Múltiplo atuante nas carteiras comercial, crédito, financiamento e investimento, crédito imobiliário, desenvolvimento e arrendamento mercantil e de investimentos.",
@@ -1586,8 +1365,10 @@
       "ticker": "BRSR6",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "92702067000196:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "Banco Múltiplo atuante nas carteiras comercial, crédito, financiamento e investimento, crédito imobiliário, desenvolvimento e arrendamento mercantil e de investimentos.",
@@ -2060,8 +1841,10 @@
       "ticker": "BRSR6",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "92702067000196:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "Banco Múltiplo atuante nas carteiras comercial, crédito, financiamento e investimento, crédito imobiliário, desenvolvimento e arrendamento mercantil e de investimentos.",
@@ -2510,8 +2293,10 @@
       "ticker": "BRSR6",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "92702067000196:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "Banco Múltiplo atuante nas carteiras comercial, crédito, financiamento e investimento, crédito imobiliário, desenvolvimento e arrendamento mercantil e de investimentos.",

@@ -7,283 +7,161 @@
     "company": "BANCO DO BRASIL S.A.",
     "sector": "Bancos",
     "category": "INDETERMINATE",
+    "assessment_status": "ASSESSED",
     "dimensions": {
       "durability": {
-        "status": "INDETERMINATE",
-        "favorable": "Banco múltiplo.",
-        "missing": "Historical concession/contract durability, competitive position and pricing power",
+        "status": "SATISFACTORY",
+        "favorable": "Depósitos461 bi e crédito565 bi; franquia nacional varejo/agronegócio e seguros.",
+        "contrary_evidence": "Crédito agro cresce34,7%; exposição às políticas públicas.",
+        "reason": "Escala e funding documentados sustentam duração da franquia; controle estatal não é veto automático.",
+        "missing": "",
         "evidence": [
           {
-            "cnpj": "00000000000191",
-            "received": "2013-09-18",
-            "name": "BANCO DO BRASIL S.A.",
-            "sector": "Bancos",
-            "activity": "Banco múltiplo.",
-            "cvm": "001023",
-            "docid": "31490",
-            "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=31490"
+            "docid": "35587",
+            "group": 1653,
+            "pages": [
+              4,
+              22
+            ],
+            "received": "2014-03-27",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35587",
+            "original": "review_originals/cvm_35587_g1653.pdf.gz",
+            "original_sha256": "387ec77f9176d527ebad30af8d8dee0b76a702102faf8cf4cc9b61c5f8798dea"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       },
       "capital_economics": {
         "status": "INDETERMINATE",
-        "favorable": {
-          "roe_parent_5": [
-            null,
-            0.2608326090746908,
-            0.2334573780408496,
-            0.18149490250939987,
-            null
-          ],
-          "normalized_profit": 14689542150.599428
-        },
-        "missing": "Cycle-normalized ROIC/incremental returns or risk-adjusted prudential ROE; historical peer/capital comparison",
+        "favorable": "ROE IFRS15,9% em2013 vs17,6%2012 e inadimplência >90 dias2,0%.",
+        "contrary_evidence": "ROE BRGAAP22,9% incorpora tratamento distinto do IPO; expansão agro rápida altera risco.",
+        "reason": "Retorno positivo, mas contribuição recorrente homogênea e custo do crescimento precisam de ponte antes de aprovação econômica.",
+        "missing": "ROE recorrente e provisões da carteira expandida em perímetro uniforme.",
         "evidence": [
           {
-            "fiscal_year": 2009,
-            "metric": "attributable_ni",
-            "value": 13442940000.0,
-            "docid": "6945",
-            "received": "2011-04-30",
-            "reference": "2010-12-31",
-            "period_end": "2009-12-31",
-            "perimeter": "con",
-            "account": "3.09.01",
-            "description": "Atribuído a Sócios da Empresa Controladora",
-            "source": "dfp_cia_aberta_DRE_con_2010.csv",
-            "archive_sha256": "c6a9c95c2510e8a71bb583084492e9c52c3f423a3be56f1c5d2dd4f6960677ff",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2010.zip"
-          },
-          {
-            "fiscal_year": 2010,
-            "metric": "attributable_ni",
-            "value": 11296009000.0,
-            "docid": "16045",
-            "received": "2012-04-09",
-            "reference": "2011-12-31",
-            "period_end": "2010-12-31",
-            "perimeter": "con",
-            "account": "3.09.01",
-            "description": "Atribuído a Sócios da Empresa Controladora",
-            "source": "dfp_cia_aberta_DRE_con_2011.csv",
-            "archive_sha256": "858423fba40124d7a30abea4e70248f7251e1d2c792e9fcece5a57afd3115f34",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2011.zip"
-          },
-          {
-            "fiscal_year": 2011,
-            "metric": "attributable_ni",
-            "value": 12681922000.0,
-            "docid": "25257",
-            "received": "2013-03-25",
-            "reference": "2012-12-31",
-            "period_end": "2011-12-31",
-            "perimeter": "con",
-            "account": "3.09.01",
-            "description": "Atribuído a Sócios da Empresa Controladora",
-            "source": "dfp_cia_aberta_DRE_con_2012.csv",
-            "archive_sha256": "3aff7a726d324d29924887eed45bbc58bc30b66cd9079bafe701d55efdfe0849",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2012.zip"
-          },
-          {
-            "fiscal_year": 2012,
-            "metric": "attributable_ni",
-            "value": 11245922000.0,
-            "docid": "25257",
-            "received": "2013-03-25",
-            "reference": "2012-12-31",
-            "period_end": "2012-12-31",
-            "perimeter": "con",
-            "account": "3.09.01",
-            "description": "Atribuído a Sócios da Empresa Controladora",
-            "source": "dfp_cia_aberta_DRE_con_2012.csv",
-            "archive_sha256": "3aff7a726d324d29924887eed45bbc58bc30b66cd9079bafe701d55efdfe0849",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2012.zip"
-          },
-          {
-            "fiscal_year": 2013,
-            "metric": "attributable_ni",
-            "value": 15810371000.0,
             "docid": "35587",
+            "group": 1653,
+            "pages": [
+              4,
+              19,
+              22
+            ],
             "received": "2014-03-27",
-            "reference": "2013-12-31",
-            "period_end": "2013-12-31",
-            "perimeter": "ind",
-            "account": "3.13",
-            "description": "Lucro/Prejuízo do Período",
-            "source": "PR3/recovered_original_35587",
-            "archive_sha256": "",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35587",
+            "original": "review_originals/cvm_35587_g1653.pdf.gz",
+            "original_sha256": "387ec77f9176d527ebad30af8d8dee0b76a702102faf8cf4cc9b61c5f8798dea"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       },
       "earnings_reliability": {
-        "status": "INDETERMINATE",
-        "favorable": {
-          "positive_attributable_years": 5,
-          "audit_records": 0
-        },
-        "missing": "Profit/cash/recurring earnings bridge; provisions and extraordinary items reviewed in dated notes",
-        "evidence": [],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        "status": "SATISFACTORY",
+        "favorable": "Notas explicam IPO com retenção66,25% e tratamento patrimonial IFRS; dois padrões identificados.",
+        "contrary_evidence": "Lucratividade BRGAAP não pode representar diretamente lucro econômico recorrente; resultado de IPO material.",
+        "reason": "Transação e divergência estão explicadas, permitindo leitura da rentabilidade operacional sem chamar o pico BRGAAP de recorrente.",
+        "missing": "",
+        "evidence": [
+          {
+            "docid": "35587",
+            "group": 412,
+            "pages": [
+              35,
+              36
+            ],
+            "received": "2014-03-27",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35587",
+            "original": "review_originals/cvm_35587_g412.pdf.gz",
+            "original_sha256": "f57723c5c41bd9769fc8757fd265d552ba9f95adbbd2b6613c962952be02e360"
+          },
+          {
+            "docid": "35587",
+            "group": 1653,
+            "pages": [
+              4,
+              19
+            ],
+            "received": "2014-03-27",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35587",
+            "original": "review_originals/cvm_35587_g1653.pdf.gz",
+            "original_sha256": "387ec77f9176d527ebad30af8d8dee0b76a702102faf8cf4cc9b61c5f8798dea"
+          }
+        ]
       },
       "financial_resilience": {
-        "status": "INDETERMINATE",
-        "favorable": {
-          "parent_equity_latest": null
-        },
-        "missing": "BCB Basel/NPL/provision coverage under contemporaneous rules",
-        "evidence": [],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        "status": "SATISFACTORY",
+        "favorable": "Capital principal8,24%, total14,53%; margem sobre exigido28,736 bi, sob normas vigentes.",
+        "contrary_evidence": "Principal caiu de9,08% e capital contém instrumentos híbridos/subordinados sujeitos a decaimento.",
+        "reason": "Folgas atuais comprovam solvência regulatória, acompanhadas da composição; não contabilizar apoio estatal futuro.",
+        "missing": "",
+        "evidence": [
+          {
+            "docid": "35587",
+            "group": 412,
+            "pages": [
+              109,
+              110
+            ],
+            "received": "2014-03-27",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35587",
+            "original": "review_originals/cvm_35587_g412.pdf.gz",
+            "original_sha256": "f57723c5c41bd9769fc8757fd265d552ba9f95adbbd2b6613c962952be02e360"
+          }
+        ]
       },
       "capital_allocation": {
         "status": "INDETERMINATE",
-        "favorable": {
-          "historical_payout": [
-            0.371,
-            0.371,
-            0.371,
-            0.371,
-            null
-          ],
-          "distributions": [
-            4059000000.0,
-            4705000000.0,
-            4898933000.0,
-            4923948000.0,
-            null
-          ]
-        },
-        "missing": "Maintenance versus expansion CAPEX, sustainable dividends, adjusted per-share and incremental economic growth",
+        "favorable": "IPO monetiza parte de seguros preservando66,25%; crescimento de crédito e capital.",
+        "contrary_evidence": "Crescimento34,7% no agro e mudança de capital; rentabilidade incremental não separada.",
+        "reason": "Operação corporativa tem racional demonstrado, mas efeitos incrementais de expansão de crédito e distribuição ainda não estão conciliados.",
+        "missing": "Retorno ajustado ao risco do capital direcionado à expansão.",
         "evidence": [
           {
-            "docid": "28060",
-            "received": "2013-05-20",
-            "reference": "",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "fre_cia_aberta_distribuicao_dividendos_2012.csv",
-            "archive_sha256": "cd48dd32bab6d410dc523a3de0d27ca3bb7ebd8c403e6fa1de647b1454fbd069",
-            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=28060",
-            "fiscal_year": 2009,
-            "raw": {
-              "CNPJ_Companhia": "00.000.000/0001-91",
-              "Data_Referencia": "2012-01-01",
-              "Versao": "19",
-              "ID_Documento": "28060",
-              "Nome_Companhia": "BCO BRASIL S.A.",
-              "Data_Inicio_Exercicio_Social": "2009-01-01",
-              "Data_Fim_Exercicio_Social": "2009-12-31",
-              "Lucro_Liquido_Ajustado": "10940000000.00",
-              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "30.70000000",
-              "Lucro_Liquido_Retido": "6626000000.00",
-              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "37.10000000",
-              "Dividendo_Distribuido_Total": "4059000000.00",
-              "Data_Aprovacao_Retencao": "2010-04-13"
-            }
+            "docid": "35587",
+            "group": 412,
+            "pages": [
+              35,
+              36,
+              110
+            ],
+            "received": "2014-03-27",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35587",
+            "original": "review_originals/cvm_35587_g412.pdf.gz",
+            "original_sha256": "f57723c5c41bd9769fc8757fd265d552ba9f95adbbd2b6613c962952be02e360"
           },
           {
-            "docid": "38213",
-            "received": "2014-05-23",
-            "reference": "",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "fre_cia_aberta_distribuicao_dividendos_2013.csv",
-            "archive_sha256": "2c746f2cf0636236972a06be1d4e15dabaac15281e88753505acae9385a76f79",
-            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=38213",
-            "fiscal_year": 2010,
-            "raw": {
-              "CNPJ_Companhia": "00.000.000/0001-91",
-              "Data_Referencia": "2013-01-01",
-              "Versao": "20",
-              "ID_Documento": "38213",
-              "Nome_Companhia": "BCO BRASIL S.A.",
-              "Data_Inicio_Exercicio_Social": "2010-01-01",
-              "Data_Fim_Exercicio_Social": "2010-12-31",
-              "Lucro_Liquido_Ajustado": "12676000000.00",
-              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "27.00000000",
-              "Lucro_Liquido_Retido": "7878000000.00",
-              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "37.10000000",
-              "Dividendo_Distribuido_Total": "4705000000.00",
-              "Data_Aprovacao_Retencao": "2011-04-27"
-            }
-          },
-          {
-            "docid": "38213",
-            "received": "2014-05-23",
-            "reference": "",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "fre_cia_aberta_distribuicao_dividendos_2013.csv",
-            "archive_sha256": "2c746f2cf0636236972a06be1d4e15dabaac15281e88753505acae9385a76f79",
-            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=38213",
-            "fiscal_year": 2011,
-            "raw": {
-              "CNPJ_Companhia": "00.000.000/0001-91",
-              "Data_Referencia": "2013-01-01",
-              "Versao": "20",
-              "ID_Documento": "38213",
-              "Nome_Companhia": "BCO BRASIL S.A.",
-              "Data_Inicio_Exercicio_Social": "2011-01-01",
-              "Data_Fim_Exercicio_Social": "2011-12-31",
-              "Lucro_Liquido_Ajustado": "13203000000.00",
-              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "22.40000000",
-              "Lucro_Liquido_Retido": "8163000000.00",
-              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "37.10000000",
-              "Dividendo_Distribuido_Total": "4898933000.00",
-              "Data_Aprovacao_Retencao": "2012-04-26"
-            }
-          },
-          {
-            "docid": "38213",
-            "received": "2014-05-23",
-            "reference": "",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "fre_cia_aberta_distribuicao_dividendos_2013.csv",
-            "archive_sha256": "2c746f2cf0636236972a06be1d4e15dabaac15281e88753505acae9385a76f79",
-            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=38213",
-            "fiscal_year": 2012,
-            "raw": {
-              "CNPJ_Companhia": "00.000.000/0001-91",
-              "Data_Referencia": "2013-01-01",
-              "Versao": "20",
-              "ID_Documento": "38213",
-              "Nome_Companhia": "BCO BRASIL S.A.",
-              "Data_Inicio_Exercicio_Social": "2012-01-01",
-              "Data_Fim_Exercicio_Social": "2012-12-31",
-              "Lucro_Liquido_Ajustado": "13281000000.00",
-              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "19.90000000",
-              "Lucro_Liquido_Retido": "7878000000.00",
-              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "37.10000000",
-              "Dividendo_Distribuido_Total": "4923948000.00",
-              "Data_Aprovacao_Retencao": "2013-04-25"
-            }
+            "docid": "35587",
+            "group": 1653,
+            "pages": [
+              22
+            ],
+            "received": "2014-03-27",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35587",
+            "original": "review_originals/cvm_35587_g1653.pdf.gz",
+            "original_sha256": "387ec77f9176d527ebad30af8d8dee0b76a702102faf8cf4cc9b61c5f8798dea"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       },
       "governance": {
         "status": "INDETERMINATE",
-        "favorable": {
-          "dated_shareholder_right_records": 4,
-          "dated_related_party_records": 0
-        },
-        "missing": "Review of material conflicts, related parties and audit opinions before cutoff; no ex-post controversy inference",
-        "evidence": [],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        "favorable": "Segregação de negócio/risco e comitês explicitada.",
+        "contrary_evidence": "Controlador União influencia crédito direcionado e capital híbrido; existência de comitê não resolve condições econômicas destas relações.",
+        "reason": "Controle estatal não implica reprovação; contratos e contrapartidas materiais ainda exigem avaliação para classificar governança como satisfatória.",
+        "missing": "Comutatividade das operações materiais com controlador e proteção dos minoritários.",
+        "evidence": [
+          {
+            "docid": "35587",
+            "group": 412,
+            "pages": [
+              109,
+              110
+            ],
+            "received": "2014-03-27",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35587",
+            "original": "review_originals/cvm_35587_g412.pdf.gz",
+            "original_sha256": "f57723c5c41bd9769fc8757fd265d552ba9f95adbbd2b6613c962952be02e360"
+          }
+        ]
       }
     },
-    "limitation": "Structured CVM facts establish availability, not all six economic conclusions. No scoring or future outcomes.",
+    "limitation": "Documentary economic review of originals",
     "special_case": ""
   },
   "annual_evidence_updates": [
@@ -293,8 +171,10 @@
       "ticker": "BBAS3",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "00000000000191:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "Banco múltiplo.",
@@ -695,8 +575,10 @@
       "ticker": "BBAS3",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "00000000000191:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "Banco múltiplo.",
@@ -1097,8 +979,10 @@
       "ticker": "BBAS3",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "00000000000191:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "Banco Múltiplo",
@@ -1619,8 +1503,10 @@
       "ticker": "BBAS3",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "00000000000191:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "Banco Múltiplo",
@@ -2189,8 +2075,10 @@
       "ticker": "BBAS3",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "00000000000191:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "Banco Múltiplo",
@@ -2759,8 +2647,10 @@
       "ticker": "BBAS3",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "00000000000191:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "Banco Múltiplo",
@@ -3357,8 +3247,10 @@
       "ticker": "BBAS3",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "00000000000191:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "Banco Múltiplo",
@@ -3927,8 +3819,10 @@
       "ticker": "BBAS3",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "00000000000191:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "Banco Múltiplo",
@@ -4425,8 +4319,10 @@
       "ticker": "BBAS3",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "00000000000191:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "Banco Múltiplo",
@@ -4947,8 +4843,10 @@
       "ticker": "BBAS3",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "00000000000191:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "Banco Múltiplo",
@@ -5441,8 +5339,10 @@
       "ticker": "BBAS3",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "00000000000191:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "Banco Múltiplo",

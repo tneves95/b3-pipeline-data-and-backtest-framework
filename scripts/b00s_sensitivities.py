@@ -31,21 +31,22 @@ def coverage(ds):
 def main():
     raw=json.loads((INPUT/'fundamental_decisions.json').read_text());ds={(r['year'],r['ticker']):r for r in raw}
     coverage(raw);paths=[];summaries=[];contributions=[];trades=[];decision_diff=[]
-    base=simulate('VVAL',ds);base_final=base['annual'][-1]['cumulative_pct'];v0=simulate('V0');v0final=v0['annual'][-1]['cumulative_pct']
+    horizon=reviewed_through()-2013
+    base=simulate('VVAL',ds);base_final=base['annual'][-1]['cumulative_pct'];v0=simulate('V0',end_year=reviewed_through());v0final=v0['annual'][-1]['cumulative_pct']
     base_buys={(r['year'],r['ticker']) for r in base['reviews'] if r['reason'] in ['FORMATION','PASS_ENTRY']}
     def conditional_run(variant, scenario, include):
         try:return simulate(variant,scenario,include=include)
         except ValueError as e:
             if not e.args or not isinstance(e.args[0],tuple) or e.args[0][0]!='UNRESOLVED_ENTRY_FUNDING_WOULD_LIQUIDATE_NONFAIL':raise
             return dict(annual=[dict(variant=variant,year=y,start=DATES[y],end=DATES[y+1],return_pct='',cumulative_pct='',
-                status=str(e.args[0])) for y in range(2014,2026)],reviews=[],holdings=[])
+                status=str(e.args[0])) for y in range(2014,reviewed_through()+1)],reviews=[],holdings=[])
     def record(case,run,kind,comparison,conditional=True):
-        aa=run['annual'];formed=sum(r['return_pct']!='' for r in aa);final=aa[-1]['cumulative_pct'] if formed==12 else ''
+        aa=run['annual'];formed=sum(r['return_pct']!='' for r in aa);final=aa[-1]['cumulative_pct'] if formed==horizon else ''
         buys={(r['year'],r['ticker']) for r in run['reviews'] if r['reason'] in ['FORMATION','PASS_ENTRY']}
-        summaries.append(dict(case=case,kind=kind,periods=formed,final_pct=final,cagr_pct=100*((1+final/100)**(1/12)-1) if formed==12 else '',
+        summaries.append(dict(case=case,kind=kind,periods=formed,final_pct=final,cagr_pct=100*((1+final/100)**(1/horizon)-1) if final!='' else '',
             compared_with='VVAL_EVIDENCE_ONLY' if comparison==base_final else 'V0_AS_ALL_QUALITY_UNKNOWN_INCLUDED',
-            difference_pp=final-comparison if formed==12 else '',entry_decisions_different_from_vval=len(buys^base_buys),conditional=conditional,
-            limitation='Hypothetical eligibility; not evidence of actual quality, not a return bound, not a fifth main strategy' if formed==12 else aa[-1]['status']))
+            difference_pp=final-comparison if final!='' and comparison!='' else '',entry_decisions_different_from_vval=len(buys^base_buys),conditional=conditional,
+            limitation='Only reviewed formation cutoffs; hypothetical eligibility, not evidence of actual quality or a return bound' if final!='' else aa[-1]['status']))
         paths.extend(dict(case=case,**r) for r in aa)
         trades.extend(dict(case=case,**r) for r in run['reviews'])
         contributions.extend(dict(case=case,**r) for r in reconcile(run['holdings'],aa))
@@ -54,6 +55,8 @@ def main():
         for k,r in scenario.items():
             if r['perimeter_review'] and r['perimeter_review']['status']=='COMPARABLE' and not r['missing']:
                 r['valuation_status']=valuation_gate(r['normalized_pe'],r,mature,premium)
+            elif r.get('normalized_pe_interval') and not r['missing']:
+                r['valuation_status']='PASS_MATURE' if r['normalized_pe_interval']['upper']<=mature else 'INDETERMINATE'
             decision_diff.append(dict(case=f'VVAL_{mature}_{premium}',year=r['year'],ticker=r['ticker'],
                 main_decision=ds[k]['valuation_status'],scenario_decision=r['valuation_status'],different=r['valuation_status']!=ds[k]['valuation_status']))
         record(f'VVAL_{mature}_{premium}',simulate('VVAL',scenario),'FIXED_PE_THRESHOLDS_SAME_EVIDENCE',base_final)
@@ -68,17 +71,19 @@ def main():
     allq=simulate('VQ',ds,include=lambda r,d:d['quality_category']=='INDETERMINATE')
     if any(not math.isclose(a['return_pct'],b['return_pct'],abs_tol=1e-10) for a,b in zip(allq['annual'],v0['annual'])):raise ValueError('All-unknown scenario must reproduce base')
     record('VQ_ALL_UNKNOWN_INCLUDED',allq,'DOCUMENTATION_INCLUSION_NOT_QUALIFIED',v0final)
-    for c in sorted({r['cnpj'] for r in raw}):
+    for c in sorted({r['cnpj'] for r in raw if r['year']<=reviewed_through()}):
         record('VVAL_INCLUDE_'+c,conditional_run('VVAL',ds,include=lambda r,d,c=c:r['cnpj']==c and d['valuation_status']=='INDETERMINATE'),
                'ONE_ISSUER_UNKNOWN_INCLUDED',base_final)
         # Starting from the all-unknown hypothetical cohort makes this symmetric
         # and avoids pretending a single issuer can survive every B00S FAIL.
         conditional=deepcopy(ds)
+        for r in conditional.values():
+            if r['cnpj']==c:r['quality_category']='WITHHELD_SENSITIVITY'
         record('VQ_ALL_EXCEPT_'+c,simulate('VQ',conditional,include=lambda r,d,c=c:r['cnpj']!=c and d['quality_category']=='INDETERMINATE'),
                'ONE_ISSUER_WITHHELD_FROM_ALL_UNKNOWN_COHORT',v0final)
     write(RESULT/'sensitivity_summary.csv',summaries);write(RESULT/'sensitivity_annual_pct.csv',paths)
     write(RESULT/'sensitivity_attribution.csv',contributions);write(RESULT/'sensitivity_reviews.csv',trades)
     write(RESULT/'valuation_threshold_decisions.csv',decision_diff)
-    print('Scenarios',len(summaries),'twelve-period scenarios',sum(r['periods']==12 for r in summaries))
+    print('Scenarios',len(summaries),'complete reviewed-horizon scenarios',sum(r['periods']==horizon for r in summaries))
 
 if __name__=='__main__':main()

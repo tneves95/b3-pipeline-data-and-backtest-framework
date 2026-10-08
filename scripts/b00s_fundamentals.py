@@ -6,6 +6,7 @@ Ratios retain their units explicitly. Missing evidence remains None.
 from b00s_variants import INPUT, RESULT, OUT, DATES, candidates, read, write, jsonwrite, sha
 from stage1_pit import gzread, norm, num
 from stage1_select import Evidence, metric
+from b00s_documentary import load_reviews, adjust_profits, profit_interval
 from collections import defaultdict
 from datetime import date
 import json
@@ -113,6 +114,7 @@ class Fundamentals:
 
     def build(self):
         decisions=[];metrics=[];dossiers=[]
+        documentary=load_reviews()
         for y in range(2014,2026):
             idx,sectors,caps=self.base.asof(y);cut=DATES[y]
             for candidate in [r for r in candidates() if r['year']==y]:
@@ -120,11 +122,15 @@ class Fundamentals:
                 for fy in range(y-5,y):
                     n,src,mode=self.income(idx,c,fy,cut);profits.append(n);income_modes.append(mode)
                     if src:evidence.append(dict(fiscal_year=fy,metric='attributable_ni',value=n,**src))
+                assessment=documentary.get((y,c))
+                reported=adjust_profits(profits,evidence,y,assessment)
                 factors=[self.ipca[y,5]/self.ipca[fy,12] for fy in range(y-5,y)]
                 ni=normalized_profit(profits,factors)
+                interval=profit_interval(profits,factors,y,assessment)
                 cap=caps.get(c);mc,classes,missing=self.capital(c,y,cap)
                 if ni is None:missing.append('FIVE_COMPARABLE_ATTRIBUTABLE_PROFITS_MISSING')
-                if len(set(income_modes))>1:missing.append('PARENT_CONSOLIDATED_RECONCILIATION_REQUIRED')
+                if len(set(income_modes))>1 and not (assessment and assessment['valuation'].get('income_modes_reconciled')):
+                    missing.append('PARENT_CONSOLIDATED_RECONCILIATION_REQUIRED')
                 # Publication metadata and accounts prove availability, not a
                 # business/perimeter judgement. Record this review separately.
                 fre=[r for r in self.fre[c] if r['received']<=cut]
@@ -153,6 +159,10 @@ class Fundamentals:
                 # no premium is granted from growth of aggregate company profit.
                 f=dict(year=y,cutoff=cut,ticker=t,cnpj=c,sector=sector,base_status='PASS',
                     normalized_profit=ni,normalization='MEDIAN_FIVE_ANNUAL_NI_IN_KNOWN_MAY_IPCA_PRICES',
+                    reported_normalized_profit=normalized_profit(reported,factors),
+                    documentary_assessment=assessment,
+                    documentary_review_status='ASSESSED' if assessment else 'AWAITING_CHRONOLOGICAL_REVIEW',
+                    normalized_profit_interval=interval,
                     income_modes=income_modes,market_cap=mc,capital_classes=classes,capital_source=cap,
                     normalized_pe=pe,real_eps_cagr=None,average_payout=avgp,
                     return_on_capital_median=roc,return_on_capital_kind='ROE_PARENT_AVERAGE_EQUITY' if sector in ['Bancos','Seguros'] else 'ROIC_ND',
@@ -168,10 +178,23 @@ class Fundamentals:
                 review_path=INPUT/'valuation_perimeter_reviews.json'
                 reviews=json.loads(review_path.read_text()) if review_path.exists() else []
                 review=next((r for r in reviews if r['cnpj']==c and y in r['years']),None)
+                # Legacy perimeter judgements are historical, superseded by the
+                # effective documentary batch. Unreviewed years are not approvals.
+                review=assessment['valuation'] if assessment else None
                 f['mechanical_valuation_status']=preliminary
                 f['perimeter_review']=review
                 f['valuation_status']=preliminary if review and review['status']=='COMPARABLE' and not missing else 'INDETERMINATE'
-                if not review or review['status']!='COMPARABLE':f['missing']+=';ECONOMIC_PERIMETER_AND_NONRECURRING_ITEMS_REVIEW'
+                f['normalized_pe_interval']=None
+                if review and review['status']=='COMPARABLE_BOUNDED':
+                    # The point from raw accounts is diagnostic, not certified.
+                    f['mechanical_normalized_pe']=pe
+                    f['normalized_pe']=None;f['normalized_profit']=None
+                    if interval and mc is not None and not missing and interval['lower'] and interval['lower']>0:
+                        f['normalized_pe_interval']=dict(lower=mc/interval['upper'] if interval['upper'] and interval['upper']>0 else 0,
+                                                       upper=mc/interval['lower'])
+                        if f['normalized_pe_interval']['upper']<=15:f['valuation_status']='PASS_MATURE'
+                    f['bazin_normalized_dy']=None;f['bazin_issuer_price_ceiling']=None
+                if not review or review['status'] not in ['COMPARABLE','COMPARABLE_BOUNDED']:f['missing']+=';ECONOMIC_PERIMETER_AND_NONRECURRING_ITEMS_REVIEW'
                 if preliminary=='INDETERMINATE' and pe is not None and 15<pe<=25:f['missing']+=';ADJUSTED_REAL_EPS_CAGR;REINVESTMENT_SOLIDITY;'+('ROIC' if sector not in ['Bancos','Seguros'] else 'PRUDENTIAL_CAPITAL_CREDIT_OR_RESERVES')
                 decisions.append(f)
                 for fy,n,factor,rr in zip(range(y-5,y),profits,factors,roe):
@@ -195,8 +218,11 @@ class Fundamentals:
                     'governance':dict(status='INDETERMINATE',favorable={'dated_shareholder_right_records':sum(r['part']=='direito_acao' for r in fre),'dated_related_party_records':sum(r['part']=='transacao_parte_relacionada' for r in fre)},
                         missing='Review of material conflicts, related parties and audit opinions before cutoff; no ex-post controversy inference',evidence=[source(a) for a in latest_audits])}
                 for d in dims.values():d['contrary_evidence']='No structural rejection established by this extract; missing review is not evidence of poor business quality.'
+                if assessment:dims=assessment['dimensions']
+                f['quality_category']=quality_gate(dims)
                 dossiers.append(dict(year=y,cutoff=cut,ticker=t,cnpj=c,company=candidate['company'],sector=sector,category=quality_gate(dims),
-                    dimensions=dims,limitation='Structured CVM facts establish availability, not all six economic conclusions. No scoring or future outcomes.',
+                    assessment_status='ASSESSED' if assessment else 'AWAITING_CHRONOLOGICAL_REVIEW',
+                    dimensions=dims,limitation='Documentary economic review of originals' if assessment else 'Structured facts only; economic review outstanding. No quality approval inferred.',
                     special_case='IRBR3 June 2019: only pre-cutoff statements considered; later restatements/scandal cannot be used to reject this entry.' if t=='IRBR3' and y==2019 else ''))
         write(RESULT/'fundamental_metrics_by_fiscal_year.csv',metrics)
         jsonwrite(INPUT/'fundamental_decisions.json',decisions)
@@ -207,11 +233,15 @@ class Fundamentals:
             updates=[]
             for r in group[1:]:
                 updates.append({k:r[k] for k in ['year','cutoff','ticker','category','special_case']}|dict(
-                    assessment_ref=f'{c}:{first["year"]}',classification_changed=False,
+                    assessment_ref=f'{c}:{r["year"]}' if (r['year'],c) in documentary else None,
+                    assessment_status=r['assessment_status'],
+                    classification_changed=r['category']!=first['category'] if (r['year'],c) in documentary else None,
+                    dimensions=r['dimensions'] if (r['year'],c) in documentary else {},
                     dimension_evidence_updates={k:dict(favorable=v['favorable'],evidence=v['evidence']) for k,v in r['dimensions'].items()}))
             jsonwrite(INPUT/'dossiers'/f'{c}.json',dict(initial_assessment=first,annual_evidence_updates=updates))
         jsonwrite(INPUT/'fundamental_decisions_lock.json',dict(decisions_sha256=sha(INPUT/'fundamental_decisions.json'),
             quantitative_thresholds=[15,25,.04,.20,.06],frozen_before_variant_returns=True,
+            documentary_reviews_sha256=sha(INPUT/'economic_reviews.json') if (INPUT/'economic_reviews.json').exists() else None,
             extract_sha256=sha(INPUT/'cvm_directed_extract.json.gz'),ipca_sha256=sha(INPUT/'ipca_sgs433.json')))
         for y in range(2014,2026):
             rs=[r for r in decisions if r['year']==y]

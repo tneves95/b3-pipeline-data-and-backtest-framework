@@ -6,395 +6,256 @@
     "cnpj": "60872504000123",
     "company": "ITAÚ UNIBANCO HOLDING S.A.",
     "sector": "Bancos",
-    "category": "INDETERMINATE",
+    "category": "QUALIFIED_SATISFACTORY",
+    "assessment_status": "ASSESSED",
     "dimensions": {
       "durability": {
-        "status": "INDETERMINATE",
-        "favorable": "A sociedade tem por objeto a atividade bancária em todas as modalidades autorizadas, inclusive a de operações de câmbio.",
-        "missing": "Historical concession/contract durability, competitive position and pricing power",
+        "status": "SATISFACTORY",
+        "favorable": "Franquia diversificada: varejo, cartões, atacado, gestão; captações livres e administradas R$1,59 tri; depósitos à vista/poupança +26% em março/2014.",
+        "contrary_evidence": "Concorrência e crescimento imobiliário/consignado; não confundir ativos administrados com liquidez própria.",
+        "reason": "A escala de distribuição e o funding de varejo demonstram vantagem persistente sem depender só de crescimento do crédito.",
+        "missing": "",
         "evidence": [
           {
-            "cnpj": "60872504000123",
-            "received": "2013-05-22",
-            "name": "ITAÚ UNIBANCO HOLDING S.A.",
-            "sector": "Bancos",
-            "activity": "A sociedade tem por objeto a atividade bancária em todas as modalidades autorizadas, inclusive a de operações de câmbio.",
-            "cvm": "019348",
-            "docid": "28119",
-            "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=28119"
+            "docid": "36223",
+            "group": 1653,
+            "pages": [
+              1,
+              7
+            ],
+            "received": "2014-04-11",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36223",
+            "original": "review_originals/cvm_36223_g1653.pdf.gz",
+            "original_sha256": "33aed650769d143cb368e663fe1fd90d9f1be48211713764a3f5f3a1e6b3dd66"
+          },
+          {
+            "docid": "36464",
+            "group": 192,
+            "pages": [
+              5,
+              6,
+              7
+            ],
+            "received": "2014-04-29",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36464",
+            "original": "review_originals/cvm_36464_g192.pdf.gz",
+            "original_sha256": "af44bf1421ccb626ac26d0e10c703550cdba1647a59bc884134ccb3d4997d7f8"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       },
       "capital_economics": {
-        "status": "INDETERMINATE",
-        "favorable": {
-          "roe_parent_5": [
-            null,
-            0.1745568562304229,
-            null,
-            null,
-            0.187648897898057
-          ],
-          "normalized_profit": null
-        },
-        "missing": "Cycle-normalized ROIC/incremental returns or risk-adjusted prudential ROE; historical peer/capital comparison",
+        "status": "SATISFACTORY",
+        "favorable": "ROE recorrente BRGAAP20,9% em2013 versus19,4% em2012; ROE contábil20,7% versus18,4%. Crédito inadimplente >90dias gerencial3,7% em dezembro→3,5% em março/2014, com mudança documentada do mix; não é ROIC industrial.",
+        "contrary_evidence": "ROE gerencial não equivale a ROIC nem normaliza o P/L; o ciclo de crédito pode deteriorar.",
+        "reason": "Retorno bancário acompanhado de redução do risco, capital e funding sustenta adequação econômica no corte, sem conceder prêmio VVAL.",
+        "missing": "",
         "evidence": [
           {
-            "fiscal_year": 2009,
-            "metric": "attributable_ni",
-            "value": 0.0,
-            "docid": "11545",
-            "received": "2011-09-01",
-            "reference": "2010-12-31",
-            "period_end": "2009-12-31",
-            "perimeter": "con",
-            "account": "3.09.01",
-            "description": "Atribuído a Sócios da Empresa Controladora",
-            "source": "dfp_cia_aberta_DRE_con_2010.csv",
-            "archive_sha256": "c6a9c95c2510e8a71bb583084492e9c52c3f423a3be56f1c5d2dd4f6960677ff",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2010.zip"
-          },
-          {
-            "fiscal_year": 2010,
-            "metric": "attributable_ni",
-            "value": 11708000000.0,
-            "docid": "11545",
-            "received": "2011-09-01",
-            "reference": "2010-12-31",
-            "period_end": "2010-12-31",
-            "perimeter": "con",
-            "account": "3.09.01",
-            "description": "Atribuído a Sócios da Empresa Controladora",
-            "source": "dfp_cia_aberta_DRE_con_2010.csv",
-            "archive_sha256": "c6a9c95c2510e8a71bb583084492e9c52c3f423a3be56f1c5d2dd4f6960677ff",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2010.zip"
-          },
-          {
-            "fiscal_year": 2011,
-            "metric": "attributable_ni",
-            "value": 11890196000.0,
-            "docid": "24646",
-            "received": "2013-03-04",
-            "reference": "2011-12-31",
-            "period_end": "2011-12-31",
-            "perimeter": "ind",
-            "account": "3.13",
-            "description": "Lucro/Prejuízo do Período",
-            "source": "PR3/recovered_original_24646",
-            "archive_sha256": "",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2011.zip"
-          },
-          {
-            "fiscal_year": 2012,
-            "metric": "attributable_ni",
-            "value": 12634000000.0,
             "docid": "36223",
+            "group": 1653,
+            "pages": [
+              1,
+              7
+            ],
             "received": "2014-04-11",
-            "reference": "2013-12-31",
-            "period_end": "2012-12-31",
-            "perimeter": "con",
-            "account": "3.09.01",
-            "description": "Atribuído a Sócios da Empresa Controladora",
-            "source": "dfp_cia_aberta_DRE_con_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36223",
+            "original": "review_originals/cvm_36223_g1653.pdf.gz",
+            "original_sha256": "33aed650769d143cb368e663fe1fd90d9f1be48211713764a3f5f3a1e6b3dd66"
           },
           {
-            "fiscal_year": 2013,
-            "metric": "attributable_ni",
-            "value": 16424000000.0,
+            "docid": "36464",
+            "group": 192,
+            "pages": [
+              6,
+              7
+            ],
+            "received": "2014-04-29",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36464",
+            "original": "review_originals/cvm_36464_g192.pdf.gz",
+            "original_sha256": "af44bf1421ccb626ac26d0e10c703550cdba1647a59bc884134ccb3d4997d7f8"
+          },
+          {
             "docid": "36223",
+            "group": 1653,
+            "pages": [
+              4
+            ],
             "received": "2014-04-11",
-            "reference": "2013-12-31",
-            "period_end": "2013-12-31",
-            "perimeter": "con",
-            "account": "3.09.01",
-            "description": "Atribuído a Sócios da Empresa Controladora",
-            "source": "dfp_cia_aberta_DRE_con_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36223",
+            "original": "review_originals/cvm_36223_g1653.pdf.gz",
+            "original_sha256": "33aed650769d143cb368e663fe1fd90d9f1be48211713764a3f5f3a1e6b3dd66"
+          },
+          {
+            "docid": "36223",
+            "group": 412,
+            "pages": [
+              49,
+              50
+            ],
+            "received": "2014-04-11",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36223",
+            "original": "review_originals/cvm_36223_g412.pdf.gz",
+            "original_sha256": "9f15226abe5c857799b2319f2d1dbbcadabeb80d438b35f665313144af14da50"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       },
       "earnings_reliability": {
-        "status": "INDETERMINATE",
-        "favorable": {
-          "positive_attributable_years": 4,
-          "audit_records": 4
-        },
-        "missing": "Profit/cash/recurring earnings bridge; provisions and extraordinary items reviewed in dated notes",
+        "status": "SATISFACTORY",
+        "favorable": "Lucro contábil BRGAAP R$15,7 bi próximo ao recorrente R$15,8 bi; indicadores de crédito mostram redução da mora.",
+        "contrary_evidence": "O crescimento do lucro2013 depende em parte da redução22,4% da despesa BRGAAP de PDD. IFRS: provisão cai25,713→22,235 bi porque baixas21,769 bi excedem constituições17,856 bi; a queda da mora não pode ser atribuída integralmente à melhor originação. IFRS e BRGAAP são distintos. REFIS624 mi, resultado de participações Porto e outros eventos fiscais impedem tratar reportado como integralmente recorrente.",
+        "reason": "SATISFACTORY após confrontar lucro com carteira e movimentação de provisões, sem adicionar perdas. IFRS empréstimos411,702 bi, atrasos desde1dia12,239 bi, provisão22,235 bi e diversificação de devedores; serviço24,1 bi BRGAAP cresce18,5% e resultado de seguros3,5 bi cresce18%, além do ciclo de PDD. O resultado operacional persistente é demonstrado, mas não equivale à normalização dos cinco anos VVAL.",
+        "missing": "",
         "evidence": [
           {
             "docid": "36223",
+            "group": 1653,
+            "pages": [
+              1,
+              7
+            ],
             "received": "2014-04-11",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36223",
+            "original": "review_originals/cvm_36223_g1653.pdf.gz",
+            "original_sha256": "33aed650769d143cb368e663fe1fd90d9f1be48211713764a3f5f3a1e6b3dd66"
+          },
+          {
+            "docid": "36464",
+            "group": 192,
+            "pages": [
+              6,
+              7
+            ],
+            "received": "2014-04-29",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36464",
+            "original": "review_originals/cvm_36464_g192.pdf.gz",
+            "original_sha256": "af44bf1421ccb626ac26d0e10c703550cdba1647a59bc884134ccb3d4997d7f8"
           },
           {
             "docid": "36223",
+            "group": 1653,
+            "pages": [
+              4
+            ],
             "received": "2014-04-11",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36223",
+            "original": "review_originals/cvm_36223_g1653.pdf.gz",
+            "original_sha256": "33aed650769d143cb368e663fe1fd90d9f1be48211713764a3f5f3a1e6b3dd66"
           },
           {
             "docid": "36223",
+            "group": 412,
+            "pages": [
+              49,
+              50,
+              68,
+              178
+            ],
             "received": "2014-04-11",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
-          },
-          {
-            "docid": "36223",
-            "received": "2014-04-11",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36223",
+            "original": "review_originals/cvm_36223_g412.pdf.gz",
+            "original_sha256": "9f15226abe5c857799b2319f2d1dbbcadabeb80d438b35f665313144af14da50"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       },
       "financial_resilience": {
-        "status": "INDETERMINATE",
-        "favorable": {
-          "parent_equity_latest": 89229744000.0
-        },
-        "missing": "BCB Basel/NPL/provision coverage under contemporaneous rules",
+        "status": "SATISFACTORY",
+        "favorable": "Março/2014: capital total15,6%, principal11,1%; crédito/captação75,3%. Nas notas do1T14, ativos líquidos94,1 bi representam55,6% dos recursos resgatáveis no curto prazo; ativos administrados não são caixa próprio.",
+        "contrary_evidence": "Capital inclui nívelII4,5%; crescimento e CorpBanca consomem capital; downgrade soberano divulgado.",
+        "reason": "Principal e total mantêm folga às exigências vigentes; composição de funding reforça solvência, não apenas patrimônio contábil positivo.",
+        "missing": "",
         "evidence": [
           {
-            "docid": "36223",
-            "received": "2014-04-11",
-            "reference": "2013-12-31",
-            "period_end": "2013-12-31",
-            "perimeter": "ind",
-            "account": "2.05",
-            "description": "Patrimônio Líquido",
-            "source": "dfp_cia_aberta_BPP_ind_2013.csv",
-            "archive_sha256": "",
-            "url": ""
+            "docid": "36464",
+            "group": 192,
+            "pages": [
+              7
+            ],
+            "received": "2014-04-29",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36464",
+            "original": "review_originals/cvm_36464_g192.pdf.gz",
+            "original_sha256": "af44bf1421ccb626ac26d0e10c703550cdba1647a59bc884134ccb3d4997d7f8"
+          },
+          {
+            "docid": "36464",
+            "group": 193,
+            "pages": [
+              190
+            ],
+            "received": "2014-04-29",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36464",
+            "original": "review_originals/cvm_36464_g193.pdf.gz",
+            "original_sha256": "ffa944551e31ecb3e71d6b1a7801ab5754167e6d2d01ecf711f8432f07fdf7e1"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       },
       "capital_allocation": {
-        "status": "INDETERMINATE",
-        "favorable": {
-          "historical_payout": [
-            0.474,
-            0.4,
-            0.389,
-            0.44,
-            null
-          ],
-          "distributions": [
-            3472000000.0,
-            3908000000.0,
-            4394000000.0,
-            4518000000.0,
-            null
-          ]
-        },
-        "missing": "Maintenance versus expansion CAPEX, sustainable dividends, adjusted per-share and incremental economic growth",
+        "status": "SATISFACTORY",
+        "favorable": "Redução de veículos/PMe e priorização de menor risco; dividendos/JCP líquidos R$5,1 bi e recompra R$662,2 mi em 2013.",
+        "contrary_evidence": "CorpBanca anunciado em janeiro/2014 ainda condicionado; sinergias estimadas não são lucro realizado. Há consumo de capital também em participações e integração; recompra não é por si prova de preço vantajoso. Capital principal caiu11,6%→11,1%, ainda acima do requisito, o que exige acompanhamento.",
+        "reason": "Retenção substancial e mudança demonstrada de carteira preservam capacidade; aquisição será gatilho de atualização sem presumir seu sucesso.",
+        "missing": "",
         "evidence": [
           {
-            "docid": "26422",
-            "received": "2013-04-30",
-            "reference": "",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "fre_cia_aberta_distribuicao_dividendos_2012.csv",
-            "archive_sha256": "cd48dd32bab6d410dc523a3de0d27ca3bb7ebd8c403e6fa1de647b1454fbd069",
-            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=26422",
-            "fiscal_year": 2009,
-            "raw": {
-              "CNPJ_Companhia": "60.872.504/0001-23",
-              "Data_Referencia": "2012-01-01",
-              "Versao": "14",
-              "ID_Documento": "26422",
-              "Nome_Companhia": "ITAU UNIBANCO HOLDING S.A.",
-              "Data_Inicio_Exercicio_Social": "2009-01-01",
-              "Data_Fim_Exercicio_Social": "2009-12-31",
-              "Lucro_Liquido_Ajustado": "7322000000.00",
-              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "12.10000000",
-              "Lucro_Liquido_Retido": "0.00",
-              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "47.40000000",
-              "Dividendo_Distribuido_Total": "3472000000.00",
-              "Data_Aprovacao_Retencao": ""
-            }
+            "docid": "36223",
+            "group": 1653,
+            "pages": [
+              1,
+              9
+            ],
+            "received": "2014-04-11",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36223",
+            "original": "review_originals/cvm_36223_g1653.pdf.gz",
+            "original_sha256": "33aed650769d143cb368e663fe1fd90d9f1be48211713764a3f5f3a1e6b3dd66"
           },
           {
-            "docid": "36669",
-            "received": "2014-05-05",
-            "reference": "",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "fre_cia_aberta_distribuicao_dividendos_2013.csv",
-            "archive_sha256": "2c746f2cf0636236972a06be1d4e15dabaac15281e88753505acae9385a76f79",
-            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=36669",
-            "fiscal_year": 2010,
-            "raw": {
-              "CNPJ_Companhia": "60.872.504/0001-23",
-              "Data_Referencia": "2013-01-01",
-              "Versao": "11",
-              "ID_Documento": "36669",
-              "Nome_Companhia": "ITAU UNIBANCO HOLDING S.A.",
-              "Data_Inicio_Exercicio_Social": "2010-01-01",
-              "Data_Fim_Exercicio_Social": "2010-12-31",
-              "Lucro_Liquido_Ajustado": "9758000000.00",
-              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "14.50000000",
-              "Lucro_Liquido_Retido": "0.00",
-              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "40.00000000",
-              "Dividendo_Distribuido_Total": "3908000000.00",
-              "Data_Aprovacao_Retencao": ""
-            }
-          },
-          {
-            "docid": "36669",
-            "received": "2014-05-05",
-            "reference": "",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "fre_cia_aberta_distribuicao_dividendos_2013.csv",
-            "archive_sha256": "2c746f2cf0636236972a06be1d4e15dabaac15281e88753505acae9385a76f79",
-            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=36669",
-            "fiscal_year": 2011,
-            "raw": {
-              "CNPJ_Companhia": "60.872.504/0001-23",
-              "Data_Referencia": "2013-01-01",
-              "Versao": "11",
-              "ID_Documento": "36669",
-              "Nome_Companhia": "ITAU UNIBANCO HOLDING S.A.",
-              "Data_Inicio_Exercicio_Social": "2011-01-01",
-              "Data_Fim_Exercicio_Social": "2011-12-31",
-              "Lucro_Liquido_Ajustado": "11296000000.00",
-              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "15.20000000",
-              "Lucro_Liquido_Retido": "0.00",
-              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "38.90000000",
-              "Dividendo_Distribuido_Total": "4394000000.00",
-              "Data_Aprovacao_Retencao": ""
-            }
-          },
-          {
-            "docid": "36669",
-            "received": "2014-05-05",
-            "reference": "",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "fre_cia_aberta_distribuicao_dividendos_2013.csv",
-            "archive_sha256": "2c746f2cf0636236972a06be1d4e15dabaac15281e88753505acae9385a76f79",
-            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=36669",
-            "fiscal_year": 2012,
-            "raw": {
-              "CNPJ_Companhia": "60.872.504/0001-23",
-              "Data_Referencia": "2013-01-01",
-              "Versao": "11",
-              "ID_Documento": "36669",
-              "Nome_Companhia": "ITAU UNIBANCO HOLDING S.A.",
-              "Data_Inicio_Exercicio_Social": "2012-01-01",
-              "Data_Fim_Exercicio_Social": "2012-12-31",
-              "Lucro_Liquido_Ajustado": "10260000000.00",
-              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "12.60000000",
-              "Lucro_Liquido_Retido": "0.00",
-              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "44.00000000",
-              "Dividendo_Distribuido_Total": "4518000000.00",
-              "Data_Aprovacao_Retencao": ""
-            }
+            "docid": "36464",
+            "group": 192,
+            "pages": [
+              1,
+              5,
+              6
+            ],
+            "received": "2014-04-29",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36464",
+            "original": "review_originals/cvm_36464_g192.pdf.gz",
+            "original_sha256": "af44bf1421ccb626ac26d0e10c703550cdba1647a59bc884134ccb3d4997d7f8"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       },
       "governance": {
-        "status": "INDETERMINATE",
-        "favorable": {
-          "dated_shareholder_right_records": 8,
-          "dated_related_party_records": 142
-        },
-        "missing": "Review of material conflicts, related parties and audit opinions before cutoff; no ex-post controversy inference",
+        "status": "SATISFACTORY",
+        "favorable": "Conselho12/4 independentes; comitês de risco/capital e auditoria; nota35 discrimina partes relacionadas e condições usuais.",
+        "contrary_evidence": "Controle concentrado Itaúsa/IUPAR e R$267 mi de despesas de processamento com Itautec.",
+        "reason": "Supervisão efetiva descrita e transações quantificadas a condições de mercado sustentam classificação satisfatória; não se infere ausência de conflito.",
+        "missing": "",
         "evidence": [
           {
             "docid": "36223",
+            "group": 1653,
+            "pages": [
+              14
+            ],
             "received": "2014-04-11",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36223",
+            "original": "review_originals/cvm_36223_g1653.pdf.gz",
+            "original_sha256": "33aed650769d143cb368e663fe1fd90d9f1be48211713764a3f5f3a1e6b3dd66"
           },
           {
             "docid": "36223",
+            "group": 412,
+            "pages": [
+              112,
+              113
+            ],
             "received": "2014-04-11",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
-          },
-          {
-            "docid": "36223",
-            "received": "2014-04-11",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
-          },
-          {
-            "docid": "36223",
-            "received": "2014-04-11",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36223",
+            "original": "review_originals/cvm_36223_g412.pdf.gz",
+            "original_sha256": "9f15226abe5c857799b2319f2d1dbbcadabeb80d438b35f665313144af14da50"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       }
     },
-    "limitation": "Structured CVM facts establish availability, not all six economic conclusions. No scoring or future outcomes.",
+    "limitation": "Documentary economic review of originals",
     "special_case": ""
   },
   "annual_evidence_updates": [
@@ -404,8 +265,10 @@
       "ticker": "ITUB4",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "60872504000123:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "A sociedade tem por objeto a atividade bancária em todas as modalidades autorizadas, inclusive a de operações de câmbio.",
@@ -782,8 +645,10 @@
       "ticker": "ITUB4",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "60872504000123:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "A sociedade tem por objeto a atividade bancária em todas as modalidades autorizadas, inclusive a de operações de câmbio.",
@@ -1184,8 +1049,10 @@
       "ticker": "ITUB4",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "60872504000123:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "A sociedade tem por objeto a atividade bancária em todas as modalidades autorizadas, inclusive a de operações de câmbio.",
@@ -1706,8 +1573,10 @@
       "ticker": "ITUB4",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "60872504000123:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "A sociedade tem por objeto a atividade bancária em todas as modalidades autorizadas, inclusive a de operações de câmbio.",
@@ -2276,8 +2145,10 @@
       "ticker": "ITUB4",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "60872504000123:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "A sociedade tem por objeto a atividade bancária em todas as modalidades autorizadas, inclusive a de operações de câmbio.",
@@ -2774,8 +2645,10 @@
       "ticker": "ITUB4",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "60872504000123:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "A sociedade tem por objeto a atividade bancária em todas as modalidades autorizadas, inclusive a de operações de câmbio.",
@@ -3272,8 +3145,10 @@
       "ticker": "ITUB4",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "60872504000123:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "A sociedade tem por objeto a atividade bancária em todas as modalidades autorizadas, inclusive a de operações de câmbio.",
@@ -3866,8 +3741,10 @@
       "ticker": "ITUB4",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "60872504000123:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "A sociedade tem por objeto a atividade bancária em todas as modalidades autorizadas, inclusive a de operações de câmbio.",
@@ -4484,8 +4361,10 @@
       "ticker": "ITUB4",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "60872504000123:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "A sociedade tem por objeto a atividade bancária em todas as modalidades autorizadas, inclusive a de operações de câmbio.",
@@ -5174,8 +5053,10 @@
       "ticker": "ITUB4",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "60872504000123:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "A sociedade tem por objeto a atividade bancária em todas as modalidades autorizadas, inclusive a de operações de câmbio.",
@@ -5740,8 +5621,10 @@
       "ticker": "ITUB4",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "60872504000123:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "A sociedade tem por objeto a atividade bancária em todas as modalidades autorizadas, inclusive a de operações de câmbio.",

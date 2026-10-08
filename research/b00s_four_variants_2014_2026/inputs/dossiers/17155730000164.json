@@ -7,394 +7,142 @@
     "company": "CIA ENERG MINAS GERAIS - CEMIG",
     "sector": "Energia",
     "category": "INDETERMINATE",
+    "assessment_status": "ASSESSED",
     "dimensions": {
       "durability": {
         "status": "INDETERMINATE",
-        "favorable": "Concessionária de serviço público de energia elétrica.",
-        "missing": "Historical concession/contract durability, competitive position and pricing power",
+        "favorable": "Concessões de geração, transmissão e distribuição diversificadas.",
+        "contrary_evidence": "Jaguara venceu2013 e opera sob liminar; São Simão vencejan2015 e Miranda2016.",
+        "reason": "Franquia é relevante, mas direitos materiais contestados impedem concluir duração contratual satisfatória para o conjunto neste corte.",
+        "missing": "Desfecho/condições econômicas das renovações relevantes, sem usar decisões futuras.",
         "evidence": [
           {
-            "cnpj": "17155730000164",
-            "received": "2014-05-27",
-            "name": "CIA ENERG MINAS GERAIS - CEMIG",
-            "sector": "Energia Elétrica",
-            "activity": "Concessionária de serviço público de energia elétrica.",
-            "cvm": "002453",
-            "docid": "38266",
-            "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=38266"
+            "docid": "36107",
+            "group": 412,
+            "pages": [
+              42,
+              47
+            ],
+            "received": "2014-04-04",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36107",
+            "original": "review_originals/cvm_36107_g412.pdf.gz",
+            "original_sha256": "619d592095b080ffe9257c179f2e2fb98ae5414391875616e1bb495278510ed2"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       },
       "capital_economics": {
         "status": "INDETERMINATE",
-        "favorable": {
-          "roe_parent_5": [
-            null,
-            0.19945344934027287,
-            0.20803941039609655,
-            0.3667478230469238,
-            0.25664045832306154
-          ],
-          "normalized_profit": 2797829428.9828773
-        },
-        "missing": "Cycle-normalized ROIC/incremental returns or risk-adjusted prudential ROE; historical peer/capital comparison",
+        "favorable": "Lucro atribuível2013 R$3,104 bi e ativos existentes.",
+        "contrary_evidence": "CRC e outros ganhos distorcem retorno; concessões relevantes em disputa.",
+        "reason": "Lucro positivo não resolve remuneração econômica do capital sob as condições futuras já contestadas.",
+        "missing": "Retorno recorrente e capital após renovação/indenização.",
         "evidence": [
           {
-            "fiscal_year": 2009,
-            "metric": "attributable_ni",
-            "value": 2133537000.0,
-            "docid": "6653",
-            "received": "2011-04-20",
-            "reference": "2010-12-31",
-            "period_end": "2009-12-31",
-            "perimeter": "con",
-            "account": "3.11.01",
-            "description": "Atribuído a Sócios da Empresa Controladora",
-            "source": "dfp_cia_aberta_DRE_con_2010.csv",
-            "archive_sha256": "c6a9c95c2510e8a71bb583084492e9c52c3f423a3be56f1c5d2dd4f6960677ff",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2010.zip"
-          },
-          {
-            "fiscal_year": 2010,
-            "metric": "attributable_ni",
-            "value": 2257976000.0,
-            "docid": "15488",
-            "received": "2012-03-28",
-            "reference": "2011-12-31",
-            "period_end": "2010-12-31",
-            "perimeter": "con",
-            "account": "3.11.01",
-            "description": "Atribuído a Sócios da Empresa Controladora",
-            "source": "dfp_cia_aberta_DRE_con_2011.csv",
-            "archive_sha256": "858423fba40124d7a30abea4e70248f7251e1d2c792e9fcece5a57afd3115f34",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2011.zip"
-          },
-          {
-            "fiscal_year": 2011,
-            "metric": "attributable_ni",
-            "value": 2415450000.0,
-            "docid": "26149",
-            "received": "2013-04-16",
-            "reference": "2012-12-31",
-            "period_end": "2011-12-31",
-            "perimeter": "con",
-            "account": "3.11.01",
-            "description": "Atribuído a Sócios da Empresa Controladora",
-            "source": "dfp_cia_aberta_DRE_con_2012.csv",
-            "archive_sha256": "3aff7a726d324d29924887eed45bbc58bc30b66cd9079bafe701d55efdfe0849",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2012.zip"
-          },
-          {
-            "fiscal_year": 2012,
-            "metric": "attributable_ni",
-            "value": 4271685000.0,
             "docid": "36107",
+            "group": 412,
+            "pages": [
+              47,
+              60,
+              61,
+              114
+            ],
             "received": "2014-04-04",
-            "reference": "2013-12-31",
-            "period_end": "2012-12-31",
-            "perimeter": "con",
-            "account": "3.11.01",
-            "description": "Atribuído a Sócios da Empresa Controladora",
-            "source": "dfp_cia_aberta_DRE_con_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
-          },
-          {
-            "fiscal_year": 2013,
-            "metric": "attributable_ni",
-            "value": 3103855000.0,
-            "docid": "36107",
-            "received": "2014-04-04",
-            "reference": "2013-12-31",
-            "period_end": "2013-12-31",
-            "perimeter": "con",
-            "account": "3.11.01",
-            "description": "Atribuído a Sócios da Empresa Controladora",
-            "source": "dfp_cia_aberta_DRE_con_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36107",
+            "original": "review_originals/cvm_36107_g412.pdf.gz",
+            "original_sha256": "619d592095b080ffe9257c179f2e2fb98ae5414391875616e1bb495278510ed2"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       },
       "earnings_reliability": {
-        "status": "INDETERMINATE",
-        "favorable": {
-          "positive_attributable_years": 5,
-          "audit_records": 4
-        },
-        "missing": "Profit/cash/recurring earnings bridge; provisions and extraordinary items reviewed in dated notes",
+        "status": "SATISFACTORY",
+        "favorable": "NotasCRC e receitas financeiras discriminam eventos; retenção e disputa não ocultadas.",
+        "contrary_evidence": "Lucro contábil inclui eventos extraordinários e diferença entre controladora/consolidado.",
+        "reason": "Há informação para separar os efeitos materiais; avaliação de confiabilidade não equivale a declarar encerrada a normalização dos cinco anos.",
+        "missing": "",
         "evidence": [
           {
             "docid": "36107",
+            "group": 412,
+            "pages": [
+              60,
+              61,
+              114
+            ],
             "received": "2014-04-04",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
-          },
-          {
-            "docid": "36107",
-            "received": "2014-04-04",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
-          },
-          {
-            "docid": "36107",
-            "received": "2014-04-04",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
-          },
-          {
-            "docid": "36107",
-            "received": "2014-04-04",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36107",
+            "original": "review_originals/cvm_36107_g412.pdf.gz",
+            "original_sha256": "619d592095b080ffe9257c179f2e2fb98ae5414391875616e1bb495278510ed2"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       },
       "financial_resilience": {
         "status": "INDETERMINATE",
-        "favorable": {
-          "parent_equity_latest": 12638357000.0
-        },
-        "missing": "Debt maturity, interest coverage and committed maintenance/expansion CAPEX",
+        "favorable": "Ativos de concessão indenizáveis declarados, dívidas/obrigações publicadas.",
+        "contrary_evidence": "Indenização contestada não é caixa disponível; vencimentos de concessão coincidem com compromissos.",
+        "reason": "Necessário casar caixa, dívida e CAPEX à hipótese adversa de renovação, sem contar crédito discutido como liquidez.",
+        "missing": "Cobertura financeira sob os vencimentos contratualmente conhecidos.",
         "evidence": [
           {
             "docid": "36107",
+            "group": 412,
+            "pages": [
+              42,
+              47,
+              128
+            ],
             "received": "2014-04-04",
-            "reference": "2013-12-31",
-            "period_end": "2013-12-31",
-            "perimeter": "ind",
-            "account": "2.03",
-            "description": "Patrimônio Líquido",
-            "source": "dfp_cia_aberta_BPP_ind_2013.csv",
-            "archive_sha256": "",
-            "url": ""
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36107",
+            "original": "review_originals/cvm_36107_g412.pdf.gz",
+            "original_sha256": "619d592095b080ffe9257c179f2e2fb98ae5414391875616e1bb495278510ed2"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       },
       "capital_allocation": {
         "status": "INDETERMINATE",
-        "favorable": {
-          "historical_payout": [
-            0.5,
-            0.5297,
-            0.5357,
-            0.6831,
-            null
-          ],
-          "distributions": [
-            930702000.0,
-            1196074000.0,
-            1294041000.0,
-            2918106999.0,
-            null
-          ]
-        },
-        "missing": "Maintenance versus expansion CAPEX, sustainable dividends, adjusted per-share and incremental economic growth",
+        "favorable": "Liquidação CRC monetiza recebível; carteira de concessões e investimentos.",
+        "contrary_evidence": "Recebimento extraordinário e distribuições não provam retorno de novos projetos; risco de renovação.",
+        "reason": "Disciplina de reinvestimento requer separar caixa da liquidação e capacidade recorrente.",
+        "missing": "Retorno/cobertura dos compromissos com lucro e caixa recorrentes.",
         "evidence": [
           {
-            "docid": "27076",
-            "received": "2013-05-10",
-            "reference": "",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "fre_cia_aberta_distribuicao_dividendos_2012.csv",
-            "archive_sha256": "cd48dd32bab6d410dc523a3de0d27ca3bb7ebd8c403e6fa1de647b1454fbd069",
-            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=27076",
-            "fiscal_year": 2009,
-            "raw": {
-              "CNPJ_Companhia": "17.155.730/0001-64",
-              "Data_Referencia": "2012-01-01",
-              "Versao": "13",
-              "ID_Documento": "27076",
-              "Nome_Companhia": "CIA ENERGETICA DE MINAS GERAIS - CEMIG",
-              "Data_Inicio_Exercicio_Social": "2009-01-01",
-              "Data_Fim_Exercicio_Social": "2009-12-31",
-              "Lucro_Liquido_Ajustado": "1861403000.00",
-              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "19.11000000",
-              "Lucro_Liquido_Retido": "930701000.00",
-              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "50.00000000",
-              "Dividendo_Distribuido_Total": "930702000.00",
-              "Data_Aprovacao_Retencao": "2010-04-29"
-            }
-          },
-          {
-            "docid": "38458",
-            "received": "2014-05-29",
-            "reference": "",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "fre_cia_aberta_distribuicao_dividendos_2013.csv",
-            "archive_sha256": "2c746f2cf0636236972a06be1d4e15dabaac15281e88753505acae9385a76f79",
-            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=38458",
-            "fiscal_year": 2010,
-            "raw": {
-              "CNPJ_Companhia": "17.155.730/0001-64",
-              "Data_Referencia": "2013-01-01",
-              "Versao": "6",
-              "ID_Documento": "38458",
-              "Nome_Companhia": "CIA ENERGETICA DE MINAS GERAIS - CEMIG",
-              "Data_Inicio_Exercicio_Social": "2010-01-01",
-              "Data_Fim_Exercicio_Social": "2010-12-31",
-              "Lucro_Liquido_Ajustado": "2257976000.00",
-              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "19.68000000",
-              "Lucro_Liquido_Retido": "1061902000.00",
-              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "52.97000000",
-              "Dividendo_Distribuido_Total": "1196074000.00",
-              "Data_Aprovacao_Retencao": "2011-04-29"
-            }
-          },
-          {
-            "docid": "38458",
-            "received": "2014-05-29",
-            "reference": "",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "fre_cia_aberta_distribuicao_dividendos_2013.csv",
-            "archive_sha256": "2c746f2cf0636236972a06be1d4e15dabaac15281e88753505acae9385a76f79",
-            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=38458",
-            "fiscal_year": 2011,
-            "raw": {
-              "CNPJ_Companhia": "17.155.730/0001-64",
-              "Data_Referencia": "2013-01-01",
-              "Versao": "6",
-              "ID_Documento": "38458",
-              "Nome_Companhia": "CIA ENERGETICA DE MINAS GERAIS - CEMIG",
-              "Data_Inicio_Exercicio_Social": "2011-01-01",
-              "Data_Fim_Exercicio_Social": "2011-12-31",
-              "Lucro_Liquido_Ajustado": "2415450000.00",
-              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "20.51000000",
-              "Lucro_Liquido_Retido": "1121409000.00",
-              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "53.57000000",
-              "Dividendo_Distribuido_Total": "1294041000.00",
-              "Data_Aprovacao_Retencao": "2012-04-27"
-            }
-          },
-          {
-            "docid": "38458",
-            "received": "2014-05-29",
-            "reference": "",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "fre_cia_aberta_distribuicao_dividendos_2013.csv",
-            "archive_sha256": "2c746f2cf0636236972a06be1d4e15dabaac15281e88753505acae9385a76f79",
-            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=38458",
-            "fiscal_year": 2012,
-            "raw": {
-              "CNPJ_Companhia": "17.155.730/0001-64",
-              "Data_Referencia": "2013-01-01",
-              "Versao": "6",
-              "ID_Documento": "38458",
-              "Nome_Companhia": "CIA ENERGETICA DE MINAS GERAIS - CEMIG",
-              "Data_Inicio_Exercicio_Social": "2012-01-01",
-              "Data_Fim_Exercicio_Social": "2012-12-31",
-              "Lucro_Liquido_Ajustado": "4271685000.00",
-              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "35.47000000",
-              "Lucro_Liquido_Retido": "1353578000.00",
-              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "68.31000000",
-              "Dividendo_Distribuido_Total": "2918106999.00",
-              "Data_Aprovacao_Retencao": "2013-04-30"
-            }
+            "docid": "36107",
+            "group": 412,
+            "pages": [
+              60,
+              61,
+              128
+            ],
+            "received": "2014-04-04",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36107",
+            "original": "review_originals/cvm_36107_g412.pdf.gz",
+            "original_sha256": "619d592095b080ffe9257c179f2e2fb98ae5414391875616e1bb495278510ed2"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       },
       "governance": {
         "status": "INDETERMINATE",
-        "favorable": {
-          "dated_shareholder_right_records": 8,
-          "dated_related_party_records": 264
-        },
-        "missing": "Review of material conflicts, related parties and audit opinions before cutoff; no ex-post controversy inference",
+        "favorable": "Nota28 quantifica transações com Light, Taesa e Estado; CRC divulgado.",
+        "contrary_evidence": "Controlador estadual contraparte da liquidação e retençãoCRC litigada.",
+        "reason": "Não reprovar pelo controle estatal; falta concluir a comutatividade econômica material da liquidação/retenção e respectivas proteções.",
+        "missing": "Condições da relação com controlador e solução do valor retido.",
         "evidence": [
           {
             "docid": "36107",
+            "group": 412,
+            "pages": [
+              60,
+              61,
+              115
+            ],
             "received": "2014-04-04",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
-          },
-          {
-            "docid": "36107",
-            "received": "2014-04-04",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
-          },
-          {
-            "docid": "36107",
-            "received": "2014-04-04",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
-          },
-          {
-            "docid": "36107",
-            "received": "2014-04-04",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36107",
+            "original": "review_originals/cvm_36107_g412.pdf.gz",
+            "original_sha256": "619d592095b080ffe9257c179f2e2fb98ae5414391875616e1bb495278510ed2"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       }
     },
-    "limitation": "Structured CVM facts establish availability, not all six economic conclusions. No scoring or future outcomes.",
+    "limitation": "Documentary economic review of originals",
     "special_case": ""
   },
   "annual_evidence_updates": [
@@ -404,8 +152,10 @@
       "ticker": "CMIG4",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "17155730000164:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "Concessionária de serviço público de energia elétrica.",
@@ -782,8 +532,10 @@
       "ticker": "CMIG4",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "17155730000164:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "Concessionária de serviço público de energia elétrica.",
@@ -1062,8 +814,10 @@
       "ticker": "CMIG4",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "17155730000164:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "Concessionária de serviço público de energia elétrica.",
@@ -1488,8 +1242,10 @@
       "ticker": "CMIG4",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "17155730000164:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "Concessionária de serviço público de energia elétrica.",
@@ -1938,8 +1694,10 @@
       "ticker": "CMIG4",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "17155730000164:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "Concessionária de serviço público de energia elétrica.",
@@ -2388,8 +2146,10 @@
       "ticker": "CMIG4",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "17155730000164:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "Concessionária de serviço público de energia elétrica.",
@@ -2838,8 +2598,10 @@
       "ticker": "CMIG4",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "17155730000164:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "Concessionária de serviço público de energia elétrica.",
@@ -3264,8 +3026,10 @@
       "ticker": "CMIG4",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "17155730000164:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "Concessionária de serviço público de energia elétrica.",
@@ -3738,8 +3502,10 @@
       "ticker": "CMIG4",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "17155730000164:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "Concessionária de serviço público de energia elétrica.",
@@ -4188,8 +3954,10 @@
       "ticker": "CMIG4",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "17155730000164:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "Concessionária de serviço público de energia elétrica.",
@@ -4610,8 +4378,10 @@
       "ticker": "CMIG4",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "17155730000164:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "Concessionária de serviço público de energia elétrica.",

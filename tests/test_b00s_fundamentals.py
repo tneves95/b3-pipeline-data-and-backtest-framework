@@ -49,7 +49,8 @@ def test_frozen_decisions_have_no_future_sources_or_unapproved_base_names():
         assert r['capital_source'] is None or r['capital_source']['received']<=r['cutoff']
         if r['sector'] not in ['Bancos','Seguros']:assert r['return_on_capital_median'] is None
         if r['valuation_status'].startswith('PASS'):
-            assert r['perimeter_review']['status']=='COMPARABLE' and r['normalized_pe'] is not None
+            assert r['perimeter_review']['status'] in ['COMPARABLE','COMPARABLE_BOUNDED']
+            assert r['normalized_pe'] is not None or r['normalized_pe_interval']['upper']<=15
 
 def test_price_and_quality_only_gate_entries():
     rows=[r for r in m.candidates() if r['year']==2015]

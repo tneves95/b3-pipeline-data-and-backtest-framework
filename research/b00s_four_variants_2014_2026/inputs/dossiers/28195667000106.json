@@ -6,395 +6,370 @@
     "cnpj": "28195667000106",
     "company": "BANCO ABC BRASIL S/A",
     "sector": "Bancos",
-    "category": "INDETERMINATE",
+    "category": "QUALIFIED_SATISFACTORY",
+    "assessment_status": "ASSESSED",
     "dimensions": {
       "durability": {
-        "status": "INDETERMINATE",
-        "favorable": "O Banco tem por objeto a prática de operações ativas, passivas e acessórias inerentes às respectivas carteiras autorizadas.",
-        "missing": "Historical concession/contract durability, competitive position and pricing power",
+        "status": "SATISFACTORY",
+        "favorable": "Especialização corporate/middle market desde1989/2005; carteira de crédito MAIS garantias prestadasR$16,902 bi em2013 e17,410 bi emmarço2014; rede internacional ABC e autonomia local. Garantias prestadas não são crédito garantido nem caixa.",
+        "contrary_evidence": "Franquia concentrada em empresas e comércio exterior; dez maiores devedores19,17% em2013→19,76% emmarço2014. Suporte do controlador não é garantia incondicional.",
+        "reason": "Especialização e continuidade da carteira constituem vantagem comercial documentada, de alcance menor que os bancos de varejo.",
+        "missing": "",
         "evidence": [
           {
-            "cnpj": "28195667000106",
-            "received": "2014-05-29",
-            "name": "BANCO ABC BRASIL S/A",
-            "sector": "Bancos",
-            "activity": "O Banco tem por objeto a prática de operações ativas, passivas e acessórias inerentes às respectivas carteiras autorizadas.",
-            "cvm": "020958",
-            "docid": "38481",
-            "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=38481"
+            "docid": "35855",
+            "group": 1653,
+            "pages": [
+              2,
+              3
+            ],
+            "received": "2014-03-28",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35855",
+            "original": "review_originals/cvm_35855_g1653.pdf.gz",
+            "original_sha256": "bdba5a01f87b90d8171935bdb801cb1fe3b3ee9d65015b5971403aace7f5b36f"
+          },
+          {
+            "docid": "35855",
+            "group": 412,
+            "pages": [
+              91,
+              92
+            ],
+            "received": "2014-03-28",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35855",
+            "original": "review_originals/cvm_35855_g412.pdf.gz",
+            "original_sha256": "afd6237ae2ef63b845194f4528d8f476994336d17c3221d9beaec4081073138e"
+          },
+          {
+            "docid": "35855",
+            "group": 1653,
+            "pages": [
+              1
+            ],
+            "received": "2014-03-28",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35855",
+            "original": "review_originals/cvm_35855_g1653.pdf.gz",
+            "original_sha256": "bdba5a01f87b90d8171935bdb801cb1fe3b3ee9d65015b5971403aace7f5b36f"
+          },
+          {
+            "docid": "36710",
+            "group": 193,
+            "pages": [
+              26
+            ],
+            "received": "2014-05-06",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36710",
+            "original": "review_originals/cvm_36710_g193.pdf.gz",
+            "original_sha256": "0f3653974e9539ea9e133fb287ff997648431327938d5af47263a0e174082005"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       },
       "capital_economics": {
-        "status": "INDETERMINATE",
-        "favorable": {
-          "roe_parent_5": [
-            null,
-            0.15903854449046295,
-            0.16547639282408155,
-            0.15156528038466488,
-            0.1475770747526755
-          ],
-          "normalized_profit": 263663658.90256128
-        },
-        "missing": "Cycle-normalized ROIC/incremental returns or risk-adjusted prudential ROE; historical peer/capital comparison",
+        "status": "SATISFACTORY",
+        "favorable": "ROE14,9% em 2013,14,3% em 2012,16,6% em 2011; AA–C96,8%; PDD2,0% da carteira. Ponte IFRS2013: NI265,417 mi, contra268,263 mi BRGAAP; sem pressupor equivalência. Mesmo retirando conservadoramente25,399 mi brutos de ganhos fiscais2013, resultado IFRS240,018 mi continua positivo com ROE auxiliar12,94% sobre PL IFRS médio1.854,659 mi. Trata-se de sensibilidade econômica, não novo limiar nem lucro normalizado certificado.",
+        "contrary_evidence": "Classificação de risco é modelo bancário, não garantia; maior cliente2,69%, vinte maiores27,81%. Queda da PDD e ganhos fiscais ajudaram2013; Q1 atrasos desde15dias51,516 mi versus39,161 mi e vinte maiores28,41% versus27,81% exigem acompanhamento; AA–C não elimina risco.",
+        "reason": "Rentabilidade em vários anos junto de provisões, concentração e folga prudencial sustenta adequação econômica do banco especializado.",
+        "missing": "",
         "evidence": [
           {
-            "fiscal_year": 2009,
-            "metric": "attributable_ni",
-            "value": 152469000.0,
-            "docid": "6944",
-            "received": "2011-04-30",
-            "reference": "2010-12-31",
-            "period_end": "2009-12-31",
-            "perimeter": "con",
-            "account": "3.09.01",
-            "description": "Atribuído a Sócios da Empresa Controladora",
-            "source": "dfp_cia_aberta_DRE_con_2010.csv",
-            "archive_sha256": "c6a9c95c2510e8a71bb583084492e9c52c3f423a3be56f1c5d2dd4f6960677ff",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2010.zip"
-          },
-          {
-            "fiscal_year": 2010,
-            "metric": "attributable_ni",
-            "value": 204075000.0,
-            "docid": "15862",
-            "received": "2012-03-30",
-            "reference": "2011-12-31",
-            "period_end": "2010-12-31",
-            "perimeter": "con",
-            "account": "3.09.01",
-            "description": "Atribuído a Sócios da Empresa Controladora",
-            "source": "dfp_cia_aberta_DRE_con_2011.csv",
-            "archive_sha256": "858423fba40124d7a30abea4e70248f7251e1d2c792e9fcece5a57afd3115f34",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2011.zip"
-          },
-          {
-            "fiscal_year": 2011,
-            "metric": "attributable_ni",
-            "value": 235599000.0,
-            "docid": "25559",
-            "received": "2013-03-27",
-            "reference": "2012-12-31",
-            "period_end": "2011-12-31",
-            "perimeter": "con",
-            "account": "3.09.01",
-            "description": "Atribuído a Sócios da Empresa Controladora",
-            "source": "dfp_cia_aberta_DRE_con_2012.csv",
-            "archive_sha256": "3aff7a726d324d29924887eed45bbc58bc30b66cd9079bafe701d55efdfe0849",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2012.zip"
-          },
-          {
-            "fiscal_year": 2012,
-            "metric": "attributable_ni",
-            "value": 240919000.0,
             "docid": "35855",
+            "group": 1653,
+            "pages": [
+              2
+            ],
             "received": "2014-03-28",
-            "reference": "2013-12-31",
-            "period_end": "2012-12-31",
-            "perimeter": "con",
-            "account": "3.09.01",
-            "description": "Atribuído a Sócios da Empresa Controladora",
-            "source": "dfp_cia_aberta_DRE_con_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35855",
+            "original": "review_originals/cvm_35855_g1653.pdf.gz",
+            "original_sha256": "bdba5a01f87b90d8171935bdb801cb1fe3b3ee9d65015b5971403aace7f5b36f"
           },
           {
-            "fiscal_year": 2013,
-            "metric": "attributable_ni",
-            "value": 265417000.0,
             "docid": "35855",
+            "group": 412,
+            "pages": [
+              91,
+              92,
+              71
+            ],
             "received": "2014-03-28",
-            "reference": "2013-12-31",
-            "period_end": "2013-12-31",
-            "perimeter": "con",
-            "account": "3.09.01",
-            "description": "Atribuído a Sócios da Empresa Controladora",
-            "source": "dfp_cia_aberta_DRE_con_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35855",
+            "original": "review_originals/cvm_35855_g412.pdf.gz",
+            "original_sha256": "afd6237ae2ef63b845194f4528d8f476994336d17c3221d9beaec4081073138e"
+          },
+          {
+            "docid": "35855",
+            "group": 412,
+            "pages": [
+              2,
+              44,
+              45,
+              48
+            ],
+            "received": "2014-03-28",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35855",
+            "original": "review_originals/cvm_35855_g412.pdf.gz",
+            "original_sha256": "afd6237ae2ef63b845194f4528d8f476994336d17c3221d9beaec4081073138e"
+          },
+          {
+            "docid": "36710",
+            "group": 192,
+            "pages": [
+              1
+            ],
+            "received": "2014-05-06",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36710",
+            "original": "review_originals/cvm_36710_g192.pdf.gz",
+            "original_sha256": "16c3cfd16d85414841a908dccf7ee1fc11d171f1f40a6fc0b115ec4562ab9d50"
+          },
+          {
+            "docid": "36710",
+            "group": 193,
+            "pages": [
+              26,
+              27,
+              44
+            ],
+            "received": "2014-05-06",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36710",
+            "original": "review_originals/cvm_36710_g193.pdf.gz",
+            "original_sha256": "0f3653974e9539ea9e133fb287ff997648431327938d5af47263a0e174082005"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       },
       "earnings_reliability": {
-        "status": "INDETERMINATE",
-        "favorable": {
-          "positive_attributable_years": 5,
-          "audit_records": 4
-        },
-        "missing": "Profit/cash/recurring earnings bridge; provisions and extraordinary items reviewed in dated notes",
+        "status": "SATISFACTORY",
+        "favorable": "BRGAAP lucro268,263 mi2013,226,619 mi2012 e236 mi2011; reconciliação IFRS2013=265,417 mi explicita provisões+0,150 mi e câmbio−2,996 mi. Recuperações fiscais2013: FINSOCIAL7,447 mi bruto/4,122 mi líquido; IRRF11,699 mi bruto/6,476 mi líquido; anistia6,253 mi reconhecida. Q1IFRS73,084 mi/BRGAAP72,137 mi, ambos com reconciliação disponível.",
+        "contrary_evidence": "Ganhos fiscais e queda da provisão contribuíram2013. Q1PDD196,089 mi cai de199,747 mi: novas provisões25,768 mi, baixas29,396 mi; recuperações10,2 mi versus1,990 mi no1T13 ajudam o resultado. Atrasos>=15dias aumentam39,161→51,516 mi e não são NPL>90dias. Não adicionar de volta provisão17,443 mi2013 apenas por coexistir com ganhos.",
+        "reason": "SATISFACTORY: ponte BRGAAP/IFRS e eventos tributários são verificáveis e não dominam o lucro, que persiste no1T14. Ganhos são segregados e créditos baixados permanecem custo econômico. Isto não libera valuation com classeON não reconciliada, nem converte lucro reportado em lucro normalizado certificado.",
+        "missing": "",
         "evidence": [
           {
             "docid": "35855",
+            "group": 1653,
+            "pages": [
+              2
+            ],
             "received": "2014-03-28",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35855",
+            "original": "review_originals/cvm_35855_g1653.pdf.gz",
+            "original_sha256": "bdba5a01f87b90d8171935bdb801cb1fe3b3ee9d65015b5971403aace7f5b36f"
           },
           {
             "docid": "35855",
+            "group": 412,
+            "pages": [
+              91,
+              92
+            ],
             "received": "2014-03-28",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35855",
+            "original": "review_originals/cvm_35855_g412.pdf.gz",
+            "original_sha256": "afd6237ae2ef63b845194f4528d8f476994336d17c3221d9beaec4081073138e"
           },
           {
             "docid": "35855",
+            "group": 412,
+            "pages": [
+              2,
+              44,
+              45,
+              48
+            ],
             "received": "2014-03-28",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35855",
+            "original": "review_originals/cvm_35855_g412.pdf.gz",
+            "original_sha256": "afd6237ae2ef63b845194f4528d8f476994336d17c3221d9beaec4081073138e"
           },
           {
-            "docid": "35855",
-            "received": "2014-03-28",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+            "docid": "36710",
+            "group": 192,
+            "pages": [
+              1
+            ],
+            "received": "2014-05-06",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36710",
+            "original": "review_originals/cvm_36710_g192.pdf.gz",
+            "original_sha256": "16c3cfd16d85414841a908dccf7ee1fc11d171f1f40a6fc0b115ec4562ab9d50"
+          },
+          {
+            "docid": "36710",
+            "group": 193,
+            "pages": [
+              26,
+              27,
+              43,
+              44
+            ],
+            "received": "2014-05-06",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36710",
+            "original": "review_originals/cvm_36710_g193.pdf.gz",
+            "original_sha256": "0f3653974e9539ea9e133fb287ff997648431327938d5af47263a0e174082005"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       },
       "financial_resilience": {
-        "status": "INDETERMINATE",
-        "favorable": {
-          "parent_equity_latest": 1917522000.0
-        },
-        "missing": "BCB Basel/NPL/provision coverage under contemporaneous rules",
+        "status": "SATISFACTORY",
+        "favorable": "Capital prudencial financeiro14,77% no fechamento; março14,12%, PR2.611,322 mi vs exigido2.033,725 mi. O total da dívida subordinada é1.038,768 mi no1T14; retirar integralmente essa dívida do PR2.611,322 mi deixa1.572,554 mi (aprox8,5055% do RWA implícito18.488,409 mi), sensibilidade conservadora e não índice CET1 publicado. A composição foi examinada, não confundida com capital contábil.",
+        "contrary_evidence": "Folga diminuiu; funding ligado ao controlador inclui depósitos258,396 mi e empréstimos167,707 mi. Folga cai679,968→577,597 mi; dívida subordinada não é capital principal. Depósitos predominantemente a prazo e vencimentos dentro de1ano tornam importante rolagem; redeABC não substitui caixa.",
+        "reason": "SATISFACTORY considerando folga prudencial efetiva, instrumentos subordinados, concentração e vencimentos do funding, além de lucro e provisões. Não há prova de descumprimento ou risco de liquidez dominante no corte; tampouco se certifica um CET1 exato pela subtração auxiliar.",
+        "missing": "",
         "evidence": [
           {
             "docid": "35855",
+            "group": 412,
+            "pages": [
+              39,
+              71
+            ],
             "received": "2014-03-28",
-            "reference": "2013-12-31",
-            "period_end": "2013-12-31",
-            "perimeter": "ind",
-            "account": "2.05",
-            "description": "Patrimônio Líquido",
-            "source": "dfp_cia_aberta_BPP_ind_2013.csv",
-            "archive_sha256": "",
-            "url": ""
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35855",
+            "original": "review_originals/cvm_35855_g412.pdf.gz",
+            "original_sha256": "afd6237ae2ef63b845194f4528d8f476994336d17c3221d9beaec4081073138e"
+          },
+          {
+            "docid": "36710",
+            "group": 193,
+            "pages": [
+              43
+            ],
+            "received": "2014-05-06",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36710",
+            "original": "review_originals/cvm_36710_g193.pdf.gz",
+            "original_sha256": "0f3653974e9539ea9e133fb287ff997648431327938d5af47263a0e174082005"
+          },
+          {
+            "docid": "35855",
+            "group": 412,
+            "pages": [
+              38,
+              39
+            ],
+            "received": "2014-03-28",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35855",
+            "original": "review_originals/cvm_35855_g412.pdf.gz",
+            "original_sha256": "afd6237ae2ef63b845194f4528d8f476994336d17c3221d9beaec4081073138e"
+          },
+          {
+            "docid": "36710",
+            "group": 193,
+            "pages": [
+              29,
+              30,
+              31,
+              32,
+              43
+            ],
+            "received": "2014-05-06",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36710",
+            "original": "review_originals/cvm_36710_g193.pdf.gz",
+            "original_sha256": "0f3653974e9539ea9e133fb287ff997648431327938d5af47263a0e174082005"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       },
       "capital_allocation": {
-        "status": "INDETERMINATE",
-        "favorable": {
-          "historical_payout": [
-            0.4775,
-            0.3779,
-            0.3592,
-            0.4035,
-            null
-          ],
-          "distributions": [
-            68570233.89,
-            72603777.06,
-            80554629.4,
-            86872318.97,
-            null
-          ]
-        },
-        "missing": "Maintenance versus expansion CAPEX, sustainable dividends, adjusted per-share and incremental economic growth",
+        "status": "SATISFACTORY",
+        "favorable": "JCP85,6 mi brutos vs lucro268,3 mi; opção de reinvestimento e aumento de capital37,065 mi autorizado em abril/2014.",
+        "contrary_evidence": "Carteira cresceu; aumento de capital por reinvestimento dilui quem não participa.",
+        "reason": "SATISFACTORY: JCP85,6 mi brutos equivale a31,9% do lucroBRGAAP268,263 mi e35,25% mesmo após dedução conservadora de25,399 mi brutos de ganhos fiscais; maioria permanece financiando crédito. A opção de reinvestimento37,065 mi, homologada peloBacen08/04, e capital acima do mínimo suportam adequação, sem prova de captação para financiar distribuição excessiva.",
+        "missing": "",
         "evidence": [
           {
-            "docid": "26340",
-            "received": "2013-04-26",
-            "reference": "",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "fre_cia_aberta_distribuicao_dividendos_2012.csv",
-            "archive_sha256": "cd48dd32bab6d410dc523a3de0d27ca3bb7ebd8c403e6fa1de647b1454fbd069",
-            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=26340",
-            "fiscal_year": 2009,
-            "raw": {
-              "CNPJ_Companhia": "28.195.667/0001-06",
-              "Data_Referencia": "2012-01-01",
-              "Versao": "12",
-              "ID_Documento": "26340",
-              "Nome_Companhia": "BCO ABC BRASIL S.A.",
-              "Data_Inicio_Exercicio_Social": "2009-01-01",
-              "Data_Fim_Exercicio_Social": "2009-12-31",
-              "Lucro_Liquido_Ajustado": "143596162.18",
-              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "5.63000000",
-              "Lucro_Liquido_Retido": "75025928.29",
-              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "47.75000000",
-              "Dividendo_Distribuido_Total": "68570233.89",
-              "Data_Aprovacao_Retencao": "2010-04-30"
-            }
+            "docid": "35855",
+            "group": 1653,
+            "pages": [
+              2
+            ],
+            "received": "2014-03-28",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35855",
+            "original": "review_originals/cvm_35855_g1653.pdf.gz",
+            "original_sha256": "bdba5a01f87b90d8171935bdb801cb1fe3b3ee9d65015b5971403aace7f5b36f"
           },
           {
-            "docid": "36487",
-            "received": "2014-04-29",
-            "reference": "",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "fre_cia_aberta_distribuicao_dividendos_2013.csv",
-            "archive_sha256": "2c746f2cf0636236972a06be1d4e15dabaac15281e88753505acae9385a76f79",
-            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=36487",
-            "fiscal_year": 2010,
-            "raw": {
-              "CNPJ_Companhia": "28.195.667/0001-06",
-              "Data_Referencia": "2013-01-01",
-              "Versao": "19",
-              "ID_Documento": "36487",
-              "Nome_Companhia": "BCO ABC BRASIL S.A.",
-              "Data_Inicio_Exercicio_Social": "2010-01-01",
-              "Data_Fim_Exercicio_Social": "2010-12-31",
-              "Lucro_Liquido_Ajustado": "192113441.86",
-              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "5.39000000",
-              "Lucro_Liquido_Retido": "119509664.80",
-              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "37.79000000",
-              "Dividendo_Distribuido_Total": "72603777.06",
-              "Data_Aprovacao_Retencao": "2011-04-29"
-            }
+            "docid": "36710",
+            "group": 193,
+            "pages": [
+              44
+            ],
+            "received": "2014-05-06",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36710",
+            "original": "review_originals/cvm_36710_g193.pdf.gz",
+            "original_sha256": "0f3653974e9539ea9e133fb287ff997648431327938d5af47263a0e174082005"
           },
           {
-            "docid": "36487",
-            "received": "2014-04-29",
-            "reference": "",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "fre_cia_aberta_distribuicao_dividendos_2013.csv",
-            "archive_sha256": "2c746f2cf0636236972a06be1d4e15dabaac15281e88753505acae9385a76f79",
-            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=36487",
-            "fiscal_year": 2011,
-            "raw": {
-              "CNPJ_Companhia": "28.195.667/0001-06",
-              "Data_Referencia": "2013-01-01",
-              "Versao": "19",
-              "ID_Documento": "36487",
-              "Nome_Companhia": "BCO ABC BRASIL S.A.",
-              "Data_Inicio_Exercicio_Social": "2011-01-01",
-              "Data_Fim_Exercicio_Social": "2011-12-31",
-              "Lucro_Liquido_Ajustado": "224235001.51",
-              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "5.37000000",
-              "Lucro_Liquido_Retido": "143680372.11",
-              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "35.92000000",
-              "Dividendo_Distribuido_Total": "80554629.40",
-              "Data_Aprovacao_Retencao": "2012-04-30"
-            }
-          },
-          {
-            "docid": "36487",
-            "received": "2014-04-29",
-            "reference": "",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "fre_cia_aberta_distribuicao_dividendos_2013.csv",
-            "archive_sha256": "2c746f2cf0636236972a06be1d4e15dabaac15281e88753505acae9385a76f79",
-            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=36487",
-            "fiscal_year": 2012,
-            "raw": {
-              "CNPJ_Companhia": "28.195.667/0001-06",
-              "Data_Referencia": "2013-01-01",
-              "Versao": "19",
-              "ID_Documento": "36487",
-              "Nome_Companhia": "BCO ABC BRASIL S.A.",
-              "Data_Inicio_Exercicio_Social": "2012-01-01",
-              "Data_Fim_Exercicio_Social": "2012-12-31",
-              "Lucro_Liquido_Ajustado": "215287893.33",
-              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "5.17000000",
-              "Lucro_Liquido_Retido": "128415574.36",
-              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "40.35000000",
-              "Dividendo_Distribuido_Total": "86872318.97",
-              "Data_Aprovacao_Retencao": "2013-04-23"
-            }
+            "docid": "35855",
+            "group": 412,
+            "pages": [
+              44,
+              45,
+              48
+            ],
+            "received": "2014-03-28",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35855",
+            "original": "review_originals/cvm_35855_g412.pdf.gz",
+            "original_sha256": "afd6237ae2ef63b845194f4528d8f476994336d17c3221d9beaec4081073138e"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       },
       "governance": {
-        "status": "INDETERMINATE",
-        "favorable": {
-          "dated_shareholder_right_records": 10,
-          "dated_related_party_records": 41
-        },
-        "missing": "Review of material conflicts, related parties and audit opinions before cutoff; no ex-post controversy inference",
+        "status": "SATISFACTORY",
+        "favorable": "Risco separado sob VP, comitês auditoria/fiscal/remuneração; >=50% remuneração variável diferida em ações, sujeita a redução de lucro/erros. Nível2 e arbitragem são proteções complementares à supervisão e remuneração; controlador57,6%, administradores7,2% e tesouraria3,1% no1T14 são explicitados. Auditor sem serviços estranhos à auditoria noFY2013/Q1.",
+        "contrary_evidence": "Controle estrangeiro e partes relacionadas; ações de remuneração são PN.",
+        "reason": "SATISFACTORY por controles descritos, transações relacionadas quantificadas a condições usuais e remuneração diferida condicionada ao resultado e à correção contábil. A norma prevê não entrega das ações ainda diferidas, não uma recuperação universal de remuneração já paga; Nível2 sozinho não seria suficiente.",
+        "missing": "",
         "evidence": [
           {
             "docid": "35855",
+            "group": 1653,
+            "pages": [
+              3,
+              4,
+              5
+            ],
             "received": "2014-03-28",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35855",
+            "original": "review_originals/cvm_35855_g1653.pdf.gz",
+            "original_sha256": "bdba5a01f87b90d8171935bdb801cb1fe3b3ee9d65015b5971403aace7f5b36f"
           },
           {
             "docid": "35855",
+            "group": 412,
+            "pages": [
+              39,
+              40,
+              41
+            ],
             "received": "2014-03-28",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35855",
+            "original": "review_originals/cvm_35855_g412.pdf.gz",
+            "original_sha256": "afd6237ae2ef63b845194f4528d8f476994336d17c3221d9beaec4081073138e"
           },
           {
             "docid": "35855",
+            "group": 1653,
+            "pages": [
+              1,
+              2
+            ],
             "received": "2014-03-28",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35855",
+            "original": "review_originals/cvm_35855_g1653.pdf.gz",
+            "original_sha256": "bdba5a01f87b90d8171935bdb801cb1fe3b3ee9d65015b5971403aace7f5b36f"
           },
           {
-            "docid": "35855",
-            "received": "2014-03-28",
-            "reference": "2013-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2013.csv",
-            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+            "docid": "36710",
+            "group": 192,
+            "pages": [
+              1,
+              2
+            ],
+            "received": "2014-05-06",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36710",
+            "original": "review_originals/cvm_36710_g192.pdf.gz",
+            "original_sha256": "16c3cfd16d85414841a908dccf7ee1fc11d171f1f40a6fc0b115ec4562ab9d50"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       }
     },
-    "limitation": "Structured CVM facts establish availability, not all six economic conclusions. No scoring or future outcomes.",
+    "limitation": "Documentary economic review of originals",
     "special_case": ""
   },
   "annual_evidence_updates": [
@@ -404,8 +379,10 @@
       "ticker": "ABCB4",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "28195667000106:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "O Banco tem por objeto a prática de operações ativas, passivas e acessórias inerentes às respectivas carteiras autorizadas.",
@@ -782,8 +759,10 @@
       "ticker": "ABCB4",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "28195667000106:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "O Banco tem por objeto a prática de operações ativas, passivas e acessórias inerentes às respectivas carteiras autorizadas.",
@@ -1160,8 +1139,10 @@
       "ticker": "ABCB4",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "28195667000106:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "O Banco tem por objeto a prática de operações ativas, passivas e acessórias inerentes às respectivas carteiras autorizadas pelo Banco Central do Brasil.",
@@ -1562,8 +1543,10 @@
       "ticker": "ABCB4",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "28195667000106:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "O Banco tem por objeto a prática de operações ativas, passivas e acessórias inerentes às respectivas carteiras autorizadas pelo Banco Central do Brasil.",
@@ -1964,8 +1947,10 @@
       "ticker": "ABCB4",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "28195667000106:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "O Banco tem por objeto a prática de operações ativas, passivas e acessórias inerentes às respectivas carteiras autorizadas pelo Banco Central do Brasil.",
@@ -2462,8 +2447,10 @@
       "ticker": "ABCB4",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "28195667000106:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "O Banco tem por objeto a prática de operações ativas, passivas e acessórias inerentes às respectivas carteiras autorizadas pelo Banco Central do Brasil.",
@@ -2936,8 +2923,10 @@
       "ticker": "ABCB4",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "28195667000106:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "O Banco tem por objeto a prática de operações ativas, passivas e acessórias inerentes às respectivas carteiras autorizadas pelo Banco Central do Brasil.",
@@ -3434,8 +3423,10 @@
       "ticker": "ABCB4",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "28195667000106:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "O Banco tem por objeto a prática de operações ativas, passivas e acessórias inerentes às respectivas carteiras autorizadas pelo Banco Central do Brasil.",
@@ -3908,8 +3899,10 @@
       "ticker": "ABCB4",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "28195667000106:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "O Banco tem por objeto a prática de operações ativas, passivas e acessórias inerentes às respectivas carteiras autorizadas pelo Banco Central do Brasil.",
@@ -4406,8 +4399,10 @@
       "ticker": "ABCB4",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "28195667000106:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "O Banco tem por objeto a prática de operações ativas, passivas e acessórias inerentes às respectivas carteiras autorizadas pelo Banco Central do Brasil.",
@@ -4876,8 +4871,10 @@
       "ticker": "ABCB4",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": "28195667000106:2014",
-      "classification_changed": false,
+      "assessment_ref": null,
+      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+      "classification_changed": null,
+      "dimensions": {},
       "dimension_evidence_updates": {
         "durability": {
           "favorable": "O Banco tem por objeto a prática de operações ativas, passivas e acessórias inerentes às respectivas carteiras autorizadas pelo Banco Central do Brasil.",
