@@ -1,0 +1,67 @@
+{
+  "baseline_commit": "cb3db599da85b4ad8bece1d93f1ad583a91ad713",
+  "coordinator": "https://github.com/tneves95/b3-pipeline-data-and-backtest-framework/pull/3#issuecomment-6066153641",
+  "frozen_files_verified": 271,
+  "reconciliations": 48,
+  "holding_rows": 729,
+  "max_abs_numerical_residual_pp": "2.60E-14",
+  "max_reconciliation_difference_pp": "0",
+  "backtests_reexecuted": false,
+  "methodology": "Opening physical security origins; conserved corporate descendants and redemption transfers; explicit numerical residual",
+  "implementation": [
+    {
+      "path": "scripts/stage1_attribution.py",
+      "sha256": "df382e2e5f02daf0a9bd9f791e9c862e8a3435d74506ee3b942febc3cbd21a3c"
+    },
+    {
+      "path": "scripts/stage1_attribution_excel.py",
+      "sha256": "b7361a00c3d9b1ad3407e71224cded2e3b5b9dc60ad951f8f11422ba8d0921cf"
+    },
+    {
+      "path": "tests/test_stage1_attribution.py",
+      "sha256": "1a3b7e94fc26a8aec9469645b47d23d0096d77e4c0110ff4e1ae358d73145626"
+    },
+    {
+      "path": "requirements-attribution.txt",
+      "sha256": "6fcfbacf75953b0f070ba55b9bd8bc329e92a248dd5364f6bca61c175fb45e07"
+    },
+    {
+      "path": "docs/checkpoint_attribution_2014_2026.md",
+      "sha256": "ed57acb9c87f6af406996ab145a8f38e100159934097eec7d4784dec87142a71"
+    },
+    {
+      "path": "research/returns_2014_2026_inputs/attribution_frozen_inputs.json",
+      "sha256": "ea8d1d15a3fd4455160c884ce9238b114d5c0cf0f081d44224d9da0acbd70d95"
+    },
+    {
+      "path": "research/returns_2014_2026_inputs/coordinator_attribution_2026_10_08.json",
+      "sha256": "b14c437bb4635213b75b8dd4137f3a56e2a586077a999eb66040f1fe119ec205"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "annual_attribution_summary.csv",
+      "sha256": "73c02e6c55178ff438088334656d3bd2270b9dad93439c4cbe4ffcfe86927ef0"
+    },
+    {
+      "path": "annual_holdings_attribution.csv",
+      "sha256": "c954ef59273c7613193adfd804674bd2a8a6a723d977fdb23585527f46b8215c"
+    },
+    {
+      "path": "attribution_2014_2026.xlsx",
+      "sha256": "f2c8269ae538814271e9ec05f3481b9109e61f053661f0f6cdd8b925d680d76f"
+    },
+    {
+      "path": "attribution_end_lineage.csv",
+      "sha256": "5c10e898889f30cb96b761c46c55a2ac68e613ea282478c0b073eb8ce7370581"
+    },
+    {
+      "path": "attribution_event_lineage.csv",
+      "sha256": "fabfcc0df6d6545f512aa54729323f35a06001ccfb70eb0c3adf43e6c7d4a6d7"
+    },
+    {
+      "path": "attribution_redemption_transfers.csv",
+      "sha256": "e246f6838058f36802de263517e37d0d332c68745ae0db76eef8efd94db94b7a"
+    }
+  ]
+}
