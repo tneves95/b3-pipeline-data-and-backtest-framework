@@ -225,6 +225,26 @@ class Fundamentals:
                     dimensions=dims,limitation='Documentary economic review of originals' if assessment else 'Structured facts only; economic review outstanding. No quality approval inferred.',
                     special_case='IRBR3 June 2019: only pre-cutoff statements considered; later restatements/scandal cannot be used to reject this entry.' if t=='IRBR3' and y==2019 else ''))
         write(RESULT/'fundamental_metrics_by_fiscal_year.csv',metrics)
+        initial=[]
+        for f in decisions:
+            if f['year']!=2014:continue
+            a=f['documentary_assessment']
+            if not a:continue
+            dims=a['dimensions'];bounds=f['normalized_pe_interval']
+            docs={}
+            for section in [a['valuation'],*dims.values()]:
+                for e in section['evidence']:
+                    docs[e['docid'],e['group'],tuple(e['pages'])]=dict(docid=e['docid'],group=e['group'],pages=e['pages'],received=e['received'],url=e['url'],sha256=e['original_sha256'])
+            before=f['market_cap']/f['reported_normalized_profit'] if f['market_cap'] and f['reported_normalized_profit'] else None
+            initial.append(dict(ticker=f['ticker'],sector=f['sector'],reported_mechanical_pe=before,
+                normalized_pe=f['normalized_pe'],normalized_pe_upper=bounds['upper'] if bounds else None,
+                adjustment_effect='CONSERVATIVE_INTERVAL_NO_POINT_ESTIMATE' if bounds else f['normalized_pe']-before if f['normalized_pe'] is not None and before is not None else '',
+                valuation_status=f['valuation_status'],valuation_reason=a['valuation']['reason'],
+                quality_category=f['quality_category'],quality_reason='; '.join(k+': '+d['reason'] for k,d in dims.items()),
+                specific_nd='; '.join(k+': '+d.get('missing','') for k,d in dims.items() if d['status']=='INDETERMINATE')+
+                    ('; VVAL: '+a['valuation']['reason'] if f['valuation_status']=='INDETERMINATE' else ''),
+                documents_dates_pages=json.dumps(list(docs.values()),ensure_ascii=False,sort_keys=True)))
+        write(RESULT/'formation_2014_review.csv',initial)
         jsonwrite(INPUT/'fundamental_decisions.json',decisions)
         for c in sorted({r['cnpj'] for r in dossiers}):
             group=[r for r in dossiers if r['cnpj']==c];first=group[0]

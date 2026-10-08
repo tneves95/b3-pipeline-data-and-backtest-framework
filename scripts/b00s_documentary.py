@@ -41,7 +41,8 @@ def load_reviews():
             raise ValueError('Unknown documentary valuation status')
         if record['valuation']['status']=='COMPARABLE_BOUNDED':
             bounds=record['valuation'].get('profit_bounds',{})
-            if len(bounds)!=5 or not all(b.get('reason') for b in bounds.values()):
+            expected={str(y) for y in range(min(record['years'])-5,min(record['years']))}
+            if set(bounds)!=expected or not all(b.get('reason') for b in bounds.values()):
                 raise ValueError('Five justified profit bounds required')
         if set(record['dimensions']) != set(DIMENSIONS):
             raise ValueError('Six documentary judgements required')

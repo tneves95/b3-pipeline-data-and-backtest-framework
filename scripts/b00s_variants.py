@@ -426,6 +426,10 @@ def main():
     if args.stage!='v10':
         lock=json.loads((INPUT/'fundamental_decisions_lock.json').read_text())
         if sha(INPUT/'fundamental_decisions.json')!=lock['decisions_sha256']:raise ValueError('Decision lock mismatch')
+        freeze=json.loads((INPUT/'decision_freeze_record.json').read_text())
+        if (sha(INPUT/'economic_reviews.json')!=freeze['economic_reviews_sha256'] or
+            sha(INPUT/'fundamental_decisions.json')!=freeze['decisions_sha256']):
+            raise ValueError('Pre-return documentary freeze changed')
         ds=json.loads((INPUT/'fundamental_decisions.json').read_text());ds={(r['year'],r['ticker']):r for r in ds}
         runs.update({v:simulate(v,ds) for v in (['VVAL','VQ'] if args.stage=='all' else ['VVAL'])})
     publish(runs)

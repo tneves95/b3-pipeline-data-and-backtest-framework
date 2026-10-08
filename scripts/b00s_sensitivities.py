@@ -14,6 +14,8 @@ def coverage(ds):
             group=[r for r in ds if r['year']==y and r['sector']==sector]
             nd=[r for r in group if r['valuation_status']=='INDETERMINATE'];qnd=[r for r in group if r['quality_category']=='INDETERMINATE']
             rows.append(dict(year=y,sector=sector,pass_candidates=len(group),computable_normalized_pe=sum(r['normalized_pe'] is not None for r in group),
+                documentary_assessed=sum(r['documentary_assessment'] is not None for r in group),
+                scope='REVIEWED_BATCH' if y<=reviewed_through() else 'UNREVIEWED_EXTRACT_ONLY',
                 valuation_approved=sum(r['valuation_status'].startswith('PASS') for r in group),valuation_indeterminate=len(nd),
                 valuation_indeterminate_candidate_pct=100*len(nd)/len(group) if group else None,
                 valuation_potential_weight_affected_pct=100*sum(base[y,r['ticker']]['base_target'] for r in nd),

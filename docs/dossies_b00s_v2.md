@@ -1,856 +1,470 @@
-# Dossiês PIT — B00S V2
-
-Estas fichas registram a triagem documental de 29 companhias, com avaliação inicial e atualizações de evidência nos cortes B00S PASS. Não equivalem a 29 aprovações de qualidade: as seis conclusões econômicas ainda não estão suficientemente comprovadas. Todas as decisões VQ permanecem `INDETERMINATE`; nenhuma é uma rejeição do negócio.
-
-Os JSONs vinculados contêm os valores por exercício, contas, documentos, recebimentos, URLs e hashes disponíveis. O hash do ZIP original CVM identifica o arquivo que contém a tabela/conta citada; hash ausente é lacuna explicitamente preservada. A atividade cadastral não prova vantagem competitiva, lucro positivo não prova recorrência e patrimônio líquido positivo não prova capital prudencial suficiente.
-
-Não foram usados score, corte de DY, retorno futuro ou escândalo posterior para escolher empresas. A VVAL tem decisão distinta, limitada ao preço de entrada e perímetro dos lucros: somente BBDC4 e TBLE3 em 2014 foram aprovadas neste lote. Aprofundamentos dirigidos e fontes não admitidas estão em [quality_directed_review.json](../research/b00s_four_variants_2014_2026/inputs/quality_directed_review.json) e [valuation_perimeter_reviews.json](../research/b00s_four_variants_2014_2026/inputs/valuation_perimeter_reviews.json).
-
-## Materialidade por ano
-
-Pesos potenciais são os alvos do controle B00S, não os pesos reais de VVAL/VQ. A ordenação documental deve seguir lacunas e materialidade desses pesos, sem escolher nomes pela rentabilidade observada.
-
-| ano | candidatos | VVAL_aprovadas | VVAL_peso_ND_pct | VQ_peso_ND_pct |
-|---|---|---|---|---|
-| 2014 | 20 | 2 | 94.0000 | 100.0000 |
-| 2015 | 19 | 0 | 100.0000 | 100.0000 |
-| 2016 | 17 | 0 | 100.0000 | 100.0000 |
-| 2017 | 17 | 0 | 100.0000 | 100.0000 |
-| 2018 | 18 | 0 | 100.0000 | 100.0000 |
-| 2019 | 19 | 0 | 100.0000 | 100.0000 |
-| 2020 | 21 | 0 | 100.0000 | 100.0000 |
-| 2021 | 20 | 0 | 100.0000 | 100.0000 |
-| 2022 | 20 | 0 | 100.0000 | 100.0000 |
-| 2023 | 19 | 0 | 100.0000 | 100.0000 |
-| 2024 | 20 | 0 | 100.0000 | 100.0000 |
-| 2025 | 19 | 0 | 100.0000 | 100.0000 |
-
-## ABCB4 — BANCO ABC BRASIL S/A
-
-CNPJ `28195667000106`; Bancos; primeiro corte 2014-06-30; categoria **INDETERMINATE**. [Ficha com fontes](../research/b00s_four_variants_2014_2026/inputs/dossiers/28195667000106.json). Cortes cobertos: 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025. Maior peso potencial anual B00S: 4.0000%.
-
-Atividade declarada: O Banco tem por objeto a prática de operações ativas, passivas e acessórias inerentes às respectivas carteiras autorizadas.. Na avaliação inicial, 5/5 lucros atribuíveis positivos recuperados; 4/5 exercícios com payout divulgado. Esses fatos são favoráveis à investigação e não resolvem as seis dimensões.
-
-| dimensao | estado | prova_pendente |
-|---|---|---|
-| Durabilidade | INDETERMINATE | Comprovar posição competitiva, poder de preço, contratos/concessões e exposição regulatória histórica. |
-| Economia do capital | INDETERMINATE | Normalizar ciclo e risco; conciliar ROIC/retorno incremental ou ROE prudencial com capital requerido e comparação histórica. |
-| Resultados confiáveis | INDETERMINATE | Conciliar lucro recorrente, caixa, provisões e extraordinários nas notas conhecidas no corte. |
-| Resiliência financeira | INDETERMINATE | Capital de Basileia, crédito inadimplente e cobertura de provisões sob regras vigentes no corte. |
-| Alocação e dividendos | INDETERMINATE | Separar manutenção/expansão, ajustar ações e demonstrar sustentabilidade das distribuições e retorno de reinvestimentos. |
-| Governança | INDETERMINATE | Revisar materialidade das partes relacionadas, direitos, conflitos e pareceres, sem controvérsias futuras. |
-
-Contraponto: não foi estabelecida rejeição estrutural com o extrato disponível; a ausência de revisão material suficiente impede aprovação. Atualizações anuais: 11, ligadas à avaliação inicial, sem repetir integralmente a ficha.
-
-| documento | recebido | hash_original |
-|---|---|---|
-| [15862](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2011.zip) | 2012-03-30 | 858423fba40124d7a30abea4e70248f7251e1d2c792e9fcece5a57afd3115f34 |
-| [25559](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2012.zip) | 2013-03-27 | 3aff7a726d324d29924887eed45bbc58bc30b66cd9079bafe701d55efdfe0849 |
-| [26340](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=26340) | 2013-04-26 | cd48dd32bab6d410dc523a3de0d27ca3bb7ebd8c403e6fa1de647b1454fbd069 |
-| 35855 | 2014-03-28 | ND — fonte herdada sem hash neste extrato |
-| [35855](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip) | 2014-03-28 | ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224 |
-| [35855](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip) | 2014-03-28 | ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224 |
-| [36487](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=36487) | 2014-04-29 | 2c746f2cf0636236972a06be1d4e15dabaac15281e88753505acae9385a76f79 |
-| [38481](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=38481) | 2014-05-29 | ND — fonte herdada sem hash neste extrato |
-| [6944](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2010.zip) | 2011-04-30 | c6a9c95c2510e8a71bb583084492e9c52c3f423a3be56f1c5d2dd4f6960677ff |
-
-## BBAS3 — BANCO DO BRASIL S.A.
-
-CNPJ `00000000000191`; Bancos; primeiro corte 2014-06-30; categoria **INDETERMINATE**. [Ficha com fontes](../research/b00s_four_variants_2014_2026/inputs/dossiers/00000000000191.json). Cortes cobertos: 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025. Maior peso potencial anual B00S: 4.0000%.
-
-Atividade declarada: Banco múltiplo.. Na avaliação inicial, 5/5 lucros atribuíveis positivos recuperados; 4/5 exercícios com payout divulgado. Esses fatos são favoráveis à investigação e não resolvem as seis dimensões.
-
-| dimensao | estado | prova_pendente |
-|---|---|---|
-| Durabilidade | INDETERMINATE | Comprovar posição competitiva, poder de preço, contratos/concessões e exposição regulatória histórica. |
-| Economia do capital | INDETERMINATE | Normalizar ciclo e risco; conciliar ROIC/retorno incremental ou ROE prudencial com capital requerido e comparação histórica. |
-| Resultados confiáveis | INDETERMINATE | Conciliar lucro recorrente, caixa, provisões e extraordinários nas notas conhecidas no corte. |
-| Resiliência financeira | INDETERMINATE | Capital de Basileia, crédito inadimplente e cobertura de provisões sob regras vigentes no corte. |
-| Alocação e dividendos | INDETERMINATE | Separar manutenção/expansão, ajustar ações e demonstrar sustentabilidade das distribuições e retorno de reinvestimentos. |
-| Governança | INDETERMINATE | Revisar materialidade das partes relacionadas, direitos, conflitos e pareceres, sem controvérsias futuras. |
-
-Contraponto: não foi estabelecida rejeição estrutural com o extrato disponível; a ausência de revisão material suficiente impede aprovação. Atualizações anuais: 11, ligadas à avaliação inicial, sem repetir integralmente a ficha.
-
-| documento | recebido | hash_original |
-|---|---|---|
-| [16045](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2011.zip) | 2012-04-09 | 858423fba40124d7a30abea4e70248f7251e1d2c792e9fcece5a57afd3115f34 |
-| [25257](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2012.zip) | 2013-03-25 | 3aff7a726d324d29924887eed45bbc58bc30b66cd9079bafe701d55efdfe0849 |
-| [28060](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=28060) | 2013-05-20 | cd48dd32bab6d410dc523a3de0d27ca3bb7ebd8c403e6fa1de647b1454fbd069 |
-| [31490](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=31490) | 2013-09-18 | ND — fonte herdada sem hash neste extrato |
-| [35587](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip) | 2014-03-27 | ND — fonte herdada sem hash neste extrato |
-| [38213](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=38213) | 2014-05-23 | 2c746f2cf0636236972a06be1d4e15dabaac15281e88753505acae9385a76f79 |
-| [6945](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2010.zip) | 2011-04-30 | c6a9c95c2510e8a71bb583084492e9c52c3f423a3be56f1c5d2dd4f6960677ff |
-
-## BBDC4 — BANCO BRADESCO SA
-
-CNPJ `60746948000112`; Bancos; primeiro corte 2014-06-30; categoria **INDETERMINATE**. [Ficha com fontes](../research/b00s_four_variants_2014_2026/inputs/dossiers/60746948000112.json). Cortes cobertos: 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025. Maior peso potencial anual B00S: 4.0000%.
-
-Atividade declarada: Prática de operações bancárias em geral, inclusive câmbio. Na avaliação inicial, 5/5 lucros atribuíveis positivos recuperados; 4/5 exercícios com payout divulgado. Esses fatos são favoráveis à investigação e não resolvem as seis dimensões.
-
-| dimensao | estado | prova_pendente |
-|---|---|---|
-| Durabilidade | INDETERMINATE | Comprovar posição competitiva, poder de preço, contratos/concessões e exposição regulatória histórica. |
-| Economia do capital | INDETERMINATE | Normalizar ciclo e risco; conciliar ROIC/retorno incremental ou ROE prudencial com capital requerido e comparação histórica. |
-| Resultados confiáveis | INDETERMINATE | Conciliar lucro recorrente, caixa, provisões e extraordinários nas notas conhecidas no corte. |
-| Resiliência financeira | INDETERMINATE | Capital de Basileia, crédito inadimplente e cobertura de provisões sob regras vigentes no corte. |
-| Alocação e dividendos | INDETERMINATE | Separar manutenção/expansão, ajustar ações e demonstrar sustentabilidade das distribuições e retorno de reinvestimentos. |
-| Governança | INDETERMINATE | Revisar materialidade das partes relacionadas, direitos, conflitos e pareceres, sem controvérsias futuras. |
-
-Contraponto: não foi estabelecida rejeição estrutural com o extrato disponível; a ausência de revisão material suficiente impede aprovação. Atualizações anuais: 11, ligadas à avaliação inicial, sem repetir integralmente a ficha.
-
-| documento | recebido | hash_original |
-|---|---|---|
-| [10193](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2010.zip) | 2011-07-19 | c6a9c95c2510e8a71bb583084492e9c52c3f423a3be56f1c5d2dd4f6960677ff |
-| [15827](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2011.zip) | 2012-03-30 | 858423fba40124d7a30abea4e70248f7251e1d2c792e9fcece5a57afd3115f34 |
-| [25736](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2012.zip) | 2013-03-28 | 3aff7a726d324d29924887eed45bbc58bc30b66cd9079bafe701d55efdfe0849 |
-| [28034](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=28034) | 2013-05-20 | cd48dd32bab6d410dc523a3de0d27ca3bb7ebd8c403e6fa1de647b1454fbd069 |
-| 35965 | 2014-03-31 | ND — fonte herdada sem hash neste extrato |
-| [35965](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip) | 2014-03-31 | ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224 |
-| [35965](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip) | 2014-03-31 | ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224 |
-| [37440](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=37440) | 2014-05-13 | ND — fonte herdada sem hash neste extrato |
-| [38044](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=38044) | 2014-05-20 | 2c746f2cf0636236972a06be1d4e15dabaac15281e88753505acae9385a76f79 |
-
-## BBSE3 — BB SEGURIDADE PARTICIPAÇÕES S.A.
-
-CNPJ `17344597000194`; Seguros; primeiro corte 2018-06-29; categoria **INDETERMINATE**. [Ficha com fontes](../research/b00s_four_variants_2014_2026/inputs/dossiers/17344597000194.json). Cortes cobertos: 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025. Maior peso potencial anual B00S: 10.0000%.
-
-Atividade declarada: Participação no capital social de outras sociedades, que tenham por atividade operações de seguros, resseguros, previdências complementar ou capitalização.. Na avaliação inicial, 5/5 lucros atribuíveis positivos recuperados; 4/5 exercícios com payout divulgado. Esses fatos são favoráveis à investigação e não resolvem as seis dimensões.
-
-| dimensao | estado | prova_pendente |
-|---|---|---|
-| Durabilidade | INDETERMINATE | Comprovar posição competitiva, poder de preço, contratos/concessões e exposição regulatória histórica. |
-| Economia do capital | INDETERMINATE | Normalizar ciclo e risco; conciliar ROIC/retorno incremental ou ROE prudencial com capital requerido e comparação histórica. |
-| Resultados confiáveis | INDETERMINATE | Conciliar lucro recorrente, caixa, provisões e extraordinários nas notas conhecidas no corte. |
-| Resiliência financeira | INDETERMINATE | Capital requerido/disponível, sinistralidade, reservas técnicas e resultado técnico sob regras vigentes. |
-| Alocação e dividendos | INDETERMINATE | Separar manutenção/expansão, ajustar ações e demonstrar sustentabilidade das distribuições e retorno de reinvestimentos. |
-| Governança | INDETERMINATE | Revisar materialidade das partes relacionadas, direitos, conflitos e pareceres, sem controvérsias futuras. |
-
-Contraponto: não foi estabelecida rejeição estrutural com o extrato disponível; a ausência de revisão material suficiente impede aprovação. Atualizações anuais: 7, ligadas à avaliação inicial, sem repetir integralmente a ficha.
-
-| documento | recebido | hash_original |
-|---|---|---|
-| [43964](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2014.zip) | 2015-02-10 | b8795dba134754475a485c0f88b6542face6613bb418d261caa011d90e032f28 |
-| [53676](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip) | 2016-02-26 | 39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e |
-| [62449](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip) | 2017-02-13 | 772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5 |
-| [64576](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=64576) | 2017-05-02 | bfd0513d903cb3e5a43360dcb1673b3c9ac1f23396974726cca764df64d481cc |
-| 71564 | 2018-02-19 | ND — fonte herdada sem hash neste extrato |
-| [71564](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip) | 2018-02-19 | 1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58 |
-| [71564](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip) | 2018-02-19 | 1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58 |
-| [73601](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=73601) | 2018-04-30 | ND — fonte herdada sem hash neste extrato |
-| [73727](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=73727) | 2018-05-03 | cb90963d1e7d6b2416265eb7aa0a463b98d067ade096f47b724467184273b0ab |
-
-## BMGB4 — BANCO BMG S/A
-
-CNPJ `61186680000174`; Bancos; primeiro corte 2024-06-28; categoria **INDETERMINATE**. [Ficha com fontes](../research/b00s_four_variants_2014_2026/inputs/dossiers/61186680000174.json). Cortes cobertos: 2024, 2025. Maior peso potencial anual B00S: 3.3333%.
-
-Atividade declarada: Prática de todas as operações ativas, passivas e acessórias permitidas nas normas legais e regulamentares para o funcionamento dos bancos com carteira comercial, de investimento, inclusive câmbio. Na avaliação inicial, 5/5 lucros atribuíveis positivos recuperados; 3/5 exercícios com payout divulgado. Esses fatos são favoráveis à investigação e não resolvem as seis dimensões.
-
-| dimensao | estado | prova_pendente |
-|---|---|---|
-| Durabilidade | INDETERMINATE | Comprovar posição competitiva, poder de preço, contratos/concessões e exposição regulatória histórica. |
-| Economia do capital | INDETERMINATE | Normalizar ciclo e risco; conciliar ROIC/retorno incremental ou ROE prudencial com capital requerido e comparação histórica. |
-| Resultados confiáveis | INDETERMINATE | Conciliar lucro recorrente, caixa, provisões e extraordinários nas notas conhecidas no corte. |
-| Resiliência financeira | INDETERMINATE | Capital de Basileia, crédito inadimplente e cobertura de provisões sob regras vigentes no corte. |
-| Alocação e dividendos | INDETERMINATE | Separar manutenção/expansão, ajustar ações e demonstrar sustentabilidade das distribuições e retorno de reinvestimentos. |
-| Governança | INDETERMINATE | Revisar materialidade das partes relacionadas, direitos, conflitos e pareceres, sem controvérsias futuras. |
-
-Contraponto: não foi estabelecida rejeição estrutural com o extrato disponível; a ausência de revisão material suficiente impede aprovação. Atualizações anuais: 1, ligadas à avaliação inicial, sem repetir integralmente a ficha.
-
-| documento | recebido | hash_original |
-|---|---|---|
-| [102434](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip) | 2021-03-30 | 8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e |
-| [112039](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip) | 2022-02-24 | 64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4 |
-| [123519](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip) | 2023-02-14 | b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae |
-| [125746](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=125746) | 2023-05-04 | 90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5 |
-| 133849 | 2024-02-05 | ND — fonte herdada sem hash neste extrato |
-| [133849](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip) | 2024-02-05 | be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb |
-| [133849](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip) | 2024-02-05 | be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb |
-| [134853](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=134853) | 2024-03-19 | ND — fonte herdada sem hash neste extrato |
-
-## BRSR6 — BANCO DO ESTADO DO RIO GRANDE DO SUL SA
-
-CNPJ `92702067000196`; Bancos; primeiro corte 2014-06-30; categoria **INDETERMINATE**. [Ficha com fontes](../research/b00s_four_variants_2014_2026/inputs/dossiers/92702067000196.json). Cortes cobertos: 2014, 2015, 2016, 2017, 2018, 2019, 2020. Maior peso potencial anual B00S: 4.0000%.
-
-Atividade declarada: Banco Múltiplo atuante nas carteiras comercial, crédito, financiamento e investimento, crédito imobiliário, desenvolvimento e arrendamento mercantil e de investimentos.. Na avaliação inicial, 4/5 lucros atribuíveis positivos recuperados; 4/5 exercícios com payout divulgado. Esses fatos são favoráveis à investigação e não resolvem as seis dimensões.
-
-| dimensao | estado | prova_pendente |
-|---|---|---|
-| Durabilidade | INDETERMINATE | Comprovar posição competitiva, poder de preço, contratos/concessões e exposição regulatória histórica. |
-| Economia do capital | INDETERMINATE | Normalizar ciclo e risco; conciliar ROIC/retorno incremental ou ROE prudencial com capital requerido e comparação histórica. |
-| Resultados confiáveis | INDETERMINATE | Conciliar lucro recorrente, caixa, provisões e extraordinários nas notas conhecidas no corte. |
-| Resiliência financeira | INDETERMINATE | Capital de Basileia, crédito inadimplente e cobertura de provisões sob regras vigentes no corte. |
-| Alocação e dividendos | INDETERMINATE | Separar manutenção/expansão, ajustar ações e demonstrar sustentabilidade das distribuições e retorno de reinvestimentos. |
-| Governança | INDETERMINATE | Revisar materialidade das partes relacionadas, direitos, conflitos e pareceres, sem controvérsias futuras. |
-
-Contraponto: não foi estabelecida rejeição estrutural com o extrato disponível; a ausência de revisão material suficiente impede aprovação. Atualizações anuais: 6, ligadas à avaliação inicial, sem repetir integralmente a ficha.
-
-| documento | recebido | hash_original |
-|---|---|---|
-| [15629](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2011.zip) | 2012-03-29 | 858423fba40124d7a30abea4e70248f7251e1d2c792e9fcece5a57afd3115f34 |
-| [25439](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2012.zip) | 2013-03-27 | 3aff7a726d324d29924887eed45bbc58bc30b66cd9079bafe701d55efdfe0849 |
-| [28152](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=28152) | 2013-05-23 | cd48dd32bab6d410dc523a3de0d27ca3bb7ebd8c403e6fa1de647b1454fbd069 |
-| 35198 | 2014-03-14 | ND — fonte herdada sem hash neste extrato |
-| [35198](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip) | 2014-03-14 | ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224 |
-| [35198](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip) | 2014-03-14 | ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224 |
-| [36617](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=36617) | 2014-05-05 | ND — fonte herdada sem hash neste extrato |
-| [36839](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=36839) | 2014-05-07 | 2c746f2cf0636236972a06be1d4e15dabaac15281e88753505acae9385a76f79 |
-| [6997](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2010.zip) | 2011-05-02 | c6a9c95c2510e8a71bb583084492e9c52c3f423a3be56f1c5d2dd4f6960677ff |
-
-## CMIG4 — CIA ENERG MINAS GERAIS - CEMIG
-
-CNPJ `17155730000164`; Energia; primeiro corte 2014-06-30; categoria **INDETERMINATE**. [Ficha com fontes](../research/b00s_four_variants_2014_2026/inputs/dossiers/17155730000164.json). Cortes cobertos: 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025. Maior peso potencial anual B00S: 2.8571%.
-
-Atividade declarada: Concessionária de serviço público de energia elétrica.. Na avaliação inicial, 5/5 lucros atribuíveis positivos recuperados; 4/5 exercícios com payout divulgado. Esses fatos são favoráveis à investigação e não resolvem as seis dimensões.
-
-| dimensao | estado | prova_pendente |
-|---|---|---|
-| Durabilidade | INDETERMINATE | Comprovar posição competitiva, poder de preço, contratos/concessões e exposição regulatória histórica. |
-| Economia do capital | INDETERMINATE | Normalizar ciclo e risco; conciliar ROIC/retorno incremental ou ROE prudencial com capital requerido e comparação histórica. |
-| Resultados confiáveis | INDETERMINATE | Conciliar lucro recorrente, caixa, provisões e extraordinários nas notas conhecidas no corte. |
-| Resiliência financeira | INDETERMINATE | Cronograma de dívida, cobertura de juros, CAPEX obrigatório e riscos de concessão conhecidos no corte. |
-| Alocação e dividendos | INDETERMINATE | Separar manutenção/expansão, ajustar ações e demonstrar sustentabilidade das distribuições e retorno de reinvestimentos. |
-| Governança | INDETERMINATE | Revisar materialidade das partes relacionadas, direitos, conflitos e pareceres, sem controvérsias futuras. |
-
-Contraponto: não foi estabelecida rejeição estrutural com o extrato disponível; a ausência de revisão material suficiente impede aprovação. Atualizações anuais: 11, ligadas à avaliação inicial, sem repetir integralmente a ficha.
-
-| documento | recebido | hash_original |
-|---|---|---|
-| [15488](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2011.zip) | 2012-03-28 | 858423fba40124d7a30abea4e70248f7251e1d2c792e9fcece5a57afd3115f34 |
-| [26149](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2012.zip) | 2013-04-16 | 3aff7a726d324d29924887eed45bbc58bc30b66cd9079bafe701d55efdfe0849 |
-| [27076](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=27076) | 2013-05-10 | cd48dd32bab6d410dc523a3de0d27ca3bb7ebd8c403e6fa1de647b1454fbd069 |
-| 36107 | 2014-04-04 | ND — fonte herdada sem hash neste extrato |
-| [36107](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip) | 2014-04-04 | ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224 |
-| [36107](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip) | 2014-04-04 | ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224 |
-| [38266](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=38266) | 2014-05-27 | ND — fonte herdada sem hash neste extrato |
-| [38458](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=38458) | 2014-05-29 | 2c746f2cf0636236972a06be1d4e15dabaac15281e88753505acae9385a76f79 |
-| [6653](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2010.zip) | 2011-04-20 | c6a9c95c2510e8a71bb583084492e9c52c3f423a3be56f1c5d2dd4f6960677ff |
-
-## COCE5 — CIA ENERG CEARA - COELCE
-
-CNPJ `07047251000170`; Energia; primeiro corte 2014-06-30; categoria **INDETERMINATE**. [Ficha com fontes](../research/b00s_four_variants_2014_2026/inputs/dossiers/07047251000170.json). Cortes cobertos: 2014, 2020. Maior peso potencial anual B00S: 2.2222%.
-
-Atividade declarada: distribuição de energia elétrica.. Na avaliação inicial, 5/5 lucros atribuíveis positivos recuperados; 4/5 exercícios com payout divulgado. Esses fatos são favoráveis à investigação e não resolvem as seis dimensões.
-
-| dimensao | estado | prova_pendente |
-|---|---|---|
-| Durabilidade | INDETERMINATE | Comprovar posição competitiva, poder de preço, contratos/concessões e exposição regulatória histórica. |
-| Economia do capital | INDETERMINATE | Normalizar ciclo e risco; conciliar ROIC/retorno incremental ou ROE prudencial com capital requerido e comparação histórica. |
-| Resultados confiáveis | INDETERMINATE | Conciliar lucro recorrente, caixa, provisões e extraordinários nas notas conhecidas no corte. |
-| Resiliência financeira | INDETERMINATE | Cronograma de dívida, cobertura de juros, CAPEX obrigatório e riscos de concessão conhecidos no corte. |
-| Alocação e dividendos | INDETERMINATE | Separar manutenção/expansão, ajustar ações e demonstrar sustentabilidade das distribuições e retorno de reinvestimentos. |
-| Governança | INDETERMINATE | Revisar materialidade das partes relacionadas, direitos, conflitos e pareceres, sem controvérsias futuras. |
-
-Contraponto: não foi estabelecida rejeição estrutural com o extrato disponível; a ausência de revisão material suficiente impede aprovação. Atualizações anuais: 1, ligadas à avaliação inicial, sem repetir integralmente a ficha.
-
-| documento | recebido | hash_original |
-|---|---|---|
-| [15351](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2011.zip) | 2012-03-26 | 858423fba40124d7a30abea4e70248f7251e1d2c792e9fcece5a57afd3115f34 |
-| [25557](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2012.zip) | 2013-03-27 | 3aff7a726d324d29924887eed45bbc58bc30b66cd9079bafe701d55efdfe0849 |
-| [27245](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=27245) | 2013-05-13 | cd48dd32bab6d410dc523a3de0d27ca3bb7ebd8c403e6fa1de647b1454fbd069 |
-| [33982](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=33982) | 2014-01-14 | ND — fonte herdada sem hash neste extrato |
-| 34371 | 2014-02-06 | ND — fonte herdada sem hash neste extrato |
-| [34371](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip) | 2014-02-06 | ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224 |
-| [34371](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip) | 2014-02-06 | ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224 |
-| [38252](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=38252) | 2014-05-26 | 2c746f2cf0636236972a06be1d4e15dabaac15281e88753505acae9385a76f79 |
-| [6595](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2010.zip) | 2011-04-18 | c6a9c95c2510e8a71bb583084492e9c52c3f423a3be56f1c5d2dd4f6960677ff |
-
-## CPFE3 — CPFL ENERGIA SA
-
-CNPJ `02429144000193`; Energia; primeiro corte 2014-06-30; categoria **INDETERMINATE**. [Ficha com fontes](../research/b00s_four_variants_2014_2026/inputs/dossiers/02429144000193.json). Cortes cobertos: 2014, 2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023, 2024, 2025. Maior peso potencial anual B00S: 2.8571%.
-
-Atividade declarada: Gestão de Participações Societárias (Holdings). Na avaliação inicial, 5/5 lucros atribuíveis positivos recuperados; 4/5 exercícios com payout divulgado. Esses fatos são favoráveis à investigação e não resolvem as seis dimensões.
-
-| dimensao | estado | prova_pendente |
-|---|---|---|
-| Durabilidade | INDETERMINATE | Comprovar posição competitiva, poder de preço, contratos/concessões e exposição regulatória histórica. |
-| Economia do capital | INDETERMINATE | Normalizar ciclo e risco; conciliar ROIC/retorno incremental ou ROE prudencial com capital requerido e comparação histórica. |
-| Resultados confiáveis | INDETERMINATE | Conciliar lucro recorrente, caixa, provisões e extraordinários nas notas conhecidas no corte. |
-| Resiliência financeira | INDETERMINATE | Cronograma de dívida, cobertura de juros, CAPEX obrigatório e riscos de concessão conhecidos no corte. |
-| Alocação e dividendos | INDETERMINATE | Separar manutenção/expansão, ajustar ações e demonstrar sustentabilidade das distribuições e retorno de reinvestimentos. |
-| Governança | INDETERMINATE | Revisar materialidade das partes relacionadas, direitos, conflitos e pareceres, sem controvérsias futuras. |
-
-Contraponto: não foi estabelecida rejeição estrutural com o extrato disponível; a ausência de revisão material suficiente impede aprovação. Atualizações anuais: 10, ligadas à avaliação inicial, sem repetir integralmente a ficha.
-
-| documento | recebido | hash_original |
-|---|---|---|
-| [14930](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2011.zip) | 2012-03-12 | 858423fba40124d7a30abea4e70248f7251e1d2c792e9fcece5a57afd3115f34 |
-| [24909](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2012.zip) | 2013-03-13 | 3aff7a726d324d29924887eed45bbc58bc30b66cd9079bafe701d55efdfe0849 |
-| [26677](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=26677) | 2013-05-06 | cd48dd32bab6d410dc523a3de0d27ca3bb7ebd8c403e6fa1de647b1454fbd069 |
-| [28217](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=28217) | 2013-05-24 | ND — fonte herdada sem hash neste extrato |
-| 35644 | 2014-03-27 | ND — fonte herdada sem hash neste extrato |
-| [35644](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip) | 2014-03-27 | ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224 |
-| [35644](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip) | 2014-03-27 | ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224 |
-| [37228](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=37228) | 2014-05-12 | 2c746f2cf0636236972a06be1d4e15dabaac15281e88753505acae9385a76f79 |
-| [5752](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2010.zip) | 2011-03-28 | c6a9c95c2510e8a71bb583084492e9c52c3f423a3be56f1c5d2dd4f6960677ff |
-
-## CPLE6 — COMPANHIA PARANAENSE DE ENERGIA
-
-CNPJ `76483817000120`; Energia; primeiro corte 2014-06-30; categoria **INDETERMINATE**. [Ficha com fontes](../research/b00s_four_variants_2014_2026/inputs/dossiers/76483817000120.json). Cortes cobertos: 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025. Maior peso potencial anual B00S: 2.8571%.
-
-Atividade declarada: Geração, Transmissão, Comercialização e Distribuição de Energia Elétrica. Na avaliação inicial, 5/5 lucros atribuíveis positivos recuperados; 4/5 exercícios com payout divulgado. Esses fatos são favoráveis à investigação e não resolvem as seis dimensões.
-
-| dimensao | estado | prova_pendente |
-|---|---|---|
-| Durabilidade | INDETERMINATE | Comprovar posição competitiva, poder de preço, contratos/concessões e exposição regulatória histórica. |
-| Economia do capital | INDETERMINATE | Normalizar ciclo e risco; conciliar ROIC/retorno incremental ou ROE prudencial com capital requerido e comparação histórica. |
-| Resultados confiáveis | INDETERMINATE | Conciliar lucro recorrente, caixa, provisões e extraordinários nas notas conhecidas no corte. |
-| Resiliência financeira | INDETERMINATE | Cronograma de dívida, cobertura de juros, CAPEX obrigatório e riscos de concessão conhecidos no corte. |
-| Alocação e dividendos | INDETERMINATE | Separar manutenção/expansão, ajustar ações e demonstrar sustentabilidade das distribuições e retorno de reinvestimentos. |
-| Governança | INDETERMINATE | Revisar materialidade das partes relacionadas, direitos, conflitos e pareceres, sem controvérsias futuras. |
-
-Contraponto: não foi estabelecida rejeição estrutural com o extrato disponível; a ausência de revisão material suficiente impede aprovação. Atualizações anuais: 11, ligadas à avaliação inicial, sem repetir integralmente a ficha.
-
-| documento | recebido | hash_original |
-|---|---|---|
-| [15394](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2011.zip) | 2012-03-26 | 858423fba40124d7a30abea4e70248f7251e1d2c792e9fcece5a57afd3115f34 |
-| [25260](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2012.zip) | 2013-03-25 | 3aff7a726d324d29924887eed45bbc58bc30b66cd9079bafe701d55efdfe0849 |
-| [26376](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=26376) | 2013-04-29 | cd48dd32bab6d410dc523a3de0d27ca3bb7ebd8c403e6fa1de647b1454fbd069 |
-| [35261](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip) | 2014-03-17 | ND — fonte herdada sem hash neste extrato |
-| 35261 | 2014-03-17 | ND — fonte herdada sem hash neste extrato |
-| [36674](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=36674) | 2014-05-05 | 2c746f2cf0636236972a06be1d4e15dabaac15281e88753505acae9385a76f79 |
-| [39160](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=39160) | 2014-06-04 | ND — fonte herdada sem hash neste extrato |
-| [5889](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2010.zip) | 2011-03-29 | c6a9c95c2510e8a71bb583084492e9c52c3f423a3be56f1c5d2dd4f6960677ff |
-
-## CSMG3 — COMPANHIA DE SANEAMENTO DE MINAS GERAIS
-
-CNPJ `17281106000103`; Saneamento; primeiro corte 2014-06-30; categoria **INDETERMINATE**. [Ficha com fontes](../research/b00s_four_variants_2014_2026/inputs/dossiers/17281106000103.json). Cortes cobertos: 2014, 2015, 2021, 2022, 2023, 2024, 2025. Maior peso potencial anual B00S: 10.0000%.
-
-Atividade declarada: Prestar Serviços de Saneamento.. Na avaliação inicial, 5/5 lucros atribuíveis positivos recuperados; 4/5 exercícios com payout divulgado. Esses fatos são favoráveis à investigação e não resolvem as seis dimensões.
-
-| dimensao | estado | prova_pendente |
-|---|---|---|
-| Durabilidade | INDETERMINATE | Comprovar posição competitiva, poder de preço, contratos/concessões e exposição regulatória histórica. |
-| Economia do capital | INDETERMINATE | Normalizar ciclo e risco; conciliar ROIC/retorno incremental ou ROE prudencial com capital requerido e comparação histórica. |
-| Resultados confiáveis | INDETERMINATE | Conciliar lucro recorrente, caixa, provisões e extraordinários nas notas conhecidas no corte. |
-| Resiliência financeira | INDETERMINATE | Cronograma de dívida, cobertura de juros, CAPEX obrigatório e riscos de concessão conhecidos no corte. |
-| Alocação e dividendos | INDETERMINATE | Separar manutenção/expansão, ajustar ações e demonstrar sustentabilidade das distribuições e retorno de reinvestimentos. |
-| Governança | INDETERMINATE | Revisar materialidade das partes relacionadas, direitos, conflitos e pareceres, sem controvérsias futuras. |
-
-Contraponto: não foi estabelecida rejeição estrutural com o extrato disponível; a ausência de revisão material suficiente impede aprovação. Atualizações anuais: 6, ligadas à avaliação inicial, sem repetir integralmente a ficha.
-
-| documento | recebido | hash_original |
-|---|---|---|
-| [14868](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2011.zip) | 2012-03-09 | 858423fba40124d7a30abea4e70248f7251e1d2c792e9fcece5a57afd3115f34 |
-| [24718](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2012.zip) | 2013-03-06 | 3aff7a726d324d29924887eed45bbc58bc30b66cd9079bafe701d55efdfe0849 |
-| [26507](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=26507) | 2013-05-02 | cd48dd32bab6d410dc523a3de0d27ca3bb7ebd8c403e6fa1de647b1454fbd069 |
-| 34244 | 2014-01-30 | ND — fonte herdada sem hash neste extrato |
-| [34244](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip) | 2014-01-30 | ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224 |
-| [34244](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip) | 2014-01-30 | ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224 |
-| [36797](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=36797) | 2014-05-07 | ND — fonte herdada sem hash neste extrato |
-| [36952](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=36952) | 2014-05-08 | 2c746f2cf0636236972a06be1d4e15dabaac15281e88753505acae9385a76f79 |
-| [5323](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2010.zip) | 2011-03-17 | c6a9c95c2510e8a71bb583084492e9c52c3f423a3be56f1c5d2dd4f6960677ff |
-
-## ELET3 — CENTRAIS ELET BRAS S.A. - ELETROBRAS
-
-CNPJ `00001180000126`; Energia; primeiro corte 2024-06-28; categoria **INDETERMINATE**. [Ficha com fontes](../research/b00s_four_variants_2014_2026/inputs/dossiers/00001180000126.json). Cortes cobertos: 2024, 2025. Maior peso potencial anual B00S: 2.5000%.
-
-Atividade declarada: Empresa Holding de Geração, Transmissão de Energia. Na avaliação inicial, 5/5 lucros atribuíveis positivos recuperados; 4/5 exercícios com payout divulgado. Esses fatos são favoráveis à investigação e não resolvem as seis dimensões.
-
-| dimensao | estado | prova_pendente |
-|---|---|---|
-| Durabilidade | INDETERMINATE | Comprovar posição competitiva, poder de preço, contratos/concessões e exposição regulatória histórica. |
-| Economia do capital | INDETERMINATE | Normalizar ciclo e risco; conciliar ROIC/retorno incremental ou ROE prudencial com capital requerido e comparação histórica. |
-| Resultados confiáveis | INDETERMINATE | Conciliar lucro recorrente, caixa, provisões e extraordinários nas notas conhecidas no corte. |
-| Resiliência financeira | INDETERMINATE | Cronograma de dívida, cobertura de juros, CAPEX obrigatório e riscos de concessão conhecidos no corte. |
-| Alocação e dividendos | INDETERMINATE | Separar manutenção/expansão, ajustar ações e demonstrar sustentabilidade das distribuições e retorno de reinvestimentos. |
-| Governança | INDETERMINATE | Revisar materialidade das partes relacionadas, direitos, conflitos e pareceres, sem controvérsias futuras. |
-
-Contraponto: não foi estabelecida rejeição estrutural com o extrato disponível; a ausência de revisão material suficiente impede aprovação. Atualizações anuais: 1, ligadas à avaliação inicial, sem repetir integralmente a ficha.
-
-| documento | recebido | hash_original |
-|---|---|---|
-| [102103](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip) | 2021-03-19 | 8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e |
-| [112739](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip) | 2022-03-18 | 64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4 |
-| [124141](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip) | 2023-03-13 | b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae |
-| [127025](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=127025) | 2023-05-18 | 90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5 |
-| [131365](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=131365) | 2023-10-10 | ND — fonte herdada sem hash neste extrato |
-| 137285 | 2024-05-14 | ND — fonte herdada sem hash neste extrato |
-| [137285](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip) | 2024-05-14 | be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb |
-| [137285](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip) | 2024-05-14 | be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb |
-
-## ENBR3 — EDP ENERGIAS DO BRASIL S/A
-
-CNPJ `03983431000103`; Energia; primeiro corte 2014-06-30; categoria **INDETERMINATE**. [Ficha com fontes](../research/b00s_four_variants_2014_2026/inputs/dossiers/03983431000103.json). Cortes cobertos: 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023. Maior peso potencial anual B00S: 2.8571%.
-
-Atividade declarada: Área de Negócios: Geração, Distribuição e Comercialização de Energia Elétrica. Na avaliação inicial, 5/5 lucros atribuíveis positivos recuperados; 4/5 exercícios com payout divulgado. Esses fatos são favoráveis à investigação e não resolvem as seis dimensões.
-
-| dimensao | estado | prova_pendente |
-|---|---|---|
-| Durabilidade | INDETERMINATE | Comprovar posição competitiva, poder de preço, contratos/concessões e exposição regulatória histórica. |
-| Economia do capital | INDETERMINATE | Normalizar ciclo e risco; conciliar ROIC/retorno incremental ou ROE prudencial com capital requerido e comparação histórica. |
-| Resultados confiáveis | INDETERMINATE | Conciliar lucro recorrente, caixa, provisões e extraordinários nas notas conhecidas no corte. |
-| Resiliência financeira | INDETERMINATE | Cronograma de dívida, cobertura de juros, CAPEX obrigatório e riscos de concessão conhecidos no corte. |
-| Alocação e dividendos | INDETERMINATE | Separar manutenção/expansão, ajustar ações e demonstrar sustentabilidade das distribuições e retorno de reinvestimentos. |
-| Governança | INDETERMINATE | Revisar materialidade das partes relacionadas, direitos, conflitos e pareceres, sem controvérsias futuras. |
-
-Contraponto: não foi estabelecida rejeição estrutural com o extrato disponível; a ausência de revisão material suficiente impede aprovação. Atualizações anuais: 9, ligadas à avaliação inicial, sem repetir integralmente a ficha.
-
-| documento | recebido | hash_original |
-|---|---|---|
-| [14860](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2011.zip) | 2012-03-09 | 858423fba40124d7a30abea4e70248f7251e1d2c792e9fcece5a57afd3115f34 |
-| [26155](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=26155) | 2013-04-17 | cd48dd32bab6d410dc523a3de0d27ca3bb7ebd8c403e6fa1de647b1454fbd069 |
-| [30020](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2012.zip) | 2013-07-25 | 3aff7a726d324d29924887eed45bbc58bc30b66cd9079bafe701d55efdfe0849 |
-| 34927 | 2014-02-27 | ND — fonte herdada sem hash neste extrato |
-| [34927](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip) | 2014-02-27 | ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224 |
-| [34927](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip) | 2014-02-27 | ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224 |
-| [37104](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=37104) | 2014-05-09 | 2c746f2cf0636236972a06be1d4e15dabaac15281e88753505acae9385a76f79 |
-| [39118](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=39118) | 2014-06-03 | ND — fonte herdada sem hash neste extrato |
-| [5393](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2010.zip) | 2011-03-21 | c6a9c95c2510e8a71bb583084492e9c52c3f423a3be56f1c5d2dd4f6960677ff |
-
-## EQTL3 — EQUATORIAL ENERGIA S/A
-
-CNPJ `03220438000173`; Energia; primeiro corte 2014-06-30; categoria **INDETERMINATE**. [Ficha com fontes](../research/b00s_four_variants_2014_2026/inputs/dossiers/03220438000173.json). Cortes cobertos: 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025. Maior peso potencial anual B00S: 2.8571%.
-
-Atividade declarada: Empresa holding com atuação no setor elétrico. Na avaliação inicial, 5/5 lucros atribuíveis positivos recuperados; 4/5 exercícios com payout divulgado. Esses fatos são favoráveis à investigação e não resolvem as seis dimensões.
-
-| dimensao | estado | prova_pendente |
-|---|---|---|
-| Durabilidade | INDETERMINATE | Comprovar posição competitiva, poder de preço, contratos/concessões e exposição regulatória histórica. |
-| Economia do capital | INDETERMINATE | Normalizar ciclo e risco; conciliar ROIC/retorno incremental ou ROE prudencial com capital requerido e comparação histórica. |
-| Resultados confiáveis | INDETERMINATE | Conciliar lucro recorrente, caixa, provisões e extraordinários nas notas conhecidas no corte. |
-| Resiliência financeira | INDETERMINATE | Cronograma de dívida, cobertura de juros, CAPEX obrigatório e riscos de concessão conhecidos no corte. |
-| Alocação e dividendos | INDETERMINATE | Separar manutenção/expansão, ajustar ações e demonstrar sustentabilidade das distribuições e retorno de reinvestimentos. |
-| Governança | INDETERMINATE | Revisar materialidade das partes relacionadas, direitos, conflitos e pareceres, sem controvérsias futuras. |
-
-Contraponto: não foi estabelecida rejeição estrutural com o extrato disponível; a ausência de revisão material suficiente impede aprovação. Atualizações anuais: 11, ligadas à avaliação inicial, sem repetir integralmente a ficha.
-
-| documento | recebido | hash_original |
-|---|---|---|
-| [22032](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2010.zip) | 2012-10-31 | c6a9c95c2510e8a71bb583084492e9c52c3f423a3be56f1c5d2dd4f6960677ff |
-| [23012](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2011.zip) | 2012-12-02 | 858423fba40124d7a30abea4e70248f7251e1d2c792e9fcece5a57afd3115f34 |
-| [25814](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2012.zip) | 2013-04-01 | 3aff7a726d324d29924887eed45bbc58bc30b66cd9079bafe701d55efdfe0849 |
-| [27987](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=27987) | 2013-05-17 | cd48dd32bab6d410dc523a3de0d27ca3bb7ebd8c403e6fa1de647b1454fbd069 |
-| 35098 | 2014-03-11 | ND — fonte herdada sem hash neste extrato |
-| [35098](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip) | 2014-03-11 | ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224 |
-| [35098](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip) | 2014-03-11 | ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224 |
-| [37304](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=37304) | 2014-05-12 | ND — fonte herdada sem hash neste extrato |
-| [37308](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=37308) | 2014-05-12 | 2c746f2cf0636236972a06be1d4e15dabaac15281e88753505acae9385a76f79 |
-
-## GETI4 — AES TIETE SA
-
-CNPJ `02998609000127`; Energia; primeiro corte 2014-06-30; categoria **INDETERMINATE**. [Ficha com fontes](../research/b00s_four_variants_2014_2026/inputs/dossiers/02998609000127.json). Cortes cobertos: 2014, 2015. Maior peso potencial anual B00S: 2.2222%.
-
-Atividade declarada: GERAÇÃO DE ENERGIA ELÉTRICA. Na avaliação inicial, 5/5 lucros atribuíveis positivos recuperados; 4/5 exercícios com payout divulgado. Esses fatos são favoráveis à investigação e não resolvem as seis dimensões.
-
-| dimensao | estado | prova_pendente |
-|---|---|---|
-| Durabilidade | INDETERMINATE | Comprovar posição competitiva, poder de preço, contratos/concessões e exposição regulatória histórica. |
-| Economia do capital | INDETERMINATE | Normalizar ciclo e risco; conciliar ROIC/retorno incremental ou ROE prudencial com capital requerido e comparação histórica. |
-| Resultados confiáveis | INDETERMINATE | Conciliar lucro recorrente, caixa, provisões e extraordinários nas notas conhecidas no corte. |
-| Resiliência financeira | INDETERMINATE | Cronograma de dívida, cobertura de juros, CAPEX obrigatório e riscos de concessão conhecidos no corte. |
-| Alocação e dividendos | INDETERMINATE | Separar manutenção/expansão, ajustar ações e demonstrar sustentabilidade das distribuições e retorno de reinvestimentos. |
-| Governança | INDETERMINATE | Revisar materialidade das partes relacionadas, direitos, conflitos e pareceres, sem controvérsias futuras. |
-
-Contraponto: não foi estabelecida rejeição estrutural com o extrato disponível; a ausência de revisão material suficiente impede aprovação. Atualizações anuais: 1, ligadas à avaliação inicial, sem repetir integralmente a ficha.
-
-| documento | recebido | hash_original |
-|---|---|---|
-| [15024](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2011.zip) | 2012-03-14 | 858423fba40124d7a30abea4e70248f7251e1d2c792e9fcece5a57afd3115f34 |
-| [24466](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2012.zip) | 2013-02-26 | 3aff7a726d324d29924887eed45bbc58bc30b66cd9079bafe701d55efdfe0849 |
-| [27999](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=27999) | 2013-05-17 | cd48dd32bab6d410dc523a3de0d27ca3bb7ebd8c403e6fa1de647b1454fbd069 |
-| [29708](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=29708) | 2013-07-04 | ND — fonte herdada sem hash neste extrato |
-| [34821](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip) | 2014-02-25 | ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224 |
-| 34821 | 2014-02-25 | ND — fonte herdada sem hash neste extrato |
-| [36875](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=36875) | 2014-05-07 | 2c746f2cf0636236972a06be1d4e15dabaac15281e88753505acae9385a76f79 |
-| [5577](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2010.zip) | 2011-03-25 | c6a9c95c2510e8a71bb583084492e9c52c3f423a3be56f1c5d2dd4f6960677ff |
-
-## IRBR3 — IRB - BRASIL RESSEGUROS S.A.
-
-CNPJ `33376989000191`; Seguros; primeiro corte 2019-06-28; categoria **INDETERMINATE**. [Ficha com fontes](../research/b00s_four_variants_2014_2026/inputs/dossiers/33376989000191.json). Cortes cobertos: 2019. Maior peso potencial anual B00S: 6.6667%.
-
-Atividade declarada: Operações de resseguro e retrocessão. Na avaliação inicial, 4/5 lucros atribuíveis positivos recuperados; 4/5 exercícios com payout divulgado. Esses fatos são favoráveis à investigação e não resolvem as seis dimensões.
-
-| dimensao | estado | prova_pendente |
-|---|---|---|
-| Durabilidade | INDETERMINATE | Comprovar posição competitiva, poder de preço, contratos/concessões e exposição regulatória histórica. |
-| Economia do capital | INDETERMINATE | Normalizar ciclo e risco; conciliar ROIC/retorno incremental ou ROE prudencial com capital requerido e comparação histórica. |
-| Resultados confiáveis | INDETERMINATE | Conciliar lucro recorrente, caixa, provisões e extraordinários nas notas conhecidas no corte. |
-| Resiliência financeira | INDETERMINATE | Capital requerido/disponível, sinistralidade, reservas técnicas e resultado técnico sob regras vigentes. |
-| Alocação e dividendos | INDETERMINATE | Separar manutenção/expansão, ajustar ações e demonstrar sustentabilidade das distribuições e retorno de reinvestimentos. |
-| Governança | INDETERMINATE | Revisar materialidade das partes relacionadas, direitos, conflitos e pareceres, sem controvérsias futuras. |
-
-Contraponto: não foi estabelecida rejeição estrutural com o extrato disponível; a ausência de revisão material suficiente impede aprovação. Atualizações anuais: 0, ligadas à avaliação inicial, sem repetir integralmente a ficha.
-
-| documento | recebido | hash_original |
-|---|---|---|
-| [67429](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip) | 2017-07-31 | 772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5 |
-| [71429](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip) | 2018-02-08 | 1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58 |
-| [73863](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=73863) | 2018-05-07 | cb90963d1e7d6b2416265eb7aa0a463b98d067ade096f47b724467184273b0ab |
-| [80352](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=80352) | 2019-01-29 | ND — fonte herdada sem hash neste extrato |
-| [80517](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=80517) | 2019-02-07 | 7a349acbce124fdb0846c371b3e68e5ff06781ead4b8713d6080eabf6737d082 |
-| 81090 | 2019-03-08 | ND — fonte herdada sem hash neste extrato |
-| [81090](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip) | 2019-03-08 | 280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f |
-| [81090](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip) | 2019-03-08 | 280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f |
-
-## ITUB4 — ITAÚ UNIBANCO HOLDING S.A.
-
-CNPJ `60872504000123`; Bancos; primeiro corte 2014-06-30; categoria **INDETERMINATE**. [Ficha com fontes](../research/b00s_four_variants_2014_2026/inputs/dossiers/60872504000123.json). Cortes cobertos: 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025. Maior peso potencial anual B00S: 4.0000%.
-
-Atividade declarada: A sociedade tem por objeto a atividade bancária em todas as modalidades autorizadas, inclusive a de operações de câmbio.. Na avaliação inicial, 4/5 lucros atribuíveis positivos recuperados; 4/5 exercícios com payout divulgado. Esses fatos são favoráveis à investigação e não resolvem as seis dimensões.
-
-| dimensao | estado | prova_pendente |
-|---|---|---|
-| Durabilidade | INDETERMINATE | Comprovar posição competitiva, poder de preço, contratos/concessões e exposição regulatória histórica. |
-| Economia do capital | INDETERMINATE | Normalizar ciclo e risco; conciliar ROIC/retorno incremental ou ROE prudencial com capital requerido e comparação histórica. |
-| Resultados confiáveis | INDETERMINATE | Conciliar lucro recorrente, caixa, provisões e extraordinários nas notas conhecidas no corte. |
-| Resiliência financeira | INDETERMINATE | Capital de Basileia, crédito inadimplente e cobertura de provisões sob regras vigentes no corte. |
-| Alocação e dividendos | INDETERMINATE | Separar manutenção/expansão, ajustar ações e demonstrar sustentabilidade das distribuições e retorno de reinvestimentos. |
-| Governança | INDETERMINATE | Revisar materialidade das partes relacionadas, direitos, conflitos e pareceres, sem controvérsias futuras. |
-
-Contraponto: não foi estabelecida rejeição estrutural com o extrato disponível; a ausência de revisão material suficiente impede aprovação. Atualizações anuais: 11, ligadas à avaliação inicial, sem repetir integralmente a ficha.
-
-| documento | recebido | hash_original |
-|---|---|---|
-| [11545](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2010.zip) | 2011-09-01 | c6a9c95c2510e8a71bb583084492e9c52c3f423a3be56f1c5d2dd4f6960677ff |
-| [24646](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2011.zip) | 2013-03-04 | ND — fonte herdada sem hash neste extrato |
-| [26422](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=26422) | 2013-04-30 | cd48dd32bab6d410dc523a3de0d27ca3bb7ebd8c403e6fa1de647b1454fbd069 |
-| [28119](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=28119) | 2013-05-22 | ND — fonte herdada sem hash neste extrato |
-| 36223 | 2014-04-11 | ND — fonte herdada sem hash neste extrato |
-| [36223](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip) | 2014-04-11 | ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224 |
-| [36223](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip) | 2014-04-11 | ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224 |
-| [36669](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=36669) | 2014-05-05 | 2c746f2cf0636236972a06be1d4e15dabaac15281e88753505acae9385a76f79 |
-
-## LIGT3 — LIGHT SA
-
-CNPJ `03378521000175`; Energia; primeiro corte 2014-06-30; categoria **INDETERMINATE**. [Ficha com fontes](../research/b00s_four_variants_2014_2026/inputs/dossiers/03378521000175.json). Cortes cobertos: 2014, 2015, 2016. Maior peso potencial anual B00S: 2.5000%.
-
-Atividade declarada: Participação em sociedades p/ exploração serviços de energia elétrica. Na avaliação inicial, 5/5 lucros atribuíveis positivos recuperados; 4/5 exercícios com payout divulgado. Esses fatos são favoráveis à investigação e não resolvem as seis dimensões.
-
-| dimensao | estado | prova_pendente |
-|---|---|---|
-| Durabilidade | INDETERMINATE | Comprovar posição competitiva, poder de preço, contratos/concessões e exposição regulatória histórica. |
-| Economia do capital | INDETERMINATE | Normalizar ciclo e risco; conciliar ROIC/retorno incremental ou ROE prudencial com capital requerido e comparação histórica. |
-| Resultados confiáveis | INDETERMINATE | Conciliar lucro recorrente, caixa, provisões e extraordinários nas notas conhecidas no corte. |
-| Resiliência financeira | INDETERMINATE | Cronograma de dívida, cobertura de juros, CAPEX obrigatório e riscos de concessão conhecidos no corte. |
-| Alocação e dividendos | INDETERMINATE | Separar manutenção/expansão, ajustar ações e demonstrar sustentabilidade das distribuições e retorno de reinvestimentos. |
-| Governança | INDETERMINATE | Revisar materialidade das partes relacionadas, direitos, conflitos e pareceres, sem controvérsias futuras. |
-
-Contraponto: não foi estabelecida rejeição estrutural com o extrato disponível; a ausência de revisão material suficiente impede aprovação. Atualizações anuais: 2, ligadas à avaliação inicial, sem repetir integralmente a ficha.
-
-| documento | recebido | hash_original |
-|---|---|---|
-| [14727](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2011.zip) | 2012-03-06 | 858423fba40124d7a30abea4e70248f7251e1d2c792e9fcece5a57afd3115f34 |
-| [25265](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2012.zip) | 2013-03-25 | 3aff7a726d324d29924887eed45bbc58bc30b66cd9079bafe701d55efdfe0849 |
-| [27599](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=27599) | 2013-05-15 | cd48dd32bab6d410dc523a3de0d27ca3bb7ebd8c403e6fa1de647b1454fbd069 |
-| 35112 | 2014-03-11 | ND — fonte herdada sem hash neste extrato |
-| [35112](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip) | 2014-03-11 | ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224 |
-| [35112](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip) | 2014-03-11 | ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224 |
-| [37270](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=37270) | 2014-05-12 | ND — fonte herdada sem hash neste extrato |
-| [37295](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=37295) | 2014-05-12 | 2c746f2cf0636236972a06be1d4e15dabaac15281e88753505acae9385a76f79 |
-| [5658](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2010.zip) | 2011-03-28 | c6a9c95c2510e8a71bb583084492e9c52c3f423a3be56f1c5d2dd4f6960677ff |
-
-## NEOE3 — NEOENERGIA S.A.
-
-CNPJ `01083200000118`; Energia; primeiro corte 2020-06-30; categoria **INDETERMINATE**. [Ficha com fontes](../research/b00s_four_variants_2014_2026/inputs/dossiers/01083200000118.json). Cortes cobertos: 2020, 2021, 2022, 2023, 2024, 2025. Maior peso potencial anual B00S: 2.5000%.
-
-Atividade declarada: Participação em outras sociedades. Na avaliação inicial, 5/5 lucros atribuíveis positivos recuperados; 4/5 exercícios com payout divulgado. Esses fatos são favoráveis à investigação e não resolvem as seis dimensões.
-
-| dimensao | estado | prova_pendente |
-|---|---|---|
-| Durabilidade | INDETERMINATE | Comprovar posição competitiva, poder de preço, contratos/concessões e exposição regulatória histórica. |
-| Economia do capital | INDETERMINATE | Normalizar ciclo e risco; conciliar ROIC/retorno incremental ou ROE prudencial com capital requerido e comparação histórica. |
-| Resultados confiáveis | INDETERMINATE | Conciliar lucro recorrente, caixa, provisões e extraordinários nas notas conhecidas no corte. |
-| Resiliência financeira | INDETERMINATE | Cronograma de dívida, cobertura de juros, CAPEX obrigatório e riscos de concessão conhecidos no corte. |
-| Alocação e dividendos | INDETERMINATE | Separar manutenção/expansão, ajustar ações e demonstrar sustentabilidade das distribuições e retorno de reinvestimentos. |
-| Governança | INDETERMINATE | Revisar materialidade das partes relacionadas, direitos, conflitos e pareceres, sem controvérsias futuras. |
-
-Contraponto: não foi estabelecida rejeição estrutural com o extrato disponível; a ausência de revisão material suficiente impede aprovação. Atualizações anuais: 5, ligadas à avaliação inicial, sem repetir integralmente a ficha.
-
-| documento | recebido | hash_original |
-|---|---|---|
-| [82332](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip) | 2019-04-23 | 280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f |
-| [82363](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip) | 2019-04-24 | 772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5 |
-| [82385](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=82385) | 2019-04-25 | 7a349acbce124fdb0846c371b3e68e5ff06781ead4b8713d6080eabf6737d082 |
-| 91020 | 2020-02-17 | ND — fonte herdada sem hash neste extrato |
-| [91020](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip) | 2020-02-17 | bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d |
-| [91020](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip) | 2020-02-17 | bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d |
-| [91278](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=91278) | 2020-03-02 | ND — fonte herdada sem hash neste extrato |
-| [94236](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=94236) | 2020-06-24 | 30f461d5d3b3cdbab84faac20c158c6a41cea1ee0223c40d988db9845e2c6a51 |
-
-## PSSA3 — PORTO SEGURO SA
-
-CNPJ `02149205000169`; Seguros; primeiro corte 2014-06-30; categoria **INDETERMINATE**. [Ficha com fontes](../research/b00s_four_variants_2014_2026/inputs/dossiers/02149205000169.json). Cortes cobertos: 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025. Maior peso potencial anual B00S: 20.0000%.
-
-Atividade declarada: Gestão de Participações Societárias (holding). Na avaliação inicial, 5/5 lucros atribuíveis positivos recuperados; 4/5 exercícios com payout divulgado. Esses fatos são favoráveis à investigação e não resolvem as seis dimensões.
-
-| dimensao | estado | prova_pendente |
-|---|---|---|
-| Durabilidade | INDETERMINATE | Comprovar posição competitiva, poder de preço, contratos/concessões e exposição regulatória histórica. |
-| Economia do capital | INDETERMINATE | Normalizar ciclo e risco; conciliar ROIC/retorno incremental ou ROE prudencial com capital requerido e comparação histórica. |
-| Resultados confiáveis | INDETERMINATE | Conciliar lucro recorrente, caixa, provisões e extraordinários nas notas conhecidas no corte. |
-| Resiliência financeira | INDETERMINATE | Capital requerido/disponível, sinistralidade, reservas técnicas e resultado técnico sob regras vigentes. |
-| Alocação e dividendos | INDETERMINATE | Separar manutenção/expansão, ajustar ações e demonstrar sustentabilidade das distribuições e retorno de reinvestimentos. |
-| Governança | INDETERMINATE | Revisar materialidade das partes relacionadas, direitos, conflitos e pareceres, sem controvérsias futuras. |
-
-Contraponto: não foi estabelecida rejeição estrutural com o extrato disponível; a ausência de revisão material suficiente impede aprovação. Atualizações anuais: 11, ligadas à avaliação inicial, sem repetir integralmente a ficha.
-
-| documento | recebido | hash_original |
-|---|---|---|
-| [14549](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2011.zip) | 2012-02-27 | 858423fba40124d7a30abea4e70248f7251e1d2c792e9fcece5a57afd3115f34 |
-| [24456](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2012.zip) | 2013-02-26 | 3aff7a726d324d29924887eed45bbc58bc30b66cd9079bafe701d55efdfe0849 |
-| [26534](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=26534) | 2013-05-03 | cd48dd32bab6d410dc523a3de0d27ca3bb7ebd8c403e6fa1de647b1454fbd069 |
-| 34786 | 2014-02-25 | ND — fonte herdada sem hash neste extrato |
-| [34786](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip) | 2014-02-25 | ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224 |
-| [34786](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip) | 2014-02-25 | ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224 |
-| [35931](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=35931) | 2014-03-31 | 2c746f2cf0636236972a06be1d4e15dabaac15281e88753505acae9385a76f79 |
-| [38673](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=38673) | 2014-05-30 | ND — fonte herdada sem hash neste extrato |
-| [5063](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2010.zip) | 2011-03-01 | c6a9c95c2510e8a71bb583084492e9c52c3f423a3be56f1c5d2dd4f6960677ff |
-
-## SANB4 — BCO SANTANDER (BRASIL) S.A.
-
-CNPJ `90400888000142`; Bancos; primeiro corte 2020-06-30; categoria **INDETERMINATE**. [Ficha com fontes](../research/b00s_four_variants_2014_2026/inputs/dossiers/90400888000142.json). Cortes cobertos: 2020, 2021, 2022, 2023, 2024, 2025. Maior peso potencial anual B00S: 4.0000%.
-
-Atividade declarada: Banco Múltiplo com Carteira Comercial. Na avaliação inicial, 5/5 lucros atribuíveis positivos recuperados; 3/5 exercícios com payout divulgado. Esses fatos são favoráveis à investigação e não resolvem as seis dimensões.
-
-| dimensao | estado | prova_pendente |
-|---|---|---|
-| Durabilidade | INDETERMINATE | Comprovar posição competitiva, poder de preço, contratos/concessões e exposição regulatória histórica. |
-| Economia do capital | INDETERMINATE | Normalizar ciclo e risco; conciliar ROIC/retorno incremental ou ROE prudencial com capital requerido e comparação histórica. |
-| Resultados confiáveis | INDETERMINATE | Conciliar lucro recorrente, caixa, provisões e extraordinários nas notas conhecidas no corte. |
-| Resiliência financeira | INDETERMINATE | Capital de Basileia, crédito inadimplente e cobertura de provisões sob regras vigentes no corte. |
-| Alocação e dividendos | INDETERMINATE | Separar manutenção/expansão, ajustar ações e demonstrar sustentabilidade das distribuições e retorno de reinvestimentos. |
-| Governança | INDETERMINATE | Revisar materialidade das partes relacionadas, direitos, conflitos e pareceres, sem controvérsias futuras. |
-
-Contraponto: não foi estabelecida rejeição estrutural com o extrato disponível; a ausência de revisão material suficiente impede aprovação. Atualizações anuais: 5, ligadas à avaliação inicial, sem repetir integralmente a ficha.
-
-| documento | recebido | hash_original |
-|---|---|---|
-| [62811](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip) | 2017-02-24 | 772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5 |
-| [76554](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip) | 2018-07-30 | 1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58 |
-| [80957](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip) | 2019-02-28 | 280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f |
-| [84038](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=84038) | 2019-05-24 | 7a349acbce124fdb0846c371b3e68e5ff06781ead4b8713d6080eabf6737d082 |
-| 91518 | 2020-03-12 | ND — fonte herdada sem hash neste extrato |
-| [91518](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip) | 2020-03-12 | bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d |
-| [91518](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip) | 2020-03-12 | bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d |
-| [92528](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92528) | 2020-04-27 | ND — fonte herdada sem hash neste extrato |
-
-## SAPR4 — CIA. DE SANEAMENTO DO PARANÁ - SANEPAR
-
-CNPJ `76484013000145`; Saneamento; primeiro corte 2017-06-30; categoria **INDETERMINATE**. [Ficha com fontes](../research/b00s_four_variants_2014_2026/inputs/dossiers/76484013000145.json). Cortes cobertos: 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025. Maior peso potencial anual B00S: 10.0000%.
-
-Atividade declarada: EXPLORAÇÃO DE SERVIÇOS PÚBLICOS E DE SISTEMAS PRIVADOS DE ABASTECIMENTO DE ÁGUA, DE COETA, REMOÇÃO E DESTINAÇÃO FINAL DE EFLUENTES E RESÍDUOS SÓLIDOS DOMÉSTICOS E INDUSTRIAIS E SEUS SUBPRODUTOS.. Na avaliação inicial, 5/5 lucros atribuíveis positivos recuperados; 5/5 exercícios com payout divulgado. Esses fatos são favoráveis à investigação e não resolvem as seis dimensões.
-
-| dimensao | estado | prova_pendente |
-|---|---|---|
-| Durabilidade | INDETERMINATE | Comprovar posição competitiva, poder de preço, contratos/concessões e exposição regulatória histórica. |
-| Economia do capital | INDETERMINATE | Normalizar ciclo e risco; conciliar ROIC/retorno incremental ou ROE prudencial com capital requerido e comparação histórica. |
-| Resultados confiáveis | INDETERMINATE | Conciliar lucro recorrente, caixa, provisões e extraordinários nas notas conhecidas no corte. |
-| Resiliência financeira | INDETERMINATE | Cronograma de dívida, cobertura de juros, CAPEX obrigatório e riscos de concessão conhecidos no corte. |
-| Alocação e dividendos | INDETERMINATE | Separar manutenção/expansão, ajustar ações e demonstrar sustentabilidade das distribuições e retorno de reinvestimentos. |
-| Governança | INDETERMINATE | Revisar materialidade das partes relacionadas, direitos, conflitos e pareceres, sem controvérsias futuras. |
-
-Contraponto: não foi estabelecida rejeição estrutural com o extrato disponível; a ausência de revisão material suficiente impede aprovação. Atualizações anuais: 8, ligadas à avaliação inicial, sem repetir integralmente a ficha.
-
-| documento | recebido | hash_original |
-|---|---|---|
-| [34808](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip) | 2014-02-25 | ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224 |
-| [55764](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=55764) | 2016-05-06 | 21be79d408fcc08e9edafcee941f02a339c5664e96b3ad83afd84f27ed838d60 |
-| [60081](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2014.zip) | 2016-10-18 | b8795dba134754475a485c0f88b6542face6613bb418d261caa011d90e032f28 |
-| [61176](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=61176) | 2016-11-21 | ND — fonte herdada sem hash neste extrato |
-| 62684 | 2017-02-21 | ND — fonte herdada sem hash neste extrato |
-| [62684](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip) | 2017-02-21 | 772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5 |
-| [62684](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip) | 2017-02-21 | 772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5 |
-| [65973](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=65973) | 2017-05-24 | bfd0513d903cb3e5a43360dcb1673b3c9ac1f23396974726cca764df64d481cc |
-
-## SBSP3 — CIA SANEAMENTO BÁSICO ESTADO SÃO PAULO
-
-CNPJ `43776517000180`; Saneamento; primeiro corte 2014-06-30; categoria **INDETERMINATE**. [Ficha com fontes](../research/b00s_four_variants_2014_2026/inputs/dossiers/43776517000180.json). Cortes cobertos: 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023. Maior peso potencial anual B00S: 20.0000%.
-
-Atividade declarada: Abastecimento de água, esgotamento sanitário, drenagem e manejo de águas pluviais urbanas, limpeza urbana, manejo de resíduos sólidos e energia.. Na avaliação inicial, 5/5 lucros atribuíveis positivos recuperados; 4/5 exercícios com payout divulgado. Esses fatos são favoráveis à investigação e não resolvem as seis dimensões.
-
-| dimensao | estado | prova_pendente |
-|---|---|---|
-| Durabilidade | INDETERMINATE | Comprovar posição competitiva, poder de preço, contratos/concessões e exposição regulatória histórica. |
-| Economia do capital | INDETERMINATE | Normalizar ciclo e risco; conciliar ROIC/retorno incremental ou ROE prudencial com capital requerido e comparação histórica. |
-| Resultados confiáveis | INDETERMINATE | Conciliar lucro recorrente, caixa, provisões e extraordinários nas notas conhecidas no corte. |
-| Resiliência financeira | INDETERMINATE | Cronograma de dívida, cobertura de juros, CAPEX obrigatório e riscos de concessão conhecidos no corte. |
-| Alocação e dividendos | INDETERMINATE | Separar manutenção/expansão, ajustar ações e demonstrar sustentabilidade das distribuições e retorno de reinvestimentos. |
-| Governança | INDETERMINATE | Revisar materialidade das partes relacionadas, direitos, conflitos e pareceres, sem controvérsias futuras. |
-
-Contraponto: não foi estabelecida rejeição estrutural com o extrato disponível; a ausência de revisão material suficiente impede aprovação. Atualizações anuais: 9, ligadas à avaliação inicial, sem repetir integralmente a ficha.
-
-| documento | recebido | hash_original |
-|---|---|---|
-| [15327](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2011.zip) | 2012-03-23 | 858423fba40124d7a30abea4e70248f7251e1d2c792e9fcece5a57afd3115f34 |
-| [25223](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2012.zip) | 2013-03-25 | 3aff7a726d324d29924887eed45bbc58bc30b66cd9079bafe701d55efdfe0849 |
-| [26457](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=26457) | 2013-04-30 | cd48dd32bab6d410dc523a3de0d27ca3bb7ebd8c403e6fa1de647b1454fbd069 |
-| [28794](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=28794) | 2013-05-29 | ND — fonte herdada sem hash neste extrato |
-| 35848 | 2014-03-28 | ND — fonte herdada sem hash neste extrato |
-| [35848](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip) | 2014-03-28 | ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224 |
-| [35848](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip) | 2014-03-28 | ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224 |
-| [36919](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=36919) | 2014-05-07 | 2c746f2cf0636236972a06be1d4e15dabaac15281e88753505acae9385a76f79 |
-| [5881](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2010.zip) | 2011-03-29 | c6a9c95c2510e8a71bb583084492e9c52c3f423a3be56f1c5d2dd4f6960677ff |
-
-## TAEE4 — TRANSMISSORA ALIANÇA DE ENERGIA ELÉTRICA S.A.
-
-CNPJ `07859971000130`; Energia; primeiro corte 2021-06-30; categoria **INDETERMINATE**. [Ficha com fontes](../research/b00s_four_variants_2014_2026/inputs/dossiers/07859971000130.json). Cortes cobertos: 2021, 2022, 2023, 2024, 2025. Maior peso potencial anual B00S: 2.5000%.
-
-Atividade declarada: Transmissão de Energia Elétrica.. Na avaliação inicial, 5/5 lucros atribuíveis positivos recuperados; 4/5 exercícios com payout divulgado. Esses fatos são favoráveis à investigação e não resolvem as seis dimensões.
-
-| dimensao | estado | prova_pendente |
-|---|---|---|
-| Durabilidade | INDETERMINATE | Comprovar posição competitiva, poder de preço, contratos/concessões e exposição regulatória histórica. |
-| Economia do capital | INDETERMINATE | Normalizar ciclo e risco; conciliar ROIC/retorno incremental ou ROE prudencial com capital requerido e comparação histórica. |
-| Resultados confiáveis | INDETERMINATE | Conciliar lucro recorrente, caixa, provisões e extraordinários nas notas conhecidas no corte. |
-| Resiliência financeira | INDETERMINATE | Cronograma de dívida, cobertura de juros, CAPEX obrigatório e riscos de concessão conhecidos no corte. |
-| Alocação e dividendos | INDETERMINATE | Separar manutenção/expansão, ajustar ações e demonstrar sustentabilidade das distribuições e retorno de reinvestimentos. |
-| Governança | INDETERMINATE | Revisar materialidade das partes relacionadas, direitos, conflitos e pareceres, sem controvérsias futuras. |
-
-Contraponto: não foi estabelecida rejeição estrutural com o extrato disponível; a ausência de revisão material suficiente impede aprovação. Atualizações anuais: 4, ligadas à avaliação inicial, sem repetir integralmente a ficha.
-
-| documento | recebido | hash_original |
-|---|---|---|
-| 100641 | 2021-03-03 | ND — fonte herdada sem hash neste extrato |
-| [100641](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip) | 2021-03-03 | 8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e |
-| [100641](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip) | 2021-03-03 | 8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e |
-| [104614](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=104614) | 2021-05-19 | 17d2d911201f64dc8ff501104ce8fe343cd4ab3bdb41ea03eb6bfc2c4f6b80ab |
-| [105745](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=105745) | 2021-06-02 | ND — fonte herdada sem hash neste extrato |
-| [74904](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip) | 2018-05-17 | 1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58 |
-| [82172](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip) | 2019-04-11 | 280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f |
-| [91546](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip) | 2020-03-12 | bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d |
-| [93409](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=93409) | 2020-05-25 | 30f461d5d3b3cdbab84faac20c158c6a41cea1ee0223c40d988db9845e2c6a51 |
-
-## TBLE3 — TRACTEBEL ENERGIA SA
-
-CNPJ `02474103000119`; Energia; primeiro corte 2014-06-30; categoria **INDETERMINATE**. [Ficha com fontes](../research/b00s_four_variants_2014_2026/inputs/dossiers/02474103000119.json). Cortes cobertos: 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2024, 2025. Maior peso potencial anual B00S: 2.8571%.
-
-Atividade declarada: GERAÇÃO E COMERCIALIZAÇÃO DE ENERGIA ELÉTRICA. Na avaliação inicial, 5/5 lucros atribuíveis positivos recuperados; 4/5 exercícios com payout divulgado. Esses fatos são favoráveis à investigação e não resolvem as seis dimensões.
-
-| dimensao | estado | prova_pendente |
-|---|---|---|
-| Durabilidade | INDETERMINATE | Comprovar posição competitiva, poder de preço, contratos/concessões e exposição regulatória histórica. |
-| Economia do capital | INDETERMINATE | Normalizar ciclo e risco; conciliar ROIC/retorno incremental ou ROE prudencial com capital requerido e comparação histórica. |
-| Resultados confiáveis | INDETERMINATE | Conciliar lucro recorrente, caixa, provisões e extraordinários nas notas conhecidas no corte. |
-| Resiliência financeira | INDETERMINATE | Cronograma de dívida, cobertura de juros, CAPEX obrigatório e riscos de concessão conhecidos no corte. |
-| Alocação e dividendos | INDETERMINATE | Separar manutenção/expansão, ajustar ações e demonstrar sustentabilidade das distribuições e retorno de reinvestimentos. |
-| Governança | INDETERMINATE | Revisar materialidade das partes relacionadas, direitos, conflitos e pareceres, sem controvérsias futuras. |
-
-Contraponto: não foi estabelecida rejeição estrutural com o extrato disponível; a ausência de revisão material suficiente impede aprovação. Atualizações anuais: 10, ligadas à avaliação inicial, sem repetir integralmente a ficha.
-
-| documento | recebido | hash_original |
-|---|---|---|
-| [14145](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2011.zip) | 2012-02-07 | 858423fba40124d7a30abea4e70248f7251e1d2c792e9fcece5a57afd3115f34 |
-| [24153](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2012.zip) | 2013-02-07 | 3aff7a726d324d29924887eed45bbc58bc30b66cd9079bafe701d55efdfe0849 |
-| [26745](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=26745) | 2013-05-07 | cd48dd32bab6d410dc523a3de0d27ca3bb7ebd8c403e6fa1de647b1454fbd069 |
-| 34713 | 2014-02-20 | ND — fonte herdada sem hash neste extrato |
-| [34713](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip) | 2014-02-20 | ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224 |
-| [34713](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip) | 2014-02-20 | ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224 |
-| [36729](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=36729) | 2014-05-06 | ND — fonte herdada sem hash neste extrato |
-| [36731](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=36731) | 2014-05-06 | 2c746f2cf0636236972a06be1d4e15dabaac15281e88753505acae9385a76f79 |
-| [6427](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2010.zip) | 2011-04-08 | c6a9c95c2510e8a71bb583084492e9c52c3f423a3be56f1c5d2dd4f6960677ff |
-
-## TIET4 — AES TIETE ENERGIA SA
-
-CNPJ `04128563000110`; Energia; primeiro corte 2020-06-30; categoria **INDETERMINATE**. [Ficha com fontes](../research/b00s_four_variants_2014_2026/inputs/dossiers/04128563000110.json). Cortes cobertos: 2020. Maior peso potencial anual B00S: 2.2222%.
-
-Atividade declarada: Geração e Comercialização de Energia Elétrica. Na avaliação inicial, 5/5 lucros atribuíveis positivos recuperados; 4/5 exercícios com payout divulgado. Esses fatos são favoráveis à investigação e não resolvem as seis dimensões.
-
-| dimensao | estado | prova_pendente |
-|---|---|---|
-| Durabilidade | INDETERMINATE | Comprovar posição competitiva, poder de preço, contratos/concessões e exposição regulatória histórica. |
-| Economia do capital | INDETERMINATE | Normalizar ciclo e risco; conciliar ROIC/retorno incremental ou ROE prudencial com capital requerido e comparação histórica. |
-| Resultados confiáveis | INDETERMINATE | Conciliar lucro recorrente, caixa, provisões e extraordinários nas notas conhecidas no corte. |
-| Resiliência financeira | INDETERMINATE | Cronograma de dívida, cobertura de juros, CAPEX obrigatório e riscos de concessão conhecidos no corte. |
-| Alocação e dividendos | INDETERMINATE | Separar manutenção/expansão, ajustar ações e demonstrar sustentabilidade das distribuições e retorno de reinvestimentos. |
-| Governança | INDETERMINATE | Revisar materialidade das partes relacionadas, direitos, conflitos e pareceres, sem controvérsias futuras. |
-
-Contraponto: não foi estabelecida rejeição estrutural com o extrato disponível; a ausência de revisão material suficiente impede aprovação. Atualizações anuais: 0, ligadas à avaliação inicial, sem repetir integralmente a ficha.
-
-| documento | recebido | hash_original |
-|---|---|---|
-| [62808](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip) | 2017-02-24 | 772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5 |
-| [71802](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip) | 2018-02-27 | 1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58 |
-| [80910](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip) | 2019-02-26 | 280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f |
-| [81008](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=81008) | 2019-03-01 | ND — fonte herdada sem hash neste extrato |
-| [82728](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=82728) | 2019-05-06 | 7a349acbce124fdb0846c371b3e68e5ff06781ead4b8713d6080eabf6737d082 |
-| 91270 | 2020-02-29 | ND — fonte herdada sem hash neste extrato |
-| [91270](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip) | 2020-02-29 | bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d |
-| [91270](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip) | 2020-02-29 | bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d |
-| [92163](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92163) | 2020-04-01 | 30f461d5d3b3cdbab84faac20c158c6a41cea1ee0223c40d988db9845e2c6a51 |
-
-## TIMP3 — TIM PARTICIPAÇÕES SA
-
-CNPJ `02558115000121`; Telecom; primeiro corte 2014-06-30; categoria **INDETERMINATE**. [Ficha com fontes](../research/b00s_four_variants_2014_2026/inputs/dossiers/02558115000121.json). Cortes cobertos: 2014, 2015, 2016, 2017, 2018, 2019, 2020. Maior peso potencial anual B00S: 10.0000%.
-
-Atividade declarada: . Na avaliação inicial, 5/5 lucros atribuíveis positivos recuperados; 4/5 exercícios com payout divulgado. Esses fatos são favoráveis à investigação e não resolvem as seis dimensões.
-
-| dimensao | estado | prova_pendente |
-|---|---|---|
-| Durabilidade | INDETERMINATE | Comprovar posição competitiva, poder de preço, contratos/concessões e exposição regulatória histórica. |
-| Economia do capital | INDETERMINATE | Normalizar ciclo e risco; conciliar ROIC/retorno incremental ou ROE prudencial com capital requerido e comparação histórica. |
-| Resultados confiáveis | INDETERMINATE | Conciliar lucro recorrente, caixa, provisões e extraordinários nas notas conhecidas no corte. |
-| Resiliência financeira | INDETERMINATE | Cronograma de dívida, cobertura de juros, CAPEX obrigatório e riscos de concessão conhecidos no corte. |
-| Alocação e dividendos | INDETERMINATE | Separar manutenção/expansão, ajustar ações e demonstrar sustentabilidade das distribuições e retorno de reinvestimentos. |
-| Governança | INDETERMINATE | Revisar materialidade das partes relacionadas, direitos, conflitos e pareceres, sem controvérsias futuras. |
-
-Contraponto: não foi estabelecida rejeição estrutural com o extrato disponível; a ausência de revisão material suficiente impede aprovação. Atualizações anuais: 6, ligadas à avaliação inicial, sem repetir integralmente a ficha.
-
-| documento | recebido | hash_original |
-|---|---|---|
-| [14958](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2011.zip) | 2012-03-13 | 858423fba40124d7a30abea4e70248f7251e1d2c792e9fcece5a57afd3115f34 |
-| [24104](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2012.zip) | 2013-02-06 | 3aff7a726d324d29924887eed45bbc58bc30b66cd9079bafe701d55efdfe0849 |
-| [26258](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=26258) | 2013-04-23 | cd48dd32bab6d410dc523a3de0d27ca3bb7ebd8c403e6fa1de647b1454fbd069 |
-| [32941](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=32941) | 2013-11-14 | ND — fonte herdada sem hash neste extrato |
-| [34545](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip) | 2014-02-13 | ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224 |
-| [34545](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip) | 2014-02-13 | ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224 |
-| 34545 | 2014-02-13 | ND — fonte herdada sem hash neste extrato |
-| [38030](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=38030) | 2014-05-19 | 2c746f2cf0636236972a06be1d4e15dabaac15281e88753505acae9385a76f79 |
-| [5271](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2010.zip) | 2011-03-15 | c6a9c95c2510e8a71bb583084492e9c52c3f423a3be56f1c5d2dd4f6960677ff |
-
-## TRPL4 — CTEEP-CIA TRANSM ENERGIA ELÉTR. PAULISTA
-
-CNPJ `02998611000104`; Energia; primeiro corte 2014-06-30; categoria **INDETERMINATE**. [Ficha com fontes](../research/b00s_four_variants_2014_2026/inputs/dossiers/02998611000104.json). Cortes cobertos: 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024. Maior peso potencial anual B00S: 2.8571%.
-
-Atividade declarada: Transmissão de Energia Elétrica. Na avaliação inicial, 5/5 lucros atribuíveis positivos recuperados; 4/5 exercícios com payout divulgado. Esses fatos são favoráveis à investigação e não resolvem as seis dimensões.
-
-| dimensao | estado | prova_pendente |
-|---|---|---|
-| Durabilidade | INDETERMINATE | Comprovar posição competitiva, poder de preço, contratos/concessões e exposição regulatória histórica. |
-| Economia do capital | INDETERMINATE | Normalizar ciclo e risco; conciliar ROIC/retorno incremental ou ROE prudencial com capital requerido e comparação histórica. |
-| Resultados confiáveis | INDETERMINATE | Conciliar lucro recorrente, caixa, provisões e extraordinários nas notas conhecidas no corte. |
-| Resiliência financeira | INDETERMINATE | Cronograma de dívida, cobertura de juros, CAPEX obrigatório e riscos de concessão conhecidos no corte. |
-| Alocação e dividendos | INDETERMINATE | Separar manutenção/expansão, ajustar ações e demonstrar sustentabilidade das distribuições e retorno de reinvestimentos. |
-| Governança | INDETERMINATE | Revisar materialidade das partes relacionadas, direitos, conflitos e pareceres, sem controvérsias futuras. |
-
-Contraponto: não foi estabelecida rejeição estrutural com o extrato disponível; a ausência de revisão material suficiente impede aprovação. Atualizações anuais: 10, ligadas à avaliação inicial, sem repetir integralmente a ficha.
-
-| documento | recebido | hash_original |
-|---|---|---|
-| [15060](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2011.zip) | 2012-03-15 | 858423fba40124d7a30abea4e70248f7251e1d2c792e9fcece5a57afd3115f34 |
-| [16435](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=16435) | 2012-04-25 | 7ef45a3f8fa9d62f396cc11a692566e9d16137cc6d0ffccaaff8d8d507b4cad8 |
-| [24462](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2012.zip) | 2013-02-26 | 3aff7a726d324d29924887eed45bbc58bc30b66cd9079bafe701d55efdfe0849 |
-| [33447](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=33447) | 2013-12-09 | ND — fonte herdada sem hash neste extrato |
-| 34923 | 2014-02-27 | ND — fonte herdada sem hash neste extrato |
-| [34923](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip) | 2014-02-27 | ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224 |
-| [34923](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip) | 2014-02-27 | ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224 |
-| [36169](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=36169) | 2014-04-09 | 2c746f2cf0636236972a06be1d4e15dabaac15281e88753505acae9385a76f79 |
-| [6642](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2010.zip) | 2011-04-20 | c6a9c95c2510e8a71bb583084492e9c52c3f423a3be56f1c5d2dd4f6960677ff |
-
-## VIVT4 — TELEFONICA BRASIL S.A
-
-CNPJ `02558157000162`; Telecom; primeiro corte 2014-06-30; categoria **INDETERMINATE**. [Ficha com fontes](../research/b00s_four_variants_2014_2026/inputs/dossiers/02558157000162.json). Cortes cobertos: 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025. Maior peso potencial anual B00S: 20.0000%.
-
-Atividade declarada: Prestação de serviços públicos de telecomunicações. Na avaliação inicial, 5/5 lucros atribuíveis positivos recuperados; 4/5 exercícios com payout divulgado. Esses fatos são favoráveis à investigação e não resolvem as seis dimensões.
-
-| dimensao | estado | prova_pendente |
-|---|---|---|
-| Durabilidade | INDETERMINATE | Comprovar posição competitiva, poder de preço, contratos/concessões e exposição regulatória histórica. |
-| Economia do capital | INDETERMINATE | Normalizar ciclo e risco; conciliar ROIC/retorno incremental ou ROE prudencial com capital requerido e comparação histórica. |
-| Resultados confiáveis | INDETERMINATE | Conciliar lucro recorrente, caixa, provisões e extraordinários nas notas conhecidas no corte. |
-| Resiliência financeira | INDETERMINATE | Cronograma de dívida, cobertura de juros, CAPEX obrigatório e riscos de concessão conhecidos no corte. |
-| Alocação e dividendos | INDETERMINATE | Separar manutenção/expansão, ajustar ações e demonstrar sustentabilidade das distribuições e retorno de reinvestimentos. |
-| Governança | INDETERMINATE | Revisar materialidade das partes relacionadas, direitos, conflitos e pareceres, sem controvérsias futuras. |
-
-Contraponto: não foi estabelecida rejeição estrutural com o extrato disponível; a ausência de revisão material suficiente impede aprovação. Atualizações anuais: 11, ligadas à avaliação inicial, sem repetir integralmente a ficha.
-
-| documento | recebido | hash_original |
-|---|---|---|
-| [14351](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2011.zip) | 2012-02-16 | 858423fba40124d7a30abea4e70248f7251e1d2c792e9fcece5a57afd3115f34 |
-| [24426](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2012.zip) | 2013-02-25 | 3aff7a726d324d29924887eed45bbc58bc30b66cd9079bafe701d55efdfe0849 |
-| [24769](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=24769) | 2013-03-07 | cd48dd32bab6d410dc523a3de0d27ca3bb7ebd8c403e6fa1de647b1454fbd069 |
-| [30306](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=30306) | 2013-08-08 | ND — fonte herdada sem hash neste extrato |
-| [30425](http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=30425) | 2013-08-12 | 2c746f2cf0636236972a06be1d4e15dabaac15281e88753505acae9385a76f79 |
-| 34836 | 2014-02-26 | ND — fonte herdada sem hash neste extrato |
-| [34836](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip) | 2014-02-26 | ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224 |
-| [34836](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip) | 2014-02-26 | ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224 |
-| [4773](https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2010.zip) | 2011-02-16 | c6a9c95c2510e8a71bb583084492e9c52c3f423a3be56f1c5d2dd4f6960677ff |
+# Avaliações fundamentalistas e valuation — primeiro lote cronológico
+
+Corte: junho/2014. Cada decisão abaixo usa originais publicados até o corte, com páginas, data e hash. As seis dimensões são não compensatórias: SAT satisfatória; ND indeterminada; não há soma de pontos. Os fatos contrários são examinados mesmo nas aprovações. A VVAL tem decisão própria; aprovar qualidade não sana falta de preço por classe ou lucro comparável.
+
+As fichas futuras mantêm fatos contábeis coletados, mas **não representam avaliação econômica concluída**. O próximo corte é junho/2015. Reaproveitar esta tese exige examinar mudanças materiais conhecidas naquele corte; uma classificação de 2014 não é automaticamente válida até 2026. IRB/2019 não pode ser rejeitada por eventos de 2020.
+
+
+## ABCB4
+
+VQ: **QUALIFIED_SATISFACTORY**. VVAL: **INDETERMINATE**. [Ficha e atualizações](../research/b00s_four_variants_2014_2026/inputs/dossiers/28195667000106.json).
+
+A classe ON não tem preço próprio reconciliado no corte. Não substituir por PN nem aplicar preço PN ao capital total; a análise econômica abaixo é independente desta pendência de capitalização.
+
+**durability — SATISFACTORY.** Favorável: Especialização corporate/middle market desde1989/2005; carteira de crédito MAIS garantias prestadasR$16,902 bi em2013 e17,410 bi emmarço2014; rede internacional ABC e autonomia local. Garantias prestadas não são crédito garantido nem caixa. Contraponto: Franquia concentrada em empresas e comércio exterior; dez maiores devedores19,17% em2013→19,76% emmarço2014. Suporte do controlador não é garantia incondicional. Julgamento: Especialização e continuidade da carteira constituem vantagem comercial documentada, de alcance menor que os bancos de varejo. Fontes: [35855/g1653, p.2,3](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35855) (publicado 2014-03-28); [35855/g412, p.91,92](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35855) (publicado 2014-03-28); [35855/g1653, p.1](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35855) (publicado 2014-03-28); [36710/g193, p.26](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36710) (publicado 2014-05-06).
+
+**capital_economics — SATISFACTORY.** Favorável: ROE14,9% em 2013,14,3% em 2012,16,6% em 2011; AA–C96,8%; PDD2,0% da carteira. Ponte IFRS2013: NI265,417 mi, contra268,263 mi BRGAAP; sem pressupor equivalência. Mesmo retirando conservadoramente25,399 mi brutos de ganhos fiscais2013, resultado IFRS240,018 mi continua positivo com ROE auxiliar12,94% sobre PL IFRS médio1.854,659 mi. Trata-se de sensibilidade econômica, não novo limiar nem lucro normalizado certificado. Contraponto: Classificação de risco é modelo bancário, não garantia; maior cliente2,69%, vinte maiores27,81%. Queda da PDD e ganhos fiscais ajudaram2013; Q1 atrasos desde15dias51,516 mi versus39,161 mi e vinte maiores28,41% versus27,81% exigem acompanhamento; AA–C não elimina risco. Julgamento: Rentabilidade em vários anos junto de provisões, concentração e folga prudencial sustenta adequação econômica do banco especializado. Fontes: [35855/g1653, p.2](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35855) (publicado 2014-03-28); [35855/g412, p.91,92,71](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35855) (publicado 2014-03-28); [35855/g412, p.2,44,45,48](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35855) (publicado 2014-03-28); [36710/g192, p.1](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36710) (publicado 2014-05-06); [36710/g193, p.26,27,44](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36710) (publicado 2014-05-06).
+
+**earnings_reliability — SATISFACTORY.** Favorável: BRGAAP lucro268,263 mi2013,226,619 mi2012 e236 mi2011; reconciliação IFRS2013=265,417 mi explicita provisões+0,150 mi e câmbio−2,996 mi. Recuperações fiscais2013: FINSOCIAL7,447 mi bruto/4,122 mi líquido; IRRF11,699 mi bruto/6,476 mi líquido; anistia6,253 mi reconhecida. Q1IFRS73,084 mi/BRGAAP72,137 mi, ambos com reconciliação disponível. Contraponto: Ganhos fiscais e queda da provisão contribuíram2013. Q1PDD196,089 mi cai de199,747 mi: novas provisões25,768 mi, baixas29,396 mi; recuperações10,2 mi versus1,990 mi no1T13 ajudam o resultado. Atrasos>=15dias aumentam39,161→51,516 mi e não são NPL>90dias. Não adicionar de volta provisão17,443 mi2013 apenas por coexistir com ganhos. Julgamento: SATISFACTORY: ponte BRGAAP/IFRS e eventos tributários são verificáveis e não dominam o lucro, que persiste no1T14. Ganhos são segregados e créditos baixados permanecem custo econômico. Isto não libera valuation com classeON não reconciliada, nem converte lucro reportado em lucro normalizado certificado. Fontes: [35855/g1653, p.2](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35855) (publicado 2014-03-28); [35855/g412, p.91,92](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35855) (publicado 2014-03-28); [35855/g412, p.2,44,45,48](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35855) (publicado 2014-03-28); [36710/g192, p.1](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36710) (publicado 2014-05-06); [36710/g193, p.26,27,43,44](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36710) (publicado 2014-05-06).
+
+**financial_resilience — SATISFACTORY.** Favorável: Capital prudencial financeiro14,77% no fechamento; março14,12%, PR2.611,322 mi vs exigido2.033,725 mi. O total da dívida subordinada é1.038,768 mi no1T14; retirar integralmente essa dívida do PR2.611,322 mi deixa1.572,554 mi (aprox8,5055% do RWA implícito18.488,409 mi), sensibilidade conservadora e não índice CET1 publicado. A composição foi examinada, não confundida com capital contábil. Contraponto: Folga diminuiu; funding ligado ao controlador inclui depósitos258,396 mi e empréstimos167,707 mi. Folga cai679,968→577,597 mi; dívida subordinada não é capital principal. Depósitos predominantemente a prazo e vencimentos dentro de1ano tornam importante rolagem; redeABC não substitui caixa. Julgamento: SATISFACTORY considerando folga prudencial efetiva, instrumentos subordinados, concentração e vencimentos do funding, além de lucro e provisões. Não há prova de descumprimento ou risco de liquidez dominante no corte; tampouco se certifica um CET1 exato pela subtração auxiliar. Fontes: [35855/g412, p.39,71](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35855) (publicado 2014-03-28); [36710/g193, p.43](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36710) (publicado 2014-05-06); [35855/g412, p.38,39](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35855) (publicado 2014-03-28); [36710/g193, p.29,30,31,32,43](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36710) (publicado 2014-05-06).
+
+**capital_allocation — SATISFACTORY.** Favorável: JCP85,6 mi brutos vs lucro268,3 mi; opção de reinvestimento e aumento de capital37,065 mi autorizado em abril/2014. Contraponto: Carteira cresceu; aumento de capital por reinvestimento dilui quem não participa. Julgamento: SATISFACTORY: JCP85,6 mi brutos equivale a31,9% do lucroBRGAAP268,263 mi e35,25% mesmo após dedução conservadora de25,399 mi brutos de ganhos fiscais; maioria permanece financiando crédito. A opção de reinvestimento37,065 mi, homologada peloBacen08/04, e capital acima do mínimo suportam adequação, sem prova de captação para financiar distribuição excessiva. Fontes: [35855/g1653, p.2](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35855) (publicado 2014-03-28); [36710/g193, p.44](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36710) (publicado 2014-05-06); [35855/g412, p.44,45,48](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35855) (publicado 2014-03-28).
+
+**governance — SATISFACTORY.** Favorável: Risco separado sob VP, comitês auditoria/fiscal/remuneração; >=50% remuneração variável diferida em ações, sujeita a redução de lucro/erros. Nível2 e arbitragem são proteções complementares à supervisão e remuneração; controlador57,6%, administradores7,2% e tesouraria3,1% no1T14 são explicitados. Auditor sem serviços estranhos à auditoria noFY2013/Q1. Contraponto: Controle estrangeiro e partes relacionadas; ações de remuneração são PN. Julgamento: SATISFACTORY por controles descritos, transações relacionadas quantificadas a condições usuais e remuneração diferida condicionada ao resultado e à correção contábil. A norma prevê não entrega das ações ainda diferidas, não uma recuperação universal de remuneração já paga; Nível2 sozinho não seria suficiente. Fontes: [35855/g1653, p.3,4,5](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35855) (publicado 2014-03-28); [35855/g412, p.39,40,41](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35855) (publicado 2014-03-28); [35855/g1653, p.1,2](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35855) (publicado 2014-03-28); [36710/g192, p.1,2](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36710) (publicado 2014-05-06).
+
+Fontes valuation: [35855/g1653, p.2](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35855); [36710/g193, p.44](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36710).
+
+## BBAS3
+
+VQ: **INDETERMINATE**. VVAL: **INDETERMINATE**. [Ficha e atualizações](../research/b00s_four_variants_2014_2026/inputs/dossiers/00000000000191.json).
+
+IPO BB Seguridade retém controle: tratamento IFRS no patrimônio diverge do ganho BRGAAP. A série mecânica usa individual BRGAAP2013 com consolidados anteriores; falta ponte do ganho Visanet2009 e do lucro atribuível homogêneo. Não aceitar P/L4,85 mecânico.
+
+P/L calculado: 4.8474; só é admissível com perímetro e itens não recorrentes resolvidos.
+
+**durability — SATISFACTORY.** Favorável: Depósitos461 bi e crédito565 bi; franquia nacional varejo/agronegócio e seguros. Contraponto: Crédito agro cresce34,7%; exposição às políticas públicas. Julgamento: Escala e funding documentados sustentam duração da franquia; controle estatal não é veto automático. Fontes: [35587/g1653, p.4,22](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35587) (publicado 2014-03-27).
+
+**capital_economics — INDETERMINATE.** Favorável: ROE IFRS15,9% em2013 vs17,6%2012 e inadimplência >90 dias2,0%. Contraponto: ROE BRGAAP22,9% incorpora tratamento distinto do IPO; expansão agro rápida altera risco. Julgamento: Retorno positivo, mas contribuição recorrente homogênea e custo do crescimento precisam de ponte antes de aprovação econômica. Pendente: ROE recorrente e provisões da carteira expandida em perímetro uniforme. Fontes: [35587/g1653, p.4,19,22](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35587) (publicado 2014-03-27).
+
+**earnings_reliability — SATISFACTORY.** Favorável: Notas explicam IPO com retenção66,25% e tratamento patrimonial IFRS; dois padrões identificados. Contraponto: Lucratividade BRGAAP não pode representar diretamente lucro econômico recorrente; resultado de IPO material. Julgamento: Transação e divergência estão explicadas, permitindo leitura da rentabilidade operacional sem chamar o pico BRGAAP de recorrente. Fontes: [35587/g412, p.35,36](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35587) (publicado 2014-03-27); [35587/g1653, p.4,19](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35587) (publicado 2014-03-27).
+
+**financial_resilience — SATISFACTORY.** Favorável: Capital principal8,24%, total14,53%; margem sobre exigido28,736 bi, sob normas vigentes. Contraponto: Principal caiu de9,08% e capital contém instrumentos híbridos/subordinados sujeitos a decaimento. Julgamento: Folgas atuais comprovam solvência regulatória, acompanhadas da composição; não contabilizar apoio estatal futuro. Fontes: [35587/g412, p.109,110](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35587) (publicado 2014-03-27).
+
+**capital_allocation — INDETERMINATE.** Favorável: IPO monetiza parte de seguros preservando66,25%; crescimento de crédito e capital. Contraponto: Crescimento34,7% no agro e mudança de capital; rentabilidade incremental não separada. Julgamento: Operação corporativa tem racional demonstrado, mas efeitos incrementais de expansão de crédito e distribuição ainda não estão conciliados. Pendente: Retorno ajustado ao risco do capital direcionado à expansão. Fontes: [35587/g412, p.35,36,110](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35587) (publicado 2014-03-27); [35587/g1653, p.22](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35587) (publicado 2014-03-27).
+
+**governance — INDETERMINATE.** Favorável: Segregação de negócio/risco e comitês explicitada. Contraponto: Controlador União influencia crédito direcionado e capital híbrido; existência de comitê não resolve condições econômicas destas relações. Julgamento: Controle estatal não implica reprovação; contratos e contrapartidas materiais ainda exigem avaliação para classificar governança como satisfatória. Pendente: Comutatividade das operações materiais com controlador e proteção dos minoritários. Fontes: [35587/g412, p.109,110](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35587) (publicado 2014-03-27).
+
+Fontes valuation: [35587/g412, p.35,36](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35587); [35587/g1653, p.4,19](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35587).
+
+## BBDC4
+
+VQ: **QUALIFIED_SATISFACTORY**. VVAL: **PASS_MATURE**. [Ficha e atualizações](../research/b00s_four_variants_2014_2026/inputs/dossiers/60746948000112.json).
+
+Limites conservadores da série atribuível consolidada IFRS, sem substituir o lucro por BRGAAP gerencial. A publicação original de08/02/2012 identifica os eventos no GRUPO BRGAAP; a DFP IFRS confirma natureza dos créditos/BERJ e resultados por ano. Deduzem-se dos lucros IFRS os ganhos positivos identificados em valor integral de grupo, mesmo onde a diferença de reconhecimento ou tributação pode superestimar a dedução. O crédito fiscal2.911,634 mi e a provisão fiscal2.911,634 mi têm contrapartida de mesmo valor expressamente documentada; não se adicionam provisões de crédito, impairment ou perdas em títulos. Em2011 são subtraídos também CSLL anterior226,711 mi, CETIP179,028 mi, Ibi55,356 mi, BERJ405,983 mi, reversão fiscal2.125,714 mi e TODO o residual favorável IFRS de IR151,446 mi, com sobreposição possível apenas para baixo.2009 e2013 ficam ilimitados: não é necessário certificar sua normalização para a ordem estatística. Os pisos de2010/11/12 garantem mediana real>=R$9.050,787372 mi; capital135.242,824004 mi dá P/L máximo14,942658. O limite15 permanece, sem P/L pontual nem prêmio por reinvestimento. Margem para o limite é pequena e esta aprovação depende explicitamente da ponte de eventos documentada, sujeita a reabertura se surgir evento positivo material não coberto.
+
+P/L certificado por intervalo: [0.0000; 14.9427]. Lucro/P/L pontual permanecem ND; aprovação somente se todo o intervalo cabe no limite 15.
+
+**durability — SATISFACTORY.** Favorável: 26.4m current-account customers,50.897m savings accounts,59,307 service points; deposit and insurance cross-selling scale, documented long operating history. Contraponto: Banking competition, credit cyclicality and concentration in Brazilian borrowers remain; size and70years alone do not establish quality. Julgamento: National deposit/insurance franchise and diversified recurring client services support durable economics. Fontes: [35965/g1653, p.1,3,4,5](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35965) (publicado 2014-03-31).
+
+**capital_economics — SATISFACTORY.** Favorável: BRGAAP2013 ROE17.7%; IFRS attributable NI12.395920b over average attributable equity71.511b gives17.33%. Securities realized netloss3.670589b must be assessed together with tax/provision releases, not selectively add back losses while keeping gains.1Q14 BRGAAP profit3.443b/ROE20.3%. Contraponto: 2011BERJ,2012Serasa and2013tax/insurance releases mean exact cycle-normalized metrics need bridges; the VVAL median remains blocked separately.1Q14 course-abnormal share rises6.5%→6.9%; do not annualize quarterly ROE or impose industrial ROIC. Julgamento: Profitable bank/insurance operations, credit-loss absorption and capital buffers support satisfactory economics; extraordinary gains are examined separately rather than treating headline ROE as recurring. Fontes: [35965/g412, p.5,6,7,40,41,42,69,70,71,85,88,117](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35965) (publicado 2014-03-31); [35965/g1653, p.2](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35965) (publicado 2014-03-31); [36377/g192, p.1](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36377) (publicado 2014-04-24); [36377/g193, p.43,44](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36377) (publicado 2014-04-24).
+
+**earnings_reliability — SATISFACTORY.** Favorável: IFRS2013 loans323.979568b, impaired29.798632b(9.2%,versus10.0%2012), allowance19.858234b; renegotiated10.190180b with67.0% allowance. Regulatory consolidated1Q14 allowance21.406910b versus minimum17.399403b. Contraponto: IFRS impaired9.2%, BRGAAP consolidated course-abnormal6.9%, and individual course-abnormal5.7% are different definitions/perimeters and cannot be substituted for NPL90. Tax assets depend on taxable profit; material one-offs require valuation adjustments. Julgamento: Detailed loss, renegotiation, valuation, capital and nonrecurring disclosures support credible earnings without assuming all reported profit is recurring. Fontes: [35965/g412, p.40,41,42,43,88,89,90](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35965) (publicado 2014-03-31); [36377/g193, p.1,40,43,44](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36377) (publicado 2014-04-24).
+
+**financial_resilience — SATISFACTORY.** Favorável: DFP financial conglomerate total capital16.6%,Tier1/common12.3% versus requirements11%/5.5%/4.5%.1Q14 total15.7%, common11.9%. Regulatory consolidated reserve surplus4.007507b atMar2014. Contraponto: Capital buffers declined after new prudential deductions; subordinated debt supports total capital. Tier1 is examined separately; reserve excess is not proof that all losses are known or that balance-sheet liquidity is risk free. Julgamento: Capital is above requirements actually effective at the cutoff and portfolio loss provisions are evidenced; no generic industrial debt or CFO test is applied. Fontes: [35965/g412, p.59,69,70,71](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35965) (publicado 2014-03-31); [36377/g193, p.43,44,73](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36377) (publicado 2014-04-24).
+
+**capital_allocation — SATISFACTORY.** Favorável: JCP/dividends4.077908b versus IFRS attributable12.395920b;2013 sharebonus10% has no economic dilution among existing holders and per-sharecomparatives adjusted; national technology/service investment and growing deposits support organic franchise. Contraponto: Investment spending is not itself proof of high incremental return;2011BERJ and2014Odontoprev control change require dated follow-up. Do not count bonus as organic EPS growth or payout as a quality score. Julgamento: Moderate recurring distribution alongside retained earnings, funded client growth and maintained prudential capital supports sustainable bank capital policy. Fontes: [35965/g1653, p.2,3,4](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35965) (publicado 2014-03-31); [35965/g412, p.6,7,92,138](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35965) (publicado 2014-03-31).
+
+**governance — SATISFACTORY.** Favorável: Fiscal board includes preferred-share representative; board committees include audit/integratedrisk; external nonaudit services below5% threshold. IFRS related-party balances and terms are disclosed, with controller treasury funding distinguishable from loans to insiders. Contraponto: Control is concentrated in CidadeDeDeus/Fundação; ON/PN economic rights differ, and management assertion of market terms is not independent certification. Nível1 is not NovoMercado and does not establish equalvoting rights. Julgamento: Documented boards, minority fiscal representation, internal controls, auditor independence and related-party disclosure support satisfactory governance without converting listing level into automatic approval. Fontes: [35965/g1653, p.14](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35965) (publicado 2014-03-31); [35965/g412, p.133,134,180](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35965) (publicado 2014-03-31).
+
+Fontes valuation: [bradesco_2011_publication/g0, p.25,28,29](https://www.pefran.com.br/empresas2012/banco_bradesco/legal/%5B22468%5D-banco_bradesco_legal_bal_anual_31-12-11_dc_doesp_jcrj/internet/arte/%5B22468%5D-BANCO_BRADESCO_LEGAL_BAL_ANUAL_31-12-11_DOESP_DC_JCRJ.pdf); [15827/g412, p.8,81,125](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=15827); [25736/g412, p.82,83,128,129](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=25736); [35965/g412, p.85,88,117](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35965).
+
+## BRSR6
+
+VQ: **INDETERMINATE**. VVAL: **INDETERMINATE**. [Ficha e atualizações](../research/b00s_four_variants_2014_2026/inputs/dossiers/92702067000196.json).
+
+Capital por classes ON/PNA/PNB não reconciliado com preços próprios e FY2009 IFRS de transição sem lucro comparável; não multiplicar PNB pelo capital total.
+
+**durability — SATISFACTORY.** Favorável: Convênio2012 assegura folha de servidores por cinco anos e canal consignado; rede regional. Contraponto: Concentração Rio Grande do Sul e no controlador estatal. Julgamento: Exclusividade contratual comprova franquia persistente no corte; não se extrapola além de2017. Fontes: [35198/g412, p.144](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35198) (publicado 2014-03-14).
+
+**capital_economics — INDETERMINATE.** Favorável: Lucro IFRS749 mi em2013; rentabilidade recorrente anualizada11,1% no1T14. Contraponto: Margem financeira2013 caiu312,4 mi; retorno1T14 pressionado mesmo após extraordinários. Julgamento: A franquia dá lucro, mas compressão de margem e projetos novos ainda não demonstram retorno adequado ao capital ao longo do ciclo. Pendente: Separar efeito transitório e estrutural da queda de margem/retorno. Fontes: [35198/g1653, p.2,3](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35198) (publicado 2014-03-14); [37382/g192, p.2](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37382) (publicado 2014-05-13).
+
+**earnings_reliability — SATISFACTORY.** Favorável: Ponte BRGAAP791,6→IFRS749 mi; 1T14 contábil77,8→recorrente137,9 mi com60,1 mi de PAI/migração previdenciária líquidos. Contraponto: Recorrente é gerencial e não elimina custo econômico das reestruturações. Julgamento: Diferenças são identificadas e quantificadas; conservar os custos no lucro reportado e não confundir os dois padrões. Fontes: [35198/g1653, p.2,3](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35198) (publicado 2014-03-14); [37382/g192, p.2](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37382) (publicado 2014-05-13).
+
+**financial_resilience — SATISFACTORY.** Favorável: Capital total18,34%, principal13,99%, vs mínimos11%/4,5%; PL1T14 R$5,159 bi. Contraponto: Dívida subordinada integra capital e definições mudaram em outubro2013; comparação antiga não é homogênea. Julgamento: Folga prudencial ampla e patrimônio após despesa extraordinária sustentam solvência do corte, sem presumir apoio estatal. Fontes: [35198/g412, p.143](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35198) (publicado 2014-03-14); [37382/g192, p.2,3](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37382) (publicado 2014-05-13).
+
+**capital_allocation — INDETERMINATE.** Favorável: Reestruturação previdenciária e PAI explicitados; novos negócios de serviços. Contraponto: 1T14 JCP66,1 mi consome a maior parte do lucro contábil77,8 mi; benefício futuro do PAI ainda não demonstrado. Julgamento: Capital permite absorver despesas, porém sustentabilidade do investimento e distribuição sob margens menores exige acompanhamento. Pendente: Retorno efetivo da reestruturação e cobertura das distribuições no ciclo. Fontes: [37382/g192, p.2](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37382) (publicado 2014-05-13).
+
+**governance — INDETERMINATE.** Favorável: Contratos com Estado discriminam obrigações e contrapartidas; exclusividade de folha tem valor. Contraponto: Arrecadação, SIAC e outros serviços ao controlador não remunerados; créditos FCVS734,722 mi. Julgamento: A reciprocidade impede chamar serviços gratuitos de abuso por si só; benefício líquido/condições da troca não está quantificado para aprovação. Pendente: Comutatividade econômica do pacote de serviços ao controlador. Fontes: [35198/g412, p.143,144](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35198) (publicado 2014-03-14).
+
+Fontes valuation: [35198/g1653, p.2,3](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35198).
+
+## CMIG4
+
+VQ: **INDETERMINATE**. VVAL: **INDETERMINATE**. [Ficha e atualizações](../research/b00s_four_variants_2014_2026/inputs/dossiers/17155730000164.json).
+
+CRC2012 gerou2.382,862 mi antes de retenção403,162 mi; 2013 tem atualizaçãoCRC43,547 mi, reversãoITCD e alienações. É necessário conciliar efeitos líquidos atribuíveis, sem deduzir ganhos brutos de forma assimétrica ou aceitar P/L7,21 mecânico.
+
+P/L calculado: 7.2138; só é admissível com perímetro e itens não recorrentes resolvidos.
+
+**durability — INDETERMINATE.** Favorável: Concessões de geração, transmissão e distribuição diversificadas. Contraponto: Jaguara venceu2013 e opera sob liminar; São Simão vencejan2015 e Miranda2016. Julgamento: Franquia é relevante, mas direitos materiais contestados impedem concluir duração contratual satisfatória para o conjunto neste corte. Pendente: Desfecho/condições econômicas das renovações relevantes, sem usar decisões futuras. Fontes: [36107/g412, p.42,47](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36107) (publicado 2014-04-04).
+
+**capital_economics — INDETERMINATE.** Favorável: Lucro atribuível2013 R$3,104 bi e ativos existentes. Contraponto: CRC e outros ganhos distorcem retorno; concessões relevantes em disputa. Julgamento: Lucro positivo não resolve remuneração econômica do capital sob as condições futuras já contestadas. Pendente: Retorno recorrente e capital após renovação/indenização. Fontes: [36107/g412, p.47,60,61,114](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36107) (publicado 2014-04-04).
+
+**earnings_reliability — SATISFACTORY.** Favorável: NotasCRC e receitas financeiras discriminam eventos; retenção e disputa não ocultadas. Contraponto: Lucro contábil inclui eventos extraordinários e diferença entre controladora/consolidado. Julgamento: Há informação para separar os efeitos materiais; avaliação de confiabilidade não equivale a declarar encerrada a normalização dos cinco anos. Fontes: [36107/g412, p.60,61,114](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36107) (publicado 2014-04-04).
+
+**financial_resilience — INDETERMINATE.** Favorável: Ativos de concessão indenizáveis declarados, dívidas/obrigações publicadas. Contraponto: Indenização contestada não é caixa disponível; vencimentos de concessão coincidem com compromissos. Julgamento: Necessário casar caixa, dívida e CAPEX à hipótese adversa de renovação, sem contar crédito discutido como liquidez. Pendente: Cobertura financeira sob os vencimentos contratualmente conhecidos. Fontes: [36107/g412, p.42,47,128](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36107) (publicado 2014-04-04).
+
+**capital_allocation — INDETERMINATE.** Favorável: Liquidação CRC monetiza recebível; carteira de concessões e investimentos. Contraponto: Recebimento extraordinário e distribuições não provam retorno de novos projetos; risco de renovação. Julgamento: Disciplina de reinvestimento requer separar caixa da liquidação e capacidade recorrente. Pendente: Retorno/cobertura dos compromissos com lucro e caixa recorrentes. Fontes: [36107/g412, p.60,61,128](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36107) (publicado 2014-04-04).
+
+**governance — INDETERMINATE.** Favorável: Nota28 quantifica transações com Light, Taesa e Estado; CRC divulgado. Contraponto: Controlador estadual contraparte da liquidação e retençãoCRC litigada. Julgamento: Não reprovar pelo controle estatal; falta concluir a comutatividade econômica material da liquidação/retenção e respectivas proteções. Pendente: Condições da relação com controlador e solução do valor retido. Fontes: [36107/g412, p.60,61,115](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36107) (publicado 2014-04-04).
+
+Fontes valuation: [36107/g412, p.60,61,114](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36107); [36107/g1653, p.17](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36107).
+
+## COCE5
+
+VQ: **INDETERMINATE**. VVAL: **INDETERMINATE**. [Ficha e atualizações](../research/b00s_four_variants_2014_2026/inputs/dossiers/07047251000170.json).
+
+Preço próprio/capital das classes não reconciliado. Queda2013 combina reset tarifário, custos e itens identificados; não aplicar preçoPNA a todas as classes nem chamar toda a queda de extraordinária.
+
+**durability — SATISFACTORY.** Favorável: Distribuição regulada no Ceará com investimento líquido258 mi em2013. Contraponto: Concentração geográfica e revisão tarifária adversa. Julgamento: Rede regulada constitui franquia durável; benefício não assegura margem invariável. Fontes: [34371/g1653, p.4,9](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34371) (publicado 2014-02-06).
+
+**capital_economics — INDETERMINATE.** Favorável: Lucro156,556 mi ainda positivo após reset tarifário. Contraponto: Lucro−62,7%; EBITDA mesmo excluindo46 mi de itens identificados cai31,8%. Julgamento: Queda tem componente estrutural de remuneração regulatória; retorno adequado ao capital após reset ainda não demonstrado. Pendente: Retorno efetivo do novo ciclo tarifário. Fontes: [34371/g1653, p.4,6,7](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34371) (publicado 2014-02-06).
+
+**earnings_reliability — SATISFACTORY.** Favorável: Itens33 mi estoque e13 mi baixas segregados; CPC33 explicita efeitos DRE e OCI. Contraponto: BenefíciosSUDENE e contencioso fiscal interferem na carga; não somar OCI ao lucro. Julgamento: Documentos permitem distinguir custos, ajustes e tributação; ganhos atuariais não tratados como caixa. Fontes: [34371/g1653, p.2,6,7](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34371) (publicado 2014-02-06); [34371/g412, p.72,73](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34371) (publicado 2014-02-06).
+
+**financial_resilience — INDETERMINATE.** Favorável: Cobertura juros5,79x e dívida/EBITDA2,33x. Contraponto: Caixa107,31 mi vs215,03 mi; dívida líquida827,534 mi; investimento líquido+40,9%. Julgamento: Serviço corrente parece coberto, mas menor caixa junto a CAPEX maior requer reconciliação dos vencimentos e crédito comprometido. Pendente: Calendário de vencimentos/custeioCAPEX após reset. Fontes: [34371/g1653, p.8,9](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34371) (publicado 2014-02-06).
+
+**capital_allocation — INDETERMINATE.** Favorável: Investimentos líquidos258 mi ampliam/manutêm rede. Contraponto: Aumento40,9% ocorre com redução forte de retorno; divisão manutenção/expansão não demonstrada nesta avaliação. Julgamento: Investimento necessário à concessão não implica criação de valor incremental comprovada. Pendente: Separação manutenção/expansão e retorno regulatório efetivo. Fontes: [34371/g1653, p.7,9](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34371) (publicado 2014-02-06).
+
+**governance — INDETERMINATE.** Favorável: Auditor somente presta serviços de auditoria; administração e conselho identificados. Contraponto: ControleEndesa/Enel e classes preferenciais exigem análise de transações/proteções; nomes do conselho não bastam. Julgamento: Independência do auditor é evidência favorável, porém não prova tratamento dos conflitos relevantes. Pendente: Condições econômicas das operações relacionadas e proteção das classes. Fontes: [34371/g1653, p.10](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34371) (publicado 2014-02-06).
+
+Fontes valuation: [34371/g1653, p.4,6,7,8](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34371).
+
+## CPFE3
+
+VQ: **INDETERMINATE**. VVAL: **PASS_MATURE**. [Ficha e atualizações](../research/b00s_four_variants_2014_2026/inputs/dossiers/02429144000193.json).
+
+A nota2.9 (inclusive tabela em imagem na página14, examinada visualmente) concilia NI atribuível2012 de1.225,924m para1.176,252m:49,672m IAS19, já refletido no extrato. IFRS11 não altera NI atribuível. O lucro consolidado total1.207,062m não substitui o atribuível. A queda2013 resulta de encargos e depreciação de ativos em operação, não é eliminada como extraordinário. A mediana2009–13 usa o lucro publicado e não extrapola o retorno dos projetos. Classes/preçoFRE permanecem reconciliados.
+
+P/L calculado: 10.7419; só é admissível com perímetro e itens não recorrentes resolvidos.
+
+**durability — SATISFACTORY.** Favorável: 7,4milhões de clientes,239.835km de distribuição, oito distribuidoras; geração diversificada. Contraponto: Tarifas e custos de compra dependem da regulação; entrada dos projetos aumenta exigência de caixa. Julgamento: Concessões e rede dão recorrência e barreira de entrada comprovada. Fontes: [35644/g1653, p.1,7,10,11](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35644) (publicado 2014-03-27).
+
+**capital_economics — INDETERMINATE.** Favorável: EBITDA2013 3.545,873m e novos ativos de geração em operação. Contraponto: NI atribuível937,419m e despesa financeira crescente;1T14 NIcontroladora176,496m contra405,587m. Julgamento: Não substituir retorno do capital por EBITDA: é necessário conciliar resultado dos novos projetos com dívida/capital investido. Pendente: Retorno incremental da CPFL Renováveis após custo financeiro e capital total. Fontes: [35644/g1653, p.9,10](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35644) (publicado 2014-03-27); [37339/g192, p.1,5,6](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37339) (publicado 2014-05-12).
+
+**earnings_reliability — SATISFACTORY.** Favorável: A ponteIFRS11/IAS19 separa minoritários e49,672m de impactoNI; resultado2013 explicado por juros e depreciação. Contraponto: CDE, CVA e ressarcimentos não equivalem automaticamente a caixa; EBITDA é medida gerencial. Julgamento: Mudanças publicadas permitem identificar lucro atribuível e diferenças de caixa sem tratar lucro total como lucro do acionista. Fontes: [35644/g412, p.13,14,15,16](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35644) (publicado 2014-03-27); [35644/g1653, p.9,10](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35644) (publicado 2014-03-27); [37339/g192, p.3,4](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37339) (publicado 2014-05-12).
+
+**financial_resilience — INDETERMINATE.** Favorável: Caixa4.206m, prazo médio4,14anos; prefunding18–24meses e custo8,4%. Contraponto: Dívida líquida12.499m; dividendos931m e CAPEX1.735m; lucrotrimestral cai57%. Julgamento: O plano tem financiamento, mas há alerta material de compressão e desembolsos; não inferir capacidade irrestrita de caixa pela receitaCDE. Pendente: Folga de covenants/caixa após obrigações de2014 e recebimentos regulatórios efetivos. Fontes: [35644/g1653, p.10](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35644) (publicado 2014-03-27); [37339/g192, p.5,6](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37339) (publicado 2014-05-12).
+
+**capital_allocation — INDETERMINATE.** Favorável: CAPEX discriminado845mdistribuição/838mgeração/52moutros. Contraponto: Distribuição proposta próxima da totalidade do NI ao mesmo tempo queexpansão é financiada com dívida. Julgamento: Não reprovar payout isolado; retorno dos novos ativos e financiamento ainda não demonstram criação adequada de valor por ação. Pendente: Efeito por ação dos projetos, financiamento e distribuição em cenário do custo de energia já conhecido. Fontes: [35644/g1653, p.10,11](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35644) (publicado 2014-03-27).
+
+**governance — SATISFACTORY.** Favorável: Conselho fiscal permanente e comitê de partes relacionadas; NovoMercado/ADRsIII; funções de auditcommittee explicitadas. Contraponto: Controladores e fornecedores demandam fiscalização de contratos relacionados. Julgamento: Estrutura, alçadas e prestação de contas satisfatórias, sem prova de abuso material no corte. Fontes: [35644/g1653, p.11](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35644) (publicado 2014-03-27).
+
+Fontes valuation: [35644/g412, p.10,13,14,16](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35644); [35644/g1653, p.9,10,11](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35644).
+
+## CPLE6
+
+VQ: **INDETERMINATE**. VVAL: **PASS_MATURE**. [Ficha e atualizações](../research/b00s_four_variants_2014_2026/inputs/dossiers/76483817000120.json).
+
+Nota3.1.3 reconcilia2012: lucro total726,520m sem impacto deIFRS11; nota3.1.4 mantém lucrocontroladora700,688m e aloca ajusteIAS19 aOCI. O extrato usa lucrocontroladora/atribuível, não726,520m. Mudança con/ind de2013 é apresentação da participação dos acionistas da mesma holding. Mediana histórica não converte receita regulatória ou capitalização em crescimento perpétuo.
+
+P/L calculado: 7.0071; só é admissível com perímetro e itens não recorrentes resolvidos.
+
+**durability — SATISFACTORY.** Favorável: Distribuição no Paraná, geração e transmissão reguladas, contratos e concessões descritos. Contraponto: Vencimentos e renovação sobLei12.783 afetam remuneração de ativos antigos. Julgamento: Rede física e serviços essenciais sustentam recorrência; examinar vencimentos sem supor renovação automática. Fontes: [35261/g412, p.1](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35261) (publicado 2014-03-17); [35261/g1653, p.14,15](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35261) (publicado 2014-03-17).
+
+**capital_economics — INDETERMINATE.** Favorável: EBITDA2013 1.829,396m;NIatribuível1.072,560m. Contraponto: PLgrupo12.928,752m; lucro anterior depende de efeitos tarifários/ativos financeiros; retorno incremental não é igual ao crescimento51,6%NIgrupo. Julgamento: Há lucro recorrente, mas rendimento adequado do capital dos projetos e concessões renovadas precisa ser separado do ciclo regulatório. Pendente: Retorno após impostos/capital médio dos projetos e nova base de concessões. Fontes: [35261/g1653, p.5,29](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35261) (publicado 2014-03-17).
+
+**earnings_reliability — SATISFACTORY.** Favorável: Reapresentação reconcilia holding e consolidado, NI2012 intacto e ajustes no patrimônio. Contraponto: Ativos financeiros de concessão são estimativas, não recebimentos realizados. Julgamento: Resultado atribuível identificado e impactos contábeis separados; não usar lucro consolidado com minoritários. Fontes: [35261/g412, p.5,6](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35261) (publicado 2014-03-17); [35261/g1653, p.29](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35261) (publicado 2014-03-17).
+
+**financial_resilience — INDETERMINATE.** Favorável: Financiamentos de curto e longo prazo discriminados e dividendos/JCP deliberados. Contraponto: Expansão e transição de concessões exigem cruzar caixa comprometido, vencimentos e condições. Julgamento: A leitura financeira não revelou insolvência, mas falta demonstrar folga após desembolsos comprometidos no novo regime. Pendente: Folga contratual/liquidez para CAPEX já aprovado e renovação das concessões. Fontes: [35261/g1653, p.29,30](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35261) (publicado 2014-03-17).
+
+**capital_allocation — INDETERMINATE.** Favorável: Novas subsidiárias de participações e renováveis organizam projetos; política de distribuição é pública. Contraponto: Expansão de capital e eventual modicidade tarifária podem limitar retorno aos acionistas. Julgamento: Não equiparar aumento de investimento a criação de valor; exige análise de retorno e competência das distribuições. Pendente: Retorno dos projetos por ação e financiamento em regime tarifário novo. Fontes: [35261/g1653, p.1,3,30](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35261) (publicado 2014-03-17).
+
+**governance — INDETERMINATE.** Favorável: Controlador e transações comEstado identificados. Contraponto: CRC a receber do Estado do Paraná e transferência de crédito a Copel constam das notas. Julgamento: Conflito material com controlador requer verificar condições de recebimento e proteção do minoritário; não é rejeição por ser estatal. Pendente: Condições econômicas e recebimento dos créditosCRC com parte relacionada. Fontes: [35261/g412, p.24,34](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35261) (publicado 2014-03-17).
+
+Fontes valuation: [35261/g412, p.2,3,5,6](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35261); [35261/g1653, p.5,29,30](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35261).
+
+## CSMG3
+
+VQ: **INDETERMINATE**. VVAL: **PASS_MATURE**. [Ficha e atualizações](../research/b00s_four_variants_2014_2026/inputs/dossiers/17281106000103.json).
+
+Ponte documental concluída por limites conservadores, mantendo a mediana dos cinco exercícios 2009–2013. O pico de 2010 contém reversão atuarial de R$313,073 mi; não é lucro recorrente certificado. Nos pisos são retirados integralmente os ganhos identificados, sem presumir crédito de IR/CSLL e sem adicionar despesas. As reversões usadas são CONSOLIDADAS (2011 R$29,691 mi; 2012 R$60,839 mi). Em 2012 retiram-se também PRODES7,2 mi, correção fiscal7,5 mi e PAT12 mi, mesmo que haja sobreposição; a correção BNDES23,1 mi tem despesa simétrica documentada. Com 2009 inteiramente ilimitado, os três pisos de 2011–2013 garantem a mediana real >=R$431,398087 mi, sem substituir a regra por uma mediana de três anos. CapitalR$4.847,219415 mi implica P/L máximo11,236071, portanto passa o limite original15. Nenhum P/L pontual ou prêmio de reinvestidora é certificado.
+
+P/L certificado por intervalo: [0.0000; 11.2361]. Lucro/P/L pontual permanecem ND; aprovação somente se todo o intervalo cabe no limite 15.
+
+**durability — SATISFACTORY.** Favorável: Essential network utility with municipal concessions, installed monopoly infrastructure, recurrent billing and tariff regulation; documented expansion in served population and renewed concessions supports continuity. Contraponto: Tariffs depend on ARSAE and actual service level;1Q14 report describes sewage tariffs reduced90%→50% where only collection was provided and mandatory refunds. Julgamento: Essential network utility with municipal concessions, installed monopoly infrastructure, recurrent billing and tariff regulation; documented expansion in served population and renewed concessions supports continuity. Fontes: [34244/g1653, p.1,2,3](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34244) (publicado 2014-01-30); [36764/g192, p.5,15,16](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36764) (publicado 2014-05-06).
+
+**capital_economics — INDETERMINATE.** Favorável: Actual analysis does not establish adequate economics of the reinvestment cycle:2013 EPS3.52 versus4.04, ROE7.9%, adjusted EBITDA+1.1% nominal while depreciation+13.4%;1Q14 EPS0.98 unchanged nominal and EBIT+0.77%. Simplified2013 operating ROIC is6.85% using effective tax or6.10% using34%, not a certified WACC comparison. Contraponto: Expansion/commissioning lags and regulated tariff revisions could explain weak returns, so no structural rejection. Need demonstrable project/regulated capital return or normalized multiyear return analysis sufficient to explain lag. Julgamento: Actual analysis does not establish adequate economics of the reinvestment cycle:2013 EPS3.52 versus4.04, ROE7.9%, adjusted EBITDA+1.1% nominal while depreciation+13.4%;1Q14 EPS0.98 unchanged nominal and EBIT+0.77%. Simplified2013 operating ROIC is6.85% using effective tax or6.10% using34%, not a certified WACC comparison. Pendente: Expansion/commissioning lags and regulated tariff revisions could explain weak returns, so no structural rejection. Need demonstrable project/regulated capital return or normalized multiyear return analysis sufficient to explain lag. Fontes: [34244/g1653, p.13,14,15](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34244) (publicado 2014-01-30); [36764/g192, p.15](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36764) (publicado 2014-05-06); [36764/g193, p.26](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36764) (publicado 2014-05-06).
+
+**earnings_reliability — SATISFACTORY.** Favorável: Audited statements and explicit restatement bridge preserve attributable consolidated profit. Reclassified2012 operating cash669.408m is explained;2013 operating cash664.649m is greater than NI419.795m, with construction margin separately identified. ICMS issue investigated without evidence of unprovided probable liability. Contraponto: 2010 extraordinary profit review remains material to valuation normalization; audit cannot prove adequacy of all earnings projections. Julgamento: Audited statements and explicit restatement bridge preserve attributable consolidated profit. Reclassified2012 operating cash669.408m is explained;2013 operating cash664.649m is greater than NI419.795m, with construction margin separately identified. ICMS issue investigated without evidence of unprovided probable liability. Fontes: [34244/g412, p.20,21,22,23,24,25,114](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34244) (publicado 2014-01-30); [34244/g1653, p.13,14](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34244) (publicado 2014-01-30).
+
+**financial_resilience — SATISFACTORY.** Favorável: Debt has disclosed amortization/covenants and long-term project financing. Company reports no covenant breach bothDec2013 andMar2014.2013 net debt about2.896b against1.14b adjusted EBITDA, still within disclosed3.0 covenant; this is observed headroom, not an invented quality threshold. Contraponto: Cash fell497.701m→261.938m;2013 operating cash664.649m less investment cash796.828m, so future expansion depends partly on funding. Medium leverage and water/regulatory costs require monitoring. Julgamento: Debt has disclosed amortization/covenants and long-term project financing. Company reports no covenant breach bothDec2013 andMar2014.2013 net debt about2.896b against1.14b adjusted EBITDA, still within disclosed3.0 covenant; this is observed headroom, not an invented quality threshold. Fontes: [34244/g412, p.51,52,55,56,57,58,60,61](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34244) (publicado 2014-01-30); [36764/g193, p.16](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36764) (publicado 2014-05-06).
+
+**capital_allocation — INDETERMINATE.** Favorável: JCP35% of adjusted profit and retained capital policy are sustainable on current earnings, but CAPEX909.2m alongside lowerEPS and essentially flat EBITDA does not alone demonstrate productive incremental return. Distinguish network service growth from economic value per share. Contraponto: No automatic penalty for payout35% or negative FCF in expansion. Need material investment economics and commissioning/revenue bridge, including related subsidiary funding, before promotion. Julgamento: JCP35% of adjusted profit and retained capital policy are sustainable on current earnings, but CAPEX909.2m alongside lowerEPS and essentially flat EBITDA does not alone demonstrate productive incremental return. Distinguish network service growth from economic value per share. Pendente: No automatic penalty for payout35% or negative FCF in expansion. Need material investment economics and commissioning/revenue bridge, including related subsidiary funding, before promotion. Fontes: [34244/g1653, p.2,13,14,15,16](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34244) (publicado 2014-01-30); [36764/g193, p.26](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36764) (publicado 2014-05-06).
+
+**governance — SATISFACTORY.** Favorável: Single common class,100%tagalong,62.5%independent directors and arbitration documented. Financial restatements and subsidiary related funding are disclosed with terms; unqualified audit and investigatedICMS issue do not establish a structural governance failure. Contraponto: State control51.1%, COPANOR concession/subsidiary funding and water-mineral losses are conflicts to monitor; independence percentage alone is insufficient and not treated as automatic qualification. Julgamento: Single common class,100%tagalong,62.5%independent directors and arbitration documented. Financial restatements and subsidiary related funding are disclosed with terms; unqualified audit and investigatedICMS issue do not establish a structural governance failure. Fontes: [34244/g1653, p.16,18](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34244) (publicado 2014-01-30); [34244/g412, p.36,37,111,112,114](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34244) (publicado 2014-01-30).
+
+Fontes valuation: [14868/g412, p.4,49,52,71](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=14868); [14868/g1653, p.17,18,19](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=14868); [24718/g412, p.84](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=24718); [24718/g1653, p.14,15](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=24718); [34244/g1653, p.13](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34244); [34244/g412, p.20,21,22,23,24,25,114](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34244).
+
+## ENBR3
+
+VQ: **INDETERMINATE**. VVAL: **PASS_MATURE**. [Ficha e atualizações](../research/b00s_four_variants_2014_2026/inputs/dossiers/03983431000103.json).
+
+Lucro atribuível e equivalência patrimonial dePecém são mantidos; não se adiciona prejuízo operacional como não recorrente. VNR2012 positivo102,4m e ajustes inventário2013 de59,7m foram examinados: mesmo subtraindo integralmenteVNR de2012 e adicionando integralmenteinventário a2013, ambos continuam abaixo do lucro realFY2011 que fixa a mediana. Portanto a mediana é numericamente invariável ao intervalo de imposto/atribuição desses dois itens, sem inventar lucro ajustado pontual. A queda dos lucrosnão é promovida a tendência de crescimento.
+
+P/L calculado: 9.0942; só é admissível com perímetro e itens não recorrentes resolvidos.
+
+**durability — SATISFACTORY.** Favorável: DistribuiçãoBandeirante/Escelsa e geração com concessões; expansãoJari ePecém já contratada. Contraponto: Regulação, hidrologia e indisponibilidade térmica afetam margens. Julgamento: Franquias e infraestrutura dão continuidade, com riscos operacionais específicos publicados. Fontes: [34927/g1653, p.1,4,6](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34927) (publicado 2014-02-27).
+
+**capital_economics — INDETERMINATE.** Favorável: EBITDA1.655,7m;NI375,8m. Contraponto: Pecém perde141,2m após início de operação e fim de juroscapitalizados; potencial de retorno não equivale a retorno realizado. Julgamento: Ainda não demonstrada adequação do retorno incremental do grande projeto recém-concluído. Pendente: Normalização do custo de indisponibilidade e retorno do capital daPecém. Fontes: [34927/g1653, p.6,7,11](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34927) (publicado 2014-02-27).
+
+**earnings_reliability — SATISFACTORY.** Favorável: Nota/MR separa equivalênciaPecém, VNR102,4m e inventário59,7m. Contraponto: CDE594m e dívida parcialmente fora de consolidação exigem atenção aos perímetros. Julgamento: Lucro recorrente pode ser analisado sem confundir perdas de empreendimento com ajustes contábeis; mediana robusta aos itens explicitados. Fontes: [34927/g1653, p.11,12](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34927) (publicado 2014-02-27).
+
+**financial_resilience — INDETERMINATE.** Favorável: Dívida líquida/EBITDA1,41x; custo8,62%; debêntures alongam dívida. Contraponto: Prazo médio2,45anos, perdaPecém;1T14 liminar suspende cálculo de custos de indisponibilidade, não extingue risco. Julgamento: Razão dívida/EBITDA da holding não cobre sozinha compromissos de projetos emequivalência. Pendente: Obrigações e garantias totais de projetos, com risco de reversão da liminar. Fontes: [34927/g1653, p.11,12](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34927) (publicado 2014-02-27); [37163/g192, p.1,9,10](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37163) (publicado 2014-05-09).
+
+**capital_allocation — INDETERMINATE.** Favorável: Expansão gera ativos concretos e financiamentoslongos. Contraponto: Lajeado tomou450m para redução de capital aos acionistas;Pecém ainda não remunerou investimento. Julgamento: Alocação exige comparar expansão e distribuiçãofinanciada, não basta payoutbaixo. Pendente: Retorno incremental e capacidade dos projetos após distribuições de capital. Fontes: [34927/g1653, p.6,7,12](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34927) (publicado 2014-02-27).
+
+**governance — SATISFACTORY.** Favorável: Novo Mercado, arbitragem, quatro conselheiros independentes de oito no fechamento (quatro de nove desde fevereiro2014), comitês de auditoria, remuneração e governança. Contraponto: Controle concentradoEDP e negócios conjuntos requerem fiscalização de condições. Julgamento: Divulgação dos interesses e decisões permite fiscalização; não há evidência material de expropriação examinada. Fontes: [34927/g1653, p.2,3,12](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34927) (publicado 2014-02-27); [34927/g1653, p.14](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34927) (publicado 2014-02-27).
+
+Fontes valuation: [34927/g1653, p.6,7,11,12](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34927); [34927/g412, p.1,2,3,4](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34927).
+
+## EQTL3
+
+VQ: **INDETERMINATE**. VVAL: **INDETERMINATE**. [Ficha e atualizações](../research/b00s_four_variants_2014_2026/inputs/dossiers/03220438000173.json).
+
+AquisiçãoCELPA emnov2012 sob recuperação judicial altera materialmente perímetro; cinco lucros não são diretamente comparáveis. P/Lmecânico26,92 não autoriza REJECTED_PRICE sem ponte de aquisição/PPA/VNR.
+
+P/L calculado: 26.9202; só é admissível com perímetro e itens não recorrentes resolvidos.
+
+**durability — SATISFACTORY.** Favorável: DistribuidorasCEMAR/CELPA com rede e concessões; volume cresce10,3%/8,6%. Contraponto: CELPA adquirida em recuperação e perdas operacionais; expansão altera escala. Julgamento: Demanda e rede mostram franquia durável, sem antecipar sucesso da recuperação. Fontes: [35098/g412, p.1,2](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35098) (publicado 2014-03-11); [35098/g1653, p.16](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35098) (publicado 2014-03-11).
+
+**capital_economics — INDETERMINATE.** Favorável: EBITDA586 mi positivo. Contraponto: Margem12,4% vs20%; lucro69 mi cai49,7%; Celpa integral só em2013. Julgamento: A tese de recuperação ainda precisa de retorno efetivo do capital injetado, não apenas crescimento de receita63,5%. Pendente: Retorno do capital da recuperação em perímetro constante. Fontes: [35098/g1653, p.16](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35098) (publicado 2014-03-11).
+
+**earnings_reliability — INDETERMINATE.** Favorável: PPA/restruturação e consolidação parcial/integral explicitados. Contraponto: VNR170 mi2012 vs38 mi2013, tributos104→9 mi; mudança de perímetro domina comparação. Julgamento: Qualidade da geração recorrente precisa de ponte do resultado adquirido/ajustes; ausência de fraude provada não resolve recorrência. Pendente: Ponte PPA/VNR/impostos ao caixa operacional do grupo. Fontes: [35098/g412, p.3,4,5,6](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35098) (publicado 2014-03-11); [35098/g1653, p.16](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35098) (publicado 2014-03-11).
+
+**financial_resilience — INDETERMINATE.** Favorável: Plano de reestruturação e dívida renegociada documentados. Contraponto: Injeção de700 mi e compromissos de recuperação; valor justo da dívida não é perdão já recebido em caixa. Julgamento: Cabe avaliar cumprimento do plano e liquidez junto aCAPEX antes de certificar resiliência. Pendente: Cronograma consolidado do plano e caixa/covenants. Fontes: [35098/g412, p.1,2,3,4,5,6](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35098) (publicado 2014-03-11).
+
+**capital_allocation — INDETERMINATE.** Favorável: Investimento746 mi nas redes, estratégia de recuperação explícita. Contraponto: Benefício esperado de aquisição não equivale a retorno realizado; margem do grupo menor. Julgamento: Tese racional ainda sem demonstração suficiente do retorno incremental e disciplina financeira sob recuperação. Pendente: Retorno do capital novo e metas de recuperação cumpridas até o corte. Fontes: [35098/g1653, p.3,16](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35098) (publicado 2014-03-11).
+
+**governance — SATISFACTORY.** Favorável: Novo Mercado,100%tagalong,2/7 independentes,75%freefloat, arbitragem e política de partes relacionadas. Contraponto: Aquisição complexa e controlador/grupos relevantes requerem supervisão continuada. Julgamento: Direitos e mecanismos especificados sustentam nível satisfatório; não prova execução econômica da recuperação. Fontes: [35098/g1653, p.19](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35098) (publicado 2014-03-11).
+
+Fontes valuation: [35098/g412, p.1,2,3,4,5,6](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35098); [35098/g1653, p.16](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35098).
+
+## GETI4
+
+VQ: **INDETERMINATE**. VVAL: **PASS_MATURE**. [Ficha e atualizações](../research/b00s_four_variants_2014_2026/inputs/dossiers/02998609000127.json).
+
+Ativos de geração e contrato Eletropaulo sustentam perímetro operacional contínuo; IFRS/IAS19 não muda NI comparativo. Ganhos identificados em2013 (recebimento massa falida2,561 mi e reversão saúde0,485 mi) são retirados integralmente como limite conservador; FY2013 permanece abaixo da mediana FY2009, logo não altera seu ponto. Benefício de ágio é amortização recorrente, não ganho isolado. Não remover custo hidrológico/encargo setorial.
+
+P/L calculado: 7.3526; só é admissível com perímetro e itens não recorrentes resolvidos.
+
+**durability — SATISFACTORY.** Favorável: Concessão1999 de30 anos, capacidade2.658 MW, garantia1.278 MW médios; contrato longo reajustado com Eletropaulo. Contraponto: Contrato concentra quase toda energia e vence em2015; não elimina risco hidrológico. Julgamento: Ativos e concessão sustentam continuidade, embora repricing de2016 seja gatilho material. Fontes: [34821/g412, p.1](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34821) (publicado 2014-02-25); [36869/g192, p.3](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36869) (publicado 2014-05-07).
+
+**capital_economics — INDETERMINATE.** Favorável: Lucro881,359 mi e cobertura EBITDA/juros16,4x em2013. Contraponto: Contrato de venda expirará em2015 e expansão compulsória398 MW está sem solução executável. Julgamento: Retorno histórico forte não demonstra economia do reinvestimento obrigatório e do novo contrato. Pendente: Retorno contratado pós2015 e custo/retorno da expansão. Fontes: [34821/g412, p.2,3,45](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34821) (publicado 2014-02-25); [34821/g1653, p.5](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34821) (publicado 2014-02-25).
+
+**earnings_reliability — SATISFACTORY.** Favorável: IAS19 afeta OCI; lucro e ganhos pequenos identificados; 1T14 lucro357,920 mi explicado por venda spot/sazonalização. Contraponto: Ganho spot1T14 cresce com seca e PLD; não extrapolar trimestre como lucro permanente. Julgamento: Ponte operacional permite distinguir recorrência contratual de oportunidade sazonal; não se normaliza por lucro1T anualizado. Fontes: [34821/g412, p.17,18,34,46](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34821) (publicado 2014-02-25); [36869/g192, p.3,6](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36869) (publicado 2014-05-07).
+
+**financial_resilience — SATISFACTORY.** Favorável: Dívida1.116,676 mi; dívida/EBITDA0,7 vs limite2,5; líquida/EBITDA0,4 vs3,5; cobertura16,4 vs1,75; covenants cumpridos. Contraponto: Obrigação de expansão e vencimento2015 do contrato podem consumir folga. Julgamento: Capacidade de serviço demonstrada é ampla no corte; manter revisão dos compromissos futuros. Fontes: [34821/g412, p.45,46](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34821) (publicado 2014-02-25).
+
+**capital_allocation — INDETERMINATE.** Favorável: Dividendo952,7 mi reconcilia lucro881,4 mais reservas realizadas70,7 e prescritos0,7. Contraponto: Plano Termo São Paulo550 MW depende de gás e leilão; ação por expansão suspensa para novas alternativas. Julgamento: Distribuição maior que lucro tem origem explicada, mas compatibilidade com CAPEX compulsório ainda não está demonstrada. Pendente: Financiamento/retorno da obrigação de expansão. Fontes: [34821/g1653, p.5](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34821) (publicado 2014-02-25); [34821/g412, p.2,3](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34821) (publicado 2014-02-25).
+
+**governance — INDETERMINATE.** Favorável: Conselho fiscal com representantes minoritários ON/PN e BNDESPAR; divulgação do contrato e processo. Contraponto: Sete de dez conselheiros indicados pelo controlador, um independente; principal cliente relacionado. Julgamento: Proteções reais coexistem com dependência contratual relacionada; comutatividade do preço/renovação material não está concluída. Pendente: Condições econômicas da contratação relacionada e fiscalização independente. Fontes: [34821/g1653, p.10](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34821) (publicado 2014-02-25); [34821/g412, p.1,2,3](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34821) (publicado 2014-02-25).
+
+Fontes valuation: [34821/g412, p.1,17,18,34,35,45,46,61](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34821); [34821/g1653, p.3,5](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34821).
+
+## ITUB4
+
+VQ: **QUALIFIED_SATISFACTORY**. VVAL: **INDETERMINATE**. [Ficha e atualizações](../research/b00s_four_variants_2014_2026/inputs/dossiers/60872504000123.json).
+
+A série mecânica mistura IFRS consolidado e individual e contém zero de transição em 2009. O lucro recorrente BRGAAP de R$15,8 bi do relatório não substitui automaticamente os R$16,424 bi atribuíveis IFRS. Requer ponte dos cinco exercícios e capital bonificado com data efetiva.
+
+**durability — SATISFACTORY.** Favorável: Franquia diversificada: varejo, cartões, atacado, gestão; captações livres e administradas R$1,59 tri; depósitos à vista/poupança +26% em março/2014. Contraponto: Concorrência e crescimento imobiliário/consignado; não confundir ativos administrados com liquidez própria. Julgamento: A escala de distribuição e o funding de varejo demonstram vantagem persistente sem depender só de crescimento do crédito. Fontes: [36223/g1653, p.1,7](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36223) (publicado 2014-04-11); [36464/g192, p.5,6,7](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36464) (publicado 2014-04-29).
+
+**capital_economics — SATISFACTORY.** Favorável: ROE recorrente BRGAAP20,9% em2013 versus19,4% em2012; ROE contábil20,7% versus18,4%. Crédito inadimplente >90dias gerencial3,7% em dezembro→3,5% em março/2014, com mudança documentada do mix; não é ROIC industrial. Contraponto: ROE gerencial não equivale a ROIC nem normaliza o P/L; o ciclo de crédito pode deteriorar. Julgamento: Retorno bancário acompanhado de redução do risco, capital e funding sustenta adequação econômica no corte, sem conceder prêmio VVAL. Fontes: [36223/g1653, p.1,7](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36223) (publicado 2014-04-11); [36464/g192, p.6,7](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36464) (publicado 2014-04-29); [36223/g1653, p.4](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36223) (publicado 2014-04-11); [36223/g412, p.49,50](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36223) (publicado 2014-04-11).
+
+**earnings_reliability — SATISFACTORY.** Favorável: Lucro contábil BRGAAP R$15,7 bi próximo ao recorrente R$15,8 bi; indicadores de crédito mostram redução da mora. Contraponto: O crescimento do lucro2013 depende em parte da redução22,4% da despesa BRGAAP de PDD. IFRS: provisão cai25,713→22,235 bi porque baixas21,769 bi excedem constituições17,856 bi; a queda da mora não pode ser atribuída integralmente à melhor originação. IFRS e BRGAAP são distintos. REFIS624 mi, resultado de participações Porto e outros eventos fiscais impedem tratar reportado como integralmente recorrente. Julgamento: SATISFACTORY após confrontar lucro com carteira e movimentação de provisões, sem adicionar perdas. IFRS empréstimos411,702 bi, atrasos desde1dia12,239 bi, provisão22,235 bi e diversificação de devedores; serviço24,1 bi BRGAAP cresce18,5% e resultado de seguros3,5 bi cresce18%, além do ciclo de PDD. O resultado operacional persistente é demonstrado, mas não equivale à normalização dos cinco anos VVAL. Fontes: [36223/g1653, p.1,7](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36223) (publicado 2014-04-11); [36464/g192, p.6,7](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36464) (publicado 2014-04-29); [36223/g1653, p.4](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36223) (publicado 2014-04-11); [36223/g412, p.49,50,68,178](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36223) (publicado 2014-04-11).
+
+**financial_resilience — SATISFACTORY.** Favorável: Março/2014: capital total15,6%, principal11,1%; crédito/captação75,3%. Nas notas do1T14, ativos líquidos94,1 bi representam55,6% dos recursos resgatáveis no curto prazo; ativos administrados não são caixa próprio. Contraponto: Capital inclui nívelII4,5%; crescimento e CorpBanca consomem capital; downgrade soberano divulgado. Julgamento: Principal e total mantêm folga às exigências vigentes; composição de funding reforça solvência, não apenas patrimônio contábil positivo. Fontes: [36464/g192, p.7](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36464) (publicado 2014-04-29); [36464/g193, p.190](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36464) (publicado 2014-04-29).
+
+**capital_allocation — SATISFACTORY.** Favorável: Redução de veículos/PMe e priorização de menor risco; dividendos/JCP líquidos R$5,1 bi e recompra R$662,2 mi em 2013. Contraponto: CorpBanca anunciado em janeiro/2014 ainda condicionado; sinergias estimadas não são lucro realizado. Há consumo de capital também em participações e integração; recompra não é por si prova de preço vantajoso. Capital principal caiu11,6%→11,1%, ainda acima do requisito, o que exige acompanhamento. Julgamento: Retenção substancial e mudança demonstrada de carteira preservam capacidade; aquisição será gatilho de atualização sem presumir seu sucesso. Fontes: [36223/g1653, p.1,9](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36223) (publicado 2014-04-11); [36464/g192, p.1,5,6](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36464) (publicado 2014-04-29).
+
+**governance — SATISFACTORY.** Favorável: Conselho12/4 independentes; comitês de risco/capital e auditoria; nota35 discrimina partes relacionadas e condições usuais. Contraponto: Controle concentrado Itaúsa/IUPAR e R$267 mi de despesas de processamento com Itautec. Julgamento: Supervisão efetiva descrita e transações quantificadas a condições de mercado sustentam classificação satisfatória; não se infere ausência de conflito. Fontes: [36223/g1653, p.14](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36223) (publicado 2014-04-11); [36223/g412, p.112,113](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36223) (publicado 2014-04-11).
+
+Fontes valuation: [36223/g1653, p.1,7,9](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36223); [36464/g192, p.1](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36464).
+
+## LIGT3
+
+VQ: **INDETERMINATE**. VVAL: **PASS_MATURE**. [Ficha e atualizações](../research/b00s_four_variants_2014_2026/inputs/dossiers/03378521000175.json).
+
+IFRS11 muda consolidação proporcional para equivalência sem mudar NI; IAS19 reclassifica patrimônio sem NI material. Reversão PDD2012 de111,7 mi, mesmo integralmente retirada, mantém FY2012 abaixo da mediana FY2013. CVA é descasamento regulatório operacional, não removida seletivamente. Custo de perdas e provisões permanece.
+
+P/L calculado: 7.2446; só é admissível com perímetro e itens não recorrentes resolvidos.
+
+**durability — SATISFACTORY.** Favorável: Concessões Light SESA/Energia até2026; distribuição metropolitana e geração. Contraponto: Perdas não técnicas42,18% do mercado de baixa tensão, apesar da queda de3,24 pp. Julgamento: Concessão assegura demanda/franquia; perdas reduzem sua rentabilidade, avaliadas separadamente. Fontes: [35112/g412, p.9](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35112) (publicado 2014-03-11); [35112/g1653, p.2,3](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35112) (publicado 2014-03-11).
+
+**capital_economics — INDETERMINATE.** Favorável: EBITDA1.696,8 mi; combate a perdas melhorou áreas atendidas. Contraponto: EBITDA ajustado CVA1.675,8 mi caiu5,3%; lucro ajustado573,5 mi caiu10,7%. Julgamento: Crescimento contábil isolado não prova aumento de retorno econômico quando CVA e perdas são considerados. Pendente: Retorno sobre capital após perdas e normalização dos descasamentos regulatórios. Fontes: [35112/g1653, p.3,17](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35112) (publicado 2014-03-11).
+
+**earnings_reliability — SATISFACTORY.** Favorável: Ponte CVA e mudançaIFRS11/IAS19 explicitadas; ganhosPDD identificados. Contraponto: PDD e CVA criam diferença entre lucro/caixa e comparação anual. Julgamento: Confiabilidade sustentada por reconciliação específica, mantendo custos de crédito/perdas recorrentes. Fontes: [35112/g412, p.29,30,31](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35112) (publicado 2014-03-11); [35112/g1653, p.10,17](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35112) (publicado 2014-03-11).
+
+**financial_resilience — INDETERMINATE.** Favorável: Dívida líquida4.025 mi; cobertura juros3,79 vs mínimo2,5. Contraponto: Dívida+37,2%; DL/EBITDA2,84 próximo de3,0, com regra de trimestres para vencimento. Julgamento: Margem contratual existe, porém estreita ante necessidade de capital e choque de energia; sem prova suficiente de absorção no corte. Pendente: Cobertura do choque2014 e do cronograma de investimento sem estourar covenants. Fontes: [35112/g1653, p.18](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35112) (publicado 2014-03-11).
+
+**capital_allocation — SATISFACTORY.** Favorável: Devolução de Itaocara por prazo que não permitia operação rentável; Light Legal reduz perdas nas áreas monitoradas. Contraponto: Renova/Cemig alteram participações e adicionam projetos; retorno futuro não é dado. Julgamento: Decisão concreta de abandonar projeto sem rentabilidade e investimento com resultado operacional sustentam disciplina, condicionada à folga financeira avaliada à parte. Fontes: [35112/g1653, p.2,3](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35112) (publicado 2014-03-11).
+
+**governance — SATISFACTORY.** Favorável: Novo Mercado; onze conselheiros/dois independentes; cinco comitês incluindo auditoria e finanças. Contraponto: Participações compartilhadas com Cemig/Renova exigem atenção a conflitos; controle concentrado. Julgamento: Estrutura de supervisão e divulgação das decisões materiais é comprovada; não se presume governança excelente nem ausência de riscos. Fontes: [35112/g1653, p.3,4,20](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35112) (publicado 2014-03-11).
+
+Fontes valuation: [35112/g412, p.29,30,31](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35112); [35112/g1653, p.10,17](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35112).
+
+## PSSA3
+
+VQ: **QUALIFIED_SATISFACTORY**. VVAL: **PASS_MATURE**. [Ficha e atualizações](../research/b00s_four_variants_2014_2026/inputs/dossiers/02149205000169.json).
+
+Itaú Auto entered30Nov2009.2009 is incomplete and low, not the central observation;2010–2013 reflect four full years. The five-observation median remains the frozen rule, not a growth extrapolation.2013 Bioqualynet acquisition32.170m is immaterial against equity5.889b; current ITR explicitly reports unchanged group structure.
+
+P/L calculado: 14.1690; só é admissível com perímetro e itens não recorrentes resolvidos.
+
+**durability — SATISFACTORY.** Favorável: Established automobile insurance franchise, multi-brand distribution, recurring renewal demand and service network.2013 premiums11.575b and4.7m vehicles;1Q14 earned premiums+17.1%, written premiums+15.2%. Contraponto: Automobile and São Paulo concentration; pricing is competitive and claims can worsen. Julgamento: Established automobile insurance franchise, multi-brand distribution, recurring renewal demand and service network.2013 premiums11.575b and4.7m vehicles;1Q14 earned premiums+17.1%, written premiums+15.2%. Fontes: [34786/g1653, p.1,2,4](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34786) (publicado 2014-02-25); [36561/g192, p.3](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36561) (publicado 2014-04-30).
+
+**capital_economics — SATISFACTORY.** Favorável: Recurring attributed profit703.5m versus average adjusted parent equity(5067.1+5187.4)/2m gives13.7208%; reported-equity denominator gives12.8419%. Prior full-year ROEs show positive capital economics without treating the 2013 COFINS gain as recurring. Combined ratio96.0% in2013 versus99.0% in2012, with financial-income dependence acknowledged. Contraponto: 1Q14 combined ratio98.8% versus97.5%, automobile loss ratio+4.1pp. COFINS exemption reduces ratio1.2pp only during2014; no extrapolation. Not QUALIFIED_HIGH and no use of universal ROE hurdle. Julgamento: Recurring attributed profit703.5m versus average adjusted parent equity(5067.1+5187.4)/2m gives13.7208%; reported-equity denominator gives12.8419%. Prior full-year ROEs show positive capital economics without treating the 2013 COFINS gain as recurring. Combined ratio96.0% in2013 versus99.0% in2012, with financial-income dependence acknowledged. Fontes: [34786/g1653, p.4,5,12,13](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34786) (publicado 2014-02-25); [36561/g192, p.3,4](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36561) (publicado 2014-04-30).
+
+**earnings_reliability — SATISFACTORY.** Favorável: Attributable recurring result is explicitly disclosed and reconciled at aggregate level; 2012 presentation adjustments offset revenue/reserve effects; TAP deficiencies12.386m+25.806m were provisioned. Deloitte2013 unqualified opinion expressly accepted opening adjustments and cited prior unmodified audit. Contraponto: COFINS gain is material and must be removed. Audit supports statements, not certainty about all reserves or recurring-profit management definitions. Julgamento: Attributable recurring result is explicitly disclosed and reconciled at aggregate level; 2012 presentation adjustments offset revenue/reserve effects; TAP deficiencies12.386m+25.806m were provisioned. Deloitte2013 unqualified opinion expressly accepted opening adjustments and cited prior unmodified audit. Fontes: [34786/g412, p.7,8,19,20,76](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34786) (publicado 2014-02-25); [34786/g1653, p.10,12](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34786) (publicado 2014-02-25); [36561/g193, p.2,3](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36561) (publicado 2014-04-30).
+
+**financial_resilience — SATISFACTORY.** Favorável: 1Q14 actual regulatory excess753.618m remains positive; technical guarantees6584.740m exceed required6428.241m by156.499m. DFP TAP shortfalls were recognized. No industrial CFO rule is imposed on the insurance group. Contraponto: Regulatory excess fell from1086.837m inDec2013; guarantee cushion fell from355.226m. Reported1.265b includes512m at holding and must not be labelled pure regulated-company excess. Julgamento: 1Q14 actual regulatory excess753.618m remains positive; technical guarantees6584.740m exceed required6428.241m by156.499m. DFP TAP shortfalls were recognized. No industrial CFO rule is imposed on the insurance group. Fontes: [34786/g412, p.19,20,46](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34786) (publicado 2014-02-25); [36561/g193, p.3,4,28](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36561) (publicado 2014-04-30); [36561/g192, p.15](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36561) (publicado 2014-04-30).
+
+**capital_allocation — SATISFACTORY.** Favorável: Distribution policy specifically distinguishes50% recurring profit and70% extraordinary profit; retained recurring earnings, investment in systems/service network and capital buffers support sustainable mature operations. Bioqualynet purchase32.170m is small relative to group capital. Contraponto: No claim of proven high incremental ROIC. New services may lose money; buying-growth and temporary tax advantages must be monitored. Entire842.947m distribution cannot be compared only to703.5m recurring NI. Julgamento: Distribution policy specifically distinguishes50% recurring profit and70% extraordinary profit; retained recurring earnings, investment in systems/service network and capital buffers support sustainable mature operations. Bioqualynet purchase32.170m is small relative to group capital. Fontes: [34786/g1653, p.13](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34786) (publicado 2014-02-25); [34786/g412, p.82,83,91,92](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34786) (publicado 2014-02-25); [36561/g193, p.34](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36561) (publicado 2014-04-30).
+
+**governance — SATISFACTORY.** Favorável: Common shares,100%tagalong, arbitration and independent statutory audit committee are documented, beyond merely the NovoMercado label. Related-party service/funding transactions are itemized. Aggregate PLR recurring186.9m versus179.6m explains why reported308.5m should not automatically imply structural diversion. Contraponto: Administrator profit share152.355m versus75.555m remains a disclosed conflict/incentive risk; not proof of misconduct. Market terms are management assertions, not independent transaction-by-transaction certification. Julgamento: Common shares,100%tagalong, arbitration and independent statutory audit committee are documented, beyond merely the NovoMercado label. Related-party service/funding transactions are itemized. Aggregate PLR recurring186.9m versus179.6m explains why reported308.5m should not automatically imply structural diversion. Fontes: [34786/g1653, p.10,15,16,17,28](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34786) (publicado 2014-02-25); [34786/g412, p.65,66,67](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34786) (publicado 2014-02-25).
+
+Fontes valuation: [34786/g1653, p.4,10,12,13](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34786); [34786/g412, p.1,2,3,7,8,76,91,92](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34786); [36561/g193, p.1,2,3,4,42](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36561).
+
+## SBSP3
+
+VQ: **INDETERMINATE**. VVAL: **PASS_MATURE**. [Ficha e atualizações](../research/b00s_four_variants_2014_2026/inputs/dossiers/43776517000180.json).
+
+CPC19/IFRS11 substitutes equity accounting for proportionate joint-venture consolidation; issuer NI remains attributable to its shareholders. CPC33/IAS19 restatement affects equity/actuarial balances, with explicitly no impact on DRE/cashflow (DFPpp21–22). Published five-year NI series supports a median instead of extrapolating the last year. The2014 drought is a material forward operating risk already identified, not justification for retrospectively changing the frozen mature PE rule. All-common capital increaseApr2014 issued no new shares.
+
+P/L calculado: 8.0983; só é admissível com perímetro e itens não recorrentes resolvidos.
+
+**durability — SATISFACTORY.** Favorável: 363 municipalities, predominantly30-year contracts; SãoPaulo2010 contract grants exclusivity, regulatory tariff remuneration and investment rights. Contraponto: 61 expired contracts produce16.11% of revenue and25.05% of intangibles; legal renewal period extends to2016, but renewals are not guaranteed. SãoPaulo51.75% of revenue and Cantareira drought concentrate operating risk. Julgamento: Water/sewage network demand and long municipal contracts support a durable franchise beyond sector membership. Fontes: [35848/g412, p.1,2,56,57](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35848) (publicado 2014-03-28); [37910/g193, p.53](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37910) (publicado 2014-05-15).
+
+**capital_economics — INDETERMINATE.** Favorável: 2009–2013 EBITDA2.727→4.007b and operating result2.121→3.139b; lower losses and greater connections per employee;1Q14 adjusted EBITDA+10.2% and cash-supported earnings. Contraponto: ByMar/Apr2014 Cantareira withdrawal33→27.9m3/s,30%bonus on bills after20%consumption cuts, with expansion to wholeRMSP; management explicitly could not estimate revenue effect. Do not treat2014 drought as a proven permanent failure or annualize1Q14. Julgamento: Five-year operating progress is favorable, but the contemporaneous combination of supply restriction, consumption bonus and delayed tariff revision leaves adequate economics of deployed capital unproven under the already-known shock. Pendente: A proportionate tariff/volume/cost and investment-return bridge using facts already known byJun2014; the existence of a future tariff correction alone does not quantify capital economics. Fontes: [35848/g1653, p.10,16,17,39](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35848) (publicado 2014-03-28); [37910/g192, p.1,7](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37910) (publicado 2014-05-15); [37910/g193, p.51,52,53](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37910) (publicado 2014-05-15).
+
+**earnings_reliability — SATISFACTORY.** Favorável: CPC33 has noDRE/DCF effect;2013 operating cash2.777b exceeds NI1.924b. R$1.412b uncertainGESP reimbursement is not booked as asset; pension obligation1.780b is recognized. Contraponto: Construction margins and currency gains/losses are separate from core operations; legal/actuarial estimates remain uncertain.2013 audit unqualified does not resolve economic controller conflict. Julgamento: Accounting restatement and material controller claims have explicit treatment; recurrent operating results are backed by cash and an unmodified audit, without inflating assets from disputed reimbursement. Fontes: [35848/g412, p.21,22,43,44,45](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35848) (publicado 2014-03-28); [35848/g1653, p.39](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35848) (publicado 2014-03-28); [37910/g192, p.4,5,6](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37910) (publicado 2014-05-15).
+
+**financial_resilience — SATISFACTORY.** Favorável: CashMar2014 R$1.982472b; principal schedule2014R$417.195m and2015R$1.042744b; covenants complied with atMar2014. Project finance undrawn5.820b;2013 netdebt/EBITDA1.9. Contraponto: Undrawn5.820b is earmarked to works and cannot be added to unrestricted cash. Around40% debt is foreign currency; drought can reduce cash generation and demand emergencyinvestment. Stated buffers are not a forecast of crisis outcomes. Julgamento: Observed liquidity, debt profile, operating cash and contracted project funding support resilience at the cutoff despite the drought; no arbitrary requirement to prove safety against every possible rainfall outcome. Fontes: [35848/g1653, p.10](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35848) (publicado 2014-03-28); [35848/g412, p.63,64](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35848) (publicado 2014-03-28); [37910/g193, p.11,31,32](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37910) (publicado 2014-05-15).
+
+**capital_allocation — INDETERMINATE.** Favorável: 2013 investment2.716b and dividend/JCP537.465m versus NI1.923559b; retention1.289916b. Waterloss25.9%→24.4% over2009–13;1Q14 assets1.8b enteredservice. Contraponto: SãoLourenço adds4.7m3/s but investment2.21b/25-yearservicecontract6b; PPP capital is borne bySPE, not evidence of free capacity for issuer. Drought addscosts; no disqualification merely becausepayout is low or expansion cashflownegative. Julgamento: Retained earnings and physical service expansion are documented, but adequate incremental economics of the significant new commitments amid known supply constraints are not sufficiently established. Pendente: Project/regulated return and timing bridge sufficient to connect retention and obligatory expansion to economic return per share under information atcutoff. Fontes: [35848/g1653, p.10](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35848) (publicado 2014-03-28); [35848/g412, p.97,98,99](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35848) (publicado 2014-03-28); [37910/g192, p.5,7](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37910) (publicado 2014-05-15); [37910/g193, p.51,53](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37910) (publicado 2014-05-15).
+
+**governance — INDETERMINATE.** Favorável: 4 of9 directors independent including minorityelected representative; CEO cannot chairboard; no auditor consulting services. Management sought arbitration and sued controller for recovery; disputed assets conservatively excluded. Contraponto: GESP refused reimbursement of disputed pension benefits; no agreement succeeded. UnrecognizedR$1.412479b (~10.92% equity) includes716.196m disputed benefits and696.283m reservoir transfer with probable legal-loss assessment. This is known pre2014, not a future controversy or proven abusive expropriation. Julgamento: Formal minority safeguards coexist with a specific material unresolved controller dispute; a NovoMercado label and transparent accounting cannot settle the economic conflict. Pendente: Evidence resolving or adequately bounding the material controller/minority reimbursement conflict; absence of an audit qualification does not resolve governance quality. Fontes: [35848/g1653, p.12,13](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35848) (publicado 2014-03-28); [35848/g412, p.42,43,44,45](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35848) (publicado 2014-03-28); [37910/g193, p.51,52](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37910) (publicado 2014-05-15).
+
+Fontes valuation: [35848/g412, p.21,22](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35848); [35848/g1653, p.10,16,17,39](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35848); [37910/g193, p.51,52,53](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37910).
+
+## TBLE3
+
+VQ: **QUALIFIED_SATISFACTORY**. VVAL: **PASS_MATURE**. [Ficha e atualizações](../research/b00s_four_variants_2014_2026/inputs/dossiers/02474103000119.json).
+
+The fiscal series retains its original five-observation median and own-class capitalization. DFP34713 notes16–17 explicitly reconcile the2012 IAS19 revision: attributed profit1,499.497m becomes1,490.454m, already represented by the latest pre-cut statement. Remove2013 net nonrecurring gains51.7m disclosed in MR19 from attributed NI1,436.112m; do not subtract only gross STN49.126m or erase normal hydrological/CCEE losses. The51.7m is disclosed to0.1m precision. The adjusted2013 observation remains below the2010 central observation, so this identified adjustment does not move the median.
+
+P/L calculado: 14.4110; só é admissível com perímetro e itens não recorrentes resolvidos.
+
+**durability — SATISFACTORY.** Favorável: 24 operating plants across12 states;6,964.7MW own installed capacity and approximately6% of national capacity. Q1 contracted availability96.6% for2014,98.3% for2015 and93.5% for2016. Existing contracts reprice for inflation;1Q14 selling price+6.0%. Contraponto: Hydro accounts for79.8%; MRE pools but does not remove system hydrology risk. Q1 PLD and purchases demonstrate actual exposure; thermal fuel and environmental obligations remain. Julgamento: Long-lived operating generation assets, an established national selling organization and inflation-linked medium/long contracts support durable cash generation; protection concerns sales visibility, not guaranteed physical supply. Fontes: [34713/g412, p.1,82,97](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34713) (publicado 2014-02-20); [34713/g1653, p.4,11](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34713) (publicado 2014-02-20); [36427/g193, p.53](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36427) (publicado 2014-04-25); [36427/g192, p.1,3,4](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36427) (publicado 2014-04-25).
+
+**capital_economics — SATISFACTORY.** Favorável: 2011–2013 ROCE22.9%,24.7%,23.1%;2013 EBIT2,387.2m, EBITDA3,042.6m and after-tax attributed profit after identified gains1,384.412m. Debt cost8.1% disclosed, not confused with WACC. Even Q1 under stress retains EBIT546.426m and EBITDA694.139m. Contraponto: EBIT fell6.0% in2013 and Q1 net income31.9%; capital-intensive assets depend on regulated dispatch, purchased energy and concession obligations. The operating-return series does not certify the VVAL reinvestor channel. Julgamento: Demonstrated operating economics through varying conditions are satisfactory. Reported ROCE is explicitly EBIT/noncurrent assets, not after-tax ROIC, and is considered with margins, adjusted profit and the actual Q1 shock; no new universal hurdle is introduced. Fontes: [34713/g1653, p.12,16,19,21,22](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34713) (publicado 2014-02-20); [36427/g192, p.3,4,5,6](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36427) (publicado 2014-04-25).
+
+**earnings_reliability — SATISFACTORY.** Favorável: 2012 IAS19 profit bridge is explicit;2013 net nonrecurring gains51.7m are quantified, thermal impairment49.4m is retained, and54.5m CNPE costs remain recognized despite an injunction. Q1 CCEE swing−143.6m is disclosed rather than hidden by revenue growth. KPMG unqualified fiscal audit reviewed in the CVM dated audit extract. Contraponto: CCEE combines different credit/debit components in one settlement; hydrological volatility and remaining disputes affect future accounting estimates. Market and operational nonfinancial data are not audited in the same sense as financial statements. Julgamento: The issuer reconciles material accounting and one-off items, distinguishes cost/volume/price drivers and recognizes impairment and disputed costs. These allow a credible recurring analysis without assuming that volatility is an accounting flaw. Fontes: [34713/g412, p.16,17](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34713) (publicado 2014-02-20); [34713/g1653, p.16,19,33](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34713) (publicado 2014-02-20); [36427/g192, p.3,4,5,6](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36427) (publicado 2014-04-25).
+
+**financial_resilience — SATISFACTORY.** Favorável: Dec2013 net debt2,271.2m and gross debt/EBITDA1.1; March2014 cash1,132.671m, loans3,406.992m of which354.360m current, and debentures180.786m current. Borrowing and debenture covenants complied with at both dates; new USD100m loan fully swapped to97% CDI. Contraponto: Funding expands in Q1; concession liabilities1,653.818m are additional to gross financial loans and debentures. Residual foreign-currency exposure and hydrological costs remain; cash should not be treated as sufficient for every imaginable shock. Julgamento: Liquidity, debt maturity and stated covenant compliance support resilience under the already observed Q1 operating downturn. This is a solvency assessment, not a claim that returns are insensitive to drought. Fontes: [34713/g1653, p.12,20,21](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34713) (publicado 2014-02-20); [34713/g412, p.49,50](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34713) (publicado 2014-02-20); [36427/g193, p.5,20,21,23,24](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36427) (publicado 2014-04-25).
+
+**capital_allocation — SATISFACTORY.** Favorável: 2013 investment684.5m splits443.3m expansion and241.2m maintenance/revitalization. Trairí/Guajiru add55.4MW commercially operating;2014 Ferrari acquisition and remaining wind projects are disclosed. Dividend proposal1,474.2m equals100% adjusted distributable income; debt declined3.5% in2013 despite investment. Contraponto: Payout leaves little retained profit; expansion historically uses roughly one-third equity and two-thirds debt. Q1 incorporates additional debt and acquisition obligations; realized project performance must be revisited when it changes materially. Julgamento: Actual maintenance/expansion spending, operating asset delivery and reduction of2013 net debt accompany shareholder distributions. High payout is not presumed bad when maturity and funding are evidenced; it does not satisfy the separate VVAL retention test. Fontes: [34713/g412, p.2](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34713) (publicado 2014-02-20); [34713/g1653, p.19,20,21,22](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34713) (publicado 2014-02-20); [36427/g193, p.12,20,21,27](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36427) (publicado 2014-04-25).
+
+**governance — SATISFACTORY.** Favorável: Two minority representatives on the nine-member board, a fiscal council with three independent members and one minority representative, a special independent committee for related-party transactions, full voting shares and100% tagalong. Related-party energy/O&M contracts state prices or cost bases; independent auditor supplied no nonaudit services in2013. Contraponto: GDF SUEZ controls68.71%, Banco Clássico10%; no audit committee, and the related-party committee is not permanent. Guarantees and intragroup electricity transactions are material and require ongoing review; no abuse is inferred from ownership alone. Julgamento: Specific minority and transaction-review structures, transparent related-party contracts and fiscal oversight support satisfactory governance despite concentrated control. Listing status alone is not used as proof. Fontes: [34713/g1653, p.4,23,24,33](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34713) (publicado 2014-02-20); [34713/g412, p.90,91,92](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34713) (publicado 2014-02-20); [36427/g193, p.38,48,49,50](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36427) (publicado 2014-04-25).
+
+Fontes valuation: [34713/g1653, p.12,16,19](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34713); [34713/g412, p.1,2,16,17](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34713); [36427/g193, p.38,53](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36427).
+
+## TIMP3
+
+VQ: **INDETERMINATE**. VVAL: **INDETERMINATE**. [Ficha e atualizações](../research/b00s_four_variants_2014_2026/inputs/dossiers/02558115000121.json).
+
+A reclassificação2012 não muda NI (nota3p4). O pico2010 decorre de crédito fiscal de1.435,245m, retirado; a mediana passa a FY2011, não extrapola o crédito nem crescimento de aquisição. A Intelig entrou em30/12/2009; a receita principal móvel permanece e não se anualiza aquisição. TIM Fiber2011 foi incorporada2012: ativos e goodwill mantidos na economia do capital. O canal de15–25 permanece sem prêmio enquanto LPA ajustado, payout recorrente e medianaROIC não forem conciliados conjuntamente.
+
+P/L calculado: 21.1034; só é admissível com perímetro e itens não recorrentes resolvidos.
+
+**durability — SATISFACTORY.** Favorável: 73 milhões de clientes,27,1% do mercado, rede móvel nacional e backhaul próprio. Receita de dados cresce, sem subsídio indiscriminado de aparelhos. Contraponto: Receita de interconexão cai por regulação; concorrência forte e maioria pré-paga. Julgamento: A rede, escala e licenças sustentam demanda recorrente; não pressupor poder irrestrito de preço. Fontes: [34545/g1653, p.36,39](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34545) (publicado 2014-02-13); [37056/g192, p.1,4](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37056) (publicado 2014-05-08).
+
+**capital_economics — INDETERMINATE.** Favorável: EBIT2013 R$2.439m; caixa operacional livre2013 R$2.216m após investimento; integração reduz aluguel de rede. Contraponto: Intelig perde118,678m; impairment usa economia de leased lines e desconto12,56%; goodwillFiber1.159,648m. Lucro2010 inflado por crédito fiscal. Julgamento: EBIT positivo e teste sem impairment não bastam para demonstrar retorno adequado do capital incremental da rede adquirida. Pendente: Conciliar ROIC histórico com goodwill, capital médio e economia efetivamente realizada de Intelig/Fiber; não substituir por ROE. Fontes: [34545/g412, p.24,28,29](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34545) (publicado 2014-02-13); [34545/g1653, p.38,39](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34545) (publicado 2014-02-13).
+
+**earnings_reliability — SATISFACTORY.** Favorável: Nota3 reconcilia reclassificação2012 sem alteração do lucro. Nota37 explicita crédito fiscal2010; nota38 dá LPA e denominadores. Contraponto: Lucro2010 não é recorrente; FISTEL concentra desembolso em1T14. Julgamento: As diferenças são identificáveis e a ponte operacional/caixa está divulgada; ajuste de crédito fiscal é aplicado ao valuation, não ocultado. Fontes: [14958/g412, p.60,61](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=14958) (publicado 2012-03-13); [34545/g412, p.4,66,76](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34545) (publicado 2014-02-13); [37056/g192, p.20,21](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37056) (publicado 2014-05-08).
+
+**financial_resilience — SATISFACTORY.** Favorável: Caixa líquido420,762m em2013. Em1T14 dívida líquida1.314m, caixa3.619m,78% da dívida longa e exposição cambial100% coberta. Contraponto: FCL1T14 negativo1.571m inclui sazonalidade e230m adicionaisFISTEL; dívida bruta4.934m e custo9,04%. Julgamento: Folga de caixa e prazo da dívida suportam CAPEX613m trimestral; não exigir FCL positivo em cada trimestre. Fontes: [34545/g412, p.76](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34545) (publicado 2014-02-13); [37056/g192, p.20,21](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37056) (publicado 2014-05-08).
+
+**capital_allocation — INDETERMINATE.** Favorável: CAPEX3.871m em2013,90,1% infraestrutura;1T14 95%. Política dividendo25% permite retenção. Contraponto: AquisiçãoFiber e perdasIntelig exigem avaliação de criação de valor por ação após conversãoPN/ON0,8406 em2011. Julgamento: Há reinvestimento real, mas gasto/EBITDA e mera retenção não provam retorno incremental. Não conceder o prêmio VVAL por intenção. Pendente: Retorno incremental das aquisições e LPA real ajustado por classes e emissões. Fontes: [34545/g1653, p.39,42,45](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34545) (publicado 2014-02-13); [34545/g412, p.24,29](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34545) (publicado 2014-02-13).
+
+**governance — SATISFACTORY.** Favorável: DFP34545 MR42–45 documents voting and minority rights and the two independent directors. Q1 notes37056 pp65–66 reiterate legally imposed segregation; Q1 Telefónica-related revenues328.137m and costs223.934m are disclosed as ordinary telecom contracts under market/regulatory terms. Contraponto: The controller has about67% of the vote. The CADE-ordered divestment of the competing group’s 2013 Telco stake increase remains unresolved in Q1; independence is asserted by management, not guaranteed by this review. Monitoring of the remedy and transaction terms remains necessary. Julgamento: SAT with a material, unresolved controller-chain conflict explicitly retained. ANATEL segregation and the CADE conduct undertaking constrain the competing Telefónica group; Q1 discloses ordinary interconnection, roaming and shared-site transactions. The issuer is the protected competing operation; the cited sanction concerns Telefónica, not an evidenced diversion by TIM management. Voting-only capital, two independent directors out of nine, fiscal council and statutory audit committee provide additional, nonautomatic safeguards. Fontes: [34545/g1653, p.42,43,45](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34545) (publicado 2014-02-13); [34545/g412, p.66,67,68](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34545) (publicado 2014-02-13); [37056/g193, p.65,66](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37056) (publicado 2014-05-08); [36939/g193, p.3,4,5](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36939) (publicado 2014-05-08).
+
+Fontes valuation: [14958/g412, p.60,61](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=14958); [34545/g412, p.3,4,28,29,66](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34545); [24104/g412, p.72](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=24104).
+
+## TRPL4
+
+VQ: **INDETERMINATE**. VVAL: **INDETERMINATE**. [Ficha e atualizações](../research/b00s_four_variants_2014_2026/inputs/dossiers/02998611000104.json).
+
+ClasseON sem preço próprio reconciliado. RenovaçãoLei12.783 altera receitas; provisãoSEFAZ516,3 mi com benefício fiscal169,2 mi explica parte da queda, mas EBITDA exprovisão ainda−74,7%. Não reconstruir lucro antigo como se tarifa não tivesse mudado.
+
+**durability — SATISFACTORY.** Favorável: Rede de transmissão essencial, concessão principal prorrogada e50projetos em operação em2013. Contraponto: Prorrogação reduz substancialmente receita; demanda por transmissão não implica mesma rentabilidade. Julgamento: Contrato preserva duração operacional, distinguida da economia do capital. Fontes: [34923/g1653, p.1](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34923) (publicado 2014-02-27).
+
+**capital_economics — INDETERMINATE.** Favorável: Investimentos815,4 mi e menor energia não suprida em oito anos. Contraponto: Receita981,2 vs2.015 mi; EBITDA exSEFAZ346,5 vs1.370,5 mi. Julgamento: Quebra tarifária impede usar retorno histórico para comprovar adequação econômica do novo regime. Pendente: Retorno efetivo das concessões após prorrogação. Fontes: [34923/g1653, p.1,5](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34923) (publicado 2014-02-27).
+
+**earnings_reliability — SATISFACTORY.** Favorável: ProvisãoSEFAZ516,3 mi e efeito fiscal169,2 mi discriminados; crédito atualizadoIPCA+5,59% separado. Contraponto: CréditoSEFAZ de realização postergada e IRdiferido não equivalem a caixa. Julgamento: Reconhecimento da perda permite não confundir lucro baixo com ausência de transparência nem esconder queda estrutural após ajuste. Fontes: [34923/g1653, p.5](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34923) (publicado 2014-02-27).
+
+**financial_resilience — INDETERMINATE.** Favorável: Dívida reduz50,8% a1.239,5 mi; refinanciamento500 mi até2018. Contraponto: CAPEX815,4 mi junto ao EBITDA exprovisão346,5 mi; indenizações têm calendário distinto. Julgamento: Desalavancagem é favorável, mas compatibilidade completa de caixa da indenização, projetos e serviço futuro não está fechada. Pendente: Fluxo da indenização versus compromissos e rentabilidade recorrente. Fontes: [34923/g1653, p.1,5](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34923) (publicado 2014-02-27).
+
+**capital_allocation — INDETERMINATE.** Favorável: Liquidação de dívidas curtas e alongamento, implantação de projetos de transmissão. Contraponto: Receita estruturalmente reduzida e investimento elevado. Julgamento: Há disciplina de passivo demonstrada, mas retorno incremental dos projetos sob novo regime precisa de avaliação. Pendente: Retorno/cobertura do programa de expansão no novo regime. Fontes: [34923/g1653, p.1,5](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34923) (publicado 2014-02-27).
+
+**governance — INDETERMINATE.** Favorável: Nível1 e divulgação do conflitoSEFAZ, controladorISA identificado. Contraponto: Estado também acionista e devedor de crédito litigado; nívelde listagem não demonstra comutatividade. Julgamento: A provisão é favorável à transparência; governança exige análise das condições das relações materiais e proteçãoPN. Pendente: ProteçõesPN e contratos materiais com partes relacionadas. Fontes: [34923/g1653, p.2,5](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34923) (publicado 2014-02-27).
+
+Fontes valuation: [34923/g1653, p.1,2,5](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34923).
+
+## VIVT4
+
+VQ: **INDETERMINATE**. VVAL: **INDETERMINATE**. [Ficha e atualizações](../research/b00s_four_variants_2014_2026/inputs/dossiers/02558157000162.json).
+
+A incorporação de Vivo porR$31.222,630m consolidou suas operações somente desdeabril2011;2009/2010 são Telesp. A nota2012 oferece proforma2011 NI5.072,405m, mas não2009/2010. A reestruturação2013 intragrupo não desfaz a ruptura2011. Ganhos não recorrentes2012 de torres/provisões também exigem ponte líquida atribuível. Logo o P/L mecânico12,6388 não comprova preço<=15 de perímetro comparável.
+
+P/L calculado: 12.6388; só é admissível com perímetro e itens não recorrentes resolvidos.
+
+**durability — SATISFACTORY.** Favorável: Franquia integrada fixa e móvel;1,9m domicílios aptosFTTH,204mil clientesFTTH,73municípios4G; investimento em rede nacional de30milkm. Contraponto: Migração da telefonia fixa; regulação e competição; concessão não equivale a crescimento garantido. Julgamento: Infraestrutura instalada e licenças sustentam negócio recorrente com escala e alternativas tecnológicas. Fontes: [34836/g1653, p.29,30](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34836) (publicado 2014-02-26); [34836/g412, p.4,5,6,7](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34836) (publicado 2014-02-26).
+
+**capital_economics — INDETERMINATE.** Favorável: NI2013 3.715,945m, margem líquida10,7%; investimento contínuo em capacidade e qualidade. Contraponto: NI cai16,5% contra2012 inflado; goodwillVivo e preço de aquisição31,2b tornam ROE históricoTelesp inadequado para avaliar novo capital. Julgamento: Falta conciliar retorno pós-integração com capital total adquirido e efeitos2012; não concluir que crescimento de receita da incorporação é orgânico. Pendente: Retorno do capital comprado e lucro recorrente pós-integração comparável. Fontes: [34836/g1653, p.29](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34836) (publicado 2014-02-26); [24426/g412, p.39](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=24426) (publicado 2013-02-25).
+
+**earnings_reliability — INDETERMINATE.** Favorável: Notas identificam aquisição, goodwill, impostos e direitos;1T14 PDD207,9m/1,6% receita bruta. Contraponto: 2012 inclui venda de torres e reversão de provisões; lucro e fluxo comercial agregados não dão ainda ponte líquida dos extraordinários. Julgamento: O alerta material é específico e consta do original; não é reprovação da auditoria nem de lucros positivos. DFP24426 note28p84 identifies2012 gross tower sales1,462.916m, recognized gain after asset carrying values1,046.289m before income tax, with171.174m deferred;2011 tower sales476.038m also require consistent treatment. Pendente: Separar ganho de torres e provisões2012 após tributos e efeito recorrente no caixa. Fontes: [34836/g1653, p.29](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34836) (publicado 2014-02-26); [36939/g192, p.4](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36939) (publicado 2014-05-08); [24426/g412, p.49,52,76,84](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=24426) (publicado 2013-02-25).
+
+**financial_resilience — SATISFACTORY.** Favorável: 1T14 dívida bruta8.562,6m, líquida3.667,1m e exposição cambial100% coberta; dívida2013 equivale20,4%PL. Contraponto: Dívida líquida+103,8% em1T14 por dividendos/JCP; CAPEXtrimestral+41,4%. Julgamento: Baixa dívida relativa ao balanço, hedge e geração do negócio suportam operação; observar distribuição e capex, sem exigir caixa sempre crescente. Fontes: [34836/g1653, p.29](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34836) (publicado 2014-02-26); [36939/g192, p.4,5](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36939) (publicado 2014-05-08).
+
+**capital_allocation — INDETERMINATE.** Favorável: CAPEX6.033m, dos quais451mlicenças;59%projetos destinados a qualidade/expansão; manutenção do cobre explicitada. Contraponto: Dividendos declarados5,6b incluem exercícios distintos; dívida sobe após pagamentos. Julgamento: Não reprovar pelo payout de caixa misturado nem aprovar expansão sem retorno sobre o capital integrado. Pendente: Ponte de dividendos por competência e retorno incremental integração/FTTH. Fontes: [34836/g1653, p.29,30,31](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34836) (publicado 2014-02-26); [36939/g192, p.5](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36939) (publicado 2014-05-08).
+
+**governance — INDETERMINATE.** Favorável: One of twelve directors is elected separately by preferred shareholders; fiscal/audit and conduct procedures exist. The controller’s representatives resigned from Telecom Italia and temporarily waived nomination rights. PN has a10% dividend preference. Contraponto: Telefónica controls73.81% of all capital and91.76% of ON. DFP34836p9 and ITR36939pp4–5 disclose the R$15m sanction on Telefónica, a confidential compliance calendar and unimplemented structural conditions. The condition concerns the issuer’s controlling arrangement, not merely a remote minority position. Julgamento: The direct controlling group was sanctioned for breaching the purpose of the competition undertaking, and CADE conditioned sole Vivo control on either sharing control or exiting its indirect TIM interest. Q1 explicitly reports the approvals outstanding and the controller considering legal challenges. Internal conduct rules and a minority-preferred director do not demonstrate resolution of this concrete control conflict; no structural minority expropriation is presumed. Pendente: Pre-cut evidence that the controlling arrangement complies with the structural remedy, or a sufficiently specific and effective independent safeguard resolving the current conflict. Do not require absence of every possible conflict. Fontes: [34836/g412, p.7,8,9,85,86](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34836) (publicado 2014-02-26); [34836/g1653, p.32,33,34](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34836) (publicado 2014-02-26); [36939/g193, p.1,3,4,5](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36939) (publicado 2014-05-08).
+
+Fontes valuation: [14351/g412, p.7,8,10,11](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=14351); [24426/g412, p.39](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=24426); [34836/g1653, p.29](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34836); [34836/g412, p.1,2](https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34836).
+
+## Continuação cronológica
+
+Os dossiês abaixo preservam a indexação por empresa e os extratos das datas futuras. Somente o corte marcado como avaliado constitui decisão fundamentalista.
+
+- [BBAS3 / 00000000000191](../research/b00s_four_variants_2014_2026/inputs/dossiers/00000000000191.json)
+- [ELET3 / 00001180000126](../research/b00s_four_variants_2014_2026/inputs/dossiers/00001180000126.json)
+- [NEOE3 / 01083200000118](../research/b00s_four_variants_2014_2026/inputs/dossiers/01083200000118.json)
+- [PSSA3 / 02149205000169](../research/b00s_four_variants_2014_2026/inputs/dossiers/02149205000169.json)
+- [CPFE3 / 02429144000193](../research/b00s_four_variants_2014_2026/inputs/dossiers/02429144000193.json)
+- [TBLE3 / 02474103000119](../research/b00s_four_variants_2014_2026/inputs/dossiers/02474103000119.json)
+- [TIMP3 / 02558115000121](../research/b00s_four_variants_2014_2026/inputs/dossiers/02558115000121.json)
+- [VIVT4 / 02558157000162](../research/b00s_four_variants_2014_2026/inputs/dossiers/02558157000162.json)
+- [GETI4 / 02998609000127](../research/b00s_four_variants_2014_2026/inputs/dossiers/02998609000127.json)
+- [TRPL4 / 02998611000104](../research/b00s_four_variants_2014_2026/inputs/dossiers/02998611000104.json)
+- [EQTL3 / 03220438000173](../research/b00s_four_variants_2014_2026/inputs/dossiers/03220438000173.json)
+- [LIGT3 / 03378521000175](../research/b00s_four_variants_2014_2026/inputs/dossiers/03378521000175.json)
+- [ENBR3 / 03983431000103](../research/b00s_four_variants_2014_2026/inputs/dossiers/03983431000103.json)
+- [TIET4 / 04128563000110](../research/b00s_four_variants_2014_2026/inputs/dossiers/04128563000110.json)
+- [COCE5 / 07047251000170](../research/b00s_four_variants_2014_2026/inputs/dossiers/07047251000170.json)
+- [TAEE4 / 07859971000130](../research/b00s_four_variants_2014_2026/inputs/dossiers/07859971000130.json)
+- [CMIG4 / 17155730000164](../research/b00s_four_variants_2014_2026/inputs/dossiers/17155730000164.json)
+- [CSMG3 / 17281106000103](../research/b00s_four_variants_2014_2026/inputs/dossiers/17281106000103.json)
+- [BBSE3 / 17344597000194](../research/b00s_four_variants_2014_2026/inputs/dossiers/17344597000194.json)
+- [ABCB4 / 28195667000106](../research/b00s_four_variants_2014_2026/inputs/dossiers/28195667000106.json)
+- [IRBR3 / 33376989000191](../research/b00s_four_variants_2014_2026/inputs/dossiers/33376989000191.json)
+- [SBSP3 / 43776517000180](../research/b00s_four_variants_2014_2026/inputs/dossiers/43776517000180.json)
+- [BBDC4 / 60746948000112](../research/b00s_four_variants_2014_2026/inputs/dossiers/60746948000112.json)
+- [ITUB4 / 60872504000123](../research/b00s_four_variants_2014_2026/inputs/dossiers/60872504000123.json)
+- [BMGB4 / 61186680000174](../research/b00s_four_variants_2014_2026/inputs/dossiers/61186680000174.json)
+- [CPLE6 / 76483817000120](../research/b00s_four_variants_2014_2026/inputs/dossiers/76483817000120.json)
+- [SAPR4 / 76484013000145](../research/b00s_four_variants_2014_2026/inputs/dossiers/76484013000145.json)
+- [SANB4 / 90400888000142](../research/b00s_four_variants_2014_2026/inputs/dossiers/90400888000142.json)
+- [BRSR6 / 92702067000196](../research/b00s_four_variants_2014_2026/inputs/dossiers/92702067000196.json)

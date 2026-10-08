@@ -82,3 +82,12 @@ def test_accepted_control_observations_and_all_pr3_files_are_unchanged():
     assert len(names)==840
     changed=subprocess.check_output(['git','diff','--name-only',old,'--',*names],cwd=m.ROOT,text=True)
     assert not changed
+
+def test_reviews_were_committed_before_portfolio_replay():
+    import subprocess
+    freeze=json.loads((m.INPUT/'decision_freeze_record.json').read_text())
+    for filename,key in [('economic_reviews.json','economic_reviews_sha256'),('fundamental_decisions.json','decisions_sha256')]:
+        path=m.INPUT/filename
+        assert m.sha(path)==freeze[key]
+        committed=subprocess.check_output(['git','show',freeze['decision_commit']+':'+str(path.relative_to(m.ROOT))],cwd=m.ROOT)
+        assert hashlib.sha256(committed).hexdigest()==freeze[key]
