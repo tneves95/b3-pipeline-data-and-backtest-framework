@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "pytest": "500 passed in 14.16s",
+  "main_cases": 372,
+  "sensitivity_cases": 2604,
+  "main_failures": 0,
+  "original_engine_parity_cases": 18,
+  "max_gross_parity_difference": 2.3283064365386963e-10,
+  "v13_manifest_files_verified": 146,
+  "baseline_v11_2_files_verified": 71,
+  "v12_manifest_files_verified": 66,
+  "original_engine_sha256": "56672b7810cb543bd1fdf4887c21811713e3c803229855ccf4a16b30c3051d11",
+  "policies": [
+    "A",
+    "B2"
+  ],
+  "references": [
+    "B00 BH",
+    "B00S BH",
+    "B06 BH",
+    "B06S BH",
+    "BOVA11 BH"
+  ],
+  "start_capital": 100000,
+  "branch": "scenario/ir-100k-a-b2",
+  "base_commit": "fc62733d131819dfabd33a2960586bbc9ae90512",
+  "recovery": "Scripts restored from prior executed commands; all economic outputs recomputed from preserved local inputs, not manually recovered numbers",
+  "unrecovered_essential_files": []
+}
