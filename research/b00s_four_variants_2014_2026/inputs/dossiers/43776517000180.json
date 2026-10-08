@@ -1,0 +1,4460 @@
+{
+  "initial_assessment": {
+    "year": 2014,
+    "cutoff": "2014-06-30",
+    "ticker": "SBSP3",
+    "cnpj": "43776517000180",
+    "company": "CIA SANEAMENTO BÁSICO ESTADO SÃO PAULO",
+    "sector": "Saneamento",
+    "category": "INDETERMINATE",
+    "dimensions": {
+      "durability": {
+        "status": "INDETERMINATE",
+        "favorable": "Abastecimento de água, esgotamento sanitário, drenagem e manejo de águas pluviais urbanas, limpeza urbana, manejo de resíduos sólidos e energia.",
+        "missing": "Historical concession/contract durability, competitive position and pricing power",
+        "evidence": [
+          {
+            "cnpj": "43776517000180",
+            "received": "2013-05-29",
+            "name": "CIA SANEAMENTO BÁSICO ESTADO SÃO PAULO",
+            "sector": "Saneamento, Serv. Água e Gás",
+            "activity": "Abastecimento de água, esgotamento sanitário, drenagem e manejo de águas pluviais urbanas, limpeza urbana, manejo de resíduos sólidos e energia.",
+            "cvm": "014443",
+            "docid": "28794",
+            "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=28794"
+          }
+        ],
+        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+      },
+      "capital_economics": {
+        "status": "INDETERMINATE",
+        "favorable": {
+          "roe_parent_5": [
+            null,
+            0.17995722386457152,
+            0.12096474062097828,
+            0.17538228595797814,
+            0.15905355988116704
+          ],
+          "normalized_profit": 1987670589.451234
+        },
+        "missing": "Cycle-normalized ROIC/incremental returns or risk-adjusted prudential ROE; historical peer/capital comparison",
+        "evidence": [
+          {
+            "fiscal_year": 2009,
+            "metric": "attributable_ni",
+            "value": 1507747000.0,
+            "docid": "5881",
+            "received": "2011-03-29",
+            "reference": "2010-12-31",
+            "period_end": "2009-12-31",
+            "perimeter": "con",
+            "account": "3.11.01",
+            "description": "Atribuído a Sócios da Empresa Controladora",
+            "source": "dfp_cia_aberta_DRE_con_2010.csv",
+            "archive_sha256": "c6a9c95c2510e8a71bb583084492e9c52c3f423a3be56f1c5d2dd4f6960677ff",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2010.zip"
+          },
+          {
+            "fiscal_year": 2010,
+            "metric": "attributable_ni",
+            "value": 1630447000.0,
+            "docid": "15327",
+            "received": "2012-03-23",
+            "reference": "2011-12-31",
+            "period_end": "2010-12-31",
+            "perimeter": "con",
+            "account": "3.11.01",
+            "description": "Atribuído a Sócios da Empresa Controladora",
+            "source": "dfp_cia_aberta_DRE_con_2011.csv",
+            "archive_sha256": "858423fba40124d7a30abea4e70248f7251e1d2c792e9fcece5a57afd3115f34",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2011.zip"
+          },
+          {
+            "fiscal_year": 2011,
+            "metric": "attributable_ni",
+            "value": 1223419000.0,
+            "docid": "25223",
+            "received": "2013-03-25",
+            "reference": "2012-12-31",
+            "period_end": "2011-12-31",
+            "perimeter": "con",
+            "account": "3.11.01",
+            "description": "Atribuído a Sócios da Empresa Controladora",
+            "source": "dfp_cia_aberta_DRE_con_2012.csv",
+            "archive_sha256": "3aff7a726d324d29924887eed45bbc58bc30b66cd9079bafe701d55efdfe0849",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2012.zip"
+          },
+          {
+            "fiscal_year": 2012,
+            "metric": "attributable_ni",
+            "value": 1911900000.0,
+            "docid": "25223",
+            "received": "2013-03-25",
+            "reference": "2012-12-31",
+            "period_end": "2012-12-31",
+            "perimeter": "con",
+            "account": "3.11.01",
+            "description": "Atribuído a Sócios da Empresa Controladora",
+            "source": "dfp_cia_aberta_DRE_con_2012.csv",
+            "archive_sha256": "3aff7a726d324d29924887eed45bbc58bc30b66cd9079bafe701d55efdfe0849",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2012.zip"
+          },
+          {
+            "fiscal_year": 2013,
+            "metric": "attributable_ni",
+            "value": 1923559000.0,
+            "docid": "35848",
+            "received": "2014-03-28",
+            "reference": "2013-12-31",
+            "period_end": "2013-12-31",
+            "perimeter": "ind",
+            "account": "3.11",
+            "description": "Lucro/Prejuízo do Período",
+            "source": "dfp_cia_aberta_DRE_ind_2013.csv",
+            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+          }
+        ],
+        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+      },
+      "earnings_reliability": {
+        "status": "INDETERMINATE",
+        "favorable": {
+          "positive_attributable_years": 5,
+          "audit_records": 4
+        },
+        "missing": "Profit/cash/recurring earnings bridge; provisions and extraordinary items reviewed in dated notes",
+        "evidence": [
+          {
+            "docid": "35848",
+            "received": "2014-03-28",
+            "reference": "2013-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2013.csv",
+            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+          },
+          {
+            "docid": "35848",
+            "received": "2014-03-28",
+            "reference": "2013-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2013.csv",
+            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+          },
+          {
+            "docid": "35848",
+            "received": "2014-03-28",
+            "reference": "2013-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2013.csv",
+            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+          },
+          {
+            "docid": "35848",
+            "received": "2014-03-28",
+            "reference": "2013-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2013.csv",
+            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+          }
+        ],
+        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+      },
+      "financial_resilience": {
+        "status": "INDETERMINATE",
+        "favorable": {
+          "parent_equity_latest": 12930801000.0
+        },
+        "missing": "Debt maturity, interest coverage and committed maintenance/expansion CAPEX",
+        "evidence": [
+          {
+            "docid": "35848",
+            "received": "2014-03-28",
+            "reference": "2013-12-31",
+            "period_end": "2013-12-31",
+            "perimeter": "ind",
+            "account": "2.03",
+            "description": "Patrimônio Líquido",
+            "source": "dfp_cia_aberta_BPP_ind_2013.csv",
+            "archive_sha256": "",
+            "url": ""
+          }
+        ],
+        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+      },
+      "capital_allocation": {
+        "status": "INDETERMINATE",
+        "favorable": {
+          "historical_payout": [
+            0.2739005144,
+            0.2943926291,
+            0.4979186886,
+            0.2941599252,
+            null
+          ],
+          "distributions": [
+            394157357.0,
+            455992000.0,
+            578705000.0,
+            534277000.0,
+            null
+          ]
+        },
+        "missing": "Maintenance versus expansion CAPEX, sustainable dividends, adjusted per-share and incremental economic growth",
+        "evidence": [
+          {
+            "docid": "26457",
+            "received": "2013-04-30",
+            "reference": "",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "fre_cia_aberta_distribuicao_dividendos_2012.csv",
+            "archive_sha256": "cd48dd32bab6d410dc523a3de0d27ca3bb7ebd8c403e6fa1de647b1454fbd069",
+            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=26457",
+            "fiscal_year": 2009,
+            "raw": {
+              "CNPJ_Companhia": "43.776.517/0001-80",
+              "Data_Referencia": "2012-01-01",
+              "Versao": "7",
+              "ID_Documento": "26457",
+              "Nome_Companhia": "CIA SANEAMENTO BASICO EST SAO PAULO",
+              "Data_Inicio_Exercicio_Social": "2009-01-01",
+              "Data_Fim_Exercicio_Social": "2009-12-31",
+              "Lucro_Liquido_Ajustado": "1439053000.00",
+              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "4.67089451",
+              "Lucro_Liquido_Retido": "1113590000.00",
+              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "27.39005144",
+              "Dividendo_Distribuido_Total": "394157357.00",
+              "Data_Aprovacao_Retencao": "2010-04-29"
+            }
+          },
+          {
+            "docid": "36919",
+            "received": "2014-05-07",
+            "reference": "",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "fre_cia_aberta_distribuicao_dividendos_2013.csv",
+            "archive_sha256": "2c746f2cf0636236972a06be1d4e15dabaac15281e88753505acae9385a76f79",
+            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=36919",
+            "fiscal_year": 2010,
+            "raw": {
+              "CNPJ_Companhia": "43.776.517/0001-80",
+              "Data_Referencia": "2013-01-01",
+              "Versao": "4",
+              "ID_Documento": "36919",
+              "Nome_Companhia": "CIA SANEAMENTO BASICO EST SAO PAULO",
+              "Data_Inicio_Exercicio_Social": "2010-01-01",
+              "Data_Fim_Exercicio_Social": "2010-12-31",
+              "Lucro_Liquido_Ajustado": "1548924650.00",
+              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "4.70978537",
+              "Lucro_Liquido_Retido": "1174455000.00",
+              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "29.43926291",
+              "Dividendo_Distribuido_Total": "455992000.00",
+              "Data_Aprovacao_Retencao": "2011-04-28"
+            }
+          },
+          {
+            "docid": "36919",
+            "received": "2014-05-07",
+            "reference": "",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "fre_cia_aberta_distribuicao_dividendos_2013.csv",
+            "archive_sha256": "2c746f2cf0636236972a06be1d4e15dabaac15281e88753505acae9385a76f79",
+            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=36919",
+            "fiscal_year": 2011,
+            "raw": {
+              "CNPJ_Companhia": "43.776.517/0001-80",
+              "Data_Referencia": "2013-01-01",
+              "Versao": "4",
+              "ID_Documento": "36919",
+              "Nome_Companhia": "CIA SANEAMENTO BASICO EST SAO PAULO",
+              "Data_Inicio_Exercicio_Social": "2011-01-01",
+              "Data_Fim_Exercicio_Social": "2011-12-31",
+              "Lucro_Liquido_Ajustado": "1162248000.00",
+              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "5.48749011",
+              "Lucro_Liquido_Retido": "644714000.00",
+              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "49.79186886",
+              "Dividendo_Distribuido_Total": "578705000.00",
+              "Data_Aprovacao_Retencao": "2012-04-23"
+            }
+          },
+          {
+            "docid": "36919",
+            "received": "2014-05-07",
+            "reference": "",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "fre_cia_aberta_distribuicao_dividendos_2013.csv",
+            "archive_sha256": "2c746f2cf0636236972a06be1d4e15dabaac15281e88753505acae9385a76f79",
+            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=36919",
+            "fiscal_year": 2012,
+            "raw": {
+              "CNPJ_Companhia": "43.776.517/0001-80",
+              "Data_Referencia": "2013-01-01",
+              "Versao": "4",
+              "ID_Documento": "36919",
+              "Nome_Companhia": "CIA SANEAMENTO BASICO EST SAO PAULO",
+              "Data_Inicio_Exercicio_Social": "2012-01-01",
+              "Data_Fim_Exercicio_Social": "2012-12-31",
+              "Lucro_Liquido_Ajustado": "1816305000.00",
+              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "4.56039852",
+              "Lucro_Liquido_Retido": "1377623000.00",
+              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "29.41599252",
+              "Dividendo_Distribuido_Total": "534277000.00",
+              "Data_Aprovacao_Retencao": "2013-04-22"
+            }
+          }
+        ],
+        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+      },
+      "governance": {
+        "status": "INDETERMINATE",
+        "favorable": {
+          "dated_shareholder_right_records": 4,
+          "dated_related_party_records": 29
+        },
+        "missing": "Review of material conflicts, related parties and audit opinions before cutoff; no ex-post controversy inference",
+        "evidence": [
+          {
+            "docid": "35848",
+            "received": "2014-03-28",
+            "reference": "2013-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2013.csv",
+            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+          },
+          {
+            "docid": "35848",
+            "received": "2014-03-28",
+            "reference": "2013-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2013.csv",
+            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+          },
+          {
+            "docid": "35848",
+            "received": "2014-03-28",
+            "reference": "2013-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2013.csv",
+            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+          },
+          {
+            "docid": "35848",
+            "received": "2014-03-28",
+            "reference": "2013-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2013.csv",
+            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+          }
+        ],
+        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+      }
+    },
+    "limitation": "Structured CVM facts establish availability, not all six economic conclusions. No scoring or future outcomes.",
+    "special_case": ""
+  },
+  "annual_evidence_updates": [
+    {
+      "year": 2015,
+      "cutoff": "2015-06-30",
+      "ticker": "SBSP3",
+      "category": "INDETERMINATE",
+      "special_case": "",
+      "assessment_ref": "43776517000180:2014",
+      "classification_changed": false,
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "Abastecimento de água, esgotamento sanitário, drenagem e manejo de águas pluviais urbanas, limpeza urbana, manejo de resíduos sólidos e energia.",
+          "evidence": [
+            {
+              "cnpj": "43776517000180",
+              "received": "2015-05-12",
+              "name": "CIA SANEAMENTO BÁSICO ESTADO SÃO PAULO",
+              "sector": "Saneamento, Serv. Água e Gás",
+              "activity": "Abastecimento de água, esgotamento sanitário, drenagem e manejo de águas pluviais urbanas, limpeza urbana, manejo de resíduos sólidos e energia.",
+              "cvm": "014443",
+              "docid": "47009",
+              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=47009"
+            }
+          ]
+        },
+        "capital_economics": {
+          "favorable": {
+            "roe_parent_5": [
+              0.17995722386457152,
+              0.12096474062097828,
+              0.17538228595797814,
+              0.15905355988116704,
+              0.06883750551358396
+            ],
+            "normalized_profit": 2156087691.6681237
+          },
+          "evidence": [
+            {
+              "fiscal_year": 2010,
+              "metric": "attributable_ni",
+              "value": 1630447000.0,
+              "docid": "15327",
+              "received": "2012-03-23",
+              "reference": "2011-12-31",
+              "period_end": "2010-12-31",
+              "perimeter": "con",
+              "account": "3.11.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2011.csv",
+              "archive_sha256": "858423fba40124d7a30abea4e70248f7251e1d2c792e9fcece5a57afd3115f34",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2011.zip"
+            },
+            {
+              "fiscal_year": 2011,
+              "metric": "attributable_ni",
+              "value": 1223419000.0,
+              "docid": "25223",
+              "received": "2013-03-25",
+              "reference": "2012-12-31",
+              "period_end": "2011-12-31",
+              "perimeter": "con",
+              "account": "3.11.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2012.csv",
+              "archive_sha256": "3aff7a726d324d29924887eed45bbc58bc30b66cd9079bafe701d55efdfe0849",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2012.zip"
+            },
+            {
+              "fiscal_year": 2012,
+              "metric": "attributable_ni",
+              "value": 1911900000.0,
+              "docid": "25223",
+              "received": "2013-03-25",
+              "reference": "2012-12-31",
+              "period_end": "2012-12-31",
+              "perimeter": "con",
+              "account": "3.11.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2012.csv",
+              "archive_sha256": "3aff7a726d324d29924887eed45bbc58bc30b66cd9079bafe701d55efdfe0849",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2012.zip"
+            },
+            {
+              "fiscal_year": 2013,
+              "metric": "attributable_ni",
+              "value": 1923559000.0,
+              "docid": "45337",
+              "received": "2015-03-26",
+              "reference": "2014-12-31",
+              "period_end": "2013-12-31",
+              "perimeter": "ind",
+              "account": "3.11",
+              "description": "Lucro/Prejuízo do Período",
+              "source": "dfp_cia_aberta_DRE_ind_2014.csv",
+              "archive_sha256": "b8795dba134754475a485c0f88b6542face6613bb418d261caa011d90e032f28",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2014.zip"
+            },
+            {
+              "fiscal_year": 2014,
+              "metric": "attributable_ni",
+              "value": 902983000.0,
+              "docid": "45337",
+              "received": "2015-03-26",
+              "reference": "2014-12-31",
+              "period_end": "2014-12-31",
+              "perimeter": "ind",
+              "account": "3.11",
+              "description": "Lucro/Prejuízo do Período",
+              "source": "dfp_cia_aberta_DRE_ind_2014.csv",
+              "archive_sha256": "b8795dba134754475a485c0f88b6542face6613bb418d261caa011d90e032f28",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2014.zip"
+            }
+          ]
+        },
+        "earnings_reliability": {
+          "favorable": {
+            "positive_attributable_years": 5,
+            "audit_records": 4
+          },
+          "evidence": [
+            {
+              "docid": "45337",
+              "received": "2015-03-26",
+              "reference": "2014-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2014.csv",
+              "archive_sha256": "b8795dba134754475a485c0f88b6542face6613bb418d261caa011d90e032f28",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2014.zip"
+            },
+            {
+              "docid": "45337",
+              "received": "2015-03-26",
+              "reference": "2014-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2014.csv",
+              "archive_sha256": "b8795dba134754475a485c0f88b6542face6613bb418d261caa011d90e032f28",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2014.zip"
+            },
+            {
+              "docid": "45337",
+              "received": "2015-03-26",
+              "reference": "2014-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2014.csv",
+              "archive_sha256": "b8795dba134754475a485c0f88b6542face6613bb418d261caa011d90e032f28",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2014.zip"
+            },
+            {
+              "docid": "45337",
+              "received": "2015-03-26",
+              "reference": "2014-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2014.csv",
+              "archive_sha256": "b8795dba134754475a485c0f88b6542face6613bb418d261caa011d90e032f28",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2014.zip"
+            }
+          ]
+        },
+        "financial_resilience": {
+          "favorable": {
+            "parent_equity_latest": 13304403000.0
+          },
+          "evidence": [
+            {
+              "docid": "45337",
+              "received": "2015-03-26",
+              "reference": "2014-12-31",
+              "period_end": "2014-12-31",
+              "perimeter": "ind",
+              "account": "2.03",
+              "description": "Patrimônio Líquido",
+              "source": "dfp_cia_aberta_BPP_ind_2014.csv",
+              "archive_sha256": "",
+              "url": ""
+            }
+          ]
+        },
+        "capital_allocation": {
+          "favorable": {
+            "historical_payout": [
+              0.2943926291,
+              0.49791864519999995,
+              0.3383120848,
+              0.29411765,
+              null
+            ],
+            "distributions": [
+              455992000.0,
+              578705000.0,
+              534277000.0,
+              537464960.0,
+              null
+            ]
+          },
+          "evidence": [
+            {
+              "docid": "36919",
+              "received": "2014-05-07",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2013.csv",
+              "archive_sha256": "2c746f2cf0636236972a06be1d4e15dabaac15281e88753505acae9385a76f79",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=36919",
+              "fiscal_year": 2010,
+              "raw": {
+                "CNPJ_Companhia": "43.776.517/0001-80",
+                "Data_Referencia": "2013-01-01",
+                "Versao": "4",
+                "ID_Documento": "36919",
+                "Nome_Companhia": "CIA SANEAMENTO BASICO EST SAO PAULO",
+                "Data_Inicio_Exercicio_Social": "2010-01-01",
+                "Data_Fim_Exercicio_Social": "2010-12-31",
+                "Lucro_Liquido_Ajustado": "1548924650.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "4.70978537",
+                "Lucro_Liquido_Retido": "1174455000.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "29.43926291",
+                "Dividendo_Distribuido_Total": "455992000.00",
+                "Data_Aprovacao_Retencao": "2011-04-28"
+              }
+            },
+            {
+              "docid": "47008",
+              "received": "2015-05-12",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2014.csv",
+              "archive_sha256": "8797e5b66f4c126d9266746ab704bdb0d787ed5d92dca917ceffa2749b150a50",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=47008",
+              "fiscal_year": 2011,
+              "raw": {
+                "CNPJ_Companhia": "43.776.517/0001-80",
+                "Data_Referencia": "2014-01-01",
+                "Versao": "13",
+                "ID_Documento": "47008",
+                "Nome_Companhia": "CIA SANEAMENTO BASICO EST SAO PAULO",
+                "Data_Inicio_Exercicio_Social": "2011-01-01",
+                "Data_Fim_Exercicio_Social": "2011-12-31",
+                "Lucro_Liquido_Ajustado": "1162248101.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "5.48749011",
+                "Lucro_Liquido_Retido": "644714000.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "49.79186452",
+                "Dividendo_Distribuido_Total": "578705000.00",
+                "Data_Aprovacao_Retencao": "2012-04-23"
+              }
+            },
+            {
+              "docid": "47008",
+              "received": "2015-05-12",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2014.csv",
+              "archive_sha256": "8797e5b66f4c126d9266746ab704bdb0d787ed5d92dca917ceffa2749b150a50",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=47008",
+              "fiscal_year": 2012,
+              "raw": {
+                "CNPJ_Companhia": "43.776.517/0001-80",
+                "Data_Referencia": "2014-01-01",
+                "Versao": "13",
+                "ID_Documento": "47008",
+                "Nome_Companhia": "CIA SANEAMENTO BASICO EST SAO PAULO",
+                "Data_Inicio_Exercicio_Social": "2012-01-01",
+                "Data_Fim_Exercicio_Social": "2012-12-31",
+                "Lucro_Liquido_Ajustado": "1816305203.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "5.82670263",
+                "Lucro_Liquido_Retido": "1377623000.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "33.83120848",
+                "Dividendo_Distribuido_Total": "534277000.00",
+                "Data_Aprovacao_Retencao": "2013-04-22"
+              }
+            },
+            {
+              "docid": "47008",
+              "received": "2015-05-12",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2014.csv",
+              "archive_sha256": "8797e5b66f4c126d9266746ab704bdb0d787ed5d92dca917ceffa2749b150a50",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=47008",
+              "fiscal_year": 2013,
+              "raw": {
+                "CNPJ_Companhia": "43.776.517/0001-80",
+                "Data_Referencia": "2014-01-01",
+                "Versao": "13",
+                "ID_Documento": "47008",
+                "Nome_Companhia": "CIA SANEAMENTO BASICO EST SAO PAULO",
+                "Data_Inicio_Exercicio_Social": "2013-01-01",
+                "Data_Fim_Exercicio_Social": "2013-12-31",
+                "Lucro_Liquido_Ajustado": "1827380864.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "4.15647000",
+                "Lucro_Liquido_Retido": "1386093844.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "29.41176500",
+                "Dividendo_Distribuido_Total": "537464960.00",
+                "Data_Aprovacao_Retencao": "2014-03-28"
+              }
+            }
+          ]
+        },
+        "governance": {
+          "favorable": {
+            "dated_shareholder_right_records": 5,
+            "dated_related_party_records": 35
+          },
+          "evidence": [
+            {
+              "docid": "45337",
+              "received": "2015-03-26",
+              "reference": "2014-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2014.csv",
+              "archive_sha256": "b8795dba134754475a485c0f88b6542face6613bb418d261caa011d90e032f28",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2014.zip"
+            },
+            {
+              "docid": "45337",
+              "received": "2015-03-26",
+              "reference": "2014-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2014.csv",
+              "archive_sha256": "b8795dba134754475a485c0f88b6542face6613bb418d261caa011d90e032f28",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2014.zip"
+            },
+            {
+              "docid": "45337",
+              "received": "2015-03-26",
+              "reference": "2014-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2014.csv",
+              "archive_sha256": "b8795dba134754475a485c0f88b6542face6613bb418d261caa011d90e032f28",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2014.zip"
+            },
+            {
+              "docid": "45337",
+              "received": "2015-03-26",
+              "reference": "2014-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2014.csv",
+              "archive_sha256": "b8795dba134754475a485c0f88b6542face6613bb418d261caa011d90e032f28",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2014.zip"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "year": 2016,
+      "cutoff": "2016-06-30",
+      "ticker": "SBSP3",
+      "category": "INDETERMINATE",
+      "special_case": "",
+      "assessment_ref": "43776517000180:2014",
+      "classification_changed": false,
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "Abastecimento de água, esgotamento sanitário, drenagem e manejo de águas pluviais urbanas, limpeza urbana, manejo de resíduos sólidos e energia.",
+          "evidence": [
+            {
+              "cnpj": "43776517000180",
+              "received": "2015-05-12",
+              "name": "CIA SANEAMENTO BÁSICO ESTADO SÃO PAULO",
+              "sector": "Saneamento, Serv. Água e Gás",
+              "activity": "Abastecimento de água, esgotamento sanitário, drenagem e manejo de águas pluviais urbanas, limpeza urbana, manejo de resíduos sólidos e energia.",
+              "cvm": "014443",
+              "docid": "47009",
+              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=47009"
+            }
+          ]
+        },
+        "capital_economics": {
+          "favorable": {
+            "roe_parent_5": [
+              0.12096474062097828,
+              0.17538228595797814,
+              0.15905355988116704,
+              0.06883750551358396,
+              0.03969348442909738
+            ],
+            "normalized_profit": 1680454651.1537886
+          },
+          "evidence": [
+            {
+              "fiscal_year": 2011,
+              "metric": "attributable_ni",
+              "value": 1223419000.0,
+              "docid": "25223",
+              "received": "2013-03-25",
+              "reference": "2012-12-31",
+              "period_end": "2011-12-31",
+              "perimeter": "con",
+              "account": "3.11.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2012.csv",
+              "archive_sha256": "3aff7a726d324d29924887eed45bbc58bc30b66cd9079bafe701d55efdfe0849",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2012.zip"
+            },
+            {
+              "fiscal_year": 2012,
+              "metric": "attributable_ni",
+              "value": 1911900000.0,
+              "docid": "25223",
+              "received": "2013-03-25",
+              "reference": "2012-12-31",
+              "period_end": "2012-12-31",
+              "perimeter": "con",
+              "account": "3.11.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2012.csv",
+              "archive_sha256": "3aff7a726d324d29924887eed45bbc58bc30b66cd9079bafe701d55efdfe0849",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2012.zip"
+            },
+            {
+              "fiscal_year": 2013,
+              "metric": "attributable_ni",
+              "value": 1923559000.0,
+              "docid": "45337",
+              "received": "2015-03-26",
+              "reference": "2014-12-31",
+              "period_end": "2013-12-31",
+              "perimeter": "ind",
+              "account": "3.11",
+              "description": "Lucro/Prejuízo do Período",
+              "source": "dfp_cia_aberta_DRE_ind_2014.csv",
+              "archive_sha256": "b8795dba134754475a485c0f88b6542face6613bb418d261caa011d90e032f28",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2014.zip"
+            },
+            {
+              "fiscal_year": 2014,
+              "metric": "attributable_ni",
+              "value": 902983000.0,
+              "docid": "54474",
+              "received": "2016-03-25",
+              "reference": "2015-12-31",
+              "period_end": "2014-12-31",
+              "perimeter": "ind",
+              "account": "3.11",
+              "description": "Lucro/Prejuízo do Período",
+              "source": "dfp_cia_aberta_DRE_ind_2015.csv",
+              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
+            },
+            {
+              "fiscal_year": 2015,
+              "metric": "attributable_ni",
+              "value": 536279000.0,
+              "docid": "54474",
+              "received": "2016-03-25",
+              "reference": "2015-12-31",
+              "period_end": "2015-12-31",
+              "perimeter": "ind",
+              "account": "3.11",
+              "description": "Lucro/Prejuízo do Período",
+              "source": "dfp_cia_aberta_DRE_ind_2015.csv",
+              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
+            }
+          ]
+        },
+        "earnings_reliability": {
+          "favorable": {
+            "positive_attributable_years": 5,
+            "audit_records": 4
+          },
+          "evidence": [
+            {
+              "docid": "54474",
+              "received": "2016-03-25",
+              "reference": "2015-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2015.csv",
+              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
+            },
+            {
+              "docid": "54474",
+              "received": "2016-03-25",
+              "reference": "2015-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2015.csv",
+              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
+            },
+            {
+              "docid": "54474",
+              "received": "2016-03-25",
+              "reference": "2015-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2015.csv",
+              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
+            },
+            {
+              "docid": "54474",
+              "received": "2016-03-25",
+              "reference": "2015-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2015.csv",
+              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
+            }
+          ]
+        },
+        "financial_resilience": {
+          "favorable": {
+            "parent_equity_latest": 13716606000.0
+          },
+          "evidence": [
+            {
+              "docid": "54474",
+              "received": "2016-03-25",
+              "reference": "2015-12-31",
+              "period_end": "2015-12-31",
+              "perimeter": "ind",
+              "account": "2.03",
+              "description": "Patrimônio Líquido",
+              "source": "dfp_cia_aberta_BPP_ind_2015.csv",
+              "archive_sha256": "",
+              "url": ""
+            }
+          ]
+        },
+        "capital_allocation": {
+          "favorable": {
+            "historical_payout": [
+              0.49791864519999995,
+              0.29415596,
+              0.294117647,
+              0.294117647,
+              null
+            ],
+            "distributions": [
+              578705000.0,
+              534277000.0,
+              537464960.0,
+              252304062.0,
+              null
+            ]
+          },
+          "evidence": [
+            {
+              "docid": "47008",
+              "received": "2015-05-12",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2014.csv",
+              "archive_sha256": "8797e5b66f4c126d9266746ab704bdb0d787ed5d92dca917ceffa2749b150a50",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=47008",
+              "fiscal_year": 2011,
+              "raw": {
+                "CNPJ_Companhia": "43.776.517/0001-80",
+                "Data_Referencia": "2014-01-01",
+                "Versao": "13",
+                "ID_Documento": "47008",
+                "Nome_Companhia": "CIA SANEAMENTO BASICO EST SAO PAULO",
+                "Data_Inicio_Exercicio_Social": "2011-01-01",
+                "Data_Fim_Exercicio_Social": "2011-12-31",
+                "Lucro_Liquido_Ajustado": "1162248101.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "5.48749011",
+                "Lucro_Liquido_Retido": "644714000.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "49.79186452",
+                "Dividendo_Distribuido_Total": "578705000.00",
+                "Data_Aprovacao_Retencao": "2012-04-23"
+              }
+            },
+            {
+              "docid": "56731",
+              "received": "2016-05-19",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2015.csv",
+              "archive_sha256": "21be79d408fcc08e9edafcee941f02a339c5664e96b3ad83afd84f27ed838d60",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=56731",
+              "fiscal_year": 2012,
+              "raw": {
+                "CNPJ_Companhia": "43.776.517/0001-80",
+                "Data_Referencia": "2015-01-01",
+                "Versao": "13",
+                "ID_Documento": "56731",
+                "Nome_Companhia": "CIA SANEAMENTO BASICO EST SAO PAULO",
+                "Data_Inicio_Exercicio_Social": "2012-01-01",
+                "Data_Fim_Exercicio_Social": "2012-12-31",
+                "Lucro_Liquido_Ajustado": "1816305203.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "16.31929870",
+                "Lucro_Liquido_Retido": "1377623000.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "29.41559600",
+                "Dividendo_Distribuido_Total": "534277000.00",
+                "Data_Aprovacao_Retencao": "2013-04-22"
+              }
+            },
+            {
+              "docid": "56731",
+              "received": "2016-05-19",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2015.csv",
+              "archive_sha256": "21be79d408fcc08e9edafcee941f02a339c5664e96b3ad83afd84f27ed838d60",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=56731",
+              "fiscal_year": 2013,
+              "raw": {
+                "CNPJ_Companhia": "43.776.517/0001-80",
+                "Data_Referencia": "2015-01-01",
+                "Versao": "13",
+                "ID_Documento": "56731",
+                "Nome_Companhia": "CIA SANEAMENTO BASICO EST SAO PAULO",
+                "Data_Inicio_Exercicio_Social": "2013-01-01",
+                "Data_Fim_Exercicio_Social": "2013-12-31",
+                "Lucro_Liquido_Ajustado": "1827380864.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "14.87578150",
+                "Lucro_Liquido_Retido": "1386093844.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "29.41176470",
+                "Dividendo_Distribuido_Total": "537464960.00",
+                "Data_Aprovacao_Retencao": "2015-04-30"
+              }
+            },
+            {
+              "docid": "56731",
+              "received": "2016-05-19",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2015.csv",
+              "archive_sha256": "21be79d408fcc08e9edafcee941f02a339c5664e96b3ad83afd84f27ed838d60",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=56731",
+              "fiscal_year": 2014,
+              "raw": {
+                "CNPJ_Companhia": "43.776.517/0001-80",
+                "Data_Referencia": "2015-01-01",
+                "Versao": "13",
+                "ID_Documento": "56731",
+                "Nome_Companhia": "CIA SANEAMENTO BASICO EST SAO PAULO",
+                "Data_Inicio_Exercicio_Social": "2014-01-01",
+                "Data_Fim_Exercicio_Social": "2014-12-31",
+                "Lucro_Liquido_Ajustado": "857833809.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "6.78709900",
+                "Lucro_Liquido_Retido": "650678896.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "29.41176470",
+                "Dividendo_Distribuido_Total": "252304062.00",
+                "Data_Aprovacao_Retencao": "2015-04-30"
+              }
+            }
+          ]
+        },
+        "governance": {
+          "favorable": {
+            "dated_shareholder_right_records": 6,
+            "dated_related_party_records": 42
+          },
+          "evidence": [
+            {
+              "docid": "54474",
+              "received": "2016-03-25",
+              "reference": "2015-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2015.csv",
+              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
+            },
+            {
+              "docid": "54474",
+              "received": "2016-03-25",
+              "reference": "2015-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2015.csv",
+              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
+            },
+            {
+              "docid": "54474",
+              "received": "2016-03-25",
+              "reference": "2015-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2015.csv",
+              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
+            },
+            {
+              "docid": "54474",
+              "received": "2016-03-25",
+              "reference": "2015-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2015.csv",
+              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "year": 2017,
+      "cutoff": "2017-06-30",
+      "ticker": "SBSP3",
+      "category": "INDETERMINATE",
+      "special_case": "",
+      "assessment_ref": "43776517000180:2014",
+      "classification_changed": false,
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "Abastecimento de água, esgotamento sanitário, drenagem e manejo de águas pluviais urbanas, limpeza urbana, manejo de resíduos sólidos e energia.",
+          "evidence": [
+            {
+              "cnpj": "43776517000180",
+              "received": "2017-05-31",
+              "name": "CIA SANEAMENTO BÁSICO ESTADO SÃO PAULO",
+              "sector": "Saneamento, Serv. Água e Gás",
+              "activity": "Abastecimento de água, esgotamento sanitário, drenagem e manejo de águas pluviais urbanas, limpeza urbana, manejo de resíduos sólidos e energia.",
+              "cvm": "014443",
+              "docid": "66591",
+              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=66591"
+            }
+          ]
+        },
+        "capital_economics": {
+          "favorable": {
+            "roe_parent_5": [
+              0.17538228595797814,
+              0.15905355988116704,
+              0.06883750551358396,
+              0.03969348442909738,
+              0.20230069402206913
+            ],
+            "normalized_profit": 2441858682.0300207
+          },
+          "evidence": [
+            {
+              "fiscal_year": 2012,
+              "metric": "attributable_ni",
+              "value": 1911900000.0,
+              "docid": "25223",
+              "received": "2013-03-25",
+              "reference": "2012-12-31",
+              "period_end": "2012-12-31",
+              "perimeter": "con",
+              "account": "3.11.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2012.csv",
+              "archive_sha256": "3aff7a726d324d29924887eed45bbc58bc30b66cd9079bafe701d55efdfe0849",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2012.zip"
+            },
+            {
+              "fiscal_year": 2013,
+              "metric": "attributable_ni",
+              "value": 1923559000.0,
+              "docid": "45337",
+              "received": "2015-03-26",
+              "reference": "2014-12-31",
+              "period_end": "2013-12-31",
+              "perimeter": "ind",
+              "account": "3.11",
+              "description": "Lucro/Prejuízo do Período",
+              "source": "dfp_cia_aberta_DRE_ind_2014.csv",
+              "archive_sha256": "b8795dba134754475a485c0f88b6542face6613bb418d261caa011d90e032f28",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2014.zip"
+            },
+            {
+              "fiscal_year": 2014,
+              "metric": "attributable_ni",
+              "value": 902983000.0,
+              "docid": "54474",
+              "received": "2016-03-25",
+              "reference": "2015-12-31",
+              "period_end": "2014-12-31",
+              "perimeter": "ind",
+              "account": "3.11",
+              "description": "Lucro/Prejuízo do Período",
+              "source": "dfp_cia_aberta_DRE_ind_2015.csv",
+              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
+            },
+            {
+              "fiscal_year": 2015,
+              "metric": "attributable_ni",
+              "value": 536279000.0,
+              "docid": "63644",
+              "received": "2017-03-27",
+              "reference": "2016-12-31",
+              "period_end": "2015-12-31",
+              "perimeter": "ind",
+              "account": "3.11",
+              "description": "Lucro/Prejuízo do Período",
+              "source": "dfp_cia_aberta_DRE_ind_2016.csv",
+              "archive_sha256": "772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip"
+            },
+            {
+              "fiscal_year": 2016,
+              "metric": "attributable_ni",
+              "value": 2947098000.0,
+              "docid": "63644",
+              "received": "2017-03-27",
+              "reference": "2016-12-31",
+              "period_end": "2016-12-31",
+              "perimeter": "ind",
+              "account": "3.11",
+              "description": "Lucro/Prejuízo do Período",
+              "source": "dfp_cia_aberta_DRE_ind_2016.csv",
+              "archive_sha256": "772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip"
+            }
+          ]
+        },
+        "earnings_reliability": {
+          "favorable": {
+            "positive_attributable_years": 5,
+            "audit_records": 5
+          },
+          "evidence": [
+            {
+              "docid": "63644",
+              "received": "2017-03-27",
+              "reference": "2016-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2016.csv",
+              "archive_sha256": "772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip"
+            },
+            {
+              "docid": "63644",
+              "received": "2017-03-27",
+              "reference": "2016-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2016.csv",
+              "archive_sha256": "772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip"
+            },
+            {
+              "docid": "63644",
+              "received": "2017-03-27",
+              "reference": "2016-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2016.csv",
+              "archive_sha256": "772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip"
+            },
+            {
+              "docid": "63644",
+              "received": "2017-03-27",
+              "reference": "2016-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2016.csv",
+              "archive_sha256": "772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip"
+            },
+            {
+              "docid": "63644",
+              "received": "2017-03-27",
+              "reference": "2016-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2016.csv",
+              "archive_sha256": "772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip"
+            }
+          ]
+        },
+        "financial_resilience": {
+          "favorable": {
+            "parent_equity_latest": 15419211000.0
+          },
+          "evidence": [
+            {
+              "docid": "63644",
+              "received": "2017-03-27",
+              "reference": "2016-12-31",
+              "period_end": "2016-12-31",
+              "perimeter": "ind",
+              "account": "2.03",
+              "description": "Patrimônio Líquido",
+              "source": "dfp_cia_aberta_BPP_ind_2016.csv",
+              "archive_sha256": "",
+              "url": ""
+            }
+          ]
+        },
+        "capital_allocation": {
+          "favorable": {
+            "historical_payout": [
+              0.29415596,
+              0.294117647,
+              0.294117647,
+              0.29421764,
+              null
+            ],
+            "distributions": [
+              534277000.0,
+              537464960.0,
+              252304062.0,
+              149893714.0,
+              null
+            ]
+          },
+          "evidence": [
+            {
+              "docid": "56731",
+              "received": "2016-05-19",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2015.csv",
+              "archive_sha256": "21be79d408fcc08e9edafcee941f02a339c5664e96b3ad83afd84f27ed838d60",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=56731",
+              "fiscal_year": 2012,
+              "raw": {
+                "CNPJ_Companhia": "43.776.517/0001-80",
+                "Data_Referencia": "2015-01-01",
+                "Versao": "13",
+                "ID_Documento": "56731",
+                "Nome_Companhia": "CIA SANEAMENTO BASICO EST SAO PAULO",
+                "Data_Inicio_Exercicio_Social": "2012-01-01",
+                "Data_Fim_Exercicio_Social": "2012-12-31",
+                "Lucro_Liquido_Ajustado": "1816305203.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "16.31929870",
+                "Lucro_Liquido_Retido": "1377623000.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "29.41559600",
+                "Dividendo_Distribuido_Total": "534277000.00",
+                "Data_Aprovacao_Retencao": "2013-04-22"
+              }
+            },
+            {
+              "docid": "65468",
+              "received": "2017-05-13",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2016.csv",
+              "archive_sha256": "bfd0513d903cb3e5a43360dcb1673b3c9ac1f23396974726cca764df64d481cc",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=65468",
+              "fiscal_year": 2013,
+              "raw": {
+                "CNPJ_Companhia": "43.776.517/0001-80",
+                "Data_Referencia": "2016-01-01",
+                "Versao": "9",
+                "ID_Documento": "65468",
+                "Nome_Companhia": "CIA SANEAMENTO BASICO EST SAO PAULO",
+                "Data_Inicio_Exercicio_Social": "2013-01-01",
+                "Data_Fim_Exercicio_Social": "2013-12-31",
+                "Lucro_Liquido_Ajustado": "1827380864.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "14.87578150",
+                "Lucro_Liquido_Retido": "1386093844.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "29.41176470",
+                "Dividendo_Distribuido_Total": "537464960.00",
+                "Data_Aprovacao_Retencao": "2014-04-30"
+              }
+            },
+            {
+              "docid": "65468",
+              "received": "2017-05-13",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2016.csv",
+              "archive_sha256": "bfd0513d903cb3e5a43360dcb1673b3c9ac1f23396974726cca764df64d481cc",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=65468",
+              "fiscal_year": 2014,
+              "raw": {
+                "CNPJ_Companhia": "43.776.517/0001-80",
+                "Data_Referencia": "2016-01-01",
+                "Versao": "9",
+                "ID_Documento": "65468",
+                "Nome_Companhia": "CIA SANEAMENTO BASICO EST SAO PAULO",
+                "Data_Inicio_Exercicio_Social": "2014-01-01",
+                "Data_Fim_Exercicio_Social": "2014-12-31",
+                "Lucro_Liquido_Ajustado": "857833809.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "6.78709900",
+                "Lucro_Liquido_Retido": "650678896.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "29.41176470",
+                "Dividendo_Distribuido_Total": "252304062.00",
+                "Data_Aprovacao_Retencao": "2015-04-30"
+              }
+            },
+            {
+              "docid": "65468",
+              "received": "2017-05-13",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2016.csv",
+              "archive_sha256": "bfd0513d903cb3e5a43360dcb1673b3c9ac1f23396974726cca764df64d481cc",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=65468",
+              "fiscal_year": 2015,
+              "raw": {
+                "CNPJ_Companhia": "43.776.517/0001-80",
+                "Data_Referencia": "2016-01-01",
+                "Versao": "9",
+                "ID_Documento": "65468",
+                "Nome_Companhia": "CIA SANEAMENTO BASICO EST SAO PAULO",
+                "Data_Inicio_Exercicio_Social": "2015-01-01",
+                "Data_Fim_Exercicio_Social": "2015-12-31",
+                "Lucro_Liquido_Ajustado": "509465425.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "3.90970620",
+                "Lucro_Liquido_Retido": "386385681.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "29.42176400",
+                "Dividendo_Distribuido_Total": "149893714.00",
+                "Data_Aprovacao_Retencao": "2016-04-29"
+              }
+            }
+          ]
+        },
+        "governance": {
+          "favorable": {
+            "dated_shareholder_right_records": 7,
+            "dated_related_party_records": 49
+          },
+          "evidence": [
+            {
+              "docid": "63644",
+              "received": "2017-03-27",
+              "reference": "2016-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2016.csv",
+              "archive_sha256": "772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip"
+            },
+            {
+              "docid": "63644",
+              "received": "2017-03-27",
+              "reference": "2016-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2016.csv",
+              "archive_sha256": "772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip"
+            },
+            {
+              "docid": "63644",
+              "received": "2017-03-27",
+              "reference": "2016-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2016.csv",
+              "archive_sha256": "772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip"
+            },
+            {
+              "docid": "63644",
+              "received": "2017-03-27",
+              "reference": "2016-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2016.csv",
+              "archive_sha256": "772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip"
+            },
+            {
+              "docid": "63644",
+              "received": "2017-03-27",
+              "reference": "2016-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2016.csv",
+              "archive_sha256": "772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "year": 2018,
+      "cutoff": "2018-06-29",
+      "ticker": "SBSP3",
+      "category": "INDETERMINATE",
+      "special_case": "",
+      "assessment_ref": "43776517000180:2014",
+      "classification_changed": false,
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "Abastecimento de água, esgotamento sanitário, drenagem e manejo de águas pluviais urbanas, limpeza urbana, manejo de resíduos sólidos e energia.",
+          "evidence": [
+            {
+              "cnpj": "43776517000180",
+              "received": "2018-05-30",
+              "name": "CIA SANEAMENTO BASICO EST SAO PAULO",
+              "sector": "Saneamento, Serv. Água e Gás",
+              "activity": "Abastecimento de água, esgotamento sanitário, drenagem e manejo de águas pluviais urbanas, limpeza urbana, manejo de resíduos sólidos e energia.",
+              "cvm": "014443",
+              "docid": "75643",
+              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=75643"
+            }
+          ]
+        },
+        "capital_economics": {
+          "favorable": {
+            "roe_parent_5": [
+              0.15905355988116704,
+              0.06883750551358396,
+              0.03969348442909738,
+              0.20230069402206913,
+              0.15299970667024573
+            ],
+            "normalized_profit": 2511570947.133543
+          },
+          "evidence": [
+            {
+              "fiscal_year": 2013,
+              "metric": "attributable_ni",
+              "value": 1923559000.0,
+              "docid": "45337",
+              "received": "2015-03-26",
+              "reference": "2014-12-31",
+              "period_end": "2013-12-31",
+              "perimeter": "ind",
+              "account": "3.11",
+              "description": "Lucro/Prejuízo do Período",
+              "source": "dfp_cia_aberta_DRE_ind_2014.csv",
+              "archive_sha256": "b8795dba134754475a485c0f88b6542face6613bb418d261caa011d90e032f28",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2014.zip"
+            },
+            {
+              "fiscal_year": 2014,
+              "metric": "attributable_ni",
+              "value": 902983000.0,
+              "docid": "54474",
+              "received": "2016-03-25",
+              "reference": "2015-12-31",
+              "period_end": "2014-12-31",
+              "perimeter": "ind",
+              "account": "3.11",
+              "description": "Lucro/Prejuízo do Período",
+              "source": "dfp_cia_aberta_DRE_ind_2015.csv",
+              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
+            },
+            {
+              "fiscal_year": 2015,
+              "metric": "attributable_ni",
+              "value": 536279000.0,
+              "docid": "63644",
+              "received": "2017-03-27",
+              "reference": "2016-12-31",
+              "period_end": "2015-12-31",
+              "perimeter": "ind",
+              "account": "3.11",
+              "description": "Lucro/Prejuízo do Período",
+              "source": "dfp_cia_aberta_DRE_ind_2016.csv",
+              "archive_sha256": "772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip"
+            },
+            {
+              "fiscal_year": 2016,
+              "metric": "attributable_ni",
+              "value": 2947098000.0,
+              "docid": "72785",
+              "received": "2018-03-27",
+              "reference": "2017-12-31",
+              "period_end": "2016-12-31",
+              "perimeter": "ind",
+              "account": "3.11",
+              "description": "Lucro/Prejuízo do Período",
+              "source": "dfp_cia_aberta_DRE_ind_2017.csv",
+              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+            },
+            {
+              "fiscal_year": 2017,
+              "metric": "attributable_ni",
+              "value": 2519310000.0,
+              "docid": "72785",
+              "received": "2018-03-27",
+              "reference": "2017-12-31",
+              "period_end": "2017-12-31",
+              "perimeter": "ind",
+              "account": "3.11",
+              "description": "Lucro/Prejuízo do Período",
+              "source": "dfp_cia_aberta_DRE_ind_2017.csv",
+              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+            }
+          ]
+        },
+        "earnings_reliability": {
+          "favorable": {
+            "positive_attributable_years": 5,
+            "audit_records": 8
+          },
+          "evidence": [
+            {
+              "docid": "72785",
+              "received": "2018-03-27",
+              "reference": "2017-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2017.csv",
+              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+            },
+            {
+              "docid": "72785",
+              "received": "2018-03-27",
+              "reference": "2017-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2017.csv",
+              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+            },
+            {
+              "docid": "72785",
+              "received": "2018-03-27",
+              "reference": "2017-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2017.csv",
+              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+            },
+            {
+              "docid": "72785",
+              "received": "2018-03-27",
+              "reference": "2017-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2017.csv",
+              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+            },
+            {
+              "docid": "72785",
+              "received": "2018-03-27",
+              "reference": "2017-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2017.csv",
+              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+            },
+            {
+              "docid": "72785",
+              "received": "2018-03-27",
+              "reference": "2017-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2017.csv",
+              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+            },
+            {
+              "docid": "72785",
+              "received": "2018-03-27",
+              "reference": "2017-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2017.csv",
+              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+            },
+            {
+              "docid": "72785",
+              "received": "2018-03-27",
+              "reference": "2017-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2017.csv",
+              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+            }
+          ]
+        },
+        "financial_resilience": {
+          "favorable": {
+            "parent_equity_latest": 17513009000.0
+          },
+          "evidence": [
+            {
+              "docid": "72785",
+              "received": "2018-03-27",
+              "reference": "2017-12-31",
+              "period_end": "2017-12-31",
+              "perimeter": "ind",
+              "account": "2.03",
+              "description": "Patrimônio Líquido",
+              "source": "dfp_cia_aberta_BPP_ind_2017.csv",
+              "archive_sha256": "",
+              "url": ""
+            }
+          ]
+        },
+        "capital_allocation": {
+          "favorable": {
+            "historical_payout": [
+              0.294117647,
+              0.294117647,
+              0.29421764,
+              0.29413153999999997,
+              null
+            ],
+            "distributions": [
+              537464960.0,
+              252304062.0,
+              149893714.0,
+              823492680.0,
+              null
+            ]
+          },
+          "evidence": [
+            {
+              "docid": "65468",
+              "received": "2017-05-13",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2016.csv",
+              "archive_sha256": "bfd0513d903cb3e5a43360dcb1673b3c9ac1f23396974726cca764df64d481cc",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=65468",
+              "fiscal_year": 2013,
+              "raw": {
+                "CNPJ_Companhia": "43.776.517/0001-80",
+                "Data_Referencia": "2016-01-01",
+                "Versao": "9",
+                "ID_Documento": "65468",
+                "Nome_Companhia": "CIA SANEAMENTO BASICO EST SAO PAULO",
+                "Data_Inicio_Exercicio_Social": "2013-01-01",
+                "Data_Fim_Exercicio_Social": "2013-12-31",
+                "Lucro_Liquido_Ajustado": "1827380864.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "14.87578150",
+                "Lucro_Liquido_Retido": "1386093844.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "29.41176470",
+                "Dividendo_Distribuido_Total": "537464960.00",
+                "Data_Aprovacao_Retencao": "2014-04-30"
+              }
+            },
+            {
+              "docid": "74977",
+              "received": "2018-05-21",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2017.csv",
+              "archive_sha256": "cb90963d1e7d6b2416265eb7aa0a463b98d067ade096f47b724467184273b0ab",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=74977",
+              "fiscal_year": 2014,
+              "raw": {
+                "CNPJ_Companhia": "43.776.517/0001-80",
+                "Data_Referencia": "2017-01-01",
+                "Versao": "10",
+                "ID_Documento": "74977",
+                "Nome_Companhia": "CIA SANEAMENTO BASICO EST SAO PAULO",
+                "Data_Inicio_Exercicio_Social": "2014-01-01",
+                "Data_Fim_Exercicio_Social": "2014-12-31",
+                "Lucro_Liquido_Ajustado": "857833809.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "6.78709900",
+                "Lucro_Liquido_Retido": "650678896.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "29.41176470",
+                "Dividendo_Distribuido_Total": "252304062.00",
+                "Data_Aprovacao_Retencao": "2015-04-30"
+              }
+            },
+            {
+              "docid": "74977",
+              "received": "2018-05-21",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2017.csv",
+              "archive_sha256": "cb90963d1e7d6b2416265eb7aa0a463b98d067ade096f47b724467184273b0ab",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=74977",
+              "fiscal_year": 2015,
+              "raw": {
+                "CNPJ_Companhia": "43.776.517/0001-80",
+                "Data_Referencia": "2017-01-01",
+                "Versao": "10",
+                "ID_Documento": "74977",
+                "Nome_Companhia": "CIA SANEAMENTO BASICO EST SAO PAULO",
+                "Data_Inicio_Exercicio_Social": "2015-01-01",
+                "Data_Fim_Exercicio_Social": "2015-12-31",
+                "Lucro_Liquido_Ajustado": "509465425.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "3.90970620",
+                "Lucro_Liquido_Retido": "386385681.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "29.42176400",
+                "Dividendo_Distribuido_Total": "149893714.00",
+                "Data_Aprovacao_Retencao": "2016-04-29"
+              }
+            },
+            {
+              "docid": "74977",
+              "received": "2018-05-21",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2017.csv",
+              "archive_sha256": "cb90963d1e7d6b2416265eb7aa0a463b98d067ade096f47b724467184273b0ab",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=74977",
+              "fiscal_year": 2016,
+              "raw": {
+                "CNPJ_Companhia": "43.776.517/0001-80",
+                "Data_Referencia": "2017-01-01",
+                "Versao": "10",
+                "ID_Documento": "74977",
+                "Nome_Companhia": "CIA SANEAMENTO BASICO EST SAO PAULO",
+                "Data_Inicio_Exercicio_Social": "2016-12-01",
+                "Data_Fim_Exercicio_Social": "2016-12-31",
+                "Lucro_Liquido_Ajustado": "2799742862.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "19.11315500",
+                "Lucro_Liquido_Retido": "2123605059.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "29.41315400",
+                "Dividendo_Distribuido_Total": "823492680.00",
+                "Data_Aprovacao_Retencao": "2017-04-28"
+              }
+            }
+          ]
+        },
+        "governance": {
+          "favorable": {
+            "dated_shareholder_right_records": 8,
+            "dated_related_party_records": 56
+          },
+          "evidence": [
+            {
+              "docid": "72785",
+              "received": "2018-03-27",
+              "reference": "2017-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2017.csv",
+              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+            },
+            {
+              "docid": "72785",
+              "received": "2018-03-27",
+              "reference": "2017-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2017.csv",
+              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+            },
+            {
+              "docid": "72785",
+              "received": "2018-03-27",
+              "reference": "2017-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2017.csv",
+              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+            },
+            {
+              "docid": "72785",
+              "received": "2018-03-27",
+              "reference": "2017-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2017.csv",
+              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+            },
+            {
+              "docid": "72785",
+              "received": "2018-03-27",
+              "reference": "2017-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2017.csv",
+              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+            },
+            {
+              "docid": "72785",
+              "received": "2018-03-27",
+              "reference": "2017-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2017.csv",
+              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+            },
+            {
+              "docid": "72785",
+              "received": "2018-03-27",
+              "reference": "2017-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2017.csv",
+              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+            },
+            {
+              "docid": "72785",
+              "received": "2018-03-27",
+              "reference": "2017-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2017.csv",
+              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "year": 2019,
+      "cutoff": "2019-06-28",
+      "ticker": "SBSP3",
+      "category": "INDETERMINATE",
+      "special_case": "",
+      "assessment_ref": "43776517000180:2014",
+      "classification_changed": false,
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "Abastecimento de água, esgotamento sanitário, drenagem e manejo de águas pluviais urbanas, limpeza urbana, manejo de resíduos sólidos e energia.",
+          "evidence": [
+            {
+              "cnpj": "43776517000180",
+              "received": "2019-05-30",
+              "name": "CIA SANEAMENTO BASICO EST SAO PAULO",
+              "sector": "Saneamento, Serv. Água e Gás",
+              "activity": "Abastecimento de água, esgotamento sanitário, drenagem e manejo de águas pluviais urbanas, limpeza urbana, manejo de resíduos sólidos e energia.",
+              "cvm": "014443",
+              "docid": "84333",
+              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=84333"
+            }
+          ]
+        },
+        "capital_economics": {
+          "favorable": {
+            "roe_parent_5": [
+              0.06883750551358396,
+              0.03969348442909738,
+              0.20230069402206913,
+              0.15299970667024573,
+              0.1529794240595033
+            ],
+            "normalized_profit": 2671649682.472376
+          },
+          "evidence": [
+            {
+              "fiscal_year": 2014,
+              "metric": "attributable_ni",
+              "value": 902983000.0,
+              "docid": "54474",
+              "received": "2016-03-25",
+              "reference": "2015-12-31",
+              "period_end": "2014-12-31",
+              "perimeter": "ind",
+              "account": "3.11",
+              "description": "Lucro/Prejuízo do Período",
+              "source": "dfp_cia_aberta_DRE_ind_2015.csv",
+              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
+            },
+            {
+              "fiscal_year": 2015,
+              "metric": "attributable_ni",
+              "value": 536279000.0,
+              "docid": "63644",
+              "received": "2017-03-27",
+              "reference": "2016-12-31",
+              "period_end": "2015-12-31",
+              "perimeter": "ind",
+              "account": "3.11",
+              "description": "Lucro/Prejuízo do Período",
+              "source": "dfp_cia_aberta_DRE_ind_2016.csv",
+              "archive_sha256": "772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip"
+            },
+            {
+              "fiscal_year": 2016,
+              "metric": "attributable_ni",
+              "value": 2947098000.0,
+              "docid": "72785",
+              "received": "2018-03-27",
+              "reference": "2017-12-31",
+              "period_end": "2016-12-31",
+              "perimeter": "ind",
+              "account": "3.11",
+              "description": "Lucro/Prejuízo do Período",
+              "source": "dfp_cia_aberta_DRE_ind_2017.csv",
+              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+            },
+            {
+              "fiscal_year": 2017,
+              "metric": "attributable_ni",
+              "value": 2519310000.0,
+              "docid": "81733",
+              "received": "2019-03-28",
+              "reference": "2018-12-31",
+              "period_end": "2017-12-31",
+              "perimeter": "ind",
+              "account": "3.11",
+              "description": "Lucro/Prejuízo do Período",
+              "source": "dfp_cia_aberta_DRE_ind_2018.csv",
+              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+            },
+            {
+              "fiscal_year": 2018,
+              "metric": "attributable_ni",
+              "value": 2835068000.0,
+              "docid": "81733",
+              "received": "2019-03-28",
+              "reference": "2018-12-31",
+              "period_end": "2018-12-31",
+              "perimeter": "ind",
+              "account": "3.11",
+              "description": "Lucro/Prejuízo do Período",
+              "source": "dfp_cia_aberta_DRE_ind_2018.csv",
+              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+            }
+          ]
+        },
+        "earnings_reliability": {
+          "favorable": {
+            "positive_attributable_years": 5,
+            "audit_records": 8
+          },
+          "evidence": [
+            {
+              "docid": "81733",
+              "received": "2019-03-28",
+              "reference": "2018-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2018.csv",
+              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+            },
+            {
+              "docid": "81733",
+              "received": "2019-03-28",
+              "reference": "2018-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2018.csv",
+              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+            },
+            {
+              "docid": "81733",
+              "received": "2019-03-28",
+              "reference": "2018-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2018.csv",
+              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+            },
+            {
+              "docid": "81733",
+              "received": "2019-03-28",
+              "reference": "2018-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2018.csv",
+              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+            },
+            {
+              "docid": "81733",
+              "received": "2019-03-28",
+              "reference": "2018-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2018.csv",
+              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+            },
+            {
+              "docid": "81733",
+              "received": "2019-03-28",
+              "reference": "2018-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2018.csv",
+              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+            },
+            {
+              "docid": "81733",
+              "received": "2019-03-28",
+              "reference": "2018-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2018.csv",
+              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+            },
+            {
+              "docid": "81733",
+              "received": "2019-03-28",
+              "reference": "2018-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2018.csv",
+              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+            }
+          ]
+        },
+        "financial_resilience": {
+          "favorable": {
+            "parent_equity_latest": 19551688000.0
+          },
+          "evidence": [
+            {
+              "docid": "81733",
+              "received": "2019-03-28",
+              "reference": "2018-12-31",
+              "period_end": "2018-12-31",
+              "perimeter": "ind",
+              "account": "2.03",
+              "description": "Patrimônio Líquido",
+              "source": "dfp_cia_aberta_BPP_ind_2018.csv",
+              "archive_sha256": "",
+              "url": ""
+            }
+          ]
+        },
+        "capital_allocation": {
+          "favorable": {
+            "historical_payout": [
+              0.294117647,
+              0.29421764,
+              0.29413153999999997,
+              0.294098,
+              null
+            ],
+            "distributions": [
+              252304062.0,
+              149893714.0,
+              823492680.0,
+              703878463.1,
+              null
+            ]
+          },
+          "evidence": [
+            {
+              "docid": "74977",
+              "received": "2018-05-21",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2017.csv",
+              "archive_sha256": "cb90963d1e7d6b2416265eb7aa0a463b98d067ade096f47b724467184273b0ab",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=74977",
+              "fiscal_year": 2014,
+              "raw": {
+                "CNPJ_Companhia": "43.776.517/0001-80",
+                "Data_Referencia": "2017-01-01",
+                "Versao": "10",
+                "ID_Documento": "74977",
+                "Nome_Companhia": "CIA SANEAMENTO BASICO EST SAO PAULO",
+                "Data_Inicio_Exercicio_Social": "2014-01-01",
+                "Data_Fim_Exercicio_Social": "2014-12-31",
+                "Lucro_Liquido_Ajustado": "857833809.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "6.78709900",
+                "Lucro_Liquido_Retido": "650678896.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "29.41176470",
+                "Dividendo_Distribuido_Total": "252304062.00",
+                "Data_Aprovacao_Retencao": "2015-04-30"
+              }
+            },
+            {
+              "docid": "83098",
+              "received": "2019-05-09",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2018.csv",
+              "archive_sha256": "7a349acbce124fdb0846c371b3e68e5ff06781ead4b8713d6080eabf6737d082",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=83098",
+              "fiscal_year": 2015,
+              "raw": {
+                "CNPJ_Companhia": "43.776.517/0001-80",
+                "Data_Referencia": "2018-01-01",
+                "Versao": "13",
+                "ID_Documento": "83098",
+                "Nome_Companhia": "CIA SANEAMENTO BASICO EST SAO PAULO",
+                "Data_Inicio_Exercicio_Social": "2015-01-01",
+                "Data_Fim_Exercicio_Social": "2015-12-31",
+                "Lucro_Liquido_Ajustado": "509465425.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "3.90970620",
+                "Lucro_Liquido_Retido": "386385681.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "29.42176400",
+                "Dividendo_Distribuido_Total": "149893714.00",
+                "Data_Aprovacao_Retencao": "2016-04-29"
+              }
+            },
+            {
+              "docid": "83098",
+              "received": "2019-05-09",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2018.csv",
+              "archive_sha256": "7a349acbce124fdb0846c371b3e68e5ff06781ead4b8713d6080eabf6737d082",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=83098",
+              "fiscal_year": 2016,
+              "raw": {
+                "CNPJ_Companhia": "43.776.517/0001-80",
+                "Data_Referencia": "2018-01-01",
+                "Versao": "13",
+                "ID_Documento": "83098",
+                "Nome_Companhia": "CIA SANEAMENTO BASICO EST SAO PAULO",
+                "Data_Inicio_Exercicio_Social": "2016-01-01",
+                "Data_Fim_Exercicio_Social": "2016-12-31",
+                "Lucro_Liquido_Ajustado": "2799742862.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "19.11315500",
+                "Lucro_Liquido_Retido": "2123605059.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "29.41315400",
+                "Dividendo_Distribuido_Total": "823492680.00",
+                "Data_Aprovacao_Retencao": "2017-04-28"
+              }
+            },
+            {
+              "docid": "83098",
+              "received": "2019-05-09",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2018.csv",
+              "archive_sha256": "7a349acbce124fdb0846c371b3e68e5ff06781ead4b8713d6080eabf6737d082",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=83098",
+              "fiscal_year": 2017,
+              "raw": {
+                "CNPJ_Companhia": "43.776.517/0001-80",
+                "Data_Referencia": "2018-01-01",
+                "Versao": "13",
+                "ID_Documento": "83098",
+                "Nome_Companhia": "CIA SANEAMENTO BASICO EST SAO PAULO",
+                "Data_Inicio_Exercicio_Social": "2017-01-01",
+                "Data_Fim_Exercicio_Social": "2017-12-31",
+                "Lucro_Liquido_Ajustado": "2393344400.95",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "14.38536262",
+                "Lucro_Liquido_Retido": "1815431432.64",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "29.40980000",
+                "Dividendo_Distribuido_Total": "703878463.10",
+                "Data_Aprovacao_Retencao": "2018-04-27"
+              }
+            }
+          ]
+        },
+        "governance": {
+          "favorable": {
+            "dated_shareholder_right_records": 9,
+            "dated_related_party_records": 63
+          },
+          "evidence": [
+            {
+              "docid": "81733",
+              "received": "2019-03-28",
+              "reference": "2018-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2018.csv",
+              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+            },
+            {
+              "docid": "81733",
+              "received": "2019-03-28",
+              "reference": "2018-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2018.csv",
+              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+            },
+            {
+              "docid": "81733",
+              "received": "2019-03-28",
+              "reference": "2018-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2018.csv",
+              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+            },
+            {
+              "docid": "81733",
+              "received": "2019-03-28",
+              "reference": "2018-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2018.csv",
+              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+            },
+            {
+              "docid": "81733",
+              "received": "2019-03-28",
+              "reference": "2018-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2018.csv",
+              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+            },
+            {
+              "docid": "81733",
+              "received": "2019-03-28",
+              "reference": "2018-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2018.csv",
+              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+            },
+            {
+              "docid": "81733",
+              "received": "2019-03-28",
+              "reference": "2018-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2018.csv",
+              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+            },
+            {
+              "docid": "81733",
+              "received": "2019-03-28",
+              "reference": "2018-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2018.csv",
+              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "year": 2020,
+      "cutoff": "2020-06-30",
+      "ticker": "SBSP3",
+      "category": "INDETERMINATE",
+      "special_case": "",
+      "assessment_ref": "43776517000180:2014",
+      "classification_changed": false,
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "Abastecimento de água, esgotamento sanitário, drenagem e manejo de águas pluviais urbanas, limpeza urbana, manejo de resíduos sólidos e energia.",
+          "evidence": [
+            {
+              "cnpj": "43776517000180",
+              "received": "2019-05-30",
+              "name": "CIA SANEAMENTO BASICO EST SAO PAULO",
+              "sector": "Saneamento, Serv. Água e Gás",
+              "activity": "Abastecimento de água, esgotamento sanitário, drenagem e manejo de águas pluviais urbanas, limpeza urbana, manejo de resíduos sólidos e energia.",
+              "cvm": "014443",
+              "docid": "84333",
+              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=84333"
+            }
+          ]
+        },
+        "capital_economics": {
+          "favorable": {
+            "roe_parent_5": [
+              0.03969348442909738,
+              0.20230069402206913,
+              0.15299970667024573,
+              0.1529794240595033,
+              0.16352142621235471
+            ],
+            "normalized_profit": 2952367488.4461546
+          },
+          "evidence": [
+            {
+              "fiscal_year": 2015,
+              "metric": "attributable_ni",
+              "value": 536279000.0,
+              "docid": "63644",
+              "received": "2017-03-27",
+              "reference": "2016-12-31",
+              "period_end": "2015-12-31",
+              "perimeter": "ind",
+              "account": "3.11",
+              "description": "Lucro/Prejuízo do Período",
+              "source": "dfp_cia_aberta_DRE_ind_2016.csv",
+              "archive_sha256": "772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip"
+            },
+            {
+              "fiscal_year": 2016,
+              "metric": "attributable_ni",
+              "value": 2947098000.0,
+              "docid": "72785",
+              "received": "2018-03-27",
+              "reference": "2017-12-31",
+              "period_end": "2016-12-31",
+              "perimeter": "ind",
+              "account": "3.11",
+              "description": "Lucro/Prejuízo do Período",
+              "source": "dfp_cia_aberta_DRE_ind_2017.csv",
+              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+            },
+            {
+              "fiscal_year": 2017,
+              "metric": "attributable_ni",
+              "value": 2519310000.0,
+              "docid": "81733",
+              "received": "2019-03-28",
+              "reference": "2018-12-31",
+              "period_end": "2017-12-31",
+              "perimeter": "ind",
+              "account": "3.11",
+              "description": "Lucro/Prejuízo do Período",
+              "source": "dfp_cia_aberta_DRE_ind_2018.csv",
+              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+            },
+            {
+              "fiscal_year": 2018,
+              "metric": "attributable_ni",
+              "value": 2835068000.0,
+              "docid": "91918",
+              "received": "2020-03-27",
+              "reference": "2019-12-31",
+              "period_end": "2018-12-31",
+              "perimeter": "ind",
+              "account": "3.11",
+              "description": "Lucro/Prejuízo do Período",
+              "source": "dfp_cia_aberta_DRE_ind_2019.csv",
+              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            },
+            {
+              "fiscal_year": 2019,
+              "metric": "attributable_ni",
+              "value": 3367517000.0,
+              "docid": "91918",
+              "received": "2020-03-27",
+              "reference": "2019-12-31",
+              "period_end": "2019-12-31",
+              "perimeter": "ind",
+              "account": "3.11",
+              "description": "Lucro/Prejuízo do Período",
+              "source": "dfp_cia_aberta_DRE_ind_2019.csv",
+              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            }
+          ]
+        },
+        "earnings_reliability": {
+          "favorable": {
+            "positive_attributable_years": 5,
+            "audit_records": 8
+          },
+          "evidence": [
+            {
+              "docid": "91918",
+              "received": "2020-03-27",
+              "reference": "2019-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2019.csv",
+              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            },
+            {
+              "docid": "91918",
+              "received": "2020-03-27",
+              "reference": "2019-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2019.csv",
+              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            },
+            {
+              "docid": "91918",
+              "received": "2020-03-27",
+              "reference": "2019-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2019.csv",
+              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            },
+            {
+              "docid": "91918",
+              "received": "2020-03-27",
+              "reference": "2019-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2019.csv",
+              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            },
+            {
+              "docid": "91918",
+              "received": "2020-03-27",
+              "reference": "2019-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2019.csv",
+              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            },
+            {
+              "docid": "91918",
+              "received": "2020-03-27",
+              "reference": "2019-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2019.csv",
+              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            },
+            {
+              "docid": "91918",
+              "received": "2020-03-27",
+              "reference": "2019-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2019.csv",
+              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            },
+            {
+              "docid": "91918",
+              "received": "2020-03-27",
+              "reference": "2019-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2019.csv",
+              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            }
+          ]
+        },
+        "financial_resilience": {
+          "favorable": {
+            "parent_equity_latest": 21635783000.0
+          },
+          "evidence": [
+            {
+              "docid": "91918",
+              "received": "2020-03-27",
+              "reference": "2019-12-31",
+              "period_end": "2019-12-31",
+              "perimeter": "ind",
+              "account": "2.03",
+              "description": "Patrimônio Líquido",
+              "source": "dfp_cia_aberta_BPP_ind_2019.csv",
+              "archive_sha256": "",
+              "url": ""
+            }
+          ]
+        },
+        "capital_allocation": {
+          "favorable": {
+            "historical_payout": [
+              0.29421764,
+              0.29413153999999997,
+              0.294098,
+              0.29413126,
+              0.0
+            ],
+            "distributions": [
+              149893714.0,
+              823492690.17,
+              703878463.1,
+              792187938.17,
+              0.0
+            ]
+          },
+          "evidence": [
+            {
+              "docid": "83098",
+              "received": "2019-05-09",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2018.csv",
+              "archive_sha256": "7a349acbce124fdb0846c371b3e68e5ff06781ead4b8713d6080eabf6737d082",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=83098",
+              "fiscal_year": 2015,
+              "raw": {
+                "CNPJ_Companhia": "43.776.517/0001-80",
+                "Data_Referencia": "2018-01-01",
+                "Versao": "13",
+                "ID_Documento": "83098",
+                "Nome_Companhia": "CIA SANEAMENTO BASICO EST SAO PAULO",
+                "Data_Inicio_Exercicio_Social": "2015-01-01",
+                "Data_Fim_Exercicio_Social": "2015-12-31",
+                "Lucro_Liquido_Ajustado": "509465425.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "3.90970620",
+                "Lucro_Liquido_Retido": "386385681.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "29.42176400",
+                "Dividendo_Distribuido_Total": "149893714.00",
+                "Data_Aprovacao_Retencao": "2016-04-29"
+              }
+            },
+            {
+              "docid": "93290",
+              "received": "2020-05-19",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2019.csv",
+              "archive_sha256": "30f461d5d3b3cdbab84faac20c158c6a41cea1ee0223c40d988db9845e2c6a51",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=93290",
+              "fiscal_year": 2016,
+              "raw": {
+                "CNPJ_Companhia": "43.776.517/0001-80",
+                "Data_Referencia": "2019-01-01",
+                "Versao": "12",
+                "ID_Documento": "93290",
+                "Nome_Companhia": "CIA SANEAMENTO BASICO EST SAO PAULO",
+                "Data_Inicio_Exercicio_Social": "2016-01-01",
+                "Data_Fim_Exercicio_Social": "2016-12-31",
+                "Lucro_Liquido_Ajustado": "2799742862.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "19.11315500",
+                "Lucro_Liquido_Retido": "2123605059.47",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "29.41315400",
+                "Dividendo_Distribuido_Total": "823492690.17",
+                "Data_Aprovacao_Retencao": "2017-04-28"
+              }
+            },
+            {
+              "docid": "93290",
+              "received": "2020-05-19",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2019.csv",
+              "archive_sha256": "30f461d5d3b3cdbab84faac20c158c6a41cea1ee0223c40d988db9845e2c6a51",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=93290",
+              "fiscal_year": 2017,
+              "raw": {
+                "CNPJ_Companhia": "43.776.517/0001-80",
+                "Data_Referencia": "2019-01-01",
+                "Versao": "12",
+                "ID_Documento": "93290",
+                "Nome_Companhia": "CIA SANEAMENTO BASICO EST SAO PAULO",
+                "Data_Inicio_Exercicio_Social": "2017-01-01",
+                "Data_Fim_Exercicio_Social": "2017-12-31",
+                "Lucro_Liquido_Ajustado": "2393344400.95",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "14.38536300",
+                "Lucro_Liquido_Retido": "1815431432.64",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "29.40980000",
+                "Dividendo_Distribuido_Total": "703878463.10",
+                "Data_Aprovacao_Retencao": "2018-04-27"
+              }
+            },
+            {
+              "docid": "93290",
+              "received": "2020-05-19",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2019.csv",
+              "archive_sha256": "30f461d5d3b3cdbab84faac20c158c6a41cea1ee0223c40d988db9845e2c6a51",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=93290",
+              "fiscal_year": 2018,
+              "raw": {
+                "CNPJ_Companhia": "43.776.517/0001-80",
+                "Data_Referencia": "2019-01-01",
+                "Versao": "12",
+                "ID_Documento": "93290",
+                "Nome_Companhia": "CIA SANEAMENTO BASICO EST SAO PAULO",
+                "Data_Inicio_Exercicio_Social": "2018-01-01",
+                "Data_Fim_Exercicio_Social": "2018-12-31",
+                "Lucro_Liquido_Ajustado": "2693314340.86",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "14.50037300",
+                "Lucro_Liquido_Retido": "2042879789.05",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "29.41312600",
+                "Dividendo_Distribuido_Total": "792187938.17",
+                "Data_Aprovacao_Retencao": "2019-04-29"
+              }
+            },
+            {
+              "docid": "93290",
+              "received": "2020-05-19",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2019.csv",
+              "archive_sha256": "30f461d5d3b3cdbab84faac20c158c6a41cea1ee0223c40d988db9845e2c6a51",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=93290",
+              "fiscal_year": 2019,
+              "raw": {
+                "CNPJ_Companhia": "43.776.517/0001-80",
+                "Data_Referencia": "2019-01-01",
+                "Versao": "12",
+                "ID_Documento": "93290",
+                "Nome_Companhia": "CIA SANEAMENTO BASICO EST SAO PAULO",
+                "Data_Inicio_Exercicio_Social": "2019-01-01",
+                "Data_Fim_Exercicio_Social": "2019-12-31",
+                "Lucro_Liquido_Ajustado": "0.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "0.00000000",
+                "Lucro_Liquido_Retido": "0.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "0.00000000",
+                "Dividendo_Distribuido_Total": "0.00",
+                "Data_Aprovacao_Retencao": ""
+              }
+            }
+          ]
+        },
+        "governance": {
+          "favorable": {
+            "dated_shareholder_right_records": 10,
+            "dated_related_party_records": 70
+          },
+          "evidence": [
+            {
+              "docid": "91918",
+              "received": "2020-03-27",
+              "reference": "2019-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2019.csv",
+              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            },
+            {
+              "docid": "91918",
+              "received": "2020-03-27",
+              "reference": "2019-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2019.csv",
+              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            },
+            {
+              "docid": "91918",
+              "received": "2020-03-27",
+              "reference": "2019-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2019.csv",
+              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            },
+            {
+              "docid": "91918",
+              "received": "2020-03-27",
+              "reference": "2019-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2019.csv",
+              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            },
+            {
+              "docid": "91918",
+              "received": "2020-03-27",
+              "reference": "2019-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2019.csv",
+              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            },
+            {
+              "docid": "91918",
+              "received": "2020-03-27",
+              "reference": "2019-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2019.csv",
+              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            },
+            {
+              "docid": "91918",
+              "received": "2020-03-27",
+              "reference": "2019-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2019.csv",
+              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            },
+            {
+              "docid": "91918",
+              "received": "2020-03-27",
+              "reference": "2019-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2019.csv",
+              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "year": 2021,
+      "cutoff": "2021-06-30",
+      "ticker": "SBSP3",
+      "category": "INDETERMINATE",
+      "special_case": "",
+      "assessment_ref": "43776517000180:2014",
+      "classification_changed": false,
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "Abastecimento de água, esgotamento sanitário, drenagem e manejo de águas pluviais urbanas, limpeza urbana, manejo de resíduos sólidos e energia.",
+          "evidence": [
+            {
+              "cnpj": "43776517000180",
+              "received": "2020-10-23",
+              "name": "CIA SANEAMENTO BASICO EST SAO PAULO",
+              "sector": "Saneamento, Serv. Água e Gás",
+              "activity": "Abastecimento de água, esgotamento sanitário, drenagem e manejo de águas pluviais urbanas, limpeza urbana, manejo de resíduos sólidos e energia.",
+              "cvm": "014443",
+              "docid": "97847",
+              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=97847"
+            }
+          ]
+        },
+        "capital_economics": {
+          "favorable": {
+            "roe_parent_5": [
+              0.20230069402206913,
+              0.15299970667024573,
+              0.1529794240595033,
+              0.16352142621235471,
+              0.04381405529170301
+            ],
+            "normalized_profit": 3190207326.493783
+          },
+          "evidence": [
+            {
+              "fiscal_year": 2016,
+              "metric": "attributable_ni",
+              "value": 2947098000.0,
+              "docid": "72785",
+              "received": "2018-03-27",
+              "reference": "2017-12-31",
+              "period_end": "2016-12-31",
+              "perimeter": "ind",
+              "account": "3.11",
+              "description": "Lucro/Prejuízo do Período",
+              "source": "dfp_cia_aberta_DRE_ind_2017.csv",
+              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+            },
+            {
+              "fiscal_year": 2017,
+              "metric": "attributable_ni",
+              "value": 2519310000.0,
+              "docid": "81733",
+              "received": "2019-03-28",
+              "reference": "2018-12-31",
+              "period_end": "2017-12-31",
+              "perimeter": "ind",
+              "account": "3.11",
+              "description": "Lucro/Prejuízo do Período",
+              "source": "dfp_cia_aberta_DRE_ind_2018.csv",
+              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+            },
+            {
+              "fiscal_year": 2018,
+              "metric": "attributable_ni",
+              "value": 2835068000.0,
+              "docid": "91918",
+              "received": "2020-03-27",
+              "reference": "2019-12-31",
+              "period_end": "2018-12-31",
+              "perimeter": "ind",
+              "account": "3.11",
+              "description": "Lucro/Prejuízo do Período",
+              "source": "dfp_cia_aberta_DRE_ind_2019.csv",
+              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            },
+            {
+              "fiscal_year": 2019,
+              "metric": "attributable_ni",
+              "value": 3367517000.0,
+              "docid": "102262",
+              "received": "2021-03-25",
+              "reference": "2020-12-31",
+              "period_end": "2019-12-31",
+              "perimeter": "ind",
+              "account": "3.11",
+              "description": "Lucro/Prejuízo do Período",
+              "source": "dfp_cia_aberta_DRE_ind_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "fiscal_year": 2020,
+              "metric": "attributable_ni",
+              "value": 973318000.0,
+              "docid": "102262",
+              "received": "2021-03-25",
+              "reference": "2020-12-31",
+              "period_end": "2020-12-31",
+              "perimeter": "ind",
+              "account": "3.11",
+              "description": "Lucro/Prejuízo do Período",
+              "source": "dfp_cia_aberta_DRE_ind_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            }
+          ]
+        },
+        "earnings_reliability": {
+          "favorable": {
+            "positive_attributable_years": 5,
+            "audit_records": 8
+          },
+          "evidence": [
+            {
+              "docid": "102262",
+              "received": "2021-03-25",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "docid": "102262",
+              "received": "2021-03-25",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "docid": "102262",
+              "received": "2021-03-25",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "docid": "102262",
+              "received": "2021-03-25",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "docid": "102262",
+              "received": "2021-03-25",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "docid": "102262",
+              "received": "2021-03-25",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "docid": "102262",
+              "received": "2021-03-25",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "docid": "102262",
+              "received": "2021-03-25",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            }
+          ]
+        },
+        "financial_resilience": {
+          "favorable": {
+            "parent_equity_latest": 22793704000.0
+          },
+          "evidence": [
+            {
+              "docid": "102262",
+              "received": "2021-03-25",
+              "reference": "2020-12-31",
+              "period_end": "2020-12-31",
+              "perimeter": "ind",
+              "account": "2.03",
+              "description": "Patrimônio Líquido",
+              "source": "dfp_cia_aberta_BPP_ind_2020.csv",
+              "archive_sha256": "",
+              "url": ""
+            }
+          ]
+        },
+        "capital_allocation": {
+          "favorable": {
+            "historical_payout": [
+              0.29413153999999997,
+              0.294098,
+              0.29413126,
+              0.29413774,
+              null
+            ],
+            "distributions": [
+              823492690.17,
+              703878463.1,
+              792187938.17,
+              940988036.65,
+              null
+            ]
+          },
+          "evidence": [
+            {
+              "docid": "93290",
+              "received": "2020-05-19",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2019.csv",
+              "archive_sha256": "30f461d5d3b3cdbab84faac20c158c6a41cea1ee0223c40d988db9845e2c6a51",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=93290",
+              "fiscal_year": 2016,
+              "raw": {
+                "CNPJ_Companhia": "43.776.517/0001-80",
+                "Data_Referencia": "2019-01-01",
+                "Versao": "12",
+                "ID_Documento": "93290",
+                "Nome_Companhia": "CIA SANEAMENTO BASICO EST SAO PAULO",
+                "Data_Inicio_Exercicio_Social": "2016-01-01",
+                "Data_Fim_Exercicio_Social": "2016-12-31",
+                "Lucro_Liquido_Ajustado": "2799742862.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "19.11315500",
+                "Lucro_Liquido_Retido": "2123605059.47",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "29.41315400",
+                "Dividendo_Distribuido_Total": "823492690.17",
+                "Data_Aprovacao_Retencao": "2017-04-28"
+              }
+            },
+            {
+              "docid": "104540",
+              "received": "2021-05-17",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2020.csv",
+              "archive_sha256": "17d2d911201f64dc8ff501104ce8fe343cd4ab3bdb41ea03eb6bfc2c4f6b80ab",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=104540",
+              "fiscal_year": 2017,
+              "raw": {
+                "CNPJ_Companhia": "43.776.517/0001-80",
+                "Data_Referencia": "2020-01-01",
+                "Versao": "11",
+                "ID_Documento": "104540",
+                "Nome_Companhia": "CIA SANEAMENTO BASICO EST SAO PAULO",
+                "Data_Inicio_Exercicio_Social": "2017-01-01",
+                "Data_Fim_Exercicio_Social": "2017-12-31",
+                "Lucro_Liquido_Ajustado": "2393344400.95",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "14.38536300",
+                "Lucro_Liquido_Retido": "1815431432.64",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "29.40980000",
+                "Dividendo_Distribuido_Total": "703878463.10",
+                "Data_Aprovacao_Retencao": "2018-04-27"
+              }
+            },
+            {
+              "docid": "104540",
+              "received": "2021-05-17",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2020.csv",
+              "archive_sha256": "17d2d911201f64dc8ff501104ce8fe343cd4ab3bdb41ea03eb6bfc2c4f6b80ab",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=104540",
+              "fiscal_year": 2018,
+              "raw": {
+                "CNPJ_Companhia": "43.776.517/0001-80",
+                "Data_Referencia": "2020-01-01",
+                "Versao": "11",
+                "ID_Documento": "104540",
+                "Nome_Companhia": "CIA SANEAMENTO BASICO EST SAO PAULO",
+                "Data_Inicio_Exercicio_Social": "2018-01-01",
+                "Data_Fim_Exercicio_Social": "2018-12-31",
+                "Lucro_Liquido_Ajustado": "2693314340.86",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "14.50037300",
+                "Lucro_Liquido_Retido": "2042879789.05",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "29.41312600",
+                "Dividendo_Distribuido_Total": "792187938.17",
+                "Data_Aprovacao_Retencao": "2019-04-29"
+              }
+            },
+            {
+              "docid": "104540",
+              "received": "2021-05-17",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2020.csv",
+              "archive_sha256": "17d2d911201f64dc8ff501104ce8fe343cd4ab3bdb41ea03eb6bfc2c4f6b80ab",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=104540",
+              "fiscal_year": 2019,
+              "raw": {
+                "CNPJ_Companhia": "43.776.517/0001-80",
+                "Data_Referencia": "2020-01-01",
+                "Versao": "11",
+                "ID_Documento": "104540",
+                "Nome_Companhia": "CIA SANEAMENTO BASICO EST SAO PAULO",
+                "Data_Inicio_Exercicio_Social": "2019-01-01",
+                "Data_Fim_Exercicio_Social": "2019-12-31",
+                "Lucro_Liquido_Ajustado": "3199140734.78",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "14.78634300",
+                "Lucro_Liquido_Retido": "2426528526.28",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "29.41377400",
+                "Dividendo_Distribuido_Total": "940988036.65",
+                "Data_Aprovacao_Retencao": "2020-04-28"
+              }
+            }
+          ]
+        },
+        "governance": {
+          "favorable": {
+            "dated_shareholder_right_records": 11,
+            "dated_related_party_records": 77
+          },
+          "evidence": [
+            {
+              "docid": "102262",
+              "received": "2021-03-25",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "docid": "102262",
+              "received": "2021-03-25",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "docid": "102262",
+              "received": "2021-03-25",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "docid": "102262",
+              "received": "2021-03-25",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "docid": "102262",
+              "received": "2021-03-25",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "docid": "102262",
+              "received": "2021-03-25",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "docid": "102262",
+              "received": "2021-03-25",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "docid": "102262",
+              "received": "2021-03-25",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "year": 2022,
+      "cutoff": "2022-06-30",
+      "ticker": "SBSP3",
+      "category": "INDETERMINATE",
+      "special_case": "",
+      "assessment_ref": "43776517000180:2014",
+      "classification_changed": false,
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "Abastecimento de água, esgotamento sanitário, drenagem e manejo de águas pluviais urbanas, limpeza urbana, manejo de resíduos sólidos e energia.",
+          "evidence": [
+            {
+              "cnpj": "43776517000180",
+              "received": "2021-07-05",
+              "name": "CIA SANEAMENTO BASICO EST SAO PAULO",
+              "sector": "Saneamento, Serv. Água e Gás",
+              "activity": "Abastecimento de água, esgotamento sanitário, drenagem e manejo de águas pluviais urbanas, limpeza urbana, manejo de resíduos sólidos e energia.",
+              "cvm": "014443",
+              "docid": "106301",
+              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=106301"
+            }
+          ]
+        },
+        "capital_economics": {
+          "favorable": {
+            "roe_parent_5": [
+              0.15299970667024573,
+              0.1529794240595033,
+              0.16352142621235471,
+              0.04381405529170301,
+              0.09663035300390276
+            ],
+            "normalized_profit": 3286097353.519264
+          },
+          "evidence": [
+            {
+              "fiscal_year": 2017,
+              "metric": "attributable_ni",
+              "value": 2519310000.0,
+              "docid": "81733",
+              "received": "2019-03-28",
+              "reference": "2018-12-31",
+              "period_end": "2017-12-31",
+              "perimeter": "ind",
+              "account": "3.11",
+              "description": "Lucro/Prejuízo do Período",
+              "source": "dfp_cia_aberta_DRE_ind_2018.csv",
+              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+            },
+            {
+              "fiscal_year": 2018,
+              "metric": "attributable_ni",
+              "value": 2835068000.0,
+              "docid": "91918",
+              "received": "2020-03-27",
+              "reference": "2019-12-31",
+              "period_end": "2018-12-31",
+              "perimeter": "ind",
+              "account": "3.11",
+              "description": "Lucro/Prejuízo do Período",
+              "source": "dfp_cia_aberta_DRE_ind_2019.csv",
+              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            },
+            {
+              "fiscal_year": 2019,
+              "metric": "attributable_ni",
+              "value": 3367517000.0,
+              "docid": "102262",
+              "received": "2021-03-25",
+              "reference": "2020-12-31",
+              "period_end": "2019-12-31",
+              "perimeter": "ind",
+              "account": "3.11",
+              "description": "Lucro/Prejuízo do Período",
+              "source": "dfp_cia_aberta_DRE_ind_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "fiscal_year": 2020,
+              "metric": "attributable_ni",
+              "value": 973318000.0,
+              "docid": "112960",
+              "received": "2022-03-24",
+              "reference": "2021-12-31",
+              "period_end": "2020-12-31",
+              "perimeter": "ind",
+              "account": "3.11",
+              "description": "Lucro/Prejuízo do Período",
+              "source": "dfp_cia_aberta_DRE_ind_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "fiscal_year": 2021,
+              "metric": "attributable_ni",
+              "value": 2305869000.0,
+              "docid": "112960",
+              "received": "2022-03-24",
+              "reference": "2021-12-31",
+              "period_end": "2021-12-31",
+              "perimeter": "ind",
+              "account": "3.11",
+              "description": "Lucro/Prejuízo do Período",
+              "source": "dfp_cia_aberta_DRE_ind_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            }
+          ]
+        },
+        "earnings_reliability": {
+          "favorable": {
+            "positive_attributable_years": 5,
+            "audit_records": 8
+          },
+          "evidence": [
+            {
+              "docid": "112960",
+              "received": "2022-03-24",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "112960",
+              "received": "2022-03-24",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "112960",
+              "received": "2022-03-24",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "112960",
+              "received": "2022-03-24",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "112960",
+              "received": "2022-03-24",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "112960",
+              "received": "2022-03-24",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "112960",
+              "received": "2022-03-24",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "112960",
+              "received": "2022-03-24",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            }
+          ]
+        },
+        "financial_resilience": {
+          "favorable": {
+            "parent_equity_latest": 24931859000.0
+          },
+          "evidence": [
+            {
+              "docid": "112960",
+              "received": "2022-03-24",
+              "reference": "2021-12-31",
+              "period_end": "2021-12-31",
+              "perimeter": "ind",
+              "account": "2.03",
+              "description": "Patrimônio Líquido",
+              "source": "dfp_cia_aberta_BPP_ind_2021.csv",
+              "archive_sha256": "",
+              "url": ""
+            }
+          ]
+        },
+        "capital_allocation": {
+          "favorable": {
+            "historical_payout": [
+              0.294098,
+              0.29413126,
+              0.29413774,
+              0.2941307,
+              0.0
+            ],
+            "distributions": [
+              703878463.1,
+              792187938.17,
+              940988036.65,
+              271968576.88,
+              0.0
+            ]
+          },
+          "evidence": [
+            {
+              "docid": "104540",
+              "received": "2021-05-17",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2020.csv",
+              "archive_sha256": "17d2d911201f64dc8ff501104ce8fe343cd4ab3bdb41ea03eb6bfc2c4f6b80ab",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=104540",
+              "fiscal_year": 2017,
+              "raw": {
+                "CNPJ_Companhia": "43.776.517/0001-80",
+                "Data_Referencia": "2020-01-01",
+                "Versao": "11",
+                "ID_Documento": "104540",
+                "Nome_Companhia": "CIA SANEAMENTO BASICO EST SAO PAULO",
+                "Data_Inicio_Exercicio_Social": "2017-01-01",
+                "Data_Fim_Exercicio_Social": "2017-12-31",
+                "Lucro_Liquido_Ajustado": "2393344400.95",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "14.38536300",
+                "Lucro_Liquido_Retido": "1815431432.64",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "29.40980000",
+                "Dividendo_Distribuido_Total": "703878463.10",
+                "Data_Aprovacao_Retencao": "2018-04-27"
+              }
+            },
+            {
+              "docid": "114580",
+              "received": "2022-05-09",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2021.csv",
+              "archive_sha256": "882e4c19c0719b7ac75f8e906c264fdd69b899cf0a2942ad00c4eb14a1b855bd",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=114580",
+              "fiscal_year": 2018,
+              "raw": {
+                "CNPJ_Companhia": "43.776.517/0001-80",
+                "Data_Referencia": "2021-01-01",
+                "Versao": "13",
+                "ID_Documento": "114580",
+                "Nome_Companhia": "CIA SANEAMENTO BASICO EST SAO PAULO",
+                "Data_Inicio_Exercicio_Social": "2018-01-01",
+                "Data_Fim_Exercicio_Social": "2018-12-31",
+                "Lucro_Liquido_Ajustado": "2693314340.86",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "13.77535400",
+                "Lucro_Liquido_Retido": "2042879789.05",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "29.41312600",
+                "Dividendo_Distribuido_Total": "792187938.17",
+                "Data_Aprovacao_Retencao": "2019-04-29"
+              }
+            },
+            {
+              "docid": "114580",
+              "received": "2022-05-09",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2021.csv",
+              "archive_sha256": "882e4c19c0719b7ac75f8e906c264fdd69b899cf0a2942ad00c4eb14a1b855bd",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=114580",
+              "fiscal_year": 2019,
+              "raw": {
+                "CNPJ_Companhia": "43.776.517/0001-80",
+                "Data_Referencia": "2021-01-01",
+                "Versao": "13",
+                "ID_Documento": "114580",
+                "Nome_Companhia": "CIA SANEAMENTO BASICO EST SAO PAULO",
+                "Data_Inicio_Exercicio_Social": "2019-01-01",
+                "Data_Fim_Exercicio_Social": "2019-12-31",
+                "Lucro_Liquido_Ajustado": "3199140734.78",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "14.78634300",
+                "Lucro_Liquido_Retido": "2426528526.28",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "29.41377400",
+                "Dividendo_Distribuido_Total": "940988036.65",
+                "Data_Aprovacao_Retencao": "2020-04-28"
+              }
+            },
+            {
+              "docid": "114580",
+              "received": "2022-05-09",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2021.csv",
+              "archive_sha256": "882e4c19c0719b7ac75f8e906c264fdd69b899cf0a2942ad00c4eb14a1b855bd",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=114580",
+              "fiscal_year": 2020,
+              "raw": {
+                "CNPJ_Companhia": "43.776.517/0001-80",
+                "Data_Referencia": "2021-01-01",
+                "Versao": "13",
+                "ID_Documento": "114580",
+                "Nome_Companhia": "CIA SANEAMENTO BASICO EST SAO PAULO",
+                "Data_Inicio_Exercicio_Social": "2020-01-01",
+                "Data_Fim_Exercicio_Social": "2020-12-31",
+                "Lucro_Liquido_Ajustado": "924652114.60",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "4.05661100",
+                "Lucro_Liquido_Retido": "701349438.49",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "29.41307000",
+                "Dividendo_Distribuido_Total": "271968576.88",
+                "Data_Aprovacao_Retencao": "2021-04-29"
+              }
+            },
+            {
+              "docid": "114580",
+              "received": "2022-05-09",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2021.csv",
+              "archive_sha256": "882e4c19c0719b7ac75f8e906c264fdd69b899cf0a2942ad00c4eb14a1b855bd",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=114580",
+              "fiscal_year": 2021,
+              "raw": {
+                "CNPJ_Companhia": "43.776.517/0001-80",
+                "Data_Referencia": "2021-01-01",
+                "Versao": "13",
+                "ID_Documento": "114580",
+                "Nome_Companhia": "CIA SANEAMENTO BASICO EST SAO PAULO",
+                "Data_Inicio_Exercicio_Social": "2021-01-01",
+                "Data_Fim_Exercicio_Social": "2021-12-31",
+                "Lucro_Liquido_Ajustado": "0.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "0.00000000",
+                "Lucro_Liquido_Retido": "0.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "0.00000000",
+                "Dividendo_Distribuido_Total": "0.00",
+                "Data_Aprovacao_Retencao": ""
+              }
+            }
+          ]
+        },
+        "governance": {
+          "favorable": {
+            "dated_shareholder_right_records": 12,
+            "dated_related_party_records": 82
+          },
+          "evidence": [
+            {
+              "docid": "112960",
+              "received": "2022-03-24",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "112960",
+              "received": "2022-03-24",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "112960",
+              "received": "2022-03-24",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "112960",
+              "received": "2022-03-24",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "112960",
+              "received": "2022-03-24",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "112960",
+              "received": "2022-03-24",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "112960",
+              "received": "2022-03-24",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "112960",
+              "received": "2022-03-24",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "year": 2023,
+      "cutoff": "2023-06-30",
+      "ticker": "SBSP3",
+      "category": "INDETERMINATE",
+      "special_case": "",
+      "assessment_ref": "43776517000180:2014",
+      "classification_changed": false,
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "Abastecimento de água, esgotamento sanitário, drenagem e manejo de águas pluviais urbanas, limpeza urbana, manejo de resíduos sólidos e energia.",
+          "evidence": [
+            {
+              "cnpj": "43776517000180",
+              "received": "2022-07-04",
+              "name": "CIA SANEAMENTO BASICO EST SAO PAULO",
+              "sector": "Saneamento, Serv. Água e Gás",
+              "activity": "Abastecimento de água, esgotamento sanitário, drenagem e manejo de águas pluviais urbanas, limpeza urbana, manejo de resíduos sólidos e energia.",
+              "cvm": "014443",
+              "docid": "118261",
+              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=118261"
+            }
+          ]
+        },
+        "capital_economics": {
+          "favorable": {
+            "roe_parent_5": [
+              0.1529794240595033,
+              0.16352142621235471,
+              0.04381405529170301,
+              0.09663035300390276,
+              0.11943915009764014
+            ],
+            "normalized_profit": 3213445329.514217
+          },
+          "evidence": [
+            {
+              "fiscal_year": 2018,
+              "metric": "attributable_ni",
+              "value": 2835068000.0,
+              "docid": "91918",
+              "received": "2020-03-27",
+              "reference": "2019-12-31",
+              "period_end": "2018-12-31",
+              "perimeter": "ind",
+              "account": "3.11",
+              "description": "Lucro/Prejuízo do Período",
+              "source": "dfp_cia_aberta_DRE_ind_2019.csv",
+              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            },
+            {
+              "fiscal_year": 2019,
+              "metric": "attributable_ni",
+              "value": 3367517000.0,
+              "docid": "102262",
+              "received": "2021-03-25",
+              "reference": "2020-12-31",
+              "period_end": "2019-12-31",
+              "perimeter": "ind",
+              "account": "3.11",
+              "description": "Lucro/Prejuízo do Período",
+              "source": "dfp_cia_aberta_DRE_ind_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "fiscal_year": 2020,
+              "metric": "attributable_ni",
+              "value": 973318000.0,
+              "docid": "112960",
+              "received": "2022-03-24",
+              "reference": "2021-12-31",
+              "period_end": "2020-12-31",
+              "perimeter": "ind",
+              "account": "3.11",
+              "description": "Lucro/Prejuízo do Período",
+              "source": "dfp_cia_aberta_DRE_ind_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "fiscal_year": 2021,
+              "metric": "attributable_ni",
+              "value": 2305869000.0,
+              "docid": "124536",
+              "received": "2023-03-23",
+              "reference": "2022-12-31",
+              "period_end": "2021-12-31",
+              "perimeter": "ind",
+              "account": "3.11",
+              "description": "Lucro/Prejuízo do Período",
+              "source": "dfp_cia_aberta_DRE_ind_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "fiscal_year": 2022,
+              "metric": "attributable_ni",
+              "value": 3121267000.0,
+              "docid": "124536",
+              "received": "2023-03-23",
+              "reference": "2022-12-31",
+              "period_end": "2022-12-31",
+              "perimeter": "ind",
+              "account": "3.11",
+              "description": "Lucro/Prejuízo do Período",
+              "source": "dfp_cia_aberta_DRE_ind_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            }
+          ]
+        },
+        "earnings_reliability": {
+          "favorable": {
+            "positive_attributable_years": 5,
+            "audit_records": 8
+          },
+          "evidence": [
+            {
+              "docid": "124536",
+              "received": "2023-03-23",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "124536",
+              "received": "2023-03-23",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "124536",
+              "received": "2023-03-23",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "124536",
+              "received": "2023-03-23",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "124536",
+              "received": "2023-03-23",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "124536",
+              "received": "2023-03-23",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "124536",
+              "received": "2023-03-23",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "124536",
+              "received": "2023-03-23",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            }
+          ]
+        },
+        "financial_resilience": {
+          "favorable": {
+            "parent_equity_latest": 27333533000.0
+          },
+          "evidence": [
+            {
+              "docid": "124536",
+              "received": "2023-03-23",
+              "reference": "2022-12-31",
+              "period_end": "2022-12-31",
+              "perimeter": "ind",
+              "account": "2.03",
+              "description": "Patrimônio Líquido",
+              "source": "dfp_cia_aberta_BPP_ind_2022.csv",
+              "archive_sha256": "",
+              "url": ""
+            }
+          ]
+        },
+        "capital_allocation": {
+          "favorable": {
+            "historical_payout": [
+              0.29413126,
+              0.29413774,
+              0.2941307,
+              0.29414399,
+              null
+            ],
+            "distributions": [
+              792187938.17,
+              940988036.65,
+              271968576.88,
+              644344753.5,
+              null
+            ]
+          },
+          "evidence": [
+            {
+              "docid": "114580",
+              "received": "2022-05-09",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2021.csv",
+              "archive_sha256": "882e4c19c0719b7ac75f8e906c264fdd69b899cf0a2942ad00c4eb14a1b855bd",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=114580",
+              "fiscal_year": 2018,
+              "raw": {
+                "CNPJ_Companhia": "43.776.517/0001-80",
+                "Data_Referencia": "2021-01-01",
+                "Versao": "13",
+                "ID_Documento": "114580",
+                "Nome_Companhia": "CIA SANEAMENTO BASICO EST SAO PAULO",
+                "Data_Inicio_Exercicio_Social": "2018-01-01",
+                "Data_Fim_Exercicio_Social": "2018-12-31",
+                "Lucro_Liquido_Ajustado": "2693314340.86",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "13.77535400",
+                "Lucro_Liquido_Retido": "2042879789.05",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "29.41312600",
+                "Dividendo_Distribuido_Total": "792187938.17",
+                "Data_Aprovacao_Retencao": "2019-04-29"
+              }
+            },
+            {
+              "docid": "126250",
+              "received": "2023-05-10",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
+              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=126250",
+              "fiscal_year": 2019,
+              "raw": {
+                "CNPJ_Companhia": "43.776.517/0001-80",
+                "Data_Referencia": "2022-01-01",
+                "Versao": "11",
+                "ID_Documento": "126250",
+                "Nome_Companhia": "CIA SANEAMENTO BASICO EST SAO PAULO",
+                "Data_Inicio_Exercicio_Social": "2019-01-01",
+                "Data_Fim_Exercicio_Social": "2019-12-31",
+                "Lucro_Liquido_Ajustado": "3199140734.78",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "14.78634300",
+                "Lucro_Liquido_Retido": "2426528526.28",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "29.41377400",
+                "Dividendo_Distribuido_Total": "940988036.65",
+                "Data_Aprovacao_Retencao": "2020-04-28"
+              }
+            },
+            {
+              "docid": "126250",
+              "received": "2023-05-10",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
+              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=126250",
+              "fiscal_year": 2020,
+              "raw": {
+                "CNPJ_Companhia": "43.776.517/0001-80",
+                "Data_Referencia": "2022-01-01",
+                "Versao": "11",
+                "ID_Documento": "126250",
+                "Nome_Companhia": "CIA SANEAMENTO BASICO EST SAO PAULO",
+                "Data_Inicio_Exercicio_Social": "2020-01-01",
+                "Data_Fim_Exercicio_Social": "2020-12-31",
+                "Lucro_Liquido_Ajustado": "924652114.60",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "4.05661100",
+                "Lucro_Liquido_Retido": "701349438.49",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "29.41307000",
+                "Dividendo_Distribuido_Total": "271968576.88",
+                "Data_Aprovacao_Retencao": "2021-04-29"
+              }
+            },
+            {
+              "docid": "126250",
+              "received": "2023-05-10",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
+              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=126250",
+              "fiscal_year": 2021,
+              "raw": {
+                "CNPJ_Companhia": "43.776.517/0001-80",
+                "Data_Referencia": "2022-01-01",
+                "Versao": "11",
+                "ID_Documento": "126250",
+                "Nome_Companhia": "CIA SANEAMENTO BASICO EST SAO PAULO",
+                "Data_Inicio_Exercicio_Social": "2021-01-01",
+                "Data_Fim_Exercicio_Social": "2021-12-31",
+                "Lucro_Liquido_Ajustado": "2190575934.51",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "8.78625200",
+                "Lucro_Liquido_Retido": "1661524651.25",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "29.41439900",
+                "Dividendo_Distribuido_Total": "644344753.50",
+                "Data_Aprovacao_Retencao": "2022-04-28"
+              }
+            }
+          ]
+        },
+        "governance": {
+          "favorable": {
+            "dated_shareholder_right_records": 13,
+            "dated_related_party_records": 87
+          },
+          "evidence": [
+            {
+              "docid": "124536",
+              "received": "2023-03-23",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "124536",
+              "received": "2023-03-23",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "124536",
+              "received": "2023-03-23",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "124536",
+              "received": "2023-03-23",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "124536",
+              "received": "2023-03-23",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "124536",
+              "received": "2023-03-23",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "124536",
+              "received": "2023-03-23",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "124536",
+              "received": "2023-03-23",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

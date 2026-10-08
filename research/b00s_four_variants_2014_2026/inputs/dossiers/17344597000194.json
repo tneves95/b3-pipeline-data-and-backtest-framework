@@ -1,0 +1,3420 @@
+{
+  "initial_assessment": {
+    "year": 2018,
+    "cutoff": "2018-06-29",
+    "ticker": "BBSE3",
+    "cnpj": "17344597000194",
+    "company": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
+    "sector": "Seguros",
+    "category": "INDETERMINATE",
+    "dimensions": {
+      "durability": {
+        "status": "INDETERMINATE",
+        "favorable": "Participação no capital social de outras sociedades, que tenham por atividade operações de seguros, resseguros, previdências complementar ou capitalização.",
+        "missing": "Historical concession/contract durability, competitive position and pricing power",
+        "evidence": [
+          {
+            "cnpj": "17344597000194",
+            "received": "2018-04-30",
+            "name": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
+            "sector": "Emp. Adm. Part. - Seguradoras e Corretoras",
+            "activity": "Participação no capital social de outras sociedades, que tenham por atividade operações de seguros, resseguros, previdências complementar ou capitalização.",
+            "cvm": "023159",
+            "docid": "73601",
+            "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=73601"
+          }
+        ],
+        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+      },
+      "capital_economics": {
+        "status": "INDETERMINATE",
+        "favorable": {
+          "roe_parent_5": [
+            0.39329434283807807,
+            0.4650687169417925,
+            0.5427280616936021,
+            0.5058467849031556,
+            0.4711839132254858
+          ],
+          "normalized_profit": 4186976098.090664
+        },
+        "missing": "Cycle-normalized ROIC/incremental returns or risk-adjusted prudential ROE; historical peer/capital comparison",
+        "evidence": [
+          {
+            "fiscal_year": 2013,
+            "metric": "attributable_ni",
+            "value": 2473752000.0,
+            "docid": "43964",
+            "received": "2015-02-10",
+            "reference": "2014-12-31",
+            "period_end": "2013-12-31",
+            "perimeter": "con",
+            "account": "3.13.01",
+            "description": "Atribuído a Sócios da Empresa Controladora",
+            "source": "dfp_cia_aberta_DRE_con_2014.csv",
+            "archive_sha256": "b8795dba134754475a485c0f88b6542face6613bb418d261caa011d90e032f28",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2014.zip"
+          },
+          {
+            "fiscal_year": 2014,
+            "metric": "attributable_ni",
+            "value": 3456683000.0,
+            "docid": "53676",
+            "received": "2016-02-26",
+            "reference": "2015-12-31",
+            "period_end": "2014-12-31",
+            "perimeter": "con",
+            "account": "3.13.01",
+            "description": "Atribuído a Sócios da Empresa Controladora",
+            "source": "dfp_cia_aberta_DRE_con_2015.csv",
+            "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
+          },
+          {
+            "fiscal_year": 2015,
+            "metric": "attributable_ni",
+            "value": 4207432000.0,
+            "docid": "62449",
+            "received": "2017-02-13",
+            "reference": "2016-12-31",
+            "period_end": "2015-12-31",
+            "perimeter": "con",
+            "account": "3.13.01",
+            "description": "Atribuído a Sócios da Empresa Controladora",
+            "source": "dfp_cia_aberta_DRE_con_2016.csv",
+            "archive_sha256": "772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip"
+          },
+          {
+            "fiscal_year": 2016,
+            "metric": "attributable_ni",
+            "value": 4013852000.0,
+            "docid": "71564",
+            "received": "2018-02-19",
+            "reference": "2017-12-31",
+            "period_end": "2016-12-31",
+            "perimeter": "con",
+            "account": "3.13.01",
+            "description": "Atribuído a Sócios da Empresa Controladora",
+            "source": "dfp_cia_aberta_DRE_con_2017.csv",
+            "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+          },
+          {
+            "fiscal_year": 2017,
+            "metric": "attributable_ni",
+            "value": 4049245000.0,
+            "docid": "71564",
+            "received": "2018-02-19",
+            "reference": "2017-12-31",
+            "period_end": "2017-12-31",
+            "perimeter": "con",
+            "account": "3.13.01",
+            "description": "Atribuído a Sócios da Empresa Controladora",
+            "source": "dfp_cia_aberta_DRE_con_2017.csv",
+            "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+          }
+        ],
+        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+      },
+      "earnings_reliability": {
+        "status": "INDETERMINATE",
+        "favorable": {
+          "positive_attributable_years": 5,
+          "audit_records": 7
+        },
+        "missing": "Profit/cash/recurring earnings bridge; provisions and extraordinary items reviewed in dated notes",
+        "evidence": [
+          {
+            "docid": "71564",
+            "received": "2018-02-19",
+            "reference": "2017-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2017.csv",
+            "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+          },
+          {
+            "docid": "71564",
+            "received": "2018-02-19",
+            "reference": "2017-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2017.csv",
+            "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+          },
+          {
+            "docid": "71564",
+            "received": "2018-02-19",
+            "reference": "2017-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2017.csv",
+            "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+          },
+          {
+            "docid": "71564",
+            "received": "2018-02-19",
+            "reference": "2017-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2017.csv",
+            "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+          },
+          {
+            "docid": "71564",
+            "received": "2018-02-19",
+            "reference": "2017-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2017.csv",
+            "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+          },
+          {
+            "docid": "71564",
+            "received": "2018-02-19",
+            "reference": "2017-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2017.csv",
+            "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+          },
+          {
+            "docid": "71564",
+            "received": "2018-02-19",
+            "reference": "2017-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2017.csv",
+            "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+          }
+        ],
+        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+      },
+      "financial_resilience": {
+        "status": "INDETERMINATE",
+        "favorable": {
+          "parent_equity_latest": 8898470000.0
+        },
+        "missing": "SUSEP capital adequacy, technical reserves, claims and underwriting result",
+        "evidence": [
+          {
+            "docid": "71564",
+            "received": "2018-02-19",
+            "reference": "2017-12-31",
+            "period_end": "2017-12-31",
+            "perimeter": "ind",
+            "account": "2.03",
+            "description": "Patrimônio Líquido",
+            "source": "dfp_cia_aberta_BPP_ind_2017.csv",
+            "archive_sha256": "",
+            "url": ""
+          }
+        ],
+        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+      },
+      "capital_allocation": {
+        "status": "INDETERMINATE",
+        "favorable": {
+          "historical_payout": [
+            0.8,
+            0.8,
+            0.8,
+            0.823,
+            null
+          ],
+          "distributions": [
+            1979002000.0,
+            2765346000.0,
+            3365946000.0,
+            3304062.0,
+            null
+          ]
+        },
+        "missing": "Maintenance versus expansion CAPEX, sustainable dividends, adjusted per-share and incremental economic growth",
+        "evidence": [
+          {
+            "docid": "64576",
+            "received": "2017-05-02",
+            "reference": "",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "fre_cia_aberta_distribuicao_dividendos_2016.csv",
+            "archive_sha256": "bfd0513d903cb3e5a43360dcb1673b3c9ac1f23396974726cca764df64d481cc",
+            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=64576",
+            "fiscal_year": 2013,
+            "raw": {
+              "CNPJ_Companhia": "17.344.597/0001-94",
+              "Data_Referencia": "2016-01-01",
+              "Versao": "14",
+              "ID_Documento": "64576",
+              "Nome_Companhia": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
+              "Data_Inicio_Exercicio_Social": "2013-01-01",
+              "Data_Fim_Exercicio_Social": "2013-12-31",
+              "Lucro_Liquido_Ajustado": "2473752000.00",
+              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "35.90000000",
+              "Lucro_Liquido_Retido": "494750000.00",
+              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "80.00000000",
+              "Dividendo_Distribuido_Total": "1979002000.00",
+              "Data_Aprovacao_Retencao": "2014-04-30"
+            }
+          },
+          {
+            "docid": "73727",
+            "received": "2018-05-03",
+            "reference": "",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "fre_cia_aberta_distribuicao_dividendos_2017.csv",
+            "archive_sha256": "cb90963d1e7d6b2416265eb7aa0a463b98d067ade096f47b724467184273b0ab",
+            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=73727",
+            "fiscal_year": 2014,
+            "raw": {
+              "CNPJ_Companhia": "17.344.597/0001-94",
+              "Data_Referencia": "2017-01-01",
+              "Versao": "15",
+              "ID_Documento": "73727",
+              "Nome_Companhia": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
+              "Data_Inicio_Exercicio_Social": "2014-01-01",
+              "Data_Fim_Exercicio_Social": "2014-12-31",
+              "Lucro_Liquido_Ajustado": "3456683000.00",
+              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "49.80000000",
+              "Lucro_Liquido_Retido": "691337000.00",
+              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "80.00000000",
+              "Dividendo_Distribuido_Total": "2765346000.00",
+              "Data_Aprovacao_Retencao": "2015-04-27"
+            }
+          },
+          {
+            "docid": "73727",
+            "received": "2018-05-03",
+            "reference": "",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "fre_cia_aberta_distribuicao_dividendos_2017.csv",
+            "archive_sha256": "cb90963d1e7d6b2416265eb7aa0a463b98d067ade096f47b724467184273b0ab",
+            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=73727",
+            "fiscal_year": 2015,
+            "raw": {
+              "CNPJ_Companhia": "17.344.597/0001-94",
+              "Data_Referencia": "2017-01-01",
+              "Versao": "15",
+              "ID_Documento": "73727",
+              "Nome_Companhia": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
+              "Data_Inicio_Exercicio_Social": "2015-01-01",
+              "Data_Fim_Exercicio_Social": "2015-12-31",
+              "Lucro_Liquido_Ajustado": "4207432000.00",
+              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "54.80000000",
+              "Lucro_Liquido_Retido": "841486000.00",
+              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "80.00000000",
+              "Dividendo_Distribuido_Total": "3365946000.00",
+              "Data_Aprovacao_Retencao": "2016-04-20"
+            }
+          },
+          {
+            "docid": "73727",
+            "received": "2018-05-03",
+            "reference": "",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "fre_cia_aberta_distribuicao_dividendos_2017.csv",
+            "archive_sha256": "cb90963d1e7d6b2416265eb7aa0a463b98d067ade096f47b724467184273b0ab",
+            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=73727",
+            "fiscal_year": 2016,
+            "raw": {
+              "CNPJ_Companhia": "17.344.597/0001-94",
+              "Data_Referencia": "2017-01-01",
+              "Versao": "15",
+              "ID_Documento": "73727",
+              "Nome_Companhia": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
+              "Data_Inicio_Exercicio_Social": "2016-01-01",
+              "Data_Fim_Exercicio_Social": "2016-12-31",
+              "Lucro_Liquido_Ajustado": "4013852.00",
+              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "51.80000000",
+              "Lucro_Liquido_Retido": "709790.00",
+              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "82.30000000",
+              "Dividendo_Distribuido_Total": "3304062.00",
+              "Data_Aprovacao_Retencao": "2017-04-20"
+            }
+          }
+        ],
+        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+      },
+      "governance": {
+        "status": "INDETERMINATE",
+        "favorable": {
+          "dated_shareholder_right_records": 5,
+          "dated_related_party_records": 0
+        },
+        "missing": "Review of material conflicts, related parties and audit opinions before cutoff; no ex-post controversy inference",
+        "evidence": [
+          {
+            "docid": "71564",
+            "received": "2018-02-19",
+            "reference": "2017-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2017.csv",
+            "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+          },
+          {
+            "docid": "71564",
+            "received": "2018-02-19",
+            "reference": "2017-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2017.csv",
+            "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+          },
+          {
+            "docid": "71564",
+            "received": "2018-02-19",
+            "reference": "2017-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2017.csv",
+            "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+          },
+          {
+            "docid": "71564",
+            "received": "2018-02-19",
+            "reference": "2017-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2017.csv",
+            "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+          },
+          {
+            "docid": "71564",
+            "received": "2018-02-19",
+            "reference": "2017-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2017.csv",
+            "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+          },
+          {
+            "docid": "71564",
+            "received": "2018-02-19",
+            "reference": "2017-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2017.csv",
+            "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+          },
+          {
+            "docid": "71564",
+            "received": "2018-02-19",
+            "reference": "2017-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2017.csv",
+            "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+          }
+        ],
+        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+      }
+    },
+    "limitation": "Structured CVM facts establish availability, not all six economic conclusions. No scoring or future outcomes.",
+    "special_case": ""
+  },
+  "annual_evidence_updates": [
+    {
+      "year": 2019,
+      "cutoff": "2019-06-28",
+      "ticker": "BBSE3",
+      "category": "INDETERMINATE",
+      "special_case": "",
+      "assessment_ref": "17344597000194:2018",
+      "classification_changed": false,
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "Participação no capital social de outras sociedades, que tenham por atividade operações de seguros, resseguros, previdências complementar ou capitalização.",
+          "evidence": [
+            {
+              "cnpj": "17344597000194",
+              "received": "2019-05-13",
+              "name": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
+              "sector": "Emp. Adm. Part. - Seguradoras e Corretoras",
+              "activity": "Participação no capital social de outras sociedades, que tenham por atividade operações de seguros, resseguros, previdências complementar ou capitalização.",
+              "cvm": "023159",
+              "docid": "83270",
+              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=83270"
+            }
+          ]
+        },
+        "capital_economics": {
+          "favorable": {
+            "roe_parent_5": [
+              0.4650687169417925,
+              0.5427280616936021,
+              0.5058467849031556,
+              0.4711839132254858,
+              0.4500712861807169
+            ],
+            "normalized_profit": 4382020722.070888
+          },
+          "evidence": [
+            {
+              "fiscal_year": 2014,
+              "metric": "attributable_ni",
+              "value": 3456683000.0,
+              "docid": "53676",
+              "received": "2016-02-26",
+              "reference": "2015-12-31",
+              "period_end": "2014-12-31",
+              "perimeter": "con",
+              "account": "3.13.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2015.csv",
+              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
+            },
+            {
+              "fiscal_year": 2015,
+              "metric": "attributable_ni",
+              "value": 4207432000.0,
+              "docid": "62449",
+              "received": "2017-02-13",
+              "reference": "2016-12-31",
+              "period_end": "2015-12-31",
+              "perimeter": "con",
+              "account": "3.13.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2016.csv",
+              "archive_sha256": "772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip"
+            },
+            {
+              "fiscal_year": 2016,
+              "metric": "attributable_ni",
+              "value": 4013852000.0,
+              "docid": "71564",
+              "received": "2018-02-19",
+              "reference": "2017-12-31",
+              "period_end": "2016-12-31",
+              "perimeter": "con",
+              "account": "3.13.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2017.csv",
+              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+            },
+            {
+              "fiscal_year": 2017,
+              "metric": "attributable_ni",
+              "value": 4049245000.0,
+              "docid": "80591",
+              "received": "2019-02-11",
+              "reference": "2018-12-31",
+              "period_end": "2017-12-31",
+              "perimeter": "con",
+              "account": "3.13.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2018.csv",
+              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+            },
+            {
+              "fiscal_year": 2018,
+              "metric": "attributable_ni",
+              "value": 3539553000.0,
+              "docid": "80591",
+              "received": "2019-02-11",
+              "reference": "2018-12-31",
+              "period_end": "2018-12-31",
+              "perimeter": "con",
+              "account": "3.13.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2018.csv",
+              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+            }
+          ]
+        },
+        "earnings_reliability": {
+          "favorable": {
+            "positive_attributable_years": 5,
+            "audit_records": 7
+          },
+          "evidence": [
+            {
+              "docid": "80591",
+              "received": "2019-02-11",
+              "reference": "2018-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2018.csv",
+              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+            },
+            {
+              "docid": "80591",
+              "received": "2019-02-11",
+              "reference": "2018-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2018.csv",
+              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+            },
+            {
+              "docid": "80591",
+              "received": "2019-02-11",
+              "reference": "2018-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2018.csv",
+              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+            },
+            {
+              "docid": "80591",
+              "received": "2019-02-11",
+              "reference": "2018-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2018.csv",
+              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+            },
+            {
+              "docid": "80591",
+              "received": "2019-02-11",
+              "reference": "2018-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2018.csv",
+              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+            },
+            {
+              "docid": "80591",
+              "received": "2019-02-11",
+              "reference": "2018-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2018.csv",
+              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+            },
+            {
+              "docid": "80591",
+              "received": "2019-02-11",
+              "reference": "2018-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2018.csv",
+              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+            }
+          ]
+        },
+        "financial_resilience": {
+          "favorable": {
+            "parent_equity_latest": 6830385000.0
+          },
+          "evidence": [
+            {
+              "docid": "80591",
+              "received": "2019-02-11",
+              "reference": "2018-12-31",
+              "period_end": "2018-12-31",
+              "perimeter": "ind",
+              "account": "2.03",
+              "description": "Patrimônio Líquido",
+              "source": "dfp_cia_aberta_BPP_ind_2018.csv",
+              "archive_sha256": "",
+              "url": ""
+            }
+          ]
+        },
+        "capital_allocation": {
+          "favorable": {
+            "historical_payout": [
+              0.8,
+              0.8,
+              0.823,
+              0.852,
+              null
+            ],
+            "distributions": [
+              2765346000.0,
+              3365946.0,
+              3304062.0,
+              3449410.0,
+              null
+            ]
+          },
+          "evidence": [
+            {
+              "docid": "73727",
+              "received": "2018-05-03",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2017.csv",
+              "archive_sha256": "cb90963d1e7d6b2416265eb7aa0a463b98d067ade096f47b724467184273b0ab",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=73727",
+              "fiscal_year": 2014,
+              "raw": {
+                "CNPJ_Companhia": "17.344.597/0001-94",
+                "Data_Referencia": "2017-01-01",
+                "Versao": "15",
+                "ID_Documento": "73727",
+                "Nome_Companhia": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
+                "Data_Inicio_Exercicio_Social": "2014-01-01",
+                "Data_Fim_Exercicio_Social": "2014-12-31",
+                "Lucro_Liquido_Ajustado": "3456683000.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "49.80000000",
+                "Lucro_Liquido_Retido": "691337000.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "80.00000000",
+                "Dividendo_Distribuido_Total": "2765346000.00",
+                "Data_Aprovacao_Retencao": "2015-04-27"
+              }
+            },
+            {
+              "docid": "82470",
+              "received": "2019-04-29",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2018.csv",
+              "archive_sha256": "7a349acbce124fdb0846c371b3e68e5ff06781ead4b8713d6080eabf6737d082",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=82470",
+              "fiscal_year": 2015,
+              "raw": {
+                "CNPJ_Companhia": "17.344.597/0001-94",
+                "Data_Referencia": "2018-01-01",
+                "Versao": "21",
+                "ID_Documento": "82470",
+                "Nome_Companhia": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
+                "Data_Inicio_Exercicio_Social": "2015-01-01",
+                "Data_Fim_Exercicio_Social": "2015-12-31",
+                "Lucro_Liquido_Ajustado": "4207432000.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "54.80000000",
+                "Lucro_Liquido_Retido": "841486.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "80.00000000",
+                "Dividendo_Distribuido_Total": "3365946.00",
+                "Data_Aprovacao_Retencao": "2016-04-20"
+              }
+            },
+            {
+              "docid": "82470",
+              "received": "2019-04-29",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2018.csv",
+              "archive_sha256": "7a349acbce124fdb0846c371b3e68e5ff06781ead4b8713d6080eabf6737d082",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=82470",
+              "fiscal_year": 2016,
+              "raw": {
+                "CNPJ_Companhia": "17.344.597/0001-94",
+                "Data_Referencia": "2018-01-01",
+                "Versao": "21",
+                "ID_Documento": "82470",
+                "Nome_Companhia": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
+                "Data_Inicio_Exercicio_Social": "2016-01-01",
+                "Data_Fim_Exercicio_Social": "2016-12-31",
+                "Lucro_Liquido_Ajustado": "4013852.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "51.80000000",
+                "Lucro_Liquido_Retido": "709790.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "82.30000000",
+                "Dividendo_Distribuido_Total": "3304062.00",
+                "Data_Aprovacao_Retencao": "2017-04-20"
+              }
+            },
+            {
+              "docid": "82470",
+              "received": "2019-04-29",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2018.csv",
+              "archive_sha256": "7a349acbce124fdb0846c371b3e68e5ff06781ead4b8713d6080eabf6737d082",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=82470",
+              "fiscal_year": 2017,
+              "raw": {
+                "CNPJ_Companhia": "17.344.597/0001-94",
+                "Data_Referencia": "2018-01-01",
+                "Versao": "21",
+                "ID_Documento": "82470",
+                "Nome_Companhia": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
+                "Data_Inicio_Exercicio_Social": "2017-01-01",
+                "Data_Fim_Exercicio_Social": "2017-12-31",
+                "Lucro_Liquido_Ajustado": "4049245.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "45.50000000",
+                "Lucro_Liquido_Retido": "599835.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "85.20000000",
+                "Dividendo_Distribuido_Total": "3449410.00",
+                "Data_Aprovacao_Retencao": "2018-04-20"
+              }
+            }
+          ]
+        },
+        "governance": {
+          "favorable": {
+            "dated_shareholder_right_records": 6,
+            "dated_related_party_records": 0
+          },
+          "evidence": [
+            {
+              "docid": "80591",
+              "received": "2019-02-11",
+              "reference": "2018-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2018.csv",
+              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+            },
+            {
+              "docid": "80591",
+              "received": "2019-02-11",
+              "reference": "2018-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2018.csv",
+              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+            },
+            {
+              "docid": "80591",
+              "received": "2019-02-11",
+              "reference": "2018-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2018.csv",
+              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+            },
+            {
+              "docid": "80591",
+              "received": "2019-02-11",
+              "reference": "2018-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2018.csv",
+              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+            },
+            {
+              "docid": "80591",
+              "received": "2019-02-11",
+              "reference": "2018-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2018.csv",
+              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+            },
+            {
+              "docid": "80591",
+              "received": "2019-02-11",
+              "reference": "2018-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2018.csv",
+              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+            },
+            {
+              "docid": "80591",
+              "received": "2019-02-11",
+              "reference": "2018-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2018.csv",
+              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "year": 2020,
+      "cutoff": "2020-06-30",
+      "ticker": "BBSE3",
+      "category": "INDETERMINATE",
+      "special_case": "",
+      "assessment_ref": "17344597000194:2018",
+      "classification_changed": false,
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "Participação no capital social de outras sociedades, que tenham por atividade operações de seguros, resseguros, previdências complementar ou capitalização.",
+          "evidence": [
+            {
+              "cnpj": "17344597000194",
+              "received": "2019-05-13",
+              "name": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
+              "sector": "Emp. Adm. Part. - Seguradoras e Corretoras",
+              "activity": "Participação no capital social de outras sociedades, que tenham por atividade operações de seguros, resseguros, previdências complementar ou capitalização.",
+              "cvm": "023159",
+              "docid": "83270",
+              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=83270"
+            }
+          ]
+        },
+        "capital_economics": {
+          "favorable": {
+            "roe_parent_5": [
+              0.5427280616936021,
+              0.5058467849031556,
+              0.4711839132254858,
+              0.4500712861807169,
+              1.1025257677720242
+            ],
+            "normalized_profit": 4464292623.904201
+          },
+          "evidence": [
+            {
+              "fiscal_year": 2015,
+              "metric": "attributable_ni",
+              "value": 4207432000.0,
+              "docid": "62449",
+              "received": "2017-02-13",
+              "reference": "2016-12-31",
+              "period_end": "2015-12-31",
+              "perimeter": "con",
+              "account": "3.13.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2016.csv",
+              "archive_sha256": "772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip"
+            },
+            {
+              "fiscal_year": 2016,
+              "metric": "attributable_ni",
+              "value": 4013852000.0,
+              "docid": "71564",
+              "received": "2018-02-19",
+              "reference": "2017-12-31",
+              "period_end": "2016-12-31",
+              "perimeter": "con",
+              "account": "3.13.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2017.csv",
+              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+            },
+            {
+              "fiscal_year": 2017,
+              "metric": "attributable_ni",
+              "value": 4049245000.0,
+              "docid": "80591",
+              "received": "2019-02-11",
+              "reference": "2018-12-31",
+              "period_end": "2017-12-31",
+              "perimeter": "con",
+              "account": "3.13.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2018.csv",
+              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+            },
+            {
+              "fiscal_year": 2018,
+              "metric": "attributable_ni",
+              "value": 3539553000.0,
+              "docid": "90838",
+              "received": "2020-02-10",
+              "reference": "2019-12-31",
+              "period_end": "2018-12-31",
+              "perimeter": "con",
+              "account": "3.13.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2019.csv",
+              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            },
+            {
+              "fiscal_year": 2019,
+              "metric": "attributable_ni",
+              "value": 6658781000.0,
+              "docid": "90838",
+              "received": "2020-02-10",
+              "reference": "2019-12-31",
+              "period_end": "2019-12-31",
+              "perimeter": "con",
+              "account": "3.13.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2019.csv",
+              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            }
+          ]
+        },
+        "earnings_reliability": {
+          "favorable": {
+            "positive_attributable_years": 5,
+            "audit_records": 6
+          },
+          "evidence": [
+            {
+              "docid": "90838",
+              "received": "2020-02-10",
+              "reference": "2019-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2019.csv",
+              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            },
+            {
+              "docid": "90838",
+              "received": "2020-02-10",
+              "reference": "2019-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2019.csv",
+              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            },
+            {
+              "docid": "90838",
+              "received": "2020-02-10",
+              "reference": "2019-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2019.csv",
+              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            },
+            {
+              "docid": "90838",
+              "received": "2020-02-10",
+              "reference": "2019-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2019.csv",
+              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            },
+            {
+              "docid": "90838",
+              "received": "2020-02-10",
+              "reference": "2019-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2019.csv",
+              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            },
+            {
+              "docid": "90838",
+              "received": "2020-02-10",
+              "reference": "2019-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2019.csv",
+              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            }
+          ]
+        },
+        "financial_resilience": {
+          "favorable": {
+            "parent_equity_latest": 5248754000.0
+          },
+          "evidence": [
+            {
+              "docid": "90838",
+              "received": "2020-02-10",
+              "reference": "2019-12-31",
+              "period_end": "2019-12-31",
+              "perimeter": "ind",
+              "account": "2.03",
+              "description": "Patrimônio Líquido",
+              "source": "dfp_cia_aberta_BPP_ind_2019.csv",
+              "archive_sha256": "",
+              "url": ""
+            }
+          ]
+        },
+        "capital_allocation": {
+          "favorable": {
+            "historical_payout": [
+              0.8,
+              0.823,
+              0.852,
+              0.8220000000000001,
+              null
+            ],
+            "distributions": [
+              3365946.0,
+              3304062.0,
+              3449410.0,
+              2911176.0,
+              null
+            ]
+          },
+          "evidence": [
+            {
+              "docid": "82470",
+              "received": "2019-04-29",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2018.csv",
+              "archive_sha256": "7a349acbce124fdb0846c371b3e68e5ff06781ead4b8713d6080eabf6737d082",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=82470",
+              "fiscal_year": 2015,
+              "raw": {
+                "CNPJ_Companhia": "17.344.597/0001-94",
+                "Data_Referencia": "2018-01-01",
+                "Versao": "21",
+                "ID_Documento": "82470",
+                "Nome_Companhia": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
+                "Data_Inicio_Exercicio_Social": "2015-01-01",
+                "Data_Fim_Exercicio_Social": "2015-12-31",
+                "Lucro_Liquido_Ajustado": "4207432000.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "54.80000000",
+                "Lucro_Liquido_Retido": "841486.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "80.00000000",
+                "Dividendo_Distribuido_Total": "3365946.00",
+                "Data_Aprovacao_Retencao": "2016-04-20"
+              }
+            },
+            {
+              "docid": "92731",
+              "received": "2020-05-06",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2019.csv",
+              "archive_sha256": "30f461d5d3b3cdbab84faac20c158c6a41cea1ee0223c40d988db9845e2c6a51",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92731",
+              "fiscal_year": 2016,
+              "raw": {
+                "CNPJ_Companhia": "17.344.597/0001-94",
+                "Data_Referencia": "2019-01-01",
+                "Versao": "17",
+                "ID_Documento": "92731",
+                "Nome_Companhia": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
+                "Data_Inicio_Exercicio_Social": "2016-01-01",
+                "Data_Fim_Exercicio_Social": "2016-12-31",
+                "Lucro_Liquido_Ajustado": "4013852.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "51.80000000",
+                "Lucro_Liquido_Retido": "709790.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "82.30000000",
+                "Dividendo_Distribuido_Total": "3304062.00",
+                "Data_Aprovacao_Retencao": "2017-04-20"
+              }
+            },
+            {
+              "docid": "92731",
+              "received": "2020-05-06",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2019.csv",
+              "archive_sha256": "30f461d5d3b3cdbab84faac20c158c6a41cea1ee0223c40d988db9845e2c6a51",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92731",
+              "fiscal_year": 2017,
+              "raw": {
+                "CNPJ_Companhia": "17.344.597/0001-94",
+                "Data_Referencia": "2019-01-01",
+                "Versao": "17",
+                "ID_Documento": "92731",
+                "Nome_Companhia": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
+                "Data_Inicio_Exercicio_Social": "2017-01-01",
+                "Data_Fim_Exercicio_Social": "2017-12-31",
+                "Lucro_Liquido_Ajustado": "4049245.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "45.50000000",
+                "Lucro_Liquido_Retido": "599835.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "85.20000000",
+                "Dividendo_Distribuido_Total": "3449410.00",
+                "Data_Aprovacao_Retencao": "2018-04-20"
+              }
+            },
+            {
+              "docid": "92731",
+              "received": "2020-05-06",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2019.csv",
+              "archive_sha256": "30f461d5d3b3cdbab84faac20c158c6a41cea1ee0223c40d988db9845e2c6a51",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92731",
+              "fiscal_year": 2018,
+              "raw": {
+                "CNPJ_Companhia": "17.344.597/0001-94",
+                "Data_Referencia": "2019-01-01",
+                "Versao": "17",
+                "ID_Documento": "92731",
+                "Nome_Companhia": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
+                "Data_Inicio_Exercicio_Social": "2018-01-01",
+                "Data_Fim_Exercicio_Social": "2018-12-31",
+                "Lucro_Liquido_Ajustado": "3539553.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "45.10000000",
+                "Lucro_Liquido_Retido": "628377.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "82.20000000",
+                "Dividendo_Distribuido_Total": "2911176.00",
+                "Data_Aprovacao_Retencao": "2019-04-24"
+              }
+            }
+          ]
+        },
+        "governance": {
+          "favorable": {
+            "dated_shareholder_right_records": 7,
+            "dated_related_party_records": 5
+          },
+          "evidence": [
+            {
+              "docid": "90838",
+              "received": "2020-02-10",
+              "reference": "2019-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2019.csv",
+              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            },
+            {
+              "docid": "90838",
+              "received": "2020-02-10",
+              "reference": "2019-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2019.csv",
+              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            },
+            {
+              "docid": "90838",
+              "received": "2020-02-10",
+              "reference": "2019-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2019.csv",
+              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            },
+            {
+              "docid": "90838",
+              "received": "2020-02-10",
+              "reference": "2019-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2019.csv",
+              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            },
+            {
+              "docid": "90838",
+              "received": "2020-02-10",
+              "reference": "2019-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2019.csv",
+              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            },
+            {
+              "docid": "90838",
+              "received": "2020-02-10",
+              "reference": "2019-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2019.csv",
+              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "year": 2021,
+      "cutoff": "2021-06-30",
+      "ticker": "BBSE3",
+      "category": "INDETERMINATE",
+      "special_case": "",
+      "assessment_ref": "17344597000194:2018",
+      "classification_changed": false,
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "Participação no capital social de outras sociedades, que tenham por atividade operações de seguros, resseguros, previdências complementar ou capitalização.",
+          "evidence": [
+            {
+              "cnpj": "17344597000194",
+              "received": "2020-12-09",
+              "name": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
+              "sector": "Emp. Adm. Part. - Seguradoras e Corretoras",
+              "activity": "Participação no capital social de outras sociedades, que tenham por atividade operações de seguros, resseguros, previdências complementar ou capitalização.",
+              "cvm": "023159",
+              "docid": "99104",
+              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=99104"
+            }
+          ]
+        },
+        "capital_economics": {
+          "favorable": {
+            "roe_parent_5": [
+              0.5058467849031556,
+              0.4711839132254858,
+              0.4500712861807169,
+              1.1025257677720242,
+              0.6617377931029623
+            ],
+            "normalized_profit": 4727142299.354603
+          },
+          "evidence": [
+            {
+              "fiscal_year": 2016,
+              "metric": "attributable_ni",
+              "value": 4013852000.0,
+              "docid": "71564",
+              "received": "2018-02-19",
+              "reference": "2017-12-31",
+              "period_end": "2016-12-31",
+              "perimeter": "con",
+              "account": "3.13.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2017.csv",
+              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+            },
+            {
+              "fiscal_year": 2017,
+              "metric": "attributable_ni",
+              "value": 4049245000.0,
+              "docid": "80591",
+              "received": "2019-02-11",
+              "reference": "2018-12-31",
+              "period_end": "2017-12-31",
+              "perimeter": "con",
+              "account": "3.13.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2018.csv",
+              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+            },
+            {
+              "fiscal_year": 2018,
+              "metric": "attributable_ni",
+              "value": 3539553000.0,
+              "docid": "90838",
+              "received": "2020-02-10",
+              "reference": "2019-12-31",
+              "period_end": "2018-12-31",
+              "perimeter": "con",
+              "account": "3.13.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2019.csv",
+              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            },
+            {
+              "fiscal_year": 2019,
+              "metric": "attributable_ni",
+              "value": 6658781000.0,
+              "docid": "99979",
+              "received": "2021-02-08",
+              "reference": "2020-12-31",
+              "period_end": "2019-12-31",
+              "perimeter": "con",
+              "account": "3.13.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "fiscal_year": 2020,
+              "metric": "attributable_ni",
+              "value": 3850771000.0,
+              "docid": "99979",
+              "received": "2021-02-08",
+              "reference": "2020-12-31",
+              "period_end": "2020-12-31",
+              "perimeter": "con",
+              "account": "3.13.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            }
+          ]
+        },
+        "earnings_reliability": {
+          "favorable": {
+            "positive_attributable_years": 5,
+            "audit_records": 6
+          },
+          "evidence": [
+            {
+              "docid": "99979",
+              "received": "2021-02-08",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "docid": "99979",
+              "received": "2021-02-08",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "docid": "99979",
+              "received": "2021-02-08",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "docid": "99979",
+              "received": "2021-02-08",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "docid": "99979",
+              "received": "2021-02-08",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "docid": "99979",
+              "received": "2021-02-08",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            }
+          ]
+        },
+        "financial_resilience": {
+          "favorable": {
+            "parent_equity_latest": 6389605000.0
+          },
+          "evidence": [
+            {
+              "docid": "99979",
+              "received": "2021-02-08",
+              "reference": "2020-12-31",
+              "period_end": "2020-12-31",
+              "perimeter": "ind",
+              "account": "2.03",
+              "description": "Patrimônio Líquido",
+              "source": "dfp_cia_aberta_BPP_ind_2020.csv",
+              "archive_sha256": "",
+              "url": ""
+            }
+          ]
+        },
+        "capital_allocation": {
+          "favorable": {
+            "historical_payout": [
+              0.823,
+              0.852,
+              0.8220000000000001,
+              0.836,
+              null
+            ],
+            "distributions": [
+              3304062.0,
+              3449410.0,
+              2911176.0,
+              5568631.0,
+              null
+            ]
+          },
+          "evidence": [
+            {
+              "docid": "92731",
+              "received": "2020-05-06",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2019.csv",
+              "archive_sha256": "30f461d5d3b3cdbab84faac20c158c6a41cea1ee0223c40d988db9845e2c6a51",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92731",
+              "fiscal_year": 2016,
+              "raw": {
+                "CNPJ_Companhia": "17.344.597/0001-94",
+                "Data_Referencia": "2019-01-01",
+                "Versao": "17",
+                "ID_Documento": "92731",
+                "Nome_Companhia": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
+                "Data_Inicio_Exercicio_Social": "2016-01-01",
+                "Data_Fim_Exercicio_Social": "2016-12-31",
+                "Lucro_Liquido_Ajustado": "4013852.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "51.80000000",
+                "Lucro_Liquido_Retido": "709790.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "82.30000000",
+                "Dividendo_Distribuido_Total": "3304062.00",
+                "Data_Aprovacao_Retencao": "2017-04-20"
+              }
+            },
+            {
+              "docid": "103351",
+              "received": "2021-05-04",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2020.csv",
+              "archive_sha256": "17d2d911201f64dc8ff501104ce8fe343cd4ab3bdb41ea03eb6bfc2c4f6b80ab",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=103351",
+              "fiscal_year": 2017,
+              "raw": {
+                "CNPJ_Companhia": "17.344.597/0001-94",
+                "Data_Referencia": "2020-01-01",
+                "Versao": "14",
+                "ID_Documento": "103351",
+                "Nome_Companhia": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
+                "Data_Inicio_Exercicio_Social": "2017-01-01",
+                "Data_Fim_Exercicio_Social": "2017-12-31",
+                "Lucro_Liquido_Ajustado": "4049245.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "45.50000000",
+                "Lucro_Liquido_Retido": "599835.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "85.20000000",
+                "Dividendo_Distribuido_Total": "3449410.00",
+                "Data_Aprovacao_Retencao": "2018-04-20"
+              }
+            },
+            {
+              "docid": "103351",
+              "received": "2021-05-04",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2020.csv",
+              "archive_sha256": "17d2d911201f64dc8ff501104ce8fe343cd4ab3bdb41ea03eb6bfc2c4f6b80ab",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=103351",
+              "fiscal_year": 2018,
+              "raw": {
+                "CNPJ_Companhia": "17.344.597/0001-94",
+                "Data_Referencia": "2020-01-01",
+                "Versao": "14",
+                "ID_Documento": "103351",
+                "Nome_Companhia": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
+                "Data_Inicio_Exercicio_Social": "2018-01-01",
+                "Data_Fim_Exercicio_Social": "2018-12-31",
+                "Lucro_Liquido_Ajustado": "3539553.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "45.10000000",
+                "Lucro_Liquido_Retido": "628377.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "82.20000000",
+                "Dividendo_Distribuido_Total": "2911176.00",
+                "Data_Aprovacao_Retencao": "2019-04-24"
+              }
+            },
+            {
+              "docid": "103351",
+              "received": "2021-05-04",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2020.csv",
+              "archive_sha256": "17d2d911201f64dc8ff501104ce8fe343cd4ab3bdb41ea03eb6bfc2c4f6b80ab",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=103351",
+              "fiscal_year": 2019,
+              "raw": {
+                "CNPJ_Companhia": "17.344.597/0001-94",
+                "Data_Referencia": "2020-01-01",
+                "Versao": "14",
+                "ID_Documento": "103351",
+                "Nome_Companhia": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
+                "Data_Inicio_Exercicio_Social": "2019-01-01",
+                "Data_Fim_Exercicio_Social": "2019-12-31",
+                "Lucro_Liquido_Ajustado": "6658781.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "110.25000000",
+                "Lucro_Liquido_Retido": "1090150.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "83.60000000",
+                "Dividendo_Distribuido_Total": "5568631.00",
+                "Data_Aprovacao_Retencao": "2020-04-22"
+              }
+            }
+          ]
+        },
+        "governance": {
+          "favorable": {
+            "dated_shareholder_right_records": 8,
+            "dated_related_party_records": 10
+          },
+          "evidence": [
+            {
+              "docid": "99979",
+              "received": "2021-02-08",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "docid": "99979",
+              "received": "2021-02-08",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "docid": "99979",
+              "received": "2021-02-08",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "docid": "99979",
+              "received": "2021-02-08",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "docid": "99979",
+              "received": "2021-02-08",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "docid": "99979",
+              "received": "2021-02-08",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "year": 2022,
+      "cutoff": "2022-06-30",
+      "ticker": "BBSE3",
+      "category": "INDETERMINATE",
+      "special_case": "",
+      "assessment_ref": "17344597000194:2018",
+      "classification_changed": false,
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "Participação no capital social de outras sociedades, que tenham por atividade operações de seguros, resseguros, previdências complementar ou capitalização.",
+          "evidence": [
+            {
+              "cnpj": "17344597000194",
+              "received": "2022-05-31",
+              "name": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
+              "sector": "Emp. Adm. Part. - Seguradoras e Corretoras",
+              "activity": "Participação no capital social de outras sociedades, que tenham por atividade operações de seguros, resseguros, previdências complementar ou capitalização.",
+              "cvm": "023159",
+              "docid": "116234",
+              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=116234"
+            }
+          ]
+        },
+        "capital_economics": {
+          "favorable": {
+            "roe_parent_5": [
+              0.4711839132254858,
+              0.4500712861807169,
+              1.1025257677720242,
+              0.6617377931029623,
+              0.575409400658517
+            ],
+            "normalized_profit": 4450184753.917492
+          },
+          "evidence": [
+            {
+              "fiscal_year": 2017,
+              "metric": "attributable_ni",
+              "value": 4049245000.0,
+              "docid": "80591",
+              "received": "2019-02-11",
+              "reference": "2018-12-31",
+              "period_end": "2017-12-31",
+              "perimeter": "con",
+              "account": "3.13.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2018.csv",
+              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+            },
+            {
+              "fiscal_year": 2018,
+              "metric": "attributable_ni",
+              "value": 3539553000.0,
+              "docid": "90838",
+              "received": "2020-02-10",
+              "reference": "2019-12-31",
+              "period_end": "2018-12-31",
+              "perimeter": "con",
+              "account": "3.13.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2019.csv",
+              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            },
+            {
+              "fiscal_year": 2019,
+              "metric": "attributable_ni",
+              "value": 6658781000.0,
+              "docid": "99979",
+              "received": "2021-02-08",
+              "reference": "2020-12-31",
+              "period_end": "2019-12-31",
+              "perimeter": "con",
+              "account": "3.13.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "fiscal_year": 2020,
+              "metric": "attributable_ni",
+              "value": 3850771000.0,
+              "docid": "111570",
+              "received": "2022-02-07",
+              "reference": "2021-12-31",
+              "period_end": "2020-12-31",
+              "perimeter": "con",
+              "account": "3.13.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "fiscal_year": 2021,
+              "metric": "attributable_ni",
+              "value": 3933217000.0,
+              "docid": "111570",
+              "received": "2022-02-07",
+              "reference": "2021-12-31",
+              "period_end": "2021-12-31",
+              "perimeter": "con",
+              "account": "3.13.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            }
+          ]
+        },
+        "earnings_reliability": {
+          "favorable": {
+            "positive_attributable_years": 5,
+            "audit_records": 6
+          },
+          "evidence": [
+            {
+              "docid": "111570",
+              "received": "2022-02-07",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "111570",
+              "received": "2022-02-07",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "111570",
+              "received": "2022-02-07",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "111570",
+              "received": "2022-02-07",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "111570",
+              "received": "2022-02-07",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "111570",
+              "received": "2022-02-07",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            }
+          ]
+        },
+        "financial_resilience": {
+          "favorable": {
+            "parent_equity_latest": 7281416000.0
+          },
+          "evidence": [
+            {
+              "docid": "111570",
+              "received": "2022-02-07",
+              "reference": "2021-12-31",
+              "period_end": "2021-12-31",
+              "perimeter": "ind",
+              "account": "2.03",
+              "description": "Patrimônio Líquido",
+              "source": "dfp_cia_aberta_BPP_ind_2021.csv",
+              "archive_sha256": "",
+              "url": ""
+            }
+          ]
+        },
+        "capital_allocation": {
+          "favorable": {
+            "historical_payout": [
+              0.852,
+              0.8220000000000001,
+              0.836,
+              0.7,
+              null
+            ],
+            "distributions": [
+              3449410.0,
+              2911176.0,
+              5568631.0,
+              2695540.0,
+              null
+            ]
+          },
+          "evidence": [
+            {
+              "docid": "103351",
+              "received": "2021-05-04",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2020.csv",
+              "archive_sha256": "17d2d911201f64dc8ff501104ce8fe343cd4ab3bdb41ea03eb6bfc2c4f6b80ab",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=103351",
+              "fiscal_year": 2017,
+              "raw": {
+                "CNPJ_Companhia": "17.344.597/0001-94",
+                "Data_Referencia": "2020-01-01",
+                "Versao": "14",
+                "ID_Documento": "103351",
+                "Nome_Companhia": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
+                "Data_Inicio_Exercicio_Social": "2017-01-01",
+                "Data_Fim_Exercicio_Social": "2017-12-31",
+                "Lucro_Liquido_Ajustado": "4049245.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "45.50000000",
+                "Lucro_Liquido_Retido": "599835.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "85.20000000",
+                "Dividendo_Distribuido_Total": "3449410.00",
+                "Data_Aprovacao_Retencao": "2018-04-20"
+              }
+            },
+            {
+              "docid": "114072",
+              "received": "2022-04-29",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2021.csv",
+              "archive_sha256": "882e4c19c0719b7ac75f8e906c264fdd69b899cf0a2942ad00c4eb14a1b855bd",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=114072",
+              "fiscal_year": 2018,
+              "raw": {
+                "CNPJ_Companhia": "17.344.597/0001-94",
+                "Data_Referencia": "2021-01-01",
+                "Versao": "17",
+                "ID_Documento": "114072",
+                "Nome_Companhia": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
+                "Data_Inicio_Exercicio_Social": "2018-01-01",
+                "Data_Fim_Exercicio_Social": "2018-12-31",
+                "Lucro_Liquido_Ajustado": "3539553.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "45.10000000",
+                "Lucro_Liquido_Retido": "628377.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "82.20000000",
+                "Dividendo_Distribuido_Total": "2911176.00",
+                "Data_Aprovacao_Retencao": "2019-04-24"
+              }
+            },
+            {
+              "docid": "114072",
+              "received": "2022-04-29",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2021.csv",
+              "archive_sha256": "882e4c19c0719b7ac75f8e906c264fdd69b899cf0a2942ad00c4eb14a1b855bd",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=114072",
+              "fiscal_year": 2019,
+              "raw": {
+                "CNPJ_Companhia": "17.344.597/0001-94",
+                "Data_Referencia": "2021-01-01",
+                "Versao": "17",
+                "ID_Documento": "114072",
+                "Nome_Companhia": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
+                "Data_Inicio_Exercicio_Social": "2019-01-01",
+                "Data_Fim_Exercicio_Social": "2019-12-31",
+                "Lucro_Liquido_Ajustado": "6658781.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "71.30000000",
+                "Lucro_Liquido_Retido": "1090150.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "83.60000000",
+                "Dividendo_Distribuido_Total": "5568631.00",
+                "Data_Aprovacao_Retencao": "2020-04-22"
+              }
+            },
+            {
+              "docid": "114072",
+              "received": "2022-04-29",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2021.csv",
+              "archive_sha256": "882e4c19c0719b7ac75f8e906c264fdd69b899cf0a2942ad00c4eb14a1b855bd",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=114072",
+              "fiscal_year": 2020,
+              "raw": {
+                "CNPJ_Companhia": "17.344.597/0001-94",
+                "Data_Referencia": "2021-01-01",
+                "Versao": "17",
+                "ID_Documento": "114072",
+                "Nome_Companhia": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
+                "Data_Inicio_Exercicio_Social": "2020-01-01",
+                "Data_Fim_Exercicio_Social": "2020-12-31",
+                "Lucro_Liquido_Ajustado": "3850711.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "6.66000000",
+                "Lucro_Liquido_Retido": "1155231.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "70.00000000",
+                "Dividendo_Distribuido_Total": "2695540.00",
+                "Data_Aprovacao_Retencao": "2021-04-29"
+              }
+            }
+          ]
+        },
+        "governance": {
+          "favorable": {
+            "dated_shareholder_right_records": 9,
+            "dated_related_party_records": 15
+          },
+          "evidence": [
+            {
+              "docid": "111570",
+              "received": "2022-02-07",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "111570",
+              "received": "2022-02-07",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "111570",
+              "received": "2022-02-07",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "111570",
+              "received": "2022-02-07",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "111570",
+              "received": "2022-02-07",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "111570",
+              "received": "2022-02-07",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "year": 2023,
+      "cutoff": "2023-06-30",
+      "ticker": "BBSE3",
+      "category": "INDETERMINATE",
+      "special_case": "",
+      "assessment_ref": "17344597000194:2018",
+      "classification_changed": false,
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "Participação no capital social de outras sociedades que realizem quaisquer atividades reguladas pela SUSEP e ANS, além de corretagem desses produtos.",
+          "evidence": [
+            {
+              "cnpj": "17344597000194",
+              "received": "2023-05-31",
+              "name": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
+              "sector": "Emp. Adm. Part. - Seguradoras e Corretoras",
+              "activity": "Participação no capital social de outras sociedades que realizem quaisquer atividades reguladas pela SUSEP e ANS, além de corretagem desses produtos.",
+              "cvm": "023159",
+              "docid": "127590",
+              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=127590"
+            }
+          ]
+        },
+        "capital_economics": {
+          "favorable": {
+            "roe_parent_5": [
+              0.4500712861807169,
+              1.1025257677720242,
+              0.6617377931029623,
+              0.575409400658517,
+              0.8125779321912386
+            ],
+            "normalized_profit": 4625336558.156949
+          },
+          "evidence": [
+            {
+              "fiscal_year": 2018,
+              "metric": "attributable_ni",
+              "value": 3539553000.0,
+              "docid": "90838",
+              "received": "2020-02-10",
+              "reference": "2019-12-31",
+              "period_end": "2018-12-31",
+              "perimeter": "con",
+              "account": "3.13.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2019.csv",
+              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            },
+            {
+              "fiscal_year": 2019,
+              "metric": "attributable_ni",
+              "value": 6658781000.0,
+              "docid": "99979",
+              "received": "2021-02-08",
+              "reference": "2020-12-31",
+              "period_end": "2019-12-31",
+              "perimeter": "con",
+              "account": "3.13.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "fiscal_year": 2020,
+              "metric": "attributable_ni",
+              "value": 3850771000.0,
+              "docid": "111570",
+              "received": "2022-02-07",
+              "reference": "2021-12-31",
+              "period_end": "2020-12-31",
+              "perimeter": "con",
+              "account": "3.13.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "fiscal_year": 2021,
+              "metric": "attributable_ni",
+              "value": 3933217000.0,
+              "docid": "123424",
+              "received": "2023-02-09",
+              "reference": "2022-12-31",
+              "period_end": "2021-12-31",
+              "perimeter": "con",
+              "account": "3.13.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "fiscal_year": 2022,
+              "metric": "attributable_ni",
+              "value": 6044571000.0,
+              "docid": "123424",
+              "received": "2023-02-09",
+              "reference": "2022-12-31",
+              "period_end": "2022-12-31",
+              "perimeter": "con",
+              "account": "3.13.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            }
+          ]
+        },
+        "earnings_reliability": {
+          "favorable": {
+            "positive_attributable_years": 5,
+            "audit_records": 6
+          },
+          "evidence": [
+            {
+              "docid": "123424",
+              "received": "2023-02-09",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "123424",
+              "received": "2023-02-09",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "123424",
+              "received": "2023-02-09",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "123424",
+              "received": "2023-02-09",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "123424",
+              "received": "2023-02-09",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "123424",
+              "received": "2023-02-09",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            }
+          ]
+        },
+        "financial_resilience": {
+          "favorable": {
+            "parent_equity_latest": 7596101000.0
+          },
+          "evidence": [
+            {
+              "docid": "123424",
+              "received": "2023-02-09",
+              "reference": "2022-12-31",
+              "period_end": "2022-12-31",
+              "perimeter": "ind",
+              "account": "2.03",
+              "description": "Patrimônio Líquido",
+              "source": "dfp_cia_aberta_BPP_ind_2022.csv",
+              "archive_sha256": "",
+              "url": ""
+            }
+          ]
+        },
+        "capital_allocation": {
+          "favorable": {
+            "historical_payout": [
+              0.8220000000000001,
+              0.836,
+              0.7,
+              0.73,
+              null
+            ],
+            "distributions": [
+              2911176.0,
+              5568631557.94,
+              2695539953.59,
+              2871248591.24,
+              null
+            ]
+          },
+          "evidence": [
+            {
+              "docid": "114072",
+              "received": "2022-04-29",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2021.csv",
+              "archive_sha256": "882e4c19c0719b7ac75f8e906c264fdd69b899cf0a2942ad00c4eb14a1b855bd",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=114072",
+              "fiscal_year": 2018,
+              "raw": {
+                "CNPJ_Companhia": "17.344.597/0001-94",
+                "Data_Referencia": "2021-01-01",
+                "Versao": "17",
+                "ID_Documento": "114072",
+                "Nome_Companhia": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
+                "Data_Inicio_Exercicio_Social": "2018-01-01",
+                "Data_Fim_Exercicio_Social": "2018-12-31",
+                "Lucro_Liquido_Ajustado": "3539553.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "45.10000000",
+                "Lucro_Liquido_Retido": "628377.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "82.20000000",
+                "Dividendo_Distribuido_Total": "2911176.00",
+                "Data_Aprovacao_Retencao": "2019-04-24"
+              }
+            },
+            {
+              "docid": "126989",
+              "received": "2023-05-18",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
+              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=126989",
+              "fiscal_year": 2019,
+              "raw": {
+                "CNPJ_Companhia": "17.344.597/0001-94",
+                "Data_Referencia": "2022-01-01",
+                "Versao": "10",
+                "ID_Documento": "126989",
+                "Nome_Companhia": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
+                "Data_Inicio_Exercicio_Social": "2019-01-01",
+                "Data_Fim_Exercicio_Social": "2019-12-31",
+                "Lucro_Liquido_Ajustado": "6658781369.40",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "71.30000000",
+                "Lucro_Liquido_Retido": "1090149811.46",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "83.60000000",
+                "Dividendo_Distribuido_Total": "5568631557.94",
+                "Data_Aprovacao_Retencao": "2020-04-22"
+              }
+            },
+            {
+              "docid": "126989",
+              "received": "2023-05-18",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
+              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=126989",
+              "fiscal_year": 2020,
+              "raw": {
+                "CNPJ_Companhia": "17.344.597/0001-94",
+                "Data_Referencia": "2022-01-01",
+                "Versao": "10",
+                "ID_Documento": "126989",
+                "Nome_Companhia": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
+                "Data_Inicio_Exercicio_Social": "2020-01-01",
+                "Data_Fim_Exercicio_Social": "2020-12-31",
+                "Lucro_Liquido_Ajustado": "3850771362.27",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "66.60000000",
+                "Lucro_Liquido_Retido": "1155231408.68",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "70.00000000",
+                "Dividendo_Distribuido_Total": "2695539953.59",
+                "Data_Aprovacao_Retencao": "2021-04-29"
+              }
+            },
+            {
+              "docid": "126989",
+              "received": "2023-05-18",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
+              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=126989",
+              "fiscal_year": 2021,
+              "raw": {
+                "CNPJ_Companhia": "17.344.597/0001-94",
+                "Data_Referencia": "2022-01-01",
+                "Versao": "10",
+                "ID_Documento": "126989",
+                "Nome_Companhia": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
+                "Data_Inicio_Exercicio_Social": "2021-01-01",
+                "Data_Fim_Exercicio_Social": "2021-12-31",
+                "Lucro_Liquido_Ajustado": "3933217248.28",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "57.50000000",
+                "Lucro_Liquido_Retido": "1061968657.04",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "73.00000000",
+                "Dividendo_Distribuido_Total": "2871248591.24",
+                "Data_Aprovacao_Retencao": "2022-04-29"
+              }
+            }
+          ]
+        },
+        "governance": {
+          "favorable": {
+            "dated_shareholder_right_records": 10,
+            "dated_related_party_records": 20
+          },
+          "evidence": [
+            {
+              "docid": "123424",
+              "received": "2023-02-09",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "123424",
+              "received": "2023-02-09",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "123424",
+              "received": "2023-02-09",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "123424",
+              "received": "2023-02-09",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "123424",
+              "received": "2023-02-09",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "123424",
+              "received": "2023-02-09",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "year": 2024,
+      "cutoff": "2024-06-28",
+      "ticker": "BBSE3",
+      "category": "INDETERMINATE",
+      "special_case": "",
+      "assessment_ref": "17344597000194:2018",
+      "classification_changed": false,
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "Participação no capital social de outras sociedades que realizem quaisquer atividades reguladas pela SUSEP e ANS, além de corretagem desses produtos.",
+          "evidence": [
+            {
+              "cnpj": "17344597000194",
+              "received": "2024-05-15",
+              "name": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
+              "sector": "Emp. Adm. Part. - Seguradoras e Corretoras",
+              "activity": "Participação no capital social de outras sociedades que realizem quaisquer atividades reguladas pela SUSEP e ANS, além de corretagem desses produtos.",
+              "cvm": "023159",
+              "docid": "137432",
+              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=137432"
+            }
+          ]
+        },
+        "capital_economics": {
+          "favorable": {
+            "roe_parent_5": [
+              1.1025257677720242,
+              0.6617377931029623,
+              0.575409400658517,
+              0.8090293694811369,
+              0.8902827121528608
+            ],
+            "normalized_profit": 6629862197.380535
+          },
+          "evidence": [
+            {
+              "fiscal_year": 2019,
+              "metric": "attributable_ni",
+              "value": 6658781000.0,
+              "docid": "99979",
+              "received": "2021-02-08",
+              "reference": "2020-12-31",
+              "period_end": "2019-12-31",
+              "perimeter": "con",
+              "account": "3.13.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "fiscal_year": 2020,
+              "metric": "attributable_ni",
+              "value": 3850771000.0,
+              "docid": "111570",
+              "received": "2022-02-07",
+              "reference": "2021-12-31",
+              "period_end": "2020-12-31",
+              "perimeter": "con",
+              "account": "3.13.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "fiscal_year": 2021,
+              "metric": "attributable_ni",
+              "value": 3933217000.0,
+              "docid": "123424",
+              "received": "2023-02-09",
+              "reference": "2022-12-31",
+              "period_end": "2021-12-31",
+              "perimeter": "con",
+              "account": "3.13.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "fiscal_year": 2022,
+              "metric": "attributable_ni",
+              "value": 6196415000.0,
+              "docid": "133845",
+              "received": "2024-02-05",
+              "reference": "2023-12-31",
+              "period_end": "2022-12-31",
+              "perimeter": "con",
+              "account": "3.13.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            },
+            {
+              "fiscal_year": 2023,
+              "metric": "attributable_ni",
+              "value": 7947203000.0,
+              "docid": "133845",
+              "received": "2024-02-05",
+              "reference": "2023-12-31",
+              "period_end": "2023-12-31",
+              "perimeter": "con",
+              "account": "3.13.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            }
+          ]
+        },
+        "earnings_reliability": {
+          "favorable": {
+            "positive_attributable_years": 5,
+            "audit_records": 6
+          },
+          "evidence": [
+            {
+              "docid": "133845",
+              "received": "2024-02-05",
+              "reference": "2023-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            },
+            {
+              "docid": "133845",
+              "received": "2024-02-05",
+              "reference": "2023-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            },
+            {
+              "docid": "133845",
+              "received": "2024-02-05",
+              "reference": "2023-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            },
+            {
+              "docid": "133845",
+              "received": "2024-02-05",
+              "reference": "2023-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            },
+            {
+              "docid": "133845",
+              "received": "2024-02-05",
+              "reference": "2023-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            },
+            {
+              "docid": "133845",
+              "received": "2024-02-05",
+              "reference": "2023-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            }
+          ]
+        },
+        "financial_resilience": {
+          "favorable": {
+            "parent_equity_latest": 9816482000.0
+          },
+          "evidence": [
+            {
+              "docid": "133845",
+              "received": "2024-02-05",
+              "reference": "2023-12-31",
+              "period_end": "2023-12-31",
+              "perimeter": "ind",
+              "account": "2.03",
+              "description": "Patrimônio Líquido",
+              "source": "dfp_cia_aberta_BPP_ind_2023.csv",
+              "archive_sha256": "",
+              "url": ""
+            }
+          ]
+        },
+        "capital_allocation": {
+          "favorable": {
+            "historical_payout": [
+              0.836,
+              0.7,
+              0.73,
+              null,
+              null
+            ],
+            "distributions": [
+              5568631557.94,
+              2695539953.59,
+              2871248591.24,
+              null,
+              null
+            ]
+          },
+          "evidence": [
+            {
+              "docid": "126989",
+              "received": "2023-05-18",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
+              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=126989",
+              "fiscal_year": 2019,
+              "raw": {
+                "CNPJ_Companhia": "17.344.597/0001-94",
+                "Data_Referencia": "2022-01-01",
+                "Versao": "10",
+                "ID_Documento": "126989",
+                "Nome_Companhia": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
+                "Data_Inicio_Exercicio_Social": "2019-01-01",
+                "Data_Fim_Exercicio_Social": "2019-12-31",
+                "Lucro_Liquido_Ajustado": "6658781369.40",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "71.30000000",
+                "Lucro_Liquido_Retido": "1090149811.46",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "83.60000000",
+                "Dividendo_Distribuido_Total": "5568631557.94",
+                "Data_Aprovacao_Retencao": "2020-04-22"
+              }
+            },
+            {
+              "docid": "126989",
+              "received": "2023-05-18",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
+              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=126989",
+              "fiscal_year": 2020,
+              "raw": {
+                "CNPJ_Companhia": "17.344.597/0001-94",
+                "Data_Referencia": "2022-01-01",
+                "Versao": "10",
+                "ID_Documento": "126989",
+                "Nome_Companhia": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
+                "Data_Inicio_Exercicio_Social": "2020-01-01",
+                "Data_Fim_Exercicio_Social": "2020-12-31",
+                "Lucro_Liquido_Ajustado": "3850771362.27",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "66.60000000",
+                "Lucro_Liquido_Retido": "1155231408.68",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "70.00000000",
+                "Dividendo_Distribuido_Total": "2695539953.59",
+                "Data_Aprovacao_Retencao": "2021-04-29"
+              }
+            },
+            {
+              "docid": "126989",
+              "received": "2023-05-18",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
+              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=126989",
+              "fiscal_year": 2021,
+              "raw": {
+                "CNPJ_Companhia": "17.344.597/0001-94",
+                "Data_Referencia": "2022-01-01",
+                "Versao": "10",
+                "ID_Documento": "126989",
+                "Nome_Companhia": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
+                "Data_Inicio_Exercicio_Social": "2021-01-01",
+                "Data_Fim_Exercicio_Social": "2021-12-31",
+                "Lucro_Liquido_Ajustado": "3933217248.28",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "57.50000000",
+                "Lucro_Liquido_Retido": "1061968657.04",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "73.00000000",
+                "Dividendo_Distribuido_Total": "2871248591.24",
+                "Data_Aprovacao_Retencao": "2022-04-29"
+              }
+            }
+          ]
+        },
+        "governance": {
+          "favorable": {
+            "dated_shareholder_right_records": 10,
+            "dated_related_party_records": 26
+          },
+          "evidence": [
+            {
+              "docid": "133845",
+              "received": "2024-02-05",
+              "reference": "2023-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            },
+            {
+              "docid": "133845",
+              "received": "2024-02-05",
+              "reference": "2023-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            },
+            {
+              "docid": "133845",
+              "received": "2024-02-05",
+              "reference": "2023-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            },
+            {
+              "docid": "133845",
+              "received": "2024-02-05",
+              "reference": "2023-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            },
+            {
+              "docid": "133845",
+              "received": "2024-02-05",
+              "reference": "2023-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            },
+            {
+              "docid": "133845",
+              "received": "2024-02-05",
+              "reference": "2023-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "year": 2025,
+      "cutoff": "2025-06-30",
+      "ticker": "BBSE3",
+      "category": "INDETERMINATE",
+      "special_case": "",
+      "assessment_ref": "17344597000194:2018",
+      "classification_changed": false,
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "Participação no capital social de outras sociedades que realizem quaisquer atividades reguladas pela SUSEP e ANS, além de corretagem desses produtos.",
+          "evidence": [
+            {
+              "cnpj": "17344597000194",
+              "received": "2025-06-02",
+              "name": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
+              "sector": "Emp. Adm. Part. - Seguradoras e Corretoras",
+              "activity": "Participação no capital social de outras sociedades que realizem quaisquer atividades reguladas pela SUSEP e ANS, além de corretagem desses produtos.",
+              "cvm": "023159",
+              "docid": "149148",
+              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=149148"
+            }
+          ]
+        },
+        "capital_economics": {
+          "favorable": {
+            "roe_parent_5": [
+              0.6617377931029623,
+              0.575409400658517,
+              0.8090293694811369,
+              0.8902827121528608,
+              0.8921070384574995
+            ],
+            "normalized_profit": 6982546704.362014
+          },
+          "evidence": [
+            {
+              "fiscal_year": 2020,
+              "metric": "attributable_ni",
+              "value": 3850771000.0,
+              "docid": "111570",
+              "received": "2022-02-07",
+              "reference": "2021-12-31",
+              "period_end": "2020-12-31",
+              "perimeter": "con",
+              "account": "3.13.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "fiscal_year": 2021,
+              "metric": "attributable_ni",
+              "value": 3933217000.0,
+              "docid": "123424",
+              "received": "2023-02-09",
+              "reference": "2022-12-31",
+              "period_end": "2021-12-31",
+              "perimeter": "con",
+              "account": "3.13.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "fiscal_year": 2022,
+              "metric": "attributable_ni",
+              "value": 6196415000.0,
+              "docid": "133845",
+              "received": "2024-02-05",
+              "reference": "2023-12-31",
+              "period_end": "2022-12-31",
+              "perimeter": "con",
+              "account": "3.13.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            },
+            {
+              "fiscal_year": 2023,
+              "metric": "attributable_ni",
+              "value": 7947203000.0,
+              "docid": "144826",
+              "received": "2025-02-17",
+              "reference": "2024-12-31",
+              "period_end": "2023-12-31",
+              "perimeter": "con",
+              "account": "3.13.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            },
+            {
+              "fiscal_year": 2024,
+              "metric": "attributable_ni",
+              "value": 8703353000.0,
+              "docid": "144826",
+              "received": "2025-02-17",
+              "reference": "2024-12-31",
+              "period_end": "2024-12-31",
+              "perimeter": "con",
+              "account": "3.13.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            }
+          ]
+        },
+        "earnings_reliability": {
+          "favorable": {
+            "positive_attributable_years": 5,
+            "audit_records": 7
+          },
+          "evidence": [
+            {
+              "docid": "144826",
+              "received": "2025-02-17",
+              "reference": "2024-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            },
+            {
+              "docid": "144826",
+              "received": "2025-02-17",
+              "reference": "2024-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            },
+            {
+              "docid": "144826",
+              "received": "2025-02-17",
+              "reference": "2024-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            },
+            {
+              "docid": "144826",
+              "received": "2025-02-17",
+              "reference": "2024-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            },
+            {
+              "docid": "144826",
+              "received": "2025-02-17",
+              "reference": "2024-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            },
+            {
+              "docid": "144826",
+              "received": "2025-02-17",
+              "reference": "2024-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            },
+            {
+              "docid": "144826",
+              "received": "2025-02-17",
+              "reference": "2024-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            }
+          ]
+        },
+        "financial_resilience": {
+          "favorable": {
+            "parent_equity_latest": 9695421000.0
+          },
+          "evidence": [
+            {
+              "docid": "144826",
+              "received": "2025-02-17",
+              "reference": "2024-12-31",
+              "period_end": "2024-12-31",
+              "perimeter": "ind",
+              "account": "2.03",
+              "description": "Patrimônio Líquido",
+              "source": "dfp_cia_aberta_BPP_ind_2024.csv",
+              "archive_sha256": "",
+              "url": ""
+            }
+          ]
+        },
+        "capital_allocation": {
+          "favorable": {
+            "historical_payout": [
+              0.7,
+              0.73,
+              null,
+              null,
+              null
+            ],
+            "distributions": [
+              2695539953.59,
+              2871248591.24,
+              null,
+              null,
+              null
+            ]
+          },
+          "evidence": [
+            {
+              "docid": "126989",
+              "received": "2023-05-18",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
+              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=126989",
+              "fiscal_year": 2020,
+              "raw": {
+                "CNPJ_Companhia": "17.344.597/0001-94",
+                "Data_Referencia": "2022-01-01",
+                "Versao": "10",
+                "ID_Documento": "126989",
+                "Nome_Companhia": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
+                "Data_Inicio_Exercicio_Social": "2020-01-01",
+                "Data_Fim_Exercicio_Social": "2020-12-31",
+                "Lucro_Liquido_Ajustado": "3850771362.27",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "66.60000000",
+                "Lucro_Liquido_Retido": "1155231408.68",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "70.00000000",
+                "Dividendo_Distribuido_Total": "2695539953.59",
+                "Data_Aprovacao_Retencao": "2021-04-29"
+              }
+            },
+            {
+              "docid": "126989",
+              "received": "2023-05-18",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
+              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=126989",
+              "fiscal_year": 2021,
+              "raw": {
+                "CNPJ_Companhia": "17.344.597/0001-94",
+                "Data_Referencia": "2022-01-01",
+                "Versao": "10",
+                "ID_Documento": "126989",
+                "Nome_Companhia": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
+                "Data_Inicio_Exercicio_Social": "2021-01-01",
+                "Data_Fim_Exercicio_Social": "2021-12-31",
+                "Lucro_Liquido_Ajustado": "3933217248.28",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "57.50000000",
+                "Lucro_Liquido_Retido": "1061968657.04",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "73.00000000",
+                "Dividendo_Distribuido_Total": "2871248591.24",
+                "Data_Aprovacao_Retencao": "2022-04-29"
+              }
+            }
+          ]
+        },
+        "governance": {
+          "favorable": {
+            "dated_shareholder_right_records": 10,
+            "dated_related_party_records": 32
+          },
+          "evidence": [
+            {
+              "docid": "144826",
+              "received": "2025-02-17",
+              "reference": "2024-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            },
+            {
+              "docid": "144826",
+              "received": "2025-02-17",
+              "reference": "2024-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            },
+            {
+              "docid": "144826",
+              "received": "2025-02-17",
+              "reference": "2024-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            },
+            {
+              "docid": "144826",
+              "received": "2025-02-17",
+              "reference": "2024-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            },
+            {
+              "docid": "144826",
+              "received": "2025-02-17",
+              "reference": "2024-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            },
+            {
+              "docid": "144826",
+              "received": "2025-02-17",
+              "reference": "2024-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            },
+            {
+              "docid": "144826",
+              "received": "2025-02-17",
+              "reference": "2024-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

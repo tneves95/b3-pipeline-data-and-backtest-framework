@@ -19,7 +19,7 @@ import statistics
 from stage1_pit import ROOT, OUT, DATES, gzread
 from stage1_resume import canonical, selection, prices, event_day
 from stage1_continuity import renew_b2
-from stage1_attribution import aggregate, attribute_day, assert_units, verify_frozen
+from stage1_attribution import aggregate, attribute_day, assert_units, verify_frozen as verify_stage1
 
 HOME = ROOT / 'research/b00s_four_variants_2014_2026'
 INPUT = HOME / 'inputs'
@@ -45,6 +45,14 @@ def jsonwrite(path, data):
 
 def sha(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
+
+def verify_frozen():
+    count=verify_stage1()
+    path=INPUT/'protected_pr3.json'
+    if path.exists():
+        for r in json.loads(path.read_text())['files']:
+            if sha(ROOT/r['path'])!=r['sha256']:raise ValueError(('PR3 changed',r['path']))
+    return count
 
 @lru_cache(maxsize=1)
 def candidates():
@@ -116,6 +124,9 @@ def select_filtered(rows, holdings, decisions, variant):
     key = 'valuation_status' if variant.startswith('VVAL') else 'quality_category'
     allowed = {'PASS_MATURE','PASS_REINVESTOR'} if variant.startswith('VVAL') else {'QUALIFIED_HIGH','QUALIFIED_SATISFACTORY'}
     selected = [r for r in rows if decisions[r['year'],r['ticker']][key] in allowed]
+    return represented_targets(selected, holdings)
+
+def represented_targets(selected, holdings):
     targets = weights(selected)
     # Preserve the traded representation already owned, never buy its second class.
     for r in selected:
@@ -133,9 +144,8 @@ def market():
             if k in q and q[k]!=r['close']:
                 raise ValueError(('Incompatible accepted quote', k))
             q[k]=r['close']
-    events = gzread(OUT/'cache/b00s_initial_events.json.gz') + gzread(OUT/'cache/continuation_events.json.gz')
-    events = [e for e in events if e['ex_date']<=DATES[2015] and e['id'].startswith('B00S_') or e['ex_date']>DATES[2015]] + [
-        e for e in gzread(OUT/'cache/b00s_initial_events.json.gz') if not e['id'].startswith('B00S_')]
+    events = gzread(OUT/'cache/b00s_initial_events.json.gz') + [
+        e for e in gzread(OUT/'cache/continuation_events.json.gz') if e['ex_date']>DATES[2015]]
     if len({e['id'] for e in events}) != len(events):
         raise ValueError('Duplicate accepted event')
     bydate=defaultdict(list)
@@ -176,8 +186,8 @@ def simulate(variant, frozen=None, include=None):
         else:
             targets=select_filtered(rows,before,frozen,variant)
             if include:
-                selected=[r for r in rows if r['ticker'] in targets or include(r,frozen[r['year'],r['ticker']])]
-                targets=weights(selected)
+                selected=[r for r in rows if any(identities()[t]['cnpj']==r['cnpj'] for t in targets) or include(r,frozen[r['year'],r['ticker']])]
+                targets=represented_targets(selected,before)
         if not units:
             if year!=2014 or not targets:
                 annual.append(dict(variant=variant,year=year,start=start,end=end,return_pct='',cumulative_pct='',status='NOT_FORMED'))
@@ -188,6 +198,8 @@ def simulate(variant, frozen=None, include=None):
             for t in targets:
                 if t not in base_targets and t in units and status.get(t)!='FAIL':status[t]='PASS'
             after,review=renew_b2(before,status,targets)
+            if any(v<=0 and status.get(t)!='FAIL' for t,v in after.items()):
+                raise ValueError(('UNRESOLVED_ENTRY_FUNDING_WOULD_LIQUIDATE_NONFAIL',variant,year))
         nav=math.fsum(after.values());units={t:v/quote[t,start] for t,v in after.items()}
         for r in review:reviews.append(dict(variant=variant,year=year,base_status=status.get(r['ticker'],'INDETERMINATE'),nav=nav,**r))
         risk.append(concentration(variant,year,'AFTER_REVIEW',after))
@@ -272,6 +284,7 @@ def publish(runs):
             c[v]=matches[0][key] if matches else 100*(math.prod(1+float(r[key])/100 for r in frozen[:y-2014+1])-1)
         ac.append(a);cu.append(c)
     write(RESULT/'annual_returns_pct.csv',ac);write(RESULT/'cumulative_returns_pct.csv',cu)
+    write(RESULT/'portfolio_status.csv',[dict(variant=r['variant'],year=r['year'],status=r['status']) for r in annual])
     stats=[]
     for v in ['V0','V10','VVAL','VQ','IBOV','R03 B2','BH padrão']:
         vals=[float(r[v]) for r in ac if r[v]!=''];levels=[1]+[1+float(r[v])/100 for r in cu if r[v]!='']
@@ -328,12 +341,14 @@ def publish(runs):
     print(json.dumps(stats,ensure_ascii=False,indent=2))
 
 def main():
-    p=argparse.ArgumentParser();p.add_argument('--stage',choices=['v10','all'],default='all');args=p.parse_args()
+    p=argparse.ArgumentParser();p.add_argument('--stage',choices=['v10','vval','all'],default='all');args=p.parse_args()
     verify_frozen()
     runs={v:simulate(v) for v in ['V0','V10']}
-    if args.stage=='all':
+    if args.stage!='v10':
+        lock=json.loads((INPUT/'fundamental_decisions_lock.json').read_text())
+        if sha(INPUT/'fundamental_decisions.json')!=lock['decisions_sha256']:raise ValueError('Decision lock mismatch')
         ds=json.loads((INPUT/'fundamental_decisions.json').read_text());ds={(r['year'],r['ticker']):r for r in ds}
-        runs.update({v:simulate(v,ds) for v in ['VVAL','VQ']})
+        runs.update({v:simulate(v,ds) for v in (['VVAL','VQ'] if args.stage=='all' else ['VVAL'])})
     publish(runs)
 
 if __name__=='__main__':main()

@@ -1,0 +1,3212 @@
+{
+  "initial_assessment": {
+    "year": 2020,
+    "cutoff": "2020-06-30",
+    "ticker": "SANB4",
+    "cnpj": "90400888000142",
+    "company": "BCO SANTANDER (BRASIL) S.A.",
+    "sector": "Bancos",
+    "category": "INDETERMINATE",
+    "dimensions": {
+      "durability": {
+        "status": "INDETERMINATE",
+        "favorable": "Banco Múltiplo com Carteira Comercial",
+        "missing": "Historical concession/contract durability, competitive position and pricing power",
+        "evidence": [
+          {
+            "cnpj": "90400888000142",
+            "received": "2020-04-27",
+            "name": "BCO SANTANDER (BRASIL) S.A.",
+            "sector": "Bancos",
+            "activity": "Banco Múltiplo com Carteira Comercial",
+            "cvm": "020532",
+            "docid": "92528",
+            "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92528"
+          }
+        ],
+        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+      },
+      "capital_economics": {
+        "status": "INDETERMINATE",
+        "favorable": {
+          "roe_parent_5": [
+            0.1744813853740748,
+            0.13030435848479283,
+            0.15222475766283214,
+            0.20176643165691835,
+            0.2432152420378957
+          ],
+          "normalized_profit": 11565932724.728237
+        },
+        "missing": "Cycle-normalized ROIC/incremental returns or risk-adjusted prudential ROE; historical peer/capital comparison",
+        "evidence": [
+          {
+            "fiscal_year": 2015,
+            "metric": "attributable_ni",
+            "value": 9783740000.0,
+            "docid": "62811",
+            "received": "2017-02-24",
+            "reference": "2016-12-31",
+            "period_end": "2015-12-31",
+            "perimeter": "con",
+            "account": "3.09.01",
+            "description": "Atribuído a Sócios da Empresa Controladora",
+            "source": "dfp_cia_aberta_DRE_con_2016.csv",
+            "archive_sha256": "772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip"
+          },
+          {
+            "fiscal_year": 2016,
+            "metric": "attributable_ni",
+            "value": 7334563000.0,
+            "docid": "76554",
+            "received": "2018-07-30",
+            "reference": "2017-12-31",
+            "period_end": "2016-12-31",
+            "perimeter": "con",
+            "account": "3.09.01",
+            "description": "Atribuído a Sócios da Empresa Controladora",
+            "source": "dfp_cia_aberta_DRE_con_2017.csv",
+            "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+          },
+          {
+            "fiscal_year": 2017,
+            "metric": "attributable_ni",
+            "value": 8924064000.0,
+            "docid": "80957",
+            "received": "2019-02-28",
+            "reference": "2018-12-31",
+            "period_end": "2017-12-31",
+            "perimeter": "con",
+            "account": "3.09.01",
+            "description": "Atribuído a Sócios da Empresa Controladora",
+            "source": "dfp_cia_aberta_DRE_con_2018.csv",
+            "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+          },
+          {
+            "fiscal_year": 2018,
+            "metric": "attributable_ni",
+            "value": 12582477000.0,
+            "docid": "91518",
+            "received": "2020-03-12",
+            "reference": "2019-12-31",
+            "period_end": "2018-12-31",
+            "perimeter": "con",
+            "account": "3.09.01",
+            "description": "Atribuído a Sócios da Empresa Controladora",
+            "source": "dfp_cia_aberta_DRE_con_2019.csv",
+            "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+          },
+          {
+            "fiscal_year": 2019,
+            "metric": "attributable_ni",
+            "value": 16406932000.0,
+            "docid": "91518",
+            "received": "2020-03-12",
+            "reference": "2019-12-31",
+            "period_end": "2019-12-31",
+            "perimeter": "con",
+            "account": "3.09.01",
+            "description": "Atribuído a Sócios da Empresa Controladora",
+            "source": "dfp_cia_aberta_DRE_con_2019.csv",
+            "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+          }
+        ],
+        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+      },
+      "earnings_reliability": {
+        "status": "INDETERMINATE",
+        "favorable": {
+          "positive_attributable_years": 5,
+          "audit_records": 12
+        },
+        "missing": "Profit/cash/recurring earnings bridge; provisions and extraordinary items reviewed in dated notes",
+        "evidence": [
+          {
+            "docid": "91518",
+            "received": "2020-03-12",
+            "reference": "2019-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2019.csv",
+            "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+          },
+          {
+            "docid": "91518",
+            "received": "2020-03-12",
+            "reference": "2019-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2019.csv",
+            "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+          },
+          {
+            "docid": "91518",
+            "received": "2020-03-12",
+            "reference": "2019-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2019.csv",
+            "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+          },
+          {
+            "docid": "91518",
+            "received": "2020-03-12",
+            "reference": "2019-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2019.csv",
+            "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+          },
+          {
+            "docid": "91518",
+            "received": "2020-03-12",
+            "reference": "2019-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2019.csv",
+            "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+          },
+          {
+            "docid": "91518",
+            "received": "2020-03-12",
+            "reference": "2019-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2019.csv",
+            "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+          },
+          {
+            "docid": "91518",
+            "received": "2020-03-12",
+            "reference": "2019-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2019.csv",
+            "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+          },
+          {
+            "docid": "91518",
+            "received": "2020-03-12",
+            "reference": "2019-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2019.csv",
+            "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+          },
+          {
+            "docid": "91518",
+            "received": "2020-03-12",
+            "reference": "2019-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2019.csv",
+            "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+          },
+          {
+            "docid": "91518",
+            "received": "2020-03-12",
+            "reference": "2019-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2019.csv",
+            "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+          },
+          {
+            "docid": "91518",
+            "received": "2020-03-12",
+            "reference": "2019-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2019.csv",
+            "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+          },
+          {
+            "docid": "91518",
+            "received": "2020-03-12",
+            "reference": "2019-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2019.csv",
+            "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+          }
+        ],
+        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+      },
+      "financial_resilience": {
+        "status": "INDETERMINATE",
+        "favorable": {
+          "parent_equity_latest": 69687723000.0
+        },
+        "missing": "BCB Basel/NPL/provision coverage under contemporaneous rules",
+        "evidence": [
+          {
+            "docid": "91518",
+            "received": "2020-03-12",
+            "reference": "2019-12-31",
+            "period_end": "2019-12-31",
+            "perimeter": "ind",
+            "account": "2.05",
+            "description": "Patrimônio Líquido",
+            "source": "dfp_cia_aberta_BPP_ind_2019.csv",
+            "archive_sha256": "",
+            "url": ""
+          }
+        ],
+        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+      },
+      "capital_allocation": {
+        "status": "INDETERMINATE",
+        "favorable": {
+          "historical_payout": [
+            0.9346,
+            1.0008,
+            0.8294,
+            null,
+            null
+          ],
+          "distributions": [
+            6200000000.0,
+            5250000000.0,
+            6300000000.03,
+            null,
+            null
+          ]
+        },
+        "missing": "Maintenance versus expansion CAPEX, sustainable dividends, adjusted per-share and incremental economic growth",
+        "evidence": [
+          {
+            "docid": "84038",
+            "received": "2019-05-24",
+            "reference": "",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "fre_cia_aberta_distribuicao_dividendos_2018.csv",
+            "archive_sha256": "7a349acbce124fdb0846c371b3e68e5ff06781ead4b8713d6080eabf6737d082",
+            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=84038",
+            "fiscal_year": 2015,
+            "raw": {
+              "CNPJ_Companhia": "90.400.888/0001-42",
+              "Data_Referencia": "2018-01-01",
+              "Versao": "22",
+              "ID_Documento": "84038",
+              "Nome_Companhia": "BCO SANTANDER (BRASIL) S.A.",
+              "Data_Inicio_Exercicio_Social": "2015-01-01",
+              "Data_Fim_Exercicio_Social": "2015-12-31",
+              "Lucro_Liquido_Ajustado": "6633662895.64",
+              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "12.74000000",
+              "Lucro_Liquido_Retido": "782897836.65",
+              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "93.46000000",
+              "Dividendo_Distribuido_Total": "6200000000.00",
+              "Data_Aprovacao_Retencao": "2016-04-30"
+            }
+          },
+          {
+            "docid": "84038",
+            "received": "2019-05-24",
+            "reference": "",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "fre_cia_aberta_distribuicao_dividendos_2018.csv",
+            "archive_sha256": "7a349acbce124fdb0846c371b3e68e5ff06781ead4b8713d6080eabf6737d082",
+            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=84038",
+            "fiscal_year": 2016,
+            "raw": {
+              "CNPJ_Companhia": "90.400.888/0001-42",
+              "Data_Referencia": "2018-01-01",
+              "Versao": "22",
+              "ID_Documento": "84038",
+              "Nome_Companhia": "BCO SANTANDER (BRASIL) S.A.",
+              "Data_Inicio_Exercicio_Social": "2016-01-01",
+              "Data_Fim_Exercicio_Social": "2016-12-31",
+              "Lucro_Liquido_Ajustado": "5245554617.99",
+              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "10.07000000",
+              "Lucro_Liquido_Retido": "971636439.99",
+              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "100.08000000",
+              "Dividendo_Distribuido_Total": "5250000000.00",
+              "Data_Aprovacao_Retencao": "2017-04-28"
+            }
+          },
+          {
+            "docid": "84038",
+            "received": "2019-05-24",
+            "reference": "",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "fre_cia_aberta_distribuicao_dividendos_2018.csv",
+            "archive_sha256": "7a349acbce124fdb0846c371b3e68e5ff06781ead4b8713d6080eabf6737d082",
+            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=84038",
+            "fiscal_year": 2017,
+            "raw": {
+              "CNPJ_Companhia": "90.400.888/0001-42",
+              "Data_Referencia": "2018-01-01",
+              "Versao": "22",
+              "ID_Documento": "84038",
+              "Nome_Companhia": "BCO SANTANDER (BRASIL) S.A.",
+              "Data_Inicio_Exercicio_Social": "2017-01-01",
+              "Data_Fim_Exercicio_Social": "2017-12-31",
+              "Lucro_Liquido_Ajustado": "7596078435.18",
+              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "14.59000000",
+              "Lucro_Liquido_Retido": "1695872037.03",
+              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "82.94000000",
+              "Dividendo_Distribuido_Total": "6300000000.03",
+              "Data_Aprovacao_Retencao": "2018-04-27"
+            }
+          }
+        ],
+        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+      },
+      "governance": {
+        "status": "INDETERMINATE",
+        "favorable": {
+          "dated_shareholder_right_records": 18,
+          "dated_related_party_records": 866
+        },
+        "missing": "Review of material conflicts, related parties and audit opinions before cutoff; no ex-post controversy inference",
+        "evidence": [
+          {
+            "docid": "91518",
+            "received": "2020-03-12",
+            "reference": "2019-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2019.csv",
+            "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+          },
+          {
+            "docid": "91518",
+            "received": "2020-03-12",
+            "reference": "2019-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2019.csv",
+            "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+          },
+          {
+            "docid": "91518",
+            "received": "2020-03-12",
+            "reference": "2019-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2019.csv",
+            "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+          },
+          {
+            "docid": "91518",
+            "received": "2020-03-12",
+            "reference": "2019-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2019.csv",
+            "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+          },
+          {
+            "docid": "91518",
+            "received": "2020-03-12",
+            "reference": "2019-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2019.csv",
+            "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+          },
+          {
+            "docid": "91518",
+            "received": "2020-03-12",
+            "reference": "2019-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2019.csv",
+            "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+          },
+          {
+            "docid": "91518",
+            "received": "2020-03-12",
+            "reference": "2019-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2019.csv",
+            "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+          },
+          {
+            "docid": "91518",
+            "received": "2020-03-12",
+            "reference": "2019-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2019.csv",
+            "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+          },
+          {
+            "docid": "91518",
+            "received": "2020-03-12",
+            "reference": "2019-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2019.csv",
+            "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+          },
+          {
+            "docid": "91518",
+            "received": "2020-03-12",
+            "reference": "2019-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2019.csv",
+            "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+          },
+          {
+            "docid": "91518",
+            "received": "2020-03-12",
+            "reference": "2019-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2019.csv",
+            "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+          },
+          {
+            "docid": "91518",
+            "received": "2020-03-12",
+            "reference": "2019-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2019.csv",
+            "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+          }
+        ],
+        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+      }
+    },
+    "limitation": "Structured CVM facts establish availability, not all six economic conclusions. No scoring or future outcomes.",
+    "special_case": ""
+  },
+  "annual_evidence_updates": [
+    {
+      "year": 2021,
+      "cutoff": "2021-06-30",
+      "ticker": "SANB4",
+      "category": "INDETERMINATE",
+      "special_case": "",
+      "assessment_ref": "90400888000142:2020",
+      "classification_changed": false,
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "Banco Múltiplo com Carteira Comercial",
+          "evidence": [
+            {
+              "cnpj": "90400888000142",
+              "received": "2021-05-31",
+              "name": "BCO SANTANDER (BRASIL) S.A.",
+              "sector": "Bancos",
+              "activity": "Banco Múltiplo com Carteira Comercial",
+              "cvm": "020532",
+              "docid": "105182",
+              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=105182"
+            }
+          ]
+        },
+        "capital_economics": {
+          "favorable": {
+            "roe_parent_5": [
+              0.13030435848479283,
+              0.15222475766283214,
+              0.20176643165691835,
+              0.5030544503126197,
+              null
+            ],
+            "normalized_profit": 13850406667.312326
+          },
+          "evidence": [
+            {
+              "fiscal_year": 2016,
+              "metric": "attributable_ni",
+              "value": 7334563000.0,
+              "docid": "76554",
+              "received": "2018-07-30",
+              "reference": "2017-12-31",
+              "period_end": "2016-12-31",
+              "perimeter": "con",
+              "account": "3.09.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2017.csv",
+              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+            },
+            {
+              "fiscal_year": 2017,
+              "metric": "attributable_ni",
+              "value": 8924064000.0,
+              "docid": "80957",
+              "received": "2019-02-28",
+              "reference": "2018-12-31",
+              "period_end": "2017-12-31",
+              "perimeter": "con",
+              "account": "3.09.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2018.csv",
+              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+            },
+            {
+              "fiscal_year": 2018,
+              "metric": "attributable_ni",
+              "value": 12582477000.0,
+              "docid": "91518",
+              "received": "2020-03-12",
+              "reference": "2019-12-31",
+              "period_end": "2018-12-31",
+              "perimeter": "con",
+              "account": "3.09.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2019.csv",
+              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            },
+            {
+              "fiscal_year": 2019,
+              "metric": "attributable_ni",
+              "value": 16406932000.0,
+              "docid": "100531",
+              "received": "2021-02-26",
+              "reference": "2020-12-31",
+              "period_end": "2019-12-31",
+              "perimeter": "con",
+              "account": "3.09.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "fiscal_year": 2020,
+              "metric": "attributable_ni",
+              "value": 13418529000.0,
+              "docid": "100531",
+              "received": "2021-02-26",
+              "reference": "2020-12-31",
+              "period_end": "2020-12-31",
+              "perimeter": "con",
+              "account": "3.09.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            }
+          ]
+        },
+        "earnings_reliability": {
+          "favorable": {
+            "positive_attributable_years": 5,
+            "audit_records": 12
+          },
+          "evidence": [
+            {
+              "docid": "100531",
+              "received": "2021-02-26",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "docid": "100531",
+              "received": "2021-02-26",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "docid": "100531",
+              "received": "2021-02-26",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "docid": "100531",
+              "received": "2021-02-26",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "docid": "100531",
+              "received": "2021-02-26",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "docid": "100531",
+              "received": "2021-02-26",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "docid": "100531",
+              "received": "2021-02-26",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "docid": "100531",
+              "received": "2021-02-26",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "docid": "100531",
+              "received": "2021-02-26",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "docid": "100531",
+              "received": "2021-02-26",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "docid": "100531",
+              "received": "2021-02-26",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "docid": "100531",
+              "received": "2021-02-26",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            }
+          ]
+        },
+        "financial_resilience": {
+          "favorable": {
+            "parent_equity_latest": 0.0
+          },
+          "evidence": [
+            {
+              "docid": "100531",
+              "received": "2021-02-26",
+              "reference": "2020-12-31",
+              "period_end": "2020-12-31",
+              "perimeter": "ind",
+              "account": "2.07",
+              "description": "Patrimônio Líquido",
+              "source": "dfp_cia_aberta_BPP_ind_2020.csv",
+              "archive_sha256": "",
+              "url": ""
+            }
+          ]
+        },
+        "capital_allocation": {
+          "favorable": {
+            "historical_payout": [
+              1.0008,
+              0.8294,
+              0.5710000000000001,
+              0.8069,
+              null
+            ],
+            "distributions": [
+              5250000000.0,
+              6300000000.03,
+              6600000000.0,
+              10800000000.0,
+              null
+            ]
+          },
+          "evidence": [
+            {
+              "docid": "94651",
+              "received": "2020-07-08",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2019.csv",
+              "archive_sha256": "30f461d5d3b3cdbab84faac20c158c6a41cea1ee0223c40d988db9845e2c6a51",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=94651",
+              "fiscal_year": 2016,
+              "raw": {
+                "CNPJ_Companhia": "90.400.888/0001-42",
+                "Data_Referencia": "2019-01-01",
+                "Versao": "19",
+                "ID_Documento": "94651",
+                "Nome_Companhia": "BCO SANTANDER (BRASIL) S.A.",
+                "Data_Inicio_Exercicio_Social": "2016-01-01",
+                "Data_Fim_Exercicio_Social": "2016-12-31",
+                "Lucro_Liquido_Ajustado": "5245554617.99",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "10.07000000",
+                "Lucro_Liquido_Retido": "971636439.99",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "100.08000000",
+                "Dividendo_Distribuido_Total": "5250000000.00",
+                "Data_Aprovacao_Retencao": "2017-04-28"
+              }
+            },
+            {
+              "docid": "103768",
+              "received": "2021-05-11",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2020.csv",
+              "archive_sha256": "17d2d911201f64dc8ff501104ce8fe343cd4ab3bdb41ea03eb6bfc2c4f6b80ab",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=103768",
+              "fiscal_year": 2017,
+              "raw": {
+                "CNPJ_Companhia": "90.400.888/0001-42",
+                "Data_Referencia": "2020-01-01",
+                "Versao": "10",
+                "ID_Documento": "103768",
+                "Nome_Companhia": "BCO SANTANDER (BRASIL) S.A.",
+                "Data_Inicio_Exercicio_Social": "2017-01-01",
+                "Data_Fim_Exercicio_Social": "2017-12-31",
+                "Lucro_Liquido_Ajustado": "7596078435.18",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "14.59000000",
+                "Lucro_Liquido_Retido": "1695872037.03",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "82.94000000",
+                "Dividendo_Distribuido_Total": "6300000000.03",
+                "Data_Aprovacao_Retencao": "2018-04-27"
+              }
+            },
+            {
+              "docid": "103768",
+              "received": "2021-05-11",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2020.csv",
+              "archive_sha256": "17d2d911201f64dc8ff501104ce8fe343cd4ab3bdb41ea03eb6bfc2c4f6b80ab",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=103768",
+              "fiscal_year": 2018,
+              "raw": {
+                "CNPJ_Companhia": "90.400.888/0001-42",
+                "Data_Referencia": "2020-01-01",
+                "Versao": "10",
+                "ID_Documento": "103768",
+                "Nome_Companhia": "BCO SANTANDER (BRASIL) S.A.",
+                "Data_Inicio_Exercicio_Social": "2018-01-01",
+                "Data_Fim_Exercicio_Social": "2018-12-31",
+                "Lucro_Liquido_Ajustado": "11558074566.48",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "18.65000000",
+                "Lucro_Liquido_Retido": "5566394280.51",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "57.10000000",
+                "Dividendo_Distribuido_Total": "6600000000.00",
+                "Data_Aprovacao_Retencao": "2019-04-26"
+              }
+            },
+            {
+              "docid": "103768",
+              "received": "2021-05-11",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2020.csv",
+              "archive_sha256": "17d2d911201f64dc8ff501104ce8fe343cd4ab3bdb41ea03eb6bfc2c4f6b80ab",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=103768",
+              "fiscal_year": 2019,
+              "raw": {
+                "CNPJ_Companhia": "90.400.888/0001-42",
+                "Data_Referencia": "2020-01-01",
+                "Versao": "10",
+                "ID_Documento": "103768",
+                "Nome_Companhia": "BCO SANTANDER (BRASIL) S.A.",
+                "Data_Inicio_Exercicio_Social": "2019-01-01",
+                "Data_Fim_Exercicio_Social": "2019-12-31",
+                "Lucro_Liquido_Ajustado": "14089180217.18",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "15.50000000",
+                "Lucro_Liquido_Retido": "2584721257.62",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "80.69000000",
+                "Dividendo_Distribuido_Total": "10800000000.00",
+                "Data_Aprovacao_Retencao": "2020-04-30"
+              }
+            }
+          ]
+        },
+        "governance": {
+          "favorable": {
+            "dated_shareholder_right_records": 22,
+            "dated_related_party_records": 1046
+          },
+          "evidence": [
+            {
+              "docid": "100531",
+              "received": "2021-02-26",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "docid": "100531",
+              "received": "2021-02-26",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "docid": "100531",
+              "received": "2021-02-26",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "docid": "100531",
+              "received": "2021-02-26",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "docid": "100531",
+              "received": "2021-02-26",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "docid": "100531",
+              "received": "2021-02-26",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "docid": "100531",
+              "received": "2021-02-26",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "docid": "100531",
+              "received": "2021-02-26",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "docid": "100531",
+              "received": "2021-02-26",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "docid": "100531",
+              "received": "2021-02-26",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "docid": "100531",
+              "received": "2021-02-26",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "docid": "100531",
+              "received": "2021-02-26",
+              "reference": "2020-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "year": 2022,
+      "cutoff": "2022-06-30",
+      "ticker": "SANB4",
+      "category": "INDETERMINATE",
+      "special_case": "",
+      "assessment_ref": "90400888000142:2020",
+      "classification_changed": false,
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "Banco Múltiplo com Carteira Comercial",
+          "evidence": [
+            {
+              "cnpj": "90400888000142",
+              "received": "2022-03-15",
+              "name": "BCO SANTANDER (BRASIL) S.A.",
+              "sector": "Bancos",
+              "activity": "Banco Múltiplo com Carteira Comercial",
+              "cvm": "020532",
+              "docid": "112552",
+              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=112552"
+            }
+          ]
+        },
+        "capital_economics": {
+          "favorable": {
+            "roe_parent_5": [
+              0.15222475766283214,
+              0.20176643165691835,
+              0.5030544503126197,
+              null,
+              null
+            ],
+            "normalized_profit": 15819609795.9029
+          },
+          "evidence": [
+            {
+              "fiscal_year": 2017,
+              "metric": "attributable_ni",
+              "value": 8924064000.0,
+              "docid": "80957",
+              "received": "2019-02-28",
+              "reference": "2018-12-31",
+              "period_end": "2017-12-31",
+              "perimeter": "con",
+              "account": "3.09.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2018.csv",
+              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+            },
+            {
+              "fiscal_year": 2018,
+              "metric": "attributable_ni",
+              "value": 12582477000.0,
+              "docid": "91518",
+              "received": "2020-03-12",
+              "reference": "2019-12-31",
+              "period_end": "2018-12-31",
+              "perimeter": "con",
+              "account": "3.09.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2019.csv",
+              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            },
+            {
+              "fiscal_year": 2019,
+              "metric": "attributable_ni",
+              "value": 16406932000.0,
+              "docid": "100531",
+              "received": "2021-02-26",
+              "reference": "2020-12-31",
+              "period_end": "2019-12-31",
+              "perimeter": "con",
+              "account": "3.09.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "fiscal_year": 2020,
+              "metric": "attributable_ni",
+              "value": 13418529000.0,
+              "docid": "112144",
+              "received": "2022-02-28",
+              "reference": "2021-12-31",
+              "period_end": "2020-12-31",
+              "perimeter": "con",
+              "account": "3.11.01",
+              "description": "Atribuído aos Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "fiscal_year": 2021,
+              "metric": "attributable_ni",
+              "value": 15528052000.0,
+              "docid": "112144",
+              "received": "2022-02-28",
+              "reference": "2021-12-31",
+              "period_end": "2021-12-31",
+              "perimeter": "con",
+              "account": "3.11.01",
+              "description": "Atribuído aos Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            }
+          ]
+        },
+        "earnings_reliability": {
+          "favorable": {
+            "positive_attributable_years": 5,
+            "audit_records": 13
+          },
+          "evidence": [
+            {
+              "docid": "112144",
+              "received": "2022-02-28",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "112144",
+              "received": "2022-02-28",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "112144",
+              "received": "2022-02-28",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "112144",
+              "received": "2022-02-28",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "112144",
+              "received": "2022-02-28",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "112144",
+              "received": "2022-02-28",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "112144",
+              "received": "2022-02-28",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "112144",
+              "received": "2022-02-28",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "112144",
+              "received": "2022-02-28",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "112144",
+              "received": "2022-02-28",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "112144",
+              "received": "2022-02-28",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "112144",
+              "received": "2022-02-28",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "112144",
+              "received": "2022-02-28",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            }
+          ]
+        },
+        "financial_resilience": {
+          "favorable": {
+            "parent_equity_latest": 0.0
+          },
+          "evidence": [
+            {
+              "docid": "112144",
+              "received": "2022-02-28",
+              "reference": "2021-12-31",
+              "period_end": "2021-12-31",
+              "perimeter": "ind",
+              "account": "2.07",
+              "description": "Patrimônio Líquido",
+              "source": "dfp_cia_aberta_BPP_ind_2021.csv",
+              "archive_sha256": "",
+              "url": ""
+            }
+          ]
+        },
+        "capital_allocation": {
+          "favorable": {
+            "historical_payout": [
+              0.8294,
+              0.5710000000000001,
+              0.8069,
+              0.2874,
+              null
+            ],
+            "distributions": [
+              6300000000.03,
+              6600000000.0,
+              10800000000.0,
+              3837085231.82,
+              null
+            ]
+          },
+          "evidence": [
+            {
+              "docid": "103768",
+              "received": "2021-05-11",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2020.csv",
+              "archive_sha256": "17d2d911201f64dc8ff501104ce8fe343cd4ab3bdb41ea03eb6bfc2c4f6b80ab",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=103768",
+              "fiscal_year": 2017,
+              "raw": {
+                "CNPJ_Companhia": "90.400.888/0001-42",
+                "Data_Referencia": "2020-01-01",
+                "Versao": "10",
+                "ID_Documento": "103768",
+                "Nome_Companhia": "BCO SANTANDER (BRASIL) S.A.",
+                "Data_Inicio_Exercicio_Social": "2017-01-01",
+                "Data_Fim_Exercicio_Social": "2017-12-31",
+                "Lucro_Liquido_Ajustado": "7596078435.18",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "14.59000000",
+                "Lucro_Liquido_Retido": "1695872037.03",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "82.94000000",
+                "Dividendo_Distribuido_Total": "6300000000.03",
+                "Data_Aprovacao_Retencao": "2018-04-27"
+              }
+            },
+            {
+              "docid": "115788",
+              "received": "2022-05-26",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2021.csv",
+              "archive_sha256": "882e4c19c0719b7ac75f8e906c264fdd69b899cf0a2942ad00c4eb14a1b855bd",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=115788",
+              "fiscal_year": 2018,
+              "raw": {
+                "CNPJ_Companhia": "90.400.888/0001-42",
+                "Data_Referencia": "2021-01-01",
+                "Versao": "19",
+                "ID_Documento": "115788",
+                "Nome_Companhia": "BCO SANTANDER (BRASIL) S.A.",
+                "Data_Inicio_Exercicio_Social": "2018-01-01",
+                "Data_Fim_Exercicio_Social": "2018-12-31",
+                "Lucro_Liquido_Ajustado": "11558074566.48",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "18.65000000",
+                "Lucro_Liquido_Retido": "5566394280.51",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "57.10000000",
+                "Dividendo_Distribuido_Total": "6600000000.00",
+                "Data_Aprovacao_Retencao": "2019-04-26"
+              }
+            },
+            {
+              "docid": "115788",
+              "received": "2022-05-26",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2021.csv",
+              "archive_sha256": "882e4c19c0719b7ac75f8e906c264fdd69b899cf0a2942ad00c4eb14a1b855bd",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=115788",
+              "fiscal_year": 2019,
+              "raw": {
+                "CNPJ_Companhia": "90.400.888/0001-42",
+                "Data_Referencia": "2021-01-01",
+                "Versao": "19",
+                "ID_Documento": "115788",
+                "Nome_Companhia": "BCO SANTANDER (BRASIL) S.A.",
+                "Data_Inicio_Exercicio_Social": "2019-01-01",
+                "Data_Fim_Exercicio_Social": "2019-12-31",
+                "Lucro_Liquido_Ajustado": "14089180217.18",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "15.50000000",
+                "Lucro_Liquido_Retido": "2584721257.62",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "80.69000000",
+                "Dividendo_Distribuido_Total": "10800000000.00",
+                "Data_Aprovacao_Retencao": "2020-04-30"
+              }
+            },
+            {
+              "docid": "115788",
+              "received": "2022-05-26",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2021.csv",
+              "archive_sha256": "882e4c19c0719b7ac75f8e906c264fdd69b899cf0a2942ad00c4eb14a1b855bd",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=115788",
+              "fiscal_year": 2020,
+              "raw": {
+                "CNPJ_Companhia": "90.400.888/0001-42",
+                "Data_Referencia": "2021-01-01",
+                "Versao": "19",
+                "ID_Documento": "115788",
+                "Nome_Companhia": "BCO SANTANDER (BRASIL) S.A.",
+                "Data_Inicio_Exercicio_Social": "2020-01-01",
+                "Data_Fim_Exercicio_Social": "2020-12-31",
+                "Lucro_Liquido_Ajustado": "13353340927.27",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "17.75000000",
+                "Lucro_Liquido_Retido": "10219063112.67",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "28.74000000",
+                "Dividendo_Distribuido_Total": "3837085231.82",
+                "Data_Aprovacao_Retencao": ""
+              }
+            }
+          ]
+        },
+        "governance": {
+          "favorable": {
+            "dated_shareholder_right_records": 24,
+            "dated_related_party_records": 1145
+          },
+          "evidence": [
+            {
+              "docid": "112144",
+              "received": "2022-02-28",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "112144",
+              "received": "2022-02-28",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "112144",
+              "received": "2022-02-28",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "112144",
+              "received": "2022-02-28",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "112144",
+              "received": "2022-02-28",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "112144",
+              "received": "2022-02-28",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "112144",
+              "received": "2022-02-28",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "112144",
+              "received": "2022-02-28",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "112144",
+              "received": "2022-02-28",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "112144",
+              "received": "2022-02-28",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "112144",
+              "received": "2022-02-28",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "112144",
+              "received": "2022-02-28",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "112144",
+              "received": "2022-02-28",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "year": 2023,
+      "cutoff": "2023-06-30",
+      "ticker": "SANB4",
+      "category": "INDETERMINATE",
+      "special_case": "",
+      "assessment_ref": "90400888000142:2020",
+      "classification_changed": false,
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "Banco Múltiplo com Carteira Comercial",
+          "evidence": [
+            {
+              "cnpj": "90400888000142",
+              "received": "2023-04-03",
+              "name": "BCO SANTANDER (BRASIL) S.A.",
+              "sector": "Bancos",
+              "activity": "Banco Múltiplo com Carteira Comercial",
+              "cvm": "020532",
+              "docid": "124955",
+              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=124955"
+            }
+          ]
+        },
+        "capital_economics": {
+          "favorable": {
+            "roe_parent_5": [
+              0.20176643165691835,
+              0.5030544503126197,
+              null,
+              0.39389269993427917,
+              0.17768946938242697
+            ],
+            "normalized_profit": 16442243091.223375
+          },
+          "evidence": [
+            {
+              "fiscal_year": 2018,
+              "metric": "attributable_ni",
+              "value": 12582477000.0,
+              "docid": "91518",
+              "received": "2020-03-12",
+              "reference": "2019-12-31",
+              "period_end": "2018-12-31",
+              "perimeter": "con",
+              "account": "3.09.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2019.csv",
+              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            },
+            {
+              "fiscal_year": 2019,
+              "metric": "attributable_ni",
+              "value": 16406932000.0,
+              "docid": "100531",
+              "received": "2021-02-26",
+              "reference": "2020-12-31",
+              "period_end": "2019-12-31",
+              "perimeter": "con",
+              "account": "3.09.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "fiscal_year": 2020,
+              "metric": "attributable_ni",
+              "value": 13418529000.0,
+              "docid": "112144",
+              "received": "2022-02-28",
+              "reference": "2021-12-31",
+              "period_end": "2020-12-31",
+              "perimeter": "con",
+              "account": "3.11.01",
+              "description": "Atribuído aos Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "fiscal_year": 2021,
+              "metric": "attributable_ni",
+              "value": 15528052000.0,
+              "docid": "123805",
+              "received": "2023-03-01",
+              "reference": "2022-12-31",
+              "period_end": "2021-12-31",
+              "perimeter": "con",
+              "account": "3.11.01",
+              "description": "Atribuído aos Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "fiscal_year": 2022,
+              "metric": "attributable_ni",
+              "value": 14287093000.0,
+              "docid": "123805",
+              "received": "2023-03-01",
+              "reference": "2022-12-31",
+              "period_end": "2022-12-31",
+              "perimeter": "con",
+              "account": "3.11.01",
+              "description": "Atribuído aos Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            }
+          ]
+        },
+        "earnings_reliability": {
+          "favorable": {
+            "positive_attributable_years": 5,
+            "audit_records": 10
+          },
+          "evidence": [
+            {
+              "docid": "123805",
+              "received": "2023-03-01",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "123805",
+              "received": "2023-03-01",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "123805",
+              "received": "2023-03-01",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "123805",
+              "received": "2023-03-01",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "123805",
+              "received": "2023-03-01",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "123805",
+              "received": "2023-03-01",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "123805",
+              "received": "2023-03-01",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "123805",
+              "received": "2023-03-01",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "123805",
+              "received": "2023-03-01",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "123805",
+              "received": "2023-03-01",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            }
+          ]
+        },
+        "financial_resilience": {
+          "favorable": {
+            "parent_equity_latest": 81965605000.0
+          },
+          "evidence": [
+            {
+              "docid": "123805",
+              "received": "2023-03-01",
+              "reference": "2022-12-31",
+              "period_end": "2022-12-31",
+              "perimeter": "ind",
+              "account": "2.07",
+              "description": "Patrimônio Líquido",
+              "source": "dfp_cia_aberta_BPP_ind_2022.csv",
+              "archive_sha256": "",
+              "url": ""
+            }
+          ]
+        },
+        "capital_allocation": {
+          "favorable": {
+            "historical_payout": [
+              0.5710000000000001,
+              0.8069,
+              0.2874,
+              0.7545416815999999,
+              null
+            ],
+            "distributions": [
+              6600000000.0,
+              10800000000.0,
+              3837085231.82,
+              10749000000.0,
+              null
+            ]
+          },
+          "evidence": [
+            {
+              "docid": "115788",
+              "received": "2022-05-26",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2021.csv",
+              "archive_sha256": "882e4c19c0719b7ac75f8e906c264fdd69b899cf0a2942ad00c4eb14a1b855bd",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=115788",
+              "fiscal_year": 2018,
+              "raw": {
+                "CNPJ_Companhia": "90.400.888/0001-42",
+                "Data_Referencia": "2021-01-01",
+                "Versao": "19",
+                "ID_Documento": "115788",
+                "Nome_Companhia": "BCO SANTANDER (BRASIL) S.A.",
+                "Data_Inicio_Exercicio_Social": "2018-01-01",
+                "Data_Fim_Exercicio_Social": "2018-12-31",
+                "Lucro_Liquido_Ajustado": "11558074566.48",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "18.65000000",
+                "Lucro_Liquido_Retido": "5566394280.51",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "57.10000000",
+                "Dividendo_Distribuido_Total": "6600000000.00",
+                "Data_Aprovacao_Retencao": "2019-04-26"
+              }
+            },
+            {
+              "docid": "127163",
+              "received": "2023-05-23",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
+              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=127163",
+              "fiscal_year": 2019,
+              "raw": {
+                "CNPJ_Companhia": "90.400.888/0001-42",
+                "Data_Referencia": "2022-01-01",
+                "Versao": "12",
+                "ID_Documento": "127163",
+                "Nome_Companhia": "BCO SANTANDER (BRASIL) S.A.",
+                "Data_Inicio_Exercicio_Social": "2019-01-01",
+                "Data_Fim_Exercicio_Social": "2019-12-31",
+                "Lucro_Liquido_Ajustado": "14089180217.18",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "15.50000000",
+                "Lucro_Liquido_Retido": "2584721257.62",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "80.69000000",
+                "Dividendo_Distribuido_Total": "10800000000.00",
+                "Data_Aprovacao_Retencao": "2020-04-30"
+              }
+            },
+            {
+              "docid": "127163",
+              "received": "2023-05-23",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
+              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=127163",
+              "fiscal_year": 2020,
+              "raw": {
+                "CNPJ_Companhia": "90.400.888/0001-42",
+                "Data_Referencia": "2022-01-01",
+                "Versao": "12",
+                "ID_Documento": "127163",
+                "Nome_Companhia": "BCO SANTANDER (BRASIL) S.A.",
+                "Data_Inicio_Exercicio_Social": "2020-01-01",
+                "Data_Fim_Exercicio_Social": "2020-12-31",
+                "Lucro_Liquido_Ajustado": "13353340927.27",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "17.75000000",
+                "Lucro_Liquido_Retido": "10219063112.67",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "28.74000000",
+                "Dividendo_Distribuido_Total": "3837085231.82",
+                "Data_Aprovacao_Retencao": ""
+              }
+            },
+            {
+              "docid": "127163",
+              "received": "2023-05-23",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
+              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=127163",
+              "fiscal_year": 2021,
+              "raw": {
+                "CNPJ_Companhia": "90.400.888/0001-42",
+                "Data_Referencia": "2022-01-01",
+                "Versao": "12",
+                "ID_Documento": "127163",
+                "Nome_Companhia": "BCO SANTANDER (BRASIL) S.A.",
+                "Data_Inicio_Exercicio_Social": "2021-01-01",
+                "Data_Fim_Exercicio_Social": "2021-12-31",
+                "Lucro_Liquido_Ajustado": "14245733883.48",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "13.63323819",
+                "Lucro_Liquido_Retido": "4246509351.03",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "75.45416816",
+                "Dividendo_Distribuido_Total": "10749000000.00",
+                "Data_Aprovacao_Retencao": ""
+              }
+            }
+          ]
+        },
+        "governance": {
+          "favorable": {
+            "dated_shareholder_right_records": 26,
+            "dated_related_party_records": 1242
+          },
+          "evidence": [
+            {
+              "docid": "123805",
+              "received": "2023-03-01",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "123805",
+              "received": "2023-03-01",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "123805",
+              "received": "2023-03-01",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "123805",
+              "received": "2023-03-01",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "123805",
+              "received": "2023-03-01",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "123805",
+              "received": "2023-03-01",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "123805",
+              "received": "2023-03-01",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "123805",
+              "received": "2023-03-01",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "123805",
+              "received": "2023-03-01",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "123805",
+              "received": "2023-03-01",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "year": 2024,
+      "cutoff": "2024-06-28",
+      "ticker": "SANB4",
+      "category": "INDETERMINATE",
+      "special_case": "",
+      "assessment_ref": "90400888000142:2020",
+      "classification_changed": false,
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "Banco Múltiplo com Carteira Comercial",
+          "evidence": [
+            {
+              "cnpj": "90400888000142",
+              "received": "2023-04-03",
+              "name": "BCO SANTANDER (BRASIL) S.A.",
+              "sector": "Bancos",
+              "activity": "Banco Múltiplo com Carteira Comercial",
+              "cvm": "020532",
+              "docid": "124955",
+              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=124955"
+            }
+          ]
+        },
+        "capital_economics": {
+          "favorable": {
+            "roe_parent_5": [
+              0.5030544503126197,
+              null,
+              0.39389269993427917,
+              0.17768946938242697,
+              0.1125727357627041
+            ],
+            "normalized_profit": 16715756139.973558
+          },
+          "evidence": [
+            {
+              "fiscal_year": 2019,
+              "metric": "attributable_ni",
+              "value": 16406932000.0,
+              "docid": "100531",
+              "received": "2021-02-26",
+              "reference": "2020-12-31",
+              "period_end": "2019-12-31",
+              "perimeter": "con",
+              "account": "3.09.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "fiscal_year": 2020,
+              "metric": "attributable_ni",
+              "value": 13418529000.0,
+              "docid": "112144",
+              "received": "2022-02-28",
+              "reference": "2021-12-31",
+              "period_end": "2020-12-31",
+              "perimeter": "con",
+              "account": "3.11.01",
+              "description": "Atribuído aos Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "fiscal_year": 2021,
+              "metric": "attributable_ni",
+              "value": 15528052000.0,
+              "docid": "123805",
+              "received": "2023-03-01",
+              "reference": "2022-12-31",
+              "period_end": "2021-12-31",
+              "perimeter": "con",
+              "account": "3.11.01",
+              "description": "Atribuído aos Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "fiscal_year": 2022,
+              "metric": "attributable_ni",
+              "value": 14287093000.0,
+              "docid": "134144",
+              "received": "2024-02-20",
+              "reference": "2023-12-31",
+              "period_end": "2022-12-31",
+              "perimeter": "con",
+              "account": "3.11.01",
+              "description": "Atribuído aos Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            },
+            {
+              "fiscal_year": 2023,
+              "metric": "attributable_ni",
+              "value": 9449313000.0,
+              "docid": "134144",
+              "received": "2024-02-20",
+              "reference": "2023-12-31",
+              "period_end": "2023-12-31",
+              "perimeter": "con",
+              "account": "3.11.01",
+              "description": "Atribuído aos Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            }
+          ]
+        },
+        "earnings_reliability": {
+          "favorable": {
+            "positive_attributable_years": 5,
+            "audit_records": 10
+          },
+          "evidence": [
+            {
+              "docid": "134144",
+              "received": "2024-02-20",
+              "reference": "2023-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            },
+            {
+              "docid": "134144",
+              "received": "2024-02-20",
+              "reference": "2023-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            },
+            {
+              "docid": "134144",
+              "received": "2024-02-20",
+              "reference": "2023-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            },
+            {
+              "docid": "134144",
+              "received": "2024-02-20",
+              "reference": "2023-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            },
+            {
+              "docid": "134144",
+              "received": "2024-02-20",
+              "reference": "2023-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            },
+            {
+              "docid": "134144",
+              "received": "2024-02-20",
+              "reference": "2023-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            },
+            {
+              "docid": "134144",
+              "received": "2024-02-20",
+              "reference": "2023-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            },
+            {
+              "docid": "134144",
+              "received": "2024-02-20",
+              "reference": "2023-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            },
+            {
+              "docid": "134144",
+              "received": "2024-02-20",
+              "reference": "2023-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            },
+            {
+              "docid": "134144",
+              "received": "2024-02-20",
+              "reference": "2023-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            }
+          ]
+        },
+        "financial_resilience": {
+          "favorable": {
+            "parent_equity_latest": 85913641000.0
+          },
+          "evidence": [
+            {
+              "docid": "134144",
+              "received": "2024-02-20",
+              "reference": "2023-12-31",
+              "period_end": "2023-12-31",
+              "perimeter": "ind",
+              "account": "2.07",
+              "description": "Patrimônio Líquido",
+              "source": "dfp_cia_aberta_BPP_ind_2023.csv",
+              "archive_sha256": "",
+              "url": ""
+            }
+          ]
+        },
+        "capital_allocation": {
+          "favorable": {
+            "historical_payout": [
+              0.8069,
+              0.2874,
+              0.7545416815999999,
+              null,
+              null
+            ],
+            "distributions": [
+              10800000000.0,
+              3837085231.82,
+              10749000000.0,
+              null,
+              null
+            ]
+          },
+          "evidence": [
+            {
+              "docid": "127163",
+              "received": "2023-05-23",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
+              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=127163",
+              "fiscal_year": 2019,
+              "raw": {
+                "CNPJ_Companhia": "90.400.888/0001-42",
+                "Data_Referencia": "2022-01-01",
+                "Versao": "12",
+                "ID_Documento": "127163",
+                "Nome_Companhia": "BCO SANTANDER (BRASIL) S.A.",
+                "Data_Inicio_Exercicio_Social": "2019-01-01",
+                "Data_Fim_Exercicio_Social": "2019-12-31",
+                "Lucro_Liquido_Ajustado": "14089180217.18",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "15.50000000",
+                "Lucro_Liquido_Retido": "2584721257.62",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "80.69000000",
+                "Dividendo_Distribuido_Total": "10800000000.00",
+                "Data_Aprovacao_Retencao": "2020-04-30"
+              }
+            },
+            {
+              "docid": "127163",
+              "received": "2023-05-23",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
+              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=127163",
+              "fiscal_year": 2020,
+              "raw": {
+                "CNPJ_Companhia": "90.400.888/0001-42",
+                "Data_Referencia": "2022-01-01",
+                "Versao": "12",
+                "ID_Documento": "127163",
+                "Nome_Companhia": "BCO SANTANDER (BRASIL) S.A.",
+                "Data_Inicio_Exercicio_Social": "2020-01-01",
+                "Data_Fim_Exercicio_Social": "2020-12-31",
+                "Lucro_Liquido_Ajustado": "13353340927.27",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "17.75000000",
+                "Lucro_Liquido_Retido": "10219063112.67",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "28.74000000",
+                "Dividendo_Distribuido_Total": "3837085231.82",
+                "Data_Aprovacao_Retencao": ""
+              }
+            },
+            {
+              "docid": "127163",
+              "received": "2023-05-23",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
+              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=127163",
+              "fiscal_year": 2021,
+              "raw": {
+                "CNPJ_Companhia": "90.400.888/0001-42",
+                "Data_Referencia": "2022-01-01",
+                "Versao": "12",
+                "ID_Documento": "127163",
+                "Nome_Companhia": "BCO SANTANDER (BRASIL) S.A.",
+                "Data_Inicio_Exercicio_Social": "2021-01-01",
+                "Data_Fim_Exercicio_Social": "2021-12-31",
+                "Lucro_Liquido_Ajustado": "14245733883.48",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "13.63323819",
+                "Lucro_Liquido_Retido": "4246509351.03",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "75.45416816",
+                "Dividendo_Distribuido_Total": "10749000000.00",
+                "Data_Aprovacao_Retencao": ""
+              }
+            }
+          ]
+        },
+        "governance": {
+          "favorable": {
+            "dated_shareholder_right_records": 26,
+            "dated_related_party_records": 1326
+          },
+          "evidence": [
+            {
+              "docid": "134144",
+              "received": "2024-02-20",
+              "reference": "2023-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            },
+            {
+              "docid": "134144",
+              "received": "2024-02-20",
+              "reference": "2023-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            },
+            {
+              "docid": "134144",
+              "received": "2024-02-20",
+              "reference": "2023-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            },
+            {
+              "docid": "134144",
+              "received": "2024-02-20",
+              "reference": "2023-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            },
+            {
+              "docid": "134144",
+              "received": "2024-02-20",
+              "reference": "2023-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            },
+            {
+              "docid": "134144",
+              "received": "2024-02-20",
+              "reference": "2023-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            },
+            {
+              "docid": "134144",
+              "received": "2024-02-20",
+              "reference": "2023-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            },
+            {
+              "docid": "134144",
+              "received": "2024-02-20",
+              "reference": "2023-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            },
+            {
+              "docid": "134144",
+              "received": "2024-02-20",
+              "reference": "2023-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            },
+            {
+              "docid": "134144",
+              "received": "2024-02-20",
+              "reference": "2023-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "year": 2025,
+      "cutoff": "2025-06-30",
+      "ticker": "SANB4",
+      "category": "INDETERMINATE",
+      "special_case": "",
+      "assessment_ref": "90400888000142:2020",
+      "classification_changed": false,
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "Banco Múltiplo com Carteira Comercial",
+          "evidence": [
+            {
+              "cnpj": "90400888000142",
+              "received": "2025-05-30",
+              "name": "BCO SANTANDER (BRASIL) S.A.",
+              "sector": "Bancos",
+              "activity": "Banco Múltiplo com Carteira Comercial",
+              "cvm": "020532",
+              "docid": "148845",
+              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=148845"
+            }
+          ]
+        },
+        "capital_economics": {
+          "favorable": {
+            "roe_parent_5": [
+              null,
+              0.39389269993427917,
+              0.17768946938242697,
+              0.1125727357627041,
+              0.15186464889574774
+            ],
+            "normalized_profit": 16099679272.944695
+          },
+          "evidence": [
+            {
+              "fiscal_year": 2020,
+              "metric": "attributable_ni",
+              "value": 13418529000.0,
+              "docid": "112144",
+              "received": "2022-02-28",
+              "reference": "2021-12-31",
+              "period_end": "2020-12-31",
+              "perimeter": "con",
+              "account": "3.11.01",
+              "description": "Atribuído aos Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "fiscal_year": 2021,
+              "metric": "attributable_ni",
+              "value": 15528052000.0,
+              "docid": "123805",
+              "received": "2023-03-01",
+              "reference": "2022-12-31",
+              "period_end": "2021-12-31",
+              "perimeter": "con",
+              "account": "3.11.01",
+              "description": "Atribuído aos Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "fiscal_year": 2022,
+              "metric": "attributable_ni",
+              "value": 14287093000.0,
+              "docid": "134144",
+              "received": "2024-02-20",
+              "reference": "2023-12-31",
+              "period_end": "2022-12-31",
+              "perimeter": "con",
+              "account": "3.11.01",
+              "description": "Atribuído aos Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            },
+            {
+              "fiscal_year": 2023,
+              "metric": "attributable_ni",
+              "value": 9449313000.0,
+              "docid": "145149",
+              "received": "2025-02-28",
+              "reference": "2024-12-31",
+              "period_end": "2023-12-31",
+              "perimeter": "con",
+              "account": "3.11.01",
+              "description": "Atribuído aos Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            },
+            {
+              "fiscal_year": 2024,
+              "metric": "attributable_ni",
+              "value": 13365506000.0,
+              "docid": "145149",
+              "received": "2025-02-28",
+              "reference": "2024-12-31",
+              "period_end": "2024-12-31",
+              "perimeter": "con",
+              "account": "3.11.01",
+              "description": "Atribuído aos Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            }
+          ]
+        },
+        "earnings_reliability": {
+          "favorable": {
+            "positive_attributable_years": 5,
+            "audit_records": 10
+          },
+          "evidence": [
+            {
+              "docid": "145149",
+              "received": "2025-02-28",
+              "reference": "2024-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            },
+            {
+              "docid": "145149",
+              "received": "2025-02-28",
+              "reference": "2024-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            },
+            {
+              "docid": "145149",
+              "received": "2025-02-28",
+              "reference": "2024-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            },
+            {
+              "docid": "145149",
+              "received": "2025-02-28",
+              "reference": "2024-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            },
+            {
+              "docid": "145149",
+              "received": "2025-02-28",
+              "reference": "2024-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            },
+            {
+              "docid": "145149",
+              "received": "2025-02-28",
+              "reference": "2024-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            },
+            {
+              "docid": "145149",
+              "received": "2025-02-28",
+              "reference": "2024-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            },
+            {
+              "docid": "145149",
+              "received": "2025-02-28",
+              "reference": "2024-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            },
+            {
+              "docid": "145149",
+              "received": "2025-02-28",
+              "reference": "2024-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            },
+            {
+              "docid": "145149",
+              "received": "2025-02-28",
+              "reference": "2024-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            }
+          ]
+        },
+        "financial_resilience": {
+          "favorable": {
+            "parent_equity_latest": 90105019000.0
+          },
+          "evidence": [
+            {
+              "docid": "145149",
+              "received": "2025-02-28",
+              "reference": "2024-12-31",
+              "period_end": "2024-12-31",
+              "perimeter": "ind",
+              "account": "2.07",
+              "description": "Patrimônio Líquido",
+              "source": "dfp_cia_aberta_BPP_ind_2024.csv",
+              "archive_sha256": "",
+              "url": ""
+            }
+          ]
+        },
+        "capital_allocation": {
+          "favorable": {
+            "historical_payout": [
+              0.2874,
+              0.7545416815999999,
+              null,
+              null,
+              null
+            ],
+            "distributions": [
+              3837085231.82,
+              10749000000.0,
+              null,
+              null,
+              null
+            ]
+          },
+          "evidence": [
+            {
+              "docid": "127163",
+              "received": "2023-05-23",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
+              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=127163",
+              "fiscal_year": 2020,
+              "raw": {
+                "CNPJ_Companhia": "90.400.888/0001-42",
+                "Data_Referencia": "2022-01-01",
+                "Versao": "12",
+                "ID_Documento": "127163",
+                "Nome_Companhia": "BCO SANTANDER (BRASIL) S.A.",
+                "Data_Inicio_Exercicio_Social": "2020-01-01",
+                "Data_Fim_Exercicio_Social": "2020-12-31",
+                "Lucro_Liquido_Ajustado": "13353340927.27",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "17.75000000",
+                "Lucro_Liquido_Retido": "10219063112.67",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "28.74000000",
+                "Dividendo_Distribuido_Total": "3837085231.82",
+                "Data_Aprovacao_Retencao": ""
+              }
+            },
+            {
+              "docid": "127163",
+              "received": "2023-05-23",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
+              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=127163",
+              "fiscal_year": 2021,
+              "raw": {
+                "CNPJ_Companhia": "90.400.888/0001-42",
+                "Data_Referencia": "2022-01-01",
+                "Versao": "12",
+                "ID_Documento": "127163",
+                "Nome_Companhia": "BCO SANTANDER (BRASIL) S.A.",
+                "Data_Inicio_Exercicio_Social": "2021-01-01",
+                "Data_Fim_Exercicio_Social": "2021-12-31",
+                "Lucro_Liquido_Ajustado": "14245733883.48",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "13.63323819",
+                "Lucro_Liquido_Retido": "4246509351.03",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "75.45416816",
+                "Dividendo_Distribuido_Total": "10749000000.00",
+                "Data_Aprovacao_Retencao": ""
+              }
+            }
+          ]
+        },
+        "governance": {
+          "favorable": {
+            "dated_shareholder_right_records": 26,
+            "dated_related_party_records": 1373
+          },
+          "evidence": [
+            {
+              "docid": "145149",
+              "received": "2025-02-28",
+              "reference": "2024-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            },
+            {
+              "docid": "145149",
+              "received": "2025-02-28",
+              "reference": "2024-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            },
+            {
+              "docid": "145149",
+              "received": "2025-02-28",
+              "reference": "2024-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            },
+            {
+              "docid": "145149",
+              "received": "2025-02-28",
+              "reference": "2024-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            },
+            {
+              "docid": "145149",
+              "received": "2025-02-28",
+              "reference": "2024-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            },
+            {
+              "docid": "145149",
+              "received": "2025-02-28",
+              "reference": "2024-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            },
+            {
+              "docid": "145149",
+              "received": "2025-02-28",
+              "reference": "2024-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            },
+            {
+              "docid": "145149",
+              "received": "2025-02-28",
+              "reference": "2024-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            },
+            {
+              "docid": "145149",
+              "received": "2025-02-28",
+              "reference": "2024-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            },
+            {
+              "docid": "145149",
+              "received": "2025-02-28",
+              "reference": "2024-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

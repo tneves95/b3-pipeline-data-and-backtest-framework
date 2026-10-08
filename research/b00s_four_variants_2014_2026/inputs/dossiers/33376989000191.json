@@ -1,0 +1,458 @@
+{
+  "initial_assessment": {
+    "year": 2019,
+    "cutoff": "2019-06-28",
+    "ticker": "IRBR3",
+    "cnpj": "33376989000191",
+    "company": "IRB - BRASIL RESSEGUROS S.A.",
+    "sector": "Seguros",
+    "category": "INDETERMINATE",
+    "dimensions": {
+      "durability": {
+        "status": "INDETERMINATE",
+        "favorable": "Operações de resseguro e retrocessão",
+        "missing": "Historical concession/contract durability, competitive position and pricing power",
+        "evidence": [
+          {
+            "cnpj": "33376989000191",
+            "received": "2019-01-29",
+            "name": "IRB - BRASIL RESSEGUROS S.A.",
+            "sector": "Seguradoras e Corretoras",
+            "activity": "Operações de resseguro e retrocessão",
+            "cvm": "024180",
+            "docid": "80352",
+            "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=80352"
+          }
+        ],
+        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+      },
+      "capital_economics": {
+        "status": "INDETERMINATE",
+        "favorable": {
+          "roe_parent_5": [
+            null,
+            null,
+            0.2613866124378192,
+            0.26776565258922624,
+            0.321498799189603
+          ],
+          "normalized_profit": null
+        },
+        "missing": "Cycle-normalized ROIC/incremental returns or risk-adjusted prudential ROE; historical peer/capital comparison",
+        "evidence": [
+          {
+            "fiscal_year": 2015,
+            "metric": "attributable_ni",
+            "value": 763718000.0,
+            "docid": "67429",
+            "received": "2017-07-31",
+            "reference": "2016-12-31",
+            "period_end": "2015-12-31",
+            "perimeter": "con",
+            "account": "3.13.01",
+            "description": "Atribuído a Sócios da Empresa Controladora",
+            "source": "dfp_cia_aberta_DRE_con_2016.csv",
+            "archive_sha256": "772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip"
+          },
+          {
+            "fiscal_year": 2016,
+            "metric": "attributable_ni",
+            "value": 849874000.0,
+            "docid": "71429",
+            "received": "2018-02-08",
+            "reference": "2017-12-31",
+            "period_end": "2016-12-31",
+            "perimeter": "con",
+            "account": "3.13.01",
+            "description": "Atribuído a Sócios da Empresa Controladora",
+            "source": "dfp_cia_aberta_DRE_con_2017.csv",
+            "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+          },
+          {
+            "fiscal_year": 2017,
+            "metric": "attributable_ni",
+            "value": 925050000.0,
+            "docid": "81090",
+            "received": "2019-03-08",
+            "reference": "2018-12-31",
+            "period_end": "2017-12-31",
+            "perimeter": "con",
+            "account": "3.13.01",
+            "description": "Atribuído a Sócios da Empresa Controladora",
+            "source": "dfp_cia_aberta_DRE_con_2018.csv",
+            "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+          },
+          {
+            "fiscal_year": 2018,
+            "metric": "attributable_ni",
+            "value": 1218796000.0,
+            "docid": "81090",
+            "received": "2019-03-08",
+            "reference": "2018-12-31",
+            "period_end": "2018-12-31",
+            "perimeter": "con",
+            "account": "3.13.01",
+            "description": "Atribuído a Sócios da Empresa Controladora",
+            "source": "dfp_cia_aberta_DRE_con_2018.csv",
+            "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+          }
+        ],
+        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+      },
+      "earnings_reliability": {
+        "status": "INDETERMINATE",
+        "favorable": {
+          "positive_attributable_years": 4,
+          "audit_records": 7
+        },
+        "missing": "Profit/cash/recurring earnings bridge; provisions and extraordinary items reviewed in dated notes",
+        "evidence": [
+          {
+            "docid": "81090",
+            "received": "2019-03-08",
+            "reference": "2018-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2018.csv",
+            "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+          },
+          {
+            "docid": "81090",
+            "received": "2019-03-08",
+            "reference": "2018-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2018.csv",
+            "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+          },
+          {
+            "docid": "81090",
+            "received": "2019-03-08",
+            "reference": "2018-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2018.csv",
+            "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+          },
+          {
+            "docid": "81090",
+            "received": "2019-03-08",
+            "reference": "2018-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2018.csv",
+            "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+          },
+          {
+            "docid": "81090",
+            "received": "2019-03-08",
+            "reference": "2018-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2018.csv",
+            "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+          },
+          {
+            "docid": "81090",
+            "received": "2019-03-08",
+            "reference": "2018-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2018.csv",
+            "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+          },
+          {
+            "docid": "81090",
+            "received": "2019-03-08",
+            "reference": "2018-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2018.csv",
+            "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+          }
+        ],
+        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+      },
+      "financial_resilience": {
+        "status": "INDETERMINATE",
+        "favorable": {
+          "parent_equity_latest": 4000780000.0
+        },
+        "missing": "SUSEP capital adequacy, technical reserves, claims and underwriting result",
+        "evidence": [
+          {
+            "docid": "81090",
+            "received": "2019-03-08",
+            "reference": "2018-12-31",
+            "period_end": "2018-12-31",
+            "perimeter": "ind",
+            "account": "2.03",
+            "description": "Patrimônio Líquido",
+            "source": "dfp_cia_aberta_BPP_ind_2018.csv",
+            "archive_sha256": "",
+            "url": ""
+          }
+        ],
+        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+      },
+      "capital_allocation": {
+        "status": "INDETERMINATE",
+        "favorable": {
+          "historical_payout": [
+            0.7710094,
+            0.8718193,
+            0.7767825,
+            0.7773,
+            null
+          ],
+          "distributions": [
+            440604871.45,
+            659767532.38,
+            660167240.05,
+            683049693.09,
+            null
+          ]
+        },
+        "missing": "Maintenance versus expansion CAPEX, sustainable dividends, adjusted per-share and incremental economic growth",
+        "evidence": [
+          {
+            "docid": "73863",
+            "received": "2018-05-07",
+            "reference": "",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "fre_cia_aberta_distribuicao_dividendos_2017.csv",
+            "archive_sha256": "cb90963d1e7d6b2416265eb7aa0a463b98d067ade096f47b724467184273b0ab",
+            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=73863",
+            "fiscal_year": 2014,
+            "raw": {
+              "CNPJ_Companhia": "33.376.989/0001-91",
+              "Data_Referencia": "2017-01-01",
+              "Versao": "19",
+              "ID_Documento": "73863",
+              "Nome_Companhia": "IRB - BRASIL RESSEGUROS S.A.",
+              "Data_Inicio_Exercicio_Social": "2014-01-01",
+              "Data_Fim_Exercicio_Social": "2014-12-31",
+              "Lucro_Liquido_Ajustado": "571465000.00",
+              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "20.36411000",
+              "Lucro_Liquido_Retido": "258829806.70",
+              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "77.10094000",
+              "Dividendo_Distribuido_Total": "440604871.45",
+              "Data_Aprovacao_Retencao": "2015-03-27"
+            }
+          },
+          {
+            "docid": "80517",
+            "received": "2019-02-07",
+            "reference": "",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "fre_cia_aberta_distribuicao_dividendos_2018.csv",
+            "archive_sha256": "7a349acbce124fdb0846c371b3e68e5ff06781ead4b8713d6080eabf6737d082",
+            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=80517",
+            "fiscal_year": 2015,
+            "raw": {
+              "CNPJ_Companhia": "33.376.989/0001-91",
+              "Data_Referencia": "2018-01-01",
+              "Versao": "16",
+              "ID_Documento": "80517",
+              "Nome_Companhia": "IRB - BRASIL RESSEGUROS S.A.",
+              "Data_Inicio_Exercicio_Social": "2015-01-01",
+              "Data_Fim_Exercicio_Social": "2015-12-31",
+              "Lucro_Liquido_Ajustado": "756771000.00",
+              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "24.05717000",
+              "Lucro_Liquido_Retido": "273002970.28",
+              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "87.18193000",
+              "Dividendo_Distribuido_Total": "659767532.38",
+              "Data_Aprovacao_Retencao": "2016-02-12"
+            }
+          },
+          {
+            "docid": "80517",
+            "received": "2019-02-07",
+            "reference": "",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "fre_cia_aberta_distribuicao_dividendos_2018.csv",
+            "archive_sha256": "7a349acbce124fdb0846c371b3e68e5ff06781ead4b8713d6080eabf6737d082",
+            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=80517",
+            "fiscal_year": 2016,
+            "raw": {
+              "CNPJ_Companhia": "33.376.989/0001-91",
+              "Data_Referencia": "2018-01-01",
+              "Versao": "16",
+              "ID_Documento": "80517",
+              "Nome_Companhia": "IRB - BRASIL RESSEGUROS S.A.",
+              "Data_Inicio_Exercicio_Social": "2016-01-01",
+              "Data_Fim_Exercicio_Social": "2016-12-31",
+              "Lucro_Liquido_Ajustado": "849874000.00",
+              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "25.53541000",
+              "Lucro_Liquido_Retido": "432313073.87",
+              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "77.67825000",
+              "Dividendo_Distribuido_Total": "660167240.05",
+              "Data_Aprovacao_Retencao": "2017-03-24"
+            }
+          },
+          {
+            "docid": "80517",
+            "received": "2019-02-07",
+            "reference": "",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "fre_cia_aberta_distribuicao_dividendos_2018.csv",
+            "archive_sha256": "7a349acbce124fdb0846c371b3e68e5ff06781ead4b8713d6080eabf6737d082",
+            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=80517",
+            "fiscal_year": 2017,
+            "raw": {
+              "CNPJ_Companhia": "33.376.989/0001-91",
+              "Data_Referencia": "2018-01-01",
+              "Versao": "16",
+              "ID_Documento": "80517",
+              "Nome_Companhia": "IRB - BRASIL RESSEGUROS S.A.",
+              "Data_Inicio_Exercicio_Social": "2017-01-01",
+              "Data_Fim_Exercicio_Social": "2017-12-31",
+              "Lucro_Liquido_Ajustado": "878798000.00",
+              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "24.53932000",
+              "Lucro_Liquido_Retido": "437528101.12",
+              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "77.73000000",
+              "Dividendo_Distribuido_Total": "683049693.09",
+              "Data_Aprovacao_Retencao": "2018-03-14"
+            }
+          }
+        ],
+        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+      },
+      "governance": {
+        "status": "INDETERMINATE",
+        "favorable": {
+          "dated_shareholder_right_records": 4,
+          "dated_related_party_records": 4
+        },
+        "missing": "Review of material conflicts, related parties and audit opinions before cutoff; no ex-post controversy inference",
+        "evidence": [
+          {
+            "docid": "81090",
+            "received": "2019-03-08",
+            "reference": "2018-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2018.csv",
+            "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+          },
+          {
+            "docid": "81090",
+            "received": "2019-03-08",
+            "reference": "2018-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2018.csv",
+            "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+          },
+          {
+            "docid": "81090",
+            "received": "2019-03-08",
+            "reference": "2018-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2018.csv",
+            "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+          },
+          {
+            "docid": "81090",
+            "received": "2019-03-08",
+            "reference": "2018-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2018.csv",
+            "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+          },
+          {
+            "docid": "81090",
+            "received": "2019-03-08",
+            "reference": "2018-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2018.csv",
+            "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+          },
+          {
+            "docid": "81090",
+            "received": "2019-03-08",
+            "reference": "2018-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2018.csv",
+            "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+          },
+          {
+            "docid": "81090",
+            "received": "2019-03-08",
+            "reference": "2018-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2018.csv",
+            "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+          }
+        ],
+        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+      }
+    },
+    "limitation": "Structured CVM facts establish availability, not all six economic conclusions. No scoring or future outcomes.",
+    "special_case": "IRBR3 June 2019: only pre-cutoff statements considered; later restatements/scandal cannot be used to reject this entry."
+  },
+  "annual_evidence_updates": []
+}

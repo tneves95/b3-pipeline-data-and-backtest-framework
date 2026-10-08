@@ -1,0 +1,49 @@
+{
+  "porto_2014": {
+    "category": "INDETERMINATE",
+    "original": "originals/quality_directed_2.pdf.gz",
+    "source_url": "https://relatorioportoseguro.com.br/assets/pdf/relatorio_anual_2013.pdf",
+    "original_sha256": "74a70294cf921349a70791d41c3f39dbefab8689385e9806ca3916e20d8441f4",
+    "creation_metadata": "2014-06-24T18:57:29-03:00",
+    "publication_date": null,
+    "document_leads": [
+      {
+        "pdf_page": 4,
+        "item": "Mensagem do Presidente",
+        "finding": "2013 recurring net profit about 711 million; tax litigation gain about 702 million, net of taxes and expenses. These amounts are not interchangeable with recurring earning power."
+      },
+      {
+        "pdf_page": 7,
+        "item": "Destaques",
+        "finding": "Recurring ROAE 16.5%; comparison excludes business combination. Requires same basis across all five years."
+      },
+      {
+        "pdf_page": 65,
+        "item": "Desempenho operacional",
+        "finding": "Claims ratio 54.3%; combined ratio 96.0%; neither number alone proves reserve or prudential adequacy."
+      },
+      {
+        "pdf_page": 78,
+        "item": "Dividendos",
+        "finding": "Disclosed payout uses dividends plus JCP net of taxes over adjusted profit, with reserve and non-recurring earnings components."
+      }
+    ],
+    "used_for_selection": false,
+    "reason": "Original retrieved and hashed, but PDF creation is not proof of public availability. Require dated dissemination and prudential capital/reserve evidence; no quality rejection."
+  },
+  "bradesco_2014": {
+    "category": "INDETERMINATE",
+    "source_url": "https://www.relacoescominvestidores.com.br/bradesco/2013/integral/dfs_bradesco_2013.pdf",
+    "original_download_status": "HTTP_403",
+    "original_sha256": null,
+    "used_for_selection": false,
+    "reason": "Indexed original contains Basel and dividend disclosures, but archived original plus complete risk/earnings/capital-policy dossier was not recovered. CVM audit original remains available in directed extract; unqualified audit alone cannot qualify six dimensions."
+  },
+  "irbr_2019": {
+    "category": "INDETERMINATE",
+    "cutoff": "2019-06-28",
+    "source_url": "https://www.irbre.com/irb-brasil-re-divulga-resultados-de-2018/",
+    "publication_date": "2019-02-07",
+    "reason": "Pre-cutoff earnings release exists. It is not proof of sufficient technical reserves or capital. No allegation first made in 2020 is used for 2019. Require original actuarial, solvency and earnings reconciliation before a QUALIFIED or REJECTED_EVIDENCED decision."
+  }
+}

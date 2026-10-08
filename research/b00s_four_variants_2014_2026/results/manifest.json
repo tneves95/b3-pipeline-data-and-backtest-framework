@@ -4,7 +4,8 @@
   "protected_stage1_files": 271,
   "variants": {
     "V0": 12,
-    "V10": 12
+    "V10": 12,
+    "VVAL": 12
   },
   "inputs": [
     {
@@ -12,42 +13,290 @@
       "sha256": "8a324241610dbac3fc67af158cf3e49c66d717b2407fe57a679294bc89082fcd"
     },
     {
+      "path": "research/b00s_four_variants_2014_2026/inputs/cvm_directed_extract.json.gz",
+      "sha256": "58a63d2709f49de09e1ad238344bf3fbb1d79a9697e8ee709d8e7df48091c6e7"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/cvm_directed_sources.json",
+      "sha256": "9b71163b2975e22f325d8d943149215471bbe56422230c40e6e1305fef6711be"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/00000000000191.json",
+      "sha256": "d851edc71ca6eb33228bc0b08a4e9bee67d5729947c4bbef786ec8a964b1b82c"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/00001180000126.json",
+      "sha256": "f0505e6f072fec213d54e3235e22a5af1034205c1739e2ef5bc5ae4036cb3a55"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/01083200000118.json",
+      "sha256": "e554830d0eab0dad156dd596991c843d30c01aab5cdf5c2621f41dbbd741d309"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/02149205000169.json",
+      "sha256": "c429aec5e228b59727d6cd2fb80fe500196da285cf4688c12aebc75ecc1635c0"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/02429144000193.json",
+      "sha256": "7706b3cc2fda1f7a66b85fbf524643bbbc099d0de6dc7d67fc033c6613bd060e"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/02474103000119.json",
+      "sha256": "a733a63dd99b23f28d200e57f5ba0a77023636834abe8c43bf073afcf17b26ce"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/02558115000121.json",
+      "sha256": "fb5a39e156df23cf2ffec6ebcdbee28e872387843d6c548614fd05691bb6d9f2"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/02558157000162.json",
+      "sha256": "a2715ed706dc57172505dec5c5bf4badf346f11cf8186de21ceeb88e5e7b0298"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/02998609000127.json",
+      "sha256": "7cc08d8b6bb6e59c1ca08715d6c8b91ed8f6d222ad5eb36bacc64e254a5955d6"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/02998611000104.json",
+      "sha256": "45afbb3eb1931b9363dada5c05a781768b5eed995704c384e87ca8cdc191a969"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/03220438000173.json",
+      "sha256": "bb7d327930604bed999d6777e1461fab34bf7aea54644b6481c1409d8bae6913"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/03378521000175.json",
+      "sha256": "ba204169c8874acdb59d4b5905556c53ef911034301ec8d9d30ef77883123cd7"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/03983431000103.json",
+      "sha256": "86eaca0aec3e712387940a96310eedefe1d637d2ecda61053e1305f58f98959e"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/04128563000110.json",
+      "sha256": "8045492441abea8e23418e899ac5e7051731c7cbbc94dbf8d9b33ead5926bcb7"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/07047251000170.json",
+      "sha256": "bcab3e64cee5ce7cd18380ec76419277a3801554274b3d0dfe6571b5a57ac692"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/07859971000130.json",
+      "sha256": "c9b2e566645c7a54c57102cd271cfdf9754d34382a3dfdc4bf027f6ce623e614"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/17155730000164.json",
+      "sha256": "f37c705e927f2dfe3b773899258ee45396231f0a36d85bd1e6630e760724eecc"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/17281106000103.json",
+      "sha256": "6c5d5d7c2d1c5bd9f5cbe5bf904300082214ed8ddd573a7394bf14b98328b62b"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/17344597000194.json",
+      "sha256": "24b7ffc74c7fd0ab167f68bf22133349c3acfbc165874a503ceef4e3b5468f0c"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/28195667000106.json",
+      "sha256": "f8a4886e203d03096ff130029d77ad5947e2ab342683ce7db9f6b92265cd32fd"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/33376989000191.json",
+      "sha256": "f62c880e3e9d1a8938c8cdcb6e6bdb6aa11ab533b7f4db7a067dbbe75dff9bba"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/43776517000180.json",
+      "sha256": "a315451a97842b14ed2a6313d7af189d417c56381972e76c68ac5f5387134b9f"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/60746948000112.json",
+      "sha256": "c1c2cf7d506cedf7873084ca6a80bf78a7b097f77a5cde6b6bb9253c138273fe"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/60872504000123.json",
+      "sha256": "048f61011615d5dee7956cb94a68a09f0c15f9777776f68808f7872aea738509"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/61186680000174.json",
+      "sha256": "84b8620759bc54356e9405f168356dc24896a07c81f7a58195378966cde6a84e"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/76483817000120.json",
+      "sha256": "de4183cd946d893aaa40dbf7ddc61f97419983c3c811d52621997bb00be65a49"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/76484013000145.json",
+      "sha256": "9a93316222e3fd7a19f58501e1b1e27d4f1ef2e7e3b5b4f81898dc3b28cd9eec"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/90400888000142.json",
+      "sha256": "cb5daee6550f2aa829a7185f167d8797b864d5b5b72b8282abfc6c44184b3aca"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/92702067000196.json",
+      "sha256": "419550450a7bad92c4e9bef4838628dc15ffe22746a6fea54c1f8f6a553cd1fb"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/economic_conventions.json",
+      "sha256": "d23a0d5e4cb7a187f20558d85ca01d78d1c85d8999a77d87c56b6a58288f4ae6"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/fundamental_decisions.json",
+      "sha256": "23872396677b8e2a97e7ec9abd7c45eeacdd645a0a75eb7c73785076f1fb3206"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/fundamental_decisions_lock.json",
+      "sha256": "c6e1ed93d09bb49d44c71df682a83f70aedef898fcc25dd5dc5485cb1be59d5d"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/ipca_availability.json",
+      "sha256": "9ff50cf76d3888b82533aa34a1df03f6df4de7b8a008dc2e8909f9ed0217f80f"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/ipca_pdf_sources.json",
+      "sha256": "7148c01bc3b5a7c6bfa50f4f689cfd26d5e222913658d237937573075e3db11e"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/ipca_release_sources.json",
+      "sha256": "6ebddfb20069b79ab702d14a5ef916791f1716ab950fe7f038ae8338a0e58ae3"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/ipca_release_urls.json",
+      "sha256": "acfc336053cbf18dbbdca2b71ea40d44987e91f432a725707770071744df88c7"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/ipca_sgs433.json",
+      "sha256": "d538119d8a84569b60d9c3ff535a00a5fe21fea10c25feddb84c92e702023abc"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/originals/ipca_may_2014.pdf.gz",
+      "sha256": "2c0cd77773c7a6c1f171bd28bdcce3797a34729a56eaafc8a44179496b2e0bd7"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/originals/ipca_may_2014.zip",
+      "sha256": "73d1f04c01d1fcd0723408d4dc5221b04ee4156e32cb82ba50593d128a901887"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/originals/ipca_may_2015.pdf.gz",
+      "sha256": "3ca067356b83ae5952c7a9dacb70f3e2fbd1d25749dfa5cec58d1928af51996d"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/originals/ipca_may_2015.zip",
+      "sha256": "6e2c2c3edfe71874f0b73d54474d647bc23a143ed8b9ecc580276c07e189f29c"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/originals/ipca_may_2016.pdf.gz",
+      "sha256": "4e8f6d1fc3d34bd14f60a973baa80274abee2736846f21160306373bb5140ae7"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/originals/ipca_may_2017.pdf.gz",
+      "sha256": "e2392de9c381b7a75e936072b040d578dd7bcc44959284aa256fac6263e43beb"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/originals/ipca_may_2018.pdf.gz",
+      "sha256": "c1509c69038466683c2a2be1666980b9972a0e77fbd661a8599314aa7d8e64d3"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/originals/ipca_may_2019.pdf.gz",
+      "sha256": "8fa90c18e9bcef24be45800c97368cf03ad6a7df82dde8902da5cafc0d5ccfc3"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/originals/ipca_may_2020.pdf.gz",
+      "sha256": "5c7e9dcfe5c970831e9ab679728719d00b40b6931a4d9a8894651d4ee366d3e8"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/originals/ipca_may_2021.pdf.gz",
+      "sha256": "fcb27258313f2ed29ca4182d7a580130328de2a513e7e03b007e7eb8c64d2928"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/originals/ipca_may_2022.pdf.gz",
+      "sha256": "25793bf7db24394bd71d2bdac6ed8e138e2549edef8748735005e56d70f1e476"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/originals/ipca_may_2023.pdf.gz",
+      "sha256": "2c1e08fe91369a830eb023b7158ee1fc634aab1e3e177f4317231feea43de41a"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/originals/ipca_may_2024.pdf.gz",
+      "sha256": "f50f6644db2ee2ab5db3de3adbd9283a77135d69edb57bc640f9f266580760d5"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/originals/ipca_may_2025.pdf.gz",
+      "sha256": "469e652b834c6acf826e8a4825766b3dcdaa987e0173d8d45c97f61231528d06"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/originals/quality_directed_2.pdf.gz",
+      "sha256": "90ca2b0a863f1774138c2445cb1669734230c5fa72cdc663d4d39ba793e37501"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/porto_2013_pages.json",
+      "sha256": "a22c13a92afa4b8c28f8e60f07fcbafcd96a2ae3cf98e3401fa25ca655b3c723"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/protected_pr3.json",
+      "sha256": "fbc0b19690af5c4a0eb4b2fb80ac93158a9532945d41d3a140058ccf929a400e"
+    },
+    {
       "path": "research/b00s_four_variants_2014_2026/inputs/protocol_lock.json",
       "sha256": "b7b1a16fb281b0924973c8435cfb8502d4a25ca6b0f72c781e556f18dbe6d001"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/quality_directed_review.json",
+      "sha256": "fe02df7584f4a3e86cc5f6bec56c1aea02b5238a2a27453f72452dbc889f6763"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/quality_retrieval_attempts.json",
+      "sha256": "6e9997848785884801dfa60e5bdbe49339dea2ac6b3b591a9194636829702c99"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/valuation_perimeter_reviews.json",
+      "sha256": "a6dd1d8892e4cadffc02a5a5fba66f4e8bf5bcd6f4799ff7a4ea721f4ef1e02f"
     }
   ],
   "outputs": [
     {
       "path": "research/b00s_four_variants_2014_2026/results/annual_returns_pct.csv",
-      "sha256": "7248ba5d0444188d5ac025dd7ee9dffedbef3416a0ed3cbe39c98f0309d32518"
+      "sha256": "1b72298d6077a130ce4c83d8acff1f1b45e5bd113f79cee6ccd99edea1ab3631"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/results/b00s_four_variants.xlsx",
-      "sha256": "49fa453f1a29d94daed7a7f80044dc97e951d91226462a986773f8540803a33d"
+      "sha256": "a4f720d9922b12d9658631f1a231bc3547d71ee836178f597d9b201b7a469b1d"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/results/consolidated_pct.csv",
-      "sha256": "4423d2a3b785dbdd4d699d2066fceb7e0525422ee5fdee5aa085438f2b062aca"
+      "sha256": "8336b3a403e226f76b15a713deb5b3a3f7df73a06f311d135c098610949f2a24"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/results/coverage_by_year_sector.csv",
-      "sha256": "a113a4e4bd07aa71c351ef84d74c82e4b042b0441f2893f0315650d665d5f175"
+      "sha256": "6d6781581972518bb17637328baf2cf70ef16864079badb46d80af71ab154785"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/results/cumulative_returns_pct.csv",
-      "sha256": "99038ba06c3bfcd2a6693b902aa158d14ea6f0e303f76726a6471f7889b7f061"
+      "sha256": "17cf8d992c8b3e38d529e9bb18ae7fa4605b21318623a15fe679dd8940930265"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/results/fundamental_metrics_by_fiscal_year.csv",
+      "sha256": "d0be8f4fa5aab7bb9617f4d2b0052a211a3708e5596a1136f021c2d3852ea085"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/results/holdings_by_june.csv",
-      "sha256": "e5f7883662602b2277a31be12cea80cb72d813a6a69b340ab727ecf206ec3dec"
+      "sha256": "c11ebea09976cfd3b0cdebea8ccf4e9ffff58e944a80e5acdedc4e0b8d57ac34"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/results/indeterminate_queue.csv",
+      "sha256": "fa0b307907a816ef19e5a01d6a1456969f81614b928e38ffd2785fd5fd075590"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/results/initial_pit_inventory.csv",
       "sha256": "bbec92b4b7fccf26cda9a75d1f8a691ae1d26eb6fd21748d3ceae5d83a90a015"
     },
     {
+      "path": "research/b00s_four_variants_2014_2026/results/portfolio_status.csv",
+      "sha256": "aa72f52e58b164f6a3edd345e8fd3484525fb64063ec48cf637b6d9a4882094b"
+    },
+    {
       "path": "research/b00s_four_variants_2014_2026/results/positions_by_june.csv",
-      "sha256": "20d1320cabe265317c2d382d47fa895e7de922d351d053fbd2d4b9b341fa2b43"
+      "sha256": "10b940d4d64be7ee903bd5dd7a4ca38267d063911521aa954b0675ae19d0fc7f"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/results/redemption_transfers.csv",
@@ -55,19 +304,39 @@
     },
     {
       "path": "research/b00s_four_variants_2014_2026/results/review_ledger.csv",
-      "sha256": "58ac4d00673f3cd390ebd59cb27e96c6483115ba33846ece4fc0ea58a87363b7"
+      "sha256": "8fbce1a623c928d12be4e6569f947c77fffbb57b82a2622434d49b5e66437b56"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/results/risk_concentration.csv",
-      "sha256": "3e30ca717a40d07b89ff110120d7199f7196bc0c0ab7ba869737aadbe3c01c59"
+      "sha256": "4465696f418b75ba42850faa7dbcad65210ac8985f8da1bbe50de76118f86ba9"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/results/selection_decisions.csv",
-      "sha256": "42a8b5f2227170858dfb45e78594b64ca6cd98b70ecd4b7477140e5e3cbd315d"
+      "sha256": "b46ef2dd861b69df8a73bab5384a423802f986717ac207170f53f8dc55f7515c"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/results/sensitivity_annual_pct.csv",
+      "sha256": "f8b8cd0ef75dae73cebf97bb8124808af7bc6654828bd4e12e7998ae69126259"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/results/sensitivity_attribution.csv",
+      "sha256": "bf470094b2f626847b57171c4177316a46499b011fe9971d1004a75dd999cf17"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/results/sensitivity_reviews.csv",
+      "sha256": "dfc16754ad6853fd4b360886b9690fdfd4d451dd4f91312d4e6810b51b91dc08"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/results/sensitivity_summary.csv",
+      "sha256": "8b9c4730f51ea554c166055e5155c8534dcefd5c9293305344559d8a9a33dae4"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/results/turnover_by_year.csv",
-      "sha256": "4f2baf6ec6c0d645faa4735f860a735bcf780838e85313a2e5600863cab21df5"
+      "sha256": "8c6300ab35dedce45c3b8af7f1d72f710eebc83d1743742e0da601ad54f4bc28"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/results/valuation_threshold_decisions.csv",
+      "sha256": "993cac4e1bbc164166b957db19d051a00ffd219c960b126eb379bc8f4222682c"
     }
   ]
 }

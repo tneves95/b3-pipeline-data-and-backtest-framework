@@ -1,0 +1,1998 @@
+{
+  "initial_assessment": {
+    "year": 2021,
+    "cutoff": "2021-06-30",
+    "ticker": "TAEE4",
+    "cnpj": "07859971000130",
+    "company": "TRANSMISSORA ALIANÇA DE ENERGIA ELÉTRICA S.A.",
+    "sector": "Energia",
+    "category": "INDETERMINATE",
+    "dimensions": {
+      "durability": {
+        "status": "INDETERMINATE",
+        "favorable": "Transmissão de Energia Elétrica.",
+        "missing": "Historical concession/contract durability, competitive position and pricing power",
+        "evidence": [
+          {
+            "cnpj": "07859971000130",
+            "received": "2021-06-02",
+            "name": "TRANSMISSORA ALIANÇA DE ENERGIA ELÉTRICA S.A.",
+            "sector": "Emp. Adm. Part. - Energia Elétrica",
+            "activity": "Transmissão de Energia Elétrica.",
+            "cvm": "020257",
+            "docid": "105745",
+            "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=105745"
+          }
+        ],
+        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+      },
+      "capital_economics": {
+        "status": "INDETERMINATE",
+        "favorable": {
+          "roe_parent_5": [
+            0.19852629690558737,
+            0.14980346938351083,
+            0.24021357898848425,
+            0.23125107647858092,
+            0.4108332022394854
+          ],
+          "normalized_profit": 1192800909.1174932
+        },
+        "missing": "Cycle-normalized ROIC/incremental returns or risk-adjusted prudential ROE; historical peer/capital comparison",
+        "evidence": [
+          {
+            "fiscal_year": 2016,
+            "metric": "attributable_ni",
+            "value": 862066000.0,
+            "docid": "74904",
+            "received": "2018-05-17",
+            "reference": "2017-12-31",
+            "period_end": "2016-12-31",
+            "perimeter": "con",
+            "account": "3.11.01",
+            "description": "Atribuído a Sócios da Empresa Controladora",
+            "source": "dfp_cia_aberta_DRE_con_2017.csv",
+            "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+          },
+          {
+            "fiscal_year": 2017,
+            "metric": "attributable_ni",
+            "value": 648285000.0,
+            "docid": "82172",
+            "received": "2019-04-11",
+            "reference": "2018-12-31",
+            "period_end": "2017-12-31",
+            "perimeter": "con",
+            "account": "3.11.01",
+            "description": "Atribuído a Sócios da Empresa Controladora",
+            "source": "dfp_cia_aberta_DRE_con_2018.csv",
+            "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+          },
+          {
+            "fiscal_year": 2018,
+            "metric": "attributable_ni",
+            "value": 1071305000.0,
+            "docid": "91546",
+            "received": "2020-03-12",
+            "reference": "2019-12-31",
+            "period_end": "2018-12-31",
+            "perimeter": "con",
+            "account": "3.11.01",
+            "description": "Atribuído a Sócios da Empresa Controladora",
+            "source": "dfp_cia_aberta_DRE_con_2019.csv",
+            "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+          },
+          {
+            "fiscal_year": 2019,
+            "metric": "attributable_ni",
+            "value": 1105661000.0,
+            "docid": "100641",
+            "received": "2021-03-03",
+            "reference": "2020-12-31",
+            "period_end": "2019-12-31",
+            "perimeter": "con",
+            "account": "3.11.01",
+            "description": "Atribuído a Sócios da Empresa Controladora",
+            "source": "dfp_cia_aberta_DRE_con_2020.csv",
+            "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+          },
+          {
+            "fiscal_year": 2020,
+            "metric": "attributable_ni",
+            "value": 2262927000.0,
+            "docid": "100641",
+            "received": "2021-03-03",
+            "reference": "2020-12-31",
+            "period_end": "2020-12-31",
+            "perimeter": "con",
+            "account": "3.11.01",
+            "description": "Atribuído a Sócios da Empresa Controladora",
+            "source": "dfp_cia_aberta_DRE_con_2020.csv",
+            "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+          }
+        ],
+        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+      },
+      "earnings_reliability": {
+        "status": "INDETERMINATE",
+        "favorable": {
+          "positive_attributable_years": 5,
+          "audit_records": 6
+        },
+        "missing": "Profit/cash/recurring earnings bridge; provisions and extraordinary items reviewed in dated notes",
+        "evidence": [
+          {
+            "docid": "100641",
+            "received": "2021-03-03",
+            "reference": "2020-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2020.csv",
+            "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+          },
+          {
+            "docid": "100641",
+            "received": "2021-03-03",
+            "reference": "2020-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2020.csv",
+            "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+          },
+          {
+            "docid": "100641",
+            "received": "2021-03-03",
+            "reference": "2020-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2020.csv",
+            "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+          },
+          {
+            "docid": "100641",
+            "received": "2021-03-03",
+            "reference": "2020-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2020.csv",
+            "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+          },
+          {
+            "docid": "100641",
+            "received": "2021-03-03",
+            "reference": "2020-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2020.csv",
+            "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+          },
+          {
+            "docid": "100641",
+            "received": "2021-03-03",
+            "reference": "2020-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2020.csv",
+            "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+          }
+        ],
+        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+      },
+      "financial_resilience": {
+        "status": "INDETERMINATE",
+        "favorable": {
+          "parent_equity_latest": 6025904000.0
+        },
+        "missing": "Debt maturity, interest coverage and committed maintenance/expansion CAPEX",
+        "evidence": [
+          {
+            "docid": "100641",
+            "received": "2021-03-03",
+            "reference": "2020-12-31",
+            "period_end": "2020-12-31",
+            "perimeter": "ind",
+            "account": "2.03",
+            "description": "Patrimônio Líquido",
+            "source": "dfp_cia_aberta_BPP_ind_2020.csv",
+            "archive_sha256": "",
+            "url": ""
+          }
+        ],
+        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+      },
+      "capital_allocation": {
+        "status": "INDETERMINATE",
+        "favorable": {
+          "historical_payout": [
+            1.0,
+            1.0,
+            0.8853844748999999,
+            0.7032717019,
+            null
+          ],
+          "distributions": [
+            783602000.0,
+            592928000.0,
+            858050000.0,
+            655938000.0,
+            null
+          ]
+        },
+        "missing": "Maintenance versus expansion CAPEX, sustainable dividends, adjusted per-share and incremental economic growth",
+        "evidence": [
+          {
+            "docid": "93409",
+            "received": "2020-05-25",
+            "reference": "",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "fre_cia_aberta_distribuicao_dividendos_2019.csv",
+            "archive_sha256": "30f461d5d3b3cdbab84faac20c158c6a41cea1ee0223c40d988db9845e2c6a51",
+            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=93409",
+            "fiscal_year": 2016,
+            "raw": {
+              "CNPJ_Companhia": "07.859.971/0001-30",
+              "Data_Referencia": "2019-01-01",
+              "Versao": "16",
+              "ID_Documento": "93409",
+              "Nome_Companhia": "TRANSMISSORA ALIANÇA DE ENERGIA ELÉTRICA S.A.",
+              "Data_Inicio_Exercicio_Social": "2016-01-01",
+              "Data_Fim_Exercicio_Social": "2016-12-31",
+              "Lucro_Liquido_Ajustado": "783602000.00",
+              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "20.01273102",
+              "Lucro_Liquido_Retido": "78464000.00",
+              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "100.00000000",
+              "Dividendo_Distribuido_Total": "783602000.00",
+              "Data_Aprovacao_Retencao": "2017-04-28"
+            }
+          },
+          {
+            "docid": "104614",
+            "received": "2021-05-19",
+            "reference": "",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "fre_cia_aberta_distribuicao_dividendos_2020.csv",
+            "archive_sha256": "17d2d911201f64dc8ff501104ce8fe343cd4ab3bdb41ea03eb6bfc2c4f6b80ab",
+            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=104614",
+            "fiscal_year": 2017,
+            "raw": {
+              "CNPJ_Companhia": "07.859.971/0001-30",
+              "Data_Referencia": "2020-01-01",
+              "Versao": "10",
+              "ID_Documento": "104614",
+              "Nome_Companhia": "TRANSMISSORA ALIANÇA DE ENERGIA ELÉTRICA S.A.",
+              "Data_Inicio_Exercicio_Social": "2017-01-01",
+              "Data_Fim_Exercicio_Social": "2017-12-31",
+              "Lucro_Liquido_Ajustado": "592928000.00",
+              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "14.91149502",
+              "Lucro_Liquido_Retido": "55357000.00",
+              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "100.00000000",
+              "Dividendo_Distribuido_Total": "592928000.00",
+              "Data_Aprovacao_Retencao": "2018-04-26"
+            }
+          },
+          {
+            "docid": "104614",
+            "received": "2021-05-19",
+            "reference": "",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "fre_cia_aberta_distribuicao_dividendos_2020.csv",
+            "archive_sha256": "17d2d911201f64dc8ff501104ce8fe343cd4ab3bdb41ea03eb6bfc2c4f6b80ab",
+            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=104614",
+            "fiscal_year": 2018,
+            "raw": {
+              "CNPJ_Companhia": "07.859.971/0001-30",
+              "Data_Referencia": "2020-01-01",
+              "Versao": "10",
+              "ID_Documento": "104614",
+              "Nome_Companhia": "TRANSMISSORA ALIANÇA DE ENERGIA ELÉTRICA S.A.",
+              "Data_Inicio_Exercicio_Social": "2018-01-01",
+              "Data_Fim_Exercicio_Social": "2018-12-31",
+              "Lucro_Liquido_Ajustado": "969127000.00",
+              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "23.43160139",
+              "Lucro_Liquido_Retido": "213255000.00",
+              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "88.53844749",
+              "Dividendo_Distribuido_Total": "858050000.00",
+              "Data_Aprovacao_Retencao": "2019-04-29"
+            }
+          },
+          {
+            "docid": "104614",
+            "received": "2021-05-19",
+            "reference": "",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "fre_cia_aberta_distribuicao_dividendos_2020.csv",
+            "archive_sha256": "17d2d911201f64dc8ff501104ce8fe343cd4ab3bdb41ea03eb6bfc2c4f6b80ab",
+            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=104614",
+            "fiscal_year": 2019,
+            "raw": {
+              "CNPJ_Companhia": "07.859.971/0001-30",
+              "Data_Referencia": "2020-01-01",
+              "Versao": "10",
+              "ID_Documento": "104614",
+              "Nome_Companhia": "TRANSMISSORA ALIANÇA DE ENERGIA ELÉTRICA S.A.",
+              "Data_Inicio_Exercicio_Social": "2019-01-01",
+              "Data_Fim_Exercicio_Social": "2019-12-31",
+              "Lucro_Liquido_Ajustado": "932695000.00",
+              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "20.33490332",
+              "Lucro_Liquido_Retido": "345921000.00",
+              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "70.32717019",
+              "Dividendo_Distribuido_Total": "655938000.00",
+              "Data_Aprovacao_Retencao": "2020-04-30"
+            }
+          }
+        ],
+        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+      },
+      "governance": {
+        "status": "INDETERMINATE",
+        "favorable": {
+          "dated_shareholder_right_records": 22,
+          "dated_related_party_records": 235
+        },
+        "missing": "Review of material conflicts, related parties and audit opinions before cutoff; no ex-post controversy inference",
+        "evidence": [
+          {
+            "docid": "100641",
+            "received": "2021-03-03",
+            "reference": "2020-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2020.csv",
+            "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+          },
+          {
+            "docid": "100641",
+            "received": "2021-03-03",
+            "reference": "2020-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2020.csv",
+            "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+          },
+          {
+            "docid": "100641",
+            "received": "2021-03-03",
+            "reference": "2020-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2020.csv",
+            "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+          },
+          {
+            "docid": "100641",
+            "received": "2021-03-03",
+            "reference": "2020-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2020.csv",
+            "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+          },
+          {
+            "docid": "100641",
+            "received": "2021-03-03",
+            "reference": "2020-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2020.csv",
+            "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+          },
+          {
+            "docid": "100641",
+            "received": "2021-03-03",
+            "reference": "2020-12-31",
+            "period_end": "",
+            "perimeter": "",
+            "account": "",
+            "description": "",
+            "source": "dfp_cia_aberta_parecer_2020.csv",
+            "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+          }
+        ],
+        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+      }
+    },
+    "limitation": "Structured CVM facts establish availability, not all six economic conclusions. No scoring or future outcomes.",
+    "special_case": ""
+  },
+  "annual_evidence_updates": [
+    {
+      "year": 2022,
+      "cutoff": "2022-06-30",
+      "ticker": "TAEE4",
+      "category": "INDETERMINATE",
+      "special_case": "",
+      "assessment_ref": "07859971000130:2021",
+      "classification_changed": false,
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "Transmissão de Energia Elétrica.",
+          "evidence": [
+            {
+              "cnpj": "07859971000130",
+              "received": "2022-05-09",
+              "name": "TRANSMISSORA ALIANÇA DE ENERGIA ELÉTRICA S.A.",
+              "sector": "Emp. Adm. Part. - Energia Elétrica",
+              "activity": "Transmissão de Energia Elétrica.",
+              "cvm": "020257",
+              "docid": "114545",
+              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=114545"
+            }
+          ]
+        },
+        "capital_economics": {
+          "favorable": {
+            "roe_parent_5": [
+              0.14980346938351083,
+              0.24021357898848425,
+              0.23125107647858092,
+              0.4108332022394854,
+              0.34832400520507983
+            ],
+            "normalized_profit": 1346922952.6427712
+          },
+          "evidence": [
+            {
+              "fiscal_year": 2017,
+              "metric": "attributable_ni",
+              "value": 648285000.0,
+              "docid": "82172",
+              "received": "2019-04-11",
+              "reference": "2018-12-31",
+              "period_end": "2017-12-31",
+              "perimeter": "con",
+              "account": "3.11.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2018.csv",
+              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+            },
+            {
+              "fiscal_year": 2018,
+              "metric": "attributable_ni",
+              "value": 1071305000.0,
+              "docid": "91546",
+              "received": "2020-03-12",
+              "reference": "2019-12-31",
+              "period_end": "2018-12-31",
+              "perimeter": "con",
+              "account": "3.11.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2019.csv",
+              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            },
+            {
+              "fiscal_year": 2019,
+              "metric": "attributable_ni",
+              "value": 1105661000.0,
+              "docid": "100641",
+              "received": "2021-03-03",
+              "reference": "2020-12-31",
+              "period_end": "2019-12-31",
+              "perimeter": "con",
+              "account": "3.11.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "fiscal_year": 2020,
+              "metric": "attributable_ni",
+              "value": 2262927000.0,
+              "docid": "111877",
+              "received": "2022-02-18",
+              "reference": "2021-12-31",
+              "period_end": "2020-12-31",
+              "perimeter": "con",
+              "account": "3.11.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "fiscal_year": 2021,
+              "metric": "attributable_ni",
+              "value": 2213714000.0,
+              "docid": "111877",
+              "received": "2022-02-18",
+              "reference": "2021-12-31",
+              "period_end": "2021-12-31",
+              "perimeter": "con",
+              "account": "3.11.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            }
+          ]
+        },
+        "earnings_reliability": {
+          "favorable": {
+            "positive_attributable_years": 5,
+            "audit_records": 6
+          },
+          "evidence": [
+            {
+              "docid": "111877",
+              "received": "2022-02-18",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "111877",
+              "received": "2022-02-18",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "111877",
+              "received": "2022-02-18",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "111877",
+              "received": "2022-02-18",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "111877",
+              "received": "2022-02-18",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "111877",
+              "received": "2022-02-18",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            }
+          ]
+        },
+        "financial_resilience": {
+          "favorable": {
+            "parent_equity_latest": 6684756000.0
+          },
+          "evidence": [
+            {
+              "docid": "111877",
+              "received": "2022-02-18",
+              "reference": "2021-12-31",
+              "period_end": "2021-12-31",
+              "perimeter": "ind",
+              "account": "2.03",
+              "description": "Patrimônio Líquido",
+              "source": "dfp_cia_aberta_BPP_ind_2021.csv",
+              "archive_sha256": "",
+              "url": ""
+            }
+          ]
+        },
+        "capital_allocation": {
+          "favorable": {
+            "historical_payout": [
+              1.0,
+              0.8853844748999999,
+              0.6328411949,
+              0.7178221537999999,
+              null
+            ],
+            "distributions": [
+              592928000.0,
+              858050000.0,
+              655938000.0,
+              1606374000.0,
+              null
+            ]
+          },
+          "evidence": [
+            {
+              "docid": "104614",
+              "received": "2021-05-19",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2020.csv",
+              "archive_sha256": "17d2d911201f64dc8ff501104ce8fe343cd4ab3bdb41ea03eb6bfc2c4f6b80ab",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=104614",
+              "fiscal_year": 2017,
+              "raw": {
+                "CNPJ_Companhia": "07.859.971/0001-30",
+                "Data_Referencia": "2020-01-01",
+                "Versao": "10",
+                "ID_Documento": "104614",
+                "Nome_Companhia": "TRANSMISSORA ALIANÇA DE ENERGIA ELÉTRICA S.A.",
+                "Data_Inicio_Exercicio_Social": "2017-01-01",
+                "Data_Fim_Exercicio_Social": "2017-12-31",
+                "Lucro_Liquido_Ajustado": "592928000.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "14.91149502",
+                "Lucro_Liquido_Retido": "55357000.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "100.00000000",
+                "Dividendo_Distribuido_Total": "592928000.00",
+                "Data_Aprovacao_Retencao": "2018-04-26"
+              }
+            },
+            {
+              "docid": "112127",
+              "received": "2022-02-25",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2021.csv",
+              "archive_sha256": "882e4c19c0719b7ac75f8e906c264fdd69b899cf0a2942ad00c4eb14a1b855bd",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=112127",
+              "fiscal_year": 2018,
+              "raw": {
+                "CNPJ_Companhia": "07.859.971/0001-30",
+                "Data_Referencia": "2021-01-01",
+                "Versao": "6",
+                "ID_Documento": "112127",
+                "Nome_Companhia": "TRANSMISSORA ALIANÇA DE ENERGIA ELÉTRICA S.A.",
+                "Data_Inicio_Exercicio_Social": "2018-01-01",
+                "Data_Fim_Exercicio_Social": "2018-12-31",
+                "Lucro_Liquido_Ajustado": "969127000.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "23.43160139",
+                "Lucro_Liquido_Retido": "213255000.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "88.53844749",
+                "Dividendo_Distribuido_Total": "858050000.00",
+                "Data_Aprovacao_Retencao": "2019-04-29"
+              }
+            },
+            {
+              "docid": "112127",
+              "received": "2022-02-25",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2021.csv",
+              "archive_sha256": "882e4c19c0719b7ac75f8e906c264fdd69b899cf0a2942ad00c4eb14a1b855bd",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=112127",
+              "fiscal_year": 2019,
+              "raw": {
+                "CNPJ_Companhia": "07.859.971/0001-30",
+                "Data_Referencia": "2021-01-01",
+                "Versao": "6",
+                "ID_Documento": "112127",
+                "Nome_Companhia": "TRANSMISSORA ALIANÇA DE ENERGIA ELÉTRICA S.A.",
+                "Data_Inicio_Exercicio_Social": "2019-01-01",
+                "Data_Fim_Exercicio_Social": "2019-12-31",
+                "Lucro_Liquido_Ajustado": "1036497000.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "22.15586117",
+                "Lucro_Liquido_Retido": "449723000.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "63.28411949",
+                "Dividendo_Distribuido_Total": "655938000.00",
+                "Data_Aprovacao_Retencao": "2021-04-29"
+              }
+            },
+            {
+              "docid": "112127",
+              "received": "2022-02-25",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2021.csv",
+              "archive_sha256": "882e4c19c0719b7ac75f8e906c264fdd69b899cf0a2942ad00c4eb14a1b855bd",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=112127",
+              "fiscal_year": 2020,
+              "raw": {
+                "CNPJ_Companhia": "07.859.971/0001-30",
+                "Data_Referencia": "2021-01-01",
+                "Versao": "6",
+                "ID_Documento": "112127",
+                "Nome_Companhia": "TRANSMISSORA ALIANÇA DE ENERGIA ELÉTRICA S.A.",
+                "Data_Inicio_Exercicio_Social": "2020-01-01",
+                "Data_Fim_Exercicio_Social": "2020-12-31",
+                "Lucro_Liquido_Ajustado": "2237844000.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "37.55331980",
+                "Lucro_Liquido_Retido": "656553000.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "71.78221538",
+                "Dividendo_Distribuido_Total": "1606374000.00",
+                "Data_Aprovacao_Retencao": "2021-04-29"
+              }
+            }
+          ]
+        },
+        "governance": {
+          "favorable": {
+            "dated_shareholder_right_records": 24,
+            "dated_related_party_records": 256
+          },
+          "evidence": [
+            {
+              "docid": "111877",
+              "received": "2022-02-18",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "111877",
+              "received": "2022-02-18",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "111877",
+              "received": "2022-02-18",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "111877",
+              "received": "2022-02-18",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "111877",
+              "received": "2022-02-18",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "docid": "111877",
+              "received": "2022-02-18",
+              "reference": "2021-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "year": 2023,
+      "cutoff": "2023-06-30",
+      "ticker": "TAEE4",
+      "category": "INDETERMINATE",
+      "special_case": "",
+      "assessment_ref": "07859971000130:2021",
+      "classification_changed": false,
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "Transmissão de Energia Elétrica.",
+          "evidence": [
+            {
+              "cnpj": "07859971000130",
+              "received": "2023-05-23",
+              "name": "TRANSMISSORA ALIANÇA DE ENERGIA ELÉTRICA S.A.",
+              "sector": "Emp. Adm. Part. - Energia Elétrica",
+              "activity": "Transmissão de Energia Elétrica.",
+              "cvm": "020257",
+              "docid": "127130",
+              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=127130"
+            }
+          ]
+        },
+        "capital_economics": {
+          "favorable": {
+            "roe_parent_5": [
+              0.24021357898848425,
+              0.23125107647858092,
+              0.4108332022394854,
+              0.34832400520507983,
+              0.2186630909213811
+            ],
+            "normalized_profit": 1492013715.3316092
+          },
+          "evidence": [
+            {
+              "fiscal_year": 2018,
+              "metric": "attributable_ni",
+              "value": 1071305000.0,
+              "docid": "91546",
+              "received": "2020-03-12",
+              "reference": "2019-12-31",
+              "period_end": "2018-12-31",
+              "perimeter": "con",
+              "account": "3.11.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2019.csv",
+              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            },
+            {
+              "fiscal_year": 2019,
+              "metric": "attributable_ni",
+              "value": 1105661000.0,
+              "docid": "100641",
+              "received": "2021-03-03",
+              "reference": "2020-12-31",
+              "period_end": "2019-12-31",
+              "perimeter": "con",
+              "account": "3.11.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "fiscal_year": 2020,
+              "metric": "attributable_ni",
+              "value": 2262927000.0,
+              "docid": "111877",
+              "received": "2022-02-18",
+              "reference": "2021-12-31",
+              "period_end": "2020-12-31",
+              "perimeter": "con",
+              "account": "3.11.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "fiscal_year": 2021,
+              "metric": "attributable_ni",
+              "value": 2213714000.0,
+              "docid": "124208",
+              "received": "2023-03-15",
+              "reference": "2022-12-31",
+              "period_end": "2021-12-31",
+              "perimeter": "con",
+              "account": "3.11.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "fiscal_year": 2022,
+              "metric": "attributable_ni",
+              "value": 1449215000.0,
+              "docid": "124208",
+              "received": "2023-03-15",
+              "reference": "2022-12-31",
+              "period_end": "2022-12-31",
+              "perimeter": "con",
+              "account": "3.11.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            }
+          ]
+        },
+        "earnings_reliability": {
+          "favorable": {
+            "positive_attributable_years": 5,
+            "audit_records": 5
+          },
+          "evidence": [
+            {
+              "docid": "124208",
+              "received": "2023-03-15",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "124208",
+              "received": "2023-03-15",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "124208",
+              "received": "2023-03-15",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "124208",
+              "received": "2023-03-15",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "124208",
+              "received": "2023-03-15",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            }
+          ]
+        },
+        "financial_resilience": {
+          "favorable": {
+            "parent_equity_latest": 6570476000.0
+          },
+          "evidence": [
+            {
+              "docid": "124208",
+              "received": "2023-03-15",
+              "reference": "2022-12-31",
+              "period_end": "2022-12-31",
+              "perimeter": "ind",
+              "account": "2.03",
+              "description": "Patrimônio Líquido",
+              "source": "dfp_cia_aberta_BPP_ind_2022.csv",
+              "archive_sha256": "",
+              "url": ""
+            }
+          ]
+        },
+        "capital_allocation": {
+          "favorable": {
+            "historical_payout": [
+              0.8853844748999999,
+              0.6328411949,
+              0.7178221537999999,
+              0.814329417,
+              null
+            ],
+            "distributions": [
+              858050000.0,
+              655938000.0,
+              1606374000.0,
+              1789870000.0,
+              null
+            ]
+          },
+          "evidence": [
+            {
+              "docid": "112127",
+              "received": "2022-02-25",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2021.csv",
+              "archive_sha256": "882e4c19c0719b7ac75f8e906c264fdd69b899cf0a2942ad00c4eb14a1b855bd",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=112127",
+              "fiscal_year": 2018,
+              "raw": {
+                "CNPJ_Companhia": "07.859.971/0001-30",
+                "Data_Referencia": "2021-01-01",
+                "Versao": "6",
+                "ID_Documento": "112127",
+                "Nome_Companhia": "TRANSMISSORA ALIANÇA DE ENERGIA ELÉTRICA S.A.",
+                "Data_Inicio_Exercicio_Social": "2018-01-01",
+                "Data_Fim_Exercicio_Social": "2018-12-31",
+                "Lucro_Liquido_Ajustado": "969127000.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "23.43160139",
+                "Lucro_Liquido_Retido": "213255000.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "88.53844749",
+                "Dividendo_Distribuido_Total": "858050000.00",
+                "Data_Aprovacao_Retencao": "2019-04-29"
+              }
+            },
+            {
+              "docid": "126020",
+              "received": "2023-05-09",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
+              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=126020",
+              "fiscal_year": 2019,
+              "raw": {
+                "CNPJ_Companhia": "07.859.971/0001-30",
+                "Data_Referencia": "2022-01-01",
+                "Versao": "13",
+                "ID_Documento": "126020",
+                "Nome_Companhia": "TRANSMISSORA ALIANÇA DE ENERGIA ELÉTRICA S.A.",
+                "Data_Inicio_Exercicio_Social": "2019-01-01",
+                "Data_Fim_Exercicio_Social": "2019-12-31",
+                "Lucro_Liquido_Ajustado": "1036497000.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "22.15586117",
+                "Lucro_Liquido_Retido": "449723000.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "63.28411949",
+                "Dividendo_Distribuido_Total": "655938000.00",
+                "Data_Aprovacao_Retencao": "2021-04-29"
+              }
+            },
+            {
+              "docid": "126020",
+              "received": "2023-05-09",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
+              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=126020",
+              "fiscal_year": 2020,
+              "raw": {
+                "CNPJ_Companhia": "07.859.971/0001-30",
+                "Data_Referencia": "2022-01-01",
+                "Versao": "13",
+                "ID_Documento": "126020",
+                "Nome_Companhia": "TRANSMISSORA ALIANÇA DE ENERGIA ELÉTRICA S.A.",
+                "Data_Inicio_Exercicio_Social": "2020-01-01",
+                "Data_Fim_Exercicio_Social": "2020-12-31",
+                "Lucro_Liquido_Ajustado": "2237844000.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "37.55331980",
+                "Lucro_Liquido_Retido": "656553000.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "71.78221538",
+                "Dividendo_Distribuido_Total": "1606374000.00",
+                "Data_Aprovacao_Retencao": "2021-04-29"
+              }
+            },
+            {
+              "docid": "126020",
+              "received": "2023-05-09",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
+              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=126020",
+              "fiscal_year": 2021,
+              "raw": {
+                "CNPJ_Companhia": "07.859.971/0001-30",
+                "Data_Referencia": "2022-01-01",
+                "Versao": "13",
+                "ID_Documento": "126020",
+                "Nome_Companhia": "TRANSMISSORA ALIANÇA DE ENERGIA ELÉTRICA S.A.",
+                "Data_Inicio_Exercicio_Social": "2021-01-01",
+                "Data_Fim_Exercicio_Social": "2021-12-31",
+                "Lucro_Liquido_Ajustado": "2197968000.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "33.11585344",
+                "Lucro_Liquido_Retido": "423844000.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "81.43294170",
+                "Dividendo_Distribuido_Total": "1789870000.00",
+                "Data_Aprovacao_Retencao": "2022-04-28"
+              }
+            }
+          ]
+        },
+        "governance": {
+          "favorable": {
+            "dated_shareholder_right_records": 26,
+            "dated_related_party_records": 289
+          },
+          "evidence": [
+            {
+              "docid": "124208",
+              "received": "2023-03-15",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "124208",
+              "received": "2023-03-15",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "124208",
+              "received": "2023-03-15",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "124208",
+              "received": "2023-03-15",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "docid": "124208",
+              "received": "2023-03-15",
+              "reference": "2022-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "year": 2024,
+      "cutoff": "2024-06-28",
+      "ticker": "TAEE4",
+      "category": "INDETERMINATE",
+      "special_case": "",
+      "assessment_ref": "07859971000130:2021",
+      "classification_changed": false,
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "Transmissão de Energia Elétrica.",
+          "evidence": [
+            {
+              "cnpj": "07859971000130",
+              "received": "2023-05-23",
+              "name": "TRANSMISSORA ALIANÇA DE ENERGIA ELÉTRICA S.A.",
+              "sector": "Emp. Adm. Part. - Energia Elétrica",
+              "activity": "Transmissão de Energia Elétrica.",
+              "cvm": "020257",
+              "docid": "127130",
+              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=127130"
+            }
+          ]
+        },
+        "capital_economics": {
+          "favorable": {
+            "roe_parent_5": [
+              0.23125107647858092,
+              0.4108332022394854,
+              0.34832400520507983,
+              0.2186630909213811,
+              0.20646884410057642
+            ],
+            "normalized_profit": 1550589452.8331032
+          },
+          "evidence": [
+            {
+              "fiscal_year": 2019,
+              "metric": "attributable_ni",
+              "value": 1105661000.0,
+              "docid": "100641",
+              "received": "2021-03-03",
+              "reference": "2020-12-31",
+              "period_end": "2019-12-31",
+              "perimeter": "con",
+              "account": "3.11.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2020.csv",
+              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+            },
+            {
+              "fiscal_year": 2020,
+              "metric": "attributable_ni",
+              "value": 2262927000.0,
+              "docid": "111877",
+              "received": "2022-02-18",
+              "reference": "2021-12-31",
+              "period_end": "2020-12-31",
+              "perimeter": "con",
+              "account": "3.11.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "fiscal_year": 2021,
+              "metric": "attributable_ni",
+              "value": 2213714000.0,
+              "docid": "124208",
+              "received": "2023-03-15",
+              "reference": "2022-12-31",
+              "period_end": "2021-12-31",
+              "perimeter": "con",
+              "account": "3.11.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "fiscal_year": 2022,
+              "metric": "attributable_ni",
+              "value": 1449215000.0,
+              "docid": "134502",
+              "received": "2024-03-06",
+              "reference": "2023-12-31",
+              "period_end": "2022-12-31",
+              "perimeter": "con",
+              "account": "3.11.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            },
+            {
+              "fiscal_year": 2023,
+              "metric": "attributable_ni",
+              "value": 1367834000.0,
+              "docid": "134502",
+              "received": "2024-03-06",
+              "reference": "2023-12-31",
+              "period_end": "2023-12-31",
+              "perimeter": "con",
+              "account": "3.11.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            }
+          ]
+        },
+        "earnings_reliability": {
+          "favorable": {
+            "positive_attributable_years": 5,
+            "audit_records": 5
+          },
+          "evidence": [
+            {
+              "docid": "134502",
+              "received": "2024-03-06",
+              "reference": "2023-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            },
+            {
+              "docid": "134502",
+              "received": "2024-03-06",
+              "reference": "2023-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            },
+            {
+              "docid": "134502",
+              "received": "2024-03-06",
+              "reference": "2023-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            },
+            {
+              "docid": "134502",
+              "received": "2024-03-06",
+              "reference": "2023-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            },
+            {
+              "docid": "134502",
+              "received": "2024-03-06",
+              "reference": "2023-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            }
+          ]
+        },
+        "financial_resilience": {
+          "favorable": {
+            "parent_equity_latest": 6679310000.0
+          },
+          "evidence": [
+            {
+              "docid": "134502",
+              "received": "2024-03-06",
+              "reference": "2023-12-31",
+              "period_end": "2023-12-31",
+              "perimeter": "ind",
+              "account": "2.03",
+              "description": "Patrimônio Líquido",
+              "source": "dfp_cia_aberta_BPP_ind_2023.csv",
+              "archive_sha256": "",
+              "url": ""
+            }
+          ]
+        },
+        "capital_allocation": {
+          "favorable": {
+            "historical_payout": [
+              0.6328411949,
+              0.7178221537999999,
+              0.814329417,
+              null,
+              null
+            ],
+            "distributions": [
+              655938000.0,
+              1606374000.0,
+              1789870000.0,
+              null,
+              null
+            ]
+          },
+          "evidence": [
+            {
+              "docid": "126020",
+              "received": "2023-05-09",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
+              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=126020",
+              "fiscal_year": 2019,
+              "raw": {
+                "CNPJ_Companhia": "07.859.971/0001-30",
+                "Data_Referencia": "2022-01-01",
+                "Versao": "13",
+                "ID_Documento": "126020",
+                "Nome_Companhia": "TRANSMISSORA ALIANÇA DE ENERGIA ELÉTRICA S.A.",
+                "Data_Inicio_Exercicio_Social": "2019-01-01",
+                "Data_Fim_Exercicio_Social": "2019-12-31",
+                "Lucro_Liquido_Ajustado": "1036497000.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "22.15586117",
+                "Lucro_Liquido_Retido": "449723000.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "63.28411949",
+                "Dividendo_Distribuido_Total": "655938000.00",
+                "Data_Aprovacao_Retencao": "2021-04-29"
+              }
+            },
+            {
+              "docid": "126020",
+              "received": "2023-05-09",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
+              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=126020",
+              "fiscal_year": 2020,
+              "raw": {
+                "CNPJ_Companhia": "07.859.971/0001-30",
+                "Data_Referencia": "2022-01-01",
+                "Versao": "13",
+                "ID_Documento": "126020",
+                "Nome_Companhia": "TRANSMISSORA ALIANÇA DE ENERGIA ELÉTRICA S.A.",
+                "Data_Inicio_Exercicio_Social": "2020-01-01",
+                "Data_Fim_Exercicio_Social": "2020-12-31",
+                "Lucro_Liquido_Ajustado": "2237844000.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "37.55331980",
+                "Lucro_Liquido_Retido": "656553000.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "71.78221538",
+                "Dividendo_Distribuido_Total": "1606374000.00",
+                "Data_Aprovacao_Retencao": "2021-04-29"
+              }
+            },
+            {
+              "docid": "126020",
+              "received": "2023-05-09",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
+              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=126020",
+              "fiscal_year": 2021,
+              "raw": {
+                "CNPJ_Companhia": "07.859.971/0001-30",
+                "Data_Referencia": "2022-01-01",
+                "Versao": "13",
+                "ID_Documento": "126020",
+                "Nome_Companhia": "TRANSMISSORA ALIANÇA DE ENERGIA ELÉTRICA S.A.",
+                "Data_Inicio_Exercicio_Social": "2021-01-01",
+                "Data_Fim_Exercicio_Social": "2021-12-31",
+                "Lucro_Liquido_Ajustado": "2197968000.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "33.11585344",
+                "Lucro_Liquido_Retido": "423844000.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "81.43294170",
+                "Dividendo_Distribuido_Total": "1789870000.00",
+                "Data_Aprovacao_Retencao": "2022-04-28"
+              }
+            }
+          ]
+        },
+        "governance": {
+          "favorable": {
+            "dated_shareholder_right_records": 26,
+            "dated_related_party_records": 337
+          },
+          "evidence": [
+            {
+              "docid": "134502",
+              "received": "2024-03-06",
+              "reference": "2023-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            },
+            {
+              "docid": "134502",
+              "received": "2024-03-06",
+              "reference": "2023-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            },
+            {
+              "docid": "134502",
+              "received": "2024-03-06",
+              "reference": "2023-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            },
+            {
+              "docid": "134502",
+              "received": "2024-03-06",
+              "reference": "2023-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            },
+            {
+              "docid": "134502",
+              "received": "2024-03-06",
+              "reference": "2023-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "year": 2025,
+      "cutoff": "2025-06-30",
+      "ticker": "TAEE4",
+      "category": "INDETERMINATE",
+      "special_case": "",
+      "assessment_ref": "07859971000130:2021",
+      "classification_changed": false,
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "Transmissão de Energia Elétrica.",
+          "evidence": [
+            {
+              "cnpj": "07859971000130",
+              "received": "2025-02-10",
+              "name": "TRANSMISSORA ALIANÇA DE ENERGIA ELÉTRICA S.A.",
+              "sector": "Emp. Adm. Part. - Energia Elétrica",
+              "activity": "Transmissão de Energia Elétrica.",
+              "cvm": "020257",
+              "docid": "144682",
+              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=144682"
+            }
+          ]
+        },
+        "capital_economics": {
+          "favorable": {
+            "roe_parent_5": [
+              0.4108332022394854,
+              0.34832400520507983,
+              0.2186630909213811,
+              0.2089121088129469,
+              0.25164446171677674
+            ],
+            "normalized_profit": 1740422433.918765
+          },
+          "evidence": [
+            {
+              "fiscal_year": 2020,
+              "metric": "attributable_ni",
+              "value": 2262927000.0,
+              "docid": "111877",
+              "received": "2022-02-18",
+              "reference": "2021-12-31",
+              "period_end": "2020-12-31",
+              "perimeter": "con",
+              "account": "3.11.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2021.csv",
+              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+            },
+            {
+              "fiscal_year": 2021,
+              "metric": "attributable_ni",
+              "value": 2213714000.0,
+              "docid": "124208",
+              "received": "2023-03-15",
+              "reference": "2022-12-31",
+              "period_end": "2021-12-31",
+              "perimeter": "con",
+              "account": "3.11.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2022.csv",
+              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+            },
+            {
+              "fiscal_year": 2022,
+              "metric": "attributable_ni",
+              "value": 1449215000.0,
+              "docid": "134502",
+              "received": "2024-03-06",
+              "reference": "2023-12-31",
+              "period_end": "2022-12-31",
+              "perimeter": "con",
+              "account": "3.11.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2023.csv",
+              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            },
+            {
+              "fiscal_year": 2023,
+              "metric": "attributable_ni",
+              "value": 1367720000.0,
+              "docid": "145522",
+              "received": "2025-03-18",
+              "reference": "2024-12-31",
+              "period_end": "2023-12-31",
+              "perimeter": "con",
+              "account": "3.11.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            },
+            {
+              "fiscal_year": 2024,
+              "metric": "attributable_ni",
+              "value": 1693915000.0,
+              "docid": "145522",
+              "received": "2025-03-18",
+              "reference": "2024-12-31",
+              "period_end": "2024-12-31",
+              "perimeter": "con",
+              "account": "3.11.01",
+              "description": "Atribuído a Sócios da Empresa Controladora",
+              "source": "dfp_cia_aberta_DRE_con_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            }
+          ]
+        },
+        "earnings_reliability": {
+          "favorable": {
+            "positive_attributable_years": 5,
+            "audit_records": 5
+          },
+          "evidence": [
+            {
+              "docid": "145522",
+              "received": "2025-03-18",
+              "reference": "2024-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            },
+            {
+              "docid": "145522",
+              "received": "2025-03-18",
+              "reference": "2024-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            },
+            {
+              "docid": "145522",
+              "received": "2025-03-18",
+              "reference": "2024-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            },
+            {
+              "docid": "145522",
+              "received": "2025-03-18",
+              "reference": "2024-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            },
+            {
+              "docid": "145522",
+              "received": "2025-03-18",
+              "reference": "2024-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            }
+          ]
+        },
+        "financial_resilience": {
+          "favorable": {
+            "parent_equity_latest": 6939504000.0
+          },
+          "evidence": [
+            {
+              "docid": "145522",
+              "received": "2025-03-18",
+              "reference": "2024-12-31",
+              "period_end": "2024-12-31",
+              "perimeter": "ind",
+              "account": "2.03",
+              "description": "Patrimônio Líquido",
+              "source": "dfp_cia_aberta_BPP_ind_2024.csv",
+              "archive_sha256": "",
+              "url": ""
+            }
+          ]
+        },
+        "capital_allocation": {
+          "favorable": {
+            "historical_payout": [
+              0.7178221537999999,
+              0.814329417,
+              null,
+              null,
+              null
+            ],
+            "distributions": [
+              1606374000.0,
+              1789870000.0,
+              null,
+              null,
+              null
+            ]
+          },
+          "evidence": [
+            {
+              "docid": "126020",
+              "received": "2023-05-09",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
+              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=126020",
+              "fiscal_year": 2020,
+              "raw": {
+                "CNPJ_Companhia": "07.859.971/0001-30",
+                "Data_Referencia": "2022-01-01",
+                "Versao": "13",
+                "ID_Documento": "126020",
+                "Nome_Companhia": "TRANSMISSORA ALIANÇA DE ENERGIA ELÉTRICA S.A.",
+                "Data_Inicio_Exercicio_Social": "2020-01-01",
+                "Data_Fim_Exercicio_Social": "2020-12-31",
+                "Lucro_Liquido_Ajustado": "2237844000.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "37.55331980",
+                "Lucro_Liquido_Retido": "656553000.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "71.78221538",
+                "Dividendo_Distribuido_Total": "1606374000.00",
+                "Data_Aprovacao_Retencao": "2021-04-29"
+              }
+            },
+            {
+              "docid": "126020",
+              "received": "2023-05-09",
+              "reference": "",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
+              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
+              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=126020",
+              "fiscal_year": 2021,
+              "raw": {
+                "CNPJ_Companhia": "07.859.971/0001-30",
+                "Data_Referencia": "2022-01-01",
+                "Versao": "13",
+                "ID_Documento": "126020",
+                "Nome_Companhia": "TRANSMISSORA ALIANÇA DE ENERGIA ELÉTRICA S.A.",
+                "Data_Inicio_Exercicio_Social": "2021-01-01",
+                "Data_Fim_Exercicio_Social": "2021-12-31",
+                "Lucro_Liquido_Ajustado": "2197968000.00",
+                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "33.11585344",
+                "Lucro_Liquido_Retido": "423844000.00",
+                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "81.43294170",
+                "Dividendo_Distribuido_Total": "1789870000.00",
+                "Data_Aprovacao_Retencao": "2022-04-28"
+              }
+            }
+          ]
+        },
+        "governance": {
+          "favorable": {
+            "dated_shareholder_right_records": 26,
+            "dated_related_party_records": 337
+          },
+          "evidence": [
+            {
+              "docid": "145522",
+              "received": "2025-03-18",
+              "reference": "2024-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            },
+            {
+              "docid": "145522",
+              "received": "2025-03-18",
+              "reference": "2024-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            },
+            {
+              "docid": "145522",
+              "received": "2025-03-18",
+              "reference": "2024-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            },
+            {
+              "docid": "145522",
+              "received": "2025-03-18",
+              "reference": "2024-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            },
+            {
+              "docid": "145522",
+              "received": "2025-03-18",
+              "reference": "2024-12-31",
+              "period_end": "",
+              "perimeter": "",
+              "account": "",
+              "description": "",
+              "source": "dfp_cia_aberta_parecer_2024.csv",
+              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
