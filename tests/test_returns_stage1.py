@@ -73,7 +73,9 @@ def test_tables_include_ibov_and_do_not_mislabel_legacy_fragments():
         assert all(all(n in r for n in m.NAMES) for r in rows)
         assert all(r['R03 B2'] for r in rows[:2])
         assert all(r['R03 B2']=='' for r in rows[2:])
-        assert all(all(r[n] == "" for n in m.NAMES[1:-1]) for r in rows)
+        assert all(rows[0][n] for n in m.NAMES[1:3])
+        assert all(all(r[n] == "" for n in m.NAMES[1:3]) for r in rows[1:])
+        assert all(r['BH padrão'] for r in rows)
         assert all(r["IBOV"] for r in rows)
 
 

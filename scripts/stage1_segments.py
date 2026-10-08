@@ -79,23 +79,43 @@ def freeze(root,years):
 
 def run():
     cases=gzread(OUT/'cache/established_segments.json.gz');positions=[];rows=[]
+    from stage1_continuity import renew_b2, advance
+    diagnostic_positions=[];diagnostic_rows=[];reviews=[];holdings=None
     annual=list(csv.DictReader((ROOT/'research/returns_2014_2026_results/annual_returns_pct.csv').open()))
     screen=list(csv.DictReader((OUT/'screening.csv').open()))
     for y in sorted({r['year'] for r in cases}):
         unknown=[r for r in screen if int(r['year'])==y and r['strategy']=='R03' and r['status']=='INDETERMINATE']
         if unknown:raise ValueError(('Selection still indeterminate',y,unknown))
         group=[r for r in cases if r['year']==y];w=1/len(group)
+        targets={r['ticker']:w for r in group}
+        if holdings is None:holdings=targets.copy()
+        else:
+            statuses={r['ticker']:r['status'] for r in screen if int(r['year'])==y and r['strategy']=='R03'}
+            holdings,ledger=renew_b2(holdings,statuses,targets)
+            reviews.extend(dict(year=y,date=DATES[y],**r) for r in ledger)
+        nav=math.fsum(holdings.values());factors={}
         passed={r['ticker'] for r in screen if int(r['year'])==y and r['strategy']=='R03' and r['status']=='PASS'}
         assert {r['ticker'] for r in group}==passed
         for r in group:
             factor=gross_factor({p['date']:p['close'] for p in r['prices']},r['events'],r['start'],r['end'])
-            positions.append(dict(year=y,ticker=r['ticker'],weight=w,return_pct=100*(factor-1),factor=factor,
+            factors[r['ticker']]=factor
+            diagnostic_positions.append(dict(year=y,ticker=r['ticker'],weight=w,return_pct=100*(factor-1),factor=factor,
                 contribution_pp=100*w*(factor-1),events=len(r['events']),source='cache/established_segments.json.gz'))
+            actual=holdings[r['ticker']]/nav
+            positions.append(dict(year=y,ticker=r['ticker'],weight=actual,return_pct=100*(factor-1),factor=factor,
+                contribution_pp=100*actual*(factor-1),index_start=holdings[r['ticker']],index_end=holdings[r['ticker']]*factor,
+                events=len(r['events']),source='cache/established_segments.json.gz'))
         ret=math.fsum(r['contribution_pp'] for r in positions if r['year']==y)
         ibov=float(annual[y-2014]['IBOV'])
         rows.append(dict(year=y,portfolio='R03 B2',start=DATES[y],end=DATES[y+1],return_pct=ret,
             IBOV_pct=ibov,excess_pp=ret-ibov,selection='ESTABLISHED_IN_SCREENED_ON_UNIVERSE',
             return_status='GROSS_NOMINAL_B3_WITH_DIRECTED_CORRECTION'))
+        diag=math.fsum(r['contribution_pp'] for r in diagnostic_positions if r['year']==y)
+        diagnostic_rows.append(dict(year=y,portfolio='R03 ANNUAL_EQUAL_WEIGHT_DIAGNOSTIC',start=DATES[y],end=DATES[y+1],return_pct=diag,IBOV_pct=ibov,excess_pp=diag-ibov))
+        holdings=advance(holdings,factors)
+    dump('annual_selection_diagnostic_positions.csv',diagnostic_positions)
+    dump('annual_selection_diagnostic_pct.csv',diagnostic_rows)
+    dump('b2_reviews.csv',reviews)
     dump('established_segment_positions.csv',positions);dump('established_segments_pct.csv',rows)
     for r in rows:print(r)
 

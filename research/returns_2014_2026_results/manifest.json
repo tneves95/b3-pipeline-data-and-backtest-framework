@@ -15,12 +15,13 @@
     "2025-06-30",
     "2026-06-30"
   ],
-  "complete_requested_portfolios": 0,
+  "complete_requested_portfolios": 1,
+  "full_trajectories_are_qualified_reconstructions": true,
   "complete_benchmark_intervals": 12,
   "conditional_legacy_portfolio_intervals": 12,
-  "strict_annual_numeric_cells": 14,
-  "strict_annual_missing_portfolio_cells": 46,
-  "newly_computed_portfolio_intervals": 2,
+  "annual_numeric_cells": 28,
+  "annual_missing_portfolio_cells": 32,
+  "calculated_portfolio_intervals": 16,
   "selection_source": "research/returns_2014_2026_selection/established_selections.csv",
   "baseline_commit": "fc62733",
   "monetary_simulation": false,
@@ -39,11 +40,11 @@
   "outputs": [
     {
       "path": "annual_excess_pp.csv",
-      "sha256": "77a6ca907191d5f7f1c0e8d5dfcdc18922b642067ada381d673b0ced40fb9b65"
+      "sha256": "da8ee1f10c6488dbec9a879b99a829692bf895ed55bd8db56e38f77b8b4ffdbc"
     },
     {
       "path": "annual_returns_pct.csv",
-      "sha256": "aed168ce9f70b7b2caad43e582e068916a7b0a64f9fbf71225c26d943fb78900"
+      "sha256": "c3303b30416570a3fa28cb1c126a8202ac78f53d06a482ba0e4583da27c3ab0a"
     },
     {
       "path": "conditional_legacy_membership_changes.csv",
@@ -59,11 +60,11 @@
     },
     {
       "path": "consolidated_pct.csv",
-      "sha256": "729b677a481307860c94220c1f8bfe4f968112349a8b1b2eaf977a1978af9d16"
+      "sha256": "8492f2417f3af4d7b3c375cd24e3b91bd7fc618788be73e5686af1a0e081e0d9"
     },
     {
       "path": "cumulative_returns_pct.csv",
-      "sha256": "22d5bfc36871c8439ee88f427dc72e3c43967f9f66ed68adba229fa513e601e8"
+      "sha256": "7a8c38616599927be261727468ee3b8e7045f22d164e1e7c5b51ee16d0024e17"
     },
     {
       "path": "ibov_june_closes.csv",
@@ -71,7 +72,7 @@
     },
     {
       "path": "portfolio_status.csv",
-      "sha256": "b1292bfddce69c84ee8d1b2c246d26055a7048396c0f4f413d6ab7a1fcbc04ae"
+      "sha256": "0e635f0c891558b4ed106956ed69419d5b3a57e4e36edd08e740a9bfdc1606e2"
     }
   ]
 }

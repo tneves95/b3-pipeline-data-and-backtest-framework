@@ -1,6 +1,6 @@
 {
-  "status": "FIVE_ESTABLISHED_SELECTIONS_TWO_CALCULATED_INTERVALS_OTHER_PATHS_PENDING",
-  "resumed_from": "0a6a20c4ef1fe6f7c7ccc0fb7bc9697d6fe9d23f",
+  "status": "B2_CONTINUITY_CORRECTED_BH_TWELVE_INTERVALS_B00S_FIRST_INTERVAL_EXPLORATORY",
+  "resumed_from": "1ceab3f9fdc476e32b134c6271597fc8d98f99d4",
   "sqlite_connection": "mode=ro; PRAGMA query_only=ON",
   "sqlite_sha256": "0ab5d487ec8e6efe7c995a7bec5f0ae4e6602fc734dfbd4bc96e7cc4c82c3211",
   "sqlite_unchanged": true,
@@ -25,18 +25,28 @@
   "calculated_intervals": [
     {
       "strategy": "R03 B2",
-      "start": "2014-06-30",
-      "end": "2015-06-30"
+      "count": 2
     },
     {
-      "strategy": "R03 B2",
-      "start": "2015-06-30",
-      "end": "2016-06-30"
+      "strategy": "BH padrão",
+      "count": 12
+    },
+    {
+      "strategy": "B00S B2",
+      "count": 1
+    },
+    {
+      "strategy": "B00S BH+entradas",
+      "count": 1
     }
   ],
-  "original_documents_added": 17,
+  "qualifications": [
+    "BH class valuation conventions",
+    "B00S transcribed and inferred rights evidence"
+  ],
+  "prior_original_documents_added": 17,
   "parsed_original_statement_facts": 1306,
-  "raw_cotahist_quotes_verified": 54,
+  "prior_raw_cotahist_quotes_verified": 54,
   "source_integrity": "SHA256 archived extracts, frozen caches, original response hashes and local source archives",
   "exclusions_are_not_zero_returns": true,
   "monetary_simulation": false,
@@ -44,9 +54,129 @@
   "external_contributions": false,
   "files": [
     {
+      "path": "annual_selection_diagnostic_pct.csv",
+      "sha256": "2a123a44ed17a73f7dabc652be1b8010d573de7ad766e8132ad46a04315e4063",
+      "bytes": 292
+    },
+    {
+      "path": "annual_selection_diagnostic_positions.csv",
+      "sha256": "9dbac7bf61fda852274b583c5f8d36741386034a8776291074dc152c978dde79",
+      "bytes": 1933
+    },
+    {
+      "path": "b00s_initial_capital_events_fre.json",
+      "sha256": "98c9ac906203df9597d9f3f67162a45439c3c38a5547549db9d3e96e6dc519dd",
+      "bytes": 210064
+    },
+    {
+      "path": "b00s_initial_contributions.csv",
+      "sha256": "a8a6d30ab946dfd845b53be9a05fa3e9be8f1ac6fc0e63ef5e40d6cba292e8c0",
+      "bytes": 1192
+    },
+    {
+      "path": "b00s_initial_event_ledger.csv",
+      "sha256": "c9ab4407bb6da0b6abd2498132919648179dcfa3d8db5daeae12a69e70842071",
+      "bytes": 10892
+    },
+    {
+      "path": "b00s_initial_events.csv",
+      "sha256": "277c9b7e7632f8af03cf86bd20f9743cea74289dec01fbbfdec7b1bd8a5b4fb6",
+      "bytes": 14449
+    },
+    {
+      "path": "b00s_initial_evidence.json",
+      "sha256": "98f6f6d7d801a5124d6d8116651e1337a4fea94c6291b91b16ba1252e5f61422",
+      "bytes": 3669
+    },
+    {
+      "path": "b00s_initial_pct.csv",
+      "sha256": "5b592379aac5a52bff26300959156f5703f746643d3ff3f21c3a34bf4be95df0",
+      "bytes": 454
+    },
+    {
+      "path": "b00s_initial_positions.csv",
+      "sha256": "9de42f7cc213ae7354dd68b1822488efc5b13d6763bb653d678450800e82e622",
+      "bytes": 3335
+    },
+    {
+      "path": "b00s_initial_sensitivity.csv",
+      "sha256": "379a90168ce03afd0010afa2d7115ba0e0fdd19032fc2c61eebaadd9707ea939",
+      "bytes": 152
+    },
+    {
+      "path": "b2_reviews.csv",
+      "sha256": "5ad4ff6cff081eaf1a925dc31233fe6617a7abfb110be5a5d10b05dc0d7d41a3",
+      "bytes": 1036
+    },
+    {
       "path": "bcb_ptax.json",
       "sha256": "124ed5ddd48d8165bd180c6191ce2d15c6f551314c6a571b1be35f85e9c05069",
       "bytes": 126708
+    },
+    {
+      "path": "bh_annual_pct.csv",
+      "sha256": "5f86ce4e682851b520b2916504fb5986c155424716d65c4e4f4a7049cd66bcd8",
+      "bytes": 2358
+    },
+    {
+      "path": "bh_event_ledger.csv",
+      "sha256": "c991a07662a018dc5cb67014bdb111857fa4d0e75d74a5711a4c6bb3d15b3665",
+      "bytes": 68302
+    },
+    {
+      "path": "bh_evidence.json",
+      "sha256": "189e63f5d86af8a6175059e18a94fde17b05fe51155a69761e1ba7854823ca83",
+      "bytes": 5524
+    },
+    {
+      "path": "bh_issuer_annual_pct.csv",
+      "sha256": "ba0115a4bbd16b8fda4558ca95c67340bb2bcc068efc359115423324f1d01fd0",
+      "bytes": 8818
+    },
+    {
+      "path": "bh_june_positions.csv",
+      "sha256": "5e611805a6ff7c2e4488f9cc2923fc34a254eff7425dbc798613675f429d5cfa",
+      "bytes": 10824
+    },
+    {
+      "path": "bh_missing_class_quotes_pit.json",
+      "sha256": "ac25f2b99b3a1ae423f23365c383afff90f86625cd87511dfebb977420e966a3",
+      "bytes": 3805
+    },
+    {
+      "path": "bh_owned_events.csv",
+      "sha256": "1d9bad6cca0c45ff902432cba2596a4635109189921d013ab86effb0148e290c",
+      "bytes": 121417
+    },
+    {
+      "path": "bh_ranking_2014.csv",
+      "sha256": "9252ac436ef3d9821c4179efa9eda1b80d13b48ca2373e709c5fa53956382fc3",
+      "bytes": 35497
+    },
+    {
+      "path": "bh_selection_2014.csv",
+      "sha256": "ac04618af780acf4885ee7a1e401d03b305e81d4d91e8bb92b3390b4295df63b",
+      "bytes": 3452
+    },
+    {
+      "path": "cache/b00s_initial_events.json.gz",
+      "sha256": "53b7b7ab3a174fd263a8a87d96201a180f70864f25d50a5e11e9facd268530f7",
+      "bytes": 3193
+    },
+    {
+      "path": "cache/b00s_initial_quotes_2014.json.gz",
+      "sha256": "29bd0281f20f7d16b7f6bb4585430c7b16c2e2aca6993da0b2b3aac7800140c3",
+      "bytes": 134989
+    },
+    {
+      "path": "cache/b00s_initial_quotes_2015.json.gz",
+      "sha256": "e227b507193f48dc0f3ff1127b607c51340db694669cf1e818b5bb731328eb7d",
+      "bytes": 127508
+    },
+    {
+      "path": "cache/bh_owned_events.json.gz",
+      "sha256": "1df6133c1072cafca16372f53a4b8e7d43f311d00941741695b8c92e0271283c",
+      "bytes": 15858
     },
     {
       "path": "cache/dfp_2010.json.gz",
@@ -154,6 +284,71 @@
       "bytes": 229
     },
     {
+      "path": "cache/owned_quotes_2014.json.gz",
+      "sha256": "6d0164bea1982016cfeb1edd72b6b2f46774cf33d67b39eecbe216c2f6c5b7c9",
+      "bytes": 53544
+    },
+    {
+      "path": "cache/owned_quotes_2015.json.gz",
+      "sha256": "09b75d3ed05e55d34dc657ab28cb476e6ab7a55818c802cb91365e4a5903a424",
+      "bytes": 102213
+    },
+    {
+      "path": "cache/owned_quotes_2016.json.gz",
+      "sha256": "d41339205d55a72ae2913cff74f822e2e362f6076dcb3ca76ec5a224e1280566",
+      "bytes": 104696
+    },
+    {
+      "path": "cache/owned_quotes_2017.json.gz",
+      "sha256": "c55dc249dab66419b1e8ab3d768d1819029f5bf7788c5168871f4769780503cb",
+      "bytes": 103869
+    },
+    {
+      "path": "cache/owned_quotes_2018.json.gz",
+      "sha256": "603ccd38e0851688d9a9c48a4f118d3d624eabecd2da19b72b1239a6f683c60b",
+      "bytes": 102027
+    },
+    {
+      "path": "cache/owned_quotes_2019.json.gz",
+      "sha256": "e3f8d5574a759ed4b5d5639201d202360f545f5a6e674f16d2d583012391f9d7",
+      "bytes": 102848
+    },
+    {
+      "path": "cache/owned_quotes_2020.json.gz",
+      "sha256": "207607b5bfe96cc851dcd0822344197fa7413ac43e171f5cbe4763049a8b08ce",
+      "bytes": 101601
+    },
+    {
+      "path": "cache/owned_quotes_2021.json.gz",
+      "sha256": "f8b550a4edb858493d0524c7f5e7b09259cd67cf6e4db80dcb81797886b68cda",
+      "bytes": 104110
+    },
+    {
+      "path": "cache/owned_quotes_2022.json.gz",
+      "sha256": "ebc23401934b02e4ee4e76d51f2fdd1a4445bb86857d9d543df36bcb7eab3037",
+      "bytes": 116181
+    },
+    {
+      "path": "cache/owned_quotes_2023.json.gz",
+      "sha256": "01fdf4e27ba97d2dd39f338cc936d4bc80048e4eeab067e41308a2dab5f6de26",
+      "bytes": 116111
+    },
+    {
+      "path": "cache/owned_quotes_2024.json.gz",
+      "sha256": "83a1f9add76daeaa2983c61311a49fb2ca62248a27e7b6bc398b06adaf0a2a69",
+      "bytes": 117401
+    },
+    {
+      "path": "cache/owned_quotes_2025.json.gz",
+      "sha256": "f19606963f4a5ffeaa3df5cd4964f3adec3a1d852f21365781d423a090bf846f",
+      "bytes": 117101
+    },
+    {
+      "path": "cache/owned_quotes_2026.json.gz",
+      "sha256": "f93d640fb2633e11b03131f1e81e5d20feacf264096744d5fba905dd7bba1b77",
+      "bytes": 58756
+    },
+    {
       "path": "cache/registry_capital_2010.json.gz",
       "sha256": "bb0a310cd5e97c366dae174547a2f6a03302a126e4efb84aeecf706290b8fb50",
       "bytes": 51791
@@ -245,13 +440,13 @@
     },
     {
       "path": "established_segment_positions.csv",
-      "sha256": "9dbac7bf61fda852274b583c5f8d36741386034a8776291074dc152c978dde79",
-      "bytes": 1933
+      "sha256": "6207e4da7358b89c183ee222a3001005191d6d1aa59d97aa18f1710db348c4af",
+      "bytes": 2564
     },
     {
       "path": "established_segments_pct.csv",
-      "sha256": "c5da457b6cf1ac5b87e75d37f670385a376fb7f2685c11811946ef24624c777d",
-      "bytes": 416
+      "sha256": "dccd5d04bbb804f062a73d0e00b9f812d8740d7fbaf53e5ecea5a60d74e73552",
+      "bytes": 417
     },
     {
       "path": "established_selection_evidence.json.gz",
@@ -272,6 +467,16 @@
       "path": "market_cap_2014.csv",
       "sha256": "cf2af575a851e76cdc2ef6b45b318ac9a812470bff3f6d2094ae468850a44414",
       "bytes": 72893
+    },
+    {
+      "path": "originals/bradesco_remuneracao.html.gz",
+      "sha256": "794de1259bb676136e70995bafe20c1f9316caf940ebbc6f72157de0a6d3cc54",
+      "bytes": 23595
+    },
+    {
+      "path": "originals/bradesco_remuneracao.json",
+      "sha256": "f56fa8e30b9c7cc797beb7c65c86b94e9cf51507660fe2dfecc84423c27c5e7c",
+      "bytes": 205
     },
     {
       "path": "originals/cemig_dividends.pdf.gz",
@@ -452,6 +657,91 @@
       "path": "originals/dfp_modern_123589.zip",
       "sha256": "a234a6ef2d5fcdccb3ec54dd206e4fc08be2fe3af8ef5bed9c8a7bfb525032d0",
       "bytes": 10111335
+    },
+    {
+      "path": "originals/engie_bonus_2018_doe.pdf.gz",
+      "sha256": "cf1d9c39b9520a84a22caceb84df633d264e116fc6ac1e027db14e2c26b4fe2a",
+      "bytes": 197525
+    },
+    {
+      "path": "originals/engie_bonus_2018_doe_source.json",
+      "sha256": "773e1ce5371f51aef5323b18f0f50f3d0336e17724a7e05b8fdb501a279d4443",
+      "bytes": 292
+    },
+    {
+      "path": "originals/hypera_2013_links.json",
+      "sha256": "8369dfeca3ac40c193d39d3723dcf8d1e161369f9bb05baf22d02c3a1b967a53",
+      "bytes": 3196
+    },
+    {
+      "path": "originals/hypera_2013_release.pdf.gz",
+      "sha256": "b3cef6d7a11856889b7325f90a3ab97687e3f04e9e52362e6ddb7248fda6754d",
+      "bytes": 541764
+    },
+    {
+      "path": "originals/hypera_2013_release_source.json",
+      "sha256": "52d0ca5b25f932cb4fbabeb2721caa429c08e46bf67731dd969a81b4c57ddd4a",
+      "bytes": 215
+    },
+    {
+      "path": "originals/hypera_resultados.html.gz",
+      "sha256": "9978a58f482b0f0622138735c591cdbcea781264c01a8ed62b40a4a97811b6c8",
+      "bytes": 15676
+    },
+    {
+      "path": "originals/hypera_resultados.json",
+      "sha256": "9e0e577303c7543fb64ac56da62a6cbdaf0c187e76f1ad4911f09f51e7bf1710",
+      "bytes": 197
+    },
+    {
+      "path": "originals/owned_proventos_44287.json",
+      "sha256": "69cca43538ee11ce7ac30a9ab62301f52cb26bf521f33b7ccbdf654b2de30e33",
+      "bytes": 310
+    },
+    {
+      "path": "originals/owned_proventos_44287.zip",
+      "sha256": "738c189cdbd964ea051749a9d203b638e1a0db517516a2020928a8c1d4a2afc7",
+      "bytes": 2792
+    },
+    {
+      "path": "originals/owned_proventos_50033.json",
+      "sha256": "6d22ea2ee43b0558531cc8cc6897813e05159a969acc6b5fda8ed5600fcb9ea7",
+      "bytes": 310
+    },
+    {
+      "path": "originals/owned_proventos_50033.zip",
+      "sha256": "948a1a840f39396137b304ba45e9522a4af2c6d740a333929407c58b14361f38",
+      "bytes": 2516
+    },
+    {
+      "path": "originals/radl_bonus_2023.pdf.gz",
+      "sha256": "00a98a0b30bf1615103d8ab6eec4cbe34b3fcf5d7f76b8b688652daf185346f9",
+      "bytes": 84937
+    },
+    {
+      "path": "originals/radl_bonus_2023_source.json",
+      "sha256": "0b3fa6908baa5d324114542c0701fe19d756d79184c38d1de195928a4fc34813",
+      "bytes": 227
+    },
+    {
+      "path": "originals/tim_2015_ago.pdf.gz",
+      "sha256": "90a14b1f5fefa95f5f73ef8731ba11b5bdaa6bdf4eb41576ed39c9793953d88b",
+      "bytes": 177326
+    },
+    {
+      "path": "originals/tim_2015_ago_source.json",
+      "sha256": "0306ba22a38e416d9ce3ee5da7d311ffd4d4843aa8554091396d78b842f807e1",
+      "bytes": 218
+    },
+    {
+      "path": "originals/xp_gross_ptax.json",
+      "sha256": "0714ade653d1a1ed71996377af0433ff117bdc22997c327f19635d229149d12a",
+      "bytes": 2542
+    },
+    {
+      "path": "owned_capital_events_fre.json",
+      "sha256": "aa0c9b2e05f3b27f5be2372f91fbb4dfc49dc13e4474dcfdfa6a0ca92b7145a6",
+      "bytes": 271132
     },
     {
       "path": "recovered_facts.json",

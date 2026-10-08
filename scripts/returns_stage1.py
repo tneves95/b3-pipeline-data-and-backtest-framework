@@ -116,13 +116,23 @@ def main():
         assert r["selection"] == "ESTABLISHED_IN_SCREENED_ON_UNIVERSE"
         assert r["return_status"] == "GROSS_NOMINAL_B3_WITH_DIRECTED_CORRECTION"
         series[r["portfolio"]][i] = float(r["return_pct"]) / 100
+    calculation_status = {(r['portfolio'], int(r['year'])):r['return_status'] for r in established}
+    for filename, expected in [
+        ('bh_annual_pct.csv','GROSS_CONTINUOUS_OWNED_RIGHTS'),
+        ('b00s_initial_pct.csv','EXPLORATORY_DIRECTED_EVENTS_WITH_DISCLOSED_RIGHT_ASSUMPTIONS')]:
+        for r in read(ROOT/'research/returns_2014_2026_selection'/filename):
+            i=int(r['year'])-2014
+            assert r['start']==closes[i]['date'] and r['end']==closes[i+1]['date']
+            assert r['return_status']==expected and series[r['portfolio']][i] is None
+            series[r['portfolio']][i]=float(r['return_pct'])/100
+            calculation_status[r['portfolio'],int(r['year'])]=expected
     cumulative = {name: chain(values) for name, values in series.items()}
     annual, accumulated, excess, statuses = [], [], [], []
     reasons = {
         "R03 B2": "Selecoes 2014–2015 calculadas; candidatos PIT indeterminados desde 2016; legado posterior preservado como condicional",
-        "B00S B2": "Selecoes 2014–2016 estabelecidas; retornos dependem de eventos historicos ausentes e continuidades; candidatos PIT posteriores pendentes",
-        "B00S BH+entradas": "Selecao inicial 2014 estabelecida; uniao posterior e eventos/sucessoras pendentes",
-        "BH padrão": "Ranking completo de capitalizacao por companhia/classe e setor em 2014 nao estabelecido",
+        "B00S B2": "2014–2015 exploratorio calculado; demais retornos exigem continuidade B2 e eventos/sucessoras",
+        "B00S BH+entradas": "2014–2015 exploratorio calculado; uniao posterior e eventos/sucessoras pendentes",
+        "BH padrão": "12 intervalos calculados com convencoes explicitas de classes no ranking e reinvestimento bruto",
     }
     for i in range(12):
         base = dict(period=f"{2014+i}–{2015+i}", start=closes[i]["date"], end=closes[i+1]["date"])
@@ -131,7 +141,9 @@ def main():
         ex = base | {"IBOV_pct": benchmark[i]*100}
         for n in NAMES[:-1]:
             ex[n+"_minus_IBOV_pp"] = None if series[n][i] is None else 100*(series[n][i]-benchmark[i])
-            statuses.append(base | dict(portfolio=n, status="CALCULATED_GROSS_INDEX" if series[n][i] is not None else "PENDING_SELECTION_OR_EVENTS", reason="Selecao PIT estabelecida; fechamento nominal e reinvestimento bruto data-ex" if series[n][i] is not None else reasons[n]))
+            statuses.append(base | dict(portfolio=n, status=calculation_status.get((n,2014+i),'PENDING_SELECTION_OR_EVENTS'),
+                reason=("Ranking 2014 com convencoes de classes explicitadas; eventos e direitos continuos" if n=='BH padrão' else
+                        "Exploratorio: selecao estabelecida; fontes dirigidas e ressalvas documentadas") if series[n][i] is not None else reasons[n]))
         excess.append(ex)
     write(OUTPUT / "annual_returns_pct.csv", annual)
     write(OUTPUT / "cumulative_returns_pct.csv", accumulated)
@@ -182,9 +194,13 @@ def main():
     report = render(annual, accumulated, stats, segments, NAMES, pct, table)
     (ROOT / "docs/checkpoint_returns_2014_2026_stage1.md").write_text("\n".join(report), encoding="utf-8")
     manifest = dict(status="PARTIAL_NOT_FULL_FOUR_PORTFOLIO_STUDY", dates=[r['date'] for r in closes],
-        complete_requested_portfolios=0, complete_benchmark_intervals=12, conditional_legacy_portfolio_intervals=12,
-        strict_annual_numeric_cells=14, strict_annual_missing_portfolio_cells=46,
-        newly_computed_portfolio_intervals=2, selection_source="research/returns_2014_2026_selection/established_selections.csv",
+        complete_requested_portfolios=sum(all(r is not None for r in series[n]) for n in NAMES[:-1]),
+        full_trajectories_are_qualified_reconstructions=True,
+        complete_benchmark_intervals=12, conditional_legacy_portfolio_intervals=12,
+        annual_numeric_cells=sum(r is not None for rs in series.values() for r in rs),
+        annual_missing_portfolio_cells=sum(r is None for n in NAMES[:-1] for r in series[n]),
+        calculated_portfolio_intervals=sum(r is not None for n in NAMES[:-1] for r in series[n]),
+        selection_source="research/returns_2014_2026_selection/established_selections.csv",
         baseline_commit="fc62733", monetary_simulation=False, taxes=False, external_contributions=False,
         inputs=[dict(path=str(p.relative_to(ROOT)),sha256=hashlib.sha256(p.read_bytes()).hexdigest())
                 for p in [graham_path,barsi_path]],
