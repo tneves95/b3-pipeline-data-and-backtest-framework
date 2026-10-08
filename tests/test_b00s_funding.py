@@ -63,3 +63,8 @@ def test_duplicate_entry_class_and_nonpass_cannot_enter():
     m=meta(old='Energia',new='Bancos',newpn='Bancos');m['newpn']['cnpj']='new'
     with pytest.raises(ValueError,match='Two classes'):reference_entries({'old':1},{'new':'PASS','newpn':'PASS'},['new','newpn'],m)
     with pytest.raises(ValueError,match='base PASS'):reference_entries({'old':1},{},['new'],m)
+
+def test_fail_cannot_reenter_via_another_ticker_of_same_lineage():
+    m=meta(old='Bancos',new='Bancos');m['new']['cnpj']='old'
+    with pytest.raises(ValueError,match='Conflicting FAIL and PASS'):
+        reference_entries({'old':1},{'old':'FAIL','new':'PASS'},['new'],m)

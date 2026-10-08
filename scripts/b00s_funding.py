@@ -13,6 +13,7 @@ def reference_entries(holdings,status,qualified,metadata):
     """
     survivors={t for t in holdings if status.get(t)!='FAIL'}
     retained={metadata[t]['cnpj'] for t in survivors}
+    failed_lineages={metadata[t]['cnpj'] for t in holdings if status.get(t)=='FAIL'}
     occupied={s:set() for s in SECTORS}
     for t in survivors|set(qualified):
         m=metadata[t]
@@ -22,6 +23,7 @@ def reference_entries(holdings,status,qualified,metadata):
     for t in sorted(qualified):
         m=metadata[t]
         if m['cnpj'] in retained:continue
+        if m['cnpj'] in failed_lineages:raise ValueError('Conflicting FAIL and PASS in the same economic lineage')
         if t in holdings:raise ValueError('A FAIL holding cannot also be qualified for entry')
         if status.get(t)!='PASS':raise ValueError('Only base PASS may enter')
         if m['cnpj'] in seen:raise ValueError('Two classes cannot create two entry slots')
