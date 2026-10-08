@@ -1,0 +1,303 @@
+{
+  "reviewer": "Independent adversarial reviewer /root/adversarial_2014",
+  "base_commit": "5d50cc5",
+  "coordinator_comment": "6071009589 (proposal transmitted verbatim in delegated task)",
+  "cutoff": "2015-06-30",
+  "scope": "Deterministic review of VVAL/VQ renewal B2 before any post-June2015 portfolio return is read. No company2015 approval yet. Synthetic units only, not portfolio outcomes.",
+  "approved_2014_review_sha256": "e28deda1a9288e2dc1042feebb5e2b03edde685ee0dfc0d3fedcd4d5f87e7cc0",
+  "b2": {
+    "verdict": "NO_DETERMINISTIC_OBJECTION_WITH_EXPLICIT_EDGE_RULES",
+    "frozen_invariants": [
+      "V0 and V10 use their accepted algorithm unchanged.",
+      "Initial2014 formation, its weights and accepted first-year results remain unchanged.",
+      "VVAL thresholds15/25 and reinvestment requirements unchanged; VQ remains six noncompensatory documentary dimensions.",
+      "Only B00S-base FAIL or proven corporate action authorizes removal; unknown valuation/quality or a higher P/L does not authorize sale."
+    ],
+    "definition": "At each post2014 renewal, N_s is the count of the union of qualified candidate issuer/lineages and nonFAIL incumbent issuer/lineages in sector s. Each genuinely new qualified issuer requests0.20/N_s of pre-trade NAV. Count legal classes and inherited rights/successors once, using only effective PIT corporate events. Empty sectors supply no request and are not renormalized.",
+    "equations": {
+      "nav": "V=sum(values of all existing positions/rights)",
+      "forced_exits": "E=sum(values with evidenced base FAIL)",
+      "survivors": "S=V-E",
+      "request": "q_i=0.20/N_sector(i); D=V*sum(q_i) for new issuers only",
+      "new_allocation_if_entries": "A=max(E,D); buy_i=A*q_i/sum(q)",
+      "survivor_if_entries": "value_after=value_before*(1-(A-E)/S), when S>0",
+      "no_entries_with_exits": "Preserve existing B2 compulsory redistribution: value_after=value_before*V/S. If S=0, explicit unresolved/no destination error; do not invent a cash return.",
+      "no_entries_no_exits": "Preserve all values and shares."
+    },
+    "proof": "Each sector contributes at most0.20 to new requests because new_count<=N_sector; hence D<=V. If a survivor exists and every survivor has a valid BESST lineage/sector, its sector contributes strictly less than0.20, therefore D<V. With0<=E<=V, A=max(E,D)<=V; survivor values remain nonnegative and strictly positive whenever survivors exist. Their sum is S-(A-E)=V-A; new purchases sum A, preserving NAV. Relative weights of survivors are unchanged. Duplicate economic representations cannot increase N or create an entry.",
+    "material_implementation_conditions": [
+      "Existing stage1_continuity.renew_b2 requires targets to sum to1. Do not feed partial requests and renormalize them to satisfy this validation. Introduce an isolated VVAL/VQ post2014 branch or explicit partial-target mode while preserving accepted controls.",
+      "20%/N is the initial request, not a final sector cap. Example: FAIL exits80% and a single new request10% allocate80% to that newcomer. This follows the supplied excess-exit policy, not empty-sector target redistribution; show request and executed allocation separately.",
+      "Resolve PASS/FAIL/INDETERMINATE by effective economic lineage before denominator and entry detection. A FAIL ticker and PASS alternate class of the same issuer must not silently cause sell-and-rebuy; conflicting base facts require explicit resolution.",
+      "Every positive inherited right contributes to NAV and proportional financing; holdings in the same issuer lineage occupy one denominator slot. Economic succession is determined by accepted PIT event identity, not future ticker lookup or the number of instruments.",
+      "The case of exits without entrants retains accepted B2 proportional redistribution to survivors. With all holdings FAIL and no eligible destination, halt with a precise unresolved state. Keeping FAIL positions or creating a theoretical cash series would change policy.",
+      "For synthetic verification preserve portfolio share counts of unaffected holdings when no trades occur, ensure no positive nonFAIL position is liquidated by funding, and separately check executed return attribution when replay is authorized."
+    ],
+    "synthetic_test_method": "Independent arithmetic model, not imported production allocation code. The expected portfolios below were specified explicitly and checked for NAV and identity consistency. These tests validate the rule; implementation tests remain the parent task.",
+    "synthetic_tests": [
+      {
+        "name": "single_new_same_sector",
+        "holdings_before": {
+          "B1": 100
+        },
+        "base_status": {},
+        "qualified_candidates": [
+          "B2"
+        ],
+        "nav": 100,
+        "sector_lineage_counts": {
+          "banks": 2
+        },
+        "requested_nav_fractions": {
+          "B2": 0.1
+        },
+        "released": 0,
+        "after": {
+          "B1": 90.0,
+          "B2": 10.0
+        },
+        "result": "PASS"
+      },
+      {
+        "name": "empty_sectors_not_normalized",
+        "holdings_before": {
+          "B1": 50,
+          "E1": 50
+        },
+        "base_status": {},
+        "qualified_candidates": [
+          "B2"
+        ],
+        "nav": 100,
+        "sector_lineage_counts": {
+          "banks": 2,
+          "energy": 1
+        },
+        "requested_nav_fractions": {
+          "B2": 0.1
+        },
+        "released": 0,
+        "after": {
+          "B1": 45.0,
+          "E1": 45.0,
+          "B2": 10.0
+        },
+        "result": "PASS"
+      },
+      {
+        "name": "several_new",
+        "holdings_before": {
+          "B1": 60,
+          "E1": 40
+        },
+        "base_status": {},
+        "qualified_candidates": [
+          "B2",
+          "B3",
+          "E2",
+          "S1"
+        ],
+        "nav": 100,
+        "sector_lineage_counts": {
+          "banks": 3,
+          "energy": 2,
+          "sanitation": 1
+        },
+        "requested_nav_fractions": {
+          "B2": 0.06666666666666667,
+          "B3": 0.06666666666666667,
+          "E2": 0.1,
+          "S1": 0.2
+        },
+        "released": 0,
+        "after": {
+          "B1": 34.0,
+          "E1": 22.666666666666664,
+          "B2": 6.666666666666666,
+          "B3": 6.666666666666666,
+          "E2": 10.000000000000002,
+          "S1": 20.000000000000004
+        },
+        "result": "PASS"
+      },
+      {
+        "name": "fail_proceeds_exceed_requests",
+        "holdings_before": {
+          "B1": 20,
+          "E1": 80
+        },
+        "base_status": {
+          "E1": "FAIL"
+        },
+        "qualified_candidates": [
+          "B2"
+        ],
+        "nav": 100,
+        "sector_lineage_counts": {
+          "banks": 2
+        },
+        "requested_nav_fractions": {
+          "B2": 0.1
+        },
+        "released": 80,
+        "after": {
+          "B1": 20,
+          "B2": 80.0
+        },
+        "result": "PASS"
+      },
+      {
+        "name": "exits_without_new",
+        "holdings_before": {
+          "B1": 60,
+          "E1": 40
+        },
+        "base_status": {
+          "E1": "FAIL"
+        },
+        "qualified_candidates": [],
+        "nav": 100,
+        "sector_lineage_counts": {
+          "banks": 1
+        },
+        "requested_nav_fractions": {},
+        "released": 40,
+        "after": {
+          "B1": 100.0
+        },
+        "result": "PASS"
+      },
+      {
+        "name": "right_does_not_create_second_issuer",
+        "holdings_before": {
+          "B1": 60,
+          "B1R": 10,
+          "E1": 30
+        },
+        "base_status": {},
+        "qualified_candidates": [
+          "B2"
+        ],
+        "nav": 100,
+        "sector_lineage_counts": {
+          "banks": 2,
+          "energy": 1
+        },
+        "requested_nav_fractions": {
+          "B2": 0.1
+        },
+        "released": 0,
+        "after": {
+          "B1": 54.0,
+          "B1R": 9.0,
+          "E1": 27.0,
+          "B2": 10.0
+        },
+        "result": "PASS"
+      },
+      {
+        "name": "successor_not_a_new_purchase",
+        "holdings_before": {
+          "B1": 70,
+          "E1": 30
+        },
+        "base_status": {},
+        "qualified_candidates": [
+          "B1NEW"
+        ],
+        "nav": 100,
+        "sector_lineage_counts": {
+          "banks": 1,
+          "energy": 1
+        },
+        "requested_nav_fractions": {},
+        "released": 0,
+        "after": {
+          "B1": 70,
+          "E1": 30
+        },
+        "result": "PASS"
+      },
+      {
+        "name": "indeterminate_incumbent_counts",
+        "holdings_before": {
+          "B1": 100
+        },
+        "base_status": {
+          "B1": "INDETERMINATE"
+        },
+        "qualified_candidates": [
+          "B2"
+        ],
+        "nav": 100,
+        "sector_lineage_counts": {
+          "banks": 2
+        },
+        "requested_nav_fractions": {
+          "B2": 0.1
+        },
+        "released": 0,
+        "after": {
+          "B1": 90.0,
+          "B2": 10.0
+        },
+        "result": "PASS"
+      },
+      {
+        "name": "all_fail_with_new_destination",
+        "holdings_before": {
+          "E1": 100
+        },
+        "base_status": {
+          "E1": "FAIL"
+        },
+        "qualified_candidates": [
+          "B2"
+        ],
+        "nav": 100,
+        "sector_lineage_counts": {
+          "banks": 1
+        },
+        "requested_nav_fractions": {
+          "B2": 0.2
+        },
+        "released": 100,
+        "after": {
+          "B2": 100.0
+        },
+        "result": "PASS"
+      },
+      {
+        "name": "no_trades_preserves_drift",
+        "holdings_before": {
+          "B1": 77,
+          "E1": 23
+        },
+        "base_status": {},
+        "qualified_candidates": [],
+        "nav": 100,
+        "sector_lineage_counts": {
+          "banks": 1,
+          "energy": 1
+        },
+        "requested_nav_fractions": {},
+        "released": 0,
+        "after": {
+          "B1": 77,
+          "E1": 23
+        },
+        "result": "PASS"
+      },
+      {
+        "name": "all_fail_without_destination",
+        "result": "PASS_EXPECTED_ERROR",
+        "error": "ALL_FAIL_NO_DESTINATION"
+      }
+    ]
+  },
+  "company_reviews": [],
+  "limitations": [
+    "No2015 company admission has yet been reviewed; awaiting primary DFP/ITR identifiers.",
+    "No post-June2015 portfolio return inspected; numerical examples are invented deterministic cases."
+  ]
+}
