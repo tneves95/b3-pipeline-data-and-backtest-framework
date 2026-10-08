@@ -243,11 +243,38 @@ def reconcile(rows, annual):
             result.extend(group+[r])
     return result
 
+def linked_attribution(holdings, cumulative):
+    """Link annual sleeves to initial NAV; never add annual percentages raw."""
+    result=[]
+    with localcontext() as ctx:
+        ctx.prec=50
+        for variant in sorted({r['variant'] for r in holdings}):
+            totals=defaultdict(Decimal); labels={}; tickers=defaultdict(set)
+            for r in holdings:
+                if r['variant']!=variant:continue
+                year=int(r['year'])
+                level=Decimal(1) if year==2014 else Decimal(1)+Decimal(str(cumulative[year-2015][variant]))/100
+                key=r['cnpj'] or 'NUMERICAL_RESIDUAL'
+                totals[key]+=Decimal(str(r['contribution_pp']))*level
+                labels[key]=(r['company'],r['sector'])
+                if r['ticker']:tickers[key].add(r['ticker'])
+            # The immutable control and replay can differ below machine precision.
+            residual=Decimal(str(cumulative[-1][variant]))-sum(totals.values(),Decimal(0))
+            if abs(residual)>Decimal('1e-8'):raise ValueError(('Linked attribution mismatch',variant,residual))
+            totals['NUMERICAL_RESIDUAL']+=residual
+            labels['NUMERICAL_RESIDUAL']=('Numerical reconciliation','')
+            for key,value in sorted(totals.items()):
+                company,sector=labels[key]
+                result.append(dict(variant=variant,cnpj=key,company=company,sector=sector,
+                    tickers=';'.join(sorted(tickers[key])),linked_contribution_pp=str(value),
+                    method='Annual sleeve contribution times portfolio level at annual opening; yearly origin, not lifetime funding lineage'))
+    return result
+
 def workbook():
     import xlsxwriter
     b=xlsxwriter.Workbook(RESULT/'b00s_four_variants.xlsx',{'strings_to_urls':False,'strings_to_formulas':False})
     b.set_properties({'title':'Experimento B00S V2','created':datetime(2026,10,8)})
-    for filename in ['consolidated_pct','annual_returns_pct','cumulative_returns_pct','risk_concentration','turnover_by_year','holdings_by_june','selection_decisions','coverage_by_year_sector']:
+    for filename in ['consolidated_pct','annual_returns_pct','cumulative_returns_pct','portfolio_status','risk_concentration','turnover_by_year','holdings_by_june','attribution_cumulative','positions_by_june','review_ledger','selection_decisions','coverage_by_year_sector','sensitivity_summary','sensitivity_annual_pct']:
         p=RESULT/(filename+'.csv')
         if not p.exists():continue
         rows=read(p);ws=b.add_worksheet(filename[:31]);keys=list(rows[0]);ws.freeze_panes(1,2)
@@ -306,7 +333,9 @@ def publish(runs):
                 s['final_rank']=1+sum(q['final_pct']>s['final_pct'] for q in peers)
                 s['mean_annual_rank']=statistics.mean(1+sum(float(a[q['variant']])>float(a[s['variant']]) for q in peers) for a in ac)
     write(RESULT/'consolidated_pct.csv',stats)
-    write(RESULT/'holdings_by_june.csv',reconcile([r for v in runs.values() for r in v['holdings']],annual))
+    reconciled=reconcile([r for v in runs.values() for r in v['holdings']],annual)
+    write(RESULT/'holdings_by_june.csv',reconciled)
+    write(RESULT/'attribution_cumulative.csv',linked_attribution(reconciled,cu))
     for name,key in [('positions_by_june','positions'),('review_ledger','reviews'),('risk_concentration','risk'),('redemption_transfers','transfers')]:
         write(RESULT/(name+'.csv'),[r for v in runs.values() for r in v[key]])
     turnover=[]
@@ -329,7 +358,11 @@ def publish(runs):
             valuation_status=f.get('valuation_status','PENDING'),normalized_profit=f.get('normalized_profit'),
             normalized_pe=f.get('normalized_pe'),market_cap=f.get('market_cap'),real_eps_cagr=f.get('real_eps_cagr'),
             average_payout=f.get('average_payout'),return_on_capital_median=f.get('return_on_capital_median'),
-            bazin_normalized_dy=f.get('bazin_normalized_dy'),graham_pe_pb=f.get('graham_pe_pb'),
+            bazin_normalized_dy=f.get('bazin_normalized_dy'),
+            bazin_issuer_price_ceiling=f.get('bazin_issuer_price_ceiling'),
+            bazin_mean_distributions_yield=f.get('bazin_mean_distributions_yield'),
+            bazin_mean_dpa=None,bazin_per_share_limitation='ND: historical class-specific adjusted share denominator and distribution entitlement not certified; issuer diagnostic is separate',
+            graham_pe_pb=f.get('graham_pe_pb'),
             quality_category=f.get('quality_category','PENDING'),missing=f.get('missing',''),dossier=f.get('dossier','')))
     write(RESULT/'selection_decisions.csv',rows)
     workbook()
