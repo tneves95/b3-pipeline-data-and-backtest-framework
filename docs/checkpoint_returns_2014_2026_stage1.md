@@ -1,17 +1,17 @@
-# Checkpoint — etapa 1 percentual, 2014–2026 — 08/10/2026
+# Checkpoint — etapa 1 percentual, 2014–2026 — continuação em 08/10/2026
 
-**Entrega parcial: a comparação completa das quatro carteiras ainda não foi calculada.** A série oficial do IBOV foi calculada nas 12 janelas; seleções históricas insuficientemente estabelecidas impedem atribuir retornos às quatro trajetórias desde 2014. ND significa não determinado, nunca retorno zero. Não há vencedor nem ranking de consistência das quatro carteiras neste checkpoint.
+**Avanço publicado: R03 B2 calculado de junho/2014 a junho/2016; o estudo completo das quatro carteiras ainda está pendente.** A continuação aproveita o checkpoint `0a6a20c`, os arquivos CVM/B3 e o SQLite em leitura somente. O IBOV e as referências legadas foram preservados. ND significa não determinado, nunca retorno zero.
 
-IBOV: **223,5469% acumulados**, **10,2795% a.a.**, 8 anos positivos e 4 negativos. Fechamentos: 2014-06-30 (53168.22 pontos) e 2026-06-30 (172024.12 pontos).
+R03 B2: **-45,0683% em 2014–2015**, **1,9285% em 2015–2016**, **-44,0090% acumulados até junho/2016**. IBOV nas mesmas duas janelas: -0,1643% e -2,9275%; acumulado -3,0870%. IBOV completo até junho/2026: **223,5469%**. Não há vencedor de 2014–2026 enquanto faltarem as trajetórias completas.
 
-Escopo: [retificação do coordenador](https://github.com/tneves95/b3-pipeline-data-and-backtest-framework/pull/2#issuecomment-6059288518). Esta entrega usa apenas percentuais/pontos de índice. Não executa simulação nominal, fiscal, de caixa, aportes ou liquidação. A autorização para registrar bloqueios e resultados parciais está na própria retificação.
+Escopo: [retificação do coordenador](https://github.com/tneves95/b3-pipeline-data-and-backtest-framework/pull/2#issuecomment-6059288518). Somente índices teóricos e rentabilidades percentuais brutas; nenhuma simulação de patrimônio nominal, caixa, aportes ou impostos.
 
 **Tabela 1 — retorno anual junho→junho (%)**
 
 | Período | Início | Fim | R03 B2 | B00S B2 | B00S BH+entradas | BH padrão | IBOV |
 |---|---|---|---|---|---|---|---|
-| 2014–2015 | 2014-06-30 | 2015-06-30 | ND | ND | ND | ND | -0,1643 |
-| 2015–2016 | 2015-06-30 | 2016-06-30 | ND | ND | ND | ND | -2,9275 |
+| 2014–2015 | 2014-06-30 | 2015-06-30 | -45,0683 | ND | ND | ND | -0,1643 |
+| 2015–2016 | 2015-06-30 | 2016-06-30 | 1,9285 | ND | ND | ND | -2,9275 |
 | 2016–2017 | 2016-06-30 | 2017-06-30 | ND | ND | ND | ND | 22,0721 |
 | 2017–2018 | 2017-06-30 | 2018-06-29 | ND | ND | ND | ND | 15,6797 |
 | 2018–2019 | 2018-06-29 | 2019-06-28 | ND | ND | ND | ND | 38,7626 |
@@ -23,14 +23,14 @@ Escopo: [retificação do coordenador](https://github.com/tneves95/b3-pipeline-d
 | 2024–2025 | 2024-06-28 | 2025-06-30 | ND | ND | ND | ND | 12,0640 |
 | 2025–2026 | 2025-06-30 | 2026-06-30 | ND | ND | ND | ND | 23,8880 |
 
-Diferenças contra IBOV em p.p.: [matriz completa](../research/returns_2014_2026_results/annual_excess_pp.csv). As 48 diferenças das trajetórias pedidas são ND, pois os retornos das carteiras ainda não estão estabelecidos.
+[Diferenças anuais contra IBOV, em p.p.](../research/returns_2014_2026_results/annual_excess_pp.csv). R03: -44,9041 p.p. e 4,8560 p.p. nas duas janelas calculadas.
 
 **Tabela 2 — retorno acumulado desde junho/2014 (%)**
 
 | Até | R03 B2 | B00S B2 | B00S BH+entradas | BH padrão | IBOV |
 |---|---|---|---|---|---|
-| 2015-06-30 | ND | ND | ND | ND | -0,1643 |
-| 2016-06-30 | ND | ND | ND | ND | -3,0870 |
+| 2015-06-30 | -45,0683 | ND | ND | ND | -0,1643 |
+| 2016-06-30 | -44,0090 | ND | ND | ND | -3,0870 |
 | 2017-06-30 | ND | ND | ND | ND | 18,3037 |
 | 2018-06-29 | ND | ND | ND | ND | 36,8534 |
 | 2019-06-28 | ND | ND | ND | ND | 89,9014 |
@@ -42,21 +42,85 @@ Diferenças contra IBOV em p.p.: [matriz completa](../research/returns_2014_2026
 | 2025-06-30 | ND | ND | ND | ND | 161,1609 |
 | 2026-06-30 | ND | ND | ND | ND | 223,5469 |
 
-Encadeamento: `100 × (produto(1 + retorno_anual_decimal) − 1)`. Índice inicial 1; qualquer intervalo ausente invalida o acumulado posterior. Não se reinicia a carteira em 2020.
+Encadeamento: `100 × (produto(1 + retorno_anual_decimal) − 1)`, índice inicial 1. A ausência de 2016–2017 impede o acumulado posterior do R03; os segmentos legados não reiniciam a trajetória em 2020.
 
 **Tabela 3 — consolidado 2014–2026**
 
-| Série | Acumulado % | CAGR % | Acima IBOV /12 | Pos./neg./zero | Média anual % | Mediana anual % | Melhor ano (%) | Pior ano (%) | Posição média / consistência |
-|---|---|---|---|---|---|---|---|---|---|
-| R03 B2 | ND | ND | ND | ND | ND | ND | ND | ND | ND / ND |
-| B00S B2 | ND | ND | ND | ND | ND | ND | ND | ND | ND / ND |
-| B00S BH+entradas | ND | ND | ND | ND | ND | ND | ND | ND | ND / ND |
-| BH padrão | ND | ND | ND | ND | ND | ND | ND | ND | ND / ND |
-| IBOV | 223,5469 | 10,2795 | N/A | 8/4/0 | 11,6161 | 13,8719 | 2018–2019 (38,7626) | 2021–2022 (-22,2865) | ND / ND |
+| Série | Janelas calculadas /12 | Acumulado % | CAGR % | Acima IBOV /12 | Pos./neg./zero | Média anual % | Mediana anual % | Melhor ano (%) | Pior ano (%) | Posição média / consistência |
+|---|---|---|---|---|---|---|---|---|---|---|
+| R03 B2 | 2 | ND | ND | ND | ND | ND | ND | ND | ND | ND / ND |
+| B00S B2 | 0 | ND | ND | ND | ND | ND | ND | ND | ND | ND / ND |
+| B00S BH+entradas | 0 | ND | ND | ND | ND | ND | ND | ND | ND | ND / ND |
+| BH padrão | 0 | ND | ND | ND | ND | ND | ND | ND | ND | ND / ND |
+| IBOV | 12 | 223,5469 | 10,2795 | N/A | 8/4/0 | 11,6161 | 13,8719 | 2018–2019 (38,7626) | 2021–2022 (-22,2865) | ND / ND |
 
-CAGR usa dias efetivos/365,25. Ranking anual, posição média e consistência exigem as cinco séries comparáveis; não se atribui primeiro lugar ao único índice disponível. Quando houver cobertura completa, posição anual usa média dos postos empatados; consistência ordena a menor posição anual média, com empate preservado. As 12 janelas pertencem à mesma trajetória e não constituem 12 experimentos independentes.
+CAGR usa dias efetivos/365,25. Estatísticas finais e ranking exigem as 12 janelas comparáveis. Nas duas janelas R03 calculadas houve um ano positivo, um negativo e um acima do IBOV; isso não representa frequência em 12 anos.
 
-**Segmentos herdados 2020–2026 — referências condicionais, fora das três tabelas primárias**
+**Seleções históricas resolvidas nesta continuação**
+
+No universo de classes ON/PN efetivamente negociadas, com os filtros de liquidez originais, R03/2014–2015 e B00S/2014–2016 não têm candidatos INDETERMINATE. As listas abaixo separam os PASS demonstrados dos candidatos ainda indeterminados; somente as cinco seleções fechadas foram exportadas como estabelecidas. As seleções legadas de 2020–2025 permanecem preservadas e condicionais.
+
+| Junho | R03: PASS | R03: indeterminados | B00S: PASS | B00S: indeterminados |
+|---|---|---|---|---|
+| 2014 | CMIG3, DIRR3, EZTC3, HBOR3, JHSF3, LPSB3 | Nenhum no universo examinado | ABCB4, BBAS3, BBDC4, BRSR6, CMIG4, COCE5, CPFE3, CPLE6, CSMG3, ENBR3, EQTL3, GETI4, ITUB4, LIGT3, PSSA3, SBSP3, TBLE3, TIMP3, TRPL4, VIVT4 | Nenhum no universo examinado |
+| 2015 | ALSC3, DIRR3, DTEX3, EZTC3, GRND3, GUAR3, HBOR3, HGTX3, MILS3 | Nenhum no universo examinado | ABCB4, BBAS3, BBDC4, BRSR6, CMIG4, CPFE3, CPLE6, CSMG3, ENBR3, EQTL3, GETI4, ITUB4, LIGT3, PSSA3, SBSP3, TBLE3, TIMP3, TRPL4, VIVT4 | Nenhum no universo examinado |
+| 2016 | ENBR3, ESTC3, EZTC3, GRND3, HGTX3, SEER3, TIMP3 | BBDC3, ITUB3, LINX3 | ABCB4, BBAS3, BBDC4, BRSR6, CMIG4, CPFE3, CPLE6, ENBR3, EQTL3, ITUB4, LIGT3, PSSA3, SBSP3, TBLE3, TIMP3, TRPL4, VIVT4 | Nenhum no universo examinado |
+| 2017 | ENBR3, EZTC3 | BBDC3, CSAN3, ITUB3, SMTO3 | ABCB4, BBAS3, BBDC4, BRSR6, CMIG4, CPFE3, CPLE6, EGIE3, ENBR3, EQTL3, ITUB4, PSSA3, SAPR4, SBSP3, TIMP3, TRPL4, VIVT4 | BBSE3 |
+| 2018 | ENBR3, EZTC3, GUAR3, SBSP3, SEER3 | BBDC3, CAML3, CSAN3, ITUB3 | ABCB4, BBAS3, BBDC4, BBSE3, BRSR6, CMIG4, CPFE3, CPLE6, EGIE3, ENBR3, EQTL3, ITUB4, PSSA3, SAPR4, SBSP3, TIMP3, TRPL4, VIVT4 | IRBR3 |
+| 2019 | ENBR3, GUAR3, SBSP3, VIVT3 | CAML3, CSAN3 | ABCB4, BBAS3, BBDC4, BBSE3, BRSR6, CMIG4, CPFE3, CPLE6, EGIE3, ENBR3, EQTL3, ITUB4, PSSA3, SAPR4, SBSP3, TIMP3, TRPL4, VIVT4 | BIDI4, IRBR3 |
+
+**Seleção inicial e pesos de junho/2014**
+
+| Filosofia | Ação | Setor | Peso % |
+|---|---|---|---|
+| R03 | CMIG3 | Energia Elétrica | 16,6667 |
+| R03 | DIRR3 | Construção Civil, Mat. Constr. e Decoração | 16,6667 |
+| R03 | EZTC3 | Construção Civil, Mat. Constr. e Decoração | 16,6667 |
+| R03 | HBOR3 | Construção Civil, Mat. Constr. e Decoração | 16,6667 |
+| R03 | JHSF3 | Emp. Adm. Part. - Const. Civil, Mat. Const. e Decoração | 16,6667 |
+| R03 | LPSB3 | Emp. Adm. Part. - Const. Civil, Mat. Const. e Decoração | 16,6667 |
+| B00S | ABCB4 | Bancos | 4,0000 |
+| B00S | BBAS3 | Bancos | 4,0000 |
+| B00S | BBDC4 | Bancos | 4,0000 |
+| B00S | BRSR6 | Bancos | 4,0000 |
+| B00S | CMIG4 | Energia | 2,0000 |
+| B00S | COCE5 | Energia | 2,0000 |
+| B00S | CPFE3 | Energia | 2,0000 |
+| B00S | CPLE6 | Energia | 2,0000 |
+| B00S | CSMG3 | Saneamento | 10,0000 |
+| B00S | ENBR3 | Energia | 2,0000 |
+| B00S | EQTL3 | Energia | 2,0000 |
+| B00S | GETI4 | Energia | 2,0000 |
+| B00S | ITUB4 | Bancos | 4,0000 |
+| B00S | LIGT3 | Energia | 2,0000 |
+| B00S | PSSA3 | Seguros | 20,0000 |
+| B00S | SBSP3 | Saneamento | 10,0000 |
+| B00S | TBLE3 | Energia | 2,0000 |
+| B00S | TIMP3 | Telecom | 10,0000 |
+| B00S | TRPL4 | Energia | 2,0000 |
+| B00S | VIVT4 | Telecom | 10,0000 |
+
+R03 começa com seis ações em pesos iguais. B00S começa com vinte ações, 20% por setor BESST e pesos iguais dentro de cada setor. Esse mesmo conjunto inicial se aplica ao B00S B2 e ao B00S BH+entradas. Em junho/2015, R03 conserva DIRR3, EZTC3 e HBOR3; retira CMIG3, JHSF3 e LPSB3; acrescenta ALSC3, DTEX3, GRND3, GUAR3, HGTX3 e MILS3, com nove pesos iguais. [Pesos das seleções fechadas](../research/returns_2014_2026_selection/established_selections.csv), [triagem integral](../research/returns_2014_2026_selection/screening.csv) e [retornos e contribuições por posição](../research/returns_2014_2026_selection/established_segment_positions.csv).
+
+**Proveniência PIT e reparações materiais**
+
+Foram incorporados os originais de BB e Itaú já recuperados e 17 originais CVM adicionais, dos quais se extraíram 1.306 fatos contábeis. Entre os reparos: Copel/2013, Equatorial/2015–2016, Cemig/2015, Light/2015, Engie/2022 e Brasil Pharma/2013. Recebimento, versão, conta, perímetro, exercício, documento e hash acompanham os extratos. O arquivo de Engie usa o XML moderno da CVM; os demais usam o original ENET. FCA e FRE anteriores aos cortes complementam identidade, atividade econômica, capital emitido/integralizado e tesouraria.
+
+O código distingue a conta de lucro das reversões de JCP de bancos e distingue ativo circulante de caixa pelo nome da conta. Colunas comparativas de resultado inteiramente zeradas no ENET permanecem ausentes; não viram prova de prejuízo nem de lucro. O lucro individual publicado pode suprir uma DRE consolidada vazia, com seu perímetro identificado. A falta de um exercício não encobre uma reprovação demonstrável em outro: Brasil Pharma/2013 tem prejuízo publicado e reprova o requisito dos últimos três anos positivos. A constituição de uma companhia depois do primeiro exercício exigido é registrada como histórico insuficiente demonstrado, sem inventar dados de predecessoras.
+
+Para R03, história `max(2009, ano−10)..ano−1`, proporção `ceil(0,8 × n)`, demais restrições de perdas preservadas, e crescimento entre médias de três exercícios. F4 mantém a hierarquia herdada: B3/DFC individual, com DMPL/DVA individual como evidência mais fraca, sem reduzir a exigência de recorrência. F6 usa capital conhecido no corte e distingue o teste com capital bruto da dedução de tesouraria documentada. B00S conserva cinco exercícios e a taxonomia BESST estrita: corretoras, administradoras de benefícios e distribuição de gás não são promovidas a seguradoras ou saneamento.
+
+**Convenção de retorno e cobertura restante**
+
+Fechamento do último pregão de junho em todas as séries; reinvestimento teórico integral de cada distribuição bruta no próprio ativo no fechamento da data-ex. Os dois segmentos novos usam preços nominais e eventos, sem preços ajustados somados novamente a dividendos. Datas-com B3 são convertidas ao pregão seguinte do calendário observado. Não há saldos operacionais. A Cemig tinha somente metade do JCP de dezembro/2014 no SQLite; o aviso oficial confirma duas parcelas de 50%, e o valor integral foi restaurado uma única vez. Histórias B3 sob os ISIN atuais de Dexco e Riachuelo foram associadas aos nomes históricos DTEX3 e GUAR3 pelo mesmo emissor/classe. Os valores são uma reconstrução com as fontes disponíveis, não certificação de completude universal de eventos.
+
+O retorno B00S ainda depende de eventos que não podem ser substituídos por zero: bonificações bancárias históricas, GETI→TIET→AESB→AURE, cisão Itaú/XPart e término de ENBR. Para BH+entradas é necessário manter as sucessoras e os nomes reprovados, com redistribuição interna de pesos somente quando houver novos elegíveis. A OPA voluntária de ENBR usada no legado não comprova sozinha um cash-out compulsório para BH.
+
+O ranking BH padrão avançou para o cruzamento de capital, preços de todas as classes e atividade conhecida em 2014. Os líderes candidatos são CCRO/WEG, Itaú/Bradesco, Tractebel/Cemig e Hypermarcas/Raia Drogasil, mas o ranking ainda requer reconciliação de eventos de capital e classes. O Santander foi retirado do ranking nominal incorreto: o FRE trazia capital anterior ao grupamento 55:1 de junho/2014; um limite superior após a bonificação/grupamento o coloca abaixo dos dois líderes financeiros. Isso é um limite de exclusão documentado, não uma capitalização exata inventada. Hypermarcas é uma candidata de atividade mista, a justificar economicamente no corte; não se usa o perfil atual da Hypera. [Mapa de capitalização e ressalvas](../research/returns_2014_2026_selection/market_cap_2014.csv). As oito ações ainda não foram promovidas a uma carteira BH calculada.
+
+Bebidas, agricultura, joalheria e papel/celulose ficam fora dos quatro grupos. Dados indeterminados continuam explícitos; não há retorno calculado de uma carteira formada pela simples exclusão silenciosa desses candidatos.
+
+**Referências legadas 2020–2026, preservadas e fora da trajetória primária**
 
 | Período | R03 legado % | B00S legado % | IBOV % | R03−IBOV p.p. | B00S−IBOV p.p. |
 |---|---|---|---|---|---|
@@ -67,47 +131,19 @@ CAGR usa dias efetivos/365,25. Ranking anual, posição média e consistência e
 | 2024–2025 | 31,1693 | 37,0723 | 12,0640 | 19,1053 | 25,0084 |
 | 2025–2026 | 30,6161 | 26,8307 | 23,8880 | 6,7281 | 2,9428 |
 
-Esses percentuais reutilizam as seleções/retornos congelados v11.2 e v12+v13 e recalculam somente a comparação com IBOV oficial nas mesmas datas. Não são novas coortes, não reconstituem 2014 e não comprovam as seleções PIT da nova missão. A renovação anual com pesos fixados pode servir de referência ao B2 teórico, condicional à elegibilidade. B00S ainda combina eventos com aproximações de proventos; o legado contém exceções de continuidade e riscos de classe/normalização. Não promovemos esses números ao novo índice homogêneo. Nenhuma rotina fiscal ou de capital nominal foi executada; os arquivos de origem são apenas lidos.
+São os mesmos números condicionais do checkpoint anterior, oriundos das baselines v11.2/v12/v13. Não cobrem 2016–2020 nem substituem eventos e seleções da nova trajetória. Nenhum motor fiscal foi executado.
 
-[Nomes e pesos herdados](../research/returns_2014_2026_results/conditional_legacy_weights.csv) e [mudanças entre listas](../research/returns_2014_2026_results/conditional_legacy_membership_changes.csv) estão marcados como condicionais. A lista anterior a 2020 é desconhecida; trocas de ticker precisam de continuidade por emissor e não são automaticamente entradas/saídas econômicas. Seleção inicial/2014 e movimentos 2015–2019/BH+entradas/BH padrão permanecem não determinados.
-
-**Cobertura, recuperação seletiva e limites**
-
-O SQLite foi aberto em leitura somente; seu SHA-256 permaneceu idêntico antes/depois. Existem COTAHIST anuais 1994–2026, DFP desde 2010, mapeamentos PIT e eventos históricos. A presença dos arquivos não demonstra universo completo nem integridade de cada sucessão societária. `IBOV11` no banco é um ticker e não foi tratado como o índice IBOV. Foram coletadas 13 respostas anuais diretamente da B3, com URL, data e hash.
-
-Há 970 registros de lucro comparativo de 2009 nas DFP 2010, dos quais 967 com recebimento até junho/2014; são registros por perímetro, não companhias únicas. Portanto, não se declarou 2009 inexistente. Na fotografia original do SQLite e comparativos, 233 de 284 classes cotadas examinadas em junho/2014 têm cobertura de lucro 2009–2013; 51 ficam indeterminadas, incluindo 25 sem identidade única no mapeamento usado. Essa triagem cobre tickers com quatro letras e finais 3–6, não um censo de todas as classes/units. Ter série de lucro não é passar nos filtros.
-
-Entre 3776 versões DFP 2010–2013 com metadados conhecidos até o corte, 1205 não têm linhas da DRE individual dessa versão no ZIP local. Essa contagem inclui versões substituídas e não equivale ao número de lacunas indispensáveis. O arquivo de cobertura identifica ticker/exercício e as datas posteriores para distinguir faltas materiais.
-
-A coleta seletiva recuperou os originais CVM 35587 (BB, DFP 2013), 24646 (Itaú, DFP 2012, com comparativos) e 39471 (WEG, FRE 2014); a CVM respondeu com arquivos ZIP. Os extratos/XML e hashes ficam na entrega. Foram extraídas 12 observações de lucro individual/consolidado nos XML originais, respeitando as contas específicas do plano bancário. Esses documentos permitem reparar parte das lacunas; a fotografia da cobertura original não inclui essa reparação e não deve ser lida como prova de indisponibilidade na CVM. A reconciliação integral desses originais com os filtros e demais emissores não foi concluída.
-
-Capital: 524 de 573 linhas de capital emitido no FRE rotulado 2014 não satisfazem recebimento/aprovação até junho/2014. Arquivos anteriores contêm evidência admissível para 500 emissores, inclusive vários líderes; portanto, o ranking das oito maiores não é considerado impossível. Ele permanece não estabelecido: falta reconciliar capital vigente de todas as classes, identidades históricas, preços e taxonomia do universo comparável. Não usamos capital posterior nem escolhemos os maiores de hoje.
-
-Pendências específicas: seleção R03 completa de 2014–2019 com filtros/triagem de perdas; universo BESST e recorrência de proventos conhecida em cada junho; predecessores/deslistados (por exemplo TBLE3, ALLL3 e BICB4 não resolvidos no mapeamento examinado); ranking por companhia de 2014; trajetórias de eventos homogêneas para as posições que essas seleções determinarem. Não são pendências de imposto, caixa ou financiamento.
-
-**Convenções fixadas para a primeira etapa**
-
-Índices de retorno total bruto, base 1 no último pregão de junho/2014, observados nos fechamentos oficiais de cada junho até 30/06/2026. Reinvestimento teórico integral dos proventos brutos no próprio ativo no fechamento da data-ex, incorporando conversões, desdobramentos e sucessoras uma única vez; preços nominais+eventos, ou série de retorno total validada, sem misturar dividendos adicionais com preços já ajustados. Nenhum saldo operacional é modelado. Os segmentos herdados acima não foram convertidos retroativamente a essa convenção uniforme.
-
-B2: conjunto elegível de cada junho; pesos iguais R03 e iguais por setor/depois por emissor B00S. Ausência de prova permanece INDETERMINATE, não FAIL. BH B00S: união dos nomes detidos com novos elegíveis; quando houver entradas, redistribuição interna aos pesos B00S no conjunto ampliado, preservando o nível do índice; sem entradas, pesos oscilam sem rebalanceamento discricionário. Essa regra de retenção+adições não é BH passivo estrito. BH padrão: dois maiores emissores de 2014 por grupo, 12,5% cada, sem novas líderes. Capitalização agrega classes sem contar units em duplicidade; classe de investimento escolhida pela liquidez conhecida na formação. Nenhuma dessas regras autoriza inventar a seleção faltante.
-
-Taxonomia: bens industriais (máquinas/equipamentos, material de transporte e serviços industriais); financeiro (bancos, seguros, intermediação e holdings de atividade financeira); utilidades públicas (energia, água/saneamento e gás canalizado); saúde (medicamentos, distribuição de medicamentos, serviços hospitalares, diagnósticos e operadoras de saúde). Holdings diversificadas exigem classificação econômica documentada. Bebidas, agricultura, joalheria e papel/celulose ficam fora desses quatro grupos.
-
-Histórico: `max(2009, ano−10)..ano−1`, com 5/6/7/8/9/10 exercícios em 2014/15/16/17/18/19 e dez móveis depois. Para o requisito proporcional 8/10: `ceil(0,8 × n)` anos positivos, preservando demais restrições da regra. Filtros próprios de três/cinco anos e demais limites não são afrouxados.
-
-**Reprodução e fontes**
+**Reprodução e preservação**
 
 ```bash
+python scripts/stage1_select.py
+python scripts/stage1_segments.py
 python scripts/returns_stage1.py
-python -m pytest -q tests/test_returns_stage1.py
-# Apenas para repetir a auditoria no acervo local, sem o modificar:
-python scripts/audit_stage1_coverage.py --data-root /caminho/do/acervo
+python -m pytest -q tests/test_returns_stage1.py tests/test_stage1_pit.py
 ```
 
-O cálculo percentual e seus testes são offline. `scripts/fetch_ibov_stage1.py` refaz somente a coleta B3 e deve ser usado explicitamente, pois atualiza o snapshot. Manifestos e CSVs estão em [insumos](../research/returns_2014_2026_inputs/) e [resultados](../research/returns_2014_2026_results/). O workflow independente verifica reprodução offline. A branch parte de `fc62733`, sem alterar arquivos das baselines v11.2/v12/v13 ou do PR #2.
+A reprodução usa os caches incluídos e não precisa de rede nem do SQLite. Os scripts `stage1_pit.py`, `stage1_supplement.py`, `stage1_capital.py` e `stage1_recover.py` servem à coleta incremental, não precisam ser repetidos para continuar. Os originais, hashes e pendências estão em [seleção PIT](../research/returns_2014_2026_selection/). A série IBOV e seus 13 arquivos B3 permanecem idênticos ao checkpoint inicial. A branch e o PR #3 continuam os mesmos; baselines e PR #2 preservados.
 
-Validação local desta entrega: **18 testes da etapa percentual e 101 testes das baselines aprovados**. O replay percentual reproduziu os arquivos byte a byte. Esses testes verificam os cálculos e a preservação dos dados; não suprem as seleções históricas ainda não determinadas.
+Validação local: **137 testes aprovados** (36 da etapa percentual/PIT e 101 das baselines). **54 cotações exatas** de fronteira/reinvestimento conferidas diretamente nos registros COTAHIST de 2014–2016, com arquivo, linha e hash. O replay dos resultados é offline e determinístico. Os testes verificam as invariantes e os segmentos entregues; não certificam as trajetórias ainda ausentes.
 
-Fontes oficiais: [evolução diária IBOV/B3](https://sistemaswebb3-listados.b3.com.br/indexStatisticsPage/daily-evolution/IBOVESPA?language=pt-br), [metodologia B3 — índice de retorno total](https://www.b3.com.br/data/files/9C/15/76/F6/3F6947102255C247AC094EA8/IBOV-Metodologia-pt-br__Novo_.pdf), [DFP/CVM](https://dados.cvm.gov.br/dataset/cia_aberta-doc-dfp).
-
-**Estado final: checkpoint parcial publicado para revisão; pedido de quatro trajetórias completas ainda pendente. Não houve início da etapa fiscal/operacional, merge ou promoção de baseline.**
+**Próxima prioridade:** resolver os candidatos de 2016–2019 listados acima e as continuidades materiais dos vinte nomes B00S iniciais; concluir o ranking de 2014 e então preencher as demais janelas. O pedido de quatro trajetórias completas permanece aberto.

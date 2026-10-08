@@ -109,12 +109,19 @@ def main():
     write(OUTPUT / "ibov_june_closes.csv", closes)
     benchmark = [b["ibov_points"]/a["ibov_points"]-1 for a, b in zip(closes, closes[1:])]
     series = {name: [None]*12 for name in NAMES[:-1]} | {"IBOV": benchmark}
+    established = read(ROOT / "research/returns_2014_2026_selection/established_segments_pct.csv")
+    for r in established:
+        i = int(r["year"]) - 2014
+        assert r["start"] == closes[i]["date"] and r["end"] == closes[i+1]["date"]
+        assert r["selection"] == "ESTABLISHED_IN_SCREENED_ON_UNIVERSE"
+        assert r["return_status"] == "GROSS_NOMINAL_B3_WITH_DIRECTED_CORRECTION"
+        series[r["portfolio"]][i] = float(r["return_pct"]) / 100
     cumulative = {name: chain(values) for name, values in series.items()}
     annual, accumulated, excess, statuses = [], [], [], []
     reasons = {
-        "R03 B2": "Selecao PIT 2014–2019 nao estabelecida; elegibilidade anual posterior nao revalidada nesta missao",
-        "B00S B2": "Universo BESST PIT e recorrencia de distribuicoes 2009–2019 nao reconstruidos; legado 2020–2025 parcial",
-        "B00S BH+entradas": "Selecao inicial 2014 e uniao historica de elegiveis/sucessoras nao estabelecidas",
+        "R03 B2": "Selecoes 2014–2015 calculadas; candidatos PIT indeterminados desde 2016; legado posterior preservado como condicional",
+        "B00S B2": "Selecoes 2014–2016 estabelecidas; retornos dependem de eventos historicos ausentes e continuidades; candidatos PIT posteriores pendentes",
+        "B00S BH+entradas": "Selecao inicial 2014 estabelecida; uniao posterior e eventos/sucessoras pendentes",
         "BH padrão": "Ranking completo de capitalizacao por companhia/classe e setor em 2014 nao estabelecido",
     }
     for i in range(12):
@@ -124,7 +131,7 @@ def main():
         ex = base | {"IBOV_pct": benchmark[i]*100}
         for n in NAMES[:-1]:
             ex[n+"_minus_IBOV_pp"] = None if series[n][i] is None else 100*(series[n][i]-benchmark[i])
-            statuses.append(base | dict(portfolio=n, status="NOT_COMPUTABLE_FROM_ESTABLISHED_SELECTION", reason=reasons[n]))
+            statuses.append(base | dict(portfolio=n, status="CALCULATED_GROSS_INDEX" if series[n][i] is not None else "PENDING_SELECTION_OR_EVENTS", reason="Selecao PIT estabelecida; fechamento nominal e reinvestimento bruto data-ex" if series[n][i] is not None else reasons[n]))
         excess.append(ex)
     write(OUTPUT / "annual_returns_pct.csv", annual)
     write(OUTPUT / "cumulative_returns_pct.csv", accumulated)
@@ -170,127 +177,14 @@ def main():
             previous = current
     write(OUTPUT / "conditional_legacy_membership_changes.csv", changes)
 
-    coverage = json.loads((INPUT / "coverage/manifest.json").read_text())
-    cover2014 = read(INPUT / "coverage/annual_coverage.csv")[0]
+    from stage1_report import render
     total = stats[-1]
-    report = ["# Checkpoint — etapa 1 percentual, 2014–2026 — 08/10/2026", "",
-        "**Entrega parcial: a comparação completa das quatro carteiras ainda não foi calculada.** "
-        "A série oficial do IBOV foi calculada nas 12 janelas; seleções históricas insuficientemente estabelecidas impedem "
-        "atribuir retornos às quatro trajetórias desde 2014. ND significa não determinado, nunca retorno zero. "
-        "Não há vencedor nem ranking de consistência das quatro carteiras neste checkpoint.", "",
-        f"IBOV: **{pct(total['total_return_pct'])}% acumulados**, **{pct(total['cagr_pct'])}% a.a.**, "
-        f"{total['positive_years']} anos positivos e {total['negative_years']} negativos. "
-        f"Fechamentos: {closes[0]['date']} ({closes[0]['ibov_points']:.2f} pontos) e {closes[-1]['date']} ({closes[-1]['ibov_points']:.2f} pontos).", "",
-        "Escopo: [retificação do coordenador](https://github.com/tneves95/b3-pipeline-data-and-backtest-framework/pull/2#issuecomment-6059288518). "
-        "Esta entrega usa apenas percentuais/pontos de índice. Não executa simulação nominal, fiscal, de caixa, aportes ou liquidação. "
-        "A autorização para registrar bloqueios e resultados parciais está na própria retificação.", "",
-        "**Tabela 1 — retorno anual junho→junho (%)**", "",
-        table(["Período", "Início", "Fim", *NAMES], [[r['period'],r['start'],r['end'], *[pct(r[n]) for n in NAMES]] for r in annual]), "",
-        "Diferenças contra IBOV em p.p.: [matriz completa](../research/returns_2014_2026_results/annual_excess_pp.csv). "
-        "As 48 diferenças das trajetórias pedidas são ND, pois os retornos das carteiras ainda não estão estabelecidos.", "",
-        "**Tabela 2 — retorno acumulado desde junho/2014 (%)**", "",
-        table(["Até", *NAMES], [[r['end'], *[pct(r[n]) for n in NAMES]] for r in accumulated]), "",
-        "Encadeamento: `100 × (produto(1 + retorno_anual_decimal) − 1)`. "
-        "Índice inicial 1; qualquer intervalo ausente invalida o acumulado posterior. Não se reinicia a carteira em 2020.", "",
-        "**Tabela 3 — consolidado 2014–2026**", "",
-        table(["Série", "Acumulado %", "CAGR %", "Acima IBOV /12", "Pos./neg./zero", "Média anual %", "Mediana anual %", "Melhor ano (%)", "Pior ano (%)", "Posição média / consistência"],
-            [[r['portfolio'],pct(r['total_return_pct']),pct(r['cagr_pct']),"N/A" if r['portfolio']=='IBOV' else "ND",
-              f"{r['positive_years']}/{r['negative_years']}/{r['flat_years']}" if r['positive_years'] is not None else "ND",
-              pct(r['mean_annual_pct']),pct(r['median_annual_pct']),
-              f"{r['best_period']} ({pct(r['best_return_pct'])})" if r['best_period'] else "ND",
-              f"{r['worst_period']} ({pct(r['worst_return_pct'])})" if r['worst_period'] else "ND", "ND / ND"] for r in stats]), "",
-        "CAGR usa dias efetivos/365,25. Ranking anual, posição média e consistência exigem as cinco séries comparáveis; "
-        "não se atribui primeiro lugar ao único índice disponível. Quando houver cobertura completa, posição anual usa média "
-        "dos postos empatados; consistência ordena a menor posição anual média, com empate preservado. "
-        "As 12 janelas pertencem à mesma trajetória e não constituem 12 experimentos independentes.", "",
-        "**Segmentos herdados 2020–2026 — referências condicionais, fora das três tabelas primárias**", "",
-        table(["Período", "R03 legado %", "B00S legado %", "IBOV %", "R03−IBOV p.p.", "B00S−IBOV p.p."],
-            [[r['period'], *[pct(r[k]) for k in ['R03_inherited_pct','B00S_inherited_pct','IBOV_pct','R03_minus_IBOV_pp','B00S_minus_IBOV_pp']]] for r in segments]), "",
-        "Esses percentuais reutilizam as seleções/retornos congelados v11.2 e v12+v13 e recalculam somente a comparação "
-        "com IBOV oficial nas mesmas datas. Não são novas coortes, não reconstituem 2014 e não comprovam as seleções PIT da "
-        "nova missão. A renovação anual com pesos fixados pode servir de referência ao B2 teórico, condicional à elegibilidade. "
-        "B00S ainda combina eventos com aproximações de proventos; o legado contém exceções de continuidade e riscos de "
-        "classe/normalização. Não promovemos esses números ao novo índice homogêneo. Nenhuma rotina fiscal ou de capital "
-        "nominal foi executada; os arquivos de origem são apenas lidos.", "",
-        "[Nomes e pesos herdados](../research/returns_2014_2026_results/conditional_legacy_weights.csv) e "
-        "[mudanças entre listas](../research/returns_2014_2026_results/conditional_legacy_membership_changes.csv) estão "
-        "marcados como condicionais. A lista anterior a 2020 é desconhecida; trocas de ticker precisam de continuidade "
-        "por emissor e não são automaticamente entradas/saídas econômicas. Seleção inicial/2014 e movimentos "
-        "2015–2019/BH+entradas/BH padrão permanecem não determinados.", "",
-        "**Cobertura, recuperação seletiva e limites**", "",
-        "O SQLite foi aberto em leitura somente; seu SHA-256 permaneceu idêntico antes/depois. Existem COTAHIST anuais "
-        "1994–2026, DFP desde 2010, mapeamentos PIT e eventos históricos. A presença dos arquivos não demonstra "
-        "universo completo nem integridade de cada sucessão societária. `IBOV11` no banco é um ticker e não foi tratado "
-        "como o índice IBOV. Foram coletadas 13 respostas anuais diretamente da B3, com URL, data e hash.", "",
-        f"Há {coverage['comparative_2009_records']} registros de lucro comparativo de 2009 nas DFP 2010, "
-        f"dos quais {coverage['comparative_2009_available']} com recebimento até junho/2014; são registros por perímetro, "
-        "não companhias únicas. Portanto, não se declarou 2009 inexistente. Na fotografia original do SQLite e "
-        f"comparativos, {cover2014['earnings_complete']} de {cover2014['quoted_share_classes']} classes cotadas "
-        f"examinadas em junho/2014 têm cobertura de lucro 2009–2013; {cover2014['earnings_indeterminate']} ficam "
-        f"indeterminadas, incluindo {int(cover2014['quoted_share_classes'])-int(cover2014['mapped_unique'])} "
-        "sem identidade única no mapeamento usado. Essa triagem cobre tickers "
-        "com quatro letras e finais 3–6, não um censo de todas as classes/units. Ter série de lucro não é passar nos filtros.", "",
-        f"Entre {coverage['dfp_known_versions']} versões DFP 2010–2013 com metadados conhecidos até o corte, "
-        f"{coverage['dfp_known_versions_without_statement']} não têm linhas da DRE individual dessa versão no ZIP local. "
-        "Essa contagem inclui versões substituídas e não equivale ao número de lacunas indispensáveis. "
-        "O arquivo de cobertura identifica ticker/exercício e as datas posteriores para distinguir faltas materiais.", "",
-        "A coleta seletiva recuperou os originais CVM 35587 (BB, DFP 2013), 24646 (Itaú, DFP 2012, com comparativos) "
-        "e 39471 (WEG, FRE 2014); a CVM respondeu com arquivos ZIP. Os extratos/XML e hashes ficam na entrega. "
-        "Foram extraídas 12 observações de lucro individual/consolidado nos XML originais, respeitando as contas "
-        "específicas do plano bancário. Esses documentos permitem reparar parte das lacunas; a fotografia da cobertura original não inclui essa reparação "
-        "e não deve ser lida como prova de indisponibilidade na CVM. A reconciliação integral desses originais com "
-        "os filtros e demais emissores não foi concluída.", "",
-        "Capital: 524 de 573 linhas de capital emitido no FRE rotulado 2014 não satisfazem recebimento/aprovação até "
-        "junho/2014. Arquivos anteriores contêm evidência admissível para 500 emissores, inclusive vários líderes; "
-        "portanto, o ranking das oito maiores não é considerado impossível. Ele permanece não estabelecido: falta "
-        "reconciliar capital vigente de todas as classes, identidades históricas, preços e taxonomia do universo "
-        "comparável. Não usamos capital posterior nem escolhemos os maiores de hoje.", "",
-        "Pendências específicas: seleção R03 completa de 2014–2019 com filtros/triagem de perdas; universo BESST e "
-        "recorrência de proventos conhecida em cada junho; predecessores/deslistados (por exemplo TBLE3, ALLL3 e BICB4 "
-        "não resolvidos no mapeamento examinado); ranking por companhia de 2014; trajetórias de eventos homogêneas "
-        "para as posições que essas seleções determinarem. Não são pendências de imposto, caixa ou financiamento.", "",
-        "**Convenções fixadas para a primeira etapa**", "",
-        "Índices de retorno total bruto, base 1 no último pregão de junho/2014, observados nos fechamentos oficiais "
-        "de cada junho até 30/06/2026. Reinvestimento teórico integral dos proventos brutos no próprio ativo no fechamento "
-        "da data-ex, incorporando conversões, desdobramentos e sucessoras uma única vez; preços nominais+eventos, ou série "
-        "de retorno total validada, sem misturar dividendos adicionais com preços já ajustados. Nenhum saldo operacional "
-        "é modelado. Os segmentos herdados acima não foram convertidos retroativamente a essa convenção uniforme.", "",
-        "B2: conjunto elegível de cada junho; pesos iguais R03 e iguais por setor/depois por emissor B00S. "
-        "Ausência de prova permanece INDETERMINATE, não FAIL. BH B00S: união dos nomes detidos com novos elegíveis; "
-        "quando houver entradas, redistribuição interna aos pesos B00S no conjunto ampliado, preservando o nível "
-        "do índice; sem entradas, pesos oscilam sem rebalanceamento discricionário. Essa regra de retenção+adições "
-        "não é BH passivo estrito. BH padrão: dois maiores emissores de 2014 por grupo, 12,5% cada, sem novas líderes. "
-        "Capitalização agrega classes sem contar units em duplicidade; classe de investimento escolhida pela liquidez "
-        "conhecida na formação. Nenhuma dessas regras autoriza inventar a seleção faltante.", "",
-        "Taxonomia: bens industriais (máquinas/equipamentos, material de transporte e serviços industriais); financeiro "
-        "(bancos, seguros, intermediação e holdings de atividade financeira); utilidades públicas (energia, água/saneamento "
-        "e gás canalizado); saúde (medicamentos, distribuição de medicamentos, serviços hospitalares, diagnósticos e "
-        "operadoras de saúde). Holdings diversificadas exigem classificação econômica documentada. Bebidas, agricultura, "
-        "joalheria e papel/celulose ficam fora desses quatro grupos.", "",
-        "Histórico: `max(2009, ano−10)..ano−1`, com 5/6/7/8/9/10 exercícios em 2014/15/16/17/18/19 e dez móveis "
-        "depois. Para o requisito proporcional 8/10: `ceil(0,8 × n)` anos positivos, preservando demais restrições "
-        "da regra. Filtros próprios de três/cinco anos e demais limites não são afrouxados.", "",
-        "**Reprodução e fontes**", "",
-        "```bash\npython scripts/returns_stage1.py\npython -m pytest -q tests/test_returns_stage1.py\n"
-        "# Apenas para repetir a auditoria no acervo local, sem o modificar:\n"
-        "python scripts/audit_stage1_coverage.py --data-root /caminho/do/acervo\n```", "",
-        "O cálculo percentual e seus testes são offline. `scripts/fetch_ibov_stage1.py` refaz somente a coleta B3 "
-        "e deve ser usado explicitamente, pois atualiza o snapshot. Manifestos e CSVs estão em "
-        "[insumos](../research/returns_2014_2026_inputs/) e [resultados](../research/returns_2014_2026_results/). "
-        "O workflow independente verifica reprodução offline. A branch parte de `fc62733`, sem alterar arquivos "
-        "das baselines v11.2/v12/v13 ou do PR #2.", "",
-        "Validação local desta entrega: **18 testes da etapa percentual e 101 testes das baselines aprovados**. "
-        "O replay percentual reproduziu os arquivos byte a byte. Esses testes verificam os cálculos e a preservação "
-        "dos dados; não suprem as seleções históricas ainda não determinadas.", "",
-        "Fontes oficiais: [evolução diária IBOV/B3](https://sistemaswebb3-listados.b3.com.br/indexStatisticsPage/daily-evolution/IBOVESPA?language=pt-br), "
-        "[metodologia B3 — índice de retorno total](https://www.b3.com.br/data/files/9C/15/76/F6/3F6947102255C247AC094EA8/IBOV-Metodologia-pt-br__Novo_.pdf), "
-        "[DFP/CVM](https://dados.cvm.gov.br/dataset/cia_aberta-doc-dfp).", "",
-        "**Estado final: checkpoint parcial publicado para revisão; pedido de quatro trajetórias completas ainda pendente. "
-        "Não houve início da etapa fiscal/operacional, merge ou promoção de baseline.**", ""]
+    report = render(annual, accumulated, stats, segments, NAMES, pct, table)
     (ROOT / "docs/checkpoint_returns_2014_2026_stage1.md").write_text("\n".join(report), encoding="utf-8")
     manifest = dict(status="PARTIAL_NOT_FULL_FOUR_PORTFOLIO_STUDY", dates=[r['date'] for r in closes],
         complete_requested_portfolios=0, complete_benchmark_intervals=12, conditional_legacy_portfolio_intervals=12,
-        strict_annual_numeric_cells=12, strict_annual_missing_portfolio_cells=48,
+        strict_annual_numeric_cells=14, strict_annual_missing_portfolio_cells=46,
+        newly_computed_portfolio_intervals=2, selection_source="research/returns_2014_2026_selection/established_selections.csv",
         baseline_commit="fc62733", monetary_simulation=False, taxes=False, external_contributions=False,
         inputs=[dict(path=str(p.relative_to(ROOT)),sha256=hashlib.sha256(p.read_bytes()).hexdigest())
                 for p in [graham_path,barsi_path]],

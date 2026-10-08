@@ -18,8 +18,10 @@
   "complete_requested_portfolios": 0,
   "complete_benchmark_intervals": 12,
   "conditional_legacy_portfolio_intervals": 12,
-  "strict_annual_numeric_cells": 12,
-  "strict_annual_missing_portfolio_cells": 48,
+  "strict_annual_numeric_cells": 14,
+  "strict_annual_missing_portfolio_cells": 46,
+  "newly_computed_portfolio_intervals": 2,
+  "selection_source": "research/returns_2014_2026_selection/established_selections.csv",
   "baseline_commit": "fc62733",
   "monetary_simulation": false,
   "taxes": false,
@@ -37,11 +39,11 @@
   "outputs": [
     {
       "path": "annual_excess_pp.csv",
-      "sha256": "b479a097c7dff465d53e2cc980320f2d623ea49a476ff4a3f1a82a4ed72c9425"
+      "sha256": "77a6ca907191d5f7f1c0e8d5dfcdc18922b642067ada381d673b0ced40fb9b65"
     },
     {
       "path": "annual_returns_pct.csv",
-      "sha256": "0e27ea2d9df59a6d1f0fe960881bbd30258c72ef4740fa7130bc761b3826980b"
+      "sha256": "aed168ce9f70b7b2caad43e582e068916a7b0a64f9fbf71225c26d943fb78900"
     },
     {
       "path": "conditional_legacy_membership_changes.csv",
@@ -57,11 +59,11 @@
     },
     {
       "path": "consolidated_pct.csv",
-      "sha256": "8fa680f43b684a40ebbc50a5f207d12da7c888883456cccc3829239ad44d563f"
+      "sha256": "729b677a481307860c94220c1f8bfe4f968112349a8b1b2eaf977a1978af9d16"
     },
     {
       "path": "cumulative_returns_pct.csv",
-      "sha256": "97bc9400f62ab01823f4b84d2b0c7c2184abbb9e278008e8209d1ec2079f10c4"
+      "sha256": "22d5bfc36871c8439ee88f427dc72e3c43967f9f66ed68adba229fa513e601e8"
     },
     {
       "path": "ibov_june_closes.csv",
@@ -69,7 +71,7 @@
     },
     {
       "path": "portfolio_status.csv",
-      "sha256": "2462f0990fbb98da5982cd2d49330bad3d82a4666e13149e68010ea4af8ad17c"
+      "sha256": "b1292bfddce69c84ee8d1b2c246d26055a7048396c0f4f413d6ab7a1fcbc04ae"
     }
   ]
 }
