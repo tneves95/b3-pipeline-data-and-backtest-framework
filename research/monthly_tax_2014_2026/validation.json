@@ -1,0 +1,60 @@
+{
+  "zero_tax_checks": [
+    {
+      "portfolio": "V0",
+      "test": "ZERO_TAX_FULL_BOOK_PR5_PARITY",
+      "status": "PASS",
+      "operations": 1949,
+      "positions": 9081,
+      "events": 1115,
+      "deposits": 144,
+      "external_capital": 460000.0
+    },
+    {
+      "portfolio": "BH padrão",
+      "test": "ZERO_TAX_FULL_BOOK_PR5_PARITY",
+      "status": "PASS",
+      "operations": 785,
+      "positions": 3633,
+      "events": 669,
+      "deposits": 144,
+      "external_capital": 460000.0
+    },
+    {
+      "portfolio": "BESST-10 BH",
+      "test": "ZERO_TAX_FULL_BOOK_PR5_PARITY",
+      "status": "PASS",
+      "operations": 928,
+      "positions": 4499,
+      "events": 738,
+      "deposits": 144,
+      "external_capital": 460000.0
+    },
+    {
+      "portfolio": "V10",
+      "test": "ZERO_TAX_FULL_BOOK_PR5_PARITY",
+      "status": "PASS",
+      "operations": 886,
+      "positions": 4428,
+      "events": 712,
+      "deposits": 144,
+      "external_capital": 460000.0
+    },
+    {
+      "portfolio": "VVAL",
+      "test": "ZERO_TAX_FULL_BOOK_PR5_PARITY",
+      "status": "PASS",
+      "operations": 1056,
+      "positions": 5103,
+      "events": 717,
+      "deposits": 144,
+      "external_capital": 460000.0
+    }
+  ],
+  "policy_sha256": "e357bac84ed351332a68e7c991ff60840491ee4122ccb6d02e8182461770907d",
+  "status": "COMPUTED_CONDITIONAL_NOT_FULL_TAX_CERTIFICATION",
+  "tests": {
+    "command": "python -m pytest -q tests/test_monthly_tax.py tests/test_monthly_contributions.py",
+    "passed": 52
+  }
+}
