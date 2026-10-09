@@ -1,0 +1,91 @@
+{
+  "formation_year": 2016,
+  "cutoff": "2016-06-30",
+  "decision_commit": "267e313b76d9d137b7416de58466e340b263e4a9",
+  "files": [
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/economic_reviews.json",
+      "sha256": "99f09b4330bf196704b82c19ef4ea9ad0b4f8cdd1a8900cea3e279ae57505922"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/fundamental_decisions.json",
+      "sha256": "88ccb881b30ece8f9bd52f5d69e6428b9c95667a3f87e7232b256eb709052e1f"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/fundamental_decisions_lock.json",
+      "sha256": "e4ccf939168e0a65c3bd39122f50c73513678c650b5aa99c59f405a52db20238"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_original_sources.json",
+      "sha256": "2e1ebd3e398a5a0c3e9a707b56df8be90709d5c483009afe7f5bfef116c6bc3c"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/funding_policy_2015.json",
+      "sha256": "f7f95d5a86a91ebb6df3ac933ae29c9ce0faa0304c55011d50ea82b9bc45ee40"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/cvm_directed_extract.json.gz",
+      "sha256": "58a63d2709f49de09e1ad238344bf3fbb1d79a9697e8ee709d8e7df48091c6e7"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/ipca_sgs433.json",
+      "sha256": "d538119d8a84569b60d9c3ff535a00a5fe21fea10c25feddb84c92e702023abc"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/ipca_availability.json",
+      "sha256": "9ff50cf76d3888b82533aa34a1df03f6df4de7b8a008dc2e8909f9ed0217f80f"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_progress.json",
+      "sha256": "2cf5c946666989fa4ac96102b6ee56cf34cb74fea6fea36f445a4e16b512da29"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/economic_reviews_2015.json",
+      "sha256": "c6fcad8ac230c7a10afbeeb5a49c64142c01102a4cd49e80a20c89609bdedce5"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/economic_reviews_2016.json",
+      "sha256": "72efced6b70faa57072a5a771a8643c74e8d585cf7c455d92a2fe069af852a9d"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/cdi_sgs12_apr_june2016.json",
+      "sha256": "ec9f57c236a9f1020f7f3ffb7736edee6031cd5ff078d27d0c7d455b4b8516f1"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/cdi_sgs12_june2016.json",
+      "sha256": "22329510704993179ffa3063154760083b2e2f4cb5234a288b5be3f0ecfe911d"
+    },
+    {
+      "path": "docs/reviews/adversarial_2016.json",
+      "sha256": "cbb450601e41793477e047402f26898b5b057a18fdc0c59bd839ed0885d329b8"
+    },
+    {
+      "path": "scripts/b00s_documentary.py",
+      "sha256": "a91a10f638159896774ea353516c452b03f9e2640b74bfc9556d74517db26d0e"
+    },
+    {
+      "path": "scripts/b00s_fundamentals.py",
+      "sha256": "c27f9b23e354c97b3989166a72af2327cbe403af59d590a8d6d6b7b20fcff70c"
+    },
+    {
+      "path": "scripts/b00s_incremental.py",
+      "sha256": "d98272b5ab1f4101c50fa63158d3edd26d6348dae80f31c615b59a026385fdf9"
+    },
+    {
+      "path": "scripts/b00s_funding.py",
+      "sha256": "a0aea3e0ce6ec2df8086d5bb795db81dee9f9181bf3a4a3b9c01b53ff06feafb"
+    },
+    {
+      "path": "tests/test_b00s_funding.py",
+      "sha256": "86d35d98bafe5dd7c0602cc8c75e2ee904c9e79e6a6182a2dc12903b7a7721ae"
+    }
+  ],
+  "scope": "Incremental economic and six-dimension reviews frozen before any actual 2016–2017 VVAL/VQ return replay. Prior numerical checkpoints and original criteria preserved.",
+  "preserved_initial_commit": "5d50cc55c0ad07aa4dea6c76a7f7b7ca4c032f14",
+  "criteria_commit": "7fea064530bd494fb3edf9410c63980908a2197c",
+  "funding_frozen_commits": [
+    "d34c7fb",
+    "f0558a1"
+  ],
+  "returns_observed_before_freeze": false
+}
