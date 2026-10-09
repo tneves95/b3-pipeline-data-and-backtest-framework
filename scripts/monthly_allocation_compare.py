@@ -13,17 +13,18 @@ import math
 from pathlib import Path
 
 import monthly_contributions as original
-import monthly_corrected_simulate as engine
-from monthly_policy_corrected import (FAIL_REASON, maintenance_evidence,
-    review_members as base_review_members,
+import monthly_reaudit_simulate as engine
+from monthly_policy_corrected import (FAIL_REASON,
     recognize_winners as base_recognize_winners)
+from monthly_maintenance_reaudit import (
+    maintenance_evidence, review_members as base_review_members, guard_prior)
 from monthly_tax_accounting import Fiscal
 
 original_allocator = engine.allocate_cash
 
 ROOT = original.ROOT
-PARENT = ROOT / 'research/monthly_policy_corrected_2014_2026'
-OUT = ROOT / 'research/monthly_allocation_comparison_2014_2026'
+PARENT = ROOT / 'research/monthly_reaudited_2014_2026'
+OUT = ROOT / 'research/monthly_allocation_reaudited_2014_2026'
 LEGACY = ROOT / 'research/monthly_tax_2014_2026'
 
 MODES = {
@@ -65,22 +66,34 @@ class WinnerShield:
 
     def __init__(self):
         self.winners = set()
+        self.blocked = set()
         self.first_recognized = {}
         self.prevented_sales = []
         self.current_year = 2014
 
     def review_members(self, portfolio, year, buyers, candidates, evidence):
         self.current_year = year
+        # Retain previously recognized winners in the physical book AND
+        # original sector slots; documented FAIL suspends new purchases.
+        local_evidence = evidence.copy()
+        for c in sorted(set(buyers) & self.winners):
+            key = portfolio, year, c
+            proof = evidence.get(key)
+            if proof and proof['status'] == 'FAIL':
+                self.blocked.add(c)
+                local_evidence[key] = dict(proof, status='INDETERMINATE',
+                                           reason='WINNER_HOLD_NO_SELL')
+                self.prevented_sales.append(dict(
+                    portfolio=portfolio, year=year, lineage=c,
+                    ticker=proof.get('source_ticker',''),
+                    proof=proof.get('source',''),
+                    rule='PRIOR_WINNER_PRESERVED_SECTOR_SLOT_RETAINED_BUY_BLOCKED'))
+            elif proof and proof['status'] == 'PASS':
+                self.blocked.discard(c)
         desired, exits, entries = base_review_members(
-            portfolio, year, buyers, candidates, evidence)
-        for c in sorted(set(exits) & self.winners):
-            self.prevented_sales.append(dict(portfolio=portfolio,year=year,
-                lineage=c,ticker=exits[c].get('source_ticker',''),
-                proof=exits[c].get('source',''),
-                rule='WINNER_HOLD_STOP_NEW_BUYS_ON_FAIL'))
-            # Important: DO NOT restore 'c' to desired. It is held in the book
-            # and NAV, while new purchases are suspended on documented FAIL.
-            del exits[c]
+            portfolio, year, buyers, candidates, local_evidence)
+        assert not (set(exits) & self.winners), 'Winner sold at review'
+        assert all(c in desired for c in set(buyers)&self.winners&self.blocked)
         return desired, exits, entries
 
     def recognize_winners(self, buyers, winners, values, nav, trailing):
@@ -191,7 +204,7 @@ def unit_test_winner_shield():
             source_line=2,source_ticker='LOSS3')}
     desired, exits, entries=shield.review_members('V0',2024,
         {a:'WIN3',b:'LOSS3'},cand,ev)
-    assert a not in exits and b in exits and a not in desired
+    assert a not in exits and b in exits and a in desired and a in shield.blocked
     assert len(shield.prevented_sales)==1
     # Former winner is reactivated if again eligible, marker must persist.
     assert a in shield.recognize_winners(
@@ -203,7 +216,8 @@ def simulate_mode(portfolio, mode, policy, quote, evday, comps, evidence, tax_ev
     allocator=NaturalWeightAllocator() if policy=='NATURAL' else original_allocator
     former=(engine.allocate_cash, engine.review_members, engine.recognize_winners)
     try:
-        engine.allocate_cash=allocator
+        engine.allocate_cash=lambda values,cash,buyable,nav,refs: allocator(
+            values,cash,set(buyable)-shield.blocked,nav,refs)
         engine.review_members=shield.review_members
         engine.recognize_winners=shield.recognize_winners
         fiscal=Fiscal(portfolio, tax_ev, sessions, enabled=mode!='GROSS',
@@ -235,6 +249,7 @@ def main():
     unit_test_policy()
     unit_test_winner_shield()
     OUT.mkdir(parents=True,exist_ok=True)
+    guard_prior()
     baseline={mode:{r['portfolio']:r for r in read_csv(PARENT/name)}
               for mode,name in MODES.items()}
     evidence=maintenance_evidence()
@@ -260,6 +275,17 @@ def main():
             for policy in ('DEFICITS_PROTECTED','NATURAL'):
                 run, shield, allocator=simulate_mode(
                     portfolio,mode,policy,quote,evday,comps,evidence,tax_ev,sessions)
+                if policy=='DEFICITS_PROTECTED':
+                    base=baseline[mode][portfolio]
+                    assert math.isclose(run['summary']['final_wealth'],
+                        float(base['final_wealth']),rel_tol=1e-12,abs_tol=1e-5),(
+                        'BASELINE_WEALTH_MISMATCH',mode,portfolio)
+                    assert math.isclose(run['summary']['xirr_pct'],
+                        float(base['xirr_pct']),abs_tol=1e-8),(
+                        'BASELINE_XIRR_MISMATCH',mode,portfolio)
+                    assert run['summary']['voluntary_sales']==int(base['voluntary_sales']),(
+                        'BASELINE_EXIT_MISMATCH',mode,portfolio)
+
                 runs[policy]=(run,shield,allocator)
                 for prevented in shield.prevented_sales:
                     sale_shields.append(dict(mode=mode,policy=policy,**prevented))
@@ -270,7 +296,7 @@ def main():
             dm,dh=issuer_concentration(deficits['book'],quote,meta,ds['final_wealth'])
             nm,nh=issuer_concentration(natural['book'],quote,meta,ns['final_wealth'])
             row=dict(mode=mode,portfolio=portfolio,
-                pr6_frozen_wealth=float(past['final_wealth']),
+                pr6_reaudited_wealth=float(past['final_wealth']),
                 protected_deficits_wealth=ds['final_wealth'],
                 protected_natural_wealth=ns['final_wealth'],
                 protected_vs_frozen_deficits_R=ds['final_wealth']-float(past['final_wealth']),
@@ -288,7 +314,7 @@ def main():
                 protected_deficits_income_withheld=ds['income_withheld'],
                 protected_natural_income_withheld=ns['income_withheld'],
                 protected_deficits_cash=ds['cash'],protected_natural_cash=ns['cash'],
-                frozen_PR6_sales=int(past['voluntary_sales']),
+                reaudited_PR6_sales=int(past['voluntary_sales']),
                 protected_deficits_sales=ds['voluntary_sales'],
                 protected_natural_sales=ns['voluntary_sales'],
                 deficits_winner_sales_blocked=len(dshield.prevented_sales),
@@ -306,8 +332,9 @@ def main():
                         final_positions.append(dict(mode=mode,policy=policy,portfolio=portfolio,
                             lineage=c,ticker=ticker,quantity=q,close=quote[ticker,original.END],
                             market_value=q*quote[ticker,original.END],
-                            is_still_buyable=c in {x['lineage'] for x in run['positions']
-                                if x['date']==original.END and x['monthly_buy_target']}))
+                            is_still_buyable=(c not in shield.blocked and c in
+                                {x['lineage'] for x in run['positions']
+                                 if x['date']==original.END and x['monthly_buy_target']})))
             # Same dates, holdings and purchases policy only differs.
             da={r['date']:r for r in deficits['annual']}
             na={r['date']:r for r in natural['annual']}
@@ -315,7 +342,7 @@ def main():
                 a,b=da[d],na[d]
                 prior=parent_annual[mode].get((portfolio,d))
                 annually.append(dict(mode=mode,portfolio=portfolio,date=d,
-                    frozen_PR6_nav=prior['nav'] if prior else '',
+                    reaudited_PR6_nav=prior['nav'] if prior else '',
                     protected_deficits_nav=a['nav'],protected_natural_nav=b['nav'],
                     natural_minus_deficits_R=float(b['nav'])-float(a['nav']),
                     deficits_annual_twr_pct=a['twr_pct'],
@@ -328,7 +355,7 @@ def main():
                 p=float(prior['nav']) if prior and prior['nav'] else ''
                 va=a['nav'];vb=b['nav']
                 monthly.append(dict(mode=mode,portfolio=portfolio,date=d,
-                    frozen_PR6_nav=p,
+                    reaudited_PR6_nav=p,
                     protected_deficits_nav=va if va is not None else '',
                     protected_natural_nav=vb if vb is not None else '',
                     natural_minus_deficits_R=vb-va if va is not None and vb is not None else '',
@@ -343,6 +370,7 @@ def main():
                 f"SALES {ds['voluntary_sales']}/{ns['voluntary_sales']}",flush=True)
 
     assert len(all_rows)==15
+    guard_prior()
     assert len(annually)>=150
     assert len(monthly)>=1700
     write_csv(OUT/'allocation_comparison.csv',all_rows)
@@ -356,7 +384,7 @@ def main():
         strategies=['DEFICITS_PROTECTED','NATURAL'],
         policy='Both methods protect previously recognized winners forever, even if future FAIL. New purchases suspended on FAIL.',
         voluntary_sales='Only nonwinner CONFIRMED_MAINTENANCE_FAIL at June reviews.',
-        winner_marker='Previously recognized June winners persist after removal from buying universe and after dilution.',
+        winner_marker='Earlier flagged winners count against V10 sector slots even on later FAIL, when new buys stop.',
         deficit_rule='PR6 1/N and qualified winner 2/N, waterfill on deficits; NEVER sell by weight.',
         natural_rule='Allocate all available cash proportionally to actually invested eligible market values. For zero-weight entrants, seed up to cash/N per tranche, thereafter follow natural market weight.',
         entry_without_sale='Never sell to finance admission; seed uses only available cash.',
@@ -365,7 +393,9 @@ def main():
         capital_initial=100000,capital_monthly=2500,months=144,
         rows=len(all_rows),annual_rows=len(annually),monthly_rows=len(monthly),
         baseline_sha256={mode:sha256(PARENT/name) for mode,name in MODES.items()},
-        caveats=['Earlier PR6 results intentionally unchanged and NOT the correct comparator once former winner retention is required.',
+        baseline_sha='1d0cfd879fd294a438cbcdd94491567f1e51eac2',
+        baseline_policy='PR6 substantive PIT maintenance reaudited; verify identical underweight control.',
+        caveats=['Old PR7 and pre-reaudit PR6 results are obsolete for this comparison.',
             'Not every appreciated share qualifies objectively as winner; criterion frozen.',
             'BESST-10 BH remains conditional for NET/TIMP3.',
             'Historical tax and provent documentation partial, BBDC4/2014 eligibility unresolved.',

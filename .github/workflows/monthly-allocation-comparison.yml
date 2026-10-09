@@ -1,4 +1,4 @@
-name: Protected winners - compare monthly cash allocation
+name: Reaudited protected winners - compare monthly allocation
 on:
   pull_request:
     paths:
@@ -19,14 +19,16 @@ jobs:
         with:
           python-version: '3.12'
       - run: python -m pip install pytest==8.3.5 pandas==2.2.3 XlsxWriter==3.2.5 openpyxl==3.1.5
-      - name: Compare protected-winner strategies
+      - name: Reproduce substantiated June audit evidence
+        run: python scripts/monthly_maintenance_reaudit.py
+      - name: Compare reaudited strategies
         run: python scripts/monthly_allocation_compare.py
-      - name: Core regressions
-        run: python -m pytest -q tests/test_monthly_policy_corrected.py tests/test_monthly_tax.py
-      - name: Assert all frozen checkpoints unchanged
-        run: git diff --exit-code -- research/monthly_policy_corrected_2014_2026 research/monthly_tax_2014_2026
+      - name: Core reaudited and historical regressions
+        run: python -m pytest -q tests/test_monthly_reaudit.py tests/test_monthly_maintenance_fail_audit.py tests/test_monthly_policy_corrected.py tests/test_monthly_tax.py
+      - name: Assert frozen checkpoints and audit unchanged
+        run: git diff --exit-code -- research/monthly_reaudited_2014_2026 research/monthly_policy_corrected_2014_2026 research/monthly_tax_2014_2026 research/monthly_fail_audit_2014_2026
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:
-          name: allocation-strategies-protected-winners-2014-2026
-          path: research/monthly_allocation_comparison_2014_2026/
+          name: allocation-comparison-reaudited-winners-2014-2026
+          path: research/monthly_allocation_reaudited_2014_2026/
           retention-days: 90
