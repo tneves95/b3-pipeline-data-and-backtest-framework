@@ -174,7 +174,9 @@ def test_downloaded_originals_match_delivery_version_and_embedded_pdf():
         assert root.findtext('.//DataEntrega')[:10]==r['received']<=r['cutoff']
         assert root.findtext('.//NumeroVersaoDocumento')==s['version']
         inner=zipfile.ZipFile(io.BytesIO(raw))
-        version=ET.fromstring(inner.read('FormularioDemonstracaoFinanceiraDFP.xml'))
+        kind=Path(s['path']).suffixes[-2][1:].upper()
+        assert kind in ['DFP','ITR']
+        version=ET.fromstring(inner.read(f'FormularioDemonstracaoFinanceira{kind}.xml'))
         assert version.findtext('.//NumeroVersaoDocumento')==s['version']
         assert version.findtext('.//DataReferenciaDocumento')==s['reference']
         notes=ET.fromstring(inner.read('AnexoDocumento.xml'))
@@ -197,3 +199,70 @@ def test_2016_bbas_updated_financing_and_five_year_median_reconcile():
         real.append(floor*proof['ipca_factors'][year])
     assert statistics.median(real)==pytest.approx(proof['normalized_profit_lower'])
     assert proof['market_cap']/statistics.median(real)==pytest.approx(proof['pe_upper'])
+
+def test_2017_material_updates_do_not_become_automatic_approvals_or_exits():
+    rows={r['ticker']:r for r in json.loads((m.INPUT/'fundamental_decisions.json').read_text()) if r['year']==2017}
+    assert set(rows)=={r['ticker'] for r in m.candidates() if r['year']==2017}
+    for r in rows.values():
+        a=r['documentary_assessment']
+        assert len(a['dimensions'])==6
+        assert all(e['received']<=r['cutoff'] for e in a['incremental_review']['evidence'])
+        if r['ticker']!='SAPR4':
+            assert a['prior_assessment']=='2016:'+r['cnpj']
+            assert all(d['prior_year']==2016 and d['review_2017'] for d in a['dimensions'].values())
+    # Itaú's current, unresolved BankBoston proceeding changes the entry gate,
+    # never the base screen or the B2 right to retain an existing position.
+    bank=rows['ITUB4']
+    assert bank['documentary_assessment']['dimensions']['governance']['status']=='INDETERMINATE'
+    assert bank['quality_category']=='INDETERMINATE'
+    assert bank['base_status']=='PASS'
+    assert any(e['docid']=='66912' for e in bank['documentary_assessment']['dimensions']['governance']['evidence'])
+    for ticker in ['ABCB4','PSSA3','TBLE3']:
+        assert rows[ticker]['quality_category']=='QUALIFIED_SATISFACTORY'
+    # Five tranches are now documented, but the newly reported prior-period
+    # correction prevents transporting the earlier earnings floors blindly.
+    tim=rows['TIMP3']['documentary_assessment']
+    assert tim['valuation']['status']=='INDETERMINATE'
+    assert 'economic_metrics' not in tim
+    assert '370' in tim['valuation']['reason']
+    assert rows['SAPR4']['valuation_status']=='PASS_MATURE'
+    assert rows['SAPR4']['quality_category']=='INDETERMINATE'
+    assert rows['SAPR4']['normalized_profit'] is None
+    assert rows['SAPR4']['normalized_pe'] is None
+    assert rows['SAPR4']['normalized_pe_interval']['upper']<=15
+
+def test_sapr_2017_bound_reconciles_historical_tax_and_delivered_lease():
+    import hashlib, math
+    review=next(r for r in json.loads((m.INPUT/'economic_reviews_2017.json').read_text()) if r['ticker']=='SAPR4')
+    proof=review['numerical_proof'];lease=proof['lease_bridge'];bounds=review['valuation']['profit_bounds']
+    sources=json.loads((m.INPUT/'ipc_fipe_availability_2017.json').read_text())
+    for src in sources:
+        assert hashlib.sha256((m.INPUT/src['file']).read_bytes()).hexdigest()==src['sha256']
+    rates=json.loads((m.INPUT/'ipc_fipe_sgs193_june2016_may2017.json').read_text())
+    assert len(rates)==12 and rates[-1]['data']=='01/05/2017'
+    fipe=math.prod(1+float(r['valor'])/100 for r in rates)-1
+    rate=(1+lease['annual_contract_rate'])*(1+fipe)-1
+    cost=lease['march_2017_liability']*(1+rate)**.25*rate+868000
+    assert lease['annual_amortization_from_q1']==4*(288000-72000)
+    assert lease['annual_gross_cost_charged_to_each_real_fiscal_floor']==pytest.approx(cost)
+    real_floors=[]
+    for year,row in proof['tax_bridge']['rows'].items():
+        assert row['closing_provisions']==row['opening_provisions']+row['additions']-row['gross_reversals']
+        assert row['opening_dta']==pytest.approx(.34*row['opening_provisions'],abs=1000)
+        assert row['closing_dta']==pytest.approx(.34*row['closing_provisions'],abs=1000)
+        x=row['deduction_inputs']
+        # Historical tax on the reversal is reconciled; all other deductions
+        # and current lease costs remain gross. No speculative future tax credit.
+        nominal=x['reported']-.66*x['provision_releases']-sum(x[k] for k in ['other_revenue','asset_sale_revenue','other_financial_revenue','non_jcp_positive_tax','positive_pdd_reversal'])
+        factor=row['ipca_factor_same_as_proposal'];expected=nominal*factor-cost
+        assert bounds[year]['lower']*factor==pytest.approx(expected)
+        real_floors.append(expected)
+    assert set(bounds)=={'2012','2013','2014','2015','2016'}
+    assert bounds['2012']['lower'] is None and bounds['2015']['lower'] is None
+    # With two unbounded lower endpoints, the five-year median lower bound is
+    # the smallest proved floor, not the median of a shortened three-year sample.
+    capital=167911724*9.25+335823449*10.90
+    assert proof['median_lower']==pytest.approx(min(real_floors))
+    actual=next(r for r in json.loads((m.INPUT/'fundamental_decisions.json').read_text()) if r['year']==2017 and r['ticker']=='SAPR4')
+    assert actual['market_cap']==pytest.approx(capital)
+    assert actual['normalized_pe_interval']['upper']==pytest.approx(capital/min(real_floors))

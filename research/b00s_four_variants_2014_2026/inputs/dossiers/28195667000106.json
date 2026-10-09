@@ -2111,401 +2111,779 @@
       "year": 2017,
       "cutoff": "2017-06-30",
       "ticker": "ABCB4",
-      "category": "INDETERMINATE",
+      "category": "QUALIFIED_SATISFACTORY",
       "special_case": "",
-      "assessment_ref": null,
-      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
-      "classification_changed": null,
-      "dimensions": {},
-      "dimension_evidence_updates": {
+      "assessment_ref": "28195667000106:2017",
+      "assessment_status": "ASSESSED",
+      "classification_changed": false,
+      "dimensions": {
         "durability": {
-          "favorable": "O Banco tem por objeto a prática de operações ativas, passivas e acessórias inerentes às respectivas carteiras autorizadas pelo Banco Central do Brasil.",
+          "status": "SATISFACTORY",
+          "reason": "Franquia empresarial e suporte do controlador permanecem efetivos; carteira ampliada cresce paraR$21.191,2mi e serviços continuam gerando receita.",
+          "favorable": "Continuidade da base corporate e média empresa desde1989.",
+          "contrary_evidence": "Concentração nos20maiores devedores27,99%; ciclo empresarial permanece sensível.",
+          "missing": "",
           "evidence": [
             {
-              "cnpj": "28195667000106",
-              "received": "2016-08-08",
-              "name": "BANCO ABC BRASIL S/A",
-              "sector": "Bancos",
-              "activity": "O Banco tem por objeto a prática de operações ativas, passivas e acessórias inerentes às respectivas carteiras autorizadas pelo Banco Central do Brasil.",
-              "cvm": "020958",
-              "docid": "58547",
-              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=58547"
+              "docid": "63795",
+              "group": 412,
+              "pages": [
+                20,
+                37,
+                65,
+                85
+              ],
+              "received": "2017-03-29",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=63795",
+              "original": "review_originals/cvm_63795_g412.pdf.gz",
+              "original_sha256": "6a0b76ae34aae36c121fb503182d2995547608fb2002e5955416167bb18b07d8"
+            },
+            {
+              "docid": "63795",
+              "group": 1653,
+              "pages": [
+                1,
+                2,
+                3,
+                5,
+                6
+              ],
+              "received": "2017-03-29",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=63795",
+              "original": "review_originals/cvm_63795_g1653.pdf.gz",
+              "original_sha256": "4fd47998aa510e4cd231a549fa7fa747aba0c477adbb529f5dc15a4abacb3fa3"
+            },
+            {
+              "docid": "64655",
+              "group": 192,
+              "pages": [
+                1,
+                2
+              ],
+              "received": "2017-05-04",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=64655",
+              "original": "review_originals/cvm_64655_g192.pdf.gz",
+              "original_sha256": "fb044f3eeaa4393fe56b8673bc334a5021cd14f164cdc96aee7db1fb3fda6374"
+            },
+            {
+              "docid": "64655",
+              "group": 193,
+              "pages": [
+                30,
+                43,
+                44,
+                51
+              ],
+              "received": "2017-05-04",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=64655",
+              "original": "review_originals/cvm_64655_g193.pdf.gz",
+              "original_sha256": "767d63a021b3a6bca6769ba073226d212ea17cfe65b394b14d07a21887955068"
+            }
+          ],
+          "prior_year": 2016,
+          "review_2015": "A franquia corporate/middle continua operando com escala e receita, reutilizando o dossiê anterior.",
+          "review_2016": "Franquia focada em empresas médias/grandes segue operacional com originação e serviços; concentração é risco explícito e não uma franquia universal presumida.",
+          "review_2017": "Franquia empresarial e suporte do controlador permanecem efetivos; carteira ampliada cresce paraR$21.191,2mi e serviços continuam gerando receita."
+        },
+        "capital_economics": {
+          "status": "SATISFACTORY",
+          "reason": "A economia da franquia permanece demonstrada; lucro1T17R$96,9mi e ROE recorrente13,1% são diagnósticos atuais, sem convertê-los em retorno normalizado do prêmio15–25.",
+          "favorable": "Lucro positivo e expansão dos serviços; FY2016IFRS391,716mi deve ser distinguido doBRGAAP406,6mi.",
+          "contrary_evidence": "ROE recorrente cai frente14,3% no1T16; maior despesa de crédito reduz expansão de resultados.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "63795",
+              "group": 412,
+              "pages": [
+                20,
+                37,
+                65,
+                85
+              ],
+              "received": "2017-03-29",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=63795",
+              "original": "review_originals/cvm_63795_g412.pdf.gz",
+              "original_sha256": "6a0b76ae34aae36c121fb503182d2995547608fb2002e5955416167bb18b07d8"
+            },
+            {
+              "docid": "63795",
+              "group": 1653,
+              "pages": [
+                1,
+                2,
+                3,
+                5,
+                6
+              ],
+              "received": "2017-03-29",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=63795",
+              "original": "review_originals/cvm_63795_g1653.pdf.gz",
+              "original_sha256": "4fd47998aa510e4cd231a549fa7fa747aba0c477adbb529f5dc15a4abacb3fa3"
+            },
+            {
+              "docid": "64655",
+              "group": 192,
+              "pages": [
+                1,
+                2
+              ],
+              "received": "2017-05-04",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=64655",
+              "original": "review_originals/cvm_64655_g192.pdf.gz",
+              "original_sha256": "fb044f3eeaa4393fe56b8673bc334a5021cd14f164cdc96aee7db1fb3fda6374"
+            },
+            {
+              "docid": "64655",
+              "group": 193,
+              "pages": [
+                30,
+                43,
+                44,
+                51
+              ],
+              "received": "2017-05-04",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=64655",
+              "original": "review_originals/cvm_64655_g193.pdf.gz",
+              "original_sha256": "767d63a021b3a6bca6769ba073226d212ea17cfe65b394b14d07a21887955068"
+            }
+          ],
+          "prior_year": 2016,
+          "review_2015": "Retorno e custo de risco são avaliados conjuntamente, sem usar um ROE mínimo universal.",
+          "review_2016": "Retorno recorrente permanece coerente com o histórico, sem supor manutenção do crédito favorável nem aprovação porROE universal.",
+          "review_2017": "A economia da franquia permanece demonstrada; lucro1T17R$96,9mi e ROE recorrente13,1% são diagnósticos atuais, sem convertê-los em retorno normalizado do prêmio15–25."
+        },
+        "earnings_reliability": {
+          "status": "SATISFACTORY",
+          "reason": "Notas segregam a baseIFRS, resultadoBRGAAP, crédito, provisões e transações relacionadas; preserva rastreabilidade anterior.",
+          "favorable": "PCLD444,278mi, incluindo adicional50mi, e concentração individual explícitos.",
+          "contrary_evidence": "Mensuração de perdas e tributos continua sujeita a estimativas; não anualizar1T17.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "63795",
+              "group": 412,
+              "pages": [
+                20,
+                37,
+                65,
+                85
+              ],
+              "received": "2017-03-29",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=63795",
+              "original": "review_originals/cvm_63795_g412.pdf.gz",
+              "original_sha256": "6a0b76ae34aae36c121fb503182d2995547608fb2002e5955416167bb18b07d8"
+            },
+            {
+              "docid": "63795",
+              "group": 1653,
+              "pages": [
+                1,
+                2,
+                3,
+                5,
+                6
+              ],
+              "received": "2017-03-29",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=63795",
+              "original": "review_originals/cvm_63795_g1653.pdf.gz",
+              "original_sha256": "4fd47998aa510e4cd231a549fa7fa747aba0c477adbb529f5dc15a4abacb3fa3"
+            },
+            {
+              "docid": "64655",
+              "group": 192,
+              "pages": [
+                1,
+                2
+              ],
+              "received": "2017-05-04",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=64655",
+              "original": "review_originals/cvm_64655_g192.pdf.gz",
+              "original_sha256": "fb044f3eeaa4393fe56b8673bc334a5021cd14f164cdc96aee7db1fb3fda6374"
+            },
+            {
+              "docid": "64655",
+              "group": 193,
+              "pages": [
+                30,
+                43,
+                44,
+                51
+              ],
+              "received": "2017-05-04",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=64655",
+              "original": "review_originals/cvm_64655_g193.pdf.gz",
+              "original_sha256": "767d63a021b3a6bca6769ba073226d212ea17cfe65b394b14d07a21887955068"
+            }
+          ],
+          "prior_year": 2016,
+          "review_2015": "O crescimento do crédito é acompanhado das provisões e das notas; a conciliação IFRS anterior é preservada.",
+          "review_2016": "Conciliação fiscal/cambial e provisões permite entender o lucro; não considerar todo benefício de impostos ou ajuste cambial extraordinário sem contrapartida.",
+          "review_2017": "Notas segregam a baseIFRS, resultadoBRGAAP, crédito, provisões e transações relacionadas; preserva rastreabilidade anterior."
+        },
+        "financial_resilience": {
+          "status": "SATISFACTORY",
+          "reason": "PR3.292,140mi versusPRE1.949,544mi e Basileia15,62% sustentam a continuidade da resiliência, com menor folga que17,82% emdezembro.",
+          "favorable": "ExcedentePR1.342,596mi; AA–C94,2% dos empréstimos e98,9% das garantias.",
+          "contrary_evidence": "PCLD sobe de3,38% para3,87% em12meses; o texto da nota repete referência histórica9,88%, portanto não interpretar isso como requisito total2017 combuffers.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "63795",
+              "group": 412,
+              "pages": [
+                20,
+                37,
+                65,
+                85
+              ],
+              "received": "2017-03-29",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=63795",
+              "original": "review_originals/cvm_63795_g412.pdf.gz",
+              "original_sha256": "6a0b76ae34aae36c121fb503182d2995547608fb2002e5955416167bb18b07d8"
+            },
+            {
+              "docid": "63795",
+              "group": 1653,
+              "pages": [
+                1,
+                2,
+                3,
+                5,
+                6
+              ],
+              "received": "2017-03-29",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=63795",
+              "original": "review_originals/cvm_63795_g1653.pdf.gz",
+              "original_sha256": "4fd47998aa510e4cd231a549fa7fa747aba0c477adbb529f5dc15a4abacb3fa3"
+            },
+            {
+              "docid": "64655",
+              "group": 192,
+              "pages": [
+                1,
+                2
+              ],
+              "received": "2017-05-04",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=64655",
+              "original": "review_originals/cvm_64655_g192.pdf.gz",
+              "original_sha256": "fb044f3eeaa4393fe56b8673bc334a5021cd14f164cdc96aee7db1fb3fda6374"
+            },
+            {
+              "docid": "64655",
+              "group": 193,
+              "pages": [
+                30,
+                43,
+                44,
+                51
+              ],
+              "received": "2017-05-04",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=64655",
+              "original": "review_originals/cvm_64655_g193.pdf.gz",
+              "original_sha256": "767d63a021b3a6bca6769ba073226d212ea17cfe65b394b14d07a21887955068"
+            }
+          ],
+          "prior_year": 2016,
+          "review_2015": "A capitalização presente tem folga explícita e não depende de aporte presumido do controlador.",
+          "review_2016": "A piora de ratings vem acompanhada por provisões e capital acima da exigência vigente; não há prova de necessidade de capital emergencial.",
+          "review_2017": "PR3.292,140mi versusPRE1.949,544mi e Basileia15,62% sustentam a continuidade da resiliência, com menor folga que17,82% emdezembro."
+        },
+        "capital_allocation": {
+          "status": "SATISFACTORY",
+          "reason": "Retenção/reinvestimento, carteira e remuneração de acionistas continuam acompanhados de capital e lucro positivo; não há novo investimento material não explicado.",
+          "favorable": "Política combina distribuição e opção de reinvestimento, dentro da capitalização demonstrada.",
+          "contrary_evidence": "Retorno recorrente menor e concentração exigem disciplina; não supor crescimento rentável futuro.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "63795",
+              "group": 412,
+              "pages": [
+                20,
+                37,
+                65,
+                85
+              ],
+              "received": "2017-03-29",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=63795",
+              "original": "review_originals/cvm_63795_g412.pdf.gz",
+              "original_sha256": "6a0b76ae34aae36c121fb503182d2995547608fb2002e5955416167bb18b07d8"
+            },
+            {
+              "docid": "63795",
+              "group": 1653,
+              "pages": [
+                1,
+                2,
+                3,
+                5,
+                6
+              ],
+              "received": "2017-03-29",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=63795",
+              "original": "review_originals/cvm_63795_g1653.pdf.gz",
+              "original_sha256": "4fd47998aa510e4cd231a549fa7fa747aba0c477adbb529f5dc15a4abacb3fa3"
+            },
+            {
+              "docid": "64655",
+              "group": 192,
+              "pages": [
+                1,
+                2
+              ],
+              "received": "2017-05-04",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=64655",
+              "original": "review_originals/cvm_64655_g192.pdf.gz",
+              "original_sha256": "fb044f3eeaa4393fe56b8673bc334a5021cd14f164cdc96aee7db1fb3fda6374"
+            },
+            {
+              "docid": "64655",
+              "group": 193,
+              "pages": [
+                30,
+                43,
+                44,
+                51
+              ],
+              "received": "2017-05-04",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=64655",
+              "original": "review_originals/cvm_64655_g193.pdf.gz",
+              "original_sha256": "767d63a021b3a6bca6769ba073226d212ea17cfe65b394b14d07a21887955068"
+            }
+          ],
+          "prior_year": 2016,
+          "review_2015": "A alocação empresarial já examinada mantém retorno positivo com provisões e capital disponíveis.",
+          "review_2016": "Capital, retenção, JCP e recompras são quantificados e combinados com solvência; não se aprova só por payout.",
+          "review_2017": "Retenção/reinvestimento, carteira e remuneração de acionistas continuam acompanhados de capital e lucro positivo; não há novo investimento material não explicado."
+        },
+        "governance": {
+          "status": "SATISFACTORY",
+          "reason": "Controles, auditoria, termos de mercado das partes relacionadas e remuneração diferida condicionada ao resultado continuam comprovados.",
+          "favorable": "Pelo menos50% da remuneração variável em ações diferidas; entrega pode ser impedida por queda do lucro/prejuízo/erros. Auditor não prestou serviço extra no1T17.",
+          "contrary_evidence": "Controlador59,67% e empréstimo intragrupo422,912mi são conflitos possíveis explicitados, não prova de independência total.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "63795",
+              "group": 412,
+              "pages": [
+                20,
+                37,
+                65,
+                85
+              ],
+              "received": "2017-03-29",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=63795",
+              "original": "review_originals/cvm_63795_g412.pdf.gz",
+              "original_sha256": "6a0b76ae34aae36c121fb503182d2995547608fb2002e5955416167bb18b07d8"
+            },
+            {
+              "docid": "63795",
+              "group": 1653,
+              "pages": [
+                1,
+                2,
+                3,
+                5,
+                6
+              ],
+              "received": "2017-03-29",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=63795",
+              "original": "review_originals/cvm_63795_g1653.pdf.gz",
+              "original_sha256": "4fd47998aa510e4cd231a549fa7fa747aba0c477adbb529f5dc15a4abacb3fa3"
+            },
+            {
+              "docid": "64655",
+              "group": 192,
+              "pages": [
+                1,
+                2
+              ],
+              "received": "2017-05-04",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=64655",
+              "original": "review_originals/cvm_64655_g192.pdf.gz",
+              "original_sha256": "fb044f3eeaa4393fe56b8673bc334a5021cd14f164cdc96aee7db1fb3fda6374"
+            },
+            {
+              "docid": "64655",
+              "group": 193,
+              "pages": [
+                30,
+                43,
+                44,
+                51
+              ],
+              "received": "2017-05-04",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=64655",
+              "original": "review_originals/cvm_64655_g193.pdf.gz",
+              "original_sha256": "767d63a021b3a6bca6769ba073226d212ea17cfe65b394b14d07a21887955068"
+            }
+          ],
+          "prior_year": 2016,
+          "review_2015": "Controles anteriores permanecem e os vínculos materiais estão divulgados, sem aprovação automática por segmento de listagem.",
+          "review_2016": "Mantida comprovação documental além do Nível2: partes relacionadas, auditor e remuneração condicionada ao risco descritos.",
+          "review_2017": "Controles, auditoria, termos de mercado das partes relacionadas e remuneração diferida condicionada ao resultado continuam comprovados."
+        }
+      },
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "Continuidade da base corporate e média empresa desde1989.",
+          "evidence": [
+            {
+              "docid": "63795",
+              "group": 412,
+              "pages": [
+                20,
+                37,
+                65,
+                85
+              ],
+              "received": "2017-03-29",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=63795",
+              "original": "review_originals/cvm_63795_g412.pdf.gz",
+              "original_sha256": "6a0b76ae34aae36c121fb503182d2995547608fb2002e5955416167bb18b07d8"
+            },
+            {
+              "docid": "63795",
+              "group": 1653,
+              "pages": [
+                1,
+                2,
+                3,
+                5,
+                6
+              ],
+              "received": "2017-03-29",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=63795",
+              "original": "review_originals/cvm_63795_g1653.pdf.gz",
+              "original_sha256": "4fd47998aa510e4cd231a549fa7fa747aba0c477adbb529f5dc15a4abacb3fa3"
+            },
+            {
+              "docid": "64655",
+              "group": 192,
+              "pages": [
+                1,
+                2
+              ],
+              "received": "2017-05-04",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=64655",
+              "original": "review_originals/cvm_64655_g192.pdf.gz",
+              "original_sha256": "fb044f3eeaa4393fe56b8673bc334a5021cd14f164cdc96aee7db1fb3fda6374"
+            },
+            {
+              "docid": "64655",
+              "group": 193,
+              "pages": [
+                30,
+                43,
+                44,
+                51
+              ],
+              "received": "2017-05-04",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=64655",
+              "original": "review_originals/cvm_64655_g193.pdf.gz",
+              "original_sha256": "767d63a021b3a6bca6769ba073226d212ea17cfe65b394b14d07a21887955068"
             }
           ]
         },
         "capital_economics": {
-          "favorable": {
-            "roe_parent_5": [
-              0.15156528038466488,
-              0.14821559352662111,
-              0.16055411334994552,
-              0.1654066106963427,
-              0.14500274575934266
-            ],
-            "normalized_profit": 391757820.67593855
-          },
+          "favorable": "Lucro positivo e expansão dos serviços; FY2016IFRS391,716mi deve ser distinguido doBRGAAP406,6mi.",
           "evidence": [
             {
-              "fiscal_year": 2012,
-              "metric": "attributable_ni",
-              "value": 240919000.0,
-              "docid": "35855",
-              "received": "2014-03-28",
-              "reference": "2013-12-31",
-              "period_end": "2012-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2013.csv",
-              "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
-            },
-            {
-              "fiscal_year": 2013,
-              "metric": "attributable_ni",
-              "value": 265417000.0,
-              "docid": "45460",
-              "received": "2015-03-27",
-              "reference": "2014-12-31",
-              "period_end": "2013-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2014.csv",
-              "archive_sha256": "b8795dba134754475a485c0f88b6542face6613bb418d261caa011d90e032f28",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2014.zip"
-            },
-            {
-              "fiscal_year": 2014,
-              "metric": "attributable_ni",
-              "value": 328379000.0,
-              "docid": "54620",
-              "received": "2016-03-29",
-              "reference": "2015-12-31",
-              "period_end": "2014-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2015.csv",
-              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
-            },
-            {
-              "fiscal_year": 2015,
-              "metric": "attributable_ni",
-              "value": 388557000.0,
               "docid": "63795",
+              "group": 412,
+              "pages": [
+                20,
+                37,
+                65,
+                85
+              ],
               "received": "2017-03-29",
-              "reference": "2016-12-31",
-              "period_end": "2015-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2016.csv",
-              "archive_sha256": "772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip"
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=63795",
+              "original": "review_originals/cvm_63795_g412.pdf.gz",
+              "original_sha256": "6a0b76ae34aae36c121fb503182d2995547608fb2002e5955416167bb18b07d8"
             },
             {
-              "fiscal_year": 2016,
-              "metric": "attributable_ni",
-              "value": 391716000.0,
               "docid": "63795",
+              "group": 1653,
+              "pages": [
+                1,
+                2,
+                3,
+                5,
+                6
+              ],
               "received": "2017-03-29",
-              "reference": "2016-12-31",
-              "period_end": "2016-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2016.csv",
-              "archive_sha256": "772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip"
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=63795",
+              "original": "review_originals/cvm_63795_g1653.pdf.gz",
+              "original_sha256": "4fd47998aa510e4cd231a549fa7fa747aba0c477adbb529f5dc15a4abacb3fa3"
+            },
+            {
+              "docid": "64655",
+              "group": 192,
+              "pages": [
+                1,
+                2
+              ],
+              "received": "2017-05-04",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=64655",
+              "original": "review_originals/cvm_64655_g192.pdf.gz",
+              "original_sha256": "fb044f3eeaa4393fe56b8673bc334a5021cd14f164cdc96aee7db1fb3fda6374"
+            },
+            {
+              "docid": "64655",
+              "group": 193,
+              "pages": [
+                30,
+                43,
+                44,
+                51
+              ],
+              "received": "2017-05-04",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=64655",
+              "original": "review_originals/cvm_64655_g193.pdf.gz",
+              "original_sha256": "767d63a021b3a6bca6769ba073226d212ea17cfe65b394b14d07a21887955068"
             }
           ]
         },
         "earnings_reliability": {
-          "favorable": {
-            "positive_attributable_years": 5,
-            "audit_records": 5
-          },
+          "favorable": "PCLD444,278mi, incluindo adicional50mi, e concentração individual explícitos.",
           "evidence": [
             {
               "docid": "63795",
+              "group": 412,
+              "pages": [
+                20,
+                37,
+                65,
+                85
+              ],
               "received": "2017-03-29",
-              "reference": "2016-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2016.csv",
-              "archive_sha256": "772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip"
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=63795",
+              "original": "review_originals/cvm_63795_g412.pdf.gz",
+              "original_sha256": "6a0b76ae34aae36c121fb503182d2995547608fb2002e5955416167bb18b07d8"
             },
             {
               "docid": "63795",
+              "group": 1653,
+              "pages": [
+                1,
+                2,
+                3,
+                5,
+                6
+              ],
               "received": "2017-03-29",
-              "reference": "2016-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2016.csv",
-              "archive_sha256": "772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip"
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=63795",
+              "original": "review_originals/cvm_63795_g1653.pdf.gz",
+              "original_sha256": "4fd47998aa510e4cd231a549fa7fa747aba0c477adbb529f5dc15a4abacb3fa3"
             },
             {
-              "docid": "63795",
-              "received": "2017-03-29",
-              "reference": "2016-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2016.csv",
-              "archive_sha256": "772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip"
+              "docid": "64655",
+              "group": 192,
+              "pages": [
+                1,
+                2
+              ],
+              "received": "2017-05-04",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=64655",
+              "original": "review_originals/cvm_64655_g192.pdf.gz",
+              "original_sha256": "fb044f3eeaa4393fe56b8673bc334a5021cd14f164cdc96aee7db1fb3fda6374"
             },
             {
-              "docid": "63795",
-              "received": "2017-03-29",
-              "reference": "2016-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2016.csv",
-              "archive_sha256": "772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip"
-            },
-            {
-              "docid": "63795",
-              "received": "2017-03-29",
-              "reference": "2016-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2016.csv",
-              "archive_sha256": "772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip"
+              "docid": "64655",
+              "group": 193,
+              "pages": [
+                30,
+                43,
+                44,
+                51
+              ],
+              "received": "2017-05-04",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=64655",
+              "original": "review_originals/cvm_64655_g193.pdf.gz",
+              "original_sha256": "767d63a021b3a6bca6769ba073226d212ea17cfe65b394b14d07a21887955068"
             }
           ]
         },
         "financial_resilience": {
-          "favorable": {
-            "parent_equity_latest": 2893218000.0
-          },
+          "favorable": "ExcedentePR1.342,596mi; AA–C94,2% dos empréstimos e98,9% das garantias.",
           "evidence": [
             {
               "docid": "63795",
+              "group": 412,
+              "pages": [
+                20,
+                37,
+                65,
+                85
+              ],
               "received": "2017-03-29",
-              "reference": "2016-12-31",
-              "period_end": "2016-12-31",
-              "perimeter": "ind",
-              "account": "2.05",
-              "description": "Patrimônio Líquido",
-              "source": "dfp_cia_aberta_BPP_ind_2016.csv",
-              "archive_sha256": "",
-              "url": ""
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=63795",
+              "original": "review_originals/cvm_63795_g412.pdf.gz",
+              "original_sha256": "6a0b76ae34aae36c121fb503182d2995547608fb2002e5955416167bb18b07d8"
+            },
+            {
+              "docid": "63795",
+              "group": 1653,
+              "pages": [
+                1,
+                2,
+                3,
+                5,
+                6
+              ],
+              "received": "2017-03-29",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=63795",
+              "original": "review_originals/cvm_63795_g1653.pdf.gz",
+              "original_sha256": "4fd47998aa510e4cd231a549fa7fa747aba0c477adbb529f5dc15a4abacb3fa3"
+            },
+            {
+              "docid": "64655",
+              "group": 192,
+              "pages": [
+                1,
+                2
+              ],
+              "received": "2017-05-04",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=64655",
+              "original": "review_originals/cvm_64655_g192.pdf.gz",
+              "original_sha256": "fb044f3eeaa4393fe56b8673bc334a5021cd14f164cdc96aee7db1fb3fda6374"
+            },
+            {
+              "docid": "64655",
+              "group": 193,
+              "pages": [
+                30,
+                43,
+                44,
+                51
+              ],
+              "received": "2017-05-04",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=64655",
+              "original": "review_originals/cvm_64655_g193.pdf.gz",
+              "original_sha256": "767d63a021b3a6bca6769ba073226d212ea17cfe65b394b14d07a21887955068"
             }
           ]
         },
         "capital_allocation": {
-          "favorable": {
-            "historical_payout": [
-              0.4035,
-              0.3193,
-              0.3151,
-              0.3667,
-              null
-            ],
-            "distributions": [
-              86872318.97,
-              85647311.8,
-              97887791.72,
-              136018649.64,
-              null
-            ]
-          },
+          "favorable": "Política combina distribuição e opção de reinvestimento, dentro da capitalização demonstrada.",
           "evidence": [
             {
-              "docid": "55314",
-              "received": "2016-04-27",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2015.csv",
-              "archive_sha256": "21be79d408fcc08e9edafcee941f02a339c5664e96b3ad83afd84f27ed838d60",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=55314",
-              "fiscal_year": 2012,
-              "raw": {
-                "CNPJ_Companhia": "28.195.667/0001-06",
-                "Data_Referencia": "2015-01-01",
-                "Versao": "13",
-                "ID_Documento": "55314",
-                "Nome_Companhia": "BCO ABC BRASIL S.A.",
-                "Data_Inicio_Exercicio_Social": "2012-01-01",
-                "Data_Fim_Exercicio_Social": "2012-12-31",
-                "Lucro_Liquido_Ajustado": "215287893.33",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "5.17000000",
-                "Lucro_Liquido_Retido": "139746516.12",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "40.35000000",
-                "Dividendo_Distribuido_Total": "86872318.97",
-                "Data_Aprovacao_Retencao": "2013-04-23"
-              }
+              "docid": "63795",
+              "group": 412,
+              "pages": [
+                20,
+                37,
+                65,
+                85
+              ],
+              "received": "2017-03-29",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=63795",
+              "original": "review_originals/cvm_63795_g412.pdf.gz",
+              "original_sha256": "6a0b76ae34aae36c121fb503182d2995547608fb2002e5955416167bb18b07d8"
             },
             {
-              "docid": "64721",
-              "received": "2017-05-05",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2016.csv",
-              "archive_sha256": "bfd0513d903cb3e5a43360dcb1673b3c9ac1f23396974726cca764df64d481cc",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=64721",
-              "fiscal_year": 2013,
-              "raw": {
-                "CNPJ_Companhia": "28.195.667/0001-06",
-                "Data_Referencia": "2016-01-01",
-                "Versao": "15",
-                "ID_Documento": "64721",
-                "Nome_Companhia": "BCO ABC BRASIL S.A.",
-                "Data_Inicio_Exercicio_Social": "2013-01-01",
-                "Data_Fim_Exercicio_Social": "2013-12-31",
-                "Lucro_Liquido_Ajustado": "268263024.57",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "4.47000000",
-                "Lucro_Liquido_Retido": "182615712.77",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "31.93000000",
-                "Dividendo_Distribuido_Total": "85647311.80",
-                "Data_Aprovacao_Retencao": "2014-04-23"
-              }
+              "docid": "63795",
+              "group": 1653,
+              "pages": [
+                1,
+                2,
+                3,
+                5,
+                6
+              ],
+              "received": "2017-03-29",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=63795",
+              "original": "review_originals/cvm_63795_g1653.pdf.gz",
+              "original_sha256": "4fd47998aa510e4cd231a549fa7fa747aba0c477adbb529f5dc15a4abacb3fa3"
             },
             {
-              "docid": "64721",
-              "received": "2017-05-05",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2016.csv",
-              "archive_sha256": "bfd0513d903cb3e5a43360dcb1673b3c9ac1f23396974726cca764df64d481cc",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=64721",
-              "fiscal_year": 2014,
-              "raw": {
-                "CNPJ_Companhia": "28.195.667/0001-06",
-                "Data_Referencia": "2016-01-01",
-                "Versao": "15",
-                "ID_Documento": "64721",
-                "Nome_Companhia": "BCO ABC BRASIL S.A.",
-                "Data_Inicio_Exercicio_Social": "2014-01-01",
-                "Data_Fim_Exercicio_Social": "2014-12-31",
-                "Lucro_Liquido_Ajustado": "310647234.56",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "4.47000000",
-                "Lucro_Liquido_Retido": "212759441.47",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "31.51000000",
-                "Dividendo_Distribuido_Total": "97887791.72",
-                "Data_Aprovacao_Retencao": "2015-04-20"
-              }
+              "docid": "64655",
+              "group": 192,
+              "pages": [
+                1,
+                2
+              ],
+              "received": "2017-05-04",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=64655",
+              "original": "review_originals/cvm_64655_g192.pdf.gz",
+              "original_sha256": "fb044f3eeaa4393fe56b8673bc334a5021cd14f164cdc96aee7db1fb3fda6374"
             },
             {
-              "docid": "64721",
-              "received": "2017-05-05",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2016.csv",
-              "archive_sha256": "bfd0513d903cb3e5a43360dcb1673b3c9ac1f23396974726cca764df64d481cc",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=64721",
-              "fiscal_year": 2015,
-              "raw": {
-                "CNPJ_Companhia": "28.195.667/0001-06",
-                "Data_Referencia": "2016-01-01",
-                "Versao": "15",
-                "ID_Documento": "64721",
-                "Nome_Companhia": "BCO ABC BRASIL S.A.",
-                "Data_Inicio_Exercicio_Social": "2015-01-01",
-                "Data_Fim_Exercicio_Social": "2015-12-31",
-                "Lucro_Liquido_Ajustado": "370911208.76",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "5.42000000",
-                "Lucro_Liquido_Retido": "234892559.12",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "36.67000000",
-                "Dividendo_Distribuido_Total": "136018649.64",
-                "Data_Aprovacao_Retencao": "2016-04-14"
-              }
+              "docid": "64655",
+              "group": 193,
+              "pages": [
+                30,
+                43,
+                44,
+                51
+              ],
+              "received": "2017-05-04",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=64655",
+              "original": "review_originals/cvm_64655_g193.pdf.gz",
+              "original_sha256": "767d63a021b3a6bca6769ba073226d212ea17cfe65b394b14d07a21887955068"
             }
           ]
         },
         "governance": {
-          "favorable": {
-            "dated_shareholder_right_records": 16,
-            "dated_related_party_records": 117
-          },
+          "favorable": "Pelo menos50% da remuneração variável em ações diferidas; entrega pode ser impedida por queda do lucro/prejuízo/erros. Auditor não prestou serviço extra no1T17.",
           "evidence": [
             {
               "docid": "63795",
+              "group": 412,
+              "pages": [
+                20,
+                37,
+                65,
+                85
+              ],
               "received": "2017-03-29",
-              "reference": "2016-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2016.csv",
-              "archive_sha256": "772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip"
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=63795",
+              "original": "review_originals/cvm_63795_g412.pdf.gz",
+              "original_sha256": "6a0b76ae34aae36c121fb503182d2995547608fb2002e5955416167bb18b07d8"
             },
             {
               "docid": "63795",
+              "group": 1653,
+              "pages": [
+                1,
+                2,
+                3,
+                5,
+                6
+              ],
               "received": "2017-03-29",
-              "reference": "2016-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2016.csv",
-              "archive_sha256": "772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip"
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=63795",
+              "original": "review_originals/cvm_63795_g1653.pdf.gz",
+              "original_sha256": "4fd47998aa510e4cd231a549fa7fa747aba0c477adbb529f5dc15a4abacb3fa3"
             },
             {
-              "docid": "63795",
-              "received": "2017-03-29",
-              "reference": "2016-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2016.csv",
-              "archive_sha256": "772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip"
+              "docid": "64655",
+              "group": 192,
+              "pages": [
+                1,
+                2
+              ],
+              "received": "2017-05-04",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=64655",
+              "original": "review_originals/cvm_64655_g192.pdf.gz",
+              "original_sha256": "fb044f3eeaa4393fe56b8673bc334a5021cd14f164cdc96aee7db1fb3fda6374"
             },
             {
-              "docid": "63795",
-              "received": "2017-03-29",
-              "reference": "2016-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2016.csv",
-              "archive_sha256": "772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip"
-            },
-            {
-              "docid": "63795",
-              "received": "2017-03-29",
-              "reference": "2016-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2016.csv",
-              "archive_sha256": "772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip"
+              "docid": "64655",
+              "group": 193,
+              "pages": [
+                30,
+                43,
+                44,
+                51
+              ],
+              "received": "2017-05-04",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=64655",
+              "original": "review_originals/cvm_64655_g193.pdf.gz",
+              "original_sha256": "767d63a021b3a6bca6769ba073226d212ea17cfe65b394b14d07a21887955068"
             }
           ]
         }
