@@ -1,0 +1,504 @@
+{
+  "status": "PASS",
+  "count": 18,
+  "tests": [
+    {
+      "name": "single_new_empty_sector_no_FAIL",
+      "status": "PASS",
+      "details": {
+        "before": {
+          "A3": 100
+        },
+        "status_by_ticker": {
+          "A3": "PASS",
+          "C3": "PASS"
+        },
+        "qualified": [
+          "C3"
+        ],
+        "requests": {
+          "C3": 0.2
+        },
+        "after": {
+          "A3": 80.0,
+          "C3": 20.0
+        },
+        "ledger": [
+          {
+            "ticker": "A3",
+            "before": 100,
+            "after": 80.0,
+            "change": -20.0,
+            "reason": "ENTRY_FINANCING"
+          },
+          {
+            "ticker": "C3",
+            "before": 0.0,
+            "after": 20.0,
+            "change": 20.0,
+            "reason": "PASS_ENTRY"
+          }
+        ]
+      }
+    },
+    {
+      "name": "same_sector_retained_ND_incumbent",
+      "status": "PASS",
+      "details": {
+        "before": {
+          "A3": 100
+        },
+        "status_by_ticker": {
+          "A3": "INDETERMINATE",
+          "B3": "PASS"
+        },
+        "qualified": [
+          "B3"
+        ],
+        "requests": {
+          "B3": 0.1
+        },
+        "after": {
+          "A3": 90.0,
+          "B3": 10.0
+        },
+        "ledger": [
+          {
+            "ticker": "A3",
+            "before": 100,
+            "after": 90.0,
+            "change": -10.0,
+            "reason": "ENTRY_FINANCING"
+          },
+          {
+            "ticker": "B3",
+            "before": 0.0,
+            "after": 10.0,
+            "change": 10.0,
+            "reason": "PASS_ENTRY"
+          }
+        ]
+      }
+    },
+    {
+      "name": "incumbent_missing_base_status_preserved",
+      "status": "PASS",
+      "details": {
+        "before": {
+          "A3": 100
+        },
+        "status_by_ticker": {
+          "B3": "PASS"
+        },
+        "qualified": [
+          "B3"
+        ],
+        "requests": {
+          "B3": 0.1
+        },
+        "after": {
+          "A3": 90.0,
+          "B3": 10.0
+        },
+        "ledger": [
+          {
+            "ticker": "A3",
+            "before": 100,
+            "after": 90.0,
+            "change": -10.0,
+            "reason": "ENTRY_FINANCING"
+          },
+          {
+            "ticker": "B3",
+            "before": 0.0,
+            "after": 10.0,
+            "change": 10.0,
+            "reason": "PASS_ENTRY"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FAIL_proceeds_insufficient",
+      "status": "PASS",
+      "details": {
+        "before": {
+          "A3": 95,
+          "D3": 5
+        },
+        "status_by_ticker": {
+          "A3": "PASS",
+          "D3": "FAIL",
+          "C3": "PASS"
+        },
+        "qualified": [
+          "C3"
+        ],
+        "requests": {
+          "C3": 0.2
+        },
+        "after": {
+          "A3": 80.0,
+          "C3": 20.0
+        },
+        "ledger": [
+          {
+            "ticker": "A3",
+            "before": 95,
+            "after": 80.0,
+            "change": -15.0,
+            "reason": "ENTRY_FINANCING"
+          },
+          {
+            "ticker": "C3",
+            "before": 0.0,
+            "after": 20.0,
+            "change": 20.0,
+            "reason": "PASS_ENTRY"
+          },
+          {
+            "ticker": "D3",
+            "before": 5,
+            "after": 0.0,
+            "change": -5.0,
+            "reason": "FAIL_EXIT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FAIL_proceeds_exceed_request",
+      "status": "PASS",
+      "details": {
+        "before": {
+          "A3": 50,
+          "D3": 50
+        },
+        "status_by_ticker": {
+          "A3": "PASS",
+          "D3": "FAIL",
+          "C3": "PASS"
+        },
+        "qualified": [
+          "C3"
+        ],
+        "requests": {
+          "C3": 0.2
+        },
+        "after": {
+          "A3": 50,
+          "C3": 50.0
+        },
+        "ledger": [
+          {
+            "ticker": "A3",
+            "before": 50,
+            "after": 50,
+            "change": 0,
+            "reason": "PRESERVED"
+          },
+          {
+            "ticker": "C3",
+            "before": 0.0,
+            "after": 50.0,
+            "change": 50.0,
+            "reason": "PASS_ENTRY"
+          },
+          {
+            "ticker": "D3",
+            "before": 50,
+            "after": 0.0,
+            "change": -50.0,
+            "reason": "FAIL_EXIT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "multiple_entries_not_rebalanced",
+      "status": "PASS",
+      "details": {
+        "before": {
+          "A3": 60,
+          "AR": 10,
+          "D3": 30
+        },
+        "status_by_ticker": {
+          "A3": "PASS",
+          "AR": "INDETERMINATE",
+          "D3": "PASS",
+          "B3": "PASS",
+          "C3": "PASS"
+        },
+        "qualified": [
+          "B3",
+          "C3"
+        ],
+        "requests": {
+          "B3": 0.1,
+          "C3": 0.2
+        },
+        "after": {
+          "A3": 42.0,
+          "AR": 7.0,
+          "D3": 21.0,
+          "B3": 10.0,
+          "C3": 20.0
+        },
+        "ledger": [
+          {
+            "ticker": "A3",
+            "before": 60,
+            "after": 42.0,
+            "change": -18.0,
+            "reason": "ENTRY_FINANCING"
+          },
+          {
+            "ticker": "AR",
+            "before": 10,
+            "after": 7.0,
+            "change": -3.0,
+            "reason": "ENTRY_FINANCING"
+          },
+          {
+            "ticker": "B3",
+            "before": 0.0,
+            "after": 10.0,
+            "change": 10.0,
+            "reason": "PASS_ENTRY"
+          },
+          {
+            "ticker": "C3",
+            "before": 0.0,
+            "after": 20.0,
+            "change": 20.0,
+            "reason": "PASS_ENTRY"
+          },
+          {
+            "ticker": "D3",
+            "before": 30,
+            "after": 21.0,
+            "change": -9.0,
+            "reason": "ENTRY_FINANCING"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CNPJ_second_class_no_entry",
+      "status": "PASS",
+      "details": {
+        "before": {
+          "A3": 80,
+          "AR": 10,
+          "AS": 10
+        },
+        "status_by_ticker": {
+          "A3": "PASS",
+          "AR": "INDETERMINATE",
+          "AS": "INDETERMINATE",
+          "A4": "PASS"
+        },
+        "qualified": [
+          "A4"
+        ],
+        "requests": {},
+        "after": {
+          "A3": 80,
+          "AR": 10,
+          "AS": 10
+        },
+        "ledger": [
+          {
+            "ticker": "A3",
+            "before": 80,
+            "after": 80,
+            "change": 0,
+            "reason": "PRESERVED"
+          },
+          {
+            "ticker": "AR",
+            "before": 10,
+            "after": 10,
+            "change": 0,
+            "reason": "PRESERVED"
+          },
+          {
+            "ticker": "AS",
+            "before": 10,
+            "after": 10,
+            "change": 0,
+            "reason": "PRESERVED"
+          }
+        ]
+      }
+    },
+    {
+      "name": "two_new_classes_blocked",
+      "status": "PASS",
+      "expected_error": "Two classes cannot create two entry slots"
+    },
+    {
+      "name": "FAIL_base_new_purchase_blocked",
+      "status": "PASS",
+      "expected_error": "Only base PASS may enter"
+    },
+    {
+      "name": "ND_base_new_purchase_blocked",
+      "status": "PASS",
+      "expected_error": "Only base PASS may enter"
+    },
+    {
+      "name": "same_lineage_FAIL_PASS_conflict_blocked",
+      "status": "PASS",
+      "expected_error": "Conflicting FAIL and PASS in the same economic lineage"
+    },
+    {
+      "name": "no_entry_buy_filter_ND_preserves",
+      "status": "PASS",
+      "details": {
+        "before": {
+          "A3": 70,
+          "D3": 30
+        },
+        "status_by_ticker": {
+          "A3": "PASS",
+          "D3": "PASS"
+        },
+        "qualified": [],
+        "requests": {},
+        "after": {
+          "A3": 70,
+          "D3": 30
+        },
+        "ledger": [
+          {
+            "ticker": "A3",
+            "before": 70,
+            "after": 70,
+            "change": 0,
+            "reason": "PRESERVED"
+          },
+          {
+            "ticker": "D3",
+            "before": 30,
+            "after": 30,
+            "change": 0,
+            "reason": "PRESERVED"
+          }
+        ]
+      }
+    },
+    {
+      "name": "no_entry_with_FAIL_only_redistribution",
+      "status": "PASS",
+      "details": {
+        "before": {
+          "A3": 70,
+          "D3": 30
+        },
+        "status_by_ticker": {
+          "A3": "INDETERMINATE",
+          "D3": "FAIL"
+        },
+        "qualified": [],
+        "requests": {},
+        "after": {
+          "A3": 100.0
+        },
+        "ledger": [
+          {
+            "ticker": "A3",
+            "before": 70,
+            "after": 100.0,
+            "change": 30.0,
+            "reason": "EXIT_REDISTRIBUTION"
+          },
+          {
+            "ticker": "D3",
+            "before": 30,
+            "after": 0.0,
+            "change": -30.0,
+            "reason": "FAIL_EXIT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "all_FAIL_without_destination_blocked",
+      "status": "PASS",
+      "expected_error": "All holdings FAIL without an eligible destination"
+    },
+    {
+      "name": "all_FAIL_eligible_destination",
+      "status": "PASS",
+      "details": {
+        "before": {
+          "A3": 100
+        },
+        "status_by_ticker": {
+          "A3": "FAIL",
+          "C3": "PASS"
+        },
+        "qualified": [
+          "C3"
+        ],
+        "requests": {
+          "C3": 0.2
+        },
+        "after": {
+          "C3": 100.0
+        },
+        "ledger": [
+          {
+            "ticker": "A3",
+            "before": 100,
+            "after": 0.0,
+            "change": -100.0,
+            "reason": "FAIL_EXIT"
+          },
+          {
+            "ticker": "C3",
+            "before": 0.0,
+            "after": 100.0,
+            "change": 100.0,
+            "reason": "PASS_ENTRY"
+          }
+        ]
+      }
+    },
+    {
+      "name": "buy_filter_ND_callsite_no_forced_exit",
+      "status": "PASS",
+      "details": {
+        "buy_filter_ND": "zero_new_buy",
+        "incumbent_A3": 100
+      }
+    },
+    {
+      "name": "callsite_same_CNPJ_traded_representation",
+      "status": "PASS",
+      "details": {
+        "targets": {
+          "A3": 1.0
+        },
+        "requests": {}
+      }
+    },
+    {
+      "name": "legacy_B2_singleton_target_regression_demonstrated",
+      "status": "PASS",
+      "details": {
+        "old_generic_after": {
+          "A3": 0.0,
+          "C3": 100.0
+        },
+        "issue": "Zeroing survivor when only entrant has normalized weight1; active VVAL/VQ callsite routes through reference_entries instead."
+      }
+    }
+  ],
+  "no_future_returns": true,
+  "nav_units": "synthetic dimensionless100; not real wealth",
+  "funding_code_sha256": "a0aea3e0ce6ec2df8086d5bb795db81dee9f9181bf3a4a3b9c01b53ff06feafb",
+  "limitation": "CNPJ/lineage metadata source itself not transported; tests use explicit synthetic accepted lineages."
+}

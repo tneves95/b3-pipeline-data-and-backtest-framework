@@ -1,0 +1,670 @@
+{
+  "version": "FIRST_INDEPENDENT_OPINION",
+  "status": "ISSUE",
+  "created_utc": "2026-10-09T13:23:27.266456+00:00",
+  "language": "pt-BR",
+  "no_portfolio_returns_accessed": true,
+  "scope": "protocol redacted; systemic; TIMP3_2014; SBSP3_2014; output only independent-channels-b2",
+  "coverage": {
+    "total": 229,
+    "valuation": {
+      "INDETERMINATE": 189,
+      "PASS_MATURE": 37,
+      "REJECTED_REINVESTMENT": 2,
+      "REJECTED_PRICE": 1
+    },
+    "mechanical_valuation": {
+      "INDETERMINATE": 60,
+      "PASS_MATURE": 163,
+      "REJECTED_PRICE": 4,
+      "REJECTED_REINVESTMENT": 2
+    },
+    "quality": {
+      "QUALIFIED_SATISFACTORY": 48,
+      "INDETERMINATE": 181
+    },
+    "premium_price_categories": {
+      "PONTO_CERTIFICADO": 4,
+      "INTERVALO_CERTIFICADO": 2,
+      "PL_SOMENTE_MECANICO": 15
+    },
+    "indicator_present": {
+      "real_eps_cagr": 0,
+      "average_payout": 9,
+      "return_on_capital_median": 79,
+      "solidity_proven": 1
+    },
+    "dimensions": {
+      "durability": {
+        "SATISFACTORY": 223,
+        "INDETERMINATE": 6
+      },
+      "capital_economics": {
+        "SATISFACTORY": 72,
+        "INDETERMINATE": 157
+      },
+      "earnings_reliability": {
+        "SATISFACTORY": 219,
+        "INDETERMINATE": 10
+      },
+      "financial_resilience": {
+        "SATISFACTORY": 157,
+        "INDETERMINATE": 72
+      },
+      "capital_allocation": {
+        "SATISFACTORY": 63,
+        "INDETERMINATE": 166
+      },
+      "governance": {
+        "SATISFACTORY": 113,
+        "INDETERMINATE": 116
+      }
+    },
+    "nd_contrary_nature": {
+      "ALERTA_ECONOMICO_COM_PROVA_DE_QUALIDADE_INSUFICIENTE": 458,
+      "LACUNA_DE_PROVA_SEM_ALERTA_ADVERSO_ADICIONAL": 69
+    },
+    "nd_contrary_nature_by_dimension": {
+      "durability": {
+        "ALERTA_ECONOMICO_COM_PROVA_DE_QUALIDADE_INSUFICIENTE": 6
+      },
+      "capital_economics": {
+        "ALERTA_ECONOMICO_COM_PROVA_DE_QUALIDADE_INSUFICIENTE": 137,
+        "LACUNA_DE_PROVA_SEM_ALERTA_ADVERSO_ADICIONAL": 20
+      },
+      "earnings_reliability": {
+        "ALERTA_ECONOMICO_COM_PROVA_DE_QUALIDADE_INSUFICIENTE": 10
+      },
+      "financial_resilience": {
+        "ALERTA_ECONOMICO_COM_PROVA_DE_QUALIDADE_INSUFICIENTE": 66,
+        "LACUNA_DE_PROVA_SEM_ALERTA_ADVERSO_ADICIONAL": 6
+      },
+      "capital_allocation": {
+        "ALERTA_ECONOMICO_COM_PROVA_DE_QUALIDADE_INSUFICIENTE": 143,
+        "LACUNA_DE_PROVA_SEM_ALERTA_ADVERSO_ADICIONAL": 23
+      },
+      "governance": {
+        "ALERTA_ECONOMICO_COM_PROVA_DE_QUALIDADE_INSUFICIENTE": 96,
+        "LACUNA_DE_PROVA_SEM_ALERTA_ADVERSO_ADICIONAL": 20
+      }
+    },
+    "sector": {
+      "Bancos": {
+        "QUALIFIED_SATISFACTORY": 23,
+        "INDETERMINATE": 40
+      },
+      "Energia": {
+        "INDETERMINATE": 96,
+        "QUALIFIED_SATISFACTORY": 4
+      },
+      "Saneamento": {
+        "INDETERMINATE": 26
+      },
+      "Seguros": {
+        "QUALIFIED_SATISFACTORY": 21
+      },
+      "Telecom": {
+        "INDETERMINATE": 19
+      }
+    },
+    "nd_pct": 79.03930131004367
+  },
+  "findings": [
+    {
+      "id": "PREMIUM_COVERAGE",
+      "status": "ISSUE",
+      "severity": "HIGH",
+      "conclusion": "Zero PASS_REINVESTOR resulta de cobertura cumulativa inacessível: nenhuma prova pontual de LPA. Gate pontual não é logicamente impossível; zero econômico não demonstrado.",
+      "sources": [
+        "systemic/decisions.json",
+        "systemic/b00s_fundamentals.py:18",
+        "premium_inventory.json"
+      ],
+      "calculations": {
+        "real_eps_cagr": 0,
+        "average_payout": 9,
+        "return_on_capital_median": 79,
+        "solidity_proven": 1
+      },
+      "potential_admission_impact": "21 candidatos/faixas; somente4 pontos certificados;2 reprovações necessárias;2 pontos ND e2 intervalos relevantes.",
+      "pending": "Fechar LPA/payout, ROIC/ROE e solidez por corte sem reutilizar documento posterior."
+    },
+    {
+      "id": "VQ_COVERAGE",
+      "status": "UNRESOLVED",
+      "severity": "HIGH",
+      "conclusion": "181/229 ND; zero rejeição não demonstra ausência de fraqueza estrutural. Triagem textual das229 não equivale a reexaminar seus originais.",
+      "sources": [
+        "vq_coverage_sector_year.csv",
+        "vq_dimension_inventory.csv",
+        "independent_judgements_229.json"
+      ],
+      "calculations": {
+        "nd_pct": 79.03930131004367,
+        "dimensions": {
+          "durability": {
+            "SATISFACTORY": 223,
+            "INDETERMINATE": 6
+          },
+          "capital_economics": {
+            "SATISFACTORY": 72,
+            "INDETERMINATE": 157
+          },
+          "earnings_reliability": {
+            "SATISFACTORY": 219,
+            "INDETERMINATE": 10
+          },
+          "financial_resilience": {
+            "SATISFACTORY": 157,
+            "INDETERMINATE": 72
+          },
+          "capital_allocation": {
+            "SATISFACTORY": 63,
+            "INDETERMINATE": 166
+          },
+          "governance": {
+            "SATISFACTORY": 113,
+            "INDETERMINATE": 116
+          }
+        },
+        "textual_contrary_nature": {
+          "ALERTA_ECONOMICO_COM_PROVA_DE_QUALIDADE_INSUFICIENTE": 458,
+          "LACUNA_DE_PROVA_SEM_ALERTA_ADVERSO_ADICIONAL": 69
+        }
+      },
+      "potential_admission_impact": "Saneamento26/26 eTelecom19/19 bloqueados; Energia96/100 ND.",
+      "pending": "Revisão proporcional dos alertas com originais do corte; não impor quotas de REJECTED."
+    },
+    {
+      "id": "GATES_NO_FORCED_REJECTION",
+      "status": "PASS",
+      "severity": "LOW",
+      "conclusion": "Gates distinguem falha necessária, prova material e ausência de prova; REJECTED_EVIDENCED exige marca material.",
+      "sources": [
+        "systemic/b00s_fundamentals.py:18",
+        "systemic/b00s_fundamentals.py:58",
+        "systemic/b00s_documentary.py"
+      ],
+      "calculations": {},
+      "potential_admission_impact": "Nenhum motivo para criar rejeição apenas porque a contagem ézero.",
+      "pending": "Nenhuma para a lógica de ramos lida; validade das provas depende dasfontes."
+    },
+    {
+      "id": "PREMIUM_INTERVAL_AND_PAYOUT_PATH",
+      "status": "ISSUE",
+      "severity": "MEDIUM",
+      "conclusion": "Gate limitado de intervalos nunca concede prêmio e não recebe evidências; payout é média FRE sem caminho econômico de override em calculate_metrics.",
+      "sources": [
+        "systemic/b00s_fundamentals.py:36",
+        "systemic/b00s_fundamentals.py:180",
+        "systemic/b00s_incremental.py:4"
+      ],
+      "calculations": {},
+      "potential_admission_impact": "Nenhuma admissão incorreta atual observada; completar LPA exigecertificar payout em vez de aceitar valor bruto automaticamente.",
+      "pending": "Definir representação de prova/limites suficientes antes de novo PASS; não relaxar hipóteseexante."
+    },
+    {
+      "id": "TIMP2014_ROIC_COVERAGE",
+      "status": "ISSUE",
+      "severity": "MEDIUM",
+      "conclusion": "ROIC2010–13 já calculável sob mesma fórmula congelada; mediana diagnóstica abaixo mínimo. Conciliação econômica/tributária devepreceder troca formal ND→REJECTED_REINVESTMENT.",
+      "sources": [
+        "case_calculations.json",
+        [
+          "14958",
+          412,
+          [
+            60,
+            61
+          ],
+          "2012-03-13",
+          "7f5c39f46c0002a3521a22578ce0b10964002927819461290456874be7c765ed"
+        ],
+        [
+          "24104",
+          412,
+          [
+            72
+          ],
+          "2013-02-06",
+          "6b0388c43518ec839f098470499a8090a960e17098fd7a229b439d3b7e2e4f7b"
+        ],
+        [
+          "34545",
+          412,
+          [
+            3,
+            4,
+            24,
+            28,
+            29,
+            66,
+            67,
+            68,
+            76
+          ],
+          "2014-02-13",
+          "156496399624cf2801d00a75d761378e5be1842d613d92d01fc66e648b81a95f"
+        ],
+        [
+          "34545",
+          1653,
+          [
+            36,
+            38,
+            39,
+            42,
+            43,
+            45
+          ],
+          "2014-02-13",
+          "0b2ad48d528803726a34b554529699088cae003db32b939b7aba707466f31824"
+        ],
+        [
+          "37056",
+          192,
+          [
+            1,
+            4,
+            20,
+            21
+          ],
+          "2014-05-08",
+          "f70ff25f2e45010393641ee9ffc99cac9e38d125e5e6e1259f417156a88efa01"
+        ],
+        [
+          "37056",
+          193,
+          [
+            65,
+            66
+          ],
+          "2014-05-08",
+          "3758fd225f726bbc71e532f6e30a5fe28bd36560b1e7ba68219e9d8f9052f045"
+        ],
+        [
+          "36939",
+          193,
+          [
+            3,
+            4,
+            5
+          ],
+          "2014-05-08",
+          "031b4a99cde6c4dd26205f145776bf9d427f7829878e65ee93e144abdd322ff6"
+        ]
+      ],
+      "calculations": {
+        "median": 0.11802478970349474,
+        "required": 0.12375074396149172,
+        "rates": [
+          0.11802478970349474,
+          0.11518797409334317,
+          0.1234631062535367
+        ]
+      },
+      "potential_admission_impact": "Pode alterarrótulo ND para reprovação necessária, sem abrir compra nem rejeitar VQ por número baixo.",
+      "pending": "Verificar capitalnormalizado/ativo fiscal eNOPAT; leases omitidos positivos só favorecem retorno nesta conta; não utilizar dados2014/2015."
+    },
+    {
+      "id": "TIMP2014_VQ",
+      "status": "UNRESOLVED",
+      "severity": "MEDIUM",
+      "conclusion": "VQ ND mantido por economia/alocação; conflito de governança material não resolvido marcado SAT requer justificativa suficiente das salvaguardas. Não há culpaTIM provada pelos documentos do grupo concorrente.",
+      "sources": [
+        "original_receipts_hashes.json",
+        "case_original_pages.json",
+        "TIMP3_2014/decision.json"
+      ],
+      "calculations": {
+        "pe": 21.10335308573437,
+        "payout_diagnostic": 0.54559486681596
+      },
+      "potential_admission_impact": "Não muda admissão atual; poderia impedir promoção se outras dimensões fossem fechadas.",
+      "pending": "LPA2009/classes e retorno incremental de Intelig/Fiber; explicitartratamento doalerta material de controle no protocolo."
+    },
+    {
+      "id": "SBSP2014_VQ",
+      "status": "PASS",
+      "severity": "MEDIUM",
+      "conclusion": "ND material documentado é defensável; seca conhecida, compromissoPPP e disputaGESP requerem prova proporcional. Sem REJECTED_EVIDENCED automático.",
+      "sources": [
+        "original_receipts_hashes.json",
+        "case_original_pages.json",
+        "SBSP3_2014/decision.json"
+      ],
+      "calculations": {
+        "pe": 8.098252044567428,
+        "eligible_consumer_revenue_ratio": 0.5599999999999999,
+        "controller_disputed_amount": 1412479000,
+        "payout_diagnostic": 0.3145954196588594
+      },
+      "potential_admission_impact": "VVAL maduro compatível; VQ pode abrir setor sependências resolvidas.",
+      "pending": "Ponte tarifa/volume/custo/retorno e delimitação econômica do conflitoGESP; não exigirprecisão do clima futuro."
+    },
+    {
+      "id": "B2_ACTIVE_FINANCING",
+      "status": "PASS",
+      "severity": "HIGH",
+      "conclusion": "18 testes sintéticos aprovados: NAV conserva, apenas novas basePASS entram, ND/ausência de status e incumbentes são protegidos; financiamento interno proporcional.",
+      "sources": [
+        "b2_synthetic_tests.json",
+        "systemic/b00s_funding.py",
+        "systemic/b2_simulation_callsite.txt"
+      ],
+      "calculations": {
+        "tests": 18,
+        "code_sha256": "a0aea3e0ce6ec2df8086d5bb795db81dee9f9181bf3a4a3b9c01b53ff06feafb"
+      },
+      "potential_admission_impact": "Sem venda forçada só por filtro compraND; representaçãoequivalente não cria nova compra.",
+      "pending": "Nenhuma nos exemplossintéticos; não certifica mapeamento real de linhagens."
+    },
+    {
+      "id": "B2_LEGACY_REGRESSION",
+      "status": "ISSUE",
+      "severity": "MEDIUM",
+      "conclusion": "B2 genérico zeraA PASS com alvo novoC=1. Callsite ativo VVAL/VQ usa fundingcorrigido; não constatei essa venda ativa.",
+      "sources": [
+        "systemic/stage1_continuity.py:6",
+        "b2_synthetic_tests.json"
+      ],
+      "calculations": {
+        "before": {
+          "A": 100
+        },
+        "legacy_after": {
+          "A": 0,
+          "C": 100
+        },
+        "active_after": {
+          "A": 80,
+          "C": 20
+        }
+      },
+      "potential_admission_impact": "Risco se motor voltar a normalizaralvo único ou usar função genérica paraVVAL/VQ.",
+      "pending": "Manterregressão/routing; não modificar V0/V10 por esseexemplo."
+    },
+    {
+      "id": "REAL_LINEAGE_PROVENANCE",
+      "status": "UNRESOLVED",
+      "severity": "MEDIUM",
+      "conclusion": "Metadata identities() real não está no pacote autorizado. CNPJ sintético foi testado; origem de linhagens, cisões e eventos reais não certificada.",
+      "sources": [
+        "systemic/b2_callsite.txt",
+        "b2_synthetic_tests.json"
+      ],
+      "calculations": {},
+      "potential_admission_impact": "Identidade incorreta pode alterar número de entradas, status e financiamento.",
+      "pending": "Transportarsomente trecho de construçãoidentidades/dadosPIT relevante; nenhuma série de retorno é necessária."
+    },
+    {
+      "id": "PIT_METADATA_AND_ORIGINAL_HASHES",
+      "status": "PASS",
+      "severity": "LOW",
+      "conclusion": "Zero referência posterior em verificação recursiva das229;11 PDFs dos2casos com hashigual; cotações só data corte eIPCA atémaio2014 conferidos.",
+      "sources": [
+        "pit_metadata_check.json",
+        "original_receipts_hashes.json",
+        "case_calculations.json"
+      ],
+      "calculations": {
+        "metadata_decisions": 229,
+        "future_metadata_issues": 0,
+        "pdf_hashes_verified": 11
+      },
+      "potential_admission_impact": "Nenhum dado posterior usado para aprovarcorte anterior.",
+      "pending": "PDFs sem renderização/reextraçãoindependente; autenticidade deoriginais229 fora do escopo."
+    }
+  ],
+  "case_sources_verified": [
+    {
+      "case": "TIMP3_2014",
+      "docid": "14958",
+      "group": 412,
+      "received": "2012-03-13",
+      "receipt_label": "13/03/2012 15:39:54",
+      "cutoff": "2014-06-30",
+      "original_sha256": "7f5c39f46c0002a3521a22578ce0b10964002927819461290456874be7c765ed",
+      "hash_verified": true,
+      "page_count": 81,
+      "reviewed_pages": [
+        60,
+        61
+      ],
+      "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=14958",
+      "method": "PDF descomprimido, assinatura/hash verificados; leitura das páginas textuais transportadas",
+      "independent_reextraction_available": false,
+      "limitation": "pdftotext e bibliotecas PDF ausentes; não houve renderização visual nem reextração independente."
+    },
+    {
+      "case": "TIMP3_2014",
+      "docid": "24104",
+      "group": 412,
+      "received": "2013-02-06",
+      "receipt_label": "06/02/2013 02:38:39",
+      "cutoff": "2014-06-30",
+      "original_sha256": "6b0388c43518ec839f098470499a8090a960e17098fd7a229b439d3b7e2e4f7b",
+      "hash_verified": true,
+      "page_count": 93,
+      "reviewed_pages": [
+        72
+      ],
+      "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=24104",
+      "method": "PDF descomprimido, assinatura/hash verificados; leitura das páginas textuais transportadas",
+      "independent_reextraction_available": false,
+      "limitation": "pdftotext e bibliotecas PDF ausentes; não houve renderização visual nem reextração independente."
+    },
+    {
+      "case": "TIMP3_2014",
+      "docid": "34545",
+      "group": 412,
+      "received": "2014-02-13",
+      "receipt_label": "13/02/2014 21:53:31",
+      "cutoff": "2014-06-30",
+      "original_sha256": "156496399624cf2801d00a75d761378e5be1842d613d92d01fc66e648b81a95f",
+      "hash_verified": true,
+      "page_count": 78,
+      "reviewed_pages": [
+        3,
+        4,
+        24,
+        28,
+        29,
+        66,
+        67,
+        68,
+        76
+      ],
+      "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34545",
+      "method": "PDF descomprimido, assinatura/hash verificados; leitura das páginas textuais transportadas",
+      "independent_reextraction_available": false,
+      "limitation": "pdftotext e bibliotecas PDF ausentes; não houve renderização visual nem reextração independente."
+    },
+    {
+      "case": "TIMP3_2014",
+      "docid": "34545",
+      "group": 1653,
+      "received": "2014-02-13",
+      "receipt_label": "13/02/2014 21:53:31",
+      "cutoff": "2014-06-30",
+      "original_sha256": "0b2ad48d528803726a34b554529699088cae003db32b939b7aba707466f31824",
+      "hash_verified": true,
+      "page_count": 47,
+      "reviewed_pages": [
+        36,
+        38,
+        39,
+        42,
+        43,
+        45
+      ],
+      "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34545",
+      "method": "PDF descomprimido, assinatura/hash verificados; leitura das páginas textuais transportadas",
+      "independent_reextraction_available": false,
+      "limitation": "pdftotext e bibliotecas PDF ausentes; não houve renderização visual nem reextração independente."
+    },
+    {
+      "case": "TIMP3_2014",
+      "docid": "37056",
+      "group": 192,
+      "received": "2014-05-08",
+      "receipt_label": "08/05/2014 19:29:11",
+      "cutoff": "2014-06-30",
+      "original_sha256": "f70ff25f2e45010393641ee9ffc99cac9e38d125e5e6e1259f417156a88efa01",
+      "hash_verified": true,
+      "page_count": 24,
+      "reviewed_pages": [
+        1,
+        4,
+        20,
+        21
+      ],
+      "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37056",
+      "method": "PDF descomprimido, assinatura/hash verificados; leitura das páginas textuais transportadas",
+      "independent_reextraction_available": false,
+      "limitation": "pdftotext e bibliotecas PDF ausentes; não houve renderização visual nem reextração independente."
+    },
+    {
+      "case": "TIMP3_2014",
+      "docid": "37056",
+      "group": 193,
+      "received": "2014-05-08",
+      "receipt_label": "08/05/2014 19:29:11",
+      "cutoff": "2014-06-30",
+      "original_sha256": "3758fd225f726bbc71e532f6e30a5fe28bd36560b1e7ba68219e9d8f9052f045",
+      "hash_verified": true,
+      "page_count": 76,
+      "reviewed_pages": [
+        65,
+        66
+      ],
+      "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37056",
+      "method": "PDF descomprimido, assinatura/hash verificados; leitura das páginas textuais transportadas",
+      "independent_reextraction_available": false,
+      "limitation": "pdftotext e bibliotecas PDF ausentes; não houve renderização visual nem reextração independente."
+    },
+    {
+      "case": "TIMP3_2014",
+      "docid": "36939",
+      "group": 193,
+      "received": "2014-05-08",
+      "receipt_label": "08/05/2014 11:01:20",
+      "cutoff": "2014-06-30",
+      "original_sha256": "031b4a99cde6c4dd26205f145776bf9d427f7829878e65ee93e144abdd322ff6",
+      "hash_verified": true,
+      "page_count": 63,
+      "reviewed_pages": [
+        3,
+        4,
+        5
+      ],
+      "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36939",
+      "method": "PDF descomprimido, assinatura/hash verificados; leitura das páginas textuais transportadas",
+      "independent_reextraction_available": false,
+      "limitation": "pdftotext e bibliotecas PDF ausentes; não houve renderização visual nem reextração independente."
+    },
+    {
+      "case": "SBSP3_2014",
+      "docid": "35848",
+      "group": 412,
+      "received": "2014-03-28",
+      "receipt_label": "28/03/2014 20:35:53",
+      "cutoff": "2014-06-30",
+      "original_sha256": "f78d1d7fb5802fe611f272ec3b3fc1413d1ec2d0e2f7c7e539df7e8bb22ab631",
+      "hash_verified": true,
+      "page_count": 110,
+      "reviewed_pages": [
+        1,
+        2,
+        21,
+        22,
+        42,
+        43,
+        44,
+        45,
+        56,
+        57,
+        63,
+        64,
+        97,
+        98,
+        99
+      ],
+      "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35848",
+      "method": "PDF descomprimido, assinatura/hash verificados; leitura das páginas textuais transportadas",
+      "independent_reextraction_available": false,
+      "limitation": "pdftotext e bibliotecas PDF ausentes; não houve renderização visual nem reextração independente."
+    },
+    {
+      "case": "SBSP3_2014",
+      "docid": "35848",
+      "group": 1653,
+      "received": "2014-03-28",
+      "receipt_label": "28/03/2014 20:35:53",
+      "cutoff": "2014-06-30",
+      "original_sha256": "4a64b769e2aebeabec93bf5170e0cfec4f4877850274192322c459607db41c1b",
+      "hash_verified": true,
+      "page_count": 61,
+      "reviewed_pages": [
+        10,
+        12,
+        13,
+        16,
+        17,
+        39
+      ],
+      "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35848",
+      "method": "PDF descomprimido, assinatura/hash verificados; leitura das páginas textuais transportadas",
+      "independent_reextraction_available": false,
+      "limitation": "pdftotext e bibliotecas PDF ausentes; não houve renderização visual nem reextração independente."
+    },
+    {
+      "case": "SBSP3_2014",
+      "docid": "37910",
+      "group": 192,
+      "received": "2014-05-15",
+      "receipt_label": "15/05/2014 20:38:36",
+      "cutoff": "2014-06-30",
+      "original_sha256": "75425821279c436555648cca433832b46ec317e04a8a6918d964d67096f690d0",
+      "hash_verified": true,
+      "page_count": 7,
+      "reviewed_pages": [
+        1,
+        4,
+        5,
+        6,
+        7
+      ],
+      "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37910",
+      "method": "PDF descomprimido, assinatura/hash verificados; leitura das páginas textuais transportadas",
+      "independent_reextraction_available": false,
+      "limitation": "pdftotext e bibliotecas PDF ausentes; não houve renderização visual nem reextração independente."
+    },
+    {
+      "case": "SBSP3_2014",
+      "docid": "37910",
+      "group": 193,
+      "received": "2014-05-15",
+      "receipt_label": "15/05/2014 20:38:36",
+      "cutoff": "2014-06-30",
+      "original_sha256": "55420f288272c1d9cebd592e9860685f08042ace51fdc0bf9e0be24324d468a9",
+      "hash_verified": true,
+      "page_count": 54,
+      "reviewed_pages": [
+        11,
+        31,
+        32,
+        51,
+        52,
+        53
+      ],
+      "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37910",
+      "method": "PDF descomprimido, assinatura/hash verificados; leitura das páginas textuais transportadas",
+      "independent_reextraction_available": false,
+      "limitation": "pdftotext e bibliotecas PDF ausentes; não houve renderização visual nem reextração independente."
+    }
+  ],
+  "textual_triage_not_original_229_reaudit": true,
+  "original_text_extraction_limitation": "PDF descomprimido/hash verificado; leitura páginas transportadas; sem pdftotext/biblioteca/renderização",
+  "first_opinion_preserved_before_substantive_root_feedback": true
+}

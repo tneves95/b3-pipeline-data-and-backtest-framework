@@ -1,0 +1,68 @@
+{
+  "baseline_commit": "229e60035d89c524eb274a1adb28207d67011087",
+  "independent_review_type": "NEW_AGENTS_WITH_NO_CONVERSATION_HISTORY_AND_OUTCOME_EXCLUDED_PACKETS",
+  "reviewers": [
+    {
+      "agent": "/root/independent_irb_2019",
+      "scope": [
+        "IRBR3_2019"
+      ],
+      "fork_turns": "none",
+      "first_seal_utc": "2026-10-09T13:20:00.502789+00:00"
+    },
+    {
+      "agent": "/root/independent_material_cases",
+      "scope": [
+        "PSSA3_2014",
+        "BBDC4_2014",
+        "CSMG3_2014",
+        "PSSA3_2025",
+        "CSMG3_2025"
+      ],
+      "fork_turns": "none",
+      "2014_first_seal_utc": "2026-10-09T13:14:10.616106+00:00",
+      "2014_first_seal_sha256": "09b26d015e09965b3f2058da508d580598f2a159e6ce1590f670d1571f731c8f",
+      "2025_seal_utc": "2026-10-09T13:31:01.553891+00:00"
+    },
+    {
+      "agent": "/root/independent_channels_b2",
+      "scope": [
+        "TIMP3_2014",
+        "SBSP3_2014",
+        "systemic_financial_decisions_and_implementation"
+      ],
+      "fork_turns": "none",
+      "first_seal_utc": "2026-10-09T13:23:27.279544+00:00",
+      "direct_original_reextraction_addendum": "channels_b2/direct_reextraction_addendum.md"
+    }
+  ],
+  "access_limitations": "Separate contexts and expressly restricted reading scopes; agents share filesystem. This is not a claim of OS-level isolation or an external human audit. Reviewers must attest their actual reading scope and absence of outcome access. Root knew results and only aggregates sealed opinions without applying portfolio changes.",
+  "sample_design": "Coordinator-directed risk sample, not random, not outcome-blind sampling. Outcome-blind independent adjudication; no statistical generalization to all issuers.",
+  "transport_corrections": [
+    {
+      "case": "BBDC4_2014",
+      "source": "bradesco_2011_publication/g0",
+      "received": "2012-02-08",
+      "reason": "External historical source omitted by ticker-only transport filter, supplemented before 2014 seal."
+    },
+    {
+      "case": "TIMP3_2014",
+      "source": "36939/g193",
+      "received": "2014-05-08",
+      "reason": "Cross-issuer sector comparator omitted by ticker-only transport filter, supplemented."
+    }
+  ],
+  "supplement_policy": "Only dated primary source, IPCA known through preceding May, and individual selection-day quote records delivered. No prior audit opinions or future portfolio returns. Post-seal factual supplements retained in dated addenda, without overwriting initial opinion.",
+  "prior_independent_2019_verification": {
+    "path": "docs/reviews/adversarial_2019.json",
+    "decision_commit": "b13546c276bca7964907a5f581bc5cc58b80ef7e",
+    "first_return_publication_commit": "b22dc53",
+    "file_sha256": "1e54d533ecfd687586d65811b9ed61144a85c5f84712863031d1f7f3d43c595c",
+    "exact_bytes_match_decision_commit": true,
+    "scope_limit": "Verifies preserved report contents and Git chronology; cannot reconstruct all access logs of the old agent or newly certify independence from its metadata alone."
+  },
+  "production_changes": false,
+  "portfolio_recalculation": false,
+  "criteria_change": false,
+  "baseline_reclassification": false
+}

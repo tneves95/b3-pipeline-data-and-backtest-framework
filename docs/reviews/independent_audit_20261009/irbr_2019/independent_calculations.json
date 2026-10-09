@@ -1,0 +1,249 @@
+{
+  "valuation": {
+    "components_brl_thousands": {
+      "2015": {
+        "reported": 763718,
+        "administrative_except_own_staff": 139144,
+        "other_noncontract_operating": 17336,
+        "property_expenses": 28629,
+        "other_financial": 161,
+        "negative_permanent_tax": 4530,
+        "tax_provisions": 3344,
+        "international_loss": 2798
+      },
+      "2016": {
+        "reported": 849874,
+        "administrative_except_own_staff": 114024,
+        "other_noncontract_operating": 7494,
+        "property_expenses": 2630,
+        "other_financial": 40117,
+        "negative_permanent_tax": 13597,
+        "tax_provisions": 2112,
+        "other_financial_tax": 36318,
+        "international_loss_and_impairment": 5047
+      },
+      "2017": {
+        "reported": 925050,
+        "administrative_except_own_staff": 132005,
+        "other_noncontract_operating": 4941,
+        "property_other": 400,
+        "negative_permanent_tax": 24428,
+        "other_financial_tax": 28782,
+        "international_impairment_stock": 5671,
+        "parent_property_loss_additional": 11361
+      }
+    },
+    "annual_upper_nominal_brl": {
+      "2015": 959660000,
+      "2016": 1071213000,
+      "2017": 1132638000
+    },
+    "ipca_factors": {
+      "2015": 1.1603727784587545,
+      "2016": 1.091724538441101,
+      "2017": 1.0604688118859429
+    },
+    "annual_upper_real_brl": {
+      "2015": 1113563340.5757284,
+      "2016": 1169469517.997107,
+      "2017": 1201127274.1568706
+    },
+    "median_upper_brl": 1201127274.1568706,
+    "quote_close_brl": 98.5,
+    "quote_record_sha256": "a1cadc7b034084886fb24feb7c87e5e0702400e070599070d2ded4cb8c1d00ea",
+    "on_issued_shares": 312000000,
+    "treasury_shares": 1584600,
+    "on_outstanding_shares": 310415400,
+    "on_capitalization_issued_brl": 30732000000.0,
+    "on_capitalization_outstanding_brl": 30575916900.0,
+    "pe_lower_issued": 25.585964669374675,
+    "pe_lower_outstanding": 25.456017491121177,
+    "profit_required_at_25_outstanding_brl": 1223036676.0,
+    "gap_vs_median_upper_brl": 21909401.843129396,
+    "additional_2017_nominal_profit_needed_brl": 20660109.56434033,
+    "conclusion": "Cota inferior maior que 25 em ambas as bases de ações. Rejeição por preço corroborada.",
+    "economic_assumption": "Custos ordinários de pessoal, subscrição, retrocessão, sinistros e mercado permanecem no ciclo; despesas extraordinárias e rubricas residuais devolvidas em bruto conforme tabela. Tetos condicionais a esse tratamento econômico; não lucro recorrente pontual.",
+    "sources": [
+      {
+        "docid": "67429",
+        "group": 412,
+        "received": "2017-07-31",
+        "original": "review_originals/cvm_67429_g412.pdf.gz",
+        "original_sha256": "4e5d2579c3871c7456296ee6b9d68ad516adb2f760fedd14d94cda03bb835e06",
+        "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=67429",
+        "pages_1_based": [
+          28,
+          29,
+          30,
+          31,
+          85,
+          86,
+          87,
+          88
+        ]
+      },
+      {
+        "docid": "71429",
+        "group": 412,
+        "received": "2018-02-08",
+        "original": "review_originals/cvm_71429_g412.pdf.gz",
+        "original_sha256": "563b4d7df01a6b0a0b58715c395d48c864d1a36da19bca44211767e1aa4f847e",
+        "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=71429",
+        "pages_1_based": [
+          3,
+          21,
+          22,
+          23,
+          74,
+          75,
+          76
+        ]
+      },
+      {
+        "docid": "82684",
+        "group": 193,
+        "received": "2019-05-06",
+        "original": "review_originals/cvm_82684_g193.pdf.gz",
+        "original_sha256": "f23032f301d3a80343d22a84e7090a0ec5d992f2c73545272c8a507203572de0",
+        "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=82684",
+        "pages_1_based": [
+          58
+        ]
+      }
+    ]
+  },
+  "cash": {
+    "FY2018": {
+      "scope": "consolidated",
+      "original_unit": 1,
+      "values_brl_thousands": {
+        "6.01": -557281.0,
+        "6.01.01": 5528840.0,
+        "6.01.02": 900235.0,
+        "6.01.03": 525396.0,
+        "6.01.04": -3965510.0,
+        "6.01.05": -1762831.0,
+        "6.01.06": -242791.0,
+        "6.01.07": -150708.0,
+        "6.01.08": 90021.0,
+        "6.01.09": 5694.0,
+        "6.01.10": -5863.0,
+        "6.01.11": -10763798.0,
+        "6.01.12": 9705450.0,
+        "6.01.13": -421416.0
+      },
+      "cfo": -557281.0,
+      "securities_net_within_cfo": -1058348.0,
+      "cfo_minus_securities": 501067.0,
+      "qualification": "É subtotal analítico, não CFO econômico certificado; resgates incluem rendimento."
+    },
+    "Q1_2019": {
+      "scope": "consolidated",
+      "original_unit": 1,
+      "values_brl_thousands": {
+        "6.01": 1023022.0,
+        "6.01.01": 1461058.0,
+        "6.01.02": 207738.0,
+        "6.01.03": -90883.0,
+        "6.01.04": -1085246.0,
+        "6.01.05": -479495.0,
+        "6.01.06": -82729.0,
+        "6.01.07": 12881.0,
+        "6.01.08": 3593.0,
+        "6.01.09": 1452.0,
+        "6.01.10": 666.0,
+        "6.01.11": -2489320.0,
+        "6.01.12": 3696333.0,
+        "6.01.13": -133026.0
+      },
+      "cfo": 1023022.0,
+      "securities_net_within_cfo": 1207013.0,
+      "cfo_minus_securities": -183991.0,
+      "qualification": "É subtotal analítico, não CFO econômico certificado; resgates incluem rendimento."
+    }
+  },
+  "economic": {
+    "roe_reported": {
+      "2016": 0.2613866124378192,
+      "2017": 0.26776565258922624,
+      "2018": 0.321498799189603
+    },
+    "2018_roe_after_gross_removal_previrb_and_pdd": 0.26535661015491635,
+    "qualification_roe_removal": "Sensibilidade conservadora sem recompor tributos; não estimativa certificada de lucro recorrente.",
+    "2018_profit_after_gross_removal_brl_thousands": 1005962,
+    "2018_gross_dividends_brl_thousands": 893410,
+    "2018_gross_payout_reported": 0.7330266919156282,
+    "2018_gross_payout_removal_sensitivity": 0.8881150580240605,
+    "geographic": {
+      "2017": {
+        "foreign_loss_ratio_accounting_gross": 0.6924614578556277,
+        "foreign_gross_margin_rate": 0.2274836556623465,
+        "foreign_margin": 376000,
+        "domestic_margin": 555840
+      },
+      "2018": {
+        "foreign_loss_ratio_accounting_gross": 0.8474914486046646,
+        "foreign_gross_margin_rate": 0.08270512265241604,
+        "foreign_margin": 194011,
+        "domestic_margin": 1158337
+      },
+      "Q1_2019": {
+        "foreign_loss_ratio_accounting_gross": 0.8868363306778609,
+        "foreign_gross_margin_rate": 0.10316987072461002,
+        "foreign_margin": 60557,
+        "domestic_margin": 257835
+      }
+    },
+    "geographic_qualification": "Sinistros/prêmio ganho na visão contábil bruta; NÃO são as taxas retidas gerenciais 59%,55,9%,54,1%. Margem inclui custos de aquisição e retrocessão.",
+    "credit": {
+      "gross_insurer_balance_growth_2018": 0.4509841202835969,
+      "total_net_credit_growth_2018": 0.44474057860653926,
+      "insurer_estimated_plus_rvne_2017": 983459,
+      "insurer_estimated_plus_rvne_2018": 1917147,
+      "all_estimated_plus_rvne_2017": 1587466,
+      "all_estimated_plus_rvne_2018": 2868098,
+      "all_estimated_plus_rvne_Q1_2019": 2795163,
+      "q1_estimated_insurer_change": -0.09649696326725299,
+      "q1_estimated_reinsurer_change": 0.050767074223593056,
+      "q1_actual_insurer_premium_receipts": 1298545,
+      "q1_overdue_gross_credit": 671800,
+      "q1_overdue_debit_offsets": 339943,
+      "q1_overdue_pdd": 11255,
+      "q1_overdue_net": 320602,
+      "q1_over181_gross_credit": 220506,
+      "q1_over181_offsets": 207323,
+      "q1_over181_pdd": 5671,
+      "q1_over181_net": 7512,
+      "qualification": "Mudança de classificação estimado→efetivo não é recebimento; notas permitem compensação legal. Total líquido aging não prova inexistência de atraso bruto."
+    },
+    "prudential": {
+      "2018": {
+        "pla": 3003046,
+        "cmr": 935813,
+        "surplus": 2067233,
+        "coverage": 3.2090235976632084,
+        "liquidity_surplus": 293151
+      },
+      "Q1_2019": {
+        "pla": 2745243,
+        "cmr": 1011134,
+        "surplus": 1734109,
+        "coverage": 2.715014033748247,
+        "liquidity_surplus": 701221
+      },
+      "capital_surplus_change": -0.16114487336454086,
+      "2018_liquidity_excluding_credit_rights": -1009662,
+      "Q1_liquidity_excluding_credit_rights": -762195,
+      "qualification": "Exclusão dos direitos creditórios é cenário analítico, não regra CNSP nem descumprimento comprovado."
+    },
+    "audit_reserve_discrepancy": {
+      "amount": 17142,
+      "fraction_of_reserves": 0.0019466505108225796,
+      "fraction_of_profit": 0.014064699916967236,
+      "fraction_of_pla": 0.005708204269931263,
+      "fraction_of_surplus": 0.008292243786742955
+    },
+    "related_premium_share_2018": 0.27891597026250353,
+    "roe_reported_median": 0.26776565258922624
+  }
+}
