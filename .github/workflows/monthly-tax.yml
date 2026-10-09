@@ -1,17 +1,17 @@
-name: Monthly contributions fiscal replay
+name: Corrected monthly purchase policy
 on:
   pull_request:
-    paths: ['scripts/monthly_tax*.py', 'scripts/run_monthly_tax.py', 'tests/test_monthly_tax.py', 'research/monthly_tax_2014_2026/**', '.github/workflows/monthly-tax.yml']
+    paths: ['scripts/monthly*corrected*.py', 'scripts/run_monthly_corrected.py', 'tests/test_monthly_policy_corrected.py', 'research/monthly_policy_corrected_2014_2026/**', '.github/workflows/monthly-tax.yml']
   workflow_dispatch:
 permissions:
   contents: read
 jobs:
-  fiscal:
+  corrected:
     runs-on: ubuntu-24.04
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
-      - run: python -m pip install pytest==8.3.5 pandas==2.2.3 -r requirements-attribution.txt -r requirements-b00s-documentary.txt
-      - run: python scripts/run_monthly_tax.py
-      - run: python -m pytest -q tests/test_monthly_tax.py tests/test_monthly_contributions.py
-      - run: git diff --exit-code -- research/monthly_tax_2014_2026
+      - run: python -m pip install pytest==8.3.5 pandas==2.2.3
+      - run: python scripts/run_monthly_corrected.py --mode GROSS
+      - run: python -m pytest -q tests/test_monthly_policy_corrected.py tests/test_monthly_tax.py
+      - run: git diff --exit-code -- research/monthly_policy_corrected_2014_2026 research/monthly_tax_2014_2026
