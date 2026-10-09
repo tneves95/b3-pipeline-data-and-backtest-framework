@@ -4051,473 +4051,761 @@
       "year": 2020,
       "cutoff": "2020-06-30",
       "ticker": "ABCB4",
-      "category": "INDETERMINATE",
+      "category": "QUALIFIED_SATISFACTORY",
       "special_case": "",
-      "assessment_ref": null,
-      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
-      "classification_changed": null,
-      "dimensions": {},
-      "dimension_evidence_updates": {
+      "assessment_ref": "28195667000106:2020",
+      "assessment_status": "ASSESSED",
+      "classification_changed": false,
+      "dimensions": {
         "durability": {
-          "favorable": "O Banco tem por objeto a prática de operações ativas, passivas e acessórias inerentes às respectivas carteiras autorizadas pelo Banco Central do Brasil.",
+          "status": "SATISFACTORY",
+          "reason": "A franquia de crédito corporativo e garantias continua, com carteira de R$27,4 bilhões em março de 2020 versus R$23,6 bilhões um ano antes. Diversificação de clientes e especialização são preservadas; não se interpreta aumento de saldo na crise como crescimento sustentável garantido.",
+          "favorable": "A franquia de crédito corporativo e garantias continua, com carteira de R$27,4 bilhões em março de 2020 versus R$23,6 bilhões um ano antes. Diversificação de clientes e especialização são preservadas; não se interpreta aumento de saldo na crise como crescimento sustentável garantido.",
+          "contrary_evidence": "Concentração corporativa e recessão afetam demanda e perdas; expansão de saldo não assegura qualidade de originação.",
+          "missing": "",
           "evidence": [
             {
-              "cnpj": "28195667000106",
-              "received": "2020-05-29",
-              "name": "BCO ABC BRASIL S.A.",
-              "sector": "Bancos",
-              "activity": "O Banco tem por objeto a prática de operações ativas, passivas e acessórias inerentes às respectivas carteiras autorizadas pelo Banco Central do Brasil.",
-              "cvm": "020958",
-              "docid": "93567",
-              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=93567"
+              "docid": "91936",
+              "group": 1653,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2020-03-27",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=91936",
+              "original": "review_originals/cvm_91936_g1653.pdf.gz",
+              "original_sha256": "98ed8841ebb69e599bb84c7629a50f8a67aa80fd3e7b636cde9f28c169ddf212"
+            },
+            {
+              "docid": "91936",
+              "group": 412,
+              "pages": [
+                29,
+                69
+              ],
+              "received": "2020-03-27",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=91936",
+              "original": "review_originals/cvm_91936_g412.pdf.gz",
+              "original_sha256": "5c094e0b7abcdd9e5e8a6db0ee2d81b6ba937606125f5fe6dbe8a11b29e7c67a"
+            },
+            {
+              "docid": "93077",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2020-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=93077",
+              "original": "review_originals/cvm_93077_g192.pdf.gz",
+              "original_sha256": "bb78ccb12afe4f7951d334db400729a767fd87fb59aeeae75379f6aec649e742"
+            },
+            {
+              "docid": "93077",
+              "group": 193,
+              "pages": [
+                45,
+                46
+              ],
+              "received": "2020-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=93077",
+              "original": "review_originals/cvm_93077_g193.pdf.gz",
+              "original_sha256": "d786c4d27e2209e6346c7766f467b2b6d4993be629feab907c90470f960bc934"
+            }
+          ],
+          "prior_year": 2019,
+          "review_2019": "A franquia empresarial continua com carteira ampliada de R$23,6 bilhões no1T19 frente a22,6 bilhões no1T18; o suporte do controlador e a atuação em médias/grandes empresas permanecem, contrapostos à concentração corporativa e ao ciclo brasileiro.",
+          "review_2020": "A franquia de crédito corporativo e garantias continua, com carteira de R$27,4 bilhões em março de 2020 versus R$23,6 bilhões um ano antes. Diversificação de clientes e especialização são preservadas; não se interpreta aumento de saldo na crise como crescimento sustentável garantido."
+        },
+        "capital_economics": {
+          "status": "SATISFACTORY",
+          "reason": "Lucro BRGAAP de 2019 de R$528,4 milhões/ROE13,7% inclui benefício de R$18,437 milhões da mudança de CSLL. No primeiro trimestre, lucro BRGAAP R$80,997 milhões/ROE8,0% e IFRS R$104,193 milhões mostram aumento do custo de risco. Mantém SAT da economia da franquia documentada; um trimestre menor não cria falha estrutural nem certifica prêmio reinvestidor.",
+          "favorable": "Lucro BRGAAP de 2019 de R$528,4 milhões/ROE13,7% inclui benefício de R$18,437 milhões da mudança de CSLL. No primeiro trimestre, lucro BRGAAP R$80,997 milhões/ROE8,0% e IFRS R$104,193 milhões mostram aumento do custo de risco. Mantém SAT da economia da franquia documentada; um trimestre menor não cria falha estrutural nem certifica prêmio reinvestidor.",
+          "contrary_evidence": "Lucro trimestral caiu de R$119,554 milhões a R$80,997 milhões BRGAAP. Benefício tributário não é produtividade recorrente; efeito final da pandemia permanece incerto.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "91936",
+              "group": 1653,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2020-03-27",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=91936",
+              "original": "review_originals/cvm_91936_g1653.pdf.gz",
+              "original_sha256": "98ed8841ebb69e599bb84c7629a50f8a67aa80fd3e7b636cde9f28c169ddf212"
+            },
+            {
+              "docid": "91936",
+              "group": 412,
+              "pages": [
+                29,
+                69
+              ],
+              "received": "2020-03-27",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=91936",
+              "original": "review_originals/cvm_91936_g412.pdf.gz",
+              "original_sha256": "5c094e0b7abcdd9e5e8a6db0ee2d81b6ba937606125f5fe6dbe8a11b29e7c67a"
+            },
+            {
+              "docid": "93077",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2020-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=93077",
+              "original": "review_originals/cvm_93077_g192.pdf.gz",
+              "original_sha256": "bb78ccb12afe4f7951d334db400729a767fd87fb59aeeae75379f6aec649e742"
+            },
+            {
+              "docid": "93077",
+              "group": 193,
+              "pages": [
+                45,
+                46
+              ],
+              "received": "2020-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=93077",
+              "original": "review_originals/cvm_93077_g193.pdf.gz",
+              "original_sha256": "d786c4d27e2209e6346c7766f467b2b6d4993be629feab907c90470f960bc934"
+            }
+          ],
+          "prior_year": 2019,
+          "review_2019": "Lucro2018 de R$418,1 milhões e ROE12,0% versus13,5% em2017 mostram estabilidade do lucro com menor retorno;1T19 lucro119,5 milhões/ROE12,8% versus108,5/13,0%. A rentabilidade continua coerente com risco e capital disponível, sem converter melhoria tributária em expansão operacional nem inferir prêmio de reinvestidora.",
+          "review_2020": "Lucro BRGAAP de 2019 de R$528,4 milhões/ROE13,7% inclui benefício de R$18,437 milhões da mudança de CSLL. No primeiro trimestre, lucro BRGAAP R$80,997 milhões/ROE8,0% e IFRS R$104,193 milhões mostram aumento do custo de risco. Mantém SAT da economia da franquia documentada; um trimestre menor não cria falha estrutural nem certifica prêmio reinvestidor."
+        },
+        "earnings_reliability": {
+          "status": "SATISFACTORY",
+          "reason": "A ponte de março distingue lucro BRGAAP de R$80,997 milhões e IFRS de R$104,193 milhões: diferenças de provisão de empréstimos R$12,609 milhões, garantias −R$0,174 milhão e outros ajustes R$10,761 milhões. Benefício tributário anual e aumento de PDD são identificados. A empresa explicita não conseguir estimar o efeito total futuro da COVID, sem apresentar previsão como realizado.",
+          "favorable": "A ponte de março distingue lucro BRGAAP de R$80,997 milhões e IFRS de R$104,193 milhões: diferenças de provisão de empréstimos R$12,609 milhões, garantias −R$0,174 milhão e outros ajustes R$10,761 milhões. Benefício tributário anual e aumento de PDD são identificados. A empresa explicita não conseguir estimar o efeito total futuro da COVID, sem apresentar previsão como realizado.",
+          "contrary_evidence": "Modelos de perda esperada e diferenças BRGAAP/IFRS dependem de estimativas; não remover PDD como extraordinário para melhorar lucro.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "91936",
+              "group": 1653,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2020-03-27",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=91936",
+              "original": "review_originals/cvm_91936_g1653.pdf.gz",
+              "original_sha256": "98ed8841ebb69e599bb84c7629a50f8a67aa80fd3e7b636cde9f28c169ddf212"
+            },
+            {
+              "docid": "91936",
+              "group": 412,
+              "pages": [
+                29,
+                69
+              ],
+              "received": "2020-03-27",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=91936",
+              "original": "review_originals/cvm_91936_g412.pdf.gz",
+              "original_sha256": "5c094e0b7abcdd9e5e8a6db0ee2d81b6ba937606125f5fe6dbe8a11b29e7c67a"
+            },
+            {
+              "docid": "93077",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2020-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=93077",
+              "original": "review_originals/cvm_93077_g192.pdf.gz",
+              "original_sha256": "bb78ccb12afe4f7951d334db400729a767fd87fb59aeeae75379f6aec649e742"
+            },
+            {
+              "docid": "93077",
+              "group": 193,
+              "pages": [
+                45,
+                46
+              ],
+              "received": "2020-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=93077",
+              "original": "review_originals/cvm_93077_g193.pdf.gz",
+              "original_sha256": "d786c4d27e2209e6346c7766f467b2b6d4993be629feab907c90470f960bc934"
+            }
+          ],
+          "prior_year": 2019,
+          "review_2019": "O relatório atribui os resultados à margem, provisões, serviços e tributos, e não apenas ao lucro final. A PCLD sobe para2,99% dos empréstimos versus2,76% no1T18;96,2% de empréstimos/garantias classificam-se AA–C segundo a norma bancária. Mantém SAT com o risco de ciclo e estimativas explícito.",
+          "review_2020": "A ponte de março distingue lucro BRGAAP de R$80,997 milhões e IFRS de R$104,193 milhões: diferenças de provisão de empréstimos R$12,609 milhões, garantias −R$0,174 milhão e outros ajustes R$10,761 milhões. Benefício tributário anual e aumento de PDD são identificados. A empresa explicita não conseguir estimar o efeito total futuro da COVID, sem apresentar previsão como realizado."
+        },
+        "financial_resilience": {
+          "status": "SATISFACTORY",
+          "reason": "Capital prudencial março: PR de R$5,227236 bilhões, Basileia14,66%, contra16,89% em dezembro; PRE de R$2,853374 bilhões baseado apenas no mínimo8% dos RWA. A margem de R$2,373862 bilhões é sobre esse mínimo-base, não excesso após todos os buffers. Capital, PDD e carteira AA–C96,9% sustentam continuidade SAT; os ajustes de risco e a redução do índice são considerados.",
+          "favorable": "Capital prudencial março: PR de R$5,227236 bilhões, Basileia14,66%, contra16,89% em dezembro; PRE de R$2,853374 bilhões baseado apenas no mínimo8% dos RWA. A margem de R$2,373862 bilhões é sobre esse mínimo-base, não excesso após todos os buffers. Capital, PDD e carteira AA–C96,9% sustentam continuidade SAT; os ajustes de risco e a redução do índice são considerados.",
+          "contrary_evidence": "Basileia caiu2,23 pontos percentuais; PDD2,65% da carteira e ratings internos antecedem a materialização completa dos efeitos da crise. Não confundir PRE8% com todos os adicionais prudenciais.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "91936",
+              "group": 1653,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2020-03-27",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=91936",
+              "original": "review_originals/cvm_91936_g1653.pdf.gz",
+              "original_sha256": "98ed8841ebb69e599bb84c7629a50f8a67aa80fd3e7b636cde9f28c169ddf212"
+            },
+            {
+              "docid": "91936",
+              "group": 412,
+              "pages": [
+                29,
+                69
+              ],
+              "received": "2020-03-27",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=91936",
+              "original": "review_originals/cvm_91936_g412.pdf.gz",
+              "original_sha256": "5c094e0b7abcdd9e5e8a6db0ee2d81b6ba937606125f5fe6dbe8a11b29e7c67a"
+            },
+            {
+              "docid": "93077",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2020-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=93077",
+              "original": "review_originals/cvm_93077_g192.pdf.gz",
+              "original_sha256": "bb78ccb12afe4f7951d334db400729a767fd87fb59aeeae75379f6aec649e742"
+            },
+            {
+              "docid": "93077",
+              "group": 193,
+              "pages": [
+                45,
+                46
+              ],
+              "received": "2020-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=93077",
+              "original": "review_originals/cvm_93077_g193.pdf.gz",
+              "original_sha256": "d786c4d27e2209e6346c7766f467b2b6d4993be629feab907c90470f960bc934"
+            }
+          ],
+          "prior_year": 2019,
+          "review_2019": "Basileia17,31%, PR de R$4.772,226 milhões e PRE base de R$2.204,921 milhões demonstram excedente de R$2.567,305 milhões. O PR inclui R$998,402 milhões de dívida Nível II e R$101,623 milhões de perpétuas Nível I; não tratar todo PR como capital ordinário nem o requerimento base8% como total com buffers.",
+          "review_2020": "Capital prudencial março: PR de R$5,227236 bilhões, Basileia14,66%, contra16,89% em dezembro; PRE de R$2,853374 bilhões baseado apenas no mínimo8% dos RWA. A margem de R$2,373862 bilhões é sobre esse mínimo-base, não excesso após todos os buffers. Capital, PDD e carteira AA–C96,9% sustentam continuidade SAT; os ajustes de risco e a redução do índice são considerados."
+        },
+        "capital_allocation": {
+          "status": "SATISFACTORY",
+          "reason": "Mantém SAT da disciplina de crédito e capital com menor rentabilidade e maior PDD já reconhecidas. Aquisição de comercializadora de energia foi autorizada pelo Bacen em19/04, ainda sujeita à formalização indicada na nota; não se presume lucro, retorno ou sinergia desse novo negócio.",
+          "favorable": "Mantém SAT da disciplina de crédito e capital com menor rentabilidade e maior PDD já reconhecidas. Aquisição de comercializadora de energia foi autorizada pelo Bacen em19/04, ainda sujeita à formalização indicada na nota; não se presume lucro, retorno ou sinergia desse novo negócio.",
+          "contrary_evidence": "Negócio novo de energia acrescenta risco fora da carteira bancária; ausência de contribuição atual impede afirmar retorno incremental dessa aquisição.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "91936",
+              "group": 1653,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2020-03-27",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=91936",
+              "original": "review_originals/cvm_91936_g1653.pdf.gz",
+              "original_sha256": "98ed8841ebb69e599bb84c7629a50f8a67aa80fd3e7b636cde9f28c169ddf212"
+            },
+            {
+              "docid": "91936",
+              "group": 412,
+              "pages": [
+                29,
+                69
+              ],
+              "received": "2020-03-27",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=91936",
+              "original": "review_originals/cvm_91936_g412.pdf.gz",
+              "original_sha256": "5c094e0b7abcdd9e5e8a6db0ee2d81b6ba937606125f5fe6dbe8a11b29e7c67a"
+            },
+            {
+              "docid": "93077",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2020-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=93077",
+              "original": "review_originals/cvm_93077_g192.pdf.gz",
+              "original_sha256": "bb78ccb12afe4f7951d334db400729a767fd87fb59aeeae75379f6aec649e742"
+            },
+            {
+              "docid": "93077",
+              "group": 193,
+              "pages": [
+                45,
+                46
+              ],
+              "received": "2020-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=93077",
+              "original": "review_originals/cvm_93077_g193.pdf.gz",
+              "original_sha256": "d786c4d27e2209e6346c7766f467b2b6d4993be629feab907c90470f960bc934"
+            }
+          ],
+          "prior_year": 2019,
+          "review_2019": "JCP2018 de R$220,5 milhões, aproximadamente52,7% do lucro, veio com oferta de reinvestimento por novas ações e preservação de capital. A continuidade do crédito e do capital sustenta SAT; esse payout isolado não comprova produtividade incremental ou crescimento por ação.",
+          "review_2020": "Mantém SAT da disciplina de crédito e capital com menor rentabilidade e maior PDD já reconhecidas. Aquisição de comercializadora de energia foi autorizada pelo Bacen em19/04, ainda sujeita à formalização indicada na nota; não se presume lucro, retorno ou sinergia desse novo negócio."
+        },
+        "governance": {
+          "status": "SATISFACTORY",
+          "reason": "Controlador Bank ABC detém59,94%, administradores4,82% e tesouraria2,23% em março. Mantêm-se conselho, comitês de risco/auditoria, três linhas de controle e política de independência do auditor. Operações com controlador são divulgadas; Nível2 isoladamente não é a prova da aprovação.",
+          "favorable": "Controlador Bank ABC detém59,94%, administradores4,82% e tesouraria2,23% em março. Mantêm-se conselho, comitês de risco/auditoria, três linhas de controle e política de independência do auditor. Operações com controlador são divulgadas; Nível2 isoladamente não é a prova da aprovação.",
+          "contrary_evidence": "Controle concentrado e relações financeiras com o grupo exigem acompanhamento contínuo, apesar de comitês e divulgação.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "91936",
+              "group": 1653,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2020-03-27",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=91936",
+              "original": "review_originals/cvm_91936_g1653.pdf.gz",
+              "original_sha256": "98ed8841ebb69e599bb84c7629a50f8a67aa80fd3e7b636cde9f28c169ddf212"
+            },
+            {
+              "docid": "91936",
+              "group": 412,
+              "pages": [
+                29,
+                69
+              ],
+              "received": "2020-03-27",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=91936",
+              "original": "review_originals/cvm_91936_g412.pdf.gz",
+              "original_sha256": "5c094e0b7abcdd9e5e8a6db0ee2d81b6ba937606125f5fe6dbe8a11b29e7c67a"
+            },
+            {
+              "docid": "93077",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2020-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=93077",
+              "original": "review_originals/cvm_93077_g192.pdf.gz",
+              "original_sha256": "bb78ccb12afe4f7951d334db400729a767fd87fb59aeeae75379f6aec649e742"
+            },
+            {
+              "docid": "93077",
+              "group": 193,
+              "pages": [
+                45,
+                46
+              ],
+              "received": "2020-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=93077",
+              "original": "review_originals/cvm_93077_g193.pdf.gz",
+              "original_sha256": "d786c4d27e2209e6346c7766f467b2b6d4993be629feab907c90470f960bc934"
+            }
+          ],
+          "prior_year": 2019,
+          "review_2019": "Mantém SAT pelas evidências anteriores de prestação de contas, controles e partes relacionadas, atualizadas pelo ITR: auditor Ernst & Young e política explícita de independência; serviços adicionais não excederam5% dos honorários. Controle de59,89% e administradores acionistas são conflitos potenciais explicitados, não prova isolada de alinhamento.",
+          "review_2020": "Controlador Bank ABC detém59,94%, administradores4,82% e tesouraria2,23% em março. Mantêm-se conselho, comitês de risco/auditoria, três linhas de controle e política de independência do auditor. Operações com controlador são divulgadas; Nível2 isoladamente não é a prova da aprovação."
+        }
+      },
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "A franquia de crédito corporativo e garantias continua, com carteira de R$27,4 bilhões em março de 2020 versus R$23,6 bilhões um ano antes. Diversificação de clientes e especialização são preservadas; não se interpreta aumento de saldo na crise como crescimento sustentável garantido.",
+          "evidence": [
+            {
+              "docid": "91936",
+              "group": 1653,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2020-03-27",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=91936",
+              "original": "review_originals/cvm_91936_g1653.pdf.gz",
+              "original_sha256": "98ed8841ebb69e599bb84c7629a50f8a67aa80fd3e7b636cde9f28c169ddf212"
+            },
+            {
+              "docid": "91936",
+              "group": 412,
+              "pages": [
+                29,
+                69
+              ],
+              "received": "2020-03-27",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=91936",
+              "original": "review_originals/cvm_91936_g412.pdf.gz",
+              "original_sha256": "5c094e0b7abcdd9e5e8a6db0ee2d81b6ba937606125f5fe6dbe8a11b29e7c67a"
+            },
+            {
+              "docid": "93077",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2020-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=93077",
+              "original": "review_originals/cvm_93077_g192.pdf.gz",
+              "original_sha256": "bb78ccb12afe4f7951d334db400729a767fd87fb59aeeae75379f6aec649e742"
+            },
+            {
+              "docid": "93077",
+              "group": 193,
+              "pages": [
+                45,
+                46
+              ],
+              "received": "2020-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=93077",
+              "original": "review_originals/cvm_93077_g193.pdf.gz",
+              "original_sha256": "d786c4d27e2209e6346c7766f467b2b6d4993be629feab907c90470f960bc934"
             }
           ]
         },
         "capital_economics": {
-          "favorable": {
-            "roe_parent_5": [
-              0.1654066106963427,
-              0.14500274575934266,
-              0.13837751212050084,
-              0.11985164554820095,
-              0.12908858441136623
-            ],
-            "normalized_profit": 459336012.784705
-          },
+          "favorable": "Lucro BRGAAP de 2019 de R$528,4 milhões/ROE13,7% inclui benefício de R$18,437 milhões da mudança de CSLL. No primeiro trimestre, lucro BRGAAP R$80,997 milhões/ROE8,0% e IFRS R$104,193 milhões mostram aumento do custo de risco. Mantém SAT da economia da franquia documentada; um trimestre menor não cria falha estrutural nem certifica prêmio reinvestidor.",
           "evidence": [
             {
-              "fiscal_year": 2015,
-              "metric": "attributable_ni",
-              "value": 388557000.0,
-              "docid": "63795",
-              "received": "2017-03-29",
-              "reference": "2016-12-31",
-              "period_end": "2015-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2016.csv",
-              "archive_sha256": "772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip"
-            },
-            {
-              "fiscal_year": 2016,
-              "metric": "attributable_ni",
-              "value": 391716000.0,
-              "docid": "72916",
-              "received": "2018-03-29",
-              "reference": "2017-12-31",
-              "period_end": "2016-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
-            },
-            {
-              "fiscal_year": 2017,
-              "metric": "attributable_ni",
-              "value": 427417000.0,
-              "docid": "81746",
-              "received": "2019-03-29",
-              "reference": "2018-12-31",
-              "period_end": "2017-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
-            },
-            {
-              "fiscal_year": 2018,
-              "metric": "attributable_ni",
-              "value": 416475000.0,
               "docid": "91936",
+              "group": 1653,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
               "received": "2020-03-27",
-              "reference": "2019-12-31",
-              "period_end": "2018-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=91936",
+              "original": "review_originals/cvm_91936_g1653.pdf.gz",
+              "original_sha256": "98ed8841ebb69e599bb84c7629a50f8a67aa80fd3e7b636cde9f28c169ddf212"
             },
             {
-              "fiscal_year": 2019,
-              "metric": "attributable_ni",
-              "value": 497394000.0,
               "docid": "91936",
+              "group": 412,
+              "pages": [
+                29,
+                69
+              ],
               "received": "2020-03-27",
-              "reference": "2019-12-31",
-              "period_end": "2019-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=91936",
+              "original": "review_originals/cvm_91936_g412.pdf.gz",
+              "original_sha256": "5c094e0b7abcdd9e5e8a6db0ee2d81b6ba937606125f5fe6dbe8a11b29e7c67a"
+            },
+            {
+              "docid": "93077",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2020-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=93077",
+              "original": "review_originals/cvm_93077_g192.pdf.gz",
+              "original_sha256": "bb78ccb12afe4f7951d334db400729a767fd87fb59aeeae75379f6aec649e742"
+            },
+            {
+              "docid": "93077",
+              "group": 193,
+              "pages": [
+                45,
+                46
+              ],
+              "received": "2020-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=93077",
+              "original": "review_originals/cvm_93077_g193.pdf.gz",
+              "original_sha256": "d786c4d27e2209e6346c7766f467b2b6d4993be629feab907c90470f960bc934"
             }
           ]
         },
         "earnings_reliability": {
-          "favorable": {
-            "positive_attributable_years": 5,
-            "audit_records": 8
-          },
+          "favorable": "A ponte de março distingue lucro BRGAAP de R$80,997 milhões e IFRS de R$104,193 milhões: diferenças de provisão de empréstimos R$12,609 milhões, garantias −R$0,174 milhão e outros ajustes R$10,761 milhões. Benefício tributário anual e aumento de PDD são identificados. A empresa explicita não conseguir estimar o efeito total futuro da COVID, sem apresentar previsão como realizado.",
           "evidence": [
             {
               "docid": "91936",
+              "group": 1653,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
               "received": "2020-03-27",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=91936",
+              "original": "review_originals/cvm_91936_g1653.pdf.gz",
+              "original_sha256": "98ed8841ebb69e599bb84c7629a50f8a67aa80fd3e7b636cde9f28c169ddf212"
             },
             {
               "docid": "91936",
+              "group": 412,
+              "pages": [
+                29,
+                69
+              ],
               "received": "2020-03-27",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=91936",
+              "original": "review_originals/cvm_91936_g412.pdf.gz",
+              "original_sha256": "5c094e0b7abcdd9e5e8a6db0ee2d81b6ba937606125f5fe6dbe8a11b29e7c67a"
             },
             {
-              "docid": "91936",
-              "received": "2020-03-27",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+              "docid": "93077",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2020-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=93077",
+              "original": "review_originals/cvm_93077_g192.pdf.gz",
+              "original_sha256": "bb78ccb12afe4f7951d334db400729a767fd87fb59aeeae75379f6aec649e742"
             },
             {
-              "docid": "91936",
-              "received": "2020-03-27",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
-            },
-            {
-              "docid": "91936",
-              "received": "2020-03-27",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
-            },
-            {
-              "docid": "91936",
-              "received": "2020-03-27",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
-            },
-            {
-              "docid": "91936",
-              "received": "2020-03-27",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
-            },
-            {
-              "docid": "91936",
-              "received": "2020-03-27",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+              "docid": "93077",
+              "group": 193,
+              "pages": [
+                45,
+                46
+              ],
+              "received": "2020-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=93077",
+              "original": "review_originals/cvm_93077_g193.pdf.gz",
+              "original_sha256": "d786c4d27e2209e6346c7766f467b2b6d4993be629feab907c90470f960bc934"
             }
           ]
         },
         "financial_resilience": {
-          "favorable": {
-            "parent_equity_latest": 4040733000.0
-          },
+          "favorable": "Capital prudencial março: PR de R$5,227236 bilhões, Basileia14,66%, contra16,89% em dezembro; PRE de R$2,853374 bilhões baseado apenas no mínimo8% dos RWA. A margem de R$2,373862 bilhões é sobre esse mínimo-base, não excesso após todos os buffers. Capital, PDD e carteira AA–C96,9% sustentam continuidade SAT; os ajustes de risco e a redução do índice são considerados.",
           "evidence": [
             {
               "docid": "91936",
+              "group": 1653,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
               "received": "2020-03-27",
-              "reference": "2019-12-31",
-              "period_end": "2019-12-31",
-              "perimeter": "ind",
-              "account": "2.05",
-              "description": "Patrimônio Líquido",
-              "source": "dfp_cia_aberta_BPP_ind_2019.csv",
-              "archive_sha256": "",
-              "url": ""
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=91936",
+              "original": "review_originals/cvm_91936_g1653.pdf.gz",
+              "original_sha256": "98ed8841ebb69e599bb84c7629a50f8a67aa80fd3e7b636cde9f28c169ddf212"
+            },
+            {
+              "docid": "91936",
+              "group": 412,
+              "pages": [
+                29,
+                69
+              ],
+              "received": "2020-03-27",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=91936",
+              "original": "review_originals/cvm_91936_g412.pdf.gz",
+              "original_sha256": "5c094e0b7abcdd9e5e8a6db0ee2d81b6ba937606125f5fe6dbe8a11b29e7c67a"
+            },
+            {
+              "docid": "93077",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2020-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=93077",
+              "original": "review_originals/cvm_93077_g192.pdf.gz",
+              "original_sha256": "bb78ccb12afe4f7951d334db400729a767fd87fb59aeeae75379f6aec649e742"
+            },
+            {
+              "docid": "93077",
+              "group": 193,
+              "pages": [
+                45,
+                46
+              ],
+              "received": "2020-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=93077",
+              "original": "review_originals/cvm_93077_g193.pdf.gz",
+              "original_sha256": "d786c4d27e2209e6346c7766f467b2b6d4993be629feab907c90470f960bc934"
             }
           ]
         },
         "capital_allocation": {
-          "favorable": {
-            "historical_payout": [
-              0.3667,
-              0.4637,
-              0.4924,
-              0.5273,
-              null
-            ],
-            "distributions": [
-              136018649.64,
-              188505478.06,
-              206196856.92,
-              220447666.59,
-              null
-            ]
-          },
+          "favorable": "Mantém SAT da disciplina de crédito e capital com menor rentabilidade e maior PDD já reconhecidas. Aquisição de comercializadora de energia foi autorizada pelo Bacen em19/04, ainda sujeita à formalização indicada na nota; não se presume lucro, retorno ou sinergia desse novo negócio.",
           "evidence": [
             {
-              "docid": "83859",
-              "received": "2019-05-17",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2018.csv",
-              "archive_sha256": "7a349acbce124fdb0846c371b3e68e5ff06781ead4b8713d6080eabf6737d082",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=83859",
-              "fiscal_year": 2015,
-              "raw": {
-                "CNPJ_Companhia": "28.195.667/0001-06",
-                "Data_Referencia": "2018-01-01",
-                "Versao": "19",
-                "ID_Documento": "83859",
-                "Nome_Companhia": "BCO ABC BRASIL S.A.",
-                "Data_Inicio_Exercicio_Social": "2015-01-01",
-                "Data_Fim_Exercicio_Social": "2015-12-31",
-                "Lucro_Liquido_Ajustado": "370911208.76",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "5.42000000",
-                "Lucro_Liquido_Retido": "234892559.12",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "36.67000000",
-                "Dividendo_Distribuido_Total": "136018649.64",
-                "Data_Aprovacao_Retencao": "2016-04-14"
-              }
+              "docid": "91936",
+              "group": 1653,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2020-03-27",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=91936",
+              "original": "review_originals/cvm_91936_g1653.pdf.gz",
+              "original_sha256": "98ed8841ebb69e599bb84c7629a50f8a67aa80fd3e7b636cde9f28c169ddf212"
             },
             {
-              "docid": "93289",
-              "received": "2020-05-19",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2019.csv",
-              "archive_sha256": "30f461d5d3b3cdbab84faac20c158c6a41cea1ee0223c40d988db9845e2c6a51",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=93289",
-              "fiscal_year": 2016,
-              "raw": {
-                "CNPJ_Companhia": "28.195.667/0001-06",
-                "Data_Referencia": "2019-01-01",
-                "Versao": "14",
-                "ID_Documento": "93289",
-                "Nome_Companhia": "BCO ABC BRASIL S.A.",
-                "Data_Inicio_Exercicio_Social": "2016-01-01",
-                "Data_Fim_Exercicio_Social": "2016-12-31",
-                "Lucro_Liquido_Ajustado": "406556571.69",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "6.52000000",
-                "Lucro_Liquido_Retido": "218051093.63",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "46.37000000",
-                "Dividendo_Distribuido_Total": "188505478.06",
-                "Data_Aprovacao_Retencao": "2017-04-25"
-              }
+              "docid": "91936",
+              "group": 412,
+              "pages": [
+                29,
+                69
+              ],
+              "received": "2020-03-27",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=91936",
+              "original": "review_originals/cvm_91936_g412.pdf.gz",
+              "original_sha256": "5c094e0b7abcdd9e5e8a6db0ee2d81b6ba937606125f5fe6dbe8a11b29e7c67a"
             },
             {
-              "docid": "93289",
-              "received": "2020-05-19",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2019.csv",
-              "archive_sha256": "30f461d5d3b3cdbab84faac20c158c6a41cea1ee0223c40d988db9845e2c6a51",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=93289",
-              "fiscal_year": 2017,
-              "raw": {
-                "CNPJ_Companhia": "28.195.667/0001-06",
-                "Data_Referencia": "2019-01-01",
-                "Versao": "14",
-                "ID_Documento": "93289",
-                "Nome_Companhia": "BCO ABC BRASIL S.A.",
-                "Data_Inicio_Exercicio_Social": "2017-01-01",
-                "Data_Fim_Exercicio_Social": "2017-12-31",
-                "Lucro_Liquido_Ajustado": "418733333.12",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "6.28000000",
-                "Lucro_Liquido_Retido": "212536476.20",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "49.24000000",
-                "Dividendo_Distribuido_Total": "206196856.92",
-                "Data_Aprovacao_Retencao": "2018-04-27"
-              }
+              "docid": "93077",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2020-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=93077",
+              "original": "review_originals/cvm_93077_g192.pdf.gz",
+              "original_sha256": "bb78ccb12afe4f7951d334db400729a767fd87fb59aeeae75379f6aec649e742"
             },
             {
-              "docid": "93289",
-              "received": "2020-05-19",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2019.csv",
-              "archive_sha256": "30f461d5d3b3cdbab84faac20c158c6a41cea1ee0223c40d988db9845e2c6a51",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=93289",
-              "fiscal_year": 2018,
-              "raw": {
-                "CNPJ_Companhia": "28.195.667/0001-06",
-                "Data_Referencia": "2019-01-01",
-                "Versao": "14",
-                "ID_Documento": "93289",
-                "Nome_Companhia": "BCO ABC BRASIL S.A.",
-                "Data_Inicio_Exercicio_Social": "2018-01-01",
-                "Data_Fim_Exercicio_Social": "2018-12-31",
-                "Lucro_Liquido_Ajustado": "418086311.00",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "6.01000000",
-                "Lucro_Liquido_Retido": "197638644.41",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "52.73000000",
-                "Dividendo_Distribuido_Total": "220447666.59",
-                "Data_Aprovacao_Retencao": "2019-04-05"
-              }
+              "docid": "93077",
+              "group": 193,
+              "pages": [
+                45,
+                46
+              ],
+              "received": "2020-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=93077",
+              "original": "review_originals/cvm_93077_g193.pdf.gz",
+              "original_sha256": "d786c4d27e2209e6346c7766f467b2b6d4993be629feab907c90470f960bc934"
             }
           ]
         },
         "governance": {
-          "favorable": {
-            "dated_shareholder_right_records": 22,
-            "dated_related_party_records": 139
-          },
+          "favorable": "Controlador Bank ABC detém59,94%, administradores4,82% e tesouraria2,23% em março. Mantêm-se conselho, comitês de risco/auditoria, três linhas de controle e política de independência do auditor. Operações com controlador são divulgadas; Nível2 isoladamente não é a prova da aprovação.",
           "evidence": [
             {
               "docid": "91936",
+              "group": 1653,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
               "received": "2020-03-27",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=91936",
+              "original": "review_originals/cvm_91936_g1653.pdf.gz",
+              "original_sha256": "98ed8841ebb69e599bb84c7629a50f8a67aa80fd3e7b636cde9f28c169ddf212"
             },
             {
               "docid": "91936",
+              "group": 412,
+              "pages": [
+                29,
+                69
+              ],
               "received": "2020-03-27",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=91936",
+              "original": "review_originals/cvm_91936_g412.pdf.gz",
+              "original_sha256": "5c094e0b7abcdd9e5e8a6db0ee2d81b6ba937606125f5fe6dbe8a11b29e7c67a"
             },
             {
-              "docid": "91936",
-              "received": "2020-03-27",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+              "docid": "93077",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2020-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=93077",
+              "original": "review_originals/cvm_93077_g192.pdf.gz",
+              "original_sha256": "bb78ccb12afe4f7951d334db400729a767fd87fb59aeeae75379f6aec649e742"
             },
             {
-              "docid": "91936",
-              "received": "2020-03-27",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
-            },
-            {
-              "docid": "91936",
-              "received": "2020-03-27",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
-            },
-            {
-              "docid": "91936",
-              "received": "2020-03-27",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
-            },
-            {
-              "docid": "91936",
-              "received": "2020-03-27",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
-            },
-            {
-              "docid": "91936",
-              "received": "2020-03-27",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+              "docid": "93077",
+              "group": 193,
+              "pages": [
+                45,
+                46
+              ],
+              "received": "2020-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=93077",
+              "original": "review_originals/cvm_93077_g193.pdf.gz",
+              "original_sha256": "d786c4d27e2209e6346c7766f467b2b6d4993be629feab907c90470f960bc934"
             }
           ]
         }

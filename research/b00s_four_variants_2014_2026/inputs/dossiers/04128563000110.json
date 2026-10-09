@@ -7,443 +7,346 @@
     "company": "AES TIETE ENERGIA SA",
     "sector": "Energia",
     "category": "INDETERMINATE",
-    "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+    "assessment_status": "ASSESSED",
     "dimensions": {
       "durability": {
-        "status": "INDETERMINATE",
-        "favorable": "Geração e Comercialização de Energia Elétrica",
-        "missing": "Historical concession/contract durability, competitive position and pricing power",
+        "status": "SATISFACTORY",
+        "reason": "Novehidrelétricas/trêsPCHs e contratos solares/eólicos diversificambase; hidrelétricas até2029/PCH2032, AltoSertãoII contratos2033, Guaimbê2037/Ouroeste2038–40. SATde durabilidade limitada explicitamente aoscontratos, não renovação presumida.",
         "evidence": [
           {
-            "cnpj": "04128563000110",
-            "received": "2019-03-01",
-            "name": "AES TIETE ENERGIA SA",
-            "sector": "Emp. Adm. Part. - Energia Elétrica",
-            "activity": "Geração e Comercialização de Energia Elétrica",
-            "cvm": "018970",
-            "docid": "81008",
-            "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=81008"
+            "docid": "91270",
+            "group": 412,
+            "pages": [
+              65,
+              66,
+              67,
+              73,
+              74,
+              81
+            ],
+            "received": "2020-02-29",
+            "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=91270",
+            "original": "review_originals/cvm_91270_g412.pdf.gz",
+            "original_sha256": "9880e82d300d07103453b93057e942d040f48feb9b2a844c3b14ce1f570bf495"
+          },
+          {
+            "docid": "92806",
+            "group": 192,
+            "pages": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "received": "2020-05-07",
+            "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92806",
+            "original": "review_originals/cvm_92806_g192.pdf.gz",
+            "original_sha256": "67c614120c8d01e93a2fb9fb89a9a27bffc0e2379d1fef61830d2678763e707e"
+          },
+          {
+            "docid": "92806",
+            "group": 193,
+            "pages": [
+              14,
+              15,
+              16,
+              37,
+              40,
+              53,
+              54,
+              63
+            ],
+            "received": "2020-05-07",
+            "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92806",
+            "original": "review_originals/cvm_92806_g193.pdf.gz",
+            "original_sha256": "e8450a5a890961a8124e5acafeb22184b0a1a352b7438a8905a112be55a48f0c"
           }
         ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        "contrary_evidence": "Riscos e ressalvas materiais explicitados no juízo da dimensão.",
+        "missing": ""
       },
       "capital_economics": {
         "status": "INDETERMINATE",
-        "favorable": {
-          "roe_parent_5": [
-            0.13808364876542062,
-            0.19937523720550024,
-            0.1902404785526067,
-            0.18691832047888396,
-            0.20178481862031222
-          ],
-          "normalized_profit": 322252202.15645206
-        },
-        "missing": "Cycle-normalized ROIC/incremental returns or risk-adjusted prudential ROE; historical peer/capital comparison",
+        "reason": "NI1T2075,319mi+21,5% decorre sobretudo menorcompraenergia48,463mi, não plena melhora de retorno incremental. Novos ativos solares geram10,376mi receita eTucano483,6MW ainda exige investimento; ND de retorno sobrecapital de aquisições/expansão.",
         "evidence": [
           {
-            "fiscal_year": 2015,
-            "metric": "attributable_ni",
-            "value": 393583000.0,
-            "docid": "62808",
-            "received": "2017-02-24",
-            "reference": "2016-12-31",
-            "period_end": "2015-12-31",
-            "perimeter": "con",
-            "account": "3.11.01",
-            "description": "Atribuído a Sócios da Empresa Controladora",
-            "source": "dfp_cia_aberta_DRE_con_2016.csv",
-            "archive_sha256": "772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip"
-          },
-          {
-            "fiscal_year": 2016,
-            "metric": "attributable_ni",
-            "value": 358533000.0,
-            "docid": "71802",
-            "received": "2018-02-27",
-            "reference": "2017-12-31",
-            "period_end": "2016-12-31",
-            "perimeter": "con",
-            "account": "3.11.01",
-            "description": "Atribuído a Sócios da Empresa Controladora",
-            "source": "dfp_cia_aberta_DRE_con_2017.csv",
-            "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
-          },
-          {
-            "fiscal_year": 2017,
-            "metric": "attributable_ni",
-            "value": 298277000.0,
-            "docid": "80910",
-            "received": "2019-02-26",
-            "reference": "2018-12-31",
-            "period_end": "2017-12-31",
-            "perimeter": "con",
-            "account": "3.11.01",
-            "description": "Atribuído a Sócios da Empresa Controladora",
-            "source": "dfp_cia_aberta_DRE_con_2018.csv",
-            "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
-          },
-          {
-            "fiscal_year": 2018,
-            "metric": "attributable_ni",
-            "value": 287963000.0,
             "docid": "91270",
+            "group": 412,
+            "pages": [
+              65,
+              66,
+              67,
+              73,
+              74,
+              81
+            ],
             "received": "2020-02-29",
-            "reference": "2019-12-31",
-            "period_end": "2018-12-31",
-            "perimeter": "con",
-            "account": "3.11.01",
-            "description": "Atribuído a Sócios da Empresa Controladora",
-            "source": "dfp_cia_aberta_DRE_con_2019.csv",
-            "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=91270",
+            "original": "review_originals/cvm_91270_g412.pdf.gz",
+            "original_sha256": "9880e82d300d07103453b93057e942d040f48feb9b2a844c3b14ce1f570bf495"
           },
           {
-            "fiscal_year": 2019,
-            "metric": "attributable_ni",
-            "value": 300119000.0,
-            "docid": "91270",
-            "received": "2020-02-29",
-            "reference": "2019-12-31",
-            "period_end": "2019-12-31",
-            "perimeter": "con",
-            "account": "3.11.01",
-            "description": "Atribuído a Sócios da Empresa Controladora",
-            "source": "dfp_cia_aberta_DRE_con_2019.csv",
-            "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            "docid": "92806",
+            "group": 192,
+            "pages": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "received": "2020-05-07",
+            "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92806",
+            "original": "review_originals/cvm_92806_g192.pdf.gz",
+            "original_sha256": "67c614120c8d01e93a2fb9fb89a9a27bffc0e2379d1fef61830d2678763e707e"
+          },
+          {
+            "docid": "92806",
+            "group": 193,
+            "pages": [
+              14,
+              15,
+              16,
+              37,
+              40,
+              53,
+              54,
+              63
+            ],
+            "received": "2020-05-07",
+            "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92806",
+            "original": "review_originals/cvm_92806_g193.pdf.gz",
+            "original_sha256": "e8450a5a890961a8124e5acafeb22184b0a1a352b7438a8905a112be55a48f0c"
           }
         ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        "contrary_evidence": "Riscos e ressalvas materiais explicitados no juízo da dimensão.",
+        "missing": "NI1T2075,319mi+21,5% decorre sobretudo menorcompraenergia48,463mi, não plena melhora de retorno incremental. Novos ativos solares geram10,376mi receita eTucano483,6MW ainda exige investimento; ND de retorno sobrecapital de aquisições/expansão."
       },
       "earnings_reliability": {
-        "status": "INDETERMINATE",
-        "favorable": {
-          "positive_attributable_years": 5,
-          "audit_records": 6
-        },
-        "missing": "Profit/cash/recurring earnings bridge; provisions and extraordinary items reviewed in dated notes",
+        "status": "SATISFACTORY",
+        "reason": "Notas separam energia comprada, juroscapitalizadosmenores6,198mi, efeito cambialItaipu15,051mi/fornecedores6,549mi e imposto41,096mi. Reservaágio/capitalização e açõesdiluídas explicitadas. SATda rastreabilidade, não lucro bruto semcusto de seca.",
         "evidence": [
           {
             "docid": "91270",
+            "group": 412,
+            "pages": [
+              65,
+              66,
+              67,
+              73,
+              74,
+              81
+            ],
             "received": "2020-02-29",
-            "reference": "2019-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2019.csv",
-            "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=91270",
+            "original": "review_originals/cvm_91270_g412.pdf.gz",
+            "original_sha256": "9880e82d300d07103453b93057e942d040f48feb9b2a844c3b14ce1f570bf495"
           },
           {
-            "docid": "91270",
-            "received": "2020-02-29",
-            "reference": "2019-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2019.csv",
-            "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            "docid": "92806",
+            "group": 192,
+            "pages": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "received": "2020-05-07",
+            "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92806",
+            "original": "review_originals/cvm_92806_g192.pdf.gz",
+            "original_sha256": "67c614120c8d01e93a2fb9fb89a9a27bffc0e2379d1fef61830d2678763e707e"
           },
           {
-            "docid": "91270",
-            "received": "2020-02-29",
-            "reference": "2019-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2019.csv",
-            "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
-          },
-          {
-            "docid": "91270",
-            "received": "2020-02-29",
-            "reference": "2019-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2019.csv",
-            "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
-          },
-          {
-            "docid": "91270",
-            "received": "2020-02-29",
-            "reference": "2019-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2019.csv",
-            "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
-          },
-          {
-            "docid": "91270",
-            "received": "2020-02-29",
-            "reference": "2019-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2019.csv",
-            "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            "docid": "92806",
+            "group": 193,
+            "pages": [
+              14,
+              15,
+              16,
+              37,
+              40,
+              53,
+              54,
+              63
+            ],
+            "received": "2020-05-07",
+            "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92806",
+            "original": "review_originals/cvm_92806_g193.pdf.gz",
+            "original_sha256": "e8450a5a890961a8124e5acafeb22184b0a1a352b7438a8905a112be55a48f0c"
           }
         ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        "contrary_evidence": "Riscos e ressalvas materiais explicitados no juízo da dimensão.",
+        "missing": ""
       },
       "financial_resilience": {
         "status": "INDETERMINATE",
-        "favorable": {
-          "parent_equity_latest": 1451170000.0
-        },
-        "missing": "Debt maturity, interest coverage and committed maintenance/expansion CAPEX",
+        "reason": "Investimentoscurtos1.369,855mi e caixa26,389mi versus dívida4.323,238mi; liquidez curta favorável, mas fornecedores/deveresTucanoTSA1.042,691mi eprojeto recémadquirido100,378mi tornam material fundingdaexpansão. Covenants impõemlimites próprios deICSD/produção/dividendos; ND específico, sem alegardefault.",
         "evidence": [
           {
             "docid": "91270",
+            "group": 412,
+            "pages": [
+              65,
+              66,
+              67,
+              73,
+              74,
+              81
+            ],
             "received": "2020-02-29",
-            "reference": "2019-12-31",
-            "period_end": "2019-12-31",
-            "perimeter": "ind",
-            "account": "2.03",
-            "description": "Patrimônio Líquido",
-            "source": "dfp_cia_aberta_BPP_ind_2019.csv",
-            "archive_sha256": "",
-            "url": ""
+            "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=91270",
+            "original": "review_originals/cvm_91270_g412.pdf.gz",
+            "original_sha256": "9880e82d300d07103453b93057e942d040f48feb9b2a844c3b14ce1f570bf495"
+          },
+          {
+            "docid": "92806",
+            "group": 192,
+            "pages": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "received": "2020-05-07",
+            "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92806",
+            "original": "review_originals/cvm_92806_g192.pdf.gz",
+            "original_sha256": "67c614120c8d01e93a2fb9fb89a9a27bffc0e2379d1fef61830d2678763e707e"
+          },
+          {
+            "docid": "92806",
+            "group": 193,
+            "pages": [
+              14,
+              15,
+              16,
+              37,
+              40,
+              53,
+              54,
+              63
+            ],
+            "received": "2020-05-07",
+            "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92806",
+            "original": "review_originals/cvm_92806_g193.pdf.gz",
+            "original_sha256": "e8450a5a890961a8124e5acafeb22184b0a1a352b7438a8905a112be55a48f0c"
           }
         ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        "contrary_evidence": "Riscos e ressalvas materiais explicitados no juízo da dimensão.",
+        "missing": "Investimentoscurtos1.369,855mi e caixa26,389mi versus dívida4.323,238mi; liquidez curta favorável, mas fornecedores/deveresTucanoTSA1.042,691mi eprojeto recémadquirido100,378mi tornam material fundingdaexpansão. Covenants impõemlimites próprios deICSD/produção/dividendos; ND específico, sem alegardefault."
       },
       "capital_allocation": {
         "status": "INDETERMINATE",
-        "favorable": {
-          "historical_payout": [
-            1.0,
-            1.0,
-            0.9754999999999999,
-            0.9756999999999999,
-            null
-          ],
-          "distributions": [
-            571178296.79,
-            400015868.47,
-            337485647.83,
-            337866461.79,
-            null
-          ]
-        },
-        "missing": "Maintenance versus expansion CAPEX, sustainable dividends, adjusted per-share and incremental economic growth",
+        "reason": "Dividendos2019intermediários205,137mi, complementoproposto97,478mi/JCP e novas ações porágio não são retenção produtiva automática. AquisiçãoTucano+contratodeconstrução muda escala; NDde crescimentoeconômico poração e retornoapósgarantias.",
         "evidence": [
           {
-            "docid": "82728",
-            "received": "2019-05-06",
-            "reference": "",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "fre_cia_aberta_distribuicao_dividendos_2018.csv",
-            "archive_sha256": "7a349acbce124fdb0846c371b3e68e5ff06781ead4b8713d6080eabf6737d082",
-            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=82728",
-            "fiscal_year": 2015,
-            "raw": {
-              "CNPJ_Companhia": "04.128.563/0001-10",
-              "Data_Referencia": "2018-01-01",
-              "Versao": "10",
-              "ID_Documento": "82728",
-              "Nome_Companhia": "AES TIETE ENERGIA SA",
-              "Data_Inicio_Exercicio_Social": "2015-01-01",
-              "Data_Fim_Exercicio_Social": "2015-12-31",
-              "Lucro_Liquido_Ajustado": "571178000.00",
-              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "39.80000000",
-              "Lucro_Liquido_Retido": "12000000.00",
-              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "100.00000000",
-              "Dividendo_Distribuido_Total": "571178296.79",
-              "Data_Aprovacao_Retencao": "2016-04-28"
-            }
+            "docid": "91270",
+            "group": 412,
+            "pages": [
+              65,
+              66,
+              67,
+              73,
+              74,
+              81
+            ],
+            "received": "2020-02-29",
+            "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=91270",
+            "original": "review_originals/cvm_91270_g412.pdf.gz",
+            "original_sha256": "9880e82d300d07103453b93057e942d040f48feb9b2a844c3b14ce1f570bf495"
           },
           {
-            "docid": "92163",
-            "received": "2020-04-01",
-            "reference": "",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "fre_cia_aberta_distribuicao_dividendos_2019.csv",
-            "archive_sha256": "30f461d5d3b3cdbab84faac20c158c6a41cea1ee0223c40d988db9845e2c6a51",
-            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92163",
-            "fiscal_year": 2016,
-            "raw": {
-              "CNPJ_Companhia": "04.128.563/0001-10",
-              "Data_Referencia": "2019-01-01",
-              "Versao": "11",
-              "ID_Documento": "92163",
-              "Nome_Companhia": "AES TIETE ENERGIA SA",
-              "Data_Inicio_Exercicio_Social": "2016-01-01",
-              "Data_Fim_Exercicio_Social": "2016-12-31",
-              "Lucro_Liquido_Ajustado": "400017000.00",
-              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "23.02000000",
-              "Lucro_Liquido_Retido": "21021000.00",
-              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "100.00000000",
-              "Dividendo_Distribuido_Total": "400015868.47",
-              "Data_Aprovacao_Retencao": "2017-04-20"
-            }
+            "docid": "92806",
+            "group": 192,
+            "pages": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "received": "2020-05-07",
+            "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92806",
+            "original": "review_originals/cvm_92806_g192.pdf.gz",
+            "original_sha256": "67c614120c8d01e93a2fb9fb89a9a27bffc0e2379d1fef61830d2678763e707e"
           },
           {
-            "docid": "92163",
-            "received": "2020-04-01",
-            "reference": "",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "fre_cia_aberta_distribuicao_dividendos_2019.csv",
-            "archive_sha256": "30f461d5d3b3cdbab84faac20c158c6a41cea1ee0223c40d988db9845e2c6a51",
-            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92163",
-            "fiscal_year": 2017,
-            "raw": {
-              "CNPJ_Companhia": "04.128.563/0001-10",
-              "Data_Referencia": "2019-01-01",
-              "Versao": "11",
-              "ID_Documento": "92163",
-              "Nome_Companhia": "AES TIETE ENERGIA SA",
-              "Data_Inicio_Exercicio_Social": "2017-01-01",
-              "Data_Fim_Exercicio_Social": "2017-12-31",
-              "Lucro_Liquido_Ajustado": "345949000.00",
-              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "19.58000000",
-              "Lucro_Liquido_Retido": "18367000.00",
-              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "97.55000000",
-              "Dividendo_Distribuido_Total": "337485647.83",
-              "Data_Aprovacao_Retencao": "2018-04-24"
-            }
-          },
-          {
-            "docid": "92163",
-            "received": "2020-04-01",
-            "reference": "",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "fre_cia_aberta_distribuicao_dividendos_2019.csv",
-            "archive_sha256": "30f461d5d3b3cdbab84faac20c158c6a41cea1ee0223c40d988db9845e2c6a51",
-            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92163",
-            "fiscal_year": 2018,
-            "raw": {
-              "CNPJ_Companhia": "04.128.563/0001-10",
-              "Data_Referencia": "2019-01-01",
-              "Versao": "11",
-              "ID_Documento": "92163",
-              "Nome_Companhia": "AES TIETE ENERGIA SA",
-              "Data_Inicio_Exercicio_Social": "2018-01-01",
-              "Data_Fim_Exercicio_Social": "2018-12-31",
-              "Lucro_Liquido_Ajustado": "346277000.00",
-              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "18.25000000",
-              "Lucro_Liquido_Retido": "8410000.00",
-              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "97.57000000",
-              "Dividendo_Distribuido_Total": "337866461.79",
-              "Data_Aprovacao_Retencao": "2019-04-25"
-            }
+            "docid": "92806",
+            "group": 193,
+            "pages": [
+              14,
+              15,
+              16,
+              37,
+              40,
+              53,
+              54,
+              63
+            ],
+            "received": "2020-05-07",
+            "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92806",
+            "original": "review_originals/cvm_92806_g193.pdf.gz",
+            "original_sha256": "e8450a5a890961a8124e5acafeb22184b0a1a352b7438a8905a112be55a48f0c"
           }
         ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        "contrary_evidence": "Riscos e ressalvas materiais explicitados no juízo da dimensão.",
+        "missing": "Dividendos2019intermediários205,137mi, complementoproposto97,478mi/JCP e novas ações porágio não são retenção produtiva automática. AquisiçãoTucano+contratodeconstrução muda escala; NDde crescimentoeconômico poração e retornoapósgarantias."
       },
       "governance": {
         "status": "INDETERMINATE",
-        "favorable": {
-          "dated_shareholder_right_records": 33,
-          "dated_related_party_records": 101
-        },
-        "missing": "Review of material conflicts, related parties and audit opinions before cutoff; no ex-post controversy inference",
+        "reason": "Conselho contratou assessores e rejeitoupropostaEneva19/04 por preço/estrutura/estratégia; proposta retirada21/04. Não presumir que prêmioofertado deveseraprovado. A oferta já foi retirada, não permanece pendente. Reservaágiocapitalizável emfavordecontroladores com preferência dosdemais mantém material a avaliação do efeito econômico sobreON/PN; assessores e direito de preferência são contrapontos favoráveis. NDdesses efeitos, sem fundamentar rejeição na recusa de uma oferta.",
         "evidence": [
           {
             "docid": "91270",
+            "group": 412,
+            "pages": [
+              65,
+              66,
+              67,
+              73,
+              74,
+              81
+            ],
             "received": "2020-02-29",
-            "reference": "2019-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2019.csv",
-            "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=91270",
+            "original": "review_originals/cvm_91270_g412.pdf.gz",
+            "original_sha256": "9880e82d300d07103453b93057e942d040f48feb9b2a844c3b14ce1f570bf495"
           },
           {
-            "docid": "91270",
-            "received": "2020-02-29",
-            "reference": "2019-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2019.csv",
-            "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            "docid": "92806",
+            "group": 192,
+            "pages": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "received": "2020-05-07",
+            "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92806",
+            "original": "review_originals/cvm_92806_g192.pdf.gz",
+            "original_sha256": "67c614120c8d01e93a2fb9fb89a9a27bffc0e2379d1fef61830d2678763e707e"
           },
           {
-            "docid": "91270",
-            "received": "2020-02-29",
-            "reference": "2019-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2019.csv",
-            "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
-          },
-          {
-            "docid": "91270",
-            "received": "2020-02-29",
-            "reference": "2019-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2019.csv",
-            "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
-          },
-          {
-            "docid": "91270",
-            "received": "2020-02-29",
-            "reference": "2019-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2019.csv",
-            "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
-          },
-          {
-            "docid": "91270",
-            "received": "2020-02-29",
-            "reference": "2019-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2019.csv",
-            "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+            "docid": "92806",
+            "group": 193,
+            "pages": [
+              14,
+              15,
+              16,
+              37,
+              40,
+              53,
+              54,
+              63
+            ],
+            "received": "2020-05-07",
+            "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92806",
+            "original": "review_originals/cvm_92806_g193.pdf.gz",
+            "original_sha256": "e8450a5a890961a8124e5acafeb22184b0a1a352b7438a8905a112be55a48f0c"
           }
         ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        "contrary_evidence": "Riscos e ressalvas materiais explicitados no juízo da dimensão.",
+        "missing": "Conselho contratou assessores e rejeitoupropostaEneva19/04 por preço/estrutura/estratégia; proposta retirada21/04. Não presumir que prêmioofertado deveseraprovado. A oferta já foi retirada, não permanece pendente. Reservaágiocapitalizável emfavordecontroladores com preferência dosdemais mantém material a avaliação do efeito econômico sobreON/PN; assessores e direito de preferência são contrapontos favoráveis. NDdesses efeitos, sem fundamentar rejeição na recusa de uma oferta."
       }
     },
-    "limitation": "Structured facts only; economic review outstanding. No quality approval inferred.",
+    "limitation": "Documentary economic review of originals",
     "special_case": ""
   },
   "annual_evidence_updates": []

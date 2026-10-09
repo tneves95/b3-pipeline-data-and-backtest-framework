@@ -371,3 +371,66 @@ def test_2018_material_changes_refresh_dossiers_without_forcing_base_exits():
     assert rows['TBLE3']['base_status']=='PASS'
     assert rows['TBLE3']['quality_category']=='INDETERMINATE'
     assert rows['ABCB4']['quality_category']==rows['PSSA3']['quality_category']=='QUALIFIED_SATISFACTORY'
+
+
+def test_2020_material_review_keeps_quality_and_valuation_separate():
+    rows={r['ticker']:r for r in json.loads((m.INPUT/'fundamental_decisions.json').read_text()) if r['year']==2020}
+    assert set(rows)=={r['ticker'] for r in m.candidates() if r['year']==2020}
+    assert {t for t,r in rows.items() if r['quality_category']=='QUALIFIED_SATISFACTORY'}=={'ABCB4','BBDC4','BBSE3','PSSA3'}
+    for r in rows.values():
+        a=r['documentary_assessment']
+        assert len(a['dimensions'])==6
+        for d in a['dimensions'].values():
+            assert d['reason'] and d['contrary_evidence'] and d['evidence']
+            assert all(e['received']<=r['cutoff'] for e in d['evidence'])
+    # New resolution affects the buy filter, never a retrospective 2019 decision.
+    b=rows['BBDC4']['documentary_assessment']
+    assert b['dimensions']['governance']['status']=='SATISFACTORY'
+    assert b['dimensions']['governance']['prior_year']==2019
+    old=next(r for r in json.loads((m.INPUT/'fundamental_decisions.json').read_text()) if r['year']==2019 and r['ticker']=='BBDC4')
+    assert old['quality_category']=='INDETERMINATE'
+    eq=rows['EQTL3']
+    assert eq['market_cap_interval']=={'lower':1010186085*23.22,'upper':1010186085*23.22}
+    assert eq['valuation_status']=='INDETERMINATE'
+    assert eq['normalized_pe'] is None
+    for t in ['NEOE3','TIET4']:
+        assert not rows[t]['documentary_assessment'].get('reuse_previous')
+        assert rows[t]['documentary_assessment']['dimensions']['durability']['status']=='SATISFACTORY'
+
+
+def test_tim_2020_diagnostic_is_not_a_certified_reinvestment_approval():
+    import statistics
+    r=next(r for r in json.loads((m.INPUT/'fundamental_decisions.json').read_text()) if r['year']==2020 and r['ticker']=='TIMP3')
+    a=r['documentary_assessment'];p=a['numerical_proof'];x=p['resolved'];d=p['conditional_diagnostic']
+    assert x['ifrs2019_net_income']+x['ifrs16_net_adjustment_to_pre_ifrs_basis']==x['pre_ifrs2019_reported_net_income']
+    assert x['management_normalized_pre_ifrs_rounded']-x['ifrs16_net_adjustment_to_pre_ifrs_basis']==x['same_normalizations_with_ifrs16_illustrative']
+    real=[v*d['ipca_factors'][y] for y,v in d['nominal_profit_after_only_listed_gains'].items()]
+    assert statistics.median(real)==pytest.approx(d['median'])
+    assert d['market_cap']/d['median']==pytest.approx(d['pe'])
+    assert d['real_eps_cagr_removing_only_listed_gains']<.04<d['real_eps_cagr_using_rounded_management2019_ifrs_equivalent']
+    assert d['not_certified_bound_or_point']
+    assert a['valuation']['status']==r['valuation_status']=='INDETERMINATE'
+    assert 'profit_overrides' not in a['valuation'] and 'profit_bounds' not in a['valuation']
+    assert 'economic_metrics' not in a
+
+
+def test_2020_irb_deterioration_updates_retained_position_without_backdating():
+    reviews=load_reviews()
+    irb=reviews[2020,'33376989000191']
+    for name in ['earnings_reliability','financial_resilience','governance']:
+        d=irb['dimensions'][name]
+        assert d['status']=='REJECTED_EVIDENCED' and d['material_evidence']
+        assert all(e['received']<='2020-06-30' for e in d['evidence'])
+    rows=json.loads((m.INPUT/'fundamental_decisions.json').read_text())
+    assert not any(r['year']==2020 and r['ticker']=='IRBR3' for r in rows)
+    old=next(r for r in rows if r['year']==2019 and r['ticker']=='IRBR3')
+    assert old['quality_category']=='QUALIFIED_SATISFACTORY'
+    statuses,_=m.selection('B00S',2020)
+    assert statuses['IRBR3']=='INDETERMINATE'
+    from b00s_incremental_report import retained_review_sections
+    # No future return is needed to exercise the reporting of the retained case.
+    ledger=[dict(year='2020',variant='VQ',ticker='IRBR3',base_status='INDETERMINATE',before='0.025',after='0.025')]
+    summary,dossier=retained_review_sections(2020,[r for r in rows if r['year']==2020],ledger)
+    assert 'IRBR3' in summary and 'REJECTED_EVIDENCED' in dossier
+    assert 'sem nova candidatura PASS' in dossier
+    assert 'venda extraordinária' in summary

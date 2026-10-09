@@ -10021,451 +10021,2993 @@
       "ticker": "TBLE3",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": null,
-      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
-      "classification_changed": null,
-      "dimensions": {},
-      "dimension_evidence_updates": {
+      "assessment_ref": "02474103000119:2020",
+      "assessment_status": "ASSESSED",
+      "classification_changed": true,
+      "dimensions": {
         "durability": {
-          "favorable": "GERAÇÃO E COMERCIALIZAÇÃO DE ENERGIA ELÉTRICA",
+          "status": "SATISFACTORY",
+          "reason": "Long-lived operating generation assets, an established national selling organization and inflation-linked medium/long contracts support durable cash generation; protection concerns sales visibility, not guaranteed physical supply. Revisão de 2015: a mudança material descrita na atualização foi examinada e não invalida esta tese nesta dimensão; mantém-se o juízo anterior e suas limitações. Revisão de 2016: Contratos bilaterais e ativos diversificados permanecem; volume1T16 cai3,3% por vencimentos e preço médio sobe5,9%. RiscoGSF e posiçãoCCEE continuam, sem pressupor produção garantida. Revisão de 2017: Engie é a mesma linhagem Tractebel. Contratos de longo prazo permanecem, com vencimento do leilão ao fim2016 e menor volume1T17; encerramentoCharqueadas e ativos mantidos para venda são identificados. Revisão de 2018: Jaguara/Miranda têm concessão de30 anos;70% da garantia física em cotas ACR sem risco de demanda/mercado/hidrologia,30% livre. Mantém SAT da durabilidade com carteira livre sujeita a preço. Revisão de 2019: Mantém concessões hidráulicas e contratos, com expansão de Campo Largo e Umburanas. A aquisição de 90% da TAG pelo consórcio, com participação indireta de 29,25% da EBE, foi concluída em 14/06, segundo a fonte arquivada e confirmada na teleconferência de 24/06. Contratos longos sustentam SAT da durabilidade; projeções para 2021 não são resultados realizados. Revisão de 2020: PampaSul operando desde28/06/2019 e Umburanas ampliam geração; TAG29,25%direta desde incorporação reversa02/09/2019 acrescenta contratos de transporte. MantémSAT; não registra previsão de projeto como operação efetiva.",
+          "favorable": "24 operating plants across12 states;6,964.7MW own installed capacity and approximately6% of national capacity. Q1 contracted availability96.6% for2014,98.3% for2015 and93.5% for2016. Existing contracts reprice for inflation;1Q14 selling price+6.0%.",
+          "contrary_evidence": "Hydro accounts for79.8%; MRE pools but does not remove system hydrology risk. Q1 PLD and purchases demonstrate actual exposure; thermal fuel and environmental obligations remain.",
           "evidence": [
             {
-              "cnpj": "02474103000119",
-              "received": "2020-04-30",
-              "name": "ENGIE BRASIL ENERGIA S.A.",
-              "sector": "Energia Elétrica",
-              "activity": "GERAÇÃO E COMERCIALIZAÇÃO DE ENERGIA ELÉTRICA",
-              "cvm": "017329",
-              "docid": "92624",
-              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92624"
+              "docid": "34713",
+              "group": 412,
+              "pages": [
+                1,
+                82,
+                97
+              ],
+              "received": "2014-02-20",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34713",
+              "original": "review_originals/cvm_34713_g412.pdf.gz",
+              "original_sha256": "d58f7cd2c9305805f9bcecc3270a5a0eff1c0e8c939149933453615cadca8eda"
+            },
+            {
+              "docid": "34713",
+              "group": 1653,
+              "pages": [
+                4,
+                11
+              ],
+              "received": "2014-02-20",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34713",
+              "original": "review_originals/cvm_34713_g1653.pdf.gz",
+              "original_sha256": "a91d104d11ce51d49872f2e6bb1d819bcb5efe0806cc60fca3504acd82ead428"
+            },
+            {
+              "docid": "36427",
+              "group": 193,
+              "pages": [
+                53
+              ],
+              "received": "2014-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36427",
+              "original": "review_originals/cvm_36427_g193.pdf.gz",
+              "original_sha256": "23434b4cbac198aeb04ab75081fe44229a7fc31f29cdf2e9fb0831111b9cb653"
+            },
+            {
+              "docid": "36427",
+              "group": 192,
+              "pages": [
+                1,
+                3,
+                4
+              ],
+              "received": "2014-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36427",
+              "original": "review_originals/cvm_36427_g192.pdf.gz",
+              "original_sha256": "9c403f8dab1a91a6654b757b8d2f0ecc3bb4852abbfaafdc43aae82f22e241ba"
+            },
+            {
+              "docid": "45623",
+              "group": 1653,
+              "pages": [
+                18,
+                26,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36
+              ],
+              "received": "2015-03-30",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=45623",
+              "original": "review_originals/cvm_45623_g1653.pdf.gz",
+              "original_sha256": "9a4a6e17f933b8991fb1b21f937b545df889f8110d0cf5bc17c177bdb7f4240b"
+            },
+            {
+              "docid": "46127",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "received": "2015-04-24",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=46127",
+              "original": "review_originals/cvm_46127_g192.pdf.gz",
+              "original_sha256": "3ebbe4f261bbe6f86cc69e826069d6ccc61aa203aae751b41cc795f43427c7e1"
+            },
+            {
+              "docid": "46127",
+              "group": 193,
+              "pages": [
+                16,
+                17,
+                34,
+                35
+              ],
+              "received": "2015-04-24",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=46127",
+              "original": "review_originals/cvm_46127_g193.pdf.gz",
+              "original_sha256": "bbf7f414f71a32a70adc9f7679e128dd1dbbc581c6375c916acf5eaadd39da51"
+            },
+            {
+              "docid": "53572",
+              "group": 1653,
+              "pages": [
+                32,
+                33,
+                34,
+                35,
+                36
+              ],
+              "received": "2016-02-23",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=53572",
+              "original": "review_originals/cvm_53572_g1653.pdf.gz",
+              "original_sha256": "e819782c1aea9b6a3d02ae6d90f3000c9c04b8fd0ca7e82a4e5cbb6cddb1c87f"
+            },
+            {
+              "docid": "55623",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "received": "2016-05-05",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55623",
+              "original": "review_originals/cvm_55623_g192.pdf.gz",
+              "original_sha256": "0c1abe8cf995ec819d5fee6d00da8fb41613cb0bdecab2a930d1a2762affcfee"
+            },
+            {
+              "docid": "55623",
+              "group": 193,
+              "pages": [
+                12
+              ],
+              "received": "2016-05-05",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55623",
+              "original": "review_originals/cvm_55623_g193.pdf.gz",
+              "original_sha256": "e09e090a36199d4e586df20f5a32607a1a393e0bc4da9a5f9d702082f5cea3b2"
+            },
+            {
+              "docid": "62765",
+              "group": 1653,
+              "pages": [
+                2,
+                39,
+                40
+              ],
+              "received": "2017-02-23",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=62765",
+              "original": "review_originals/cvm_62765_g1653.pdf.gz",
+              "original_sha256": "5775e6ec2b5a90f48b3e0fe137a7ab07014ac0b1157e81775c7cc85fd5760f23"
+            },
+            {
+              "docid": "64408",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                4,
+                5,
+                6,
+                7
+              ],
+              "received": "2017-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=64408",
+              "original": "review_originals/cvm_64408_g192.pdf.gz",
+              "original_sha256": "c564fd6746e4631a0650f6e27a513d9941cb05b3bce52af7fb6e3541f824eb63"
+            },
+            {
+              "docid": "64408",
+              "group": 193,
+              "pages": [
+                6,
+                13,
+                14,
+                28
+              ],
+              "received": "2017-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=64408",
+              "original": "review_originals/cvm_64408_g193.pdf.gz",
+              "original_sha256": "14c196f3f1d11d77de2ca657dbf644122e353b0f795f2e54e80a52dd7411187e"
+            },
+            {
+              "docid": "73382",
+              "group": 192,
+              "pages": [
+                1,
+                3,
+                6,
+                7,
+                8
+              ],
+              "received": "2018-04-19",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=73382",
+              "original": "review_originals/cvm_73382_g192.pdf.gz",
+              "original_sha256": "6b31255c9ad73f242ba5415461d6b704789d6a9f54d452b0e4f249f23a44644d"
+            },
+            {
+              "docid": "73382",
+              "group": 193,
+              "pages": [
+                2,
+                6,
+                8,
+                15,
+                16,
+                17,
+                34
+              ],
+              "received": "2018-04-19",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=73382",
+              "original": "review_originals/cvm_73382_g193.pdf.gz",
+              "original_sha256": "2391ff95469865bfc3c0b983da46f10222847b226b816e747e400d6639715437"
+            },
+            {
+              "docid": "engie_doe_sc_20180612",
+              "group": 0,
+              "pages": [
+                37,
+                38,
+                39,
+                40,
+                41
+              ],
+              "received": "2018-06-12",
+              "url": "https://portal.doe.sea.sc.gov.br/repositorio/2018/20180612/Jornal/1914.pdf",
+              "original": "review_originals/engie_doe_sc_20180612.pdf.gz",
+              "original_sha256": "9ab0dc67e8024209fdbccfb8c743b98c25fb0f7bcd381589f9e3044f7952aabb"
+            },
+            {
+              "docid": "82911",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "received": "2019-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=82911",
+              "original": "review_originals/cvm_82911_g192.pdf.gz",
+              "original_sha256": "7a69239b85e309aa4534029c1a659eb89802d1666500bca122d6ebf6992ccb31"
+            },
+            {
+              "docid": "82911",
+              "group": 193,
+              "pages": [
+                18,
+                19,
+                20,
+                21,
+                36
+              ],
+              "received": "2019-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=82911",
+              "original": "review_originals/cvm_82911_g193.pdf.gz",
+              "original_sha256": "40dd6a3463a9ec06c6636c1de080a8c52c3e6a94f3ccdd60dfb41cffc9478a3a"
+            },
+            {
+              "docid": "engie_tag_20190624",
+              "group": 0,
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "received": "2019-06-24",
+              "url": "https://www.engie.com/sites/default/files/assets/documents/2020-03/engie-24-06-2019-tag-acquisition-financial-impacts-transcript.pdf",
+              "original": "review_originals/engie_tag_20190624.pdf.gz",
+              "original_sha256": "69d09345b4f01724f457a86579cc87bb5b6ddfc5171953e16749b5fbe0250efa"
+            },
+            {
+              "docid": "94237",
+              "group": 192,
+              "pages": [
+                2,
+                3,
+                4,
+                9,
+                10,
+                11
+              ],
+              "received": "2020-06-24",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=94237",
+              "original": "review_originals/cvm_94237_g192.pdf.gz",
+              "original_sha256": "23f7b3e1a1c12d7a44ea43c0eb93213bbc04d27cc36ee3070a4bfbf9bff93e82"
+            },
+            {
+              "docid": "94237",
+              "group": 193,
+              "pages": [
+                13,
+                15,
+                23,
+                24,
+                29,
+                32,
+                34
+              ],
+              "received": "2020-06-24",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=94237",
+              "original": "review_originals/cvm_94237_g193.pdf.gz",
+              "original_sha256": "f621af5aa2a02c8b8bf1ac44605cada4990e861abc1dfd7700ffd0f47f434d5b"
+            }
+          ],
+          "prior_year": 2019,
+          "review_2015": "Sem alteração material desta dimensão após confronto da tese anterior com os fatos descritos na atualização de 2015. Geraçãocontratada e diversificada continuam;2014 lucrolíquido inclui ganhoslíquidos173,6mi, retirados sem adicionarimpairment/perdasGSF.1T15 EBITDA789,8mi e lucro344,8mi, provisãofornecedor76,6mi e recuperaçãoCCEE46mi separados.",
+          "review_2016": "Contratos bilaterais e ativos diversificados permanecem; volume1T16 cai3,3% por vencimentos e preço médio sobe5,9%. RiscoGSF e posiçãoCCEE continuam, sem pressupor produção garantida.",
+          "review_2017": "Engie é a mesma linhagem Tractebel. Contratos de longo prazo permanecem, com vencimento do leilão ao fim2016 e menor volume1T17; encerramentoCharqueadas e ativos mantidos para venda são identificados.",
+          "review_2018": "Jaguara/Miranda têm concessão de30 anos;70% da garantia física em cotas ACR sem risco de demanda/mercado/hidrologia,30% livre. Mantém SAT da durabilidade com carteira livre sujeita a preço.",
+          "review_2019": "Mantém concessões hidráulicas e contratos, com expansão de Campo Largo e Umburanas. A aquisição de 90% da TAG pelo consórcio, com participação indireta de 29,25% da EBE, foi concluída em 14/06, segundo a fonte arquivada e confirmada na teleconferência de 24/06. Contratos longos sustentam SAT da durabilidade; projeções para 2021 não são resultados realizados.",
+          "review_2020": "PampaSul operando desde28/06/2019 e Umburanas ampliam geração; TAG29,25%direta desde incorporação reversa02/09/2019 acrescenta contratos de transporte. MantémSAT; não registra previsão de projeto como operação efetiva."
+        },
+        "capital_economics": {
+          "status": "SATISFACTORY",
+          "reason": "ROCEdivulgado22,3% tem denominadorativo não circulante, diferente deROIC; é evidência auxiliar, não passa automaticamente o gate15–25. Retorno histórico e operação dos ativos sustentamSATcom riscoGSF. Revisão de 2016: EBITDA2015 cresce7,6% mesmo sem repetir reversões2014; após encargos financeiros470,6mi e tributos531,9mi permanece lucro positivo relevante. Mantém qualidade histórica do capital, sem confundirROCE comROIC do prêmio. Revisão de 2017: MargemEBITDA2016 de49,3% e baixo endividamento sustentam eficiência madura anterior. Melhora1T17 inclui energia secundária e royalties; não vira ROICincremental nem permite prêmio de múltiplo. Revisão de 2018: Franquia anterior preserva margens; EBITDA56% inclui remuneração regulada dos ativos novos. Taxa contábil de6,9% antes de impostos não é ROIC geral ou prêmio15–25. Mantém SAT da economia madura anterior com essa ressalva. Revisão de 2019: Preço médio de energia +6% e volume +2,6% sustentam a economia da franquia anterior. Remuneração financeira das outorgas de R$100,2 milhões e a nova TAG não comprovam retorno incremental de toda a alocação. Mantém SAT da economia madura com esse limite. Revisão de 2020: Receita novaPampaSul/Umburanas182,8mi contrapõe queda5% da receita do portfólio antigo. TAGgera102,901mi de equivalência após juros91,6mi/maisvalia66,3mi na participação. Economia da geração existente permanece satisfatória; novos ativos e contratos são examinados, sem anualizar seu primeirotrimestre.",
+          "favorable": "2011–2013 ROCE22.9%,24.7%,23.1%;2013 EBIT2,387.2m, EBITDA3,042.6m and after-tax attributed profit after identified gains1,384.412m. Debt cost8.1% disclosed, not confused with WACC. Even Q1 under stress retains EBIT546.426m and EBITDA694.139m.",
+          "contrary_evidence": "EBIT fell6.0% in2013 and Q1 net income31.9%; capital-intensive assets depend on regulated dispatch, purchased energy and concession obligations. The operating-return series does not certify the VVAL reinvestor channel.",
+          "evidence": [
+            {
+              "docid": "34713",
+              "group": 1653,
+              "pages": [
+                12,
+                16,
+                19,
+                21,
+                22
+              ],
+              "received": "2014-02-20",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34713",
+              "original": "review_originals/cvm_34713_g1653.pdf.gz",
+              "original_sha256": "a91d104d11ce51d49872f2e6bb1d819bcb5efe0806cc60fca3504acd82ead428"
+            },
+            {
+              "docid": "36427",
+              "group": 192,
+              "pages": [
+                3,
+                4,
+                5,
+                6
+              ],
+              "received": "2014-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36427",
+              "original": "review_originals/cvm_36427_g192.pdf.gz",
+              "original_sha256": "9c403f8dab1a91a6654b757b8d2f0ecc3bb4852abbfaafdc43aae82f22e241ba"
+            },
+            {
+              "docid": "45623",
+              "group": 1653,
+              "pages": [
+                18,
+                26,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36
+              ],
+              "received": "2015-03-30",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=45623",
+              "original": "review_originals/cvm_45623_g1653.pdf.gz",
+              "original_sha256": "9a4a6e17f933b8991fb1b21f937b545df889f8110d0cf5bc17c177bdb7f4240b"
+            },
+            {
+              "docid": "46127",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "received": "2015-04-24",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=46127",
+              "original": "review_originals/cvm_46127_g192.pdf.gz",
+              "original_sha256": "3ebbe4f261bbe6f86cc69e826069d6ccc61aa203aae751b41cc795f43427c7e1"
+            },
+            {
+              "docid": "46127",
+              "group": 193,
+              "pages": [
+                16,
+                17,
+                34,
+                35
+              ],
+              "received": "2015-04-24",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=46127",
+              "original": "review_originals/cvm_46127_g193.pdf.gz",
+              "original_sha256": "bbf7f414f71a32a70adc9f7679e128dd1dbbc581c6375c916acf5eaadd39da51"
+            },
+            {
+              "docid": "53572",
+              "group": 1653,
+              "pages": [
+                32,
+                33,
+                34,
+                35,
+                36
+              ],
+              "received": "2016-02-23",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=53572",
+              "original": "review_originals/cvm_53572_g1653.pdf.gz",
+              "original_sha256": "e819782c1aea9b6a3d02ae6d90f3000c9c04b8fd0ca7e82a4e5cbb6cddb1c87f"
+            },
+            {
+              "docid": "55623",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "received": "2016-05-05",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55623",
+              "original": "review_originals/cvm_55623_g192.pdf.gz",
+              "original_sha256": "0c1abe8cf995ec819d5fee6d00da8fb41613cb0bdecab2a930d1a2762affcfee"
+            },
+            {
+              "docid": "55623",
+              "group": 193,
+              "pages": [
+                12
+              ],
+              "received": "2016-05-05",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55623",
+              "original": "review_originals/cvm_55623_g193.pdf.gz",
+              "original_sha256": "e09e090a36199d4e586df20f5a32607a1a393e0bc4da9a5f9d702082f5cea3b2"
+            },
+            {
+              "docid": "62765",
+              "group": 1653,
+              "pages": [
+                2,
+                39,
+                40
+              ],
+              "received": "2017-02-23",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=62765",
+              "original": "review_originals/cvm_62765_g1653.pdf.gz",
+              "original_sha256": "5775e6ec2b5a90f48b3e0fe137a7ab07014ac0b1157e81775c7cc85fd5760f23"
+            },
+            {
+              "docid": "64408",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                4,
+                5,
+                6,
+                7
+              ],
+              "received": "2017-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=64408",
+              "original": "review_originals/cvm_64408_g192.pdf.gz",
+              "original_sha256": "c564fd6746e4631a0650f6e27a513d9941cb05b3bce52af7fb6e3541f824eb63"
+            },
+            {
+              "docid": "64408",
+              "group": 193,
+              "pages": [
+                6,
+                13,
+                14,
+                28
+              ],
+              "received": "2017-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=64408",
+              "original": "review_originals/cvm_64408_g193.pdf.gz",
+              "original_sha256": "14c196f3f1d11d77de2ca657dbf644122e353b0f795f2e54e80a52dd7411187e"
+            },
+            {
+              "docid": "73382",
+              "group": 192,
+              "pages": [
+                1,
+                3,
+                6,
+                7,
+                8
+              ],
+              "received": "2018-04-19",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=73382",
+              "original": "review_originals/cvm_73382_g192.pdf.gz",
+              "original_sha256": "6b31255c9ad73f242ba5415461d6b704789d6a9f54d452b0e4f249f23a44644d"
+            },
+            {
+              "docid": "73382",
+              "group": 193,
+              "pages": [
+                2,
+                6,
+                8,
+                15,
+                16,
+                17,
+                34
+              ],
+              "received": "2018-04-19",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=73382",
+              "original": "review_originals/cvm_73382_g193.pdf.gz",
+              "original_sha256": "2391ff95469865bfc3c0b983da46f10222847b226b816e747e400d6639715437"
+            },
+            {
+              "docid": "engie_doe_sc_20180612",
+              "group": 0,
+              "pages": [
+                37,
+                38,
+                39,
+                40,
+                41
+              ],
+              "received": "2018-06-12",
+              "url": "https://portal.doe.sea.sc.gov.br/repositorio/2018/20180612/Jornal/1914.pdf",
+              "original": "review_originals/engie_doe_sc_20180612.pdf.gz",
+              "original_sha256": "9ab0dc67e8024209fdbccfb8c743b98c25fb0f7bcd381589f9e3044f7952aabb"
+            },
+            {
+              "docid": "82911",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "received": "2019-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=82911",
+              "original": "review_originals/cvm_82911_g192.pdf.gz",
+              "original_sha256": "7a69239b85e309aa4534029c1a659eb89802d1666500bca122d6ebf6992ccb31"
+            },
+            {
+              "docid": "82911",
+              "group": 193,
+              "pages": [
+                18,
+                19,
+                20,
+                21,
+                36
+              ],
+              "received": "2019-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=82911",
+              "original": "review_originals/cvm_82911_g193.pdf.gz",
+              "original_sha256": "40dd6a3463a9ec06c6636c1de080a8c52c3e6a94f3ccdd60dfb41cffc9478a3a"
+            },
+            {
+              "docid": "engie_tag_20190624",
+              "group": 0,
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "received": "2019-06-24",
+              "url": "https://www.engie.com/sites/default/files/assets/documents/2020-03/engie-24-06-2019-tag-acquisition-financial-impacts-transcript.pdf",
+              "original": "review_originals/engie_tag_20190624.pdf.gz",
+              "original_sha256": "69d09345b4f01724f457a86579cc87bb5b6ddfc5171953e16749b5fbe0250efa"
+            },
+            {
+              "docid": "94237",
+              "group": 192,
+              "pages": [
+                2,
+                3,
+                4,
+                9,
+                10,
+                11
+              ],
+              "received": "2020-06-24",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=94237",
+              "original": "review_originals/cvm_94237_g192.pdf.gz",
+              "original_sha256": "23f7b3e1a1c12d7a44ea43c0eb93213bbc04d27cc36ee3070a4bfbf9bff93e82"
+            },
+            {
+              "docid": "94237",
+              "group": 193,
+              "pages": [
+                13,
+                15,
+                23,
+                24,
+                29,
+                32,
+                34
+              ],
+              "received": "2020-06-24",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=94237",
+              "original": "review_originals/cvm_94237_g193.pdf.gz",
+              "original_sha256": "f621af5aa2a02c8b8bf1ac44605cada4990e861abc1dfd7700ffd0f47f434d5b"
+            }
+          ],
+          "prior_year": 2019,
+          "review_2015": "Geraçãocontratada e diversificada continuam;2014 lucrolíquido inclui ganhoslíquidos173,6mi, retirados sem adicionarimpairment/perdasGSF.1T15 EBITDA789,8mi e lucro344,8mi, provisãofornecedor76,6mi e recuperaçãoCCEE46mi separados.",
+          "review_2016": "EBITDA2015 cresce7,6% mesmo sem repetir reversões2014; após encargos financeiros470,6mi e tributos531,9mi permanece lucro positivo relevante. Mantém qualidade histórica do capital, sem confundirROCE comROIC do prêmio.",
+          "review_2017": "MargemEBITDA2016 de49,3% e baixo endividamento sustentam eficiência madura anterior. Melhora1T17 inclui energia secundária e royalties; não vira ROICincremental nem permite prêmio de múltiplo.",
+          "review_2018": "Franquia anterior preserva margens; EBITDA56% inclui remuneração regulada dos ativos novos. Taxa contábil de6,9% antes de impostos não é ROIC geral ou prêmio15–25. Mantém SAT da economia madura anterior com essa ressalva.",
+          "review_2019": "Preço médio de energia +6% e volume +2,6% sustentam a economia da franquia anterior. Remuneração financeira das outorgas de R$100,2 milhões e a nova TAG não comprovam retorno incremental de toda a alocação. Mantém SAT da economia madura com esse limite.",
+          "review_2020": "Receita novaPampaSul/Umburanas182,8mi contrapõe queda5% da receita do portfólio antigo. TAGgera102,901mi de equivalência após juros91,6mi/maisvalia66,3mi na participação. Economia da geração existente permanece satisfatória; novos ativos e contratos são examinados, sem anualizar seu primeirotrimestre."
+        },
+        "earnings_reliability": {
+          "status": "SATISFACTORY",
+          "reason": "Retira ganhos2014 líquidos133,1mi noEBITDA e40,5mi financeiros do lucroatribuível; não adicionaimpairment2013 nem despesaGSF. Q12015 separa provisãofornecedor76,6mi e recuperaçãoCCEE46mi; não anualiza lucrotrimestral. Revisão de 2016: Mantidos ajustes2013/14 e perdas operacionais; PIS/Cofins15,3mi e jurosjudiciais37,2mi conhecidos no1T16 são isolados, não extrapolados. Remoção dos ganhos não constitui recuperação de impairments. Revisão de 2017: A ponte1T17 discrimina ganhoCCEE60mi, combustível24,1mi, impostos2016 e juros judiciais37,2mi comparativos. Impairmenttérmico e venda deativos não são adicionados indiscriminadamente ao lucro normalizado. Revisão de 2018: Notas separam R$84,8 mi da remuneração do ativo, custos GAG, juros R$36 mi das novas promissórias e câmbio/hedge. Mantém SAT da confiabilidade, sem anualizar o lucro1T18 R$489,3 mi. Revisão de 2019: Separa receita de trading de R$231,6 milhões, aumento de custos de trading de R$214 milhões, construção de R$15,7 milhões e remuneração das outorgas. TAG por equivalência exige considerar obrigações proporcionais. Mantém SAT da rastreabilidade, sem confundir EBITDA e caixa. Revisão de 2020: PonteTAG discriminaEBITDA356,5mi, D&A112mi, fin91,6mi e impostos50mi atribuíveis. Ganho de trading28,3mi de marcação é separado de2,3mi realizado; receita de construção e outorga não são caixa. MantémSAT.",
+          "favorable": "2012 IAS19 profit bridge is explicit;2013 net nonrecurring gains51.7m are quantified, thermal impairment49.4m is retained, and54.5m CNPE costs remain recognized despite an injunction. Q1 CCEE swing−143.6m is disclosed rather than hidden by revenue growth. KPMG unqualified fiscal audit reviewed in the CVM dated audit extract.",
+          "contrary_evidence": "CCEE combines different credit/debit components in one settlement; hydrological volatility and remaining disputes affect future accounting estimates. Market and operational nonfinancial data are not audited in the same sense as financial statements.",
+          "evidence": [
+            {
+              "docid": "34713",
+              "group": 412,
+              "pages": [
+                16,
+                17
+              ],
+              "received": "2014-02-20",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34713",
+              "original": "review_originals/cvm_34713_g412.pdf.gz",
+              "original_sha256": "d58f7cd2c9305805f9bcecc3270a5a0eff1c0e8c939149933453615cadca8eda"
+            },
+            {
+              "docid": "34713",
+              "group": 1653,
+              "pages": [
+                16,
+                19,
+                33
+              ],
+              "received": "2014-02-20",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34713",
+              "original": "review_originals/cvm_34713_g1653.pdf.gz",
+              "original_sha256": "a91d104d11ce51d49872f2e6bb1d819bcb5efe0806cc60fca3504acd82ead428"
+            },
+            {
+              "docid": "36427",
+              "group": 192,
+              "pages": [
+                3,
+                4,
+                5,
+                6
+              ],
+              "received": "2014-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36427",
+              "original": "review_originals/cvm_36427_g192.pdf.gz",
+              "original_sha256": "9c403f8dab1a91a6654b757b8d2f0ecc3bb4852abbfaafdc43aae82f22e241ba"
+            },
+            {
+              "docid": "45623",
+              "group": 1653,
+              "pages": [
+                18,
+                26,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36
+              ],
+              "received": "2015-03-30",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=45623",
+              "original": "review_originals/cvm_45623_g1653.pdf.gz",
+              "original_sha256": "9a4a6e17f933b8991fb1b21f937b545df889f8110d0cf5bc17c177bdb7f4240b"
+            },
+            {
+              "docid": "46127",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "received": "2015-04-24",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=46127",
+              "original": "review_originals/cvm_46127_g192.pdf.gz",
+              "original_sha256": "3ebbe4f261bbe6f86cc69e826069d6ccc61aa203aae751b41cc795f43427c7e1"
+            },
+            {
+              "docid": "46127",
+              "group": 193,
+              "pages": [
+                16,
+                17,
+                34,
+                35
+              ],
+              "received": "2015-04-24",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=46127",
+              "original": "review_originals/cvm_46127_g193.pdf.gz",
+              "original_sha256": "bbf7f414f71a32a70adc9f7679e128dd1dbbc581c6375c916acf5eaadd39da51"
+            },
+            {
+              "docid": "53572",
+              "group": 1653,
+              "pages": [
+                32,
+                33,
+                34,
+                35,
+                36
+              ],
+              "received": "2016-02-23",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=53572",
+              "original": "review_originals/cvm_53572_g1653.pdf.gz",
+              "original_sha256": "e819782c1aea9b6a3d02ae6d90f3000c9c04b8fd0ca7e82a4e5cbb6cddb1c87f"
+            },
+            {
+              "docid": "55623",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "received": "2016-05-05",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55623",
+              "original": "review_originals/cvm_55623_g192.pdf.gz",
+              "original_sha256": "0c1abe8cf995ec819d5fee6d00da8fb41613cb0bdecab2a930d1a2762affcfee"
+            },
+            {
+              "docid": "55623",
+              "group": 193,
+              "pages": [
+                12
+              ],
+              "received": "2016-05-05",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55623",
+              "original": "review_originals/cvm_55623_g193.pdf.gz",
+              "original_sha256": "e09e090a36199d4e586df20f5a32607a1a393e0bc4da9a5f9d702082f5cea3b2"
+            },
+            {
+              "docid": "62765",
+              "group": 1653,
+              "pages": [
+                2,
+                39,
+                40
+              ],
+              "received": "2017-02-23",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=62765",
+              "original": "review_originals/cvm_62765_g1653.pdf.gz",
+              "original_sha256": "5775e6ec2b5a90f48b3e0fe137a7ab07014ac0b1157e81775c7cc85fd5760f23"
+            },
+            {
+              "docid": "64408",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                4,
+                5,
+                6,
+                7
+              ],
+              "received": "2017-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=64408",
+              "original": "review_originals/cvm_64408_g192.pdf.gz",
+              "original_sha256": "c564fd6746e4631a0650f6e27a513d9941cb05b3bce52af7fb6e3541f824eb63"
+            },
+            {
+              "docid": "64408",
+              "group": 193,
+              "pages": [
+                6,
+                13,
+                14,
+                28
+              ],
+              "received": "2017-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=64408",
+              "original": "review_originals/cvm_64408_g193.pdf.gz",
+              "original_sha256": "14c196f3f1d11d77de2ca657dbf644122e353b0f795f2e54e80a52dd7411187e"
+            },
+            {
+              "docid": "73382",
+              "group": 192,
+              "pages": [
+                1,
+                3,
+                6,
+                7,
+                8
+              ],
+              "received": "2018-04-19",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=73382",
+              "original": "review_originals/cvm_73382_g192.pdf.gz",
+              "original_sha256": "6b31255c9ad73f242ba5415461d6b704789d6a9f54d452b0e4f249f23a44644d"
+            },
+            {
+              "docid": "73382",
+              "group": 193,
+              "pages": [
+                2,
+                6,
+                8,
+                15,
+                16,
+                17,
+                34
+              ],
+              "received": "2018-04-19",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=73382",
+              "original": "review_originals/cvm_73382_g193.pdf.gz",
+              "original_sha256": "2391ff95469865bfc3c0b983da46f10222847b226b816e747e400d6639715437"
+            },
+            {
+              "docid": "engie_doe_sc_20180612",
+              "group": 0,
+              "pages": [
+                37,
+                38,
+                39,
+                40,
+                41
+              ],
+              "received": "2018-06-12",
+              "url": "https://portal.doe.sea.sc.gov.br/repositorio/2018/20180612/Jornal/1914.pdf",
+              "original": "review_originals/engie_doe_sc_20180612.pdf.gz",
+              "original_sha256": "9ab0dc67e8024209fdbccfb8c743b98c25fb0f7bcd381589f9e3044f7952aabb"
+            },
+            {
+              "docid": "82911",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "received": "2019-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=82911",
+              "original": "review_originals/cvm_82911_g192.pdf.gz",
+              "original_sha256": "7a69239b85e309aa4534029c1a659eb89802d1666500bca122d6ebf6992ccb31"
+            },
+            {
+              "docid": "82911",
+              "group": 193,
+              "pages": [
+                18,
+                19,
+                20,
+                21,
+                36
+              ],
+              "received": "2019-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=82911",
+              "original": "review_originals/cvm_82911_g193.pdf.gz",
+              "original_sha256": "40dd6a3463a9ec06c6636c1de080a8c52c3e6a94f3ccdd60dfb41cffc9478a3a"
+            },
+            {
+              "docid": "engie_tag_20190624",
+              "group": 0,
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "received": "2019-06-24",
+              "url": "https://www.engie.com/sites/default/files/assets/documents/2020-03/engie-24-06-2019-tag-acquisition-financial-impacts-transcript.pdf",
+              "original": "review_originals/engie_tag_20190624.pdf.gz",
+              "original_sha256": "69d09345b4f01724f457a86579cc87bb5b6ddfc5171953e16749b5fbe0250efa"
+            },
+            {
+              "docid": "94237",
+              "group": 192,
+              "pages": [
+                2,
+                3,
+                4,
+                9,
+                10,
+                11
+              ],
+              "received": "2020-06-24",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=94237",
+              "original": "review_originals/cvm_94237_g192.pdf.gz",
+              "original_sha256": "23f7b3e1a1c12d7a44ea43c0eb93213bbc04d27cc36ee3070a4bfbf9bff93e82"
+            },
+            {
+              "docid": "94237",
+              "group": 193,
+              "pages": [
+                13,
+                15,
+                23,
+                24,
+                29,
+                32,
+                34
+              ],
+              "received": "2020-06-24",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=94237",
+              "original": "review_originals/cvm_94237_g193.pdf.gz",
+              "original_sha256": "f621af5aa2a02c8b8bf1ac44605cada4990e861abc1dfd7700ffd0f47f434d5b"
+            }
+          ],
+          "prior_year": 2019,
+          "review_2015": "Geraçãocontratada e diversificada continuam;2014 lucrolíquido inclui ganhoslíquidos173,6mi, retirados sem adicionarimpairment/perdasGSF.1T15 EBITDA789,8mi e lucro344,8mi, provisãofornecedor76,6mi e recuperaçãoCCEE46mi separados.",
+          "review_2016": "Mantidos ajustes2013/14 e perdas operacionais; PIS/Cofins15,3mi e jurosjudiciais37,2mi conhecidos no1T16 são isolados, não extrapolados. Remoção dos ganhos não constitui recuperação de impairments.",
+          "review_2017": "A ponte1T17 discrimina ganhoCCEE60mi, combustível24,1mi, impostos2016 e juros judiciais37,2mi comparativos. Impairmenttérmico e venda deativos não são adicionados indiscriminadamente ao lucro normalizado.",
+          "review_2018": "Notas separam R$84,8 mi da remuneração do ativo, custos GAG, juros R$36 mi das novas promissórias e câmbio/hedge. Mantém SAT da confiabilidade, sem anualizar o lucro1T18 R$489,3 mi.",
+          "review_2019": "Separa receita de trading de R$231,6 milhões, aumento de custos de trading de R$214 milhões, construção de R$15,7 milhões e remuneração das outorgas. TAG por equivalência exige considerar obrigações proporcionais. Mantém SAT da rastreabilidade, sem confundir EBITDA e caixa.",
+          "review_2020": "PonteTAG discriminaEBITDA356,5mi, D&A112mi, fin91,6mi e impostos50mi atribuíveis. Ganho de trading28,3mi de marcação é separado de2,3mi realizado; receita de construção e outorga não são caixa. MantémSAT."
+        },
+        "financial_resilience": {
+          "status": "INDETERMINATE",
+          "reason": "Covenants cumpridos, mas caixa R$716,144 mi contrasta com empréstimos curtos R$955,547 mi e promissórias/debêntures curtas R$2.176,643 mi. Empréstimos abril R$681,030 mi têm hedge; refinanciamento das promissórias deve ser verificado antes de recertificar a antiga folga. ND específico, não reprovação material. DiárioSC12/06 registra emissão proposta Jaguara R$1,117 bi e Miranda R$685 mi, séries5/9 anos e garantia firme de colocação. O texto prevê contrato de distribuição a celebrar: reduz risco do plano, porém não comprova recebimento/termos finais até o corte. Não afirma ausência de refinanciamento efetivo; faltam os termos finais contemporâneos para resolver a folga econômica. Contraponto: ITR73382g193p2 informa BNDES R$1.039,100 mi Campo Largo e R$728,950 mi Pampa Sul, obrigações prévias cumpridas/contratos em fase final. Não são caixa recebido. O caixa menor inclui dividendo R$938,918 mi pago10/01; não caracteriza falta absoluta de financiamento. Revisão de 2019: Resolve a pendência anterior: debêntures Jaguara de R$1.109,701 milhões e Miranda de R$680,108 milhões já emitidas, com cronogramas longos e covenants cumpridos. A TAG acrescenta dívida/capital de aproximadamente 70/30 no veículo, além da 8ª emissão de R$2,5 bilhões aprovada na EBE. Mantém ND pela cobertura proporcional da TAG e do plano de investimentos; não por desconhecimento das emissões de 2018. Revisão de 2020: Caixa livre4.188,050mi contra fluxos de dívida/juros3.327,169mi até1ano, mais outorgas170,589mi e fornecedores767,785mi. Dívida líquida11.084,033mi ainda exclui406,151mi vinculados; TAGnão consolidada precisa incluir sua exposição. Covenantscumpridos são favoráveis, mas pendência de cobertura proporcional deCAPEX/TAG continuaND; não chama antigo funding2018 desconhecido.",
+          "favorable": "Dec2013 net debt2,271.2m and gross debt/EBITDA1.1; March2014 cash1,132.671m, loans3,406.992m of which354.360m current, and debentures180.786m current. Borrowing and debenture covenants complied with at both dates; new USD100m loan fully swapped to97% CDI.",
+          "contrary_evidence": "Funding expands in Q1; concession liabilities1,653.818m are additional to gross financial loans and debentures. Residual foreign-currency exposure and hydrological costs remain; cash should not be treated as sufficient for every imaginable shock.",
+          "evidence": [
+            {
+              "docid": "73382",
+              "group": 192,
+              "pages": [
+                1,
+                3,
+                6,
+                7,
+                8
+              ],
+              "received": "2018-04-19",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=73382",
+              "original": "review_originals/cvm_73382_g192.pdf.gz",
+              "original_sha256": "6b31255c9ad73f242ba5415461d6b704789d6a9f54d452b0e4f249f23a44644d"
+            },
+            {
+              "docid": "73382",
+              "group": 193,
+              "pages": [
+                2,
+                6,
+                8,
+                15,
+                16,
+                17,
+                34
+              ],
+              "received": "2018-04-19",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=73382",
+              "original": "review_originals/cvm_73382_g193.pdf.gz",
+              "original_sha256": "2391ff95469865bfc3c0b983da46f10222847b226b816e747e400d6639715437"
+            },
+            {
+              "docid": "engie_doe_sc_20180612",
+              "group": 0,
+              "pages": [
+                37,
+                38,
+                39,
+                40,
+                41
+              ],
+              "received": "2018-06-12",
+              "url": "https://portal.doe.sea.sc.gov.br/repositorio/2018/20180612/Jornal/1914.pdf",
+              "original": "review_originals/engie_doe_sc_20180612.pdf.gz",
+              "original_sha256": "9ab0dc67e8024209fdbccfb8c743b98c25fb0f7bcd381589f9e3044f7952aabb"
+            },
+            {
+              "docid": "82911",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "received": "2019-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=82911",
+              "original": "review_originals/cvm_82911_g192.pdf.gz",
+              "original_sha256": "7a69239b85e309aa4534029c1a659eb89802d1666500bca122d6ebf6992ccb31"
+            },
+            {
+              "docid": "82911",
+              "group": 193,
+              "pages": [
+                18,
+                19,
+                20,
+                21,
+                36
+              ],
+              "received": "2019-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=82911",
+              "original": "review_originals/cvm_82911_g193.pdf.gz",
+              "original_sha256": "40dd6a3463a9ec06c6636c1de080a8c52c3e6a94f3ccdd60dfb41cffc9478a3a"
+            },
+            {
+              "docid": "engie_tag_20190624",
+              "group": 0,
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "received": "2019-06-24",
+              "url": "https://www.engie.com/sites/default/files/assets/documents/2020-03/engie-24-06-2019-tag-acquisition-financial-impacts-transcript.pdf",
+              "original": "review_originals/engie_tag_20190624.pdf.gz",
+              "original_sha256": "69d09345b4f01724f457a86579cc87bb5b6ddfc5171953e16749b5fbe0250efa"
+            },
+            {
+              "docid": "94237",
+              "group": 192,
+              "pages": [
+                2,
+                3,
+                4,
+                9,
+                10,
+                11
+              ],
+              "received": "2020-06-24",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=94237",
+              "original": "review_originals/cvm_94237_g192.pdf.gz",
+              "original_sha256": "23f7b3e1a1c12d7a44ea43c0eb93213bbc04d27cc36ee3070a4bfbf9bff93e82"
+            },
+            {
+              "docid": "94237",
+              "group": 193,
+              "pages": [
+                13,
+                15,
+                23,
+                24,
+                29,
+                32,
+                34
+              ],
+              "received": "2020-06-24",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=94237",
+              "original": "review_originals/cvm_94237_g193.pdf.gz",
+              "original_sha256": "f621af5aa2a02c8b8bf1ac44605cada4990e861abc1dfd7700ffd0f47f434d5b"
+            }
+          ],
+          "prior_year": 2019,
+          "review_2015": "Geraçãocontratada e diversificada continuam;2014 lucrolíquido inclui ganhoslíquidos173,6mi, retirados sem adicionarimpairment/perdasGSF.1T15 EBITDA789,8mi e lucro344,8mi, provisãofornecedor76,6mi e recuperaçãoCCEE46mi separados.",
+          "review_2016": "Caixa2.396,9mi e DL1.214,8mi nofim2015, sem exposição cambial líquida após swaps; covenants de empréstimos e debêntures integralmente cumpridos no1T16. Concessões a pagar e GSF permanecem obrigações adicionais.",
+          "review_2017": "Dívida líquida2016 de1.093,2mi, caixa1.815,3mi, dívida bruta3.088,7mi e209mi vencendo2017. Covenants de empréstimos/debêntures1T17 conferidos. ExpansãoPampaSul exige monitoramento, não insolvência presumida.",
+          "missing": "Comprovação contemporânea dos termos finais e suficiência do refinanciamento conjunto às obrigações de curto prazo e obras.",
+          "review_2018": "Covenants cumpridos, mas caixa R$716,144 mi contrasta com empréstimos curtos R$955,547 mi e promissórias/debêntures curtas R$2.176,643 mi. Empréstimos abril R$681,030 mi têm hedge; refinanciamento das promissórias deve ser verificado antes de recertificar a antiga folga. ND específico, não reprovação material. DiárioSC12/06 registra emissão proposta Jaguara R$1,117 bi e Miranda R$685 mi, séries5/9 anos e garantia firme de colocação. O texto prevê contrato de distribuição a celebrar: reduz risco do plano, porém não comprova recebimento/termos finais até o corte. Não afirma ausência de refinanciamento efetivo; faltam os termos finais contemporâneos para resolver a folga econômica. Contraponto: ITR73382g193p2 informa BNDES R$1.039,100 mi Campo Largo e R$728,950 mi Pampa Sul, obrigações prévias cumpridas/contratos em fase final. Não são caixa recebido. O caixa menor inclui dividendo R$938,918 mi pago10/01; não caracteriza falta absoluta de financiamento.",
+          "review_2019": "Resolve a pendência anterior: debêntures Jaguara de R$1.109,701 milhões e Miranda de R$680,108 milhões já emitidas, com cronogramas longos e covenants cumpridos. A TAG acrescenta dívida/capital de aproximadamente 70/30 no veículo, além da 8ª emissão de R$2,5 bilhões aprovada na EBE. Mantém ND pela cobertura proporcional da TAG e do plano de investimentos; não por desconhecimento das emissões de 2018.",
+          "review_2020": "Caixa livre4.188,050mi contra fluxos de dívida/juros3.327,169mi até1ano, mais outorgas170,589mi e fornecedores767,785mi. Dívida líquida11.084,033mi ainda exclui406,151mi vinculados; TAGnão consolidada precisa incluir sua exposição. Covenantscumpridos são favoráveis, mas pendência de cobertura proporcional deCAPEX/TAG continuaND; não chama antigo funding2018 desconhecido."
+        },
+        "capital_allocation": {
+          "status": "INDETERMINATE",
+          "reason": "Outorga Jaguara/Miranda R$3,531 bi já paga altera escala do capital; expansão Pampa Sul, dividendos R$636,756 mi e negociação de venda térmica não concluída devem ser examinados conjuntamente. ND de retorno incremental da nova alocação, sem presumir perda ou ganho. Revisão de 2019: A TAG foi adquirida. As projeções de ROCE em dois dígitos e de crescimento são expectativas. Mantém ND para o retorno dos novos compromissos de capital, incluindo TAG, Pampa Sul e transmissão, sem julgar resultados futuros. Revisão de 2020: Incorporação reversaTAGjá efetiva, não nova aquisição de100%; amortização de maisvalia66,3mi/trimestre é custo econômico. Novas térmicas/transmissão e posiçãoTAG mantêmND de retorno incremental por ação após todo financiamento, sem assumir que melhoraEBITDAprova produtividade.",
+          "favorable": "2013 investment684.5m splits443.3m expansion and241.2m maintenance/revitalization. Trairí/Guajiru add55.4MW commercially operating;2014 Ferrari acquisition and remaining wind projects are disclosed. Dividend proposal1,474.2m equals100% adjusted distributable income; debt declined3.5% in2013 despite investment.",
+          "contrary_evidence": "Payout leaves little retained profit; expansion historically uses roughly one-third equity and two-thirds debt. Q1 incorporates additional debt and acquisition obligations; realized project performance must be revisited when it changes materially.",
+          "evidence": [
+            {
+              "docid": "73382",
+              "group": 192,
+              "pages": [
+                1,
+                3,
+                6,
+                7,
+                8
+              ],
+              "received": "2018-04-19",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=73382",
+              "original": "review_originals/cvm_73382_g192.pdf.gz",
+              "original_sha256": "6b31255c9ad73f242ba5415461d6b704789d6a9f54d452b0e4f249f23a44644d"
+            },
+            {
+              "docid": "73382",
+              "group": 193,
+              "pages": [
+                6,
+                8,
+                15,
+                16,
+                17,
+                34
+              ],
+              "received": "2018-04-19",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=73382",
+              "original": "review_originals/cvm_73382_g193.pdf.gz",
+              "original_sha256": "2391ff95469865bfc3c0b983da46f10222847b226b816e747e400d6639715437"
+            },
+            {
+              "docid": "engie_doe_sc_20180612",
+              "group": 0,
+              "pages": [
+                37,
+                38,
+                39,
+                40,
+                41
+              ],
+              "received": "2018-06-12",
+              "url": "https://portal.doe.sea.sc.gov.br/repositorio/2018/20180612/Jornal/1914.pdf",
+              "original": "review_originals/engie_doe_sc_20180612.pdf.gz",
+              "original_sha256": "9ab0dc67e8024209fdbccfb8c743b98c25fb0f7bcd381589f9e3044f7952aabb"
+            },
+            {
+              "docid": "82911",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "received": "2019-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=82911",
+              "original": "review_originals/cvm_82911_g192.pdf.gz",
+              "original_sha256": "7a69239b85e309aa4534029c1a659eb89802d1666500bca122d6ebf6992ccb31"
+            },
+            {
+              "docid": "82911",
+              "group": 193,
+              "pages": [
+                18,
+                19,
+                20,
+                21,
+                36
+              ],
+              "received": "2019-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=82911",
+              "original": "review_originals/cvm_82911_g193.pdf.gz",
+              "original_sha256": "40dd6a3463a9ec06c6636c1de080a8c52c3e6a94f3ccdd60dfb41cffc9478a3a"
+            },
+            {
+              "docid": "engie_tag_20190624",
+              "group": 0,
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "received": "2019-06-24",
+              "url": "https://www.engie.com/sites/default/files/assets/documents/2020-03/engie-24-06-2019-tag-acquisition-financial-impacts-transcript.pdf",
+              "original": "review_originals/engie_tag_20190624.pdf.gz",
+              "original_sha256": "69d09345b4f01724f457a86579cc87bb5b6ddfc5171953e16749b5fbe0250efa"
+            },
+            {
+              "docid": "94237",
+              "group": 192,
+              "pages": [
+                2,
+                3,
+                4,
+                9,
+                10,
+                11
+              ],
+              "received": "2020-06-24",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=94237",
+              "original": "review_originals/cvm_94237_g192.pdf.gz",
+              "original_sha256": "23f7b3e1a1c12d7a44ea43c0eb93213bbc04d27cc36ee3070a4bfbf9bff93e82"
+            },
+            {
+              "docid": "94237",
+              "group": 193,
+              "pages": [
+                13,
+                15,
+                23,
+                24,
+                29,
+                32,
+                34
+              ],
+              "received": "2020-06-24",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=94237",
+              "original": "review_originals/cvm_94237_g193.pdf.gz",
+              "original_sha256": "f621af5aa2a02c8b8bf1ac44605cada4990e861abc1dfd7700ffd0f47f434d5b"
+            }
+          ],
+          "prior_year": 2019,
+          "review_2015": "Geraçãocontratada e diversificada continuam;2014 lucrolíquido inclui ganhoslíquidos173,6mi, retirados sem adicionarimpairment/perdasGSF.1T15 EBITDA789,8mi e lucro344,8mi, provisãofornecedor76,6mi e recuperaçãoCCEE46mi separados.",
+          "review_2016": "CAPEX2015: manutenção222,9mi, modernização134,5mi, expansão493,6mi e aquisição66,3mi. Dividendos834,8mi/55% do distribuível deixam retenção; projetos futuros não recebem retorno antecipado.",
+          "review_2017": "CAPEX2016 de1.189,7mi segregado: expansão875,1, manutenção191,6, modernização97,8, projetos25,2. Proventos1.487,3mi/100%lucrodistribuível confrontados com caixa e dívida baixa; mantém pagadora madura, sem impor payout mínimo.",
+          "missing": "Retorno econômico incremental de Jaguara/Miranda e obras após custos de financiamento, conjuntamente às distribuições.",
+          "review_2018": "Outorga Jaguara/Miranda R$3,531 bi já paga altera escala do capital; expansão Pampa Sul, dividendos R$636,756 mi e negociação de venda térmica não concluída devem ser examinados conjuntamente. ND de retorno incremental da nova alocação, sem presumir perda ou ganho.",
+          "review_2019": "A TAG foi adquirida. As projeções de ROCE em dois dígitos e de crescimento são expectativas. Mantém ND para o retorno dos novos compromissos de capital, incluindo TAG, Pampa Sul e transmissão, sem julgar resultados futuros.",
+          "review_2020": "Incorporação reversaTAGjá efetiva, não nova aquisição de100%; amortização de maisvalia66,3mi/trimestre é custo econômico. Novas térmicas/transmissão e posiçãoTAG mantêmND de retorno incremental por ação após todo financiamento, sem assumir que melhoraEBITDAprova produtividade."
+        },
+        "governance": {
+          "status": "SATISFACTORY",
+          "reason": "Specific minority and transaction-review structures, transparent related-party contracts and fiscal oversight support satisfactory governance despite concentrated control. Listing status alone is not used as proof. Revisão de 2015: a mudança material descrita na atualização foi examinada e não invalida esta tese nesta dimensão; mantém-se o juízo anterior e suas limitações. Revisão de 2016: Reutiliza comitês, conselho e fiscalização do dossiê anterior sob o mesmo controlador; ganho judicial e obrigaçõesCCEE são divulgados. MantémSAT com contraponto de concentração e transações intragrupo. Revisão de 2017: Sucessão planejada da presidênciajulho2016 e divulgação de partes relacionadas/ativos à venda mantêm rastreabilidade. ControleEngie e transações intragrupo permanecem contrapontos; não classifica independência plena. Revisão de 2018: Processo de venda térmica sem evolução satisfatória divulgado12/04; nova proposta para50% da Engie Solar ainda não é aquisição concluída. Mantém SAT dos mecanismos e divulgação, com operações controladoras como contraponto. Revisão de 2019: A oferta TAG contou com parecer favorável do Comitê Especial Independente para Transações com Partes Relacionadas. As participações EBE, ENGIE S.A. e CDPQ estão separadas. Mantém SAT dos mecanismos e explicita o conflito com o controlador; não atribui toda a aquisição à EBE. Revisão de 2020: MantémSAT do dossiê de governança; ponte proporcionalTAG/controle conjunto e operações trading são transparentes nas notas. Aquisição do controlador permanece contraponto documentado, sem fato novo suficiente para reclassificação nesta dimensão.",
+          "favorable": "Two minority representatives on the nine-member board, a fiscal council with three independent members and one minority representative, a special independent committee for related-party transactions, full voting shares and100% tagalong. Related-party energy/O&M contracts state prices or cost bases; independent auditor supplied no nonaudit services in2013.",
+          "contrary_evidence": "GDF SUEZ controls68.71%, Banco Clássico10%; no audit committee, and the related-party committee is not permanent. Guarantees and intragroup electricity transactions are material and require ongoing review; no abuse is inferred from ownership alone.",
+          "evidence": [
+            {
+              "docid": "34713",
+              "group": 1653,
+              "pages": [
+                4,
+                23,
+                24,
+                33
+              ],
+              "received": "2014-02-20",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34713",
+              "original": "review_originals/cvm_34713_g1653.pdf.gz",
+              "original_sha256": "a91d104d11ce51d49872f2e6bb1d819bcb5efe0806cc60fca3504acd82ead428"
+            },
+            {
+              "docid": "34713",
+              "group": 412,
+              "pages": [
+                90,
+                91,
+                92
+              ],
+              "received": "2014-02-20",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34713",
+              "original": "review_originals/cvm_34713_g412.pdf.gz",
+              "original_sha256": "d58f7cd2c9305805f9bcecc3270a5a0eff1c0e8c939149933453615cadca8eda"
+            },
+            {
+              "docid": "36427",
+              "group": 193,
+              "pages": [
+                38,
+                48,
+                49,
+                50
+              ],
+              "received": "2014-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36427",
+              "original": "review_originals/cvm_36427_g193.pdf.gz",
+              "original_sha256": "23434b4cbac198aeb04ab75081fe44229a7fc31f29cdf2e9fb0831111b9cb653"
+            },
+            {
+              "docid": "45623",
+              "group": 1653,
+              "pages": [
+                18,
+                26,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36
+              ],
+              "received": "2015-03-30",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=45623",
+              "original": "review_originals/cvm_45623_g1653.pdf.gz",
+              "original_sha256": "9a4a6e17f933b8991fb1b21f937b545df889f8110d0cf5bc17c177bdb7f4240b"
+            },
+            {
+              "docid": "46127",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "received": "2015-04-24",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=46127",
+              "original": "review_originals/cvm_46127_g192.pdf.gz",
+              "original_sha256": "3ebbe4f261bbe6f86cc69e826069d6ccc61aa203aae751b41cc795f43427c7e1"
+            },
+            {
+              "docid": "46127",
+              "group": 193,
+              "pages": [
+                16,
+                17,
+                34,
+                35
+              ],
+              "received": "2015-04-24",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=46127",
+              "original": "review_originals/cvm_46127_g193.pdf.gz",
+              "original_sha256": "bbf7f414f71a32a70adc9f7679e128dd1dbbc581c6375c916acf5eaadd39da51"
+            },
+            {
+              "docid": "53572",
+              "group": 1653,
+              "pages": [
+                32,
+                33,
+                34,
+                35,
+                36
+              ],
+              "received": "2016-02-23",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=53572",
+              "original": "review_originals/cvm_53572_g1653.pdf.gz",
+              "original_sha256": "e819782c1aea9b6a3d02ae6d90f3000c9c04b8fd0ca7e82a4e5cbb6cddb1c87f"
+            },
+            {
+              "docid": "55623",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "received": "2016-05-05",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55623",
+              "original": "review_originals/cvm_55623_g192.pdf.gz",
+              "original_sha256": "0c1abe8cf995ec819d5fee6d00da8fb41613cb0bdecab2a930d1a2762affcfee"
+            },
+            {
+              "docid": "55623",
+              "group": 193,
+              "pages": [
+                12
+              ],
+              "received": "2016-05-05",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55623",
+              "original": "review_originals/cvm_55623_g193.pdf.gz",
+              "original_sha256": "e09e090a36199d4e586df20f5a32607a1a393e0bc4da9a5f9d702082f5cea3b2"
+            },
+            {
+              "docid": "62765",
+              "group": 1653,
+              "pages": [
+                2,
+                39,
+                40
+              ],
+              "received": "2017-02-23",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=62765",
+              "original": "review_originals/cvm_62765_g1653.pdf.gz",
+              "original_sha256": "5775e6ec2b5a90f48b3e0fe137a7ab07014ac0b1157e81775c7cc85fd5760f23"
+            },
+            {
+              "docid": "64408",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                4,
+                5,
+                6,
+                7
+              ],
+              "received": "2017-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=64408",
+              "original": "review_originals/cvm_64408_g192.pdf.gz",
+              "original_sha256": "c564fd6746e4631a0650f6e27a513d9941cb05b3bce52af7fb6e3541f824eb63"
+            },
+            {
+              "docid": "64408",
+              "group": 193,
+              "pages": [
+                6,
+                13,
+                14,
+                28
+              ],
+              "received": "2017-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=64408",
+              "original": "review_originals/cvm_64408_g193.pdf.gz",
+              "original_sha256": "14c196f3f1d11d77de2ca657dbf644122e353b0f795f2e54e80a52dd7411187e"
+            },
+            {
+              "docid": "73382",
+              "group": 192,
+              "pages": [
+                1,
+                3,
+                6,
+                7,
+                8
+              ],
+              "received": "2018-04-19",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=73382",
+              "original": "review_originals/cvm_73382_g192.pdf.gz",
+              "original_sha256": "6b31255c9ad73f242ba5415461d6b704789d6a9f54d452b0e4f249f23a44644d"
+            },
+            {
+              "docid": "73382",
+              "group": 193,
+              "pages": [
+                2,
+                6,
+                8,
+                15,
+                16,
+                17,
+                34
+              ],
+              "received": "2018-04-19",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=73382",
+              "original": "review_originals/cvm_73382_g193.pdf.gz",
+              "original_sha256": "2391ff95469865bfc3c0b983da46f10222847b226b816e747e400d6639715437"
+            },
+            {
+              "docid": "engie_doe_sc_20180612",
+              "group": 0,
+              "pages": [
+                37,
+                38,
+                39,
+                40,
+                41
+              ],
+              "received": "2018-06-12",
+              "url": "https://portal.doe.sea.sc.gov.br/repositorio/2018/20180612/Jornal/1914.pdf",
+              "original": "review_originals/engie_doe_sc_20180612.pdf.gz",
+              "original_sha256": "9ab0dc67e8024209fdbccfb8c743b98c25fb0f7bcd381589f9e3044f7952aabb"
+            },
+            {
+              "docid": "82911",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "received": "2019-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=82911",
+              "original": "review_originals/cvm_82911_g192.pdf.gz",
+              "original_sha256": "7a69239b85e309aa4534029c1a659eb89802d1666500bca122d6ebf6992ccb31"
+            },
+            {
+              "docid": "82911",
+              "group": 193,
+              "pages": [
+                18,
+                19,
+                20,
+                21,
+                36
+              ],
+              "received": "2019-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=82911",
+              "original": "review_originals/cvm_82911_g193.pdf.gz",
+              "original_sha256": "40dd6a3463a9ec06c6636c1de080a8c52c3e6a94f3ccdd60dfb41cffc9478a3a"
+            },
+            {
+              "docid": "engie_tag_20190624",
+              "group": 0,
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "received": "2019-06-24",
+              "url": "https://www.engie.com/sites/default/files/assets/documents/2020-03/engie-24-06-2019-tag-acquisition-financial-impacts-transcript.pdf",
+              "original": "review_originals/engie_tag_20190624.pdf.gz",
+              "original_sha256": "69d09345b4f01724f457a86579cc87bb5b6ddfc5171953e16749b5fbe0250efa"
+            },
+            {
+              "docid": "94237",
+              "group": 192,
+              "pages": [
+                2,
+                3,
+                4,
+                9,
+                10,
+                11
+              ],
+              "received": "2020-06-24",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=94237",
+              "original": "review_originals/cvm_94237_g192.pdf.gz",
+              "original_sha256": "23f7b3e1a1c12d7a44ea43c0eb93213bbc04d27cc36ee3070a4bfbf9bff93e82"
+            },
+            {
+              "docid": "94237",
+              "group": 193,
+              "pages": [
+                13,
+                15,
+                23,
+                24,
+                29,
+                32,
+                34
+              ],
+              "received": "2020-06-24",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=94237",
+              "original": "review_originals/cvm_94237_g193.pdf.gz",
+              "original_sha256": "f621af5aa2a02c8b8bf1ac44605cada4990e861abc1dfd7700ffd0f47f434d5b"
+            }
+          ],
+          "prior_year": 2019,
+          "review_2015": "Sem alteração material desta dimensão após confronto da tese anterior com os fatos descritos na atualização de 2015. Geraçãocontratada e diversificada continuam;2014 lucrolíquido inclui ganhoslíquidos173,6mi, retirados sem adicionarimpairment/perdasGSF.1T15 EBITDA789,8mi e lucro344,8mi, provisãofornecedor76,6mi e recuperaçãoCCEE46mi separados.",
+          "review_2016": "Reutiliza comitês, conselho e fiscalização do dossiê anterior sob o mesmo controlador; ganho judicial e obrigaçõesCCEE são divulgados. MantémSAT com contraponto de concentração e transações intragrupo.",
+          "review_2017": "Sucessão planejada da presidênciajulho2016 e divulgação de partes relacionadas/ativos à venda mantêm rastreabilidade. ControleEngie e transações intragrupo permanecem contrapontos; não classifica independência plena.",
+          "review_2018": "Processo de venda térmica sem evolução satisfatória divulgado12/04; nova proposta para50% da Engie Solar ainda não é aquisição concluída. Mantém SAT dos mecanismos e divulgação, com operações controladoras como contraponto.",
+          "review_2019": "A oferta TAG contou com parecer favorável do Comitê Especial Independente para Transações com Partes Relacionadas. As participações EBE, ENGIE S.A. e CDPQ estão separadas. Mantém SAT dos mecanismos e explicita o conflito com o controlador; não atribui toda a aquisição à EBE.",
+          "review_2020": "MantémSAT do dossiê de governança; ponte proporcionalTAG/controle conjunto e operações trading são transparentes nas notas. Aquisição do controlador permanece contraponto documentado, sem fato novo suficiente para reclassificação nesta dimensão."
+        }
+      },
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "24 operating plants across12 states;6,964.7MW own installed capacity and approximately6% of national capacity. Q1 contracted availability96.6% for2014,98.3% for2015 and93.5% for2016. Existing contracts reprice for inflation;1Q14 selling price+6.0%.",
+          "evidence": [
+            {
+              "docid": "34713",
+              "group": 412,
+              "pages": [
+                1,
+                82,
+                97
+              ],
+              "received": "2014-02-20",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34713",
+              "original": "review_originals/cvm_34713_g412.pdf.gz",
+              "original_sha256": "d58f7cd2c9305805f9bcecc3270a5a0eff1c0e8c939149933453615cadca8eda"
+            },
+            {
+              "docid": "34713",
+              "group": 1653,
+              "pages": [
+                4,
+                11
+              ],
+              "received": "2014-02-20",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34713",
+              "original": "review_originals/cvm_34713_g1653.pdf.gz",
+              "original_sha256": "a91d104d11ce51d49872f2e6bb1d819bcb5efe0806cc60fca3504acd82ead428"
+            },
+            {
+              "docid": "36427",
+              "group": 193,
+              "pages": [
+                53
+              ],
+              "received": "2014-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36427",
+              "original": "review_originals/cvm_36427_g193.pdf.gz",
+              "original_sha256": "23434b4cbac198aeb04ab75081fe44229a7fc31f29cdf2e9fb0831111b9cb653"
+            },
+            {
+              "docid": "36427",
+              "group": 192,
+              "pages": [
+                1,
+                3,
+                4
+              ],
+              "received": "2014-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36427",
+              "original": "review_originals/cvm_36427_g192.pdf.gz",
+              "original_sha256": "9c403f8dab1a91a6654b757b8d2f0ecc3bb4852abbfaafdc43aae82f22e241ba"
+            },
+            {
+              "docid": "45623",
+              "group": 1653,
+              "pages": [
+                18,
+                26,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36
+              ],
+              "received": "2015-03-30",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=45623",
+              "original": "review_originals/cvm_45623_g1653.pdf.gz",
+              "original_sha256": "9a4a6e17f933b8991fb1b21f937b545df889f8110d0cf5bc17c177bdb7f4240b"
+            },
+            {
+              "docid": "46127",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "received": "2015-04-24",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=46127",
+              "original": "review_originals/cvm_46127_g192.pdf.gz",
+              "original_sha256": "3ebbe4f261bbe6f86cc69e826069d6ccc61aa203aae751b41cc795f43427c7e1"
+            },
+            {
+              "docid": "46127",
+              "group": 193,
+              "pages": [
+                16,
+                17,
+                34,
+                35
+              ],
+              "received": "2015-04-24",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=46127",
+              "original": "review_originals/cvm_46127_g193.pdf.gz",
+              "original_sha256": "bbf7f414f71a32a70adc9f7679e128dd1dbbc581c6375c916acf5eaadd39da51"
+            },
+            {
+              "docid": "53572",
+              "group": 1653,
+              "pages": [
+                32,
+                33,
+                34,
+                35,
+                36
+              ],
+              "received": "2016-02-23",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=53572",
+              "original": "review_originals/cvm_53572_g1653.pdf.gz",
+              "original_sha256": "e819782c1aea9b6a3d02ae6d90f3000c9c04b8fd0ca7e82a4e5cbb6cddb1c87f"
+            },
+            {
+              "docid": "55623",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "received": "2016-05-05",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55623",
+              "original": "review_originals/cvm_55623_g192.pdf.gz",
+              "original_sha256": "0c1abe8cf995ec819d5fee6d00da8fb41613cb0bdecab2a930d1a2762affcfee"
+            },
+            {
+              "docid": "55623",
+              "group": 193,
+              "pages": [
+                12
+              ],
+              "received": "2016-05-05",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55623",
+              "original": "review_originals/cvm_55623_g193.pdf.gz",
+              "original_sha256": "e09e090a36199d4e586df20f5a32607a1a393e0bc4da9a5f9d702082f5cea3b2"
+            },
+            {
+              "docid": "62765",
+              "group": 1653,
+              "pages": [
+                2,
+                39,
+                40
+              ],
+              "received": "2017-02-23",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=62765",
+              "original": "review_originals/cvm_62765_g1653.pdf.gz",
+              "original_sha256": "5775e6ec2b5a90f48b3e0fe137a7ab07014ac0b1157e81775c7cc85fd5760f23"
+            },
+            {
+              "docid": "64408",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                4,
+                5,
+                6,
+                7
+              ],
+              "received": "2017-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=64408",
+              "original": "review_originals/cvm_64408_g192.pdf.gz",
+              "original_sha256": "c564fd6746e4631a0650f6e27a513d9941cb05b3bce52af7fb6e3541f824eb63"
+            },
+            {
+              "docid": "64408",
+              "group": 193,
+              "pages": [
+                6,
+                13,
+                14,
+                28
+              ],
+              "received": "2017-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=64408",
+              "original": "review_originals/cvm_64408_g193.pdf.gz",
+              "original_sha256": "14c196f3f1d11d77de2ca657dbf644122e353b0f795f2e54e80a52dd7411187e"
+            },
+            {
+              "docid": "73382",
+              "group": 192,
+              "pages": [
+                1,
+                3,
+                6,
+                7,
+                8
+              ],
+              "received": "2018-04-19",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=73382",
+              "original": "review_originals/cvm_73382_g192.pdf.gz",
+              "original_sha256": "6b31255c9ad73f242ba5415461d6b704789d6a9f54d452b0e4f249f23a44644d"
+            },
+            {
+              "docid": "73382",
+              "group": 193,
+              "pages": [
+                2,
+                6,
+                8,
+                15,
+                16,
+                17,
+                34
+              ],
+              "received": "2018-04-19",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=73382",
+              "original": "review_originals/cvm_73382_g193.pdf.gz",
+              "original_sha256": "2391ff95469865bfc3c0b983da46f10222847b226b816e747e400d6639715437"
+            },
+            {
+              "docid": "engie_doe_sc_20180612",
+              "group": 0,
+              "pages": [
+                37,
+                38,
+                39,
+                40,
+                41
+              ],
+              "received": "2018-06-12",
+              "url": "https://portal.doe.sea.sc.gov.br/repositorio/2018/20180612/Jornal/1914.pdf",
+              "original": "review_originals/engie_doe_sc_20180612.pdf.gz",
+              "original_sha256": "9ab0dc67e8024209fdbccfb8c743b98c25fb0f7bcd381589f9e3044f7952aabb"
+            },
+            {
+              "docid": "82911",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "received": "2019-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=82911",
+              "original": "review_originals/cvm_82911_g192.pdf.gz",
+              "original_sha256": "7a69239b85e309aa4534029c1a659eb89802d1666500bca122d6ebf6992ccb31"
+            },
+            {
+              "docid": "82911",
+              "group": 193,
+              "pages": [
+                18,
+                19,
+                20,
+                21,
+                36
+              ],
+              "received": "2019-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=82911",
+              "original": "review_originals/cvm_82911_g193.pdf.gz",
+              "original_sha256": "40dd6a3463a9ec06c6636c1de080a8c52c3e6a94f3ccdd60dfb41cffc9478a3a"
+            },
+            {
+              "docid": "engie_tag_20190624",
+              "group": 0,
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "received": "2019-06-24",
+              "url": "https://www.engie.com/sites/default/files/assets/documents/2020-03/engie-24-06-2019-tag-acquisition-financial-impacts-transcript.pdf",
+              "original": "review_originals/engie_tag_20190624.pdf.gz",
+              "original_sha256": "69d09345b4f01724f457a86579cc87bb5b6ddfc5171953e16749b5fbe0250efa"
+            },
+            {
+              "docid": "94237",
+              "group": 192,
+              "pages": [
+                2,
+                3,
+                4,
+                9,
+                10,
+                11
+              ],
+              "received": "2020-06-24",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=94237",
+              "original": "review_originals/cvm_94237_g192.pdf.gz",
+              "original_sha256": "23f7b3e1a1c12d7a44ea43c0eb93213bbc04d27cc36ee3070a4bfbf9bff93e82"
+            },
+            {
+              "docid": "94237",
+              "group": 193,
+              "pages": [
+                13,
+                15,
+                23,
+                24,
+                29,
+                32,
+                34
+              ],
+              "received": "2020-06-24",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=94237",
+              "original": "review_originals/cvm_94237_g193.pdf.gz",
+              "original_sha256": "f621af5aa2a02c8b8bf1ac44605cada4990e861abc1dfd7700ffd0f47f434d5b"
             }
           ]
         },
         "capital_economics": {
-          "favorable": {
-            "roe_parent_5": [
-              0.24414647011284837,
-              0.2335357995589649,
-              0.2980863976688873,
-              0.35208028125518187,
-              0.3470612274947526
-            ],
-            "normalized_profit": 2164444220.7299323
-          },
+          "favorable": "2011–2013 ROCE22.9%,24.7%,23.1%;2013 EBIT2,387.2m, EBITDA3,042.6m and after-tax attributed profit after identified gains1,384.412m. Debt cost8.1% disclosed, not confused with WACC. Even Q1 under stress retains EBIT546.426m and EBITDA694.139m.",
           "evidence": [
             {
-              "fiscal_year": 2015,
-              "metric": "attributable_ni",
-              "value": 1500392000.0,
+              "docid": "34713",
+              "group": 1653,
+              "pages": [
+                12,
+                16,
+                19,
+                21,
+                22
+              ],
+              "received": "2014-02-20",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34713",
+              "original": "review_originals/cvm_34713_g1653.pdf.gz",
+              "original_sha256": "a91d104d11ce51d49872f2e6bb1d819bcb5efe0806cc60fca3504acd82ead428"
+            },
+            {
+              "docid": "36427",
+              "group": 192,
+              "pages": [
+                3,
+                4,
+                5,
+                6
+              ],
+              "received": "2014-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36427",
+              "original": "review_originals/cvm_36427_g192.pdf.gz",
+              "original_sha256": "9c403f8dab1a91a6654b757b8d2f0ecc3bb4852abbfaafdc43aae82f22e241ba"
+            },
+            {
+              "docid": "45623",
+              "group": 1653,
+              "pages": [
+                18,
+                26,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36
+              ],
+              "received": "2015-03-30",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=45623",
+              "original": "review_originals/cvm_45623_g1653.pdf.gz",
+              "original_sha256": "9a4a6e17f933b8991fb1b21f937b545df889f8110d0cf5bc17c177bdb7f4240b"
+            },
+            {
+              "docid": "46127",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "received": "2015-04-24",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=46127",
+              "original": "review_originals/cvm_46127_g192.pdf.gz",
+              "original_sha256": "3ebbe4f261bbe6f86cc69e826069d6ccc61aa203aae751b41cc795f43427c7e1"
+            },
+            {
+              "docid": "46127",
+              "group": 193,
+              "pages": [
+                16,
+                17,
+                34,
+                35
+              ],
+              "received": "2015-04-24",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=46127",
+              "original": "review_originals/cvm_46127_g193.pdf.gz",
+              "original_sha256": "bbf7f414f71a32a70adc9f7679e128dd1dbbc581c6375c916acf5eaadd39da51"
+            },
+            {
+              "docid": "53572",
+              "group": 1653,
+              "pages": [
+                32,
+                33,
+                34,
+                35,
+                36
+              ],
+              "received": "2016-02-23",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=53572",
+              "original": "review_originals/cvm_53572_g1653.pdf.gz",
+              "original_sha256": "e819782c1aea9b6a3d02ae6d90f3000c9c04b8fd0ca7e82a4e5cbb6cddb1c87f"
+            },
+            {
+              "docid": "55623",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "received": "2016-05-05",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55623",
+              "original": "review_originals/cvm_55623_g192.pdf.gz",
+              "original_sha256": "0c1abe8cf995ec819d5fee6d00da8fb41613cb0bdecab2a930d1a2762affcfee"
+            },
+            {
+              "docid": "55623",
+              "group": 193,
+              "pages": [
+                12
+              ],
+              "received": "2016-05-05",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55623",
+              "original": "review_originals/cvm_55623_g193.pdf.gz",
+              "original_sha256": "e09e090a36199d4e586df20f5a32607a1a393e0bc4da9a5f9d702082f5cea3b2"
+            },
+            {
               "docid": "62765",
+              "group": 1653,
+              "pages": [
+                2,
+                39,
+                40
+              ],
               "received": "2017-02-23",
-              "reference": "2016-12-31",
-              "period_end": "2015-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2016.csv",
-              "archive_sha256": "772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip"
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=62765",
+              "original": "review_originals/cvm_62765_g1653.pdf.gz",
+              "original_sha256": "5775e6ec2b5a90f48b3e0fe137a7ab07014ac0b1157e81775c7cc85fd5760f23"
             },
             {
-              "fiscal_year": 2016,
-              "metric": "attributable_ni",
-              "value": 1547303000.0,
-              "docid": "71712",
-              "received": "2018-02-22",
-              "reference": "2017-12-31",
-              "period_end": "2016-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+              "docid": "64408",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                4,
+                5,
+                6,
+                7
+              ],
+              "received": "2017-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=64408",
+              "original": "review_originals/cvm_64408_g192.pdf.gz",
+              "original_sha256": "c564fd6746e4631a0650f6e27a513d9941cb05b3bce52af7fb6e3541f824eb63"
             },
             {
-              "fiscal_year": 2017,
-              "metric": "attributable_ni",
-              "value": 2003412000.0,
-              "docid": "80753",
-              "received": "2019-02-19",
-              "reference": "2018-12-31",
-              "period_end": "2017-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+              "docid": "64408",
+              "group": 193,
+              "pages": [
+                6,
+                13,
+                14,
+                28
+              ],
+              "received": "2017-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=64408",
+              "original": "review_originals/cvm_64408_g193.pdf.gz",
+              "original_sha256": "14c196f3f1d11d77de2ca657dbf644122e353b0f795f2e54e80a52dd7411187e"
             },
             {
-              "fiscal_year": 2018,
-              "metric": "attributable_ni",
-              "value": 2314361000.0,
-              "docid": "91118",
-              "received": "2020-02-20",
-              "reference": "2019-12-31",
-              "period_end": "2018-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+              "docid": "73382",
+              "group": 192,
+              "pages": [
+                1,
+                3,
+                6,
+                7,
+                8
+              ],
+              "received": "2018-04-19",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=73382",
+              "original": "review_originals/cvm_73382_g192.pdf.gz",
+              "original_sha256": "6b31255c9ad73f242ba5415461d6b704789d6a9f54d452b0e4f249f23a44644d"
             },
             {
-              "fiscal_year": 2019,
-              "metric": "attributable_ni",
-              "value": 2309925000.0,
-              "docid": "91118",
-              "received": "2020-02-20",
-              "reference": "2019-12-31",
-              "period_end": "2019-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+              "docid": "73382",
+              "group": 193,
+              "pages": [
+                2,
+                6,
+                8,
+                15,
+                16,
+                17,
+                34
+              ],
+              "received": "2018-04-19",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=73382",
+              "original": "review_originals/cvm_73382_g193.pdf.gz",
+              "original_sha256": "2391ff95469865bfc3c0b983da46f10222847b226b816e747e400d6639715437"
+            },
+            {
+              "docid": "engie_doe_sc_20180612",
+              "group": 0,
+              "pages": [
+                37,
+                38,
+                39,
+                40,
+                41
+              ],
+              "received": "2018-06-12",
+              "url": "https://portal.doe.sea.sc.gov.br/repositorio/2018/20180612/Jornal/1914.pdf",
+              "original": "review_originals/engie_doe_sc_20180612.pdf.gz",
+              "original_sha256": "9ab0dc67e8024209fdbccfb8c743b98c25fb0f7bcd381589f9e3044f7952aabb"
+            },
+            {
+              "docid": "82911",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "received": "2019-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=82911",
+              "original": "review_originals/cvm_82911_g192.pdf.gz",
+              "original_sha256": "7a69239b85e309aa4534029c1a659eb89802d1666500bca122d6ebf6992ccb31"
+            },
+            {
+              "docid": "82911",
+              "group": 193,
+              "pages": [
+                18,
+                19,
+                20,
+                21,
+                36
+              ],
+              "received": "2019-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=82911",
+              "original": "review_originals/cvm_82911_g193.pdf.gz",
+              "original_sha256": "40dd6a3463a9ec06c6636c1de080a8c52c3e6a94f3ccdd60dfb41cffc9478a3a"
+            },
+            {
+              "docid": "engie_tag_20190624",
+              "group": 0,
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "received": "2019-06-24",
+              "url": "https://www.engie.com/sites/default/files/assets/documents/2020-03/engie-24-06-2019-tag-acquisition-financial-impacts-transcript.pdf",
+              "original": "review_originals/engie_tag_20190624.pdf.gz",
+              "original_sha256": "69d09345b4f01724f457a86579cc87bb5b6ddfc5171953e16749b5fbe0250efa"
+            },
+            {
+              "docid": "94237",
+              "group": 192,
+              "pages": [
+                2,
+                3,
+                4,
+                9,
+                10,
+                11
+              ],
+              "received": "2020-06-24",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=94237",
+              "original": "review_originals/cvm_94237_g192.pdf.gz",
+              "original_sha256": "23f7b3e1a1c12d7a44ea43c0eb93213bbc04d27cc36ee3070a4bfbf9bff93e82"
+            },
+            {
+              "docid": "94237",
+              "group": 193,
+              "pages": [
+                13,
+                15,
+                23,
+                24,
+                29,
+                32,
+                34
+              ],
+              "received": "2020-06-24",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=94237",
+              "original": "review_originals/cvm_94237_g193.pdf.gz",
+              "original_sha256": "f621af5aa2a02c8b8bf1ac44605cada4990e861abc1dfd7700ffd0f47f434d5b"
             }
           ]
         },
         "earnings_reliability": {
-          "favorable": {
-            "positive_attributable_years": 5,
-            "audit_records": 6
-          },
+          "favorable": "2012 IAS19 profit bridge is explicit;2013 net nonrecurring gains51.7m are quantified, thermal impairment49.4m is retained, and54.5m CNPE costs remain recognized despite an injunction. Q1 CCEE swing−143.6m is disclosed rather than hidden by revenue growth. KPMG unqualified fiscal audit reviewed in the CVM dated audit extract.",
           "evidence": [
             {
-              "docid": "91118",
-              "received": "2020-02-20",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+              "docid": "34713",
+              "group": 412,
+              "pages": [
+                16,
+                17
+              ],
+              "received": "2014-02-20",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34713",
+              "original": "review_originals/cvm_34713_g412.pdf.gz",
+              "original_sha256": "d58f7cd2c9305805f9bcecc3270a5a0eff1c0e8c939149933453615cadca8eda"
             },
             {
-              "docid": "91118",
-              "received": "2020-02-20",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+              "docid": "34713",
+              "group": 1653,
+              "pages": [
+                16,
+                19,
+                33
+              ],
+              "received": "2014-02-20",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34713",
+              "original": "review_originals/cvm_34713_g1653.pdf.gz",
+              "original_sha256": "a91d104d11ce51d49872f2e6bb1d819bcb5efe0806cc60fca3504acd82ead428"
             },
             {
-              "docid": "91118",
-              "received": "2020-02-20",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+              "docid": "36427",
+              "group": 192,
+              "pages": [
+                3,
+                4,
+                5,
+                6
+              ],
+              "received": "2014-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36427",
+              "original": "review_originals/cvm_36427_g192.pdf.gz",
+              "original_sha256": "9c403f8dab1a91a6654b757b8d2f0ecc3bb4852abbfaafdc43aae82f22e241ba"
             },
             {
-              "docid": "91118",
-              "received": "2020-02-20",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+              "docid": "45623",
+              "group": 1653,
+              "pages": [
+                18,
+                26,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36
+              ],
+              "received": "2015-03-30",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=45623",
+              "original": "review_originals/cvm_45623_g1653.pdf.gz",
+              "original_sha256": "9a4a6e17f933b8991fb1b21f937b545df889f8110d0cf5bc17c177bdb7f4240b"
             },
             {
-              "docid": "91118",
-              "received": "2020-02-20",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+              "docid": "46127",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "received": "2015-04-24",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=46127",
+              "original": "review_originals/cvm_46127_g192.pdf.gz",
+              "original_sha256": "3ebbe4f261bbe6f86cc69e826069d6ccc61aa203aae751b41cc795f43427c7e1"
             },
             {
-              "docid": "91118",
-              "received": "2020-02-20",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+              "docid": "46127",
+              "group": 193,
+              "pages": [
+                16,
+                17,
+                34,
+                35
+              ],
+              "received": "2015-04-24",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=46127",
+              "original": "review_originals/cvm_46127_g193.pdf.gz",
+              "original_sha256": "bbf7f414f71a32a70adc9f7679e128dd1dbbc581c6375c916acf5eaadd39da51"
+            },
+            {
+              "docid": "53572",
+              "group": 1653,
+              "pages": [
+                32,
+                33,
+                34,
+                35,
+                36
+              ],
+              "received": "2016-02-23",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=53572",
+              "original": "review_originals/cvm_53572_g1653.pdf.gz",
+              "original_sha256": "e819782c1aea9b6a3d02ae6d90f3000c9c04b8fd0ca7e82a4e5cbb6cddb1c87f"
+            },
+            {
+              "docid": "55623",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "received": "2016-05-05",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55623",
+              "original": "review_originals/cvm_55623_g192.pdf.gz",
+              "original_sha256": "0c1abe8cf995ec819d5fee6d00da8fb41613cb0bdecab2a930d1a2762affcfee"
+            },
+            {
+              "docid": "55623",
+              "group": 193,
+              "pages": [
+                12
+              ],
+              "received": "2016-05-05",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55623",
+              "original": "review_originals/cvm_55623_g193.pdf.gz",
+              "original_sha256": "e09e090a36199d4e586df20f5a32607a1a393e0bc4da9a5f9d702082f5cea3b2"
+            },
+            {
+              "docid": "62765",
+              "group": 1653,
+              "pages": [
+                2,
+                39,
+                40
+              ],
+              "received": "2017-02-23",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=62765",
+              "original": "review_originals/cvm_62765_g1653.pdf.gz",
+              "original_sha256": "5775e6ec2b5a90f48b3e0fe137a7ab07014ac0b1157e81775c7cc85fd5760f23"
+            },
+            {
+              "docid": "64408",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                4,
+                5,
+                6,
+                7
+              ],
+              "received": "2017-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=64408",
+              "original": "review_originals/cvm_64408_g192.pdf.gz",
+              "original_sha256": "c564fd6746e4631a0650f6e27a513d9941cb05b3bce52af7fb6e3541f824eb63"
+            },
+            {
+              "docid": "64408",
+              "group": 193,
+              "pages": [
+                6,
+                13,
+                14,
+                28
+              ],
+              "received": "2017-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=64408",
+              "original": "review_originals/cvm_64408_g193.pdf.gz",
+              "original_sha256": "14c196f3f1d11d77de2ca657dbf644122e353b0f795f2e54e80a52dd7411187e"
+            },
+            {
+              "docid": "73382",
+              "group": 192,
+              "pages": [
+                1,
+                3,
+                6,
+                7,
+                8
+              ],
+              "received": "2018-04-19",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=73382",
+              "original": "review_originals/cvm_73382_g192.pdf.gz",
+              "original_sha256": "6b31255c9ad73f242ba5415461d6b704789d6a9f54d452b0e4f249f23a44644d"
+            },
+            {
+              "docid": "73382",
+              "group": 193,
+              "pages": [
+                2,
+                6,
+                8,
+                15,
+                16,
+                17,
+                34
+              ],
+              "received": "2018-04-19",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=73382",
+              "original": "review_originals/cvm_73382_g193.pdf.gz",
+              "original_sha256": "2391ff95469865bfc3c0b983da46f10222847b226b816e747e400d6639715437"
+            },
+            {
+              "docid": "engie_doe_sc_20180612",
+              "group": 0,
+              "pages": [
+                37,
+                38,
+                39,
+                40,
+                41
+              ],
+              "received": "2018-06-12",
+              "url": "https://portal.doe.sea.sc.gov.br/repositorio/2018/20180612/Jornal/1914.pdf",
+              "original": "review_originals/engie_doe_sc_20180612.pdf.gz",
+              "original_sha256": "9ab0dc67e8024209fdbccfb8c743b98c25fb0f7bcd381589f9e3044f7952aabb"
+            },
+            {
+              "docid": "82911",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "received": "2019-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=82911",
+              "original": "review_originals/cvm_82911_g192.pdf.gz",
+              "original_sha256": "7a69239b85e309aa4534029c1a659eb89802d1666500bca122d6ebf6992ccb31"
+            },
+            {
+              "docid": "82911",
+              "group": 193,
+              "pages": [
+                18,
+                19,
+                20,
+                21,
+                36
+              ],
+              "received": "2019-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=82911",
+              "original": "review_originals/cvm_82911_g193.pdf.gz",
+              "original_sha256": "40dd6a3463a9ec06c6636c1de080a8c52c3e6a94f3ccdd60dfb41cffc9478a3a"
+            },
+            {
+              "docid": "engie_tag_20190624",
+              "group": 0,
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "received": "2019-06-24",
+              "url": "https://www.engie.com/sites/default/files/assets/documents/2020-03/engie-24-06-2019-tag-acquisition-financial-impacts-transcript.pdf",
+              "original": "review_originals/engie_tag_20190624.pdf.gz",
+              "original_sha256": "69d09345b4f01724f457a86579cc87bb5b6ddfc5171953e16749b5fbe0250efa"
+            },
+            {
+              "docid": "94237",
+              "group": 192,
+              "pages": [
+                2,
+                3,
+                4,
+                9,
+                10,
+                11
+              ],
+              "received": "2020-06-24",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=94237",
+              "original": "review_originals/cvm_94237_g192.pdf.gz",
+              "original_sha256": "23f7b3e1a1c12d7a44ea43c0eb93213bbc04d27cc36ee3070a4bfbf9bff93e82"
+            },
+            {
+              "docid": "94237",
+              "group": 193,
+              "pages": [
+                13,
+                15,
+                23,
+                24,
+                29,
+                32,
+                34
+              ],
+              "received": "2020-06-24",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=94237",
+              "original": "review_originals/cvm_94237_g193.pdf.gz",
+              "original_sha256": "f621af5aa2a02c8b8bf1ac44605cada4990e861abc1dfd7700ffd0f47f434d5b"
             }
           ]
         },
         "financial_resilience": {
-          "favorable": {
-            "parent_equity_latest": 6995154000.0
-          },
+          "favorable": "Dec2013 net debt2,271.2m and gross debt/EBITDA1.1; March2014 cash1,132.671m, loans3,406.992m of which354.360m current, and debentures180.786m current. Borrowing and debenture covenants complied with at both dates; new USD100m loan fully swapped to97% CDI.",
           "evidence": [
             {
-              "docid": "91118",
-              "received": "2020-02-20",
-              "reference": "2019-12-31",
-              "period_end": "2019-12-31",
-              "perimeter": "ind",
-              "account": "2.03",
-              "description": "Patrimônio Líquido",
-              "source": "dfp_cia_aberta_BPP_ind_2019.csv",
-              "archive_sha256": "",
-              "url": ""
+              "docid": "73382",
+              "group": 192,
+              "pages": [
+                1,
+                3,
+                6,
+                7,
+                8
+              ],
+              "received": "2018-04-19",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=73382",
+              "original": "review_originals/cvm_73382_g192.pdf.gz",
+              "original_sha256": "6b31255c9ad73f242ba5415461d6b704789d6a9f54d452b0e4f249f23a44644d"
+            },
+            {
+              "docid": "73382",
+              "group": 193,
+              "pages": [
+                2,
+                6,
+                8,
+                15,
+                16,
+                17,
+                34
+              ],
+              "received": "2018-04-19",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=73382",
+              "original": "review_originals/cvm_73382_g193.pdf.gz",
+              "original_sha256": "2391ff95469865bfc3c0b983da46f10222847b226b816e747e400d6639715437"
+            },
+            {
+              "docid": "engie_doe_sc_20180612",
+              "group": 0,
+              "pages": [
+                37,
+                38,
+                39,
+                40,
+                41
+              ],
+              "received": "2018-06-12",
+              "url": "https://portal.doe.sea.sc.gov.br/repositorio/2018/20180612/Jornal/1914.pdf",
+              "original": "review_originals/engie_doe_sc_20180612.pdf.gz",
+              "original_sha256": "9ab0dc67e8024209fdbccfb8c743b98c25fb0f7bcd381589f9e3044f7952aabb"
+            },
+            {
+              "docid": "82911",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "received": "2019-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=82911",
+              "original": "review_originals/cvm_82911_g192.pdf.gz",
+              "original_sha256": "7a69239b85e309aa4534029c1a659eb89802d1666500bca122d6ebf6992ccb31"
+            },
+            {
+              "docid": "82911",
+              "group": 193,
+              "pages": [
+                18,
+                19,
+                20,
+                21,
+                36
+              ],
+              "received": "2019-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=82911",
+              "original": "review_originals/cvm_82911_g193.pdf.gz",
+              "original_sha256": "40dd6a3463a9ec06c6636c1de080a8c52c3e6a94f3ccdd60dfb41cffc9478a3a"
+            },
+            {
+              "docid": "engie_tag_20190624",
+              "group": 0,
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "received": "2019-06-24",
+              "url": "https://www.engie.com/sites/default/files/assets/documents/2020-03/engie-24-06-2019-tag-acquisition-financial-impacts-transcript.pdf",
+              "original": "review_originals/engie_tag_20190624.pdf.gz",
+              "original_sha256": "69d09345b4f01724f457a86579cc87bb5b6ddfc5171953e16749b5fbe0250efa"
+            },
+            {
+              "docid": "94237",
+              "group": 192,
+              "pages": [
+                2,
+                3,
+                4,
+                9,
+                10,
+                11
+              ],
+              "received": "2020-06-24",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=94237",
+              "original": "review_originals/cvm_94237_g192.pdf.gz",
+              "original_sha256": "23f7b3e1a1c12d7a44ea43c0eb93213bbc04d27cc36ee3070a4bfbf9bff93e82"
+            },
+            {
+              "docid": "94237",
+              "group": 193,
+              "pages": [
+                13,
+                15,
+                23,
+                24,
+                29,
+                32,
+                34
+              ],
+              "received": "2020-06-24",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=94237",
+              "original": "review_originals/cvm_94237_g193.pdf.gz",
+              "original_sha256": "f621af5aa2a02c8b8bf1ac44605cada4990e861abc1dfd7700ffd0f47f434d5b"
             }
           ]
         },
         "capital_allocation": {
-          "favorable": {
-            "historical_payout": [
-              0.55,
-              1.0,
-              1.0,
-              1.0,
-              0.0
-            ],
-            "distributions": [
-              834776626.83,
-              1487341387.34,
-              2000174138.09,
-              2272481965.99,
-              0.0
-            ]
-          },
+          "favorable": "2013 investment684.5m splits443.3m expansion and241.2m maintenance/revitalization. Trairí/Guajiru add55.4MW commercially operating;2014 Ferrari acquisition and remaining wind projects are disclosed. Dividend proposal1,474.2m equals100% adjusted distributable income; debt declined3.5% in2013 despite investment.",
           "evidence": [
             {
-              "docid": "84308",
-              "received": "2019-05-30",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2018.csv",
-              "archive_sha256": "7a349acbce124fdb0846c371b3e68e5ff06781ead4b8713d6080eabf6737d082",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=84308",
-              "fiscal_year": 2015,
-              "raw": {
-                "CNPJ_Companhia": "02.474.103/0001-19",
-                "Data_Referencia": "2018-01-01",
-                "Versao": "14",
-                "ID_Documento": "84308",
-                "Nome_Companhia": "ENGIE BRASIL ENERGIA S.A.",
-                "Data_Inicio_Exercicio_Social": "2015-01-01",
-                "Data_Fim_Exercicio_Social": "2015-12-31",
-                "Lucro_Liquido_Ajustado": "1517775685.14",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "22.60271005",
-                "Lucro_Liquido_Retido": "392511899.20",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "55.00000000",
-                "Dividendo_Distribuido_Total": "834776626.83",
-                "Data_Aprovacao_Retencao": "2016-04-14"
-              }
+              "docid": "73382",
+              "group": 192,
+              "pages": [
+                1,
+                3,
+                6,
+                7,
+                8
+              ],
+              "received": "2018-04-19",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=73382",
+              "original": "review_originals/cvm_73382_g192.pdf.gz",
+              "original_sha256": "6b31255c9ad73f242ba5415461d6b704789d6a9f54d452b0e4f249f23a44644d"
             },
             {
-              "docid": "93305",
-              "received": "2020-05-20",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2019.csv",
-              "archive_sha256": "30f461d5d3b3cdbab84faac20c158c6a41cea1ee0223c40d988db9845e2c6a51",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=93305",
-              "fiscal_year": 2016,
-              "raw": {
-                "CNPJ_Companhia": "02.474.103/0001-19",
-                "Data_Referencia": "2019-01-01",
-                "Versao": "11",
-                "ID_Documento": "93305",
-                "Nome_Companhia": "ENGIE BRASIL ENERGIA S.A.",
-                "Data_Inicio_Exercicio_Social": "2016-01-01",
-                "Data_Fim_Exercicio_Social": "2016-12-31",
-                "Lucro_Liquido_Ajustado": "1487341387.34",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "23.40806544",
-                "Lucro_Liquido_Retido": "0.00",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "100.00000000",
-                "Dividendo_Distribuido_Total": "1487341387.34",
-                "Data_Aprovacao_Retencao": ""
-              }
+              "docid": "73382",
+              "group": 193,
+              "pages": [
+                6,
+                8,
+                15,
+                16,
+                17,
+                34
+              ],
+              "received": "2018-04-19",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=73382",
+              "original": "review_originals/cvm_73382_g193.pdf.gz",
+              "original_sha256": "2391ff95469865bfc3c0b983da46f10222847b226b816e747e400d6639715437"
             },
             {
-              "docid": "93305",
-              "received": "2020-05-20",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2019.csv",
-              "archive_sha256": "30f461d5d3b3cdbab84faac20c158c6a41cea1ee0223c40d988db9845e2c6a51",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=93305",
-              "fiscal_year": 2017,
-              "raw": {
-                "CNPJ_Companhia": "02.474.103/0001-19",
-                "Data_Referencia": "2019-01-01",
-                "Versao": "11",
-                "ID_Documento": "93305",
-                "Nome_Companhia": "ENGIE BRASIL ENERGIA S.A.",
-                "Data_Inicio_Exercicio_Social": "2017-01-01",
-                "Data_Fim_Exercicio_Social": "2017-12-31",
-                "Lucro_Liquido_Ajustado": "2000174138.09",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "29.32903324",
-                "Lucro_Liquido_Retido": "0.00",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "100.00000000",
-                "Dividendo_Distribuido_Total": "2000174138.09",
-                "Data_Aprovacao_Retencao": ""
-              }
+              "docid": "engie_doe_sc_20180612",
+              "group": 0,
+              "pages": [
+                37,
+                38,
+                39,
+                40,
+                41
+              ],
+              "received": "2018-06-12",
+              "url": "https://portal.doe.sea.sc.gov.br/repositorio/2018/20180612/Jornal/1914.pdf",
+              "original": "review_originals/engie_doe_sc_20180612.pdf.gz",
+              "original_sha256": "9ab0dc67e8024209fdbccfb8c743b98c25fb0f7bcd381589f9e3044f7952aabb"
             },
             {
-              "docid": "93305",
-              "received": "2020-05-20",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2019.csv",
-              "archive_sha256": "30f461d5d3b3cdbab84faac20c158c6a41cea1ee0223c40d988db9845e2c6a51",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=93305",
-              "fiscal_year": 2018,
-              "raw": {
-                "CNPJ_Companhia": "02.474.103/0001-19",
-                "Data_Referencia": "2019-01-01",
-                "Versao": "11",
-                "ID_Documento": "93305",
-                "Nome_Companhia": "ENGIE BRASIL ENERGIA S.A.",
-                "Data_Inicio_Exercicio_Social": "2018-01-01",
-                "Data_Fim_Exercicio_Social": "2018-12-31",
-                "Lucro_Liquido_Ajustado": "2272481965.99",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "35.97871300",
-                "Lucro_Liquido_Retido": "177673021.18",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "100.00000000",
-                "Dividendo_Distribuido_Total": "2272481965.99",
-                "Data_Aprovacao_Retencao": "2019-04-26"
-              }
+              "docid": "82911",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "received": "2019-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=82911",
+              "original": "review_originals/cvm_82911_g192.pdf.gz",
+              "original_sha256": "7a69239b85e309aa4534029c1a659eb89802d1666500bca122d6ebf6992ccb31"
             },
             {
-              "docid": "93305",
-              "received": "2020-05-20",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2019.csv",
-              "archive_sha256": "30f461d5d3b3cdbab84faac20c158c6a41cea1ee0223c40d988db9845e2c6a51",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=93305",
-              "fiscal_year": 2019,
-              "raw": {
-                "CNPJ_Companhia": "02.474.103/0001-19",
-                "Data_Referencia": "2019-01-01",
-                "Versao": "11",
-                "ID_Documento": "93305",
-                "Nome_Companhia": "ENGIE BRASIL ENERGIA S.A.",
-                "Data_Inicio_Exercicio_Social": "2019-01-01",
-                "Data_Fim_Exercicio_Social": "2019-12-31",
-                "Lucro_Liquido_Ajustado": "565184443.62",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "0.00000000",
-                "Lucro_Liquido_Retido": "0.00",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "0.00000000",
-                "Dividendo_Distribuido_Total": "0.00",
-                "Data_Aprovacao_Retencao": ""
-              }
+              "docid": "82911",
+              "group": 193,
+              "pages": [
+                18,
+                19,
+                20,
+                21,
+                36
+              ],
+              "received": "2019-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=82911",
+              "original": "review_originals/cvm_82911_g193.pdf.gz",
+              "original_sha256": "40dd6a3463a9ec06c6636c1de080a8c52c3e6a94f3ccdd60dfb41cffc9478a3a"
+            },
+            {
+              "docid": "engie_tag_20190624",
+              "group": 0,
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "received": "2019-06-24",
+              "url": "https://www.engie.com/sites/default/files/assets/documents/2020-03/engie-24-06-2019-tag-acquisition-financial-impacts-transcript.pdf",
+              "original": "review_originals/engie_tag_20190624.pdf.gz",
+              "original_sha256": "69d09345b4f01724f457a86579cc87bb5b6ddfc5171953e16749b5fbe0250efa"
+            },
+            {
+              "docid": "94237",
+              "group": 192,
+              "pages": [
+                2,
+                3,
+                4,
+                9,
+                10,
+                11
+              ],
+              "received": "2020-06-24",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=94237",
+              "original": "review_originals/cvm_94237_g192.pdf.gz",
+              "original_sha256": "23f7b3e1a1c12d7a44ea43c0eb93213bbc04d27cc36ee3070a4bfbf9bff93e82"
+            },
+            {
+              "docid": "94237",
+              "group": 193,
+              "pages": [
+                13,
+                15,
+                23,
+                24,
+                29,
+                32,
+                34
+              ],
+              "received": "2020-06-24",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=94237",
+              "original": "review_originals/cvm_94237_g193.pdf.gz",
+              "original_sha256": "f621af5aa2a02c8b8bf1ac44605cada4990e861abc1dfd7700ffd0f47f434d5b"
             }
           ]
         },
         "governance": {
-          "favorable": {
-            "dated_shareholder_right_records": 10,
-            "dated_related_party_records": 144
-          },
+          "favorable": "Two minority representatives on the nine-member board, a fiscal council with three independent members and one minority representative, a special independent committee for related-party transactions, full voting shares and100% tagalong. Related-party energy/O&M contracts state prices or cost bases; independent auditor supplied no nonaudit services in2013.",
           "evidence": [
             {
-              "docid": "91118",
-              "received": "2020-02-20",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+              "docid": "34713",
+              "group": 1653,
+              "pages": [
+                4,
+                23,
+                24,
+                33
+              ],
+              "received": "2014-02-20",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34713",
+              "original": "review_originals/cvm_34713_g1653.pdf.gz",
+              "original_sha256": "a91d104d11ce51d49872f2e6bb1d819bcb5efe0806cc60fca3504acd82ead428"
             },
             {
-              "docid": "91118",
-              "received": "2020-02-20",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+              "docid": "34713",
+              "group": 412,
+              "pages": [
+                90,
+                91,
+                92
+              ],
+              "received": "2014-02-20",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34713",
+              "original": "review_originals/cvm_34713_g412.pdf.gz",
+              "original_sha256": "d58f7cd2c9305805f9bcecc3270a5a0eff1c0e8c939149933453615cadca8eda"
             },
             {
-              "docid": "91118",
-              "received": "2020-02-20",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+              "docid": "36427",
+              "group": 193,
+              "pages": [
+                38,
+                48,
+                49,
+                50
+              ],
+              "received": "2014-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36427",
+              "original": "review_originals/cvm_36427_g193.pdf.gz",
+              "original_sha256": "23434b4cbac198aeb04ab75081fe44229a7fc31f29cdf2e9fb0831111b9cb653"
             },
             {
-              "docid": "91118",
-              "received": "2020-02-20",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+              "docid": "45623",
+              "group": 1653,
+              "pages": [
+                18,
+                26,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36
+              ],
+              "received": "2015-03-30",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=45623",
+              "original": "review_originals/cvm_45623_g1653.pdf.gz",
+              "original_sha256": "9a4a6e17f933b8991fb1b21f937b545df889f8110d0cf5bc17c177bdb7f4240b"
             },
             {
-              "docid": "91118",
-              "received": "2020-02-20",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+              "docid": "46127",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "received": "2015-04-24",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=46127",
+              "original": "review_originals/cvm_46127_g192.pdf.gz",
+              "original_sha256": "3ebbe4f261bbe6f86cc69e826069d6ccc61aa203aae751b41cc795f43427c7e1"
             },
             {
-              "docid": "91118",
-              "received": "2020-02-20",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+              "docid": "46127",
+              "group": 193,
+              "pages": [
+                16,
+                17,
+                34,
+                35
+              ],
+              "received": "2015-04-24",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=46127",
+              "original": "review_originals/cvm_46127_g193.pdf.gz",
+              "original_sha256": "bbf7f414f71a32a70adc9f7679e128dd1dbbc581c6375c916acf5eaadd39da51"
+            },
+            {
+              "docid": "53572",
+              "group": 1653,
+              "pages": [
+                32,
+                33,
+                34,
+                35,
+                36
+              ],
+              "received": "2016-02-23",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=53572",
+              "original": "review_originals/cvm_53572_g1653.pdf.gz",
+              "original_sha256": "e819782c1aea9b6a3d02ae6d90f3000c9c04b8fd0ca7e82a4e5cbb6cddb1c87f"
+            },
+            {
+              "docid": "55623",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "received": "2016-05-05",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55623",
+              "original": "review_originals/cvm_55623_g192.pdf.gz",
+              "original_sha256": "0c1abe8cf995ec819d5fee6d00da8fb41613cb0bdecab2a930d1a2762affcfee"
+            },
+            {
+              "docid": "55623",
+              "group": 193,
+              "pages": [
+                12
+              ],
+              "received": "2016-05-05",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55623",
+              "original": "review_originals/cvm_55623_g193.pdf.gz",
+              "original_sha256": "e09e090a36199d4e586df20f5a32607a1a393e0bc4da9a5f9d702082f5cea3b2"
+            },
+            {
+              "docid": "62765",
+              "group": 1653,
+              "pages": [
+                2,
+                39,
+                40
+              ],
+              "received": "2017-02-23",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=62765",
+              "original": "review_originals/cvm_62765_g1653.pdf.gz",
+              "original_sha256": "5775e6ec2b5a90f48b3e0fe137a7ab07014ac0b1157e81775c7cc85fd5760f23"
+            },
+            {
+              "docid": "64408",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                4,
+                5,
+                6,
+                7
+              ],
+              "received": "2017-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=64408",
+              "original": "review_originals/cvm_64408_g192.pdf.gz",
+              "original_sha256": "c564fd6746e4631a0650f6e27a513d9941cb05b3bce52af7fb6e3541f824eb63"
+            },
+            {
+              "docid": "64408",
+              "group": 193,
+              "pages": [
+                6,
+                13,
+                14,
+                28
+              ],
+              "received": "2017-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=64408",
+              "original": "review_originals/cvm_64408_g193.pdf.gz",
+              "original_sha256": "14c196f3f1d11d77de2ca657dbf644122e353b0f795f2e54e80a52dd7411187e"
+            },
+            {
+              "docid": "73382",
+              "group": 192,
+              "pages": [
+                1,
+                3,
+                6,
+                7,
+                8
+              ],
+              "received": "2018-04-19",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=73382",
+              "original": "review_originals/cvm_73382_g192.pdf.gz",
+              "original_sha256": "6b31255c9ad73f242ba5415461d6b704789d6a9f54d452b0e4f249f23a44644d"
+            },
+            {
+              "docid": "73382",
+              "group": 193,
+              "pages": [
+                2,
+                6,
+                8,
+                15,
+                16,
+                17,
+                34
+              ],
+              "received": "2018-04-19",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=73382",
+              "original": "review_originals/cvm_73382_g193.pdf.gz",
+              "original_sha256": "2391ff95469865bfc3c0b983da46f10222847b226b816e747e400d6639715437"
+            },
+            {
+              "docid": "engie_doe_sc_20180612",
+              "group": 0,
+              "pages": [
+                37,
+                38,
+                39,
+                40,
+                41
+              ],
+              "received": "2018-06-12",
+              "url": "https://portal.doe.sea.sc.gov.br/repositorio/2018/20180612/Jornal/1914.pdf",
+              "original": "review_originals/engie_doe_sc_20180612.pdf.gz",
+              "original_sha256": "9ab0dc67e8024209fdbccfb8c743b98c25fb0f7bcd381589f9e3044f7952aabb"
+            },
+            {
+              "docid": "82911",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "received": "2019-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=82911",
+              "original": "review_originals/cvm_82911_g192.pdf.gz",
+              "original_sha256": "7a69239b85e309aa4534029c1a659eb89802d1666500bca122d6ebf6992ccb31"
+            },
+            {
+              "docid": "82911",
+              "group": 193,
+              "pages": [
+                18,
+                19,
+                20,
+                21,
+                36
+              ],
+              "received": "2019-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=82911",
+              "original": "review_originals/cvm_82911_g193.pdf.gz",
+              "original_sha256": "40dd6a3463a9ec06c6636c1de080a8c52c3e6a94f3ccdd60dfb41cffc9478a3a"
+            },
+            {
+              "docid": "engie_tag_20190624",
+              "group": 0,
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "received": "2019-06-24",
+              "url": "https://www.engie.com/sites/default/files/assets/documents/2020-03/engie-24-06-2019-tag-acquisition-financial-impacts-transcript.pdf",
+              "original": "review_originals/engie_tag_20190624.pdf.gz",
+              "original_sha256": "69d09345b4f01724f457a86579cc87bb5b6ddfc5171953e16749b5fbe0250efa"
+            },
+            {
+              "docid": "94237",
+              "group": 192,
+              "pages": [
+                2,
+                3,
+                4,
+                9,
+                10,
+                11
+              ],
+              "received": "2020-06-24",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=94237",
+              "original": "review_originals/cvm_94237_g192.pdf.gz",
+              "original_sha256": "23f7b3e1a1c12d7a44ea43c0eb93213bbc04d27cc36ee3070a4bfbf9bff93e82"
+            },
+            {
+              "docid": "94237",
+              "group": 193,
+              "pages": [
+                13,
+                15,
+                23,
+                24,
+                29,
+                32,
+                34
+              ],
+              "received": "2020-06-24",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=94237",
+              "original": "review_originals/cvm_94237_g193.pdf.gz",
+              "original_sha256": "f621af5aa2a02c8b8bf1ac44605cada4990e861abc1dfd7700ffd0f47f434d5b"
             }
           ]
         }

@@ -2,6 +2,32 @@
 from b00s_variants import *
 from b00s_report import table
 
+def retained_review_sections(year, facts, ledger):
+    """Document retained non-PASS issuers without inventing a buy decision."""
+    from b00s_documentary import load_reviews
+    from b00s_fundamentals import quality_gate
+    candidates={r['cnpj'] for r in facts}
+    summary='';dossiers=''
+    for (formation,cnpj),review in sorted(load_reviews().items()):
+        if formation!=year or cnpj in candidates:continue
+        positions=[r for r in ledger if r['year']==str(year) and r['variant'] in ['VVAL','VQ']
+                   and r['ticker']==review['ticker'] and float(r['before'])>0]
+        if not positions:continue
+        category=quality_gate(review['dimensions'])
+        summary+=f"\n### Posição anterior fora do universo de novas compras: {review['ticker']}\n\n"
+        summary+=table(positions,['variant','ticker','base_status','before','after'])+'\n'
+        summary+=f"\nQualidade atual: **{category}**. {review['incremental_review']['reason']} "
+        summary+='A ficha atualiza o acompanhamento da posição; não altera o status B00S-base nem autoriza uma venda extraordinária. A decisão de entrada de anos anteriores permanece congelada.\n'
+        dossiers+=f"\n## {review['ticker']} — acompanhamento de posição anterior, sem nova candidatura PASS\n\n"
+        dossiers+=f"VQ atual: **{category}**. {review['incremental_review']['reason']}\n\n"
+        dossiers+=f"Valuation: {review['valuation']['reason']}\n\n"
+        for name,dimension in review['dimensions'].items():
+            dossiers+=f"**{name} — {dimension['status']}.** {dimension['reason']}\n\n"
+            dossiers+=f"Contraponto: {dimension['contrary_evidence']}\n\n"
+            dossiers+='Fontes: '+references(dimension)+'.\n\n'
+        dossiers+='Fontes da atualização: '+references(review['incremental_review'])+'.\n'
+    return summary,dossiers
+
 def references(section):
     return '; '.join(f"[{e['docid']}/g{e['group']}, {'unidades' if e.get('original','').endswith('.xml.gz') else 'páginas'} {','.join(map(str,e['pages']))}]({e['url']}) (disponível {e['received']})" for e in section['evidence'])
 
@@ -83,6 +109,8 @@ As seleções, retornos, fontes e documentos aceitos de junho/2014–junho/2015 
         if premium:text+='\n'+table(premium,list(premium[0]))+'\n'
         text+=f'\n\n[Análises incrementais das seis dimensões, fontes e contrapontos](dossies_b00s_{year}.md). Intervalos certificam somente o limite de admissão; capital, lucro ou P/L pontual não certificados ficam ND. Os critérios de crescimento real, retenção, ROIC/ROE e solidez são cumulativos: uma reprovação comprovada impede o prêmio, mesmo que outra condição ainda esteja pendente.\n'
         text+='\n## Verificação e reprodução\n\n`python scripts/b00s_fundamentals.py`; `python scripts/b00s_sensitivities.py`; `python scripts/b00s_variants.py --stage all`; `python scripts/b00s_report.py`.\n\nTestes verificam preservação histórica, ausência de fontes futuras, intervalos econômicos, financiamento B2, unidades, pesos, giro, atribuição anual e composta, planilha e hashes. O replay offline precisa produzir ausência de diff. Sensibilidades predefinidas continuam separadas das decisões principais nos CSVs e na planilha.\n'
+        retained_summary,retained_dossiers=retained_review_sections(year,facts,ledger)
+        text+=retained_summary
         (ROOT/f'docs/checkpoint_b00s_{year}_{year+1}.md').write_text('\n'.join(line.rstrip() for line in text.splitlines())+'\n')
         dossier=f'# Revisão fundamentalista e de valuation — junho/{year}\n\nReutiliza o [dossiê aceito de 2014](dossies_b00s_v2.md). Atualizações abaixo distinguem fatos novos, julgamentos e pendências. Seis dimensões não compensatórias; sem score e sem aprovação por ausência de informação. A decisão de entrada é separada da manutenção B2.\n'
         for f in facts:
@@ -96,6 +124,7 @@ As seleções, retornos, fontes e documentos aceitos de junho/2014–junho/2015 
                 dossier+='\nProva econômica:\n\n```json\n'+json.dumps(r['economic_metrics'],ensure_ascii=False,indent=2)+'\n```\n'
             if year>=2019 and r.get('numerical_proof'):
                 dossier+='\nMemória dos limites documentados:\n\n```json\n'+json.dumps(r['numerical_proof'],ensure_ascii=False,indent=2)+'\n```\n'
+        dossier+=retained_dossiers
         if year>=2019:
             dossier+='\nReferências a originais XML usam unidades lógicas do formulário CVM, identificadas no manifesto, e não páginas de PDF. Os documentos originais e seus hashes ficam preservados.\n'
         (ROOT/f'docs/dossies_b00s_{year}.md').write_text('\n'.join(line.rstrip() for line in dossier.splitlines())+'\n')

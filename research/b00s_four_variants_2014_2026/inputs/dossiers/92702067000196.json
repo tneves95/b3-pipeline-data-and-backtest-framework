@@ -3651,447 +3651,519 @@
       "ticker": "BRSR6",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": null,
-      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
-      "classification_changed": null,
-      "dimensions": {},
-      "dimension_evidence_updates": {
+      "assessment_ref": "92702067000196:2020",
+      "assessment_status": "ASSESSED",
+      "classification_changed": false,
+      "dimensions": {
         "durability": {
-          "favorable": "Banco Múltiplo atuante nas carteiras comercial, crédito, financiamento e investimento, crédito imobiliário, desenvolvimento e arrendamento mercantil e de investimentos.",
+          "status": "SATISFACTORY",
+          "reason": "A franquia regional de varejo, consignado e serviços segue operacional. Em março de 2020 a carteira ampliada era R$36,464 bilhões, incluindo R$16,083 bilhões de consignado. BIPAR e Rio Grande Capitalização, operacional desde setembro de 2019, diversificam receitas sem eliminar a concentração regional.",
+          "favorable": "A franquia regional de varejo, consignado e serviços segue operacional. Em março de 2020 a carteira ampliada era R$36,464 bilhões, incluindo R$16,083 bilhões de consignado. BIPAR e Rio Grande Capitalização, operacional desde setembro de 2019, diversificam receitas sem eliminar a concentração regional.",
+          "contrary_evidence": "Exposição regional e a servidores públicos; COVID afeta demanda e capacidade de pagamento. Crescimento do saldo não prova criação de valor.",
+          "missing": "",
           "evidence": [
             {
-              "cnpj": "92702067000196",
-              "received": "2019-07-19",
-              "name": "BCO ESTADO DO RIO GRANDE DO SUL S.A.",
-              "sector": "Bancos",
-              "activity": "Banco Múltiplo atuante nas carteiras comercial, crédito, financiamento e investimento, crédito imobiliário, desenvolvimento e arrendamento mercantil e de investimentos.",
-              "cvm": "001210",
-              "docid": "85476",
-              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=85476"
+              "docid": "92948",
+              "group": 192,
+              "pages": [
+                3,
+                4,
+                5,
+                10,
+                11,
+                12
+              ],
+              "received": "2020-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92948",
+              "original": "review_originals/cvm_92948_g192.pdf.gz",
+              "original_sha256": "e572c15e0880f392a384b16293204ba60ac48eb0f051658f850367634105e70a"
+            },
+            {
+              "docid": "92948",
+              "group": 193,
+              "pages": [
+                27,
+                28,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64
+              ],
+              "received": "2020-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92948",
+              "original": "review_originals/cvm_92948_g193.pdf.gz",
+              "original_sha256": "d57c9addff61a0f88a27988f62b22063af3f41d3a48a339173dafce5b883b2ef"
+            }
+          ],
+          "prior_year": 2019,
+          "review_2019": "A franquia regional e os contratos de folha permanecem documentados; BIPAR inicia estrutura comercial com operação prevista para o segundo semestre, não uma receita futura já conquistada.",
+          "review_2020": "A franquia regional de varejo, consignado e serviços segue operacional. Em março de 2020 a carteira ampliada era R$36,464 bilhões, incluindo R$16,083 bilhões de consignado. BIPAR e Rio Grande Capitalização, operacional desde setembro de 2019, diversificam receitas sem eliminar a concentração regional."
+        },
+        "capital_economics": {
+          "status": "INDETERMINATE",
+          "reason": "Lucro de R$257,5 milhões no trimestre e rentabilidade anualizada ajustada de 13,6% mostram operação rentável, mas a queda anual de 19,5% inclui menor margem financeira e maior provisão. Não há prova nova suficiente para resolver a economia do capital comprometido com a folha estadual e negócios novos; conserva-se a avaliação específica anterior.",
+          "favorable": "Lucro de R$257,5 milhões no trimestre e rentabilidade anualizada ajustada de 13,6% mostram operação rentável, mas a queda anual de 19,5% inclui menor margem financeira e maior provisão. Não há prova nova suficiente para resolver a economia do capital comprometido com a folha estadual e negócios novos; conserva-se a avaliação específica anterior.",
+          "contrary_evidence": "Falta demonstração específica de retorno do capital incremental da folha e novos negócios, após os respectivos custos e riscos.",
+          "missing": "Falta demonstração específica de retorno do capital incremental da folha e novos negócios, após os respectivos custos e riscos.",
+          "evidence": [
+            {
+              "docid": "92948",
+              "group": 192,
+              "pages": [
+                3,
+                4,
+                5,
+                10,
+                11,
+                12
+              ],
+              "received": "2020-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92948",
+              "original": "review_originals/cvm_92948_g192.pdf.gz",
+              "original_sha256": "e572c15e0880f392a384b16293204ba60ac48eb0f051658f850367634105e70a"
+            },
+            {
+              "docid": "92948",
+              "group": 193,
+              "pages": [
+                27,
+                28,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64
+              ],
+              "received": "2020-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92948",
+              "original": "review_originals/cvm_92948_g193.pdf.gz",
+              "original_sha256": "d57c9addff61a0f88a27988f62b22063af3f41d3a48a339173dafce5b883b2ef"
+            }
+          ],
+          "prior_year": 2019,
+          "review_2019": "Lucro contábil de R$319,957 milhões no1T19 versus R$243,964 milhões no1T18 mostra melhora. Não resolve, por si, retorno líquido por cliente e capital da aquisição de direitos de folha. Mantém a pendência específica de economia do capital sem adotar ROE mínimo universal.",
+          "review_2020": "Lucro de R$257,5 milhões no trimestre e rentabilidade anualizada ajustada de 13,6% mostram operação rentável, mas a queda anual de 19,5% inclui menor margem financeira e maior provisão. Não há prova nova suficiente para resolver a economia do capital comprometido com a folha estadual e negócios novos; conserva-se a avaliação específica anterior."
+        },
+        "earnings_reliability": {
+          "status": "SATISFACTORY",
+          "reason": "A ponte trimestral identifica redução de R$84,1 milhões na margem, aumento de R$11,2 milhões na despesa de provisões e redução de R$38,1 milhões no imposto, inclusive efeitos de CSLL. Crédito tributário de R$2,779 bilhões é divulgado separadamente e depende de realização futura. A reconciliação permite interpretar os lucros sem confundir impostos diferidos com caixa.",
+          "favorable": "A ponte trimestral identifica redução de R$84,1 milhões na margem, aumento de R$11,2 milhões na despesa de provisões e redução de R$38,1 milhões no imposto, inclusive efeitos de CSLL. Crédito tributário de R$2,779 bilhões é divulgado separadamente e depende de realização futura. A reconciliação permite interpretar os lucros sem confundir impostos diferidos com caixa.",
+          "contrary_evidence": "Diferidos dependem de lucro futuro; a preservação/reclassificação regulatória do rating de créditos renegociados durante COVID não demonstra melhora econômica da carteira.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "92948",
+              "group": 192,
+              "pages": [
+                3,
+                4,
+                5,
+                10,
+                11,
+                12
+              ],
+              "received": "2020-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92948",
+              "original": "review_originals/cvm_92948_g192.pdf.gz",
+              "original_sha256": "e572c15e0880f392a384b16293204ba60ac48eb0f051658f850367634105e70a"
+            },
+            {
+              "docid": "92948",
+              "group": 193,
+              "pages": [
+                27,
+                28,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64
+              ],
+              "received": "2020-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92948",
+              "original": "review_originals/cvm_92948_g193.pdf.gz",
+              "original_sha256": "d57c9addff61a0f88a27988f62b22063af3f41d3a48a339173dafce5b883b2ef"
+            }
+          ],
+          "prior_year": 2019,
+          "review_2019": "As demonstrações separam BRGAAP e IFRS:2018 apresenta lucro IFRS de R$908,6 milhões e BRGAAP de R$1.048,6 milhões; resultados de Plano Verão/Icatu do comparativo2017 não são crescimento ordinário repetível. Créditos tributários e a queda da alíquota CSLL são explicitados, sem anualizar benefício extraordinário.",
+          "review_2020": "A ponte trimestral identifica redução de R$84,1 milhões na margem, aumento de R$11,2 milhões na despesa de provisões e redução de R$38,1 milhões no imposto, inclusive efeitos de CSLL. Crédito tributário de R$2,779 bilhões é divulgado separadamente e depende de realização futura. A reconciliação permite interpretar os lucros sem confundir impostos diferidos com caixa."
+        },
+        "financial_resilience": {
+          "status": "SATISFACTORY",
+          "reason": "Em março de 2020 o capital principal e Nível I eram 14,32% e Basileia 15,14%, ante 13,82% e 15,07% em dezembro; PR de R$6,547 bilhões e margem de R$1,731 bilhão já considerando ACP e IRRBB. A folga prudencial demonstrada e a franquia de depósitos sustentam continuidade satisfatória mesmo com o choque de crédito.",
+          "favorable": "Em março de 2020 o capital principal e Nível I eram 14,32% e Basileia 15,14%, ante 13,82% e 15,07% em dezembro; PR de R$6,547 bilhões e margem de R$1,731 bilhão já considerando ACP e IRRBB. A folga prudencial demonstrada e a franquia de depósitos sustentam continuidade satisfatória mesmo com o choque de crédito.",
+          "contrary_evidence": "Renegociações e créditos fiscais ampliam incerteza de perdas. O alívio de ACP da Resolução4.783 só vale a partir de abril e não é usado retroativamente para inflar a folga de março.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "92948",
+              "group": 192,
+              "pages": [
+                3,
+                4,
+                5,
+                10,
+                11,
+                12
+              ],
+              "received": "2020-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92948",
+              "original": "review_originals/cvm_92948_g192.pdf.gz",
+              "original_sha256": "e572c15e0880f392a384b16293204ba60ac48eb0f051658f850367634105e70a"
+            },
+            {
+              "docid": "92948",
+              "group": 193,
+              "pages": [
+                27,
+                28,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64
+              ],
+              "received": "2020-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92948",
+              "original": "review_originals/cvm_92948_g193.pdf.gz",
+              "original_sha256": "d57c9addff61a0f88a27988f62b22063af3f41d3a48a339173dafce5b883b2ef"
+            }
+          ],
+          "prior_year": 2019,
+          "review_2019": "PR de R$6.322,027 milhões, CET1 de R$5.789,054 milhões, Basileia15,58% e CET1 14,26% excedem os requerimentos divulgados de10,50% e7,00%, incluindo ACP. Créditos tributários e concentração regional continuam riscos, sem evidência de insuficiência de capital no corte.",
+          "review_2020": "Em março de 2020 o capital principal e Nível I eram 14,32% e Basileia 15,14%, ante 13,82% e 15,07% em dezembro; PR de R$6,547 bilhões e margem de R$1,731 bilhão já considerando ACP e IRRBB. A folga prudencial demonstrada e a franquia de depósitos sustentam continuidade satisfatória mesmo com o choque de crédito."
+        },
+        "capital_allocation": {
+          "status": "INDETERMINATE",
+          "reason": "BIPAR apresenta lucro de R$18,5 milhões e a capitalização começou efetivamente em setembro de 2019. Esses fatos são favoráveis, mas não concluem o retorno econômico do investimento na folha estadual e da ampliação de seguros; mantém-se a pendência específica, sem tratar cada investimento recente como aprovado.",
+          "favorable": "BIPAR apresenta lucro de R$18,5 milhões e a capitalização começou efetivamente em setembro de 2019. Esses fatos são favoráveis, mas não concluem o retorno econômico do investimento na folha estadual e da ampliação de seguros; mantém-se a pendência específica, sem tratar cada investimento recente como aprovado.",
+          "contrary_evidence": "Falta mensuração econômica suficiente dos compromissos com folha e expansão de seguros; lucro parcial de BIPAR não resolve sozinho o investimento agregado.",
+          "missing": "Falta mensuração econômica suficiente dos compromissos com folha e expansão de seguros; lucro parcial de BIPAR não resolve sozinho o investimento agregado.",
+          "evidence": [
+            {
+              "docid": "92948",
+              "group": 192,
+              "pages": [
+                3,
+                4,
+                5,
+                10,
+                11,
+                12
+              ],
+              "received": "2020-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92948",
+              "original": "review_originals/cvm_92948_g192.pdf.gz",
+              "original_sha256": "e572c15e0880f392a384b16293204ba60ac48eb0f051658f850367634105e70a"
+            },
+            {
+              "docid": "92948",
+              "group": 193,
+              "pages": [
+                27,
+                28,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64
+              ],
+              "received": "2020-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92948",
+              "original": "review_originals/cvm_92948_g193.pdf.gz",
+              "original_sha256": "d57c9addff61a0f88a27988f62b22063af3f41d3a48a339173dafce5b883b2ef"
+            }
+          ],
+          "prior_year": 2019,
+          "review_2019": "O contrato de folha estadual de R$1.250,638 milhões por dez anos permanece em vigor, sujeito à portabilidade. A melhora agregada não demonstra o retorno específico nem a equidade do preço da transação com o controlador; mantém ND de alocação por essa razão documentada.",
+          "review_2020": "BIPAR apresenta lucro de R$18,5 milhões e a capitalização começou efetivamente em setembro de 2019. Esses fatos são favoráveis, mas não concluem o retorno econômico do investimento na folha estadual e da ampliação de seguros; mantém-se a pendência específica, sem tratar cada investimento recente como aprovado."
+        },
+        "governance": {
+          "status": "INDETERMINATE",
+          "reason": "Controles e demonstrações atuais continuam divulgados, mas o Estado detém 98,13% dos votos e 49,39% do capital total. A divulgação parcial de transações com entes públicos, permitida pela norma, não fornece resolução nova do conflito material vinculado à folha estadual. Mantém-se o juízo indeterminado anterior.",
+          "favorable": "Controles e demonstrações atuais continuam divulgados, mas o Estado detém 98,13% dos votos e 49,39% do capital total. A divulgação parcial de transações com entes públicos, permitida pela norma, não fornece resolução nova do conflito material vinculado à folha estadual. Mantém-se o juízo indeterminado anterior.",
+          "contrary_evidence": "Permanece a lacuna de demonstração do tratamento dos conflitos relevantes do controlador estadual nas operações da folha.",
+          "missing": "Permanece a lacuna de demonstração do tratamento dos conflitos relevantes do controlador estadual nas operações da folha.",
+          "evidence": [
+            {
+              "docid": "92948",
+              "group": 192,
+              "pages": [
+                3,
+                4,
+                5,
+                10,
+                11,
+                12
+              ],
+              "received": "2020-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92948",
+              "original": "review_originals/cvm_92948_g192.pdf.gz",
+              "original_sha256": "e572c15e0880f392a384b16293204ba60ac48eb0f051658f850367634105e70a"
+            },
+            {
+              "docid": "92948",
+              "group": 193,
+              "pages": [
+                27,
+                28,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64
+              ],
+              "received": "2020-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92948",
+              "original": "review_originals/cvm_92948_g193.pdf.gz",
+              "original_sha256": "d57c9addff61a0f88a27988f62b22063af3f41d3a48a339173dafce5b883b2ef"
+            }
+          ],
+          "prior_year": 2019,
+          "review_2019": "Mantém ND relativo ao conflito com o controlador estadual na transação de folha e restituição de capital anterior. Relatórios atuais e regularidade prudencial são favoráveis; não substituem a prova específica da equidade econômica da transação.",
+          "review_2020": "Controles e demonstrações atuais continuam divulgados, mas o Estado detém 98,13% dos votos e 49,39% do capital total. A divulgação parcial de transações com entes públicos, permitida pela norma, não fornece resolução nova do conflito material vinculado à folha estadual. Mantém-se o juízo indeterminado anterior."
+        }
+      },
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "A franquia regional de varejo, consignado e serviços segue operacional. Em março de 2020 a carteira ampliada era R$36,464 bilhões, incluindo R$16,083 bilhões de consignado. BIPAR e Rio Grande Capitalização, operacional desde setembro de 2019, diversificam receitas sem eliminar a concentração regional.",
+          "evidence": [
+            {
+              "docid": "92948",
+              "group": 192,
+              "pages": [
+                3,
+                4,
+                5,
+                10,
+                11,
+                12
+              ],
+              "received": "2020-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92948",
+              "original": "review_originals/cvm_92948_g192.pdf.gz",
+              "original_sha256": "e572c15e0880f392a384b16293204ba60ac48eb0f051658f850367634105e70a"
+            },
+            {
+              "docid": "92948",
+              "group": 193,
+              "pages": [
+                27,
+                28,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64
+              ],
+              "received": "2020-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92948",
+              "original": "review_originals/cvm_92948_g193.pdf.gz",
+              "original_sha256": "d57c9addff61a0f88a27988f62b22063af3f41d3a48a339173dafce5b883b2ef"
             }
           ]
         },
         "capital_economics": {
-          "favorable": {
-            "roe_parent_5": [
-              0.1481624884613966,
-              0.11517488178074964,
-              0.16254021593388257,
-              0.12691024280727653,
-              0.1684992498392892
-            ],
-            "normalized_profit": 1039993419.8154432
-          },
+          "favorable": "Lucro de R$257,5 milhões no trimestre e rentabilidade anualizada ajustada de 13,6% mostram operação rentável, mas a queda anual de 19,5% inclui menor margem financeira e maior provisão. Não há prova nova suficiente para resolver a economia do capital comprometido com a folha estadual e negócios novos; conserva-se a avaliação específica anterior.",
           "evidence": [
             {
-              "fiscal_year": 2015,
-              "metric": "attributable_ni",
-              "value": 879741000.0,
-              "docid": "63092",
-              "received": "2017-03-13",
-              "reference": "2016-12-31",
-              "period_end": "2015-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2016.csv",
-              "archive_sha256": "772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip"
+              "docid": "92948",
+              "group": 192,
+              "pages": [
+                3,
+                4,
+                5,
+                10,
+                11,
+                12
+              ],
+              "received": "2020-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92948",
+              "original": "review_originals/cvm_92948_g192.pdf.gz",
+              "original_sha256": "e572c15e0880f392a384b16293204ba60ac48eb0f051658f850367634105e70a"
             },
             {
-              "fiscal_year": 2016,
-              "metric": "attributable_ni",
-              "value": 728287000.0,
-              "docid": "72731",
-              "received": "2018-03-27",
-              "reference": "2017-12-31",
-              "period_end": "2016-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
-            },
-            {
-              "fiscal_year": 2017,
-              "metric": "attributable_ni",
-              "value": 1094893000.0,
-              "docid": "81291",
-              "received": "2019-03-19",
-              "reference": "2018-12-31",
-              "period_end": "2017-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
-            },
-            {
-              "fiscal_year": 2018,
-              "metric": "attributable_ni",
-              "value": 907841000.0,
-              "docid": "91605",
-              "received": "2020-03-17",
-              "reference": "2019-12-31",
-              "period_end": "2018-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
-            },
-            {
-              "fiscal_year": 2019,
-              "metric": "attributable_ni",
-              "value": 1269426000.0,
-              "docid": "91605",
-              "received": "2020-03-17",
-              "reference": "2019-12-31",
-              "period_end": "2019-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+              "docid": "92948",
+              "group": 193,
+              "pages": [
+                27,
+                28,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64
+              ],
+              "received": "2020-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92948",
+              "original": "review_originals/cvm_92948_g193.pdf.gz",
+              "original_sha256": "d57c9addff61a0f88a27988f62b22063af3f41d3a48a339173dafce5b883b2ef"
             }
           ]
         },
         "earnings_reliability": {
-          "favorable": {
-            "positive_attributable_years": 5,
-            "audit_records": 7
-          },
+          "favorable": "A ponte trimestral identifica redução de R$84,1 milhões na margem, aumento de R$11,2 milhões na despesa de provisões e redução de R$38,1 milhões no imposto, inclusive efeitos de CSLL. Crédito tributário de R$2,779 bilhões é divulgado separadamente e depende de realização futura. A reconciliação permite interpretar os lucros sem confundir impostos diferidos com caixa.",
           "evidence": [
             {
-              "docid": "91605",
-              "received": "2020-03-17",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+              "docid": "92948",
+              "group": 192,
+              "pages": [
+                3,
+                4,
+                5,
+                10,
+                11,
+                12
+              ],
+              "received": "2020-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92948",
+              "original": "review_originals/cvm_92948_g192.pdf.gz",
+              "original_sha256": "e572c15e0880f392a384b16293204ba60ac48eb0f051658f850367634105e70a"
             },
             {
-              "docid": "91605",
-              "received": "2020-03-17",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
-            },
-            {
-              "docid": "91605",
-              "received": "2020-03-17",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
-            },
-            {
-              "docid": "91605",
-              "received": "2020-03-17",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
-            },
-            {
-              "docid": "91605",
-              "received": "2020-03-17",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
-            },
-            {
-              "docid": "91605",
-              "received": "2020-03-17",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
-            },
-            {
-              "docid": "91605",
-              "received": "2020-03-17",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+              "docid": "92948",
+              "group": 193,
+              "pages": [
+                27,
+                28,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64
+              ],
+              "received": "2020-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92948",
+              "original": "review_originals/cvm_92948_g193.pdf.gz",
+              "original_sha256": "d57c9addff61a0f88a27988f62b22063af3f41d3a48a339173dafce5b883b2ef"
             }
           ]
         },
         "financial_resilience": {
-          "favorable": {
-            "parent_equity_latest": 7792367000.0
-          },
+          "favorable": "Em março de 2020 o capital principal e Nível I eram 14,32% e Basileia 15,14%, ante 13,82% e 15,07% em dezembro; PR de R$6,547 bilhões e margem de R$1,731 bilhão já considerando ACP e IRRBB. A folga prudencial demonstrada e a franquia de depósitos sustentam continuidade satisfatória mesmo com o choque de crédito.",
           "evidence": [
             {
-              "docid": "91605",
-              "received": "2020-03-17",
-              "reference": "2019-12-31",
-              "period_end": "2019-12-31",
-              "perimeter": "ind",
-              "account": "2.05",
-              "description": "Patrimônio Líquido",
-              "source": "dfp_cia_aberta_BPP_ind_2019.csv",
-              "archive_sha256": "",
-              "url": ""
+              "docid": "92948",
+              "group": 192,
+              "pages": [
+                3,
+                4,
+                5,
+                10,
+                11,
+                12
+              ],
+              "received": "2020-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92948",
+              "original": "review_originals/cvm_92948_g192.pdf.gz",
+              "original_sha256": "e572c15e0880f392a384b16293204ba60ac48eb0f051658f850367634105e70a"
+            },
+            {
+              "docid": "92948",
+              "group": 193,
+              "pages": [
+                27,
+                28,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64
+              ],
+              "received": "2020-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92948",
+              "original": "review_originals/cvm_92948_g193.pdf.gz",
+              "original_sha256": "d57c9addff61a0f88a27988f62b22063af3f41d3a48a339173dafce5b883b2ef"
             }
           ]
         },
         "capital_allocation": {
-          "favorable": {
-            "historical_payout": [
-              0.4156,
-              0.4,
-              0.4,
-              0.4,
-              null
-            ],
-            "distributions": [
-              335129000.0,
-              250681000.0,
-              400153704.67,
-              398479924.91,
-              null
-            ]
-          },
+          "favorable": "BIPAR apresenta lucro de R$18,5 milhões e a capitalização começou efetivamente em setembro de 2019. Esses fatos são favoráveis, mas não concluem o retorno econômico do investimento na folha estadual e da ampliação de seguros; mantém-se a pendência específica, sem tratar cada investimento recente como aprovado.",
           "evidence": [
             {
-              "docid": "82756",
-              "received": "2019-05-07",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2018.csv",
-              "archive_sha256": "7a349acbce124fdb0846c371b3e68e5ff06781ead4b8713d6080eabf6737d082",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=82756",
-              "fiscal_year": 2015,
-              "raw": {
-                "CNPJ_Companhia": "92.702.067/0001-96",
-                "Data_Referencia": "2018-01-01",
-                "Versao": "29",
-                "ID_Documento": "82756",
-                "Nome_Companhia": "BCO ESTADO DO RIO GRANDE DO SUL S.A.",
-                "Data_Inicio_Exercicio_Social": "2015-01-01",
-                "Data_Fim_Exercicio_Social": "2015-12-31",
-                "Lucro_Liquido_Ajustado": "806332000.00",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "12.80000000",
-                "Lucro_Liquido_Retido": "492327000.00",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "41.56000000",
-                "Dividendo_Distribuido_Total": "335129000.00",
-                "Data_Aprovacao_Retencao": ""
-              }
+              "docid": "92948",
+              "group": 192,
+              "pages": [
+                3,
+                4,
+                5,
+                10,
+                11,
+                12
+              ],
+              "received": "2020-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92948",
+              "original": "review_originals/cvm_92948_g192.pdf.gz",
+              "original_sha256": "e572c15e0880f392a384b16293204ba60ac48eb0f051658f850367634105e70a"
             },
             {
-              "docid": "93925",
-              "received": "2020-06-09",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2019.csv",
-              "archive_sha256": "30f461d5d3b3cdbab84faac20c158c6a41cea1ee0223c40d988db9845e2c6a51",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=93925",
-              "fiscal_year": 2016,
-              "raw": {
-                "CNPJ_Companhia": "92.702.067/0001-96",
-                "Data_Referencia": "2019-01-01",
-                "Versao": "27",
-                "ID_Documento": "93925",
-                "Nome_Companhia": "BCO ESTADO DO RIO GRANDE DO SUL S.A.",
-                "Data_Inicio_Exercicio_Social": "2016-01-01",
-                "Data_Fim_Exercicio_Social": "2016-12-31",
-                "Lucro_Liquido_Ajustado": "626704545.54",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "10.30000000",
-                "Lucro_Liquido_Retido": "394923232.60",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "40.00000000",
-                "Dividendo_Distribuido_Total": "250681000.00",
-                "Data_Aprovacao_Retencao": "2017-04-28"
-              }
-            },
-            {
-              "docid": "93925",
-              "received": "2020-06-09",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2019.csv",
-              "archive_sha256": "30f461d5d3b3cdbab84faac20c158c6a41cea1ee0223c40d988db9845e2c6a51",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=93925",
-              "fiscal_year": 2017,
-              "raw": {
-                "CNPJ_Companhia": "92.702.067/0001-96",
-                "Data_Referencia": "2019-01-01",
-                "Versao": "27",
-                "ID_Documento": "93925",
-                "Nome_Companhia": "BCO ESTADO DO RIO GRANDE DO SUL S.A.",
-                "Data_Inicio_Exercicio_Social": "2017-01-01",
-                "Data_Fim_Exercicio_Social": "2017-12-31",
-                "Lucro_Liquido_Ajustado": "1000384261.72",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "13.50000000",
-                "Lucro_Liquido_Retido": "632795375.15",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "40.00000000",
-                "Dividendo_Distribuido_Total": "400153704.67",
-                "Data_Aprovacao_Retencao": "2018-04-27"
-              }
-            },
-            {
-              "docid": "93925",
-              "received": "2020-06-09",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2019.csv",
-              "archive_sha256": "30f461d5d3b3cdbab84faac20c158c6a41cea1ee0223c40d988db9845e2c6a51",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=93925",
-              "fiscal_year": 2018,
-              "raw": {
-                "CNPJ_Companhia": "92.702.067/0001-96",
-                "Data_Referencia": "2019-01-01",
-                "Versao": "27",
-                "ID_Documento": "93925",
-                "Nome_Companhia": "BCO ESTADO DO RIO GRANDE DO SUL S.A.",
-                "Data_Inicio_Exercicio_Social": "2018-01-01",
-                "Data_Fim_Exercicio_Social": "2018-12-31",
-                "Lucro_Liquido_Ajustado": "996197312.28",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "15.30000000",
-                "Lucro_Liquido_Retido": "628708893.89",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "40.00000000",
-                "Dividendo_Distribuido_Total": "398479924.91",
-                "Data_Aprovacao_Retencao": "2019-04-25"
-              }
+              "docid": "92948",
+              "group": 193,
+              "pages": [
+                27,
+                28,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64
+              ],
+              "received": "2020-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92948",
+              "original": "review_originals/cvm_92948_g193.pdf.gz",
+              "original_sha256": "d57c9addff61a0f88a27988f62b22063af3f41d3a48a339173dafce5b883b2ef"
             }
           ]
         },
         "governance": {
-          "favorable": {
-            "dated_shareholder_right_records": 39,
-            "dated_related_party_records": 520
-          },
+          "favorable": "Controles e demonstrações atuais continuam divulgados, mas o Estado detém 98,13% dos votos e 49,39% do capital total. A divulgação parcial de transações com entes públicos, permitida pela norma, não fornece resolução nova do conflito material vinculado à folha estadual. Mantém-se o juízo indeterminado anterior.",
           "evidence": [
             {
-              "docid": "91605",
-              "received": "2020-03-17",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+              "docid": "92948",
+              "group": 192,
+              "pages": [
+                3,
+                4,
+                5,
+                10,
+                11,
+                12
+              ],
+              "received": "2020-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92948",
+              "original": "review_originals/cvm_92948_g192.pdf.gz",
+              "original_sha256": "e572c15e0880f392a384b16293204ba60ac48eb0f051658f850367634105e70a"
             },
             {
-              "docid": "91605",
-              "received": "2020-03-17",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
-            },
-            {
-              "docid": "91605",
-              "received": "2020-03-17",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
-            },
-            {
-              "docid": "91605",
-              "received": "2020-03-17",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
-            },
-            {
-              "docid": "91605",
-              "received": "2020-03-17",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
-            },
-            {
-              "docid": "91605",
-              "received": "2020-03-17",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
-            },
-            {
-              "docid": "91605",
-              "received": "2020-03-17",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+              "docid": "92948",
+              "group": 193,
+              "pages": [
+                27,
+                28,
+                59,
+                60,
+                61,
+                62,
+                63,
+                64
+              ],
+              "received": "2020-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92948",
+              "original": "review_originals/cvm_92948_g193.pdf.gz",
+              "original_sha256": "d57c9addff61a0f88a27988f62b22063af3f41d3a48a339173dafce5b883b2ef"
             }
           ]
         }

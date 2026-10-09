@@ -159,423 +159,743 @@
       "ticker": "COCE5",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": null,
-      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
-      "classification_changed": null,
-      "dimensions": {},
-      "dimension_evidence_updates": {
+      "assessment_ref": "07047251000170:2020",
+      "assessment_status": "ASSESSED",
+      "classification_changed": false,
+      "dimensions": {
         "durability": {
-          "favorable": "Distribuição de energia elétrica.",
+          "status": "SATISFACTORY",
+          "favorable": "Distribuição regulada no Ceará com investimento líquido258 mi em2013.",
+          "contrary_evidence": "Concentração geográfica e revisão tarifária adversa.",
+          "reason": "Rede regulada constitui franquia durável; benefício não assegura margem invariável. Revisão de 2020: Retorno ao universo após2014: rede atende184municípios e3,89milhões de consumidores faturados; atualização cadastral em2019 explica a queda da base total, não perda equivalente da franquia. Quinta revisão tarifária2019 e reajuste2020 de3,94%, diferido a julho, substituem o contexto tarifário2013.",
+          "missing": "",
           "evidence": [
             {
-              "cnpj": "07047251000170",
-              "received": "2019-07-02",
-              "name": "CIA ENERGETICA DO CEARA - COELCE",
-              "sector": "Energia Elétrica",
-              "activity": "Distribuição de energia elétrica.",
-              "cvm": "014869",
-              "docid": "85235",
-              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=85235"
+              "docid": "34371",
+              "group": 1653,
+              "pages": [
+                4,
+                9
+              ],
+              "received": "2014-02-06",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34371",
+              "original": "review_originals/cvm_34371_g1653.pdf.gz",
+              "original_sha256": "7765ebabcc820b5710f9990d2f357ecff246ee90087183e616224a688e7a9e0b"
+            },
+            {
+              "docid": "91150",
+              "group": 412,
+              "pages": [
+                37,
+                38,
+                42,
+                43,
+                50,
+                51
+              ],
+              "received": "2020-02-20",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=91150",
+              "original": "review_originals/cvm_91150_g412.pdf.gz",
+              "original_sha256": "5307369c85addb5a4a1193cc1477ab95520a66fbd73d4293ff0683ecd608f243"
+            },
+            {
+              "docid": "92646",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                4,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "received": "2020-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=92646",
+              "original": "review_originals/cvm_92646_g192.pdf.gz",
+              "original_sha256": "e646e8f317742c0f1f3e6bc124a2a447f681309cb283a4247269fddfe35f37e9"
+            },
+            {
+              "docid": "92646",
+              "group": 193,
+              "pages": [
+                1,
+                2,
+                3
+              ],
+              "received": "2020-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=92646",
+              "original": "review_originals/cvm_92646_g193.pdf.gz",
+              "original_sha256": "4e0347d195b7c6cc9783be89c4e2f9365d13fda56a2ca75aa0e3d19ee4949a86"
+            }
+          ],
+          "prior_year": 2014,
+          "review_2020": "Retorno ao universo após2014: rede atende184municípios e3,89milhões de consumidores faturados; atualização cadastral em2019 explica a queda da base total, não perda equivalente da franquia. Quinta revisão tarifária2019 e reajuste2020 de3,94%, diferido a julho, substituem o contexto tarifário2013."
+        },
+        "capital_economics": {
+          "status": "INDETERMINATE",
+          "favorable": "Lucro156,556 mi ainda positivo após reset tarifário.",
+          "contrary_evidence": "Lucro−62,7%; EBITDA mesmo excluindo46 mi de itens identificados cai31,8%.",
+          "reason": "Lucro2019 R$404,905mi versus364,520mi e1T20 R$82,635mi versus7,010mi mostram recuperação, mas perdas14,64% e pioraDEC/FEC persistem após revisão2019. O ganho tarifário e SUDENE não provam retorno incremental do programa de rede; mantém ND atualizado, sem reutilizar a queda2013 como único motivo.",
+          "missing": "Retorno econômico do ciclo tarifário2019 e da expansão com perdas crescentes.",
+          "evidence": [
+            {
+              "docid": "91150",
+              "group": 412,
+              "pages": [
+                37,
+                38,
+                42,
+                43,
+                50,
+                51
+              ],
+              "received": "2020-02-20",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=91150",
+              "original": "review_originals/cvm_91150_g412.pdf.gz",
+              "original_sha256": "5307369c85addb5a4a1193cc1477ab95520a66fbd73d4293ff0683ecd608f243"
+            },
+            {
+              "docid": "92646",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                4,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "received": "2020-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=92646",
+              "original": "review_originals/cvm_92646_g192.pdf.gz",
+              "original_sha256": "e646e8f317742c0f1f3e6bc124a2a447f681309cb283a4247269fddfe35f37e9"
+            },
+            {
+              "docid": "92646",
+              "group": 193,
+              "pages": [
+                1,
+                2,
+                3
+              ],
+              "received": "2020-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=92646",
+              "original": "review_originals/cvm_92646_g193.pdf.gz",
+              "original_sha256": "4e0347d195b7c6cc9783be89c4e2f9365d13fda56a2ca75aa0e3d19ee4949a86"
+            }
+          ],
+          "prior_year": 2014,
+          "review_2020": "Lucro2019 R$404,905mi versus364,520mi e1T20 R$82,635mi versus7,010mi mostram recuperação, mas perdas14,64% e pioraDEC/FEC persistem após revisão2019. O ganho tarifário e SUDENE não provam retorno incremental do programa de rede; mantém ND atualizado, sem reutilizar a queda2013 como único motivo."
+        },
+        "earnings_reliability": {
+          "status": "SATISFACTORY",
+          "favorable": "Itens33 mi estoque e13 mi baixas segregados; CPC33 explicita efeitos DRE e OCI.",
+          "contrary_evidence": "BenefíciosSUDENE e contencioso fiscal interferem na carga; não somar OCI ao lucro.",
+          "reason": "Documentos permitem distinguir custos, ajustes e tributação; ganhos atuariais não tratados como caixa. Revisão de 2020: Demonstrações separam SUDENE74,272mi2019, hedge, tributos a restituir e ajuste cadastral. No1T20 EBIT123,011mi, resultado financeiro−20,004mi e tributos−20,372mi reconciliam lucro82,635mi. Crédito PIS/COFINS tem passivo aos consumidores; não é todo lucro disponível.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "34371",
+              "group": 1653,
+              "pages": [
+                2,
+                6,
+                7
+              ],
+              "received": "2014-02-06",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34371",
+              "original": "review_originals/cvm_34371_g1653.pdf.gz",
+              "original_sha256": "7765ebabcc820b5710f9990d2f357ecff246ee90087183e616224a688e7a9e0b"
+            },
+            {
+              "docid": "34371",
+              "group": 412,
+              "pages": [
+                72,
+                73
+              ],
+              "received": "2014-02-06",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34371",
+              "original": "review_originals/cvm_34371_g412.pdf.gz",
+              "original_sha256": "034f5312a7eeff0af299a23f0f4b2a3bf95b0a4096d1c9b79a81683ab57dca52"
+            },
+            {
+              "docid": "91150",
+              "group": 412,
+              "pages": [
+                37,
+                38,
+                42,
+                43,
+                50,
+                51
+              ],
+              "received": "2020-02-20",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=91150",
+              "original": "review_originals/cvm_91150_g412.pdf.gz",
+              "original_sha256": "5307369c85addb5a4a1193cc1477ab95520a66fbd73d4293ff0683ecd608f243"
+            },
+            {
+              "docid": "92646",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                4,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "received": "2020-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=92646",
+              "original": "review_originals/cvm_92646_g192.pdf.gz",
+              "original_sha256": "e646e8f317742c0f1f3e6bc124a2a447f681309cb283a4247269fddfe35f37e9"
+            },
+            {
+              "docid": "92646",
+              "group": 193,
+              "pages": [
+                1,
+                2,
+                3
+              ],
+              "received": "2020-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=92646",
+              "original": "review_originals/cvm_92646_g193.pdf.gz",
+              "original_sha256": "4e0347d195b7c6cc9783be89c4e2f9365d13fda56a2ca75aa0e3d19ee4949a86"
+            }
+          ],
+          "prior_year": 2014,
+          "review_2020": "Demonstrações separam SUDENE74,272mi2019, hedge, tributos a restituir e ajuste cadastral. No1T20 EBIT123,011mi, resultado financeiro−20,004mi e tributos−20,372mi reconciliam lucro82,635mi. Crédito PIS/COFINS tem passivo aos consumidores; não é todo lucro disponível."
+        },
+        "financial_resilience": {
+          "status": "INDETERMINATE",
+          "favorable": "Cobertura juros5,79x e dívida/EBITDA2,33x.",
+          "contrary_evidence": "Caixa107,31 mi vs215,03 mi; dívida líquida827,534 mi; investimento líquido+40,9%.",
+          "reason": "Dívida gerencial líquida2,313bi/EBITDA2,52x e covenants2019 cumpridos são favoráveis. Caixa/TVM234,736mi mais linha180mi não cobrem isoladamente empréstimos/debêntures circulantes856,466mi; limite intercompany800mi autorizado pelaANEEL não é caixa nem saque contratado. Arrecadação96,54%, CAPEXtrimestral210,948mi e diferimento tarifário deixam pendente cobertura conjunta sobCOVID, sem afirmar default.",
+          "missing": "Cobertura conjunta de dívida circulante856,466mi eCAPEX com caixa234,736mi, linha180mi e choque de arrecadação.",
+          "evidence": [
+            {
+              "docid": "91150",
+              "group": 412,
+              "pages": [
+                37,
+                38,
+                42,
+                43,
+                50,
+                51
+              ],
+              "received": "2020-02-20",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=91150",
+              "original": "review_originals/cvm_91150_g412.pdf.gz",
+              "original_sha256": "5307369c85addb5a4a1193cc1477ab95520a66fbd73d4293ff0683ecd608f243"
+            },
+            {
+              "docid": "92646",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                4,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "received": "2020-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=92646",
+              "original": "review_originals/cvm_92646_g192.pdf.gz",
+              "original_sha256": "e646e8f317742c0f1f3e6bc124a2a447f681309cb283a4247269fddfe35f37e9"
+            },
+            {
+              "docid": "92646",
+              "group": 193,
+              "pages": [
+                1,
+                2,
+                3
+              ],
+              "received": "2020-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=92646",
+              "original": "review_originals/cvm_92646_g193.pdf.gz",
+              "original_sha256": "4e0347d195b7c6cc9783be89c4e2f9365d13fda56a2ca75aa0e3d19ee4949a86"
+            }
+          ],
+          "prior_year": 2014,
+          "review_2020": "Dívida gerencial líquida2,313bi/EBITDA2,52x e covenants2019 cumpridos são favoráveis. Caixa/TVM234,736mi mais linha180mi não cobrem isoladamente empréstimos/debêntures circulantes856,466mi; limite intercompany800mi autorizado pelaANEEL não é caixa nem saque contratado. Arrecadação96,54%, CAPEXtrimestral210,948mi e diferimento tarifário deixam pendente cobertura conjunta sobCOVID, sem afirmar default."
+        },
+        "capital_allocation": {
+          "status": "INDETERMINATE",
+          "favorable": "Investimentos líquidos258 mi ampliam/manutêm rede.",
+          "contrary_evidence": "Aumento40,9% ocorre com redução forte de retorno; divisão manutenção/expansão não demonstrada nesta avaliação.",
+          "reason": "CAPEXtrimestral distingue conexões144,018mi, rede28,944mi e perdas11,720mi. Dividendos2019 propostos165,342mi versus lucro404,905mi preservam retenção; SUDENE74,272mi tem restrição própria. Não basta a retenção para resolver retorno econômico das novas conexões e rede; mantém ND.",
+          "missing": "Retorno econômico das conexões/rede e remuneração efetiva do capital investido.",
+          "evidence": [
+            {
+              "docid": "91150",
+              "group": 412,
+              "pages": [
+                37,
+                38,
+                42,
+                43,
+                50,
+                51
+              ],
+              "received": "2020-02-20",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=91150",
+              "original": "review_originals/cvm_91150_g412.pdf.gz",
+              "original_sha256": "5307369c85addb5a4a1193cc1477ab95520a66fbd73d4293ff0683ecd608f243"
+            },
+            {
+              "docid": "92646",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                4,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "received": "2020-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=92646",
+              "original": "review_originals/cvm_92646_g192.pdf.gz",
+              "original_sha256": "e646e8f317742c0f1f3e6bc124a2a447f681309cb283a4247269fddfe35f37e9"
+            },
+            {
+              "docid": "92646",
+              "group": 193,
+              "pages": [
+                1,
+                2,
+                3
+              ],
+              "received": "2020-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=92646",
+              "original": "review_originals/cvm_92646_g193.pdf.gz",
+              "original_sha256": "4e0347d195b7c6cc9783be89c4e2f9365d13fda56a2ca75aa0e3d19ee4949a86"
+            }
+          ],
+          "prior_year": 2014,
+          "review_2020": "CAPEXtrimestral distingue conexões144,018mi, rede28,944mi e perdas11,720mi. Dividendos2019 propostos165,342mi versus lucro404,905mi preservam retenção; SUDENE74,272mi tem restrição própria. Não basta a retenção para resolver retorno econômico das novas conexões e rede; mantém ND."
+        },
+        "governance": {
+          "status": "INDETERMINATE",
+          "favorable": "Auditor somente presta serviços de auditoria; administração e conselho identificados.",
+          "contrary_evidence": "ControleEndesa/Enel e classes preferenciais exigem análise de transações/proteções; nomes do conselho não bastam.",
+          "reason": "Mútuo Enel Finance300mi foi liquidado em2019; contratos de compartilhamento seguem DespachoANEEL338/2019 e rateio regulatório. Compras de energia relacionadasCGTF1,127bi e concentração97,91%ON mantêm material a pendência de comutatividade e proteção das classes, sem alegar abuso por controle concentrado.",
+          "missing": "Condições econômicas materiais de compras relacionadasCGTF e proteção das três classes.",
+          "evidence": [
+            {
+              "docid": "91150",
+              "group": 412,
+              "pages": [
+                37,
+                38,
+                42,
+                43,
+                50,
+                51
+              ],
+              "received": "2020-02-20",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=91150",
+              "original": "review_originals/cvm_91150_g412.pdf.gz",
+              "original_sha256": "5307369c85addb5a4a1193cc1477ab95520a66fbd73d4293ff0683ecd608f243"
+            },
+            {
+              "docid": "92646",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                4,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "received": "2020-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=92646",
+              "original": "review_originals/cvm_92646_g192.pdf.gz",
+              "original_sha256": "e646e8f317742c0f1f3e6bc124a2a447f681309cb283a4247269fddfe35f37e9"
+            },
+            {
+              "docid": "92646",
+              "group": 193,
+              "pages": [
+                1,
+                2,
+                3
+              ],
+              "received": "2020-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=92646",
+              "original": "review_originals/cvm_92646_g193.pdf.gz",
+              "original_sha256": "4e0347d195b7c6cc9783be89c4e2f9365d13fda56a2ca75aa0e3d19ee4949a86"
+            }
+          ],
+          "prior_year": 2014,
+          "review_2020": "Mútuo Enel Finance300mi foi liquidado em2019; contratos de compartilhamento seguem DespachoANEEL338/2019 e rateio regulatório. Compras de energia relacionadasCGTF1,127bi e concentração97,91%ON mantêm material a pendência de comutatividade e proteção das classes, sem alegar abuso por controle concentrado."
+        }
+      },
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "Distribuição regulada no Ceará com investimento líquido258 mi em2013.",
+          "evidence": [
+            {
+              "docid": "34371",
+              "group": 1653,
+              "pages": [
+                4,
+                9
+              ],
+              "received": "2014-02-06",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34371",
+              "original": "review_originals/cvm_34371_g1653.pdf.gz",
+              "original_sha256": "7765ebabcc820b5710f9990d2f357ecff246ee90087183e616224a688e7a9e0b"
+            },
+            {
+              "docid": "91150",
+              "group": 412,
+              "pages": [
+                37,
+                38,
+                42,
+                43,
+                50,
+                51
+              ],
+              "received": "2020-02-20",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=91150",
+              "original": "review_originals/cvm_91150_g412.pdf.gz",
+              "original_sha256": "5307369c85addb5a4a1193cc1477ab95520a66fbd73d4293ff0683ecd608f243"
+            },
+            {
+              "docid": "92646",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                4,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "received": "2020-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=92646",
+              "original": "review_originals/cvm_92646_g192.pdf.gz",
+              "original_sha256": "e646e8f317742c0f1f3e6bc124a2a447f681309cb283a4247269fddfe35f37e9"
+            },
+            {
+              "docid": "92646",
+              "group": 193,
+              "pages": [
+                1,
+                2,
+                3
+              ],
+              "received": "2020-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=92646",
+              "original": "review_originals/cvm_92646_g193.pdf.gz",
+              "original_sha256": "4e0347d195b7c6cc9783be89c4e2f9365d13fda56a2ca75aa0e3d19ee4949a86"
             }
           ]
         },
         "capital_economics": {
-          "favorable": {
-            "roe_parent_5": [
-              0.19515218263582568,
-              0.1820339131407342,
-              0.17800084552433743,
-              0.13387802232793947,
-              0.1354947076902587
-            ],
-            "normalized_profit": 429206335.6515076
-          },
+          "favorable": "Lucro156,556 mi ainda positivo após reset tarifário.",
           "evidence": [
             {
-              "fiscal_year": 2015,
-              "metric": "attributable_ni",
-              "value": 363070000.0,
-              "docid": "62719",
-              "received": "2017-02-22",
-              "reference": "2016-12-31",
-              "period_end": "2015-12-31",
-              "perimeter": "ind",
-              "account": "3.11",
-              "description": "Lucro/Prejuízo do Período",
-              "source": "dfp_cia_aberta_DRE_ind_2016.csv",
-              "archive_sha256": "772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip"
-            },
-            {
-              "fiscal_year": 2016,
-              "metric": "attributable_ni",
-              "value": 393057000.0,
-              "docid": "71843",
-              "received": "2018-02-27",
-              "reference": "2017-12-31",
-              "period_end": "2016-12-31",
-              "perimeter": "ind",
-              "account": "3.11",
-              "description": "Lucro/Prejuízo do Período",
-              "source": "dfp_cia_aberta_DRE_ind_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
-            },
-            {
-              "fiscal_year": 2017,
-              "metric": "attributable_ni",
-              "value": 435779000.0,
-              "docid": "80912",
-              "received": "2019-02-26",
-              "reference": "2018-12-31",
-              "period_end": "2017-12-31",
-              "perimeter": "ind",
-              "account": "3.11",
-              "description": "Lucro/Prejuízo do Período",
-              "source": "dfp_cia_aberta_DRE_ind_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
-            },
-            {
-              "fiscal_year": 2018,
-              "metric": "attributable_ni",
-              "value": 364520000.0,
               "docid": "91150",
+              "group": 412,
+              "pages": [
+                37,
+                38,
+                42,
+                43,
+                50,
+                51
+              ],
               "received": "2020-02-20",
-              "reference": "2019-12-31",
-              "period_end": "2018-12-31",
-              "perimeter": "ind",
-              "account": "3.11",
-              "description": "Lucro/Prejuízo do Período",
-              "source": "dfp_cia_aberta_DRE_ind_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=91150",
+              "original": "review_originals/cvm_91150_g412.pdf.gz",
+              "original_sha256": "5307369c85addb5a4a1193cc1477ab95520a66fbd73d4293ff0683ecd608f243"
             },
             {
-              "fiscal_year": 2019,
-              "metric": "attributable_ni",
-              "value": 404905000.0,
-              "docid": "91150",
-              "received": "2020-02-20",
-              "reference": "2019-12-31",
-              "period_end": "2019-12-31",
-              "perimeter": "ind",
-              "account": "3.11",
-              "description": "Lucro/Prejuízo do Período",
-              "source": "dfp_cia_aberta_DRE_ind_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+              "docid": "92646",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                4,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "received": "2020-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=92646",
+              "original": "review_originals/cvm_92646_g192.pdf.gz",
+              "original_sha256": "e646e8f317742c0f1f3e6bc124a2a447f681309cb283a4247269fddfe35f37e9"
+            },
+            {
+              "docid": "92646",
+              "group": 193,
+              "pages": [
+                1,
+                2,
+                3
+              ],
+              "received": "2020-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=92646",
+              "original": "review_originals/cvm_92646_g193.pdf.gz",
+              "original_sha256": "4e0347d195b7c6cc9783be89c4e2f9365d13fda56a2ca75aa0e3d19ee4949a86"
             }
           ]
         },
         "earnings_reliability": {
-          "favorable": {
-            "positive_attributable_years": 5,
-            "audit_records": 6
-          },
+          "favorable": "Itens33 mi estoque e13 mi baixas segregados; CPC33 explicita efeitos DRE e OCI.",
           "evidence": [
             {
-              "docid": "91150",
-              "received": "2020-02-20",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+              "docid": "34371",
+              "group": 1653,
+              "pages": [
+                2,
+                6,
+                7
+              ],
+              "received": "2014-02-06",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34371",
+              "original": "review_originals/cvm_34371_g1653.pdf.gz",
+              "original_sha256": "7765ebabcc820b5710f9990d2f357ecff246ee90087183e616224a688e7a9e0b"
+            },
+            {
+              "docid": "34371",
+              "group": 412,
+              "pages": [
+                72,
+                73
+              ],
+              "received": "2014-02-06",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34371",
+              "original": "review_originals/cvm_34371_g412.pdf.gz",
+              "original_sha256": "034f5312a7eeff0af299a23f0f4b2a3bf95b0a4096d1c9b79a81683ab57dca52"
             },
             {
               "docid": "91150",
+              "group": 412,
+              "pages": [
+                37,
+                38,
+                42,
+                43,
+                50,
+                51
+              ],
               "received": "2020-02-20",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=91150",
+              "original": "review_originals/cvm_91150_g412.pdf.gz",
+              "original_sha256": "5307369c85addb5a4a1193cc1477ab95520a66fbd73d4293ff0683ecd608f243"
             },
             {
-              "docid": "91150",
-              "received": "2020-02-20",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+              "docid": "92646",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                4,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "received": "2020-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=92646",
+              "original": "review_originals/cvm_92646_g192.pdf.gz",
+              "original_sha256": "e646e8f317742c0f1f3e6bc124a2a447f681309cb283a4247269fddfe35f37e9"
             },
             {
-              "docid": "91150",
-              "received": "2020-02-20",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
-            },
-            {
-              "docid": "91150",
-              "received": "2020-02-20",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
-            },
-            {
-              "docid": "91150",
-              "received": "2020-02-20",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+              "docid": "92646",
+              "group": 193,
+              "pages": [
+                1,
+                2,
+                3
+              ],
+              "received": "2020-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=92646",
+              "original": "review_originals/cvm_92646_g193.pdf.gz",
+              "original_sha256": "4e0347d195b7c6cc9783be89c4e2f9365d13fda56a2ca75aa0e3d19ee4949a86"
             }
           ]
         },
         "financial_resilience": {
-          "favorable": {
-            "parent_equity_latest": 3114051000.0
-          },
+          "favorable": "Cobertura juros5,79x e dívida/EBITDA2,33x.",
           "evidence": [
             {
               "docid": "91150",
+              "group": 412,
+              "pages": [
+                37,
+                38,
+                42,
+                43,
+                50,
+                51
+              ],
               "received": "2020-02-20",
-              "reference": "2019-12-31",
-              "period_end": "2019-12-31",
-              "perimeter": "ind",
-              "account": "2.03",
-              "description": "Patrimônio Líquido",
-              "source": "dfp_cia_aberta_BPP_ind_2019.csv",
-              "archive_sha256": "",
-              "url": ""
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=91150",
+              "original": "review_originals/cvm_91150_g412.pdf.gz",
+              "original_sha256": "5307369c85addb5a4a1193cc1477ab95520a66fbd73d4293ff0683ecd608f243"
+            },
+            {
+              "docid": "92646",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                4,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "received": "2020-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=92646",
+              "original": "review_originals/cvm_92646_g192.pdf.gz",
+              "original_sha256": "e646e8f317742c0f1f3e6bc124a2a447f681309cb283a4247269fddfe35f37e9"
+            },
+            {
+              "docid": "92646",
+              "group": 193,
+              "pages": [
+                1,
+                2,
+                3
+              ],
+              "received": "2020-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=92646",
+              "original": "review_originals/cvm_92646_g193.pdf.gz",
+              "original_sha256": "4e0347d195b7c6cc9783be89c4e2f9365d13fda56a2ca75aa0e3d19ee4949a86"
             }
           ]
         },
         "capital_allocation": {
-          "favorable": {
-            "historical_payout": [
-              0.25,
-              0.5,
-              0.25,
-              0.5,
-              null
-            ],
-            "distributions": [
-              72097633.7,
-              155100440.69,
-              84989331.0,
-              145601177.65,
-              null
-            ]
-          },
+          "favorable": "Investimentos líquidos258 mi ampliam/manutêm rede.",
           "evidence": [
             {
-              "docid": "83094",
-              "received": "2019-05-09",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2018.csv",
-              "archive_sha256": "7a349acbce124fdb0846c371b3e68e5ff06781ead4b8713d6080eabf6737d082",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=83094",
-              "fiscal_year": 2015,
-              "raw": {
-                "CNPJ_Companhia": "07.047.251/0001-70",
-                "Data_Referencia": "2018-01-01",
-                "Versao": "7",
-                "ID_Documento": "83094",
-                "Nome_Companhia": "CIA ENERGETICA DO CEARA - COELCE",
-                "Data_Inicio_Exercicio_Social": "2015-01-01",
-                "Data_Fim_Exercicio_Social": "2015-12-31",
-                "Lucro_Liquido_Ajustado": "288390534.80",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "18.10780495",
-                "Lucro_Liquido_Retido": "216292901.10",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "25.00000000",
-                "Dividendo_Distribuido_Total": "72097633.70",
-                "Data_Aprovacao_Retencao": "2016-04-27"
-              }
+              "docid": "91150",
+              "group": 412,
+              "pages": [
+                37,
+                38,
+                42,
+                43,
+                50,
+                51
+              ],
+              "received": "2020-02-20",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=91150",
+              "original": "review_originals/cvm_91150_g412.pdf.gz",
+              "original_sha256": "5307369c85addb5a4a1193cc1477ab95520a66fbd73d4293ff0683ecd608f243"
             },
             {
-              "docid": "92790",
-              "received": "2020-05-07",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2019.csv",
-              "archive_sha256": "30f461d5d3b3cdbab84faac20c158c6a41cea1ee0223c40d988db9845e2c6a51",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92790",
-              "fiscal_year": 2016,
-              "raw": {
-                "CNPJ_Companhia": "07.047.251/0001-70",
-                "Data_Referencia": "2019-01-01",
-                "Versao": "14",
-                "ID_Documento": "92790",
-                "Nome_Companhia": "CIA ENERGETICA DO CEARA - COELCE",
-                "Data_Inicio_Exercicio_Social": "2016-01-01",
-                "Data_Fim_Exercicio_Social": "2016-12-31",
-                "Lucro_Liquido_Ajustado": "310200881.38",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "16.99003569",
-                "Lucro_Liquido_Retido": "149546139.41",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "50.00000000",
-                "Dividendo_Distribuido_Total": "155100440.69",
-                "Data_Aprovacao_Retencao": "2017-04-25"
-              }
+              "docid": "92646",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                4,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "received": "2020-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=92646",
+              "original": "review_originals/cvm_92646_g192.pdf.gz",
+              "original_sha256": "e646e8f317742c0f1f3e6bc124a2a447f681309cb283a4247269fddfe35f37e9"
             },
             {
-              "docid": "92790",
-              "received": "2020-05-07",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2019.csv",
-              "archive_sha256": "30f461d5d3b3cdbab84faac20c158c6a41cea1ee0223c40d988db9845e2c6a51",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92790",
-              "fiscal_year": 2017,
-              "raw": {
-                "CNPJ_Companhia": "07.047.251/0001-70",
-                "Data_Referencia": "2019-01-01",
-                "Versao": "14",
-                "ID_Documento": "92790",
-                "Nome_Companhia": "CIA ENERGETICA DO CEARA - COELCE",
-                "Data_Inicio_Exercicio_Social": "2017-01-01",
-                "Data_Fim_Exercicio_Social": "2017-12-31",
-                "Lucro_Liquido_Ajustado": "339957325.74",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "16.87160316",
-                "Lucro_Liquido_Retido": "250112539.97",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "25.00000000",
-                "Dividendo_Distribuido_Total": "84989331.00",
-                "Data_Aprovacao_Retencao": "2018-04-26"
-              }
-            },
-            {
-              "docid": "92790",
-              "received": "2020-05-07",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2019.csv",
-              "archive_sha256": "30f461d5d3b3cdbab84faac20c158c6a41cea1ee0223c40d988db9845e2c6a51",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92790",
-              "fiscal_year": 2018,
-              "raw": {
-                "CNPJ_Companhia": "07.047.251/0001-70",
-                "Data_Referencia": "2019-01-01",
-                "Versao": "14",
-                "ID_Documento": "92790",
-                "Nome_Companhia": "CIA ENERGETICA DO CEARA - COELCE",
-                "Data_Inicio_Exercicio_Social": "2018-01-01",
-                "Data_Fim_Exercicio_Social": "2018-12-31",
-                "Lucro_Liquido_Ajustado": "291202355.29",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "12.73370036",
-                "Lucro_Liquido_Retido": "134374321.58",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "50.00000000",
-                "Dividendo_Distribuido_Total": "145601177.65",
-                "Data_Aprovacao_Retencao": "2019-04-29"
-              }
+              "docid": "92646",
+              "group": 193,
+              "pages": [
+                1,
+                2,
+                3
+              ],
+              "received": "2020-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=92646",
+              "original": "review_originals/cvm_92646_g193.pdf.gz",
+              "original_sha256": "4e0347d195b7c6cc9783be89c4e2f9365d13fda56a2ca75aa0e3d19ee4949a86"
             }
           ]
         },
         "governance": {
-          "favorable": {
-            "dated_shareholder_right_records": 30,
-            "dated_related_party_records": 83
-          },
+          "favorable": "Auditor somente presta serviços de auditoria; administração e conselho identificados.",
           "evidence": [
             {
               "docid": "91150",
+              "group": 412,
+              "pages": [
+                37,
+                38,
+                42,
+                43,
+                50,
+                51
+              ],
               "received": "2020-02-20",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=91150",
+              "original": "review_originals/cvm_91150_g412.pdf.gz",
+              "original_sha256": "5307369c85addb5a4a1193cc1477ab95520a66fbd73d4293ff0683ecd608f243"
             },
             {
-              "docid": "91150",
-              "received": "2020-02-20",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+              "docid": "92646",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                4,
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "received": "2020-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=92646",
+              "original": "review_originals/cvm_92646_g192.pdf.gz",
+              "original_sha256": "e646e8f317742c0f1f3e6bc124a2a447f681309cb283a4247269fddfe35f37e9"
             },
             {
-              "docid": "91150",
-              "received": "2020-02-20",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
-            },
-            {
-              "docid": "91150",
-              "received": "2020-02-20",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
-            },
-            {
-              "docid": "91150",
-              "received": "2020-02-20",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
-            },
-            {
-              "docid": "91150",
-              "received": "2020-02-20",
-              "reference": "2019-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
+              "docid": "92646",
+              "group": 193,
+              "pages": [
+                1,
+                2,
+                3
+              ],
+              "received": "2020-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=92646",
+              "original": "review_originals/cvm_92646_g193.pdf.gz",
+              "original_sha256": "4e0347d195b7c6cc9783be89c4e2f9365d13fda56a2ca75aa0e3d19ee4949a86"
             }
           ]
         }
