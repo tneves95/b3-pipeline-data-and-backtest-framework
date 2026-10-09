@@ -9,6 +9,7 @@ sys.path.insert(0,str(ROOT/'scripts'))
 from monthly_tax_accounting import Fiscal, tax_book, due_date
 from monthly_tax_freeze import TAX, POLICY
 from b00s_variants import read
+from monthly_tax_income import jcp_retention, dividend_tax
 
 
 def sale(d,t,gross,gain,kind='STOCK'):
@@ -148,3 +149,108 @@ def test_main_and_final_ranking_are_actual_calculated_results():
         assert float(r['external_capital'])==460000 and int(r['external_contributions'])==144
         assert float(r['liquidation_wealth'])<float(r['final_wealth'])<=float(r['gross_wealth'])
         assert float(r['liquidation_tax'])==pytest.approx(float(r['final_wealth'])-float(r['liquidation_wealth']))
+
+
+@pytest.mark.parametrize('day,rate',[('2025-12-31',.15),('2026-01-01',.175)])
+def test_historical_jcp_gross_net_and_unknown_no_double_withholding(day,rate):
+    assert jcp_retention(100,'GROSS',day)==pytest.approx(100*rate)
+    assert jcp_retention(85,'NET_ALREADY_WITHHELD',day)==0
+    assert jcp_retention(85,'NET_ALREADY_WITHHELD',day,unknown_gross=True)==0
+    assert jcp_retention(100,'UNKNOWN',day)==0
+    assert jcp_retention(100,'UNKNOWN',day,unknown_gross=True)==pytest.approx(100*rate)
+
+
+@pytest.mark.parametrize('total,tax',[(49999,0),(50000,0),(50001,5000.1)])
+def test_2026_dividend_threshold_whole_month_and_transitional_exception(total,tax):
+    assert dividend_tax(total,2026)==pytest.approx(tax)
+    assert dividend_tax(total,2025)==0
+    assert dividend_tax(total,2026,transition=True)==0
+
+
+def test_income_overlay_does_not_read_generic_prose_as_capital_return():
+    ev=json.loads((TAX/'inputs/event_tax_evidence_stage2.json').read_text())
+    capital=[r for r in ev.values() if r.get('distribution_type')=='CAPITAL_RETURN']
+    assert len(capital)==5
+    assert all('CAPITAL_REDUCTION' in r['legacy_note'].split(';')[0] for r in capital)
+    itau=[r for r in ev.values() if r['amount_basis']=='NET_ALREADY_WITHHELD']
+    assert len(itau)>=100 and all(r['ticker'] in ['ITUB3','ITUB4'] for r in itau)
+
+
+def test_same_day_right_creation_sale_and_net_reinvestment():
+    ev={i:dict(event_id=i,share_kind='',unit_basis=0,original_type='',amount_basis='UNKNOWN') for i in ['R','S']}
+    f=Fiscal('synthetic',ev,[]);f.buy('2020-01-02','a','A',100,10,'INITIAL')
+    es=[dict(id='R',kind='RIGHT',ticker='A',successor='R',ratio=.1,source='synthetic'),
+        dict(id='S',kind='RIGHT_REINVEST',ticker='R',successor='A',source='synthetic')]
+    q={('A','2020-07-01'):10,('R','2020-07-01'):2}
+    after,cash=f.corporate('2020-07-01',{'a':{'A':100}},{'a':{'A':102}},es,q,0)
+    assert after['a']['A']==pytest.approx(101.7) and f.liability==3 and cash==3
+    f.verify(after);assert f.basis['A']==pytest.approx(1017)
+
+
+def test_xp_spinoff_allocates_cost_and_enbr_redemption_uses_actual_gain():
+    f=Fiscal('synthetic',{'X':dict(event_id='X',share_kind='',unit_basis=None)},[])
+    f.buy('2020-01-02','a','ITUB4',100,10,'INITIAL')
+    e=dict(id='X',ticker='ITUB4',kind='SPINOFF',successor='XPBR31',ratio=.1,source='synthetic')
+    q={('ITUB4','2021-10-04'):9,('XPBR31','2021-10-04'):10}
+    after,cash=f.corporate('2021-10-04',{'a':{'ITUB4':100}},{'a':{'ITUB4':100,'XPBR31':10}},[e],q,0)
+    assert f.basis['ITUB4']==900 and f.basis['XPBR31']==100
+    f.verify(after)
+    g=Fiscal('synthetic',{'R':dict(event_id='R',share_kind='',unit_basis=None)},[])
+    g.buy('2020-01-02','a','ENBR3',100,10,'INITIAL')
+    e=dict(id='R',ticker='ENBR3',kind='REDEMPTION',amount=24.23,source='synthetic')
+    after,cash=g.corporate('2023-09-13',{'a':{'ENBR3':100}},{'a':{}},[e],{},2423)
+    assert g.liability==pytest.approx((2423-1000)*.15)
+    assert g.available(2423+cash)==pytest.approx(2209.55)
+
+
+def test_known_jcp_date_transition_is_not_assumed_from_ex_date():
+    ev={'J':dict(original_type='JCP',distribution_type='JCP',amount_basis='GROSS',
+                tax_rate=None,payment_date='2026-01-19',rate_status='UNRESOLVED',source='synthetic')}
+    e=dict(id='J',ticker='A',amount=1,source='synthetic')
+    a=Fiscal('synthetic',ev,[],income_mode='CERTIFIED_PARTIAL')
+    assert a.income('2025-12-30','a','A',100,e)==100
+    b=Fiscal('synthetic',ev,[],income_mode='UNKNOWN_GROSS')
+    c=Fiscal('synthetic',ev,[],income_mode='UNKNOWN_GROSS_PAYMENT')
+    assert b.income('2025-12-30','a','A',100,e)==85
+    assert c.income('2025-12-30','a','A',100,e)==82.5
+
+
+def test_june_tax_is_in_twr_and_reserved_before_purchase_without_extra_cash():
+    import monthly_contributions as m
+    from monthly_tax_simulate import simulate
+    days={m.START,'2015-06-30'}
+    for r in read(m.STUDY/'contribution_calendar.csv'):
+        if r['month_end']<='2015-06-30':days.update([r['date'],r['month_end']])
+    quote={(t,d):(10 if d==m.START or t=='B' else 30) for d in days for t in ['A','B']}
+    f=Fiscal('V10',{},sorted(days))
+    r=simulate('V10',quote,{}, {('V10',2014):{'a':'A','b':'B'},('V10',2015):{'b':'B'}},
+               end='2015-06-30',monthly=0,fiscal=f)
+    assert r['summary']['final_wealth']==pytest.approx(185000)
+    assert r['summary']['twr_pct']==pytest.approx(85)
+    assert f.liability==pytest.approx(14992.5)
+    assert r['summary']['cash']==pytest.approx(f.liability)
+    assert r['summary']['external_capital']==100000
+
+
+def test_observed_books_have_no_unmatched_buy_after_sale_and_tax_attribution_reconciles():
+    rows=read(TAX/'tax_trades_basis.csv');seen=set();totals={}
+    for r in rows:
+        key=r['mode'],r['portfolio'],r['date'],r['ticker']
+        if r['side']=='SELL':seen.add(key)
+        if r['side']=='BUY':assert key not in seen
+        month=r['mode'],r['portfolio'],r['date'][:7]
+        totals[month]=totals.get(month,0)+float(r['tax_due'] or 0)
+    for r in read(TAX/'monthly_tax_ledger.csv'):
+        key=r['mode'],r['portfolio'],r['month']
+        assert totals.get(key,0)==pytest.approx(float(r['assessed_tax']),abs=1e-7)
+        for code in ['6015','4600']:
+            assert float(r['darf_'+code])==pytest.approx(float(r['darf_'+code+'_paid'])+float(r['darf_'+code+'_unpaid']))
+
+
+def test_actual_2026_dividend_envelopes_below_threshold_and_net_jcp_not_retaxed():
+    rows=read(TAX/'dividend_monthly_issuer_2026.csv')
+    assert rows and all(float(r['all_distributions_cash_envelope'])<50000 for r in rows)
+    assert all(r['threshold_crossed']=='False' for r in rows)
+    income=read(TAX/'cash_dividends_jcp_tax.csv')
+    net=[r for r in income if r['amount_basis']=='NET_ALREADY_WITHHELD']
+    assert net and all(float(r['withheld_additional'])==0 for r in net)

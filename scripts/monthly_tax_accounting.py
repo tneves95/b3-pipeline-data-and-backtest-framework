@@ -9,6 +9,7 @@ from copy import deepcopy
 from datetime import date
 import calendar
 import math
+from monthly_tax_income import historical_jcp_rate, jcp_retention, dividend_tax
 
 
 def next_month(month):
@@ -91,6 +92,48 @@ class Fiscal:
         self.taxrows=[];self.paid_by_code={'6015':0.,'4600':0.};self.withheld=0.
         self.liability=0.;self.precaution=0.;self.income_withheld=0.;self.closed=set()
         self.min_available=0.;self.dividends=defaultdict(float)
+        self._assessed_sales=-1
+
+    def income(self,day,c,t,q,e):
+        """Tax known gross cash only; amount convention and timing stay visible."""
+        ev=self.evidence[e['id']];value=q*e['amount'];typ=ev.get('distribution_type','UNKNOWN')
+        basis=ev['amount_basis'];retention=0.;taxdate=day;rate=None
+        status='CG_ONLY_NO_ADDITIONAL_INCOME_TAX'
+        payments=ev.get('payment_date','').split(';') if ev.get('payment_date') else []
+        if typ=='JCP' and self.income_mode!='NONE':
+            if self.income_mode=='CERTIFIED_PARTIAL':
+                rate=ev.get('tax_rate')
+                if basis=='GROSS' and rate is not None:
+                    retention=value*rate;status='GROSS_RATE_SUPPORTED_EX_DATE_REINVESTMENT_PROXY'
+                elif basis=='NET_ALREADY_WITHHELD':status='NO_SECOND_WITHHOLDING'
+                else:status='ND_AMOUNT_BASIS_OR_TAX_DATE_UNRESOLVED'
+            else:
+                taxdate=payments[0] if payments and self.income_mode=='UNKNOWN_GROSS_PAYMENT' else day
+                rate=ev.get('tax_rate') or historical_jcp_rate(taxdate)
+                retention=0. if basis=='NET_ALREADY_WITHHELD' else value*rate
+                status='NO_SECOND_WITHHOLDING' if basis=='NET_ALREADY_WITHHELD' else 'CONDITIONAL_UNKNOWN_GROSS_OR_DATE_PROXY'
+        elif typ=='UNKNOWN' and self.income_mode=='UNKNOWN_AS_JCP':
+            rate=historical_jcp_rate(day);retention=value*rate;status='CONDITIONAL_UNCLASSIFIED_DISTRIBUTION_AS_JCP'
+        elif typ=='DIVIDEND':
+            # This report must not confuse the economic ex-date with pay/credit.
+            taxdate=payments[0] if payments else day;k=c,taxdate[:7]
+            previous=self.dividends[k];self.dividends[k]+=value
+            if self.income_mode!='NONE':
+                retention=dividend_tax(self.dividends[k],int(taxdate[:4]))-dividend_tax(previous,int(taxdate[:4]))
+            status='DIVIDEND_2026_MONTHLY_TEST' if taxdate>='2026-01-01' else 'HISTORICAL_DOMESTIC_DIVIDEND_EXEMPT'
+        if retention>value+1e-8:raise ValueError(('DIVIDEND_THRESHOLD_REQUIRES_PRIOR_RESERVE',e['id']))
+        if not self.enabled:retention=0.
+        self.income_withheld+=retention
+        self.income_rows.append(dict(portfolio=self.portfolio,date=day,issuer=c,ticker=t,event_id=e['id'],
+            source_amount=value,gross_amount=value if basis=='GROSS' else None,
+            withheld_additional=retention,reinvested=value-retention,distribution_type=typ,
+            original_type=ev['original_type'],amount_basis=basis,tax_rate=rate,
+            source_payment_dates=ev.get('payment_date',''),tax_date_used=taxdate,
+            rate_status=ev.get('rate_status','UNRESOLVED'),date_status=status,
+            economic_tax_timing='EX_DATE_PROXY' if retention else 'NO_ADDITIONAL_RETENTION',
+            monthly_dividend_total_so_far=self.dividends[c,taxdate[:7]] if typ=='DIVIDEND' else None,
+            source=e['source'],amount_evidence=ev.get('evidence','')))
+        return value-retention
 
     def reserve(self):return self.liability+self.precaution
 
@@ -140,13 +183,16 @@ class Fiscal:
 
     def assess(self,day,*,month_closed=False):
         if month_closed:self.closed.add(day[:7])
-        self.taxrows=tax_book(self.sales,self.enabled,self.exemption,self.gcap_exemption)
+        if self._assessed_sales!=len(self.sales):
+            self.taxrows=tax_book(self.sales,self.enabled,self.exemption,self.gcap_exemption)
+            self._assessed_sales=len(self.sales)
         total_withheld=math.fsum(r['ordinary_irrf']+r['daytrade_irrf'] for r in self.taxrows)
         delta=total_withheld-self.withheld
         if delta< -1e-6:raise ValueError(('WITHHOLDING_REVERSED',delta))
         self.withheld=total_withheld
         due=math.fsum(r['darf_6015']+r['darf_4600'] for r in self.taxrows)
         self.liability=max(0.,due-sum(self.paid_by_code.values()))
+        if self.liability<1e-8:self.liability=0.
         self.precaution=math.fsum(r['precautionary_exemption_reserve'] for r in self.taxrows if r['month'] not in self.closed)
         return max(0.,delta)
 
@@ -162,6 +208,7 @@ class Fiscal:
                 self.payments.append(dict(portfolio=self.portfolio,date=day,revenue_code=code,amount=due,
                     calendar_status='B3_SESSION_BANK_CALENDAR_PROXY'))
         self.liability=max(0.,self.liability-amount)
+        if self.liability<1e-8:self.liability=0.
         return amount
 
     def verify(self,book):
@@ -179,7 +226,7 @@ class Fiscal:
         Structural transformations precede reinvestment buys; all entitlements
         are based on the pre-event quantities, just as PR5's apply_day does.
         """
-        oldreserve=self.reserve();reinvest=[]
+        oldreserve=self.reserve();reinvest=[];event_row_start=len(self.event_rows)
         for c,u in before.items():
             relevant=[e for e in events if e['ticker'] in u]
             for e in relevant:
@@ -196,22 +243,30 @@ class Fiscal:
                         cost=self.basis[t]*cv/(pv+cv);self.basis[t]-=cost
                     elif k=='SPINOFF' and child!='XPBR31' and self.bonus_market:cost=newq*quote[child,day]
                     self.q[child]+=newq;self.basis[child]+=cost
-                self.event_rows.append(dict(portfolio=self.portfolio,issuer=c,quantity_held=q,
-                    total_cost_after_structural=self.basis[t],**ev))
+                self.event_rows.append(dict(ev,portfolio=self.portfolio,issuer=c,quantity_held=q,
+                    event_id=e['id'],date=day,total_cost_after_structural=self.basis[t]))
             for e in relevant:
                 if e['kind']=='DISTRIBUTION':
-                    t=e['ticker'];value=u[t]*e['amount']
-                    self.buy(day,c,t,value/quote[t,day],quote[t,day],'DISTRIBUTION_REINVESTMENT')
-                    self.income_rows.append(dict(portfolio=self.portfolio,date=day,issuer=c,ticker=t,event_id=e['id'],
-                        source_amount=value,gross_amount=None,withheld_additional=0.,reinvested=value,
-                        original_type=self.evidence[e['id']]['original_type'],amount_basis=self.evidence[e['id']]['amount_basis'],
-                        date_status='EX_DATE_ECONOMIC_REINVESTMENT',source=e['source']))
+                    t=e['ticker'];gross=u[t]*e['amount'];value=self.income(day,c,t,u[t],e)
+                    after[c][t]-=(gross-value)/quote[t,day]
+                    if self.evidence[e['id']].get('distribution_type')=='CAPITAL_RETURN':
+                        cost=min(self.basis[t],value);self.basis[t]-=cost
+                        row=dict(date=day,portfolio=self.portfolio,ticker=t,issuer=c,asset_tax_type='GCAP',
+                            side='CAPITAL_RETURN',quantity=u[t],nominal_unit_price=e['amount'],gross_value=value,
+                            average_cost_before=(self.basis[t]+cost)/self.q[t],cost_removed=cost,
+                            realized_gain_loss=value-cost,exemption_bucket='SPECIFIC_CAPITAL_RETURN_NO_20K',
+                            tax_due=None,irrf=0.,tax_cash_reserved=self.reserve(),basis_after=self.basis[t],reason=e['id'])
+                        self.sales.append(row);self.trades.append(row);reinvest.append((c,t,value,e['id']))
+                    else:self.buy(day,c,t,value/quote[t,day],quote[t,day],'DISTRIBUTION_REINVESTMENT')
             # Rights may have been created on the same day, hence inspect live q.
             spawned={e['successor'] for e in relevant if e['kind']=='RIGHT'}
             for e in events:
                 t=e['ticker'];k=e['kind']
                 if k=='RIGHT_REINVEST' and (t in u or t in spawned):
                     qty=self.q[t];value=qty*quote[t,day]
+                    if t in spawned and t not in u:
+                        self.event_rows.append(dict(self.evidence[e['id']],portfolio=self.portfolio,issuer=c,quantity_held=qty,
+                            event_id=e['id'],date=day,total_cost_after_structural=self.basis[t]))
                     self.sell(day,c,t,qty,quote[t,day],e['id'],'RIGHT')
                     reinvest.append((c,e['successor'],value,e['id']))
                 elif t in u and k=='CONVERSION':
@@ -239,6 +294,13 @@ class Fiscal:
             after[c][t]-=diverted/quote[t,day]
             self.buy(day,c,t,net/quote[t,day],quote[t,day],eid+'_NET_REINVEST')
             withheld_from_reinvestment+=diverted
+        emap={e['id']:e for e in events}
+        for row in self.event_rows[event_row_start:]:
+            t=row['ticker'] if 'ticker' in row else emap[row['event_id']]['ticker']
+            e=emap[row['event_id']];child=e.get('successor') or (e.get('legs') or [('',0)])[0][0]
+            row.update(fiscal_quantity_after_event_day=self.q[t],fiscal_cost_after_event_day=self.basis[t],
+                successor=child,successor_quantity_after_event_day=self.q[child] if child else None,
+                successor_cost_after_event_day=self.basis[child] if child else None)
         return after,withheld_from_reinvestment-withheld
 
     def final_liquidation(self,day,book,quote,cash):
@@ -247,14 +309,50 @@ class Fiscal:
             for t,q in sorted(u.items()):
                 if q>1e-12:other.sell(day,c,t,q,quote[t,day],'HYPOTHETICAL_FINAL_LIQUIDATION');cash+=q*quote[t,day]
         cash-=other.assess(day,month_closed=True)
+        monthly=other.monthly_rows()
         return dict(wealth=cash-other.liability,tax_increment=(other.withheld+other.liability)-(self.withheld+self.liability),
             liability=other.liability,cash_before_final_darf=cash,
             realized_gain=math.fsum(s['realized_gain_loss'] for s in other.sales[len(self.sales):]),
-            rows=other.sales[len(self.sales):],monthly_tax=other.taxrows)
+            rows=other.sales[len(self.sales):],monthly_tax=monthly)
 
     def monthly_rows(self):
         rows=deepcopy(self.taxrows)
+        allocations=defaultdict(list)
+        for code in ['6015','4600']:
+            remaining={r['month']:r['darf_'+code] for r in rows}
+            for payment in [p for p in self.payments if p['revenue_code']==code]:
+                balance=payment['amount']
+                for r in rows:
+                    if due_date(r['month'],self.sessions)>payment['date']:continue
+                    used=min(balance,remaining[r['month']]);balance-=used;remaining[r['month']]-=used
+                    if used>1e-9:allocations[r['month'],code].append((payment['date'],used))
+                if balance>1e-6:raise ValueError('Payment allocation mismatch')
         for r in rows:
             r.update(portfolio=self.portfolio,darf_due_date=due_date(r['month'],self.sessions),
                 date_status='B3_SESSION_BANK_CALENDAR_PROXY')
+            for code in ['6015','4600']:
+                payments=allocations[r['month'],code]
+                r['darf_'+code+'_paid']=sum(v for d,v in payments)
+                r['darf_'+code+'_payment_dates']=';'.join(d for d,v in payments)
+                r['darf_'+code+'_unpaid']=r['darf_'+code]-r['darf_'+code+'_paid']
+            r['tax_reserved_at_close']=r['darf_6015']+r['darf_4600']
+        # Tax per trade is an explicit pro-rata attribution of monthly liability,
+        # not an independent per-trade computation of the exemption.
+        for month in {r['date'][:7] for r in self.sales}:
+            monthrow=next(r for r in rows if r['month']==month)
+            selected=[r for r in self.sales if r['date'].startswith(month)]
+            common=[r for r in selected if r['asset_tax_type'] in ['STOCK','BDR','ETF','RIGHT']
+                    and not (r['asset_tax_type']=='STOCK' and monthrow['stock_exempt'])]
+            groups=[(common,monthrow['common_tax']),
+                ([r for r in selected if r['asset_tax_type']=='DAYTRADE'],monthrow['daytrade_tax']),
+                ([r for r in selected if r['asset_tax_type']=='GCAP'],monthrow['gcap_tax'])]
+            for r in selected:r['tax_due']=0.;r['irrf']=0.;r['tax_allocation']='PRO_RATA_MONTHLY_POSITIVE_GAINS_AFTER_LOSS_OFFSET'
+            for group,tax in groups:
+                total=sum(max(0,r['realized_gain_loss']) for r in group)
+                for r in group:r['tax_due']=tax*max(0,r['realized_gain_loss'])/total if total else 0.
+            ordinary=[r for r in selected if r['asset_tax_type'] in ['STOCK','BDR','ETF','RIGHT']]
+            total=sum(r['gross_value'] for r in ordinary)
+            for r in ordinary:r['irrf']=monthrow['ordinary_irrf']*r['gross_value']/total if total else 0.
+            days=[r for r in selected if r['asset_tax_type']=='DAYTRADE'];positive=sum(max(0,r['realized_gain_loss']) for r in days)
+            for r in days:r['irrf']=monthrow['daytrade_irrf']*max(0,r['realized_gain_loss'])/positive if positive else 0.
         return rows

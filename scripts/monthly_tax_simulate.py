@@ -82,6 +82,7 @@ def simulate(portfolio,quote=None,byday=None,compositions=None,end=END,monthly=2
     for day in sorted(sampledays|{d for d in byday if START<d<=end}):
         if day==START:continue
         cash-=fiscal.payment(day,cash)
+        if fiscal.enabled and abs(cash)<1e-8:cash=0.
         if day in monthends:cash-=fiscal.assess(day,month_closed=True)
         if day in byday:
             held={t for u in book.values() for t in u}
@@ -181,6 +182,14 @@ def simulate(portfolio,quote=None,byday=None,compositions=None,end=END,monthly=2
             actual,miss,after=values_now(day)
             expected=nav-((fiscal.withheld+fiscal.liability)-tax_cost_before)
             if not math.isclose(expected,after,rel_tol=3e-12):raise ValueError(('June NAV/tax does not reconcile',expected,after))
+            if fiscal.enabled:
+                tax_factor=after/nav
+                if not twr_missing:twr*=tax_factor
+                if annual and annual[-1]['date']==day:
+                    if annual[-1]['twr_pct'] is not None:
+                        annual[-1]['twr_pct']=100*((1+annual[-1]['twr_pct']/100)*tax_factor-1)
+                    annual[-1]['twr_cumulative_pct']=100*(twr-1) if not twr_missing else None
+                    annual[-1]['nav']=after
             fiscal.verify(book)
             fiscal.available(cash)
             turnover+=min(sales,buys)/nav
@@ -218,4 +227,3 @@ def simulate(portfolio,quote=None,byday=None,compositions=None,end=END,monthly=2
         remaining_acquisition_basis=math.fsum(fiscal.basis.values()))
     return dict(fiscal=fiscal,liquidation=liquidation,book=book,summary=summary,contributions=contributions,trades=trades,positions=position_rows,wealth=wealth,
         event_ledger=event_ledger,junes=junes,annual=annual,flows=flows)
-
