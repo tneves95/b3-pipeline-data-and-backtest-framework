@@ -119,3 +119,36 @@ def test_actual_cash_and_deposit_integrity():
         group=[r for r in rows if r['portfolio']==p]
         assert len(group)==144 and len({r['date'] for r in group})==144
         assert all(float(r['external_deposit'])==2500 for r in group)
+
+
+def test_corrected_cg_cash_tax_payment_and_final_cost_reconcile():
+    rows=read(OUT/'consolidated_tax_corrected.csv')
+    assert len(rows)==5
+    wealth=read(OUT/'CG_ONLY/wealth.csv');annual=read(OUT/'CG_ONLY/annual_tax.csv')
+    final=read(OUT/'CG_ONLY/final_positions.csv');sales=read(OUT/'CG_ONLY/trades.csv')
+    for r in wealth:
+        assert float(r['cash_available'])>=-1e-6
+        assert float(r['cash'])-float(r['tax_restricted_cash'])==pytest.approx(float(r['cash_available']),abs=1e-6)
+        assert float(r['tax_restricted_cash'])>=float(r['tax_liability'])-1e-6
+    for r in rows:
+        p=r['portfolio'];positions=[x for x in final if x['portfolio']==p]
+        assert sum(float(x['total_acquisition_cost']) for x in positions)==pytest.approx(float(r['remaining_acquisition_basis']))
+        assert sum(float(x['value']) for x in positions)+float(r['cash'])-float(r['unpaid_liability'])==pytest.approx(float(r['final_wealth']))
+        assert sum(float(x['tax_paid']) for x in annual if x['portfolio']==p)==pytest.approx(float(r['tax_paid']))
+        assert float(r['final_wealth'])-float(r['liquidation_tax'])==pytest.approx(float(r['liquidation_wealth']))
+        assert float(r['income_withheld'])==0
+        assert int(r['rank'])==int(r['gross_rank'])
+        for x in positions:
+            assert float(x['quantity'])*float(x['average_cost'])==pytest.approx(float(x['total_acquisition_cost']))
+        portfolio_sales=[x for x in sales if x['portfolio']==p and x['side']=='SELL']
+        assert len(portfolio_sales)==int(r['voluntary_sales'])
+        assert all(x['reason']==FAIL_REASON for x in portfolio_sales)
+
+
+def test_corrected_cost_removed_and_realized_gain_on_actual_sales():
+    rows=read(OUT/'CG_ONLY/tax_trades.csv')
+    ordinary=[r for r in rows if r['side']=='SELL' and r['asset_tax_type']=='STOCK']
+    assert ordinary
+    for r in ordinary:
+        assert float(r['cost_removed'])==pytest.approx(float(r['quantity'])*float(r['average_cost_before']))
+        assert float(r['realized_gain_loss'])==pytest.approx(float(r['gross_value'])-float(r['cost_removed']),abs=1e-7)
