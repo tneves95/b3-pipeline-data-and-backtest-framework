@@ -56,10 +56,11 @@ As seleções, retornos, fontes e documentos aceitos de junho/2014–junho/2015 
         decisions=[]
         for f in facts:
             dims=f['documentary_assessment']['dimensions'];iv=f['normalized_pe_interval']
-            decisions.append(dict(ticker=f['ticker'],VVAL=f['valuation_status'],PL=f['normalized_pe'],PL_max=iv['upper'] if iv else '',
+            comparable=f['documentary_assessment']['valuation']['status']=='COMPARABLE'
+            decisions.append(dict(ticker=f['ticker'],VVAL=f['valuation_status'],PL=f['normalized_pe'] if comparable else '',PL_max=iv['upper'] if iv else '',
                 VQ=f['quality_category'],dimensoes_satisfatorias=sum(d['status'] in ['SATISFACTORY','HIGH'] for d in dims.values()),
                 dimensoes_ND=sum(d['status']=='INDETERMINATE' for d in dims.values())))
-        text+='\n## Decisões de entrada anteriores aos retornos\n\n'+table(decisions,list(decisions[0]))
+        text+='\n\n## Decisões de entrada anteriores aos retornos\n\n'+table(decisions,list(decisions[0]))
         mature=[f['ticker'] for f in facts if f['valuation_status']=='PASS_MATURE']
         productive=[f['ticker'] for f in facts if f['valuation_status']=='PASS_REINVESTOR']
         text+='\n\nCanal até P/L 15: '+', '.join(mature)+'. Canal de reinvestimento produtivo entre 15 e 25: '+(', '.join(productive) if productive else 'nenhuma aprovação comprovada neste corte')+'. A classificação do canal de preço não presume que uma empresa deixou de investir.\n'
@@ -73,7 +74,7 @@ As seleções, retornos, fontes e documentos aceitos de junho/2014–junho/2015 
         if premium:text+='\n'+table(premium,list(premium[0]))+'\n'
         text+=f'\n\n[Análises incrementais das seis dimensões, fontes e contrapontos](dossies_b00s_{year}.md). Intervalos certificam somente o limite de admissão; capital, lucro ou P/L pontual não certificados ficam ND. Os critérios de crescimento real, retenção, ROIC/ROE e solidez são cumulativos: uma reprovação comprovada impede o prêmio, mesmo que outra condição ainda esteja pendente.\n'
         text+='\n## Verificação e reprodução\n\n`python scripts/b00s_fundamentals.py`; `python scripts/b00s_sensitivities.py`; `python scripts/b00s_variants.py --stage all`; `python scripts/b00s_report.py`.\n\nTestes verificam preservação histórica, ausência de fontes futuras, intervalos econômicos, financiamento B2, unidades, pesos, giro, atribuição anual e composta, planilha e hashes. O replay offline precisa produzir ausência de diff. Sensibilidades predefinidas continuam separadas das decisões principais nos CSVs e na planilha.\n'
-        (ROOT/f'docs/checkpoint_b00s_{year}_{year+1}.md').write_text(text)
+        (ROOT/f'docs/checkpoint_b00s_{year}_{year+1}.md').write_text('\n'.join(line.rstrip() for line in text.splitlines())+'\n')
         dossier=f'# Revisão fundamentalista e de valuation — junho/{year}\n\nReutiliza o [dossiê aceito de 2014](dossies_b00s_v2.md). Atualizações abaixo distinguem fatos novos, julgamentos e pendências. Seis dimensões não compensatórias; sem score e sem aprovação por ausência de informação. A decisão de entrada é separada da manutenção B2.\n'
         for f in facts:
             r=f['documentary_assessment'];dossier+=f"\n## {f['ticker']}\n\nVVAL: **{f['valuation_status']}**; VQ: **{f['quality_category']}**.\n\n{r['incremental_review']['reason']}\n\nValuation: {r['valuation']['reason']}\n\n"
@@ -84,7 +85,7 @@ As seleções, retornos, fontes e documentos aceitos de junho/2014–junho/2015 
             dossier+='Fontes da atualização: '+references(r['incremental_review'])+'.\n\nFontes do valuation: '+references(r['valuation'])+'.\n'
             if r.get('economic_metrics'):
                 dossier+='\nProva econômica:\n\n```json\n'+json.dumps(r['economic_metrics'],ensure_ascii=False,indent=2)+'\n```\n'
-        (ROOT/f'docs/dossies_b00s_{year}.md').write_text(dossier)
+        (ROOT/f'docs/dossies_b00s_{year}.md').write_text('\n'.join(line.rstrip() for line in dossier.splitlines())+'\n')
     verify_accepted_initial()
 
 if __name__=='__main__':main()

@@ -1,0 +1,79 @@
+{
+  "formation_year": 2015,
+  "cutoff": "2015-06-30",
+  "decision_commit": "00d94e47a189ffc03356f2fccd21aaf4bb6759ec",
+  "files": [
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/economic_reviews.json",
+      "sha256": "99f09b4330bf196704b82c19ef4ea9ad0b4f8cdd1a8900cea3e279ae57505922"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/economic_reviews_2015.json",
+      "sha256": "c6fcad8ac230c7a10afbeeb5a49c64142c01102a4cd49e80a20c89609bdedce5"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/fundamental_decisions.json",
+      "sha256": "8e3a62628f7b1440c620d195d4aac187a34cc8d52c17cc2dded0bbfad0fc780d"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/fundamental_decisions_lock.json",
+      "sha256": "6fcbafb156dbd778fe1af4b4ebc9206560bc8bec2004b2a9a5a316b9b351352a"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_original_sources.json",
+      "sha256": "03d22726d58cf591958865ae0cf4377cc9a30e6f8babcebb1e87def0b1c696a7"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/cdi_sgs12_june2015.json",
+      "sha256": "98779f51e28e3d8e6623f0b0c01a495d941ae39334bf864a9af6b1bae94bd1a1"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/funding_policy_2015.json",
+      "sha256": "f7f95d5a86a91ebb6df3ac933ae29c9ce0faa0304c55011d50ea82b9bc45ee40"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/cvm_directed_extract.json.gz",
+      "sha256": "58a63d2709f49de09e1ad238344bf3fbb1d79a9697e8ee709d8e7df48091c6e7"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/ipca_sgs433.json",
+      "sha256": "d538119d8a84569b60d9c3ff535a00a5fe21fea10c25feddb84c92e702023abc"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/ipca_availability.json",
+      "sha256": "9ff50cf76d3888b82533aa34a1df03f6df4de7b8a008dc2e8909f9ed0217f80f"
+    },
+    {
+      "path": "docs/reviews/adversarial_2015.json",
+      "sha256": "1f37c88ef846990fa858949414a0607a2b01a5e779d6abd59934e03c2e927d98"
+    },
+    {
+      "path": "scripts/b00s_documentary.py",
+      "sha256": "b2146426b0a0311f287db38077462b2b354011c6c25bcdc66f762459c4d10b8d"
+    },
+    {
+      "path": "scripts/b00s_fundamentals.py",
+      "sha256": "c27f9b23e354c97b3989166a72af2327cbe403af59d590a8d6d6b7b20fcff70c"
+    },
+    {
+      "path": "scripts/b00s_incremental.py",
+      "sha256": "d98272b5ab1f4101c50fa63158d3edd26d6348dae80f31c615b59a026385fdf9"
+    },
+    {
+      "path": "scripts/b00s_funding.py",
+      "sha256": "a0aea3e0ce6ec2df8086d5bb795db81dee9f9181bf3a4a3b9c01b53ff06feafb"
+    },
+    {
+      "path": "tests/test_b00s_funding.py",
+      "sha256": "86d35d98bafe5dd7c0602cc8c75e2ee904c9e79e6a6182a2dc12903b7a7721ae"
+    }
+  ],
+  "scope": "Incremental economic and six-dimension review after the accepted 2014 formation; frozen before any actual 2015–2016 VVAL/VQ return replay.",
+  "preserved_initial_commit": "5d50cc55c0ad07aa4dea6c76a7f7b7ca4c032f14",
+  "criteria_commit": "7fea064530bd494fb3edf9410c63980908a2197c",
+  "funding_frozen_commits": [
+    "d34c7fb",
+    "f0558a1"
+  ],
+  "returns_observed_before_freeze": false
+}
