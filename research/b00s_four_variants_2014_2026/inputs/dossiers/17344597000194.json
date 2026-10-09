@@ -1559,425 +1559,419 @@
       "year": 2021,
       "cutoff": "2021-06-30",
       "ticker": "BBSE3",
-      "category": "INDETERMINATE",
+      "category": "QUALIFIED_SATISFACTORY",
       "special_case": "",
-      "assessment_ref": null,
-      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
-      "classification_changed": null,
-      "dimensions": {},
-      "dimension_evidence_updates": {
+      "assessment_ref": "17344597000194:2021",
+      "assessment_status": "ASSESSED",
+      "classification_changed": false,
+      "dimensions": {
         "durability": {
-          "favorable": "Participação no capital social de outras sociedades, que tenham por atividade operações de seguros, resseguros, previdências complementar ou capitalização.",
+          "status": "SATISFACTORY",
+          "reason": "Mantém SAT: distribuição por BB Corretora e participações em seguros, previdência, capitalização e odontologia permanecem operantes. Corretagem bruta928,113mi no1T21 e crescimento operacional nas investidas sustentam recorrência do negócio.",
+          "favorable": "Relacionamento e rede de distribuição com produtos distintos.",
+          "contrary_evidence": "Concentração no canal BB e agravamento da pandemia afetam comercialização, resgates e sinistros.",
+          "missing": "",
           "evidence": [
             {
-              "cnpj": "17344597000194",
-              "received": "2020-12-09",
-              "name": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
-              "sector": "Emp. Adm. Part. - Seguradoras e Corretoras",
-              "activity": "Participação no capital social de outras sociedades, que tenham por atividade operações de seguros, resseguros, previdências complementar ou capitalização.",
-              "cvm": "023159",
-              "docid": "99104",
-              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=99104"
+              "docid": "103271",
+              "group": 192,
+              "pages": [
+                1
+              ],
+              "received": "2021-05-03",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=103271",
+              "original": "review_originals/cvm_103271_g192.pdf.gz",
+              "original_sha256": "877338d61ceedcee71489d0809e09b81ce2070ed0ffa9a2a2b3e093e419342de"
+            },
+            {
+              "docid": "103271",
+              "group": 193,
+              "pages": [
+                13,
+                14,
+                15,
+                25
+              ],
+              "received": "2021-05-03",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=103271",
+              "original": "review_originals/cvm_103271_g193.pdf.gz",
+              "original_sha256": "2286e70161a5d584378d80cfe457dbf539efe184a3b86f98c0c4767ee6345642"
+            }
+          ],
+          "prior_year": 2020,
+          "review_2019": "Os canais do Banco do Brasil e franquias de seguros, previdência e corretagem permanecem. A reorganização Mapfre fechou em30/11/2018: sai SH2, entra ABS na SH1/Brasilseg e sai Mapfre Vida; não tratar todas as séries como mesmo perímetro. Brasilprev encerra2018 com reservas de R$256,8 bilhões e participação32,5%, evidência de escala, sem apagar a queda de captação.",
+          "review_2020": "A franquia de distribuição e seguros mantém vendas e corretagem no trimestre: prêmios+15,9%, arrecadação previdência+25% e resultado da corretora+15%. A desaceleração abrupta desde a segunda metade de março e os resgates são reconhecidos, sem extrapolar a primeira metade do trimestre.",
+          "review_2021": "Mantém SAT: distribuição por BB Corretora e participações em seguros, previdência, capitalização e odontologia permanecem operantes. Corretagem bruta928,113mi no1T21 e crescimento operacional nas investidas sustentam recorrência do negócio."
+        },
+        "capital_economics": {
+          "status": "SATISFACTORY",
+          "reason": "NI Q1 R$ 977,062 milhões inclui contribuições discriminadas de Brasilseg245,079mi, Brasilprev191,874mi e Corretora506,371mi. Mantém SAT econômico, cotejando lucratividade operacional e capital requerido, sem extrapolar efeitos favoráveis de inflação no financeiro.",
+          "favorable": "Crescimento operacional de7,4% e corretagem+5,1% documentados.",
+          "contrary_evidence": "Sinistralidade de coberturas de morte aumenta; Brasilprev é sensível ao descasamento IGP-M/curva e não apenas à Selic.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "103271",
+              "group": 192,
+              "pages": [
+                1
+              ],
+              "received": "2021-05-03",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=103271",
+              "original": "review_originals/cvm_103271_g192.pdf.gz",
+              "original_sha256": "877338d61ceedcee71489d0809e09b81ce2070ed0ffa9a2a2b3e093e419342de"
+            },
+            {
+              "docid": "103271",
+              "group": 193,
+              "pages": [
+                13,
+                14,
+                15,
+                25
+              ],
+              "received": "2021-05-03",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=103271",
+              "original": "review_originals/cvm_103271_g193.pdf.gz",
+              "original_sha256": "2286e70161a5d584378d80cfe457dbf539efe184a3b86f98c0c4767ee6345642"
+            }
+          ],
+          "prior_year": 2020,
+          "review_2019": "O lucro2018 cai a R$3,540 bilhões, com enfraquecimento de SH2/Brasilcap e benefício líquido de R$309,1 milhões por redução de TAP na companhia SH1. No1T19 lucro atribuível de R$1.013,758 milhões melhora14,4%, porém Brasilseg cai8,8% e Brasilcap33,9%, enquanto Brasilprev cresce44,9% com descasamento temporal de índices. Corretagem cresce6,2%; o conjunto diversificado mantém retorno crível, sem anualizar TAP, indexadores ou corte de CSLL.",
+          "review_2020": "Mantém SAT da economia da franquia de seguros/distribuição. Lucro R$882,7 milhões,12,9% inferior, reflete resultado Brasilprev−57,7% por descasamento financeiro e ausência de IRB, enquanto Brasilseg+7,3% e corretora+15% demonstram fontes operacionais distintas. Não usar ganho de venda IRB como lucro ordinário.",
+          "review_2021": "NI Q1 R$ 977,062 milhões inclui contribuições discriminadas de Brasilseg245,079mi, Brasilprev191,874mi e Corretora506,371mi. Mantém SAT econômico, cotejando lucratividade operacional e capital requerido, sem extrapolar efeitos favoráveis de inflação no financeiro."
+        },
+        "earnings_reliability": {
+          "status": "SATISFACTORY",
+          "reason": "Mantém SAT: lucro e equivalência são conciliados por investida e o resultado financeiro da holding cai por restituição de capital e Selic menor. Aporte na Brasilprev e ajustes entre práticas contábeis estão discriminados.",
+          "favorable": "Demonstrações e processos de fechamento mantidos, com ERP e balancetes das investidas disponíveis.",
+          "contrary_evidence": "Não confundir R$ 1.200 milhões aportados na Brasilprev com lucro; parcela dos efeitos financeiros depende da curva de juros.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "103271",
+              "group": 192,
+              "pages": [
+                1
+              ],
+              "received": "2021-05-03",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=103271",
+              "original": "review_originals/cvm_103271_g192.pdf.gz",
+              "original_sha256": "877338d61ceedcee71489d0809e09b81ce2070ed0ffa9a2a2b3e093e419342de"
+            },
+            {
+              "docid": "103271",
+              "group": 193,
+              "pages": [
+                13,
+                14,
+                15,
+                25
+              ],
+              "received": "2021-05-03",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=103271",
+              "original": "review_originals/cvm_103271_g193.pdf.gz",
+              "original_sha256": "2286e70161a5d584378d80cfe457dbf539efe184a3b86f98c0c4767ee6345642"
+            }
+          ],
+          "prior_year": 2020,
+          "review_2019": "As notas conciliam a mudança Mapfre, efeitos fiscais e remunerações adicionais. Os R$2,3 bilhões de alienação e R$2,1 bilhões de capital liberado não viram lucro operacional; a operação gerou perda líquida aproximada25 milhões. A reclassificação da DFC não altera caixa total. Lucro1T19 inclui benefício de CSLL20→15% e temporalidade do IGP-M; manter esses fatores separados sustenta SAT sem certificar que todo crescimento é recorrente.",
+          "review_2020": "Desinvestimento IRB concluído em23/07/2019: receita R$4,181 bilhões, ganho bruto cerca de R$3,5 bilhões, líquido cerca de R$2,3 bilhões após tributos/custos. ITR separa perda dessa contribuição, descasamento financeiro previdenciário, desempenho de seguros e efeito da reversão de remuneração de2019. Mantém SAT da rastreabilidade sem certificar mediana econômica pontual.",
+          "review_2021": "Mantém SAT: lucro e equivalência são conciliados por investida e o resultado financeiro da holding cai por restituição de capital e Selic menor. Aporte na Brasilprev e ajustes entre práticas contábeis estão discriminados."
+        },
+        "financial_resilience": {
+          "status": "SATISFACTORY",
+          "reason": "Mantém SAT com novos contrapontos: em 31/03 todas investidas reguladas declaravam suficiência de capital, liquidez e solvência; Brasilprev recebeu1,2bi em dezembro/2020. Holding caixa319,783mi frente obrigações próprias pequenas; consolidado caixa2.182,502mi e ativos amortizados curtos302,006mi.",
+          "favorable": "Capital já aportado e retenção de dividendos Brasilcap reforçam recursos efetivos, não apenas promessas.",
+          "contrary_evidence": "IGP-M e curva de desconto pressionam Brasilprev; a nota não afasta novo aporte. Suficiência atual não é garantia de solvência futura e não se reaproveitam excedentes numéricos de2019.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "103271",
+              "group": 192,
+              "pages": [
+                1
+              ],
+              "received": "2021-05-03",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=103271",
+              "original": "review_originals/cvm_103271_g192.pdf.gz",
+              "original_sha256": "877338d61ceedcee71489d0809e09b81ce2070ed0ffa9a2a2b3e093e419342de"
+            },
+            {
+              "docid": "103271",
+              "group": 193,
+              "pages": [
+                13,
+                14,
+                15,
+                25
+              ],
+              "received": "2021-05-03",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=103271",
+              "original": "review_originals/cvm_103271_g193.pdf.gz",
+              "original_sha256": "2286e70161a5d584378d80cfe457dbf539efe184a3b86f98c0c4767ee6345642"
+            }
+          ],
+          "prior_year": 2020,
+          "review_2019": "Em março2019 as investidas reguladas apresentam suficiência de capital, liquidez e solvência segundo CNSP321/2015/ANS, expressamente declarada no ITR. A holding tem caixa de R$1.585,968 milhões e o consolidado R$2.671,568 milhões, após pagamentos de dividendos. Não confundir caixa da holding com reservas das seguradoras; o risco atuarial e a concentração de ativos no BB permanecem.",
+          "review_2020": "Todas as investidas reguladas apresentam suficiência atual. Brasilseg: PLA R$1,262028 bilhão versus CMR R$1,130405 bilhão, excesso R$131,623 milhões; Brasilprev: excesso de capital R$1,550164 bilhão e liquidez R$1,481678 bilhão. Consolidado da holding possui caixa R$4,110033 bilhões, diferente de R$2,402707 bilhões na controladora. Mantém SAT considerando passivo societário R$2,700475 bilhões, reservas segregadas e maior volume de resgates; testes de estresse divulgados são cenários, não resultados futuros.",
+          "review_2021": "Mantém SAT com novos contrapontos: em 31/03 todas investidas reguladas declaravam suficiência de capital, liquidez e solvência; Brasilprev recebeu1,2bi em dezembro/2020. Holding caixa319,783mi frente obrigações próprias pequenas; consolidado caixa2.182,502mi e ativos amortizados curtos302,006mi."
+        },
+        "capital_allocation": {
+          "status": "SATISFACTORY",
+          "reason": "Mantém SAT: restituição de capital emabril/2020 é separada do lucro e agora capital é alocado à cobertura da Brasilprev; Brasilcap reteve dividendos do2S20. Não exigir payout alto quando há necessidade de capital.",
+          "favorable": "Decisões de retenção/aporte respondem ao risco e conservam enquadramento atual.",
+          "contrary_evidence": "A necessidade de novo aporte e o custo do descasamento podem limitar futuras distribuições; não presumir manutenção do payout antigo.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "103271",
+              "group": 192,
+              "pages": [
+                1
+              ],
+              "received": "2021-05-03",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=103271",
+              "original": "review_originals/cvm_103271_g192.pdf.gz",
+              "original_sha256": "877338d61ceedcee71489d0809e09b81ce2070ed0ffa9a2a2b3e093e419342de"
+            },
+            {
+              "docid": "103271",
+              "group": 193,
+              "pages": [
+                13,
+                14,
+                15,
+                25
+              ],
+              "received": "2021-05-03",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=103271",
+              "original": "review_originals/cvm_103271_g193.pdf.gz",
+              "original_sha256": "2286e70161a5d584378d80cfe457dbf539efe184a3b86f98c0c4767ee6345642"
+            }
+          ],
+          "prior_year": 2020,
+          "review_2019": "A reorganização liberou capital efetivamente recebido, e2018 separa dividendos ordinários de aproximadamente R$2,9 bilhões e extraordinários de reservas de R$2,7 bilhões. O aporte de R$20,248 milhões na Ciclic foi efetivado, sem rentabilidade futura presumida. Pagamento adicional por metas e ajuste bilateral de preço de Brasilveículos continuam contingentes; mantêm monitoramento, sem impedir SAT diante de liquidez/solvência e transparência atuais.",
+          "review_2020": "Mantém SAT com venda IRB concluída, recursos identificados e expansão Ciclic de R$12,7502 milhões efetivamente integralizada pela corretora em27/02. Cobertura excepcional de mortes COVID e doação de até R$40 milhões têm custo explícito, e não são tratadas como receitas ou retorno garantido. Não projetar dividendos extraordinários permanentemente.",
+          "review_2021": "Mantém SAT: restituição de capital emabril/2020 é separada do lucro e agora capital é alocado à cobertura da Brasilprev; Brasilcap reteve dividendos do2S20. Não exigir payout alto quando há necessidade de capital."
+        },
+        "governance": {
+          "status": "SATISFACTORY",
+          "reason": "Mantém SAT da governança específica previamente examinada, atualizada pelo monitoramento das investidas e dos planos de capital. A parceria/controlador estatal cria conflito potencial, mas não há novo fato material documentado que desfaça a proteção contratual anterior.",
+          "favorable": "Monitoramento de risco das investidas, recursos já aportados e continuidade dos controles de fechamento explicitados.",
+          "contrary_evidence": "Dependência comercial do BB e decisões compartilhadas com sócios demandam acompanhamento; a suficiência declarada não substitui auditoria universal nem comprova ausência de risco.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "103271",
+              "group": 192,
+              "pages": [
+                1
+              ],
+              "received": "2021-05-03",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=103271",
+              "original": "review_originals/cvm_103271_g192.pdf.gz",
+              "original_sha256": "877338d61ceedcee71489d0809e09b81ce2070ed0ffa9a2a2b3e093e419342de"
+            },
+            {
+              "docid": "103271",
+              "group": 193,
+              "pages": [
+                13,
+                14,
+                15,
+                25
+              ],
+              "received": "2021-05-03",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=103271",
+              "original": "review_originals/cvm_103271_g193.pdf.gz",
+              "original_sha256": "2286e70161a5d584378d80cfe457dbf539efe184a3b86f98c0c4767ee6345642"
+            }
+          ],
+          "prior_year": 2020,
+          "review_2019": "Mantém SAT pelas salvaguardas documentadas no dossiê2018, inclusive veto do conselheiro minoritário independente em partes relacionadas, agora com governança de riscos e auditoria atualizadas. A Mapfre tem laudos dos acervos e deliberações societárias descritos; contrato Deloitte de auditoria e canal de ética divulgados. O controle estatal, dependência comercial do BB e incentivos bilaterais de vendas continuam contrapontos explícitos.",
+          "review_2020": "Mantém SAT dos mecanismos anteriores de proteção minoritária e acompanhamento das investidas. Estruturas de risco, auditoria e continuidade são descritas e não houve falha atípica divulgada até o corte. O contrato de auditoria do grupo via controlador e o serviço tributário na Brasilprev são contrapontos identificados, não omitidos nem convertidos automaticamente em independência certificada.",
+          "review_2021": "Mantém SAT da governança específica previamente examinada, atualizada pelo monitoramento das investidas e dos planos de capital. A parceria/controlador estatal cria conflito potencial, mas não há novo fato material documentado que desfaça a proteção contratual anterior."
+        }
+      },
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "Relacionamento e rede de distribuição com produtos distintos.",
+          "evidence": [
+            {
+              "docid": "103271",
+              "group": 192,
+              "pages": [
+                1
+              ],
+              "received": "2021-05-03",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=103271",
+              "original": "review_originals/cvm_103271_g192.pdf.gz",
+              "original_sha256": "877338d61ceedcee71489d0809e09b81ce2070ed0ffa9a2a2b3e093e419342de"
+            },
+            {
+              "docid": "103271",
+              "group": 193,
+              "pages": [
+                13,
+                14,
+                15,
+                25
+              ],
+              "received": "2021-05-03",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=103271",
+              "original": "review_originals/cvm_103271_g193.pdf.gz",
+              "original_sha256": "2286e70161a5d584378d80cfe457dbf539efe184a3b86f98c0c4767ee6345642"
             }
           ]
         },
         "capital_economics": {
-          "favorable": {
-            "roe_parent_5": [
-              0.5058467849031556,
-              0.4711839132254858,
-              0.4500712861807169,
-              1.1025257677720242,
-              0.6617377931029623
-            ],
-            "normalized_profit": 4727142299.354603
-          },
+          "favorable": "Crescimento operacional de7,4% e corretagem+5,1% documentados.",
           "evidence": [
             {
-              "fiscal_year": 2016,
-              "metric": "attributable_ni",
-              "value": 4013852000.0,
-              "docid": "71564",
-              "received": "2018-02-19",
-              "reference": "2017-12-31",
-              "period_end": "2016-12-31",
-              "perimeter": "con",
-              "account": "3.13.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+              "docid": "103271",
+              "group": 192,
+              "pages": [
+                1
+              ],
+              "received": "2021-05-03",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=103271",
+              "original": "review_originals/cvm_103271_g192.pdf.gz",
+              "original_sha256": "877338d61ceedcee71489d0809e09b81ce2070ed0ffa9a2a2b3e093e419342de"
             },
             {
-              "fiscal_year": 2017,
-              "metric": "attributable_ni",
-              "value": 4049245000.0,
-              "docid": "80591",
-              "received": "2019-02-11",
-              "reference": "2018-12-31",
-              "period_end": "2017-12-31",
-              "perimeter": "con",
-              "account": "3.13.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
-            },
-            {
-              "fiscal_year": 2018,
-              "metric": "attributable_ni",
-              "value": 3539553000.0,
-              "docid": "90838",
-              "received": "2020-02-10",
-              "reference": "2019-12-31",
-              "period_end": "2018-12-31",
-              "perimeter": "con",
-              "account": "3.13.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
-            },
-            {
-              "fiscal_year": 2019,
-              "metric": "attributable_ni",
-              "value": 6658781000.0,
-              "docid": "99979",
-              "received": "2021-02-08",
-              "reference": "2020-12-31",
-              "period_end": "2019-12-31",
-              "perimeter": "con",
-              "account": "3.13.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2020.csv",
-              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
-            },
-            {
-              "fiscal_year": 2020,
-              "metric": "attributable_ni",
-              "value": 3850771000.0,
-              "docid": "99979",
-              "received": "2021-02-08",
-              "reference": "2020-12-31",
-              "period_end": "2020-12-31",
-              "perimeter": "con",
-              "account": "3.13.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2020.csv",
-              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+              "docid": "103271",
+              "group": 193,
+              "pages": [
+                13,
+                14,
+                15,
+                25
+              ],
+              "received": "2021-05-03",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=103271",
+              "original": "review_originals/cvm_103271_g193.pdf.gz",
+              "original_sha256": "2286e70161a5d584378d80cfe457dbf539efe184a3b86f98c0c4767ee6345642"
             }
           ]
         },
         "earnings_reliability": {
-          "favorable": {
-            "positive_attributable_years": 5,
-            "audit_records": 6
-          },
+          "favorable": "Demonstrações e processos de fechamento mantidos, com ERP e balancetes das investidas disponíveis.",
           "evidence": [
             {
-              "docid": "99979",
-              "received": "2021-02-08",
-              "reference": "2020-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2020.csv",
-              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+              "docid": "103271",
+              "group": 192,
+              "pages": [
+                1
+              ],
+              "received": "2021-05-03",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=103271",
+              "original": "review_originals/cvm_103271_g192.pdf.gz",
+              "original_sha256": "877338d61ceedcee71489d0809e09b81ce2070ed0ffa9a2a2b3e093e419342de"
             },
             {
-              "docid": "99979",
-              "received": "2021-02-08",
-              "reference": "2020-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2020.csv",
-              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
-            },
-            {
-              "docid": "99979",
-              "received": "2021-02-08",
-              "reference": "2020-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2020.csv",
-              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
-            },
-            {
-              "docid": "99979",
-              "received": "2021-02-08",
-              "reference": "2020-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2020.csv",
-              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
-            },
-            {
-              "docid": "99979",
-              "received": "2021-02-08",
-              "reference": "2020-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2020.csv",
-              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
-            },
-            {
-              "docid": "99979",
-              "received": "2021-02-08",
-              "reference": "2020-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2020.csv",
-              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+              "docid": "103271",
+              "group": 193,
+              "pages": [
+                13,
+                14,
+                15,
+                25
+              ],
+              "received": "2021-05-03",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=103271",
+              "original": "review_originals/cvm_103271_g193.pdf.gz",
+              "original_sha256": "2286e70161a5d584378d80cfe457dbf539efe184a3b86f98c0c4767ee6345642"
             }
           ]
         },
         "financial_resilience": {
-          "favorable": {
-            "parent_equity_latest": 6389605000.0
-          },
+          "favorable": "Capital já aportado e retenção de dividendos Brasilcap reforçam recursos efetivos, não apenas promessas.",
           "evidence": [
             {
-              "docid": "99979",
-              "received": "2021-02-08",
-              "reference": "2020-12-31",
-              "period_end": "2020-12-31",
-              "perimeter": "ind",
-              "account": "2.03",
-              "description": "Patrimônio Líquido",
-              "source": "dfp_cia_aberta_BPP_ind_2020.csv",
-              "archive_sha256": "",
-              "url": ""
+              "docid": "103271",
+              "group": 192,
+              "pages": [
+                1
+              ],
+              "received": "2021-05-03",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=103271",
+              "original": "review_originals/cvm_103271_g192.pdf.gz",
+              "original_sha256": "877338d61ceedcee71489d0809e09b81ce2070ed0ffa9a2a2b3e093e419342de"
+            },
+            {
+              "docid": "103271",
+              "group": 193,
+              "pages": [
+                13,
+                14,
+                15,
+                25
+              ],
+              "received": "2021-05-03",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=103271",
+              "original": "review_originals/cvm_103271_g193.pdf.gz",
+              "original_sha256": "2286e70161a5d584378d80cfe457dbf539efe184a3b86f98c0c4767ee6345642"
             }
           ]
         },
         "capital_allocation": {
-          "favorable": {
-            "historical_payout": [
-              0.823,
-              0.852,
-              0.8220000000000001,
-              0.836,
-              null
-            ],
-            "distributions": [
-              3304062.0,
-              3449410.0,
-              2911176.0,
-              5568631.0,
-              null
-            ]
-          },
+          "favorable": "Decisões de retenção/aporte respondem ao risco e conservam enquadramento atual.",
           "evidence": [
             {
-              "docid": "92731",
-              "received": "2020-05-06",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2019.csv",
-              "archive_sha256": "30f461d5d3b3cdbab84faac20c158c6a41cea1ee0223c40d988db9845e2c6a51",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=92731",
-              "fiscal_year": 2016,
-              "raw": {
-                "CNPJ_Companhia": "17.344.597/0001-94",
-                "Data_Referencia": "2019-01-01",
-                "Versao": "17",
-                "ID_Documento": "92731",
-                "Nome_Companhia": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
-                "Data_Inicio_Exercicio_Social": "2016-01-01",
-                "Data_Fim_Exercicio_Social": "2016-12-31",
-                "Lucro_Liquido_Ajustado": "4013852.00",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "51.80000000",
-                "Lucro_Liquido_Retido": "709790.00",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "82.30000000",
-                "Dividendo_Distribuido_Total": "3304062.00",
-                "Data_Aprovacao_Retencao": "2017-04-20"
-              }
+              "docid": "103271",
+              "group": 192,
+              "pages": [
+                1
+              ],
+              "received": "2021-05-03",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=103271",
+              "original": "review_originals/cvm_103271_g192.pdf.gz",
+              "original_sha256": "877338d61ceedcee71489d0809e09b81ce2070ed0ffa9a2a2b3e093e419342de"
             },
             {
-              "docid": "103351",
-              "received": "2021-05-04",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2020.csv",
-              "archive_sha256": "17d2d911201f64dc8ff501104ce8fe343cd4ab3bdb41ea03eb6bfc2c4f6b80ab",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=103351",
-              "fiscal_year": 2017,
-              "raw": {
-                "CNPJ_Companhia": "17.344.597/0001-94",
-                "Data_Referencia": "2020-01-01",
-                "Versao": "14",
-                "ID_Documento": "103351",
-                "Nome_Companhia": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
-                "Data_Inicio_Exercicio_Social": "2017-01-01",
-                "Data_Fim_Exercicio_Social": "2017-12-31",
-                "Lucro_Liquido_Ajustado": "4049245.00",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "45.50000000",
-                "Lucro_Liquido_Retido": "599835.00",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "85.20000000",
-                "Dividendo_Distribuido_Total": "3449410.00",
-                "Data_Aprovacao_Retencao": "2018-04-20"
-              }
-            },
-            {
-              "docid": "103351",
-              "received": "2021-05-04",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2020.csv",
-              "archive_sha256": "17d2d911201f64dc8ff501104ce8fe343cd4ab3bdb41ea03eb6bfc2c4f6b80ab",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=103351",
-              "fiscal_year": 2018,
-              "raw": {
-                "CNPJ_Companhia": "17.344.597/0001-94",
-                "Data_Referencia": "2020-01-01",
-                "Versao": "14",
-                "ID_Documento": "103351",
-                "Nome_Companhia": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
-                "Data_Inicio_Exercicio_Social": "2018-01-01",
-                "Data_Fim_Exercicio_Social": "2018-12-31",
-                "Lucro_Liquido_Ajustado": "3539553.00",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "45.10000000",
-                "Lucro_Liquido_Retido": "628377.00",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "82.20000000",
-                "Dividendo_Distribuido_Total": "2911176.00",
-                "Data_Aprovacao_Retencao": "2019-04-24"
-              }
-            },
-            {
-              "docid": "103351",
-              "received": "2021-05-04",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2020.csv",
-              "archive_sha256": "17d2d911201f64dc8ff501104ce8fe343cd4ab3bdb41ea03eb6bfc2c4f6b80ab",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=103351",
-              "fiscal_year": 2019,
-              "raw": {
-                "CNPJ_Companhia": "17.344.597/0001-94",
-                "Data_Referencia": "2020-01-01",
-                "Versao": "14",
-                "ID_Documento": "103351",
-                "Nome_Companhia": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
-                "Data_Inicio_Exercicio_Social": "2019-01-01",
-                "Data_Fim_Exercicio_Social": "2019-12-31",
-                "Lucro_Liquido_Ajustado": "6658781.00",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "110.25000000",
-                "Lucro_Liquido_Retido": "1090150.00",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "83.60000000",
-                "Dividendo_Distribuido_Total": "5568631.00",
-                "Data_Aprovacao_Retencao": "2020-04-22"
-              }
+              "docid": "103271",
+              "group": 193,
+              "pages": [
+                13,
+                14,
+                15,
+                25
+              ],
+              "received": "2021-05-03",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=103271",
+              "original": "review_originals/cvm_103271_g193.pdf.gz",
+              "original_sha256": "2286e70161a5d584378d80cfe457dbf539efe184a3b86f98c0c4767ee6345642"
             }
           ]
         },
         "governance": {
-          "favorable": {
-            "dated_shareholder_right_records": 8,
-            "dated_related_party_records": 10
-          },
+          "favorable": "Monitoramento de risco das investidas, recursos já aportados e continuidade dos controles de fechamento explicitados.",
           "evidence": [
             {
-              "docid": "99979",
-              "received": "2021-02-08",
-              "reference": "2020-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2020.csv",
-              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+              "docid": "103271",
+              "group": 192,
+              "pages": [
+                1
+              ],
+              "received": "2021-05-03",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=103271",
+              "original": "review_originals/cvm_103271_g192.pdf.gz",
+              "original_sha256": "877338d61ceedcee71489d0809e09b81ce2070ed0ffa9a2a2b3e093e419342de"
             },
             {
-              "docid": "99979",
-              "received": "2021-02-08",
-              "reference": "2020-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2020.csv",
-              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
-            },
-            {
-              "docid": "99979",
-              "received": "2021-02-08",
-              "reference": "2020-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2020.csv",
-              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
-            },
-            {
-              "docid": "99979",
-              "received": "2021-02-08",
-              "reference": "2020-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2020.csv",
-              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
-            },
-            {
-              "docid": "99979",
-              "received": "2021-02-08",
-              "reference": "2020-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2020.csv",
-              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
-            },
-            {
-              "docid": "99979",
-              "received": "2021-02-08",
-              "reference": "2020-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2020.csv",
-              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+              "docid": "103271",
+              "group": 193,
+              "pages": [
+                13,
+                14,
+                15,
+                25
+              ],
+              "received": "2021-05-03",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=103271",
+              "original": "review_originals/cvm_103271_g193.pdf.gz",
+              "original_sha256": "2286e70161a5d584378d80cfe457dbf539efe184a3b86f98c0c4767ee6345642"
             }
           ]
         }

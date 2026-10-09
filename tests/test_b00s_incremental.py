@@ -434,3 +434,59 @@ def test_2020_irb_deterioration_updates_retained_position_without_backdating():
     assert 'IRBR3' in summary and 'REJECTED_EVIDENCED' in dossier
     assert 'sem nova candidatura PASS' in dossier
     assert 'venda extraordinária' in summary
+
+
+def test_2021_copasa_economic_floor_does_not_invent_profits_or_reinvestment():
+    from b00s_fundamentals import bounded_valuation
+    r=next(r for r in json.loads((m.INPUT/'fundamental_decisions.json').read_text()) if r['year']==2021 and r['ticker']=='CSMG3')
+    a=r['documentary_assessment'];v=a['valuation'];p=a['numerical_proof']
+    assert set(v['profit_bounds'])=={'2016','2017','2018','2019','2020'}
+    for year in ['2016','2017']:
+        assert v['profit_bounds'][year]['lower'] is None and v['profit_bounds'][year]['upper'] is None
+    for year,proof in p['fiscal_floors'].items():
+        assert proof['nominal_lower']==v['profit_bounds'][year]['lower']
+        assert proof['nominal_lower']*proof['ipca_factor']==pytest.approx(proof['real_lower'])
+    extra=p['documented_nonrecurring_cost']
+    assert extra['net_addback_lower']==pytest.approx(extra['conservative_amount_after_rounding']-extra['income_tax_maximum_at_34pct']-extra['incremental_profit_sharing_maximum'])
+    assert p['median_lower']==pytest.approx(min(x['real_lower'] for x in p['fiscal_floors'].values()))
+    assert r['normalized_profit'] is None and r['normalized_pe'] is None
+    assert r['valuation_status']=='PASS_MATURE' and r['normalized_pe_interval']['upper']==pytest.approx(14.7423118185)
+    assert r['real_eps_cagr'] is None and r['average_payout'] is None
+    # Removing documented exceptional-cost normalization crosses15. This
+    # admission depends on the audited bridge, not the raw P/E or a point estimate.
+    raw_floor=(p['fiscal_floors']['2018']['nominal_lower']-extra['net_addback_lower'])*p['fiscal_floors']['2018']['ipca_factor']
+    cap={'lower':p['capitalization'],'upper':p['capitalization']}
+    assert bounded_valuation(cap,{'lower':raw_floor,'upper':None})[1]=='INDETERMINATE'
+    assert r['quality_category']=='INDETERMINATE'
+
+
+def test_2021_reuses_issuer_dossiers_and_resolves_material_financial_changes():
+    rows={r['ticker']:r for r in json.loads((m.INPUT/'fundamental_decisions.json').read_text()) if r['year']==2021}
+    assert len(rows)==20 and set(rows)=={r['ticker'] for r in m.candidates() if r['year']==2021}
+    vivo=rows['VIVT3']['documentary_assessment']
+    assert vivo['prior_assessment']=='2020:'+rows['VIVT3']['cnpj']
+    assert load_reviews()[2020,rows['VIVT3']['cnpj']]['ticker']=='VIVT4'
+    for r in rows.values():
+        a=r['documentary_assessment']
+        assert len(a['dimensions'])==6
+        for d in a['dimensions'].values():
+            assert d['reason'] and d['evidence'] and d['contrary_evidence']
+            assert all(e['received']<=r['cutoff'] for e in d['evidence'])
+    for ticker in ['CSMG3','SBSP3']:
+        d=rows[ticker]['documentary_assessment']['dimensions']['financial_resilience']
+        assert d['status']=='SATISFACTORY'
+    # Prudential and cash evidence can improve without proving every dimension.
+    assert rows['TAEE4']['documentary_assessment']['dimensions']['financial_resilience']['status']=='SATISFACTORY'
+    assert rows['TAEE4']['quality_category']=='INDETERMINATE'
+    assert rows['VIVT3']['valuation_status']=='INDETERMINATE'
+    assert rows['SANB4']['valuation_status']=='INDETERMINATE'
+
+
+def test_2021_credit_method_change_is_explicit_without_retrospective_rejection():
+    rows=json.loads((m.INPUT/'fundamental_decisions.json').read_text())
+    porto=next(r for r in rows if r['year']==2021 and r['ticker']=='PSSA3')
+    d=porto['documentary_assessment']['dimensions']['earnings_reliability']
+    assert '1.890' in d['reason'] and '1.620' in d['reason'] and '123,8%' in d['reason']
+    assert any(e['docid']=='103273' and e['group']==192 and 25 in e['pages'] for e in d['evidence'])
+    assert porto['quality_category']=='QUALIFIED_SATISFACTORY'
+    assert next(r for r in rows if r['year']==2020 and r['ticker']=='PSSA3')['quality_category']=='QUALIFIED_SATISFACTORY'

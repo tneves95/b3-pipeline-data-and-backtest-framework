@@ -854,567 +854,801 @@
       "ticker": "SANB4",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": null,
-      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
-      "classification_changed": null,
-      "dimensions": {},
-      "dimension_evidence_updates": {
+      "assessment_ref": "90400888000142:2021",
+      "assessment_status": "ASSESSED",
+      "classification_changed": false,
+      "dimensions": {
         "durability": {
-          "favorable": "Banco Múltiplo com Carteira Comercial",
+          "status": "SATISFACTORY",
+          "reason": "Franquia diversificada de crédito, depósitos, veículos e serviços continua em 2021. A cisão Getnet foi aprovada em 31/03, mas as ações Santander ainda carregam o direito proporcional à Getnet até futura data de corte condicionada às aprovações; não se supõe perda do negócio sem compensação aos atuais titulares.",
+          "favorable": "A infraestrutura bancária e comercial permanece; Getnet é redistribuição de direitos explicitamente documentada.",
+          "contrary_evidence": "Pandemia, concorrência em pagamentos e execução de novos negócios Paytec/Gira/Toro são riscos concretos; não se presumem sinergias.",
+          "missing": "",
           "evidence": [
             {
-              "cnpj": "90400888000142",
-              "received": "2021-05-31",
-              "name": "BCO SANTANDER (BRASIL) S.A.",
-              "sector": "Bancos",
-              "activity": "Banco Múltiplo com Carteira Comercial",
-              "cvm": "020532",
-              "docid": "105182",
-              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=105182"
+              "docid": "100531",
+              "group": 412,
+              "pages": [
+                42,
+                43,
+                49,
+                116,
+                119,
+                136,
+                155,
+                156,
+                160,
+                161,
+                164,
+                165,
+                170,
+                171,
+                187,
+                190,
+                191,
+                200,
+                201
+              ],
+              "received": "2021-02-26",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=100531",
+              "original": "review_originals/cvm_100531_g412.pdf.gz",
+              "original_sha256": "94aa966ad6b16460740ce9be870ad63d09d6d989191715b662d2713b784a52b9"
+            },
+            {
+              "docid": "103127",
+              "group": 193,
+              "pages": [
+                35,
+                61,
+                66,
+                67,
+                74,
+                75
+              ],
+              "received": "2021-04-28",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=103127",
+              "original": "review_originals/cvm_103127_g193.pdf.gz",
+              "original_sha256": "aeec997d2100fbc4ab5b09ebfd210752e0d00d8d6983d62da068258e58220f3c"
+            },
+            {
+              "docid": "santander_getnet_presentation_20210302",
+              "group": 0,
+              "pages": [
+                3,
+                4,
+                5
+              ],
+              "received": "2021-03-02",
+              "url": "https://cms.santander.com.br/sites/WRI/documentos/url-apres-getnet/21-03-02_211904_apresentacao%20cisao%20getnet.pdf",
+              "original": "review_originals/getnet_presentation_20210302.pdf.gz",
+              "original_sha256": "5cef5c93ea4ce23e11c0cbdf778e677711b42c69c4fcb1bc6b05868c35e44fb0"
+            }
+          ],
+          "prior_year": 2020,
+          "review_2021": "Franquia diversificada de crédito, depósitos, veículos e serviços continua em 2021. A cisão Getnet foi aprovada em 31/03, mas as ações Santander ainda carregam o direito proporcional à Getnet até futura data de corte condicionada às aprovações; não se supõe perda do negócio sem compensação aos atuais titulares."
+        },
+        "capital_economics": {
+          "status": "INDETERMINATE",
+          "reason": "Mantém ND específico da economia do capital: lucro atribuível IFRS 2020 de R$ 13,418529 bilhões inclui benefícios tributários e efeitos financeiros que requerem normalização. Q1BRGAAP de R$ 2,816264 bilhões difere do recorrenteR$ 3,988812 bilhões, por ágio e baixa de crédito tributário Getnet. A margem operacional favorável é reconhecida, mas não se mistura ROE gerencial com capital prudencial ou patrimônioIFRS.",
+          "favorable": "Resultado positivo no choque e recuperação operacional; franquia possui atividade recorrente comprovada.",
+          "contrary_evidence": "A conciliação tributária2020p164 tem célula truncada no original, solucionável apenas por reconciliação conservadora, e o perímetro mudou.",
+          "missing": "Rentabilidade econômica do capital e por ação após os efeitos tributários/participações residuais e negócios vendidos; não basta ROE gerencial divulgado.",
+          "evidence": [
+            {
+              "docid": "100531",
+              "group": 412,
+              "pages": [
+                42,
+                43,
+                49,
+                116,
+                119,
+                136,
+                155,
+                156,
+                160,
+                161,
+                164,
+                165,
+                170,
+                171,
+                187,
+                190,
+                191,
+                200,
+                201
+              ],
+              "received": "2021-02-26",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=100531",
+              "original": "review_originals/cvm_100531_g412.pdf.gz",
+              "original_sha256": "94aa966ad6b16460740ce9be870ad63d09d6d989191715b662d2713b784a52b9"
+            },
+            {
+              "docid": "103127",
+              "group": 193,
+              "pages": [
+                35,
+                61,
+                66,
+                67,
+                74,
+                75
+              ],
+              "received": "2021-04-28",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=103127",
+              "original": "review_originals/cvm_103127_g193.pdf.gz",
+              "original_sha256": "aeec997d2100fbc4ab5b09ebfd210752e0d00d8d6983d62da068258e58220f3c"
+            },
+            {
+              "docid": "santander_getnet_presentation_20210302",
+              "group": 0,
+              "pages": [
+                3,
+                4,
+                5
+              ],
+              "received": "2021-03-02",
+              "url": "https://cms.santander.com.br/sites/WRI/documentos/url-apres-getnet/21-03-02_211904_apresentacao%20cisao%20getnet.pdf",
+              "original": "review_originals/getnet_presentation_20210302.pdf.gz",
+              "original_sha256": "5cef5c93ea4ce23e11c0cbdf778e677711b42c69c4fcb1bc6b05868c35e44fb0"
+            }
+          ],
+          "prior_year": 2020,
+          "review_2021": "Mantém ND específico da economia do capital: lucro atribuível IFRS 2020 de R$ 13,418529 bilhões inclui benefícios tributários e efeitos financeiros que requerem normalização. Q1BRGAAP de R$ 2,816264 bilhões difere do recorrenteR$ 3,988812 bilhões, por ágio e baixa de crédito tributário Getnet. A margem operacional favorável é reconhecida, mas não se mistura ROE gerencial com capital prudencial ou patrimônioIFRS."
+        },
+        "earnings_reliability": {
+          "status": "SATISFACTORY",
+          "reason": "Mantém SAT: notas separam lucro contábil/recorrente, mostram o hedge cambial com seus tributos e descrevem alienações, provisões e itens pós-emprego. A soma conjunta do hedge cambial é zero em 2018–20; remover só o benefício tributário produziria falsa perda econômica.",
+          "favorable": "Ganhos e riscos são identificáveis nas notas; capital próprio por classe reconcilia com FRE e quantidades no balanço.",
+          "contrary_evidence": "P164 possui erro visual de publicação e p74ITR traz anos incoerentes em Paytec/Gira; esses pontos ficam explicitamente registrados, sem alterar a fonte nem inventar números exatos.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "100531",
+              "group": 412,
+              "pages": [
+                42,
+                43,
+                49,
+                116,
+                119,
+                136,
+                155,
+                156,
+                160,
+                161,
+                164,
+                165,
+                170,
+                171,
+                187,
+                190,
+                191,
+                200,
+                201
+              ],
+              "received": "2021-02-26",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=100531",
+              "original": "review_originals/cvm_100531_g412.pdf.gz",
+              "original_sha256": "94aa966ad6b16460740ce9be870ad63d09d6d989191715b662d2713b784a52b9"
+            },
+            {
+              "docid": "103127",
+              "group": 193,
+              "pages": [
+                35,
+                61,
+                66,
+                67,
+                74,
+                75
+              ],
+              "received": "2021-04-28",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=103127",
+              "original": "review_originals/cvm_103127_g193.pdf.gz",
+              "original_sha256": "aeec997d2100fbc4ab5b09ebfd210752e0d00d8d6983d62da068258e58220f3c"
+            },
+            {
+              "docid": "santander_getnet_presentation_20210302",
+              "group": 0,
+              "pages": [
+                3,
+                4,
+                5
+              ],
+              "received": "2021-03-02",
+              "url": "https://cms.santander.com.br/sites/WRI/documentos/url-apres-getnet/21-03-02_211904_apresentacao%20cisao%20getnet.pdf",
+              "original": "review_originals/getnet_presentation_20210302.pdf.gz",
+              "original_sha256": "5cef5c93ea4ce23e11c0cbdf778e677711b42c69c4fcb1bc6b05868c35e44fb0"
+            }
+          ],
+          "prior_year": 2020,
+          "review_2021": "Mantém SAT: notas separam lucro contábil/recorrente, mostram o hedge cambial com seus tributos e descrevem alienações, provisões e itens pós-emprego. A soma conjunta do hedge cambial é zero em 2018–20; remover só o benefício tributário produziria falsa perda econômica."
+        },
+        "financial_resilience": {
+          "status": "SATISFACTORY",
+          "reason": "CET1 de 12,63%, Nível I13,91% e Basileia 15,18% em 31/03/2021, com PRR$ 87,353958 bilhões e RWA R$ 575,642618 bilhões, sustentam continuidade financeiraSAT. A nota61 explicita mínimos6,75/8,25/10,25% em março e elevação de0,375pp emabril e0,375pp emoutubro, evitando usar indefinidamente o alívio.",
+          "favorable": "Folga de capital maior que a observada em março2020; provisões e estrutura de captação são acompanhadas setorialmente.",
+          "contrary_evidence": "Basileia diminui levemente de 15,25% em dezembro; reservas e créditos tributários não asseguram absorção de toda perda pandêmica futura.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "100531",
+              "group": 412,
+              "pages": [
+                42,
+                43,
+                49,
+                116,
+                119,
+                136,
+                155,
+                156,
+                160,
+                161,
+                164,
+                165,
+                170,
+                171,
+                187,
+                190,
+                191,
+                200,
+                201
+              ],
+              "received": "2021-02-26",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=100531",
+              "original": "review_originals/cvm_100531_g412.pdf.gz",
+              "original_sha256": "94aa966ad6b16460740ce9be870ad63d09d6d989191715b662d2713b784a52b9"
+            },
+            {
+              "docid": "103127",
+              "group": 193,
+              "pages": [
+                35,
+                61,
+                66,
+                67,
+                74,
+                75
+              ],
+              "received": "2021-04-28",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=103127",
+              "original": "review_originals/cvm_103127_g193.pdf.gz",
+              "original_sha256": "aeec997d2100fbc4ab5b09ebfd210752e0d00d8d6983d62da068258e58220f3c"
+            },
+            {
+              "docid": "santander_getnet_presentation_20210302",
+              "group": 0,
+              "pages": [
+                3,
+                4,
+                5
+              ],
+              "received": "2021-03-02",
+              "url": "https://cms.santander.com.br/sites/WRI/documentos/url-apres-getnet/21-03-02_211904_apresentacao%20cisao%20getnet.pdf",
+              "original": "review_originals/getnet_presentation_20210302.pdf.gz",
+              "original_sha256": "5cef5c93ea4ce23e11c0cbdf778e677711b42c69c4fcb1bc6b05868c35e44fb0"
+            }
+          ],
+          "prior_year": 2020,
+          "review_2021": "CET1 de 12,63%, Nível I13,91% e Basileia 15,18% em 31/03/2021, com PRR$ 87,353958 bilhões e RWA R$ 575,642618 bilhões, sustentam continuidade financeiraSAT. A nota61 explicita mínimos6,75/8,25/10,25% em março e elevação de0,375pp emabril e0,375pp emoutubro, evitando usar indefinidamente o alívio."
+        },
+        "capital_allocation": {
+          "status": "INDETERMINATE",
+          "reason": "Mantém ND após avaliação das mudanças: Olé foi incorporada em 2020 após compra residual porR$ 1,608772 bilhões; Getnet tem cisão aprovada com direitos proporcionais; Superdigital foi vendida porR$ 270 milhões; novos negócios Paytec/Gira são efetivados e Toro ainda condicionado na informação de abril.",
+          "favorable": "Preços/datas e forma de proteção proporcional na cisão são divulgados; não há cancelamento de ações na redução de capital Getnet.",
+          "contrary_evidence": "Geração incremental líquida do custo dos investimentos residuais e novos negócios segue sem demonstração suficiente; lucros antigos de negócios vendidos não podem ser simplesmente perpetuados.",
+          "missing": "Ponte econômica da geração atribuível após custo de financiamento e negócios vendidos/adquiridos, e prova de retorno incremental das alocações, sem presumir sinergias.",
+          "evidence": [
+            {
+              "docid": "100531",
+              "group": 412,
+              "pages": [
+                42,
+                43,
+                49,
+                116,
+                119,
+                136,
+                155,
+                156,
+                160,
+                161,
+                164,
+                165,
+                170,
+                171,
+                187,
+                190,
+                191,
+                200,
+                201
+              ],
+              "received": "2021-02-26",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=100531",
+              "original": "review_originals/cvm_100531_g412.pdf.gz",
+              "original_sha256": "94aa966ad6b16460740ce9be870ad63d09d6d989191715b662d2713b784a52b9"
+            },
+            {
+              "docid": "103127",
+              "group": 193,
+              "pages": [
+                35,
+                61,
+                66,
+                67,
+                74,
+                75
+              ],
+              "received": "2021-04-28",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=103127",
+              "original": "review_originals/cvm_103127_g193.pdf.gz",
+              "original_sha256": "aeec997d2100fbc4ab5b09ebfd210752e0d00d8d6983d62da068258e58220f3c"
+            },
+            {
+              "docid": "santander_getnet_presentation_20210302",
+              "group": 0,
+              "pages": [
+                3,
+                4,
+                5
+              ],
+              "received": "2021-03-02",
+              "url": "https://cms.santander.com.br/sites/WRI/documentos/url-apres-getnet/21-03-02_211904_apresentacao%20cisao%20getnet.pdf",
+              "original": "review_originals/getnet_presentation_20210302.pdf.gz",
+              "original_sha256": "5cef5c93ea4ce23e11c0cbdf778e677711b42c69c4fcb1bc6b05868c35e44fb0"
+            }
+          ],
+          "prior_year": 2020,
+          "review_2021": "Mantém ND após avaliação das mudanças: Olé foi incorporada em 2020 após compra residual porR$ 1,608772 bilhões; Getnet tem cisão aprovada com direitos proporcionais; Superdigital foi vendida porR$ 270 milhões; novos negócios Paytec/Gira são efetivados e Toro ainda condicionado na informação de abril."
+        },
+        "governance": {
+          "status": "SATISFACTORY",
+          "reason": "Mantém SAT com análise concreta do tratamento dos titulares: cisãoGetnet preserva participação proporcional por classe e depende de data de corte futura anunciada. Controle concentrado e transações com a Espanha permanecem explicitamente contrapostos aos controles e à prestação de contas anteriormente examinados.",
+          "favorable": "Direitos de receberGetnet permanecem vinculados às açõesSantander; auditoria/comitê e divulgação de transações continuam.",
+          "contrary_evidence": "VendaSuperdigital à controladora e a nova separação de negócios exigem acompanhamento de comutatividade; não se afirma inexistência de conflitos pela listagem.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "100531",
+              "group": 412,
+              "pages": [
+                42,
+                43,
+                49,
+                116,
+                119,
+                136,
+                155,
+                156,
+                160,
+                161,
+                164,
+                165,
+                170,
+                171,
+                187,
+                190,
+                191,
+                200,
+                201
+              ],
+              "received": "2021-02-26",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=100531",
+              "original": "review_originals/cvm_100531_g412.pdf.gz",
+              "original_sha256": "94aa966ad6b16460740ce9be870ad63d09d6d989191715b662d2713b784a52b9"
+            },
+            {
+              "docid": "103127",
+              "group": 193,
+              "pages": [
+                35,
+                61,
+                66,
+                67,
+                74,
+                75
+              ],
+              "received": "2021-04-28",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=103127",
+              "original": "review_originals/cvm_103127_g193.pdf.gz",
+              "original_sha256": "aeec997d2100fbc4ab5b09ebfd210752e0d00d8d6983d62da068258e58220f3c"
+            },
+            {
+              "docid": "santander_getnet_presentation_20210302",
+              "group": 0,
+              "pages": [
+                3,
+                4,
+                5
+              ],
+              "received": "2021-03-02",
+              "url": "https://cms.santander.com.br/sites/WRI/documentos/url-apres-getnet/21-03-02_211904_apresentacao%20cisao%20getnet.pdf",
+              "original": "review_originals/getnet_presentation_20210302.pdf.gz",
+              "original_sha256": "5cef5c93ea4ce23e11c0cbdf778e677711b42c69c4fcb1bc6b05868c35e44fb0"
+            }
+          ],
+          "prior_year": 2020,
+          "review_2021": "Mantém SAT com análise concreta do tratamento dos titulares: cisãoGetnet preserva participação proporcional por classe e depende de data de corte futura anunciada. Controle concentrado e transações com a Espanha permanecem explicitamente contrapostos aos controles e à prestação de contas anteriormente examinados."
+        }
+      },
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "A infraestrutura bancária e comercial permanece; Getnet é redistribuição de direitos explicitamente documentada.",
+          "evidence": [
+            {
+              "docid": "100531",
+              "group": 412,
+              "pages": [
+                42,
+                43,
+                49,
+                116,
+                119,
+                136,
+                155,
+                156,
+                160,
+                161,
+                164,
+                165,
+                170,
+                171,
+                187,
+                190,
+                191,
+                200,
+                201
+              ],
+              "received": "2021-02-26",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=100531",
+              "original": "review_originals/cvm_100531_g412.pdf.gz",
+              "original_sha256": "94aa966ad6b16460740ce9be870ad63d09d6d989191715b662d2713b784a52b9"
+            },
+            {
+              "docid": "103127",
+              "group": 193,
+              "pages": [
+                35,
+                61,
+                66,
+                67,
+                74,
+                75
+              ],
+              "received": "2021-04-28",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=103127",
+              "original": "review_originals/cvm_103127_g193.pdf.gz",
+              "original_sha256": "aeec997d2100fbc4ab5b09ebfd210752e0d00d8d6983d62da068258e58220f3c"
+            },
+            {
+              "docid": "santander_getnet_presentation_20210302",
+              "group": 0,
+              "pages": [
+                3,
+                4,
+                5
+              ],
+              "received": "2021-03-02",
+              "url": "https://cms.santander.com.br/sites/WRI/documentos/url-apres-getnet/21-03-02_211904_apresentacao%20cisao%20getnet.pdf",
+              "original": "review_originals/getnet_presentation_20210302.pdf.gz",
+              "original_sha256": "5cef5c93ea4ce23e11c0cbdf778e677711b42c69c4fcb1bc6b05868c35e44fb0"
             }
           ]
         },
         "capital_economics": {
-          "favorable": {
-            "roe_parent_5": [
-              0.13030435848479283,
-              0.15222475766283214,
-              0.20176643165691835,
-              0.5030544503126197,
-              null
-            ],
-            "normalized_profit": 13850406667.312326
-          },
+          "favorable": "Resultado positivo no choque e recuperação operacional; franquia possui atividade recorrente comprovada.",
           "evidence": [
             {
-              "fiscal_year": 2016,
-              "metric": "attributable_ni",
-              "value": 7334563000.0,
-              "docid": "76554",
-              "received": "2018-07-30",
-              "reference": "2017-12-31",
-              "period_end": "2016-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
-            },
-            {
-              "fiscal_year": 2017,
-              "metric": "attributable_ni",
-              "value": 8924064000.0,
-              "docid": "80957",
-              "received": "2019-02-28",
-              "reference": "2018-12-31",
-              "period_end": "2017-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
-            },
-            {
-              "fiscal_year": 2018,
-              "metric": "attributable_ni",
-              "value": 12582477000.0,
-              "docid": "91518",
-              "received": "2020-03-12",
-              "reference": "2019-12-31",
-              "period_end": "2018-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
-            },
-            {
-              "fiscal_year": 2019,
-              "metric": "attributable_ni",
-              "value": 16406932000.0,
               "docid": "100531",
+              "group": 412,
+              "pages": [
+                42,
+                43,
+                49,
+                116,
+                119,
+                136,
+                155,
+                156,
+                160,
+                161,
+                164,
+                165,
+                170,
+                171,
+                187,
+                190,
+                191,
+                200,
+                201
+              ],
               "received": "2021-02-26",
-              "reference": "2020-12-31",
-              "period_end": "2019-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2020.csv",
-              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=100531",
+              "original": "review_originals/cvm_100531_g412.pdf.gz",
+              "original_sha256": "94aa966ad6b16460740ce9be870ad63d09d6d989191715b662d2713b784a52b9"
             },
             {
-              "fiscal_year": 2020,
-              "metric": "attributable_ni",
-              "value": 13418529000.0,
-              "docid": "100531",
-              "received": "2021-02-26",
-              "reference": "2020-12-31",
-              "period_end": "2020-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2020.csv",
-              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+              "docid": "103127",
+              "group": 193,
+              "pages": [
+                35,
+                61,
+                66,
+                67,
+                74,
+                75
+              ],
+              "received": "2021-04-28",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=103127",
+              "original": "review_originals/cvm_103127_g193.pdf.gz",
+              "original_sha256": "aeec997d2100fbc4ab5b09ebfd210752e0d00d8d6983d62da068258e58220f3c"
+            },
+            {
+              "docid": "santander_getnet_presentation_20210302",
+              "group": 0,
+              "pages": [
+                3,
+                4,
+                5
+              ],
+              "received": "2021-03-02",
+              "url": "https://cms.santander.com.br/sites/WRI/documentos/url-apres-getnet/21-03-02_211904_apresentacao%20cisao%20getnet.pdf",
+              "original": "review_originals/getnet_presentation_20210302.pdf.gz",
+              "original_sha256": "5cef5c93ea4ce23e11c0cbdf778e677711b42c69c4fcb1bc6b05868c35e44fb0"
             }
           ]
         },
         "earnings_reliability": {
-          "favorable": {
-            "positive_attributable_years": 5,
-            "audit_records": 12
-          },
+          "favorable": "Ganhos e riscos são identificáveis nas notas; capital próprio por classe reconcilia com FRE e quantidades no balanço.",
           "evidence": [
             {
               "docid": "100531",
+              "group": 412,
+              "pages": [
+                42,
+                43,
+                49,
+                116,
+                119,
+                136,
+                155,
+                156,
+                160,
+                161,
+                164,
+                165,
+                170,
+                171,
+                187,
+                190,
+                191,
+                200,
+                201
+              ],
               "received": "2021-02-26",
-              "reference": "2020-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2020.csv",
-              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=100531",
+              "original": "review_originals/cvm_100531_g412.pdf.gz",
+              "original_sha256": "94aa966ad6b16460740ce9be870ad63d09d6d989191715b662d2713b784a52b9"
             },
             {
-              "docid": "100531",
-              "received": "2021-02-26",
-              "reference": "2020-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2020.csv",
-              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+              "docid": "103127",
+              "group": 193,
+              "pages": [
+                35,
+                61,
+                66,
+                67,
+                74,
+                75
+              ],
+              "received": "2021-04-28",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=103127",
+              "original": "review_originals/cvm_103127_g193.pdf.gz",
+              "original_sha256": "aeec997d2100fbc4ab5b09ebfd210752e0d00d8d6983d62da068258e58220f3c"
             },
             {
-              "docid": "100531",
-              "received": "2021-02-26",
-              "reference": "2020-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2020.csv",
-              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
-            },
-            {
-              "docid": "100531",
-              "received": "2021-02-26",
-              "reference": "2020-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2020.csv",
-              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
-            },
-            {
-              "docid": "100531",
-              "received": "2021-02-26",
-              "reference": "2020-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2020.csv",
-              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
-            },
-            {
-              "docid": "100531",
-              "received": "2021-02-26",
-              "reference": "2020-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2020.csv",
-              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
-            },
-            {
-              "docid": "100531",
-              "received": "2021-02-26",
-              "reference": "2020-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2020.csv",
-              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
-            },
-            {
-              "docid": "100531",
-              "received": "2021-02-26",
-              "reference": "2020-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2020.csv",
-              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
-            },
-            {
-              "docid": "100531",
-              "received": "2021-02-26",
-              "reference": "2020-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2020.csv",
-              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
-            },
-            {
-              "docid": "100531",
-              "received": "2021-02-26",
-              "reference": "2020-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2020.csv",
-              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
-            },
-            {
-              "docid": "100531",
-              "received": "2021-02-26",
-              "reference": "2020-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2020.csv",
-              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
-            },
-            {
-              "docid": "100531",
-              "received": "2021-02-26",
-              "reference": "2020-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2020.csv",
-              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+              "docid": "santander_getnet_presentation_20210302",
+              "group": 0,
+              "pages": [
+                3,
+                4,
+                5
+              ],
+              "received": "2021-03-02",
+              "url": "https://cms.santander.com.br/sites/WRI/documentos/url-apres-getnet/21-03-02_211904_apresentacao%20cisao%20getnet.pdf",
+              "original": "review_originals/getnet_presentation_20210302.pdf.gz",
+              "original_sha256": "5cef5c93ea4ce23e11c0cbdf778e677711b42c69c4fcb1bc6b05868c35e44fb0"
             }
           ]
         },
         "financial_resilience": {
-          "favorable": {
-            "parent_equity_latest": 0.0
-          },
+          "favorable": "Folga de capital maior que a observada em março2020; provisões e estrutura de captação são acompanhadas setorialmente.",
           "evidence": [
             {
               "docid": "100531",
+              "group": 412,
+              "pages": [
+                42,
+                43,
+                49,
+                116,
+                119,
+                136,
+                155,
+                156,
+                160,
+                161,
+                164,
+                165,
+                170,
+                171,
+                187,
+                190,
+                191,
+                200,
+                201
+              ],
               "received": "2021-02-26",
-              "reference": "2020-12-31",
-              "period_end": "2020-12-31",
-              "perimeter": "ind",
-              "account": "2.07",
-              "description": "Patrimônio Líquido",
-              "source": "dfp_cia_aberta_BPP_ind_2020.csv",
-              "archive_sha256": "",
-              "url": ""
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=100531",
+              "original": "review_originals/cvm_100531_g412.pdf.gz",
+              "original_sha256": "94aa966ad6b16460740ce9be870ad63d09d6d989191715b662d2713b784a52b9"
+            },
+            {
+              "docid": "103127",
+              "group": 193,
+              "pages": [
+                35,
+                61,
+                66,
+                67,
+                74,
+                75
+              ],
+              "received": "2021-04-28",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=103127",
+              "original": "review_originals/cvm_103127_g193.pdf.gz",
+              "original_sha256": "aeec997d2100fbc4ab5b09ebfd210752e0d00d8d6983d62da068258e58220f3c"
+            },
+            {
+              "docid": "santander_getnet_presentation_20210302",
+              "group": 0,
+              "pages": [
+                3,
+                4,
+                5
+              ],
+              "received": "2021-03-02",
+              "url": "https://cms.santander.com.br/sites/WRI/documentos/url-apres-getnet/21-03-02_211904_apresentacao%20cisao%20getnet.pdf",
+              "original": "review_originals/getnet_presentation_20210302.pdf.gz",
+              "original_sha256": "5cef5c93ea4ce23e11c0cbdf778e677711b42c69c4fcb1bc6b05868c35e44fb0"
             }
           ]
         },
         "capital_allocation": {
-          "favorable": {
-            "historical_payout": [
-              1.0008,
-              0.8294,
-              0.5710000000000001,
-              0.8069,
-              null
-            ],
-            "distributions": [
-              5250000000.0,
-              6300000000.03,
-              6600000000.0,
-              10800000000.0,
-              null
-            ]
-          },
+          "favorable": "Preços/datas e forma de proteção proporcional na cisão são divulgados; não há cancelamento de ações na redução de capital Getnet.",
           "evidence": [
             {
-              "docid": "94651",
-              "received": "2020-07-08",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2019.csv",
-              "archive_sha256": "30f461d5d3b3cdbab84faac20c158c6a41cea1ee0223c40d988db9845e2c6a51",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=94651",
-              "fiscal_year": 2016,
-              "raw": {
-                "CNPJ_Companhia": "90.400.888/0001-42",
-                "Data_Referencia": "2019-01-01",
-                "Versao": "19",
-                "ID_Documento": "94651",
-                "Nome_Companhia": "BCO SANTANDER (BRASIL) S.A.",
-                "Data_Inicio_Exercicio_Social": "2016-01-01",
-                "Data_Fim_Exercicio_Social": "2016-12-31",
-                "Lucro_Liquido_Ajustado": "5245554617.99",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "10.07000000",
-                "Lucro_Liquido_Retido": "971636439.99",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "100.08000000",
-                "Dividendo_Distribuido_Total": "5250000000.00",
-                "Data_Aprovacao_Retencao": "2017-04-28"
-              }
+              "docid": "100531",
+              "group": 412,
+              "pages": [
+                42,
+                43,
+                49,
+                116,
+                119,
+                136,
+                155,
+                156,
+                160,
+                161,
+                164,
+                165,
+                170,
+                171,
+                187,
+                190,
+                191,
+                200,
+                201
+              ],
+              "received": "2021-02-26",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=100531",
+              "original": "review_originals/cvm_100531_g412.pdf.gz",
+              "original_sha256": "94aa966ad6b16460740ce9be870ad63d09d6d989191715b662d2713b784a52b9"
             },
             {
-              "docid": "103768",
-              "received": "2021-05-11",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2020.csv",
-              "archive_sha256": "17d2d911201f64dc8ff501104ce8fe343cd4ab3bdb41ea03eb6bfc2c4f6b80ab",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=103768",
-              "fiscal_year": 2017,
-              "raw": {
-                "CNPJ_Companhia": "90.400.888/0001-42",
-                "Data_Referencia": "2020-01-01",
-                "Versao": "10",
-                "ID_Documento": "103768",
-                "Nome_Companhia": "BCO SANTANDER (BRASIL) S.A.",
-                "Data_Inicio_Exercicio_Social": "2017-01-01",
-                "Data_Fim_Exercicio_Social": "2017-12-31",
-                "Lucro_Liquido_Ajustado": "7596078435.18",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "14.59000000",
-                "Lucro_Liquido_Retido": "1695872037.03",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "82.94000000",
-                "Dividendo_Distribuido_Total": "6300000000.03",
-                "Data_Aprovacao_Retencao": "2018-04-27"
-              }
+              "docid": "103127",
+              "group": 193,
+              "pages": [
+                35,
+                61,
+                66,
+                67,
+                74,
+                75
+              ],
+              "received": "2021-04-28",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=103127",
+              "original": "review_originals/cvm_103127_g193.pdf.gz",
+              "original_sha256": "aeec997d2100fbc4ab5b09ebfd210752e0d00d8d6983d62da068258e58220f3c"
             },
             {
-              "docid": "103768",
-              "received": "2021-05-11",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2020.csv",
-              "archive_sha256": "17d2d911201f64dc8ff501104ce8fe343cd4ab3bdb41ea03eb6bfc2c4f6b80ab",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=103768",
-              "fiscal_year": 2018,
-              "raw": {
-                "CNPJ_Companhia": "90.400.888/0001-42",
-                "Data_Referencia": "2020-01-01",
-                "Versao": "10",
-                "ID_Documento": "103768",
-                "Nome_Companhia": "BCO SANTANDER (BRASIL) S.A.",
-                "Data_Inicio_Exercicio_Social": "2018-01-01",
-                "Data_Fim_Exercicio_Social": "2018-12-31",
-                "Lucro_Liquido_Ajustado": "11558074566.48",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "18.65000000",
-                "Lucro_Liquido_Retido": "5566394280.51",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "57.10000000",
-                "Dividendo_Distribuido_Total": "6600000000.00",
-                "Data_Aprovacao_Retencao": "2019-04-26"
-              }
-            },
-            {
-              "docid": "103768",
-              "received": "2021-05-11",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2020.csv",
-              "archive_sha256": "17d2d911201f64dc8ff501104ce8fe343cd4ab3bdb41ea03eb6bfc2c4f6b80ab",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=103768",
-              "fiscal_year": 2019,
-              "raw": {
-                "CNPJ_Companhia": "90.400.888/0001-42",
-                "Data_Referencia": "2020-01-01",
-                "Versao": "10",
-                "ID_Documento": "103768",
-                "Nome_Companhia": "BCO SANTANDER (BRASIL) S.A.",
-                "Data_Inicio_Exercicio_Social": "2019-01-01",
-                "Data_Fim_Exercicio_Social": "2019-12-31",
-                "Lucro_Liquido_Ajustado": "14089180217.18",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "15.50000000",
-                "Lucro_Liquido_Retido": "2584721257.62",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "80.69000000",
-                "Dividendo_Distribuido_Total": "10800000000.00",
-                "Data_Aprovacao_Retencao": "2020-04-30"
-              }
+              "docid": "santander_getnet_presentation_20210302",
+              "group": 0,
+              "pages": [
+                3,
+                4,
+                5
+              ],
+              "received": "2021-03-02",
+              "url": "https://cms.santander.com.br/sites/WRI/documentos/url-apres-getnet/21-03-02_211904_apresentacao%20cisao%20getnet.pdf",
+              "original": "review_originals/getnet_presentation_20210302.pdf.gz",
+              "original_sha256": "5cef5c93ea4ce23e11c0cbdf778e677711b42c69c4fcb1bc6b05868c35e44fb0"
             }
           ]
         },
         "governance": {
-          "favorable": {
-            "dated_shareholder_right_records": 22,
-            "dated_related_party_records": 1046
-          },
+          "favorable": "Direitos de receberGetnet permanecem vinculados às açõesSantander; auditoria/comitê e divulgação de transações continuam.",
           "evidence": [
             {
               "docid": "100531",
+              "group": 412,
+              "pages": [
+                42,
+                43,
+                49,
+                116,
+                119,
+                136,
+                155,
+                156,
+                160,
+                161,
+                164,
+                165,
+                170,
+                171,
+                187,
+                190,
+                191,
+                200,
+                201
+              ],
               "received": "2021-02-26",
-              "reference": "2020-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2020.csv",
-              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=100531",
+              "original": "review_originals/cvm_100531_g412.pdf.gz",
+              "original_sha256": "94aa966ad6b16460740ce9be870ad63d09d6d989191715b662d2713b784a52b9"
             },
             {
-              "docid": "100531",
-              "received": "2021-02-26",
-              "reference": "2020-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2020.csv",
-              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+              "docid": "103127",
+              "group": 193,
+              "pages": [
+                35,
+                61,
+                66,
+                67,
+                74,
+                75
+              ],
+              "received": "2021-04-28",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=103127",
+              "original": "review_originals/cvm_103127_g193.pdf.gz",
+              "original_sha256": "aeec997d2100fbc4ab5b09ebfd210752e0d00d8d6983d62da068258e58220f3c"
             },
             {
-              "docid": "100531",
-              "received": "2021-02-26",
-              "reference": "2020-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2020.csv",
-              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
-            },
-            {
-              "docid": "100531",
-              "received": "2021-02-26",
-              "reference": "2020-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2020.csv",
-              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
-            },
-            {
-              "docid": "100531",
-              "received": "2021-02-26",
-              "reference": "2020-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2020.csv",
-              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
-            },
-            {
-              "docid": "100531",
-              "received": "2021-02-26",
-              "reference": "2020-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2020.csv",
-              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
-            },
-            {
-              "docid": "100531",
-              "received": "2021-02-26",
-              "reference": "2020-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2020.csv",
-              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
-            },
-            {
-              "docid": "100531",
-              "received": "2021-02-26",
-              "reference": "2020-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2020.csv",
-              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
-            },
-            {
-              "docid": "100531",
-              "received": "2021-02-26",
-              "reference": "2020-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2020.csv",
-              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
-            },
-            {
-              "docid": "100531",
-              "received": "2021-02-26",
-              "reference": "2020-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2020.csv",
-              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
-            },
-            {
-              "docid": "100531",
-              "received": "2021-02-26",
-              "reference": "2020-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2020.csv",
-              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
-            },
-            {
-              "docid": "100531",
-              "received": "2021-02-26",
-              "reference": "2020-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2020.csv",
-              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+              "docid": "santander_getnet_presentation_20210302",
+              "group": 0,
+              "pages": [
+                3,
+                4,
+                5
+              ],
+              "received": "2021-03-02",
+              "url": "https://cms.santander.com.br/sites/WRI/documentos/url-apres-getnet/21-03-02_211904_apresentacao%20cisao%20getnet.pdf",
+              "original": "review_originals/getnet_presentation_20210302.pdf.gz",
+              "original_sha256": "5cef5c93ea4ce23e11c0cbdf778e677711b42c69c4fcb1bc6b05868c35e44fb0"
             }
           ]
         }
