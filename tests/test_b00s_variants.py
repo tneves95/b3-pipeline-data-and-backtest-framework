@@ -80,3 +80,22 @@ def test_no_fictitious_zero_or_late_start():
     run=m.simulate('VQ',ds,end_year=2025)
     assert len(run['annual'])==12 and not run['holdings']
     assert all(r['return_pct']=='' and r['status']=='NOT_FORMED' for r in run['annual'])
+
+
+def test_2023_pagination_label_correction_cannot_hide_source_or_decision_changes():
+    import copy, hashlib
+    path='research/b00s_four_variants_2014_2026/inputs/review_original_sources.json'
+    old='Complete original submitted XML; logical units, not PDF pages: 1 independent auditor, 2 audit committee, 3 directors declaration. No newly generated aggregate PDF.'
+    rows=[dict(docid='124409',group=1654,extraction=old,received='2023-03-21',original_sha256='original')]
+    encode=lambda values: (json.dumps(values,ensure_ascii=False,indent=2)+'\n').encode()
+    expected=hashlib.sha256(encode(rows)).hexdigest()
+    corrected=copy.deepcopy(rows)
+    corrected[0]['extraction']=old.replace('not PDF pages','NOT PDF pagination')
+    assert m.frozen_artifact_digest(path,encode(corrected),2023)==expected
+    assert m.frozen_artifact_digest(path,encode(rows),2023)==expected
+    assert m.frozen_artifact_digest(path,encode(corrected)+b' ',2023)!=expected
+    for key,value in [('received','2024-03-21'),('original_sha256','different'),('docid','different'),('group',412)]:
+        altered=copy.deepcopy(corrected);altered[0][key]=value
+        assert m.frozen_artifact_digest(path,encode(altered),2023)!=expected
+    assert m.frozen_artifact_digest(path,encode(corrected),2024)!=expected
+    assert m.frozen_artifact_digest('fundamental_decisions.json',encode(corrected),2023)!=expected

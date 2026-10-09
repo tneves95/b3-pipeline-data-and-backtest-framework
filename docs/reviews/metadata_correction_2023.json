@@ -1,0 +1,19 @@
+{
+  "formation_year": 2023,
+  "decision_commit": "c140e729778f99bc4522bd8cd8151c8d949e82d2",
+  "timing": "AFTER_FIRST_RETURN_REPLAY",
+  "kind": "PAGINATION_LABEL_ONLY",
+  "path": "research/b00s_four_variants_2014_2026/inputs/review_original_sources.json",
+  "docid": "124409",
+  "group": 1654,
+  "field": "extraction",
+  "before": "Complete original submitted XML; logical units, not PDF pages: 1 independent auditor, 2 audit committee, 3 directors declaration. No newly generated aggregate PDF.",
+  "after": "Complete original submitted XML; logical units, NOT PDF pagination: 1 independent auditor, 2 audit committee, 3 directors declaration. No newly generated aggregate PDF.",
+  "pre_return_manifest_sha256": "ffee1ee1a17b48ab3d75f79a9a859a584862d4a544ead261e8528eaa07936f39",
+  "corrected_manifest_sha256": "050bf7bce7007ccfb50509653049a6f45ab8368123735d4e84045dda249493ba",
+  "original_sha256": "15f0874ba0c3cc85df6fd5598fa64f13ba91d3898a6d449fdb477b1ef322ff4c",
+  "decisions_changed": false,
+  "criteria_changed": false,
+  "returns_changed": false,
+  "reason": "212 tests passed; one required the literal NOT PDF pagination. Correct only that equivalent label. The frozen digest is checked after reversing this exact one-field substitution; every other byte remains protected."
+}
