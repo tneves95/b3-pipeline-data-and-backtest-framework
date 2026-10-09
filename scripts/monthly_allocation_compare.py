@@ -19,6 +19,8 @@ from monthly_policy_corrected import (FAIL_REASON, maintenance_evidence,
     recognize_winners as base_recognize_winners)
 from monthly_tax_accounting import Fiscal
 
+original_allocator = engine.allocate_cash
+
 ROOT = original.ROOT
 PARENT = ROOT / 'research/monthly_policy_corrected_2014_2026'
 OUT = ROOT / 'research/monthly_allocation_comparison_2014_2026'
