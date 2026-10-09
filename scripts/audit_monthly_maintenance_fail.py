@@ -43,7 +43,7 @@ def main():
     # Freeze the actual existing files rather than assume labels prove decisions.
     oldfiles=[p for p in RESULT.rglob('*') if p.is_file()]
     oldfiles += [ROOT/'scripts/monthly_policy_corrected.py',ROOT/'scripts/monthly_corrected_simulate.py']
-    protected={str(p.relative_to(ROOT)):digest(p) for p in oldfiles}
+    protected={str(p.relative_to(ROOT)):digest(p) for p in sorted(set(oldfiles))}
     review=economic.read(ROOT/'research/b00s_four_variants_2014_2026/results/review_ledger.csv')
     screens=economic.read(SELECTION/'screening.csv')
     screen={(int(r['year']),canonical(r['ticker'])):r for r in screens if r['strategy']=='B00S'}
