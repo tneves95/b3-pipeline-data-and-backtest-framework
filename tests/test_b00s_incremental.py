@@ -11,6 +11,46 @@ from b00s_fundamentals import Fundamentals, valuation_gate
 from b00s_documentary import load_reviews
 from b00s_incremental import calculate_metrics
 
+def test_three_profit_ceilings_can_reject_price_without_fabricating_missing_years():
+    from b00s_documentary import profit_interval
+    from b00s_fundamentals import bounded_valuation
+    review={'ticker':'TEST3','valuation':{'profit_bounds':{
+        str(y):dict(lower=None,upper=v) for y,v in
+        zip(range(2014,2019),[None,90,95,100,None])}}}
+    profit=profit_interval([None,80,85,90,110],[1]*5,2019,review)
+    assert profit==dict(lower=None,upper=100)
+    capital=dict(lower=2501,upper=None)
+    missing=['FIVE_COMPARABLE_ATTRIBUTABLE_PROFITS_MISSING','UNQUOTED_OR_UNRECONCILED_SHARE_CLASS']
+    assert bounded_valuation(capital,profit,missing)==(None,'INDETERMINATE')
+    interval,status=bounded_valuation(capital,profit,missing,['UNQUOTED_OR_UNRECONCILED_SHARE_CLASS'])
+    assert interval==dict(lower=25.01,upper=None) and status=='REJECTED_PRICE'
+    assert bounded_valuation(dict(lower=2500,upper=None),profit)[1]=='INDETERMINATE'
+    # A lower price endpoint never admits a mature company or proves reinvestment.
+    assert bounded_valuation(dict(lower=1400,upper=None),profit)[1]=='INDETERMINATE'
+    assert bounded_valuation(dict(lower=1400,upper=1500),dict(lower=100,upper=None))[1]=='PASS_MATURE'
+
+def test_irb_2019_price_rejection_is_separate_from_dated_quality_assessment():
+    rows={r['ticker']:r for r in json.loads((m.INPUT/'fundamental_decisions.json').read_text()) if r['year']==2019}
+    assert set(rows)=={r['ticker'] for r in m.candidates() if r['year']==2019}
+    irb=rows['IRBR3'];review=irb['documentary_assessment'];proof=review['numerical_proof']
+    real=[]
+    for year,items in proof['annual_additions'].items():
+        upper=sum(item['amount_brl'] for item in items)
+        assert upper==review['valuation']['profit_bounds'][year]['upper']
+        real.append(upper*proof['ipca_factors'][year])
+    assert proof['median_upper']==pytest.approx(max(real))
+    assert proof['market_cap_on_lower']==312000000*98.50
+    assert proof['pe_lower']==pytest.approx(proof['market_cap_on_lower']/max(real))
+    assert proof['treasury_sensitivity']['pe_lower']>25
+    assert irb['normalized_pe'] is None and irb['market_cap'] is None
+    assert irb['normalized_pe_interval']['lower']==pytest.approx(proof['pe_lower'])
+    assert irb['normalized_pe_interval']['upper'] is None
+    assert irb['valuation_status']=='REJECTED_PRICE'
+    assert irb['quality_category']=='QUALIFIED_SATISFACTORY'
+    assert all(d['status']=='SATISFACTORY' for d in review['dimensions'].values())
+    assert {r['ticker'] for r in rows.values() if r['quality_category'].startswith('QUALIFIED')}=={'ABCB4','BBSE3','IRBR3','PSSA3'}
+    assert rows['CPFE3']['market_cap'] is None  # June issuance invalidates the old FRE count.
+
 def test_reusing_a_dossier_does_not_reuse_annual_valuation_or_metric_proofs():
     from b00s_documentary import expand_incremental, DIMENSIONS
     previous=next(r for r in json.loads((m.INPUT/'economic_reviews_2015.json').read_text()) if r['ticker']=='TIMP3')
@@ -181,9 +221,17 @@ def test_downloaded_originals_match_delivery_version_and_embedded_pdf():
         version=ET.fromstring(inner.read(f'FormularioDemonstracaoFinanceira{kind}.xml'))
         assert version.findtext('.//NumeroVersaoDocumento')==s['version']
         assert version.findtext('.//DataReferenciaDocumento')==s['reference']
-        notes=ET.fromstring(inner.read('AnexoDocumento.xml'))
-        node=next(n for n in notes if int(n.findtext('NumeroGrupoRelacionado','0'))==r['group'])
-        original=base64.b64decode(node.findtext('ImagemObjetoArquivoPdf'),validate=True)
+        if r.get('source_format')=='original_xml':
+            # Native audit/DFC records are verified against the actual submission,
+            # just as embedded PDFs are; logical units are not invented PDF pages.
+            member='InfoFinaDFin.xml' if r['group']==0 else 'AnexoTexto.xml'
+            original=inner.read(member)
+            ET.fromstring(original)
+            assert 'NOT PDF pagination' in r['extraction']
+        else:
+            notes=ET.fromstring(inner.read('AnexoDocumento.xml'))
+            node=next(n for n in notes if int(n.findtext('NumeroGrupoRelacionado','0'))==r['group'])
+            original=base64.b64decode(node.findtext('ImagemObjetoArquivoPdf'),validate=True)
         assert hashlib.sha256(original).hexdigest()==r['original_sha256']
         assert original==gzip.decompress((m.INPUT/r['original']).read_bytes())
 

@@ -3,7 +3,7 @@ from b00s_variants import *
 from b00s_report import table
 
 def references(section):
-    return '; '.join(f"[{e['docid']}/g{e['group']}, páginas {','.join(map(str,e['pages']))}]({e['url']}) (disponível {e['received']})" for e in section['evidence'])
+    return '; '.join(f"[{e['docid']}/g{e['group']}, {'unidades' if e.get('original','').endswith('.xml.gz') else 'páginas'} {','.join(map(str,e['pages']))}]({e['url']}) (disponível {e['received']})" for e in section['evidence'])
 
 def main():
     verify_accepted_initial()
@@ -65,10 +65,14 @@ As seleções, retornos, fontes e documentos aceitos de junho/2014–junho/2015 
             decisions.append(dict(ticker=f['ticker'],VVAL=f['valuation_status'],PL=f['normalized_pe'] if comparable else '',PL_max=iv['upper'] if iv else '',
                 VQ=f['quality_category'],dimensoes_satisfatorias=sum(d['status'] in ['SATISFACTORY','HIGH'] for d in dims.values()),
                 dimensoes_ND=sum(d['status']=='INDETERMINATE' for d in dims.values())))
+            if year>=2019:decisions[-1]['PL_min']=iv['lower'] if iv else ''
         text+='\n\n## Decisões de entrada anteriores aos retornos\n\n'+table(decisions,list(decisions[0]))
         mature=[f['ticker'] for f in facts if f['valuation_status']=='PASS_MATURE']
         productive=[f['ticker'] for f in facts if f['valuation_status']=='PASS_REINVESTOR']
-        text+='\n\nCanal até P/L 15: '+', '.join(mature)+'. Canal de reinvestimento produtivo entre 15 e 25: '+(', '.join(productive) if productive else 'nenhuma aprovação comprovada neste corte')+'. A classificação do canal de preço não presume que uma empresa deixou de investir.\n'
+        mature_text=', '.join(mature) if mature or year<2019 else 'nenhuma nova aprovação comprovada neste corte'
+        text+='\n\nCanal até P/L 15: '+mature_text+'. Canal de reinvestimento produtivo entre 15 e 25: '+(', '.join(productive) if productive else 'nenhuma aprovação comprovada neste corte')+'. A classificação do canal de preço não presume que uma empresa deixou de investir.\n'
+        if year>=2019:
+            text+='\nUm limite inferior de P/L acima de 25 comprova rejeição por preço. Um limite superior até 15 comprova o canal maduro. Pontas desconhecidas continuam ND; o intervalo nunca substitui as exigências cumulativas de reinvestimento.\n'
         premium=[]
         for f in facts:
             if f['normalized_pe'] is not None and 15<f['normalized_pe']<=25:
@@ -90,6 +94,10 @@ As seleções, retornos, fontes e documentos aceitos de junho/2014–junho/2015 
             dossier+='Fontes da atualização: '+references(r['incremental_review'])+'.\n\nFontes do valuation: '+references(r['valuation'])+'.\n'
             if r.get('economic_metrics'):
                 dossier+='\nProva econômica:\n\n```json\n'+json.dumps(r['economic_metrics'],ensure_ascii=False,indent=2)+'\n```\n'
+            if year>=2019 and r.get('numerical_proof'):
+                dossier+='\nMemória dos limites documentados:\n\n```json\n'+json.dumps(r['numerical_proof'],ensure_ascii=False,indent=2)+'\n```\n'
+        if year>=2019:
+            dossier+='\nReferências a originais XML usam unidades lógicas do formulário CVM, identificadas no manifesto, e não páginas de PDF. Os documentos originais e seus hashes ficam preservados.\n'
         (ROOT/f'docs/dossies_b00s_{year}.md').write_text('\n'.join(line.rstrip() for line in dossier.splitlines())+'\n')
     verify_accepted_initial()
     verify_completed_batches()

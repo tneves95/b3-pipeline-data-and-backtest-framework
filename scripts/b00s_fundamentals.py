@@ -33,6 +33,28 @@ def valuation_gate(pe, evidence, mature=15, premium=25):
         return 'PASS_REINVESTOR'
     return 'REJECTED_REINVESTMENT'
 
+def bounded_valuation(capital, profit, missing=(), resolved_missing=()):
+    """Apply the same 15/25 gates when dated evidence bounds the five-year median.
+
+    A finite profit ceiling and capital floor can rule out a purchase without
+    inventing the other endpoints. Unknown annual profits are already represented
+    by unbounded observations in profit_interval. Other unresolved facts still
+    block the decision unless an explicit documentary capital bridge resolves them.
+    """
+    unresolved=set(missing)-{'FIVE_COMPARABLE_ATTRIBUTABLE_PROFITS_MISSING'}-set(resolved_missing)
+    if not profit or unresolved:return None,'INDETERMINATE'
+    cl,ch=capital['lower'],capital['upper'];pl,ph=profit['lower'],profit['upper']
+    if cl is not None and (cl<0 or ch is not None and cl>ch):
+        raise ValueError('Invalid capital bounds')
+    lower=cl/ph if cl is not None and ph is not None and ph>0 else 0
+    upper=ch/pl if ch is not None and pl is not None and pl>0 else None
+    if not lower and upper is None:return None,'INDETERMINATE'
+    interval=dict(lower=lower,upper=upper)
+    if lower>25:return interval,'REJECTED_PRICE'
+    if upper is not None and upper<=15:return interval,'PASS_MATURE'
+    # A range never supplies the cumulative proof needed for the premium.
+    return interval,'INDETERMINATE'
+
 def quality_gate(dimensions):
     if set(dimensions)!=set(DIMENSIONS):raise ValueError('Six non-compensatory dimensions required')
     if any(r['status']=='REJECTED_EVIDENCED' and r.get('material_evidence') for r in dimensions.values()):return 'REJECTED_EVIDENCED'
@@ -209,10 +231,9 @@ class Fundamentals:
                     f['normalized_pe']=None;f['normalized_profit']=None
                     caplo=capital_interval['lower'] if capital_interval else mc
                     caphi=capital_interval['upper'] if capital_interval else mc
-                    if interval and caphi is not None and not missing and interval['lower'] and interval['lower']>0:
-                        f['normalized_pe_interval']=dict(lower=caplo/interval['upper'] if interval['upper'] and interval['upper']>0 else 0,
-                                                       upper=caphi/interval['lower'])
-                        if f['normalized_pe_interval']['upper']<=15:f['valuation_status']='PASS_MATURE'
+                    f['normalized_pe_interval'],f['valuation_status']=bounded_valuation(
+                        dict(lower=caplo,upper=caphi),interval,missing,
+                        capital_interval.get('resolved_missing',[]) if capital_interval else ())
                     f['bazin_normalized_dy']=None;f['bazin_issuer_price_ceiling']=None
                 if not review or review['status'] not in ['COMPARABLE','COMPARABLE_BOUNDED']:f['missing']+=';ECONOMIC_PERIMETER_AND_NONRECURRING_ITEMS_REVIEW'
                 if preliminary=='INDETERMINATE' and pe is not None and 15<pe<=25:f['missing']+=';ADJUSTED_REAL_EPS_CAGR;REINVESTMENT_SOLIDITY;'+('ROIC' if sector not in ['Bancos','Seguros'] else 'PRUDENTIAL_CAPITAL_CREDIT_OR_RESERVES')

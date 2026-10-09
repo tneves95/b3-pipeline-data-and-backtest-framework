@@ -58,8 +58,13 @@ def main():
         for k,r in scenario.items():
             if r['perimeter_review'] and r['perimeter_review']['status']=='COMPARABLE' and not r['missing']:
                 r['valuation_status']=valuation_gate(r['normalized_pe'],r,mature,premium)
-            elif r.get('normalized_pe_interval') and not r['missing']:
-                r['valuation_status']='PASS_MATURE' if r['normalized_pe_interval']['upper']<=mature else 'INDETERMINATE'
+            elif r.get('normalized_pe_interval'):
+                # The certified interval already resolves its documentary bounds;
+                # missing point estimates are not fictitious interval endpoints.
+                interval=r['normalized_pe_interval']
+                r['valuation_status']=('REJECTED_PRICE' if interval['lower']>premium else
+                    'PASS_MATURE' if interval['upper'] is not None and interval['upper']<=mature else
+                    'INDETERMINATE')
             decision_diff.append(dict(case=f'VVAL_{mature}_{premium}',year=r['year'],ticker=r['ticker'],
                 main_decision=ds[k]['valuation_status'],scenario_decision=r['valuation_status'],different=r['valuation_status']!=ds[k]['valuation_status']))
         record(f'VVAL_{mature}_{premium}',simulate('VVAL',scenario),'FIXED_PE_THRESHOLDS_SAME_EVIDENCE',base_final)

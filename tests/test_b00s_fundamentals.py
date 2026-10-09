@@ -64,5 +64,10 @@ def test_price_and_quality_only_gate_entries():
 
 def test_irbr_2019_not_rejected_by_future_events():
     r=next(r for r in json.loads((m.INPUT/'fundamental_decisions.json').read_text()) if r['ticker']=='IRBR3' and r['year']==2019)
-    assert r['quality_category']=='INDETERMINATE'
+    assert r['quality_category']=='QUALIFIED_SATISFACTORY'
+    review=r['documentary_assessment']
+    assert review['cutoff']==m.DATES[2019]
+    for dimension in review['dimensions'].values():
+        assert dimension['status']=='SATISFACTORY' and dimension['evidence']
+        assert all(e['received']<=m.DATES[2019] for e in dimension['evidence'])
     assert all(e['received']<=m.DATES[2019] for e in r['profit_evidence'])

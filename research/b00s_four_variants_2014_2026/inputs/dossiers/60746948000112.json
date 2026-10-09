@@ -3281,591 +3281,537 @@
       "ticker": "BBDC4",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": null,
-      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
-      "classification_changed": null,
-      "dimensions": {},
-      "dimension_evidence_updates": {
+      "assessment_ref": "60746948000112:2019",
+      "assessment_status": "ASSESSED",
+      "classification_changed": true,
+      "dimensions": {
         "durability": {
-          "favorable": "Prática de operações bancárias em geral, inclusive câmbio",
+          "status": "SATISFACTORY",
+          "reason": "A franquia nacional de banco e seguros permanece operante após HSBC. A aquisição de65% da RCB e100% da OdontoSystem, e a passagem do processamento Fidelity para controle integral, são eventos conhecidos; não são usados para inventar nova série histórica de lucro.",
+          "favorable": "Evidências quantitativas e documentais atuais constam da fundamentação desta dimensão.",
+          "contrary_evidence": "Riscos e limitações materiais constam da fundamentação desta dimensão; evidências anteriores permanecem no dossiê expandido.",
+          "missing": "",
           "evidence": [
             {
-              "cnpj": "60746948000112",
-              "received": "2019-05-03",
-              "name": "BCO BRADESCO S.A.",
-              "sector": "Bancos",
-              "activity": "Prática de operações bancárias em geral, inclusive câmbio",
-              "cvm": "000906",
-              "docid": "82637",
-              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=82637"
+              "docid": "82369",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3
+              ],
+              "received": "2019-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=82369",
+              "original": "review_originals/cvm_82369_g192.pdf.gz",
+              "original_sha256": "73e32caed5b2024cde3235c04176596749df01a68331f6fa888cac37b36e10fc"
+            },
+            {
+              "docid": "82369",
+              "group": 193,
+              "pages": [
+                77
+              ],
+              "received": "2019-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=82369",
+              "original": "review_originals/cvm_82369_g193.pdf.gz",
+              "original_sha256": "c5c7125de7c5438a7be4e2dcfb101723107aab76defaa741d6923ec347fd49e8"
+            },
+            {
+              "docid": "81094",
+              "group": 412,
+              "pages": [
+                153,
+                154
+              ],
+              "received": "2019-03-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=81094",
+              "original": "review_originals/cvm_81094_g412.pdf.gz",
+              "original_sha256": "6053ac9be29bd44fb0eb5e1e4e91ede67db3cca66930231cfbf86fd8427dc450"
+            }
+          ],
+          "prior_year": 2018,
+          "review_2019": "A franquia nacional de banco e seguros permanece operante após HSBC. A aquisição de65% da RCB e100% da OdontoSystem, e a passagem do processamento Fidelity para controle integral, são eventos conhecidos; não são usados para inventar nova série histórica de lucro."
+        },
+        "capital_economics": {
+          "status": "SATISFACTORY",
+          "reason": "Lucro contábil BRGAAP de R$5,8 bilhões e ROE de19,2% no1T19, junto com capital e provisões, sustentam a continuidade do retorno econômico observado. Não converter este ROE em crescimento incremental certificado.",
+          "favorable": "Evidências quantitativas e documentais atuais constam da fundamentação desta dimensão.",
+          "contrary_evidence": "Riscos e limitações materiais constam da fundamentação desta dimensão; evidências anteriores permanecem no dossiê expandido.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "82369",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3
+              ],
+              "received": "2019-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=82369",
+              "original": "review_originals/cvm_82369_g192.pdf.gz",
+              "original_sha256": "73e32caed5b2024cde3235c04176596749df01a68331f6fa888cac37b36e10fc"
+            },
+            {
+              "docid": "82369",
+              "group": 193,
+              "pages": [
+                77
+              ],
+              "received": "2019-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=82369",
+              "original": "review_originals/cvm_82369_g193.pdf.gz",
+              "original_sha256": "c5c7125de7c5438a7be4e2dcfb101723107aab76defaa741d6923ec347fd49e8"
+            },
+            {
+              "docid": "81094",
+              "group": 412,
+              "pages": [
+                153,
+                154
+              ],
+              "received": "2019-03-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=81094",
+              "original": "review_originals/cvm_81094_g412.pdf.gz",
+              "original_sha256": "6053ac9be29bd44fb0eb5e1e4e91ede67db3cca66930231cfbf86fd8427dc450"
+            }
+          ],
+          "prior_year": 2018,
+          "review_2019": "Lucro contábil BRGAAP de R$5,8 bilhões e ROE de19,2% no1T19, junto com capital e provisões, sustentam a continuidade do retorno econômico observado. Não converter este ROE em crescimento incremental certificado."
+        },
+        "earnings_reliability": {
+          "status": "SATISFACTORY",
+          "reason": "Preserva rastreabilidade entre lucro, crédito e provisões: PCLD de R$36,9 bilhões inclui R$6,9 bilhões adicionais, NPL90 dias de3,3%. A bonificação de20% homologada em19/03/2019 apenas modifica denominadores e não representa crescimento econômico por ação.",
+          "favorable": "Evidências quantitativas e documentais atuais constam da fundamentação desta dimensão.",
+          "contrary_evidence": "Riscos e limitações materiais constam da fundamentação desta dimensão; evidências anteriores permanecem no dossiê expandido.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "82369",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3
+              ],
+              "received": "2019-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=82369",
+              "original": "review_originals/cvm_82369_g192.pdf.gz",
+              "original_sha256": "73e32caed5b2024cde3235c04176596749df01a68331f6fa888cac37b36e10fc"
+            },
+            {
+              "docid": "82369",
+              "group": 193,
+              "pages": [
+                77
+              ],
+              "received": "2019-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=82369",
+              "original": "review_originals/cvm_82369_g193.pdf.gz",
+              "original_sha256": "c5c7125de7c5438a7be4e2dcfb101723107aab76defaa741d6923ec347fd49e8"
+            },
+            {
+              "docid": "81094",
+              "group": 412,
+              "pages": [
+                153,
+                154
+              ],
+              "received": "2019-03-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=81094",
+              "original": "review_originals/cvm_81094_g412.pdf.gz",
+              "original_sha256": "6053ac9be29bd44fb0eb5e1e4e91ede67db3cca66930231cfbf86fd8427dc450"
+            }
+          ],
+          "prior_year": 2018,
+          "review_2019": "Preserva rastreabilidade entre lucro, crédito e provisões: PCLD de R$36,9 bilhões inclui R$6,9 bilhões adicionais, NPL90 dias de3,3%. A bonificação de20% homologada em19/03/2019 apenas modifica denominadores e não representa crescimento econômico por ação."
+        },
+        "financial_resilience": {
+          "status": "SATISFACTORY",
+          "reason": "Basileia de18,1% frente ao mínimo de11,5%, NPL90 dias de3,3% e provisões adicionais documentadas sustentam resiliência. Risco de crédito e compromissos de aquisições continuam considerados; não inferir segurança apenas pelo lucro.",
+          "favorable": "Evidências quantitativas e documentais atuais constam da fundamentação desta dimensão.",
+          "contrary_evidence": "Riscos e limitações materiais constam da fundamentação desta dimensão; evidências anteriores permanecem no dossiê expandido.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "82369",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3
+              ],
+              "received": "2019-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=82369",
+              "original": "review_originals/cvm_82369_g192.pdf.gz",
+              "original_sha256": "73e32caed5b2024cde3235c04176596749df01a68331f6fa888cac37b36e10fc"
+            },
+            {
+              "docid": "82369",
+              "group": 193,
+              "pages": [
+                77
+              ],
+              "received": "2019-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=82369",
+              "original": "review_originals/cvm_82369_g193.pdf.gz",
+              "original_sha256": "c5c7125de7c5438a7be4e2dcfb101723107aab76defaa741d6923ec347fd49e8"
+            },
+            {
+              "docid": "81094",
+              "group": 412,
+              "pages": [
+                153,
+                154
+              ],
+              "received": "2019-03-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=81094",
+              "original": "review_originals/cvm_81094_g412.pdf.gz",
+              "original_sha256": "6053ac9be29bd44fb0eb5e1e4e91ede67db3cca66930231cfbf86fd8427dc450"
+            }
+          ],
+          "prior_year": 2018,
+          "review_2019": "Basileia de18,1% frente ao mínimo de11,5%, NPL90 dias de3,3% e provisões adicionais documentadas sustentam resiliência. Risco de crédito e compromissos de aquisições continuam considerados; não inferir segurança apenas pelo lucro."
+        },
+        "capital_allocation": {
+          "status": "SATISFACTORY",
+          "reason": "JCP de R$2,1 bilhões no trimestre, dos quais R$363,7 milhões pagos e R$1,7 bilhão provisionado, acompanha lucro e excedente de capital. As operações RCB/OdontoSystem e Fidelity foram identificadas sem presumir sinergias ou retorno futuro. Mantém avaliação satisfatória de alocação, sem HIGH.",
+          "favorable": "Evidências quantitativas e documentais atuais constam da fundamentação desta dimensão.",
+          "contrary_evidence": "Riscos e limitações materiais constam da fundamentação desta dimensão; evidências anteriores permanecem no dossiê expandido.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "82369",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3
+              ],
+              "received": "2019-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=82369",
+              "original": "review_originals/cvm_82369_g192.pdf.gz",
+              "original_sha256": "73e32caed5b2024cde3235c04176596749df01a68331f6fa888cac37b36e10fc"
+            },
+            {
+              "docid": "82369",
+              "group": 193,
+              "pages": [
+                77
+              ],
+              "received": "2019-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=82369",
+              "original": "review_originals/cvm_82369_g193.pdf.gz",
+              "original_sha256": "c5c7125de7c5438a7be4e2dcfb101723107aab76defaa741d6923ec347fd49e8"
+            },
+            {
+              "docid": "81094",
+              "group": 412,
+              "pages": [
+                153,
+                154
+              ],
+              "received": "2019-03-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=81094",
+              "original": "review_originals/cvm_81094_g412.pdf.gz",
+              "original_sha256": "6053ac9be29bd44fb0eb5e1e4e91ede67db3cca66930231cfbf86fd8427dc450"
+            }
+          ],
+          "prior_year": 2018,
+          "review_2019": "JCP de R$2,1 bilhões no trimestre, dos quais R$363,7 milhões pagos e R$1,7 bilhão provisionado, acompanha lucro e excedente de capital. As operações RCB/OdontoSystem e Fidelity foram identificadas sem presumir sinergias ou retorno futuro. Mantém avaliação satisfatória de alocação, sem HIGH."
+        },
+        "governance": {
+          "status": "INDETERMINATE",
+          "reason": "Zelotes e class action continuam materiais e pendentes. O ITR77 descreve dois executivos da época ainda no processo e procedimento administrativo investigatório para verificar necessidade de instauração de PAR; essa redação é mais precisa que afirmar PAR já instaurado. Habeas corpus favorável e acordo Greenfield já pago são contrapontos herdados, sem encerrar todas as pendências.",
+          "favorable": "Evidências quantitativas e documentais atuais constam da fundamentação desta dimensão.",
+          "contrary_evidence": "Riscos e limitações materiais constam da fundamentação desta dimensão; evidências anteriores permanecem no dossiê expandido.",
+          "missing": "Falta resolução dos processos materiais ainda pendentes no corte; mudança de administração não a substitui.",
+          "evidence": [
+            {
+              "docid": "82369",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3
+              ],
+              "received": "2019-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=82369",
+              "original": "review_originals/cvm_82369_g192.pdf.gz",
+              "original_sha256": "73e32caed5b2024cde3235c04176596749df01a68331f6fa888cac37b36e10fc"
+            },
+            {
+              "docid": "82369",
+              "group": 193,
+              "pages": [
+                77
+              ],
+              "received": "2019-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=82369",
+              "original": "review_originals/cvm_82369_g193.pdf.gz",
+              "original_sha256": "c5c7125de7c5438a7be4e2dcfb101723107aab76defaa741d6923ec347fd49e8"
+            },
+            {
+              "docid": "81094",
+              "group": 412,
+              "pages": [
+                153,
+                154
+              ],
+              "received": "2019-03-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=81094",
+              "original": "review_originals/cvm_81094_g412.pdf.gz",
+              "original_sha256": "6053ac9be29bd44fb0eb5e1e4e91ede67db3cca66930231cfbf86fd8427dc450"
+            }
+          ],
+          "prior_year": 2018,
+          "review_2019": "Zelotes e class action continuam materiais e pendentes. O ITR77 descreve dois executivos da época ainda no processo e procedimento administrativo investigatório para verificar necessidade de instauração de PAR; essa redação é mais precisa que afirmar PAR já instaurado. Habeas corpus favorável e acordo Greenfield já pago são contrapontos herdados, sem encerrar todas as pendências."
+        }
+      },
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "Evidências quantitativas e documentais atuais constam da fundamentação desta dimensão.",
+          "evidence": [
+            {
+              "docid": "82369",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3
+              ],
+              "received": "2019-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=82369",
+              "original": "review_originals/cvm_82369_g192.pdf.gz",
+              "original_sha256": "73e32caed5b2024cde3235c04176596749df01a68331f6fa888cac37b36e10fc"
+            },
+            {
+              "docid": "82369",
+              "group": 193,
+              "pages": [
+                77
+              ],
+              "received": "2019-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=82369",
+              "original": "review_originals/cvm_82369_g193.pdf.gz",
+              "original_sha256": "c5c7125de7c5438a7be4e2dcfb101723107aab76defaa741d6923ec347fd49e8"
+            },
+            {
+              "docid": "81094",
+              "group": 412,
+              "pages": [
+                153,
+                154
+              ],
+              "received": "2019-03-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=81094",
+              "original": "review_originals/cvm_81094_g412.pdf.gz",
+              "original_sha256": "6053ac9be29bd44fb0eb5e1e4e91ede67db3cca66930231cfbf86fd8427dc450"
             }
           ]
         },
         "capital_economics": {
-          "favorable": {
-            "roe_parent_5": [
-              0.20092015344348252,
-              0.21280893441156618,
-              0.1890080603887032,
-              0.1620613844893963,
-              0.14322509300254305
-            ],
-            "normalized_profit": 19535590730.27512
-          },
+          "favorable": "Evidências quantitativas e documentais atuais constam da fundamentação desta dimensão.",
           "evidence": [
             {
-              "fiscal_year": 2014,
-              "metric": "attributable_ni",
-              "value": 15314943000.0,
-              "docid": "53890",
-              "received": "2016-03-07",
-              "reference": "2015-12-31",
-              "period_end": "2014-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2015.csv",
-              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
+              "docid": "82369",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3
+              ],
+              "received": "2019-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=82369",
+              "original": "review_originals/cvm_82369_g192.pdf.gz",
+              "original_sha256": "73e32caed5b2024cde3235c04176596749df01a68331f6fa888cac37b36e10fc"
             },
             {
-              "fiscal_year": 2015,
-              "metric": "attributable_ni",
-              "value": 18132906000.0,
-              "docid": "62810",
-              "received": "2017-02-24",
-              "reference": "2016-12-31",
-              "period_end": "2015-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2016.csv",
-              "archive_sha256": "772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip"
+              "docid": "82369",
+              "group": 193,
+              "pages": [
+                77
+              ],
+              "received": "2019-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=82369",
+              "original": "review_originals/cvm_82369_g193.pdf.gz",
+              "original_sha256": "c5c7125de7c5438a7be4e2dcfb101723107aab76defaa741d6923ec347fd49e8"
             },
             {
-              "fiscal_year": 2016,
-              "metric": "attributable_ni",
-              "value": 17894249000.0,
-              "docid": "72114",
-              "received": "2018-03-08",
-              "reference": "2017-12-31",
-              "period_end": "2016-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
-            },
-            {
-              "fiscal_year": 2017,
-              "metric": "attributable_ni",
-              "value": 17089364000.0,
               "docid": "81094",
+              "group": 412,
+              "pages": [
+                153,
+                154
+              ],
               "received": "2019-03-08",
-              "reference": "2018-12-31",
-              "period_end": "2017-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
-            },
-            {
-              "fiscal_year": 2018,
-              "metric": "attributable_ni",
-              "value": 16583915000.0,
-              "docid": "81094",
-              "received": "2019-03-08",
-              "reference": "2018-12-31",
-              "period_end": "2018-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=81094",
+              "original": "review_originals/cvm_81094_g412.pdf.gz",
+              "original_sha256": "6053ac9be29bd44fb0eb5e1e4e91ede67db3cca66930231cfbf86fd8427dc450"
             }
           ]
         },
         "earnings_reliability": {
-          "favorable": {
-            "positive_attributable_years": 5,
-            "audit_records": 13
-          },
+          "favorable": "Evidências quantitativas e documentais atuais constam da fundamentação desta dimensão.",
           "evidence": [
             {
-              "docid": "81094",
-              "received": "2019-03-08",
-              "reference": "2018-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+              "docid": "82369",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3
+              ],
+              "received": "2019-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=82369",
+              "original": "review_originals/cvm_82369_g192.pdf.gz",
+              "original_sha256": "73e32caed5b2024cde3235c04176596749df01a68331f6fa888cac37b36e10fc"
+            },
+            {
+              "docid": "82369",
+              "group": 193,
+              "pages": [
+                77
+              ],
+              "received": "2019-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=82369",
+              "original": "review_originals/cvm_82369_g193.pdf.gz",
+              "original_sha256": "c5c7125de7c5438a7be4e2dcfb101723107aab76defaa741d6923ec347fd49e8"
             },
             {
               "docid": "81094",
+              "group": 412,
+              "pages": [
+                153,
+                154
+              ],
               "received": "2019-03-08",
-              "reference": "2018-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
-            },
-            {
-              "docid": "81094",
-              "received": "2019-03-08",
-              "reference": "2018-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
-            },
-            {
-              "docid": "81094",
-              "received": "2019-03-08",
-              "reference": "2018-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
-            },
-            {
-              "docid": "81094",
-              "received": "2019-03-08",
-              "reference": "2018-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
-            },
-            {
-              "docid": "81094",
-              "received": "2019-03-08",
-              "reference": "2018-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
-            },
-            {
-              "docid": "81094",
-              "received": "2019-03-08",
-              "reference": "2018-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
-            },
-            {
-              "docid": "81094",
-              "received": "2019-03-08",
-              "reference": "2018-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
-            },
-            {
-              "docid": "81094",
-              "received": "2019-03-08",
-              "reference": "2018-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
-            },
-            {
-              "docid": "81094",
-              "received": "2019-03-08",
-              "reference": "2018-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
-            },
-            {
-              "docid": "81094",
-              "received": "2019-03-08",
-              "reference": "2018-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
-            },
-            {
-              "docid": "81094",
-              "received": "2019-03-08",
-              "reference": "2018-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
-            },
-            {
-              "docid": "81094",
-              "received": "2019-03-08",
-              "reference": "2018-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=81094",
+              "original": "review_originals/cvm_81094_g412.pdf.gz",
+              "original_sha256": "6053ac9be29bd44fb0eb5e1e4e91ede67db3cca66930231cfbf86fd8427dc450"
             }
           ]
         },
         "financial_resilience": {
-          "favorable": {
-            "parent_equity_latest": 121120869000.0
-          },
+          "favorable": "Evidências quantitativas e documentais atuais constam da fundamentação desta dimensão.",
           "evidence": [
             {
+              "docid": "82369",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3
+              ],
+              "received": "2019-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=82369",
+              "original": "review_originals/cvm_82369_g192.pdf.gz",
+              "original_sha256": "73e32caed5b2024cde3235c04176596749df01a68331f6fa888cac37b36e10fc"
+            },
+            {
+              "docid": "82369",
+              "group": 193,
+              "pages": [
+                77
+              ],
+              "received": "2019-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=82369",
+              "original": "review_originals/cvm_82369_g193.pdf.gz",
+              "original_sha256": "c5c7125de7c5438a7be4e2dcfb101723107aab76defaa741d6923ec347fd49e8"
+            },
+            {
               "docid": "81094",
+              "group": 412,
+              "pages": [
+                153,
+                154
+              ],
               "received": "2019-03-08",
-              "reference": "2018-12-31",
-              "period_end": "2018-12-31",
-              "perimeter": "ind",
-              "account": "2.05",
-              "description": "Patrimônio Líquido",
-              "source": "dfp_cia_aberta_BPP_ind_2018.csv",
-              "archive_sha256": "",
-              "url": ""
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=81094",
+              "original": "review_originals/cvm_81094_g412.pdf.gz",
+              "original_sha256": "6053ac9be29bd44fb0eb5e1e4e91ede67db3cca66930231cfbf86fd8427dc450"
             }
           ]
         },
         "capital_allocation": {
-          "favorable": {
-            "historical_payout": [
-              0.35261943,
-              0.36955953999999996,
-              0.48681606,
-              0.0,
-              null
-            ],
-            "distributions": [
-              5054579977.1,
-              6034963689.47,
-              6975781491.26,
-              7204344268.6,
-              null
-            ]
-          },
+          "favorable": "Evidências quantitativas e documentais atuais constam da fundamentação desta dimensão.",
           "evidence": [
             {
-              "docid": "75048",
-              "received": "2018-05-24",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2017.csv",
-              "archive_sha256": "cb90963d1e7d6b2416265eb7aa0a463b98d067ade096f47b724467184273b0ab",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=75048",
-              "fiscal_year": 2014,
-              "raw": {
-                "CNPJ_Companhia": "60.746.948/0001-12",
-                "Data_Referencia": "2017-01-01",
-                "Versao": "35",
-                "ID_Documento": "75048",
-                "Nome_Companhia": "BCO BRADESCO S.A.",
-                "Data_Inicio_Exercicio_Social": "2014-01-01",
-                "Data_Fim_Exercicio_Social": "2014-12-31",
-                "Lucro_Liquido_Ajustado": "14334377257.19",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "18.51201300",
-                "Lucro_Liquido_Retido": "10034238188.36",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "35.26194300",
-                "Dividendo_Distribuido_Total": "5054579977.10",
-                "Data_Aprovacao_Retencao": "2015-03-10"
-              }
+              "docid": "82369",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3
+              ],
+              "received": "2019-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=82369",
+              "original": "review_originals/cvm_82369_g192.pdf.gz",
+              "original_sha256": "73e32caed5b2024cde3235c04176596749df01a68331f6fa888cac37b36e10fc"
             },
             {
-              "docid": "83912",
-              "received": "2019-05-20",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2018.csv",
-              "archive_sha256": "7a349acbce124fdb0846c371b3e68e5ff06781ead4b8713d6080eabf6737d082",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=83912",
-              "fiscal_year": 2015,
-              "raw": {
-                "CNPJ_Companhia": "60.746.948/0001-12",
-                "Data_Referencia": "2018-01-01",
-                "Versao": "30",
-                "ID_Documento": "83912",
-                "Nome_Companhia": "BCO BRADESCO S.A.",
-                "Data_Inicio_Exercicio_Social": "2015-01-01",
-                "Data_Fim_Exercicio_Social": "2015-12-31",
-                "Lucro_Liquido_Ajustado": "16330152666.20",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "19.33447700",
-                "Lucro_Liquido_Retido": "11154670696.00",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "36.95595400",
-                "Dividendo_Distribuido_Total": "6034963689.47",
-                "Data_Aprovacao_Retencao": "2016-03-10"
-              }
+              "docid": "82369",
+              "group": 193,
+              "pages": [
+                77
+              ],
+              "received": "2019-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=82369",
+              "original": "review_originals/cvm_82369_g193.pdf.gz",
+              "original_sha256": "c5c7125de7c5438a7be4e2dcfb101723107aab76defaa741d6923ec347fd49e8"
             },
             {
-              "docid": "83912",
-              "received": "2019-05-20",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2018.csv",
-              "archive_sha256": "7a349acbce124fdb0846c371b3e68e5ff06781ead4b8713d6080eabf6737d082",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=83912",
-              "fiscal_year": 2016,
-              "raw": {
-                "CNPJ_Companhia": "60.746.948/0001-12",
-                "Data_Referencia": "2018-01-01",
-                "Versao": "30",
-                "ID_Documento": "83912",
-                "Nome_Companhia": "BCO BRADESCO S.A.",
-                "Data_Inicio_Exercicio_Social": "2016-01-01",
-                "Data_Fim_Exercicio_Social": "2016-12-31",
-                "Lucro_Liquido_Ajustado": "14329398853.69",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "15.01714000",
-                "Lucro_Liquido_Retido": "8107796249.43",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "48.68160600",
-                "Dividendo_Distribuido_Total": "6975781491.26",
-                "Data_Aprovacao_Retencao": "2017-03-10"
-              }
-            },
-            {
-              "docid": "83912",
-              "received": "2019-05-20",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2018.csv",
-              "archive_sha256": "7a349acbce124fdb0846c371b3e68e5ff06781ead4b8713d6080eabf6737d082",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=83912",
-              "fiscal_year": 2017,
-              "raw": {
-                "CNPJ_Companhia": "60.746.948/0001-12",
-                "Data_Referencia": "2018-01-01",
-                "Versao": "30",
-                "ID_Documento": "83912",
-                "Nome_Companhia": "BCO BRADESCO S.A.",
-                "Data_Inicio_Exercicio_Social": "2017-01-01",
-                "Data_Fim_Exercicio_Social": "2017-12-31",
-                "Lucro_Liquido_Ajustado": "13924867367.13",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "13.27004300",
-                "Lucro_Liquido_Retido": "7453410854.69",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "0.00000000",
-                "Dividendo_Distribuido_Total": "7204344268.60",
-                "Data_Aprovacao_Retencao": "2018-03-12"
-              }
+              "docid": "81094",
+              "group": 412,
+              "pages": [
+                153,
+                154
+              ],
+              "received": "2019-03-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=81094",
+              "original": "review_originals/cvm_81094_g412.pdf.gz",
+              "original_sha256": "6053ac9be29bd44fb0eb5e1e4e91ede67db3cca66930231cfbf86fd8427dc450"
             }
           ]
         },
         "governance": {
-          "favorable": {
-            "dated_shareholder_right_records": 18,
-            "dated_related_party_records": 172
-          },
+          "favorable": "Evidências quantitativas e documentais atuais constam da fundamentação desta dimensão.",
           "evidence": [
             {
-              "docid": "81094",
-              "received": "2019-03-08",
-              "reference": "2018-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+              "docid": "82369",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3
+              ],
+              "received": "2019-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=82369",
+              "original": "review_originals/cvm_82369_g192.pdf.gz",
+              "original_sha256": "73e32caed5b2024cde3235c04176596749df01a68331f6fa888cac37b36e10fc"
+            },
+            {
+              "docid": "82369",
+              "group": 193,
+              "pages": [
+                77
+              ],
+              "received": "2019-04-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=82369",
+              "original": "review_originals/cvm_82369_g193.pdf.gz",
+              "original_sha256": "c5c7125de7c5438a7be4e2dcfb101723107aab76defaa741d6923ec347fd49e8"
             },
             {
               "docid": "81094",
+              "group": 412,
+              "pages": [
+                153,
+                154
+              ],
               "received": "2019-03-08",
-              "reference": "2018-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
-            },
-            {
-              "docid": "81094",
-              "received": "2019-03-08",
-              "reference": "2018-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
-            },
-            {
-              "docid": "81094",
-              "received": "2019-03-08",
-              "reference": "2018-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
-            },
-            {
-              "docid": "81094",
-              "received": "2019-03-08",
-              "reference": "2018-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
-            },
-            {
-              "docid": "81094",
-              "received": "2019-03-08",
-              "reference": "2018-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
-            },
-            {
-              "docid": "81094",
-              "received": "2019-03-08",
-              "reference": "2018-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
-            },
-            {
-              "docid": "81094",
-              "received": "2019-03-08",
-              "reference": "2018-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
-            },
-            {
-              "docid": "81094",
-              "received": "2019-03-08",
-              "reference": "2018-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
-            },
-            {
-              "docid": "81094",
-              "received": "2019-03-08",
-              "reference": "2018-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
-            },
-            {
-              "docid": "81094",
-              "received": "2019-03-08",
-              "reference": "2018-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
-            },
-            {
-              "docid": "81094",
-              "received": "2019-03-08",
-              "reference": "2018-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
-            },
-            {
-              "docid": "81094",
-              "received": "2019-03-08",
-              "reference": "2018-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=81094",
+              "original": "review_originals/cvm_81094_g412.pdf.gz",
+              "original_sha256": "6053ac9be29bd44fb0eb5e1e4e91ede67db3cca66930231cfbf86fd8427dc450"
             }
           ]
         }

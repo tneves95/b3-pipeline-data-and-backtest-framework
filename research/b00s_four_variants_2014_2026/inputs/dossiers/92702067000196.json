@@ -3061,447 +3061,585 @@
       "ticker": "BRSR6",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": null,
-      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
-      "classification_changed": null,
-      "dimensions": {},
-      "dimension_evidence_updates": {
+      "assessment_ref": "92702067000196:2019",
+      "assessment_status": "ASSESSED",
+      "classification_changed": false,
+      "dimensions": {
         "durability": {
-          "favorable": "Banco Múltiplo atuante nas carteiras comercial, crédito, financiamento e investimento, crédito imobiliário, desenvolvimento e arrendamento mercantil e de investimentos.",
+          "status": "SATISFACTORY",
+          "reason": "A franquia regional e os contratos de folha permanecem documentados; BIPAR inicia estrutura comercial com operação prevista para o segundo semestre, não uma receita futura já conquistada.",
+          "favorable": "Evidências quantitativas e documentais atuais constam da fundamentação desta dimensão.",
+          "contrary_evidence": "Riscos e limitações materiais constam da fundamentação desta dimensão; evidências anteriores permanecem no dossiê expandido.",
+          "missing": "",
           "evidence": [
             {
-              "cnpj": "92702067000196",
-              "received": "2018-04-16",
-              "name": "BANCO DO ESTADO DO RIO GRANDE DO SUL SA",
-              "sector": "Bancos",
-              "activity": "Banco Múltiplo atuante nas carteiras comercial, crédito, financiamento e investimento, crédito imobiliário, desenvolvimento e arrendamento mercantil e de investimentos.",
-              "cvm": "001210",
-              "docid": "73310",
-              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=73310"
+              "docid": "81291",
+              "group": 1653,
+              "pages": [
+                1,
+                2,
+                3
+              ],
+              "received": "2019-03-19",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=81291",
+              "original": "review_originals/cvm_81291_g1653.pdf.gz",
+              "original_sha256": "e5ecbc6ff6770fb7e4a808ff65dad374ca327762ec789cfd9e88c336941be734"
+            },
+            {
+              "docid": "83352",
+              "group": 192,
+              "pages": [
+                2,
+                3,
+                9
+              ],
+              "received": "2019-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=83352",
+              "original": "review_originals/cvm_83352_g192.pdf.gz",
+              "original_sha256": "b1a71018e556113aac76e7ae63d78b95fb03c9025696ce6f420a9f91c2a66454"
+            },
+            {
+              "docid": "83352",
+              "group": 193,
+              "pages": [
+                36,
+                37,
+                53,
+                54
+              ],
+              "received": "2019-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=83352",
+              "original": "review_originals/cvm_83352_g193.pdf.gz",
+              "original_sha256": "982ef223710cdbea4e4940a7cfb6e72f8d86a3461d2794640585973c5bf5f5d3"
+            }
+          ],
+          "prior_year": 2018,
+          "review_2019": "A franquia regional e os contratos de folha permanecem documentados; BIPAR inicia estrutura comercial com operação prevista para o segundo semestre, não uma receita futura já conquistada."
+        },
+        "capital_economics": {
+          "status": "INDETERMINATE",
+          "reason": "Lucro contábil de R$319,957 milhões no1T19 versus R$243,964 milhões no1T18 mostra melhora. Não resolve, por si, retorno líquido por cliente e capital da aquisição de direitos de folha. Mantém a pendência específica de economia do capital sem adotar ROE mínimo universal.",
+          "favorable": "Evidências quantitativas e documentais atuais constam da fundamentação desta dimensão.",
+          "contrary_evidence": "Riscos e limitações materiais constam da fundamentação desta dimensão; evidências anteriores permanecem no dossiê expandido.",
+          "missing": "Retorno comercial líquido por cliente/capital das aquisições de folhas continua não demonstrado suficientemente.",
+          "evidence": [
+            {
+              "docid": "81291",
+              "group": 1653,
+              "pages": [
+                1,
+                2,
+                3
+              ],
+              "received": "2019-03-19",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=81291",
+              "original": "review_originals/cvm_81291_g1653.pdf.gz",
+              "original_sha256": "e5ecbc6ff6770fb7e4a808ff65dad374ca327762ec789cfd9e88c336941be734"
+            },
+            {
+              "docid": "83352",
+              "group": 192,
+              "pages": [
+                2,
+                3,
+                9
+              ],
+              "received": "2019-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=83352",
+              "original": "review_originals/cvm_83352_g192.pdf.gz",
+              "original_sha256": "b1a71018e556113aac76e7ae63d78b95fb03c9025696ce6f420a9f91c2a66454"
+            },
+            {
+              "docid": "83352",
+              "group": 193,
+              "pages": [
+                36,
+                37,
+                53,
+                54
+              ],
+              "received": "2019-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=83352",
+              "original": "review_originals/cvm_83352_g193.pdf.gz",
+              "original_sha256": "982ef223710cdbea4e4940a7cfb6e72f8d86a3461d2794640585973c5bf5f5d3"
+            }
+          ],
+          "prior_year": 2018,
+          "review_2019": "Lucro contábil de R$319,957 milhões no1T19 versus R$243,964 milhões no1T18 mostra melhora. Não resolve, por si, retorno líquido por cliente e capital da aquisição de direitos de folha. Mantém a pendência específica de economia do capital sem adotar ROE mínimo universal."
+        },
+        "earnings_reliability": {
+          "status": "SATISFACTORY",
+          "reason": "As demonstrações separam BRGAAP e IFRS:2018 apresenta lucro IFRS de R$908,6 milhões e BRGAAP de R$1.048,6 milhões; resultados de Plano Verão/Icatu do comparativo2017 não são crescimento ordinário repetível. Créditos tributários e a queda da alíquota CSLL são explicitados, sem anualizar benefício extraordinário.",
+          "favorable": "Evidências quantitativas e documentais atuais constam da fundamentação desta dimensão.",
+          "contrary_evidence": "Riscos e limitações materiais constam da fundamentação desta dimensão; evidências anteriores permanecem no dossiê expandido.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "81291",
+              "group": 1653,
+              "pages": [
+                1,
+                2,
+                3
+              ],
+              "received": "2019-03-19",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=81291",
+              "original": "review_originals/cvm_81291_g1653.pdf.gz",
+              "original_sha256": "e5ecbc6ff6770fb7e4a808ff65dad374ca327762ec789cfd9e88c336941be734"
+            },
+            {
+              "docid": "83352",
+              "group": 192,
+              "pages": [
+                2,
+                3,
+                9
+              ],
+              "received": "2019-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=83352",
+              "original": "review_originals/cvm_83352_g192.pdf.gz",
+              "original_sha256": "b1a71018e556113aac76e7ae63d78b95fb03c9025696ce6f420a9f91c2a66454"
+            },
+            {
+              "docid": "83352",
+              "group": 193,
+              "pages": [
+                36,
+                37,
+                53,
+                54
+              ],
+              "received": "2019-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=83352",
+              "original": "review_originals/cvm_83352_g193.pdf.gz",
+              "original_sha256": "982ef223710cdbea4e4940a7cfb6e72f8d86a3461d2794640585973c5bf5f5d3"
+            }
+          ],
+          "prior_year": 2018,
+          "review_2019": "As demonstrações separam BRGAAP e IFRS:2018 apresenta lucro IFRS de R$908,6 milhões e BRGAAP de R$1.048,6 milhões; resultados de Plano Verão/Icatu do comparativo2017 não são crescimento ordinário repetível. Créditos tributários e a queda da alíquota CSLL são explicitados, sem anualizar benefício extraordinário."
+        },
+        "financial_resilience": {
+          "status": "SATISFACTORY",
+          "reason": "PR de R$6.322,027 milhões, CET1 de R$5.789,054 milhões, Basileia15,58% e CET1 14,26% excedem os requerimentos divulgados de10,50% e7,00%, incluindo ACP. Créditos tributários e concentração regional continuam riscos, sem evidência de insuficiência de capital no corte.",
+          "favorable": "Evidências quantitativas e documentais atuais constam da fundamentação desta dimensão.",
+          "contrary_evidence": "Riscos e limitações materiais constam da fundamentação desta dimensão; evidências anteriores permanecem no dossiê expandido.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "81291",
+              "group": 1653,
+              "pages": [
+                1,
+                2,
+                3
+              ],
+              "received": "2019-03-19",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=81291",
+              "original": "review_originals/cvm_81291_g1653.pdf.gz",
+              "original_sha256": "e5ecbc6ff6770fb7e4a808ff65dad374ca327762ec789cfd9e88c336941be734"
+            },
+            {
+              "docid": "83352",
+              "group": 192,
+              "pages": [
+                2,
+                3,
+                9
+              ],
+              "received": "2019-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=83352",
+              "original": "review_originals/cvm_83352_g192.pdf.gz",
+              "original_sha256": "b1a71018e556113aac76e7ae63d78b95fb03c9025696ce6f420a9f91c2a66454"
+            },
+            {
+              "docid": "83352",
+              "group": 193,
+              "pages": [
+                36,
+                37,
+                53,
+                54
+              ],
+              "received": "2019-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=83352",
+              "original": "review_originals/cvm_83352_g193.pdf.gz",
+              "original_sha256": "982ef223710cdbea4e4940a7cfb6e72f8d86a3461d2794640585973c5bf5f5d3"
+            }
+          ],
+          "prior_year": 2018,
+          "review_2019": "PR de R$6.322,027 milhões, CET1 de R$5.789,054 milhões, Basileia15,58% e CET1 14,26% excedem os requerimentos divulgados de10,50% e7,00%, incluindo ACP. Créditos tributários e concentração regional continuam riscos, sem evidência de insuficiência de capital no corte."
+        },
+        "capital_allocation": {
+          "status": "INDETERMINATE",
+          "reason": "O contrato de folha estadual de R$1.250,638 milhões por dez anos permanece em vigor, sujeito à portabilidade. A melhora agregada não demonstra o retorno específico nem a equidade do preço da transação com o controlador; mantém ND de alocação por essa razão documentada.",
+          "favorable": "Evidências quantitativas e documentais atuais constam da fundamentação desta dimensão.",
+          "contrary_evidence": "Riscos e limitações materiais constam da fundamentação desta dimensão; evidências anteriores permanecem no dossiê expandido.",
+          "missing": "Permanece a prova específica do retorno econômico líquido da aquisição de folha e da equidade da transação.",
+          "evidence": [
+            {
+              "docid": "81291",
+              "group": 1653,
+              "pages": [
+                1,
+                2,
+                3
+              ],
+              "received": "2019-03-19",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=81291",
+              "original": "review_originals/cvm_81291_g1653.pdf.gz",
+              "original_sha256": "e5ecbc6ff6770fb7e4a808ff65dad374ca327762ec789cfd9e88c336941be734"
+            },
+            {
+              "docid": "83352",
+              "group": 192,
+              "pages": [
+                2,
+                3,
+                9
+              ],
+              "received": "2019-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=83352",
+              "original": "review_originals/cvm_83352_g192.pdf.gz",
+              "original_sha256": "b1a71018e556113aac76e7ae63d78b95fb03c9025696ce6f420a9f91c2a66454"
+            },
+            {
+              "docid": "83352",
+              "group": 193,
+              "pages": [
+                36,
+                37,
+                53,
+                54
+              ],
+              "received": "2019-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=83352",
+              "original": "review_originals/cvm_83352_g193.pdf.gz",
+              "original_sha256": "982ef223710cdbea4e4940a7cfb6e72f8d86a3461d2794640585973c5bf5f5d3"
+            }
+          ],
+          "prior_year": 2018,
+          "review_2019": "O contrato de folha estadual de R$1.250,638 milhões por dez anos permanece em vigor, sujeito à portabilidade. A melhora agregada não demonstra o retorno específico nem a equidade do preço da transação com o controlador; mantém ND de alocação por essa razão documentada."
+        },
+        "governance": {
+          "status": "INDETERMINATE",
+          "reason": "Mantém ND relativo ao conflito com o controlador estadual na transação de folha e restituição de capital anterior. Relatórios atuais e regularidade prudencial são favoráveis; não substituem a prova específica da equidade econômica da transação.",
+          "favorable": "Evidências quantitativas e documentais atuais constam da fundamentação desta dimensão.",
+          "contrary_evidence": "Riscos e limitações materiais constam da fundamentação desta dimensão; evidências anteriores permanecem no dossiê expandido.",
+          "missing": "Não houve evidência nova examinada que resolva o conflito material anterior.",
+          "evidence": [
+            {
+              "docid": "81291",
+              "group": 1653,
+              "pages": [
+                1,
+                2,
+                3
+              ],
+              "received": "2019-03-19",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=81291",
+              "original": "review_originals/cvm_81291_g1653.pdf.gz",
+              "original_sha256": "e5ecbc6ff6770fb7e4a808ff65dad374ca327762ec789cfd9e88c336941be734"
+            },
+            {
+              "docid": "83352",
+              "group": 192,
+              "pages": [
+                2,
+                3,
+                9
+              ],
+              "received": "2019-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=83352",
+              "original": "review_originals/cvm_83352_g192.pdf.gz",
+              "original_sha256": "b1a71018e556113aac76e7ae63d78b95fb03c9025696ce6f420a9f91c2a66454"
+            },
+            {
+              "docid": "83352",
+              "group": 193,
+              "pages": [
+                36,
+                37,
+                53,
+                54
+              ],
+              "received": "2019-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=83352",
+              "original": "review_originals/cvm_83352_g193.pdf.gz",
+              "original_sha256": "982ef223710cdbea4e4940a7cfb6e72f8d86a3461d2794640585973c5bf5f5d3"
+            }
+          ],
+          "prior_year": 2018,
+          "review_2019": "Mantém ND relativo ao conflito com o controlador estadual na transação de folha e restituição de capital anterior. Relatórios atuais e regularidade prudencial são favoráveis; não substituem a prova específica da equidade econômica da transação."
+        }
+      },
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "Evidências quantitativas e documentais atuais constam da fundamentação desta dimensão.",
+          "evidence": [
+            {
+              "docid": "81291",
+              "group": 1653,
+              "pages": [
+                1,
+                2,
+                3
+              ],
+              "received": "2019-03-19",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=81291",
+              "original": "review_originals/cvm_81291_g1653.pdf.gz",
+              "original_sha256": "e5ecbc6ff6770fb7e4a808ff65dad374ca327762ec789cfd9e88c336941be734"
+            },
+            {
+              "docid": "83352",
+              "group": 192,
+              "pages": [
+                2,
+                3,
+                9
+              ],
+              "received": "2019-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=83352",
+              "original": "review_originals/cvm_83352_g192.pdf.gz",
+              "original_sha256": "b1a71018e556113aac76e7ae63d78b95fb03c9025696ce6f420a9f91c2a66454"
+            },
+            {
+              "docid": "83352",
+              "group": 193,
+              "pages": [
+                36,
+                37,
+                53,
+                54
+              ],
+              "received": "2019-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=83352",
+              "original": "review_originals/cvm_83352_g193.pdf.gz",
+              "original_sha256": "982ef223710cdbea4e4940a7cfb6e72f8d86a3461d2794640585973c5bf5f5d3"
             }
           ]
         },
         "capital_economics": {
-          "favorable": {
-            "roe_parent_5": [
-              0.1147541256398428,
-              0.1481624884613966,
-              0.11517488178074964,
-              0.16254021593388257,
-              0.12691024280727653
-            ],
-            "normalized_profit": 927979750.9840605
-          },
+          "favorable": "Evidências quantitativas e documentais atuais constam da fundamentação desta dimensão.",
           "evidence": [
             {
-              "fiscal_year": 2014,
-              "metric": "attributable_ni",
-              "value": 620654000.0,
-              "docid": "54017",
-              "received": "2016-03-11",
-              "reference": "2015-12-31",
-              "period_end": "2014-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2015.csv",
-              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
-            },
-            {
-              "fiscal_year": 2015,
-              "metric": "attributable_ni",
-              "value": 879741000.0,
-              "docid": "63092",
-              "received": "2017-03-13",
-              "reference": "2016-12-31",
-              "period_end": "2015-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2016.csv",
-              "archive_sha256": "772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip"
-            },
-            {
-              "fiscal_year": 2016,
-              "metric": "attributable_ni",
-              "value": 728287000.0,
-              "docid": "72731",
-              "received": "2018-03-27",
-              "reference": "2017-12-31",
-              "period_end": "2016-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
-            },
-            {
-              "fiscal_year": 2017,
-              "metric": "attributable_ni",
-              "value": 1094893000.0,
               "docid": "81291",
+              "group": 1653,
+              "pages": [
+                1,
+                2,
+                3
+              ],
               "received": "2019-03-19",
-              "reference": "2018-12-31",
-              "period_end": "2017-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=81291",
+              "original": "review_originals/cvm_81291_g1653.pdf.gz",
+              "original_sha256": "e5ecbc6ff6770fb7e4a808ff65dad374ca327762ec789cfd9e88c336941be734"
             },
             {
-              "fiscal_year": 2018,
-              "metric": "attributable_ni",
-              "value": 907841000.0,
-              "docid": "81291",
-              "received": "2019-03-19",
-              "reference": "2018-12-31",
-              "period_end": "2018-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+              "docid": "83352",
+              "group": 192,
+              "pages": [
+                2,
+                3,
+                9
+              ],
+              "received": "2019-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=83352",
+              "original": "review_originals/cvm_83352_g192.pdf.gz",
+              "original_sha256": "b1a71018e556113aac76e7ae63d78b95fb03c9025696ce6f420a9f91c2a66454"
+            },
+            {
+              "docid": "83352",
+              "group": 193,
+              "pages": [
+                36,
+                37,
+                53,
+                54
+              ],
+              "received": "2019-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=83352",
+              "original": "review_originals/cvm_83352_g193.pdf.gz",
+              "original_sha256": "982ef223710cdbea4e4940a7cfb6e72f8d86a3461d2794640585973c5bf5f5d3"
             }
           ]
         },
         "earnings_reliability": {
-          "favorable": {
-            "positive_attributable_years": 5,
-            "audit_records": 7
-          },
+          "favorable": "Evidências quantitativas e documentais atuais constam da fundamentação desta dimensão.",
           "evidence": [
             {
               "docid": "81291",
+              "group": 1653,
+              "pages": [
+                1,
+                2,
+                3
+              ],
               "received": "2019-03-19",
-              "reference": "2018-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=81291",
+              "original": "review_originals/cvm_81291_g1653.pdf.gz",
+              "original_sha256": "e5ecbc6ff6770fb7e4a808ff65dad374ca327762ec789cfd9e88c336941be734"
             },
             {
-              "docid": "81291",
-              "received": "2019-03-19",
-              "reference": "2018-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+              "docid": "83352",
+              "group": 192,
+              "pages": [
+                2,
+                3,
+                9
+              ],
+              "received": "2019-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=83352",
+              "original": "review_originals/cvm_83352_g192.pdf.gz",
+              "original_sha256": "b1a71018e556113aac76e7ae63d78b95fb03c9025696ce6f420a9f91c2a66454"
             },
             {
-              "docid": "81291",
-              "received": "2019-03-19",
-              "reference": "2018-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
-            },
-            {
-              "docid": "81291",
-              "received": "2019-03-19",
-              "reference": "2018-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
-            },
-            {
-              "docid": "81291",
-              "received": "2019-03-19",
-              "reference": "2018-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
-            },
-            {
-              "docid": "81291",
-              "received": "2019-03-19",
-              "reference": "2018-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
-            },
-            {
-              "docid": "81291",
-              "received": "2019-03-19",
-              "reference": "2018-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+              "docid": "83352",
+              "group": 193,
+              "pages": [
+                36,
+                37,
+                53,
+                54
+              ],
+              "received": "2019-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=83352",
+              "original": "review_originals/cvm_83352_g193.pdf.gz",
+              "original_sha256": "982ef223710cdbea4e4940a7cfb6e72f8d86a3461d2794640585973c5bf5f5d3"
             }
           ]
         },
         "financial_resilience": {
-          "favorable": {
-            "parent_equity_latest": 7275071000.0
-          },
+          "favorable": "Evidências quantitativas e documentais atuais constam da fundamentação desta dimensão.",
           "evidence": [
             {
               "docid": "81291",
+              "group": 1653,
+              "pages": [
+                1,
+                2,
+                3
+              ],
               "received": "2019-03-19",
-              "reference": "2018-12-31",
-              "period_end": "2018-12-31",
-              "perimeter": "ind",
-              "account": "2.05",
-              "description": "Patrimônio Líquido",
-              "source": "dfp_cia_aberta_BPP_ind_2018.csv",
-              "archive_sha256": "",
-              "url": ""
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=81291",
+              "original": "review_originals/cvm_81291_g1653.pdf.gz",
+              "original_sha256": "e5ecbc6ff6770fb7e4a808ff65dad374ca327762ec789cfd9e88c336941be734"
+            },
+            {
+              "docid": "83352",
+              "group": 192,
+              "pages": [
+                2,
+                3,
+                9
+              ],
+              "received": "2019-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=83352",
+              "original": "review_originals/cvm_83352_g192.pdf.gz",
+              "original_sha256": "b1a71018e556113aac76e7ae63d78b95fb03c9025696ce6f420a9f91c2a66454"
+            },
+            {
+              "docid": "83352",
+              "group": 193,
+              "pages": [
+                36,
+                37,
+                53,
+                54
+              ],
+              "received": "2019-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=83352",
+              "original": "review_originals/cvm_83352_g193.pdf.gz",
+              "original_sha256": "982ef223710cdbea4e4940a7cfb6e72f8d86a3461d2794640585973c5bf5f5d3"
             }
           ]
         },
         "capital_allocation": {
-          "favorable": {
-            "historical_payout": [
-              0.4,
-              0.4156,
-              0.4,
-              0.4201,
-              null
-            ],
-            "distributions": [
-              264410416.95,
-              335129000.0,
-              250681000.0,
-              420241000.0,
-              null
-            ]
-          },
+          "favorable": "Evidências quantitativas e documentais atuais constam da fundamentação desta dimensão.",
           "evidence": [
             {
-              "docid": "74959",
-              "received": "2018-05-21",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2017.csv",
-              "archive_sha256": "cb90963d1e7d6b2416265eb7aa0a463b98d067ade096f47b724467184273b0ab",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=74959",
-              "fiscal_year": 2014,
-              "raw": {
-                "CNPJ_Companhia": "92.702.067/0001-96",
-                "Data_Referencia": "2017-01-01",
-                "Versao": "22",
-                "ID_Documento": "74959",
-                "Nome_Companhia": "BCO ESTADO DO RIO GRANDE DO SUL S.A.",
-                "Data_Inicio_Exercicio_Social": "2014-01-01",
-                "Data_Fim_Exercicio_Social": "2014-12-31",
-                "Lucro_Liquido_Ajustado": "661026042.37",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "13.90000000",
-                "Lucro_Liquido_Retido": "0.00",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "40.00000000",
-                "Dividendo_Distribuido_Total": "264410416.95",
-                "Data_Aprovacao_Retencao": ""
-              }
+              "docid": "81291",
+              "group": 1653,
+              "pages": [
+                1,
+                2,
+                3
+              ],
+              "received": "2019-03-19",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=81291",
+              "original": "review_originals/cvm_81291_g1653.pdf.gz",
+              "original_sha256": "e5ecbc6ff6770fb7e4a808ff65dad374ca327762ec789cfd9e88c336941be734"
             },
             {
-              "docid": "82756",
-              "received": "2019-05-07",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2018.csv",
-              "archive_sha256": "7a349acbce124fdb0846c371b3e68e5ff06781ead4b8713d6080eabf6737d082",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=82756",
-              "fiscal_year": 2015,
-              "raw": {
-                "CNPJ_Companhia": "92.702.067/0001-96",
-                "Data_Referencia": "2018-01-01",
-                "Versao": "29",
-                "ID_Documento": "82756",
-                "Nome_Companhia": "BCO ESTADO DO RIO GRANDE DO SUL S.A.",
-                "Data_Inicio_Exercicio_Social": "2015-01-01",
-                "Data_Fim_Exercicio_Social": "2015-12-31",
-                "Lucro_Liquido_Ajustado": "806332000.00",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "12.80000000",
-                "Lucro_Liquido_Retido": "492327000.00",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "41.56000000",
-                "Dividendo_Distribuido_Total": "335129000.00",
-                "Data_Aprovacao_Retencao": ""
-              }
+              "docid": "83352",
+              "group": 192,
+              "pages": [
+                2,
+                3,
+                9
+              ],
+              "received": "2019-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=83352",
+              "original": "review_originals/cvm_83352_g192.pdf.gz",
+              "original_sha256": "b1a71018e556113aac76e7ae63d78b95fb03c9025696ce6f420a9f91c2a66454"
             },
             {
-              "docid": "82756",
-              "received": "2019-05-07",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2018.csv",
-              "archive_sha256": "7a349acbce124fdb0846c371b3e68e5ff06781ead4b8713d6080eabf6737d082",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=82756",
-              "fiscal_year": 2016,
-              "raw": {
-                "CNPJ_Companhia": "92.702.067/0001-96",
-                "Data_Referencia": "2018-01-01",
-                "Versao": "29",
-                "ID_Documento": "82756",
-                "Nome_Companhia": "BCO ESTADO DO RIO GRANDE DO SUL S.A.",
-                "Data_Inicio_Exercicio_Social": "2016-01-01",
-                "Data_Fim_Exercicio_Social": "2016-12-31",
-                "Lucro_Liquido_Ajustado": "626705000.00",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "10.30000000",
-                "Lucro_Liquido_Retido": "394924000.00",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "40.00000000",
-                "Dividendo_Distribuido_Total": "250681000.00",
-                "Data_Aprovacao_Retencao": ""
-              }
-            },
-            {
-              "docid": "82756",
-              "received": "2019-05-07",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2018.csv",
-              "archive_sha256": "7a349acbce124fdb0846c371b3e68e5ff06781ead4b8713d6080eabf6737d082",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=82756",
-              "fiscal_year": 2017,
-              "raw": {
-                "CNPJ_Companhia": "92.702.067/0001-96",
-                "Data_Referencia": "2018-01-01",
-                "Versao": "29",
-                "ID_Documento": "82756",
-                "Nome_Companhia": "BCO ESTADO DO RIO GRANDE DO SUL S.A.",
-                "Data_Inicio_Exercicio_Social": "2017-01-01",
-                "Data_Fim_Exercicio_Social": "2017-12-31",
-                "Lucro_Liquido_Ajustado": "1000384000.00",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "13.50000000",
-                "Lucro_Liquido_Retido": "632795000.00",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "42.01000000",
-                "Dividendo_Distribuido_Total": "420241000.00",
-                "Data_Aprovacao_Retencao": ""
-              }
+              "docid": "83352",
+              "group": 193,
+              "pages": [
+                36,
+                37,
+                53,
+                54
+              ],
+              "received": "2019-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=83352",
+              "original": "review_originals/cvm_83352_g193.pdf.gz",
+              "original_sha256": "982ef223710cdbea4e4940a7cfb6e72f8d86a3461d2794640585973c5bf5f5d3"
             }
           ]
         },
         "governance": {
-          "favorable": {
-            "dated_shareholder_right_records": 36,
-            "dated_related_party_records": 495
-          },
+          "favorable": "Evidências quantitativas e documentais atuais constam da fundamentação desta dimensão.",
           "evidence": [
             {
               "docid": "81291",
+              "group": 1653,
+              "pages": [
+                1,
+                2,
+                3
+              ],
               "received": "2019-03-19",
-              "reference": "2018-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=81291",
+              "original": "review_originals/cvm_81291_g1653.pdf.gz",
+              "original_sha256": "e5ecbc6ff6770fb7e4a808ff65dad374ca327762ec789cfd9e88c336941be734"
             },
             {
-              "docid": "81291",
-              "received": "2019-03-19",
-              "reference": "2018-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+              "docid": "83352",
+              "group": 192,
+              "pages": [
+                2,
+                3,
+                9
+              ],
+              "received": "2019-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=83352",
+              "original": "review_originals/cvm_83352_g192.pdf.gz",
+              "original_sha256": "b1a71018e556113aac76e7ae63d78b95fb03c9025696ce6f420a9f91c2a66454"
             },
             {
-              "docid": "81291",
-              "received": "2019-03-19",
-              "reference": "2018-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
-            },
-            {
-              "docid": "81291",
-              "received": "2019-03-19",
-              "reference": "2018-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
-            },
-            {
-              "docid": "81291",
-              "received": "2019-03-19",
-              "reference": "2018-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
-            },
-            {
-              "docid": "81291",
-              "received": "2019-03-19",
-              "reference": "2018-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
-            },
-            {
-              "docid": "81291",
-              "received": "2019-03-19",
-              "reference": "2018-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
+              "docid": "83352",
+              "group": 193,
+              "pages": [
+                36,
+                37,
+                53,
+                54
+              ],
+              "received": "2019-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=83352",
+              "original": "review_originals/cvm_83352_g193.pdf.gz",
+              "original_sha256": "982ef223710cdbea4e4940a7cfb6e72f8d86a3461d2794640585973c5bf5f5d3"
             }
           ]
         }
