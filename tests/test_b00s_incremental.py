@@ -14,6 +14,7 @@ from b00s_incremental import calculate_metrics
 def test_reusing_a_dossier_does_not_reuse_annual_valuation_or_metric_proofs():
     from b00s_documentary import expand_incremental, DIMENSIONS
     previous=next(r for r in json.loads((m.INPUT/'economic_reviews_2015.json').read_text()) if r['ticker']=='TIMP3')
+    previous['numerical_proof']={'cutoff':'2015-06-30','annual_lease_cost':123}
     saved=copy.deepcopy(previous)
     update=dict(reuse_previous=True,prior_assessment='2015:'+previous['cnpj'],years=[2016],cutoff='2016-06-30',
         cnpj=previous['cnpj'],ticker='TIMP3',valuation=dict(status='INDETERMINATE',reason='Review new tower sale and lease commitments',evidence=[]),
@@ -22,6 +23,7 @@ def test_reusing_a_dossier_does_not_reuse_annual_valuation_or_metric_proofs():
     result=expand_incremental(update,previous)
     assert result['valuation']['status']=='INDETERMINATE'
     assert 'economic_metrics' not in result
+    assert 'numerical_proof' not in result
     assert previous==saved
     assert result['dimensions']['capital_economics']['status']=='INDETERMINATE'
     del update['confirmed_dimensions']['governance']
@@ -266,3 +268,58 @@ def test_sapr_2017_bound_reconciles_historical_tax_and_delivered_lease():
     actual=next(r for r in json.loads((m.INPUT/'fundamental_decisions.json').read_text()) if r['year']==2017 and r['ticker']=='SAPR4')
     assert actual['market_cap']==pytest.approx(capital)
     assert actual['normalized_pe_interval']['upper']==pytest.approx(capital/min(real_floors))
+
+def test_bbse_2018_admission_uses_five_year_bound_after_disposals_and_costs():
+    import hashlib, statistics
+    r=next(x for x in json.loads((m.INPUT/'economic_reviews_2018.json').read_text()) if x['ticker']=='BBSE3')
+    proof=r['numerical_proof'];bounds=r['valuation']['profit_bounds']
+    assert set(bounds)=={'2013','2014','2015','2016','2017'}
+    assert bounds['2013']['lower'] is None and bounds['2014']['lower'] is None
+    assert hashlib.sha256((m.INPUT/'ipca_sgs433.json').read_bytes()).hexdigest()==proof['ipca_source_sha256']
+    real=[float('-inf')]*2
+    for row in proof['annual_rows']:
+        c=row['components'];factor=row['ipca_factor_to_known_may2018']
+        floor=c['reported_attributable_profit']-sum(v for k,v in c.items() if k!='reported_attributable_profit')
+        assert floor==pytest.approx(row['nominal_lower_before_new_erp'])
+        after_cost=floor*factor-590300
+        assert bounds[str(row['fiscal_year'])]['lower']*factor==pytest.approx(after_cost)
+        real.append(after_cost)
+    # Retains SH2 losses and costs while removing positive investee earnings,
+    # gross broker commissions and the gross IRB disposal gain, without sale cash.
+    last=proof['annual_rows'][-1]['components']
+    assert last['irb_disposal_gain_gross']==269246000
+    assert last['sh2_positive_subsidiary_profit_half']==.5*(6240000+83778000+1222000)
+    assert last['sh2_all_broker_commissions_gross']==283420000
+    capital=2000000000*24.46;median=statistics.median(real)
+    assert median==pytest.approx(proof['normalized_profit_interval']['lower'])
+    assert capital/median==pytest.approx(14.946834439509185)
+    actual=next(x for x in json.loads((m.INPUT/'fundamental_decisions.json').read_text()) if x['year']==2018 and x['ticker']=='BBSE3')
+    assert actual['market_cap']==pytest.approx(capital)
+    assert actual['normalized_pe_interval']['upper']==pytest.approx(capital/median)
+    assert actual['normalized_profit'] is None and actual['normalized_pe'] is None
+    assert actual['valuation_status']=='PASS_MATURE'
+    assert actual['quality_category']=='QUALIFIED_SATISFACTORY'
+    assert all(e['received']<='2018-06-29' for e in actual['documentary_assessment']['valuation']['evidence'])
+
+
+def test_2018_material_changes_refresh_dossiers_without_forcing_base_exits():
+    rows={r['ticker']:r for r in json.loads((m.INPUT/'fundamental_decisions.json').read_text()) if r['year']==2018}
+    assert set(rows)=={r['ticker'] for r in m.candidates() if r['year']==2018}
+    for r in rows.values():
+        a=r['documentary_assessment']
+        assert len(a['dimensions'])==6
+        assert all(e['received']<=r['cutoff'] for e in a['incremental_review']['evidence'])
+        if a.get('reuse_previous'):
+            assert a['prior_assessment']=='2017:'+r['cnpj']
+            assert all(d['review_2018'] for d in a['dimensions'].values())
+        elif r['ticker']!='BBSE3':
+            assert a['prior_assessment']['year']==2017
+            assert all(d['reason'] and d['evidence'] for d in a['dimensions'].values())
+    sapr=rows['SAPR4'];assessment=sapr['documentary_assessment']
+    assert sapr['base_status']=='PASS'
+    assert 'numerical_proof' not in assessment  # no obsolete one-stage lease cost
+    assert '194,461' in assessment['valuation']['reason']
+    assert any(e['docid']=='sapr_curitiba_contract_201806' for e in assessment['valuation']['evidence'])
+    assert rows['TBLE3']['base_status']=='PASS'
+    assert rows['TBLE3']['quality_category']=='INDETERMINATE'
+    assert rows['ABCB4']['quality_category']==rows['PSSA3']['quality_category']=='QUALIFIED_SATISFACTORY'

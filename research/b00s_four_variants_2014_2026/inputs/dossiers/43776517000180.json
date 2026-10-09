@@ -4787,471 +4787,2179 @@
       "ticker": "SBSP3",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": null,
-      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
-      "classification_changed": null,
-      "dimensions": {},
-      "dimension_evidence_updates": {
+      "assessment_ref": "43776517000180:2018",
+      "assessment_status": "ASSESSED",
+      "classification_changed": false,
+      "dimensions": {
         "durability": {
-          "favorable": "Abastecimento de água, esgotamento sanitário, drenagem e manejo de águas pluviais urbanas, limpeza urbana, manejo de resíduos sólidos e energia.",
+          "status": "SATISFACTORY",
+          "reason": "Water/sewage network demand and long municipal contracts support a durable franchise beyond sector membership. Revisão de 2015: a mudança material descrita na atualização foi examinada e não invalida esta tese nesta dimensão; mantém-se o juízo anterior e suas limitações. Revisão de 2016: Rede e concessões permanecem, com volume produzido+8,8% e faturado+1,9%; melhora da disponibilidade hídrica não garante permanência da recuperação nem dispensa expansão necessária. Revisão de 2017: Volume faturado recupera6% no1T17 e tarifa8,4% desde maio2016; concessão e demanda permanecem. Fim de bônus e tarifa de contingência são explicitados, sem presumir que a crise hídrica se repetirá ou desapareceu. Revisão de 2018: Volume+2,1% e reajuste7,9% desde novembro2017 sustentam a franquia. Reconhecimento de perdas no atacado por menor recebimento de Guarulhos é contraponto; mantém SAT da durabilidade.",
+          "favorable": "363 municipalities, predominantly30-year contracts; SãoPaulo2010 contract grants exclusivity, regulatory tariff remuneration and investment rights.",
+          "contrary_evidence": "61 expired contracts produce16.11% of revenue and25.05% of intangibles; legal renewal period extends to2016, but renewals are not guaranteed. SãoPaulo51.75% of revenue and Cantareira drought concentrate operating risk.",
           "evidence": [
             {
-              "cnpj": "43776517000180",
-              "received": "2018-05-30",
-              "name": "CIA SANEAMENTO BASICO EST SAO PAULO",
-              "sector": "Saneamento, Serv. Água e Gás",
-              "activity": "Abastecimento de água, esgotamento sanitário, drenagem e manejo de águas pluviais urbanas, limpeza urbana, manejo de resíduos sólidos e energia.",
-              "cvm": "014443",
-              "docid": "75643",
-              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=75643"
+              "docid": "35848",
+              "group": 412,
+              "pages": [
+                1,
+                2,
+                56,
+                57
+              ],
+              "received": "2014-03-28",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35848",
+              "original": "review_originals/cvm_35848_g412.pdf.gz",
+              "original_sha256": "f78d1d7fb5802fe611f272ec3b3fc1413d1ec2d0e2f7c7e539df7e8bb22ab631"
+            },
+            {
+              "docid": "37910",
+              "group": 193,
+              "pages": [
+                53
+              ],
+              "received": "2014-05-15",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37910",
+              "original": "review_originals/cvm_37910_g193.pdf.gz",
+              "original_sha256": "55420f288272c1d9cebd592e9860685f08042ace51fdc0bf9e0be24324d468a9"
+            },
+            {
+              "docid": "45337",
+              "group": 1653,
+              "pages": [
+                2,
+                10,
+                12,
+                31,
+                38,
+                39
+              ],
+              "received": "2015-03-26",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=45337",
+              "original": "review_originals/cvm_45337_g1653.pdf.gz",
+              "original_sha256": "9069f9353b512e57c9d7fe8a9eec5cd97a46ab4332a31a8a0be46e0ff0fb24d3"
+            },
+            {
+              "docid": "47253",
+              "group": 192,
+              "pages": [
+                1,
+                8,
+                9
+              ],
+              "received": "2015-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=47253",
+              "original": "review_originals/cvm_47253_g192.pdf.gz",
+              "original_sha256": "87f12aef584238b37ca71d3603393ff07c69608ae1e1493439d49761c77abe8e"
+            },
+            {
+              "docid": "47253",
+              "group": 193,
+              "pages": [
+                18,
+                19,
+                20,
+                36
+              ],
+              "received": "2015-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=47253",
+              "original": "review_originals/cvm_47253_g193.pdf.gz",
+              "original_sha256": "90161ccf48fef1c1fe7184848d2e24fe7f77b2feb520d9f03d7eaa1d6a452e0e"
+            },
+            {
+              "docid": "54474",
+              "group": 1653,
+              "pages": [
+                35,
+                36
+              ],
+              "received": "2016-03-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=54474",
+              "original": "review_originals/cvm_54474_g1653.pdf.gz",
+              "original_sha256": "25dcb03c44a9f040beafac9b916982d059d3f5dc034f2d5043b0eead1ac8811a"
+            },
+            {
+              "docid": "56211",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                7
+              ],
+              "received": "2016-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=56211",
+              "original": "review_originals/cvm_56211_g192.pdf.gz",
+              "original_sha256": "e5d4112d1505afb5bd39ba037879cf0030ef816effd21f7fff344f4f0704ce86"
+            },
+            {
+              "docid": "56211",
+              "group": 193,
+              "pages": [
+                20,
+                22,
+                37
+              ],
+              "received": "2016-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=56211",
+              "original": "review_originals/cvm_56211_g193.pdf.gz",
+              "original_sha256": "e2f0622d09ac9616ae3bc08007f6478a85ab8621d17a151b484c552033436615"
+            },
+            {
+              "docid": "65467",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                5,
+                6,
+                7
+              ],
+              "received": "2017-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=65467",
+              "original": "review_originals/cvm_65467_g192.pdf.gz",
+              "original_sha256": "263ed94d8530967aa96237f62cdf17494cc3bfed0cca90b30a3c7c714cc02980"
+            },
+            {
+              "docid": "65467",
+              "group": 193,
+              "pages": [
+                18,
+                19,
+                35
+              ],
+              "received": "2017-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=65467",
+              "original": "review_originals/cvm_65467_g193.pdf.gz",
+              "original_sha256": "b3dbd9eeaeee4f5692b0aa4e1a3a0f83cc1396e45e9aae7d661a6f3c6496c8fe"
+            },
+            {
+              "docid": "74266",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3
+              ],
+              "received": "2018-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=74266",
+              "original": "review_originals/cvm_74266_g192.pdf.gz",
+              "original_sha256": "dbce75d18c3548a5ab64bc8db7e75a8e0b7b39b0559eb751442c184add60f91f"
+            },
+            {
+              "docid": "74266",
+              "group": 193,
+              "pages": [
+                38,
+                39
+              ],
+              "received": "2018-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=74266",
+              "original": "review_originals/cvm_74266_g193.pdf.gz",
+              "original_sha256": "ce8743acfe3f0b5e1ac111b7b84767ed2f4c57b9c5c116b2bfe01a41d91ac189"
+            }
+          ],
+          "prior_year": 2017,
+          "review_2015": "Sem alteração material desta dimensão após confronto da tese anterior com os fatos descritos na atualização de 2015. Seca reduz volumeproduzido21,2% no1T15. AcordoGESP reconhece696,283mi sem ingressoimediatoequivalente;798,441mi controversos persistem. BNDESDL/EBITDA3,09 e3,17 ultrapassam3, exigindo garantia250mi.",
+          "review_2016": "Rede e concessões permanecem, com volume produzido+8,8% e faturado+1,9%; melhora da disponibilidade hídrica não garante permanência da recuperação nem dispensa expansão necessária.",
+          "review_2017": "Volume faturado recupera6% no1T17 e tarifa8,4% desde maio2016; concessão e demanda permanecem. Fim de bônus e tarifa de contingência são explicitados, sem presumir que a crise hídrica se repetirá ou desapareceu.",
+          "review_2018": "Volume+2,1% e reajuste7,9% desde novembro2017 sustentam a franquia. Reconhecimento de perdas no atacado por menor recebimento de Guarulhos é contraponto; mantém SAT da durabilidade."
+        },
+        "capital_economics": {
+          "status": "INDETERMINATE",
+          "reason": "Five-year operating progress is favorable, but the contemporaneous combination of supply restriction, consumption bonus and delayed tariff revision leaves adequate economics of deployed capital unproven under the already-known shock. Revisão de 2015: a mudança material descrita na atualização foi examinada e não invalida esta tese nesta dimensão; mantém-se o juízo anterior e suas limitações. Revisão de 2016: Lucro1T16 cresce por reversão cambial enquanto EBITajustado cai43,6% no comparativo comGESP. Tarifa+15,2% conhecida não constitui prova de retorno incremental do CAPEX emergencial. Revisão de 2017: EBIT ajustado1.021,4mi e EBITDA1.353,4mi melhoram, mas incorporam volume e tarifa pós-seca. Economia do capital novo e custo de concessões/PPP ainda sem demonstração suficiente; mantémND. Revisão de 2018: EBITDA R$1.399 mi cresce3,4% enquanto NI R$580,4 mi cai13,9% por resultado financeiro. Tarifa/construção e retorno do capital novo continuam diferentes; mantém ND.",
+          "favorable": "2009–2013 EBITDA2.727→4.007b and operating result2.121→3.139b; lower losses and greater connections per employee;1Q14 adjusted EBITDA+10.2% and cash-supported earnings.",
+          "contrary_evidence": "ByMar/Apr2014 Cantareira withdrawal33→27.9m3/s,30%bonus on bills after20%consumption cuts, with expansion to wholeRMSP; management explicitly could not estimate revenue effect. Do not treat2014 drought as a proven permanent failure or annualize1Q14.",
+          "missing": "A proportionate tariff/volume/cost and investment-return bridge using facts already known byJun2014; the existence of a future tariff correction alone does not quantify capital economics.",
+          "evidence": [
+            {
+              "docid": "35848",
+              "group": 1653,
+              "pages": [
+                10,
+                16,
+                17,
+                39
+              ],
+              "received": "2014-03-28",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35848",
+              "original": "review_originals/cvm_35848_g1653.pdf.gz",
+              "original_sha256": "4a64b769e2aebeabec93bf5170e0cfec4f4877850274192322c459607db41c1b"
+            },
+            {
+              "docid": "37910",
+              "group": 192,
+              "pages": [
+                1,
+                7
+              ],
+              "received": "2014-05-15",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37910",
+              "original": "review_originals/cvm_37910_g192.pdf.gz",
+              "original_sha256": "75425821279c436555648cca433832b46ec317e04a8a6918d964d67096f690d0"
+            },
+            {
+              "docid": "37910",
+              "group": 193,
+              "pages": [
+                51,
+                52,
+                53
+              ],
+              "received": "2014-05-15",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37910",
+              "original": "review_originals/cvm_37910_g193.pdf.gz",
+              "original_sha256": "55420f288272c1d9cebd592e9860685f08042ace51fdc0bf9e0be24324d468a9"
+            },
+            {
+              "docid": "45337",
+              "group": 1653,
+              "pages": [
+                2,
+                10,
+                12,
+                31,
+                38,
+                39
+              ],
+              "received": "2015-03-26",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=45337",
+              "original": "review_originals/cvm_45337_g1653.pdf.gz",
+              "original_sha256": "9069f9353b512e57c9d7fe8a9eec5cd97a46ab4332a31a8a0be46e0ff0fb24d3"
+            },
+            {
+              "docid": "47253",
+              "group": 192,
+              "pages": [
+                1,
+                8,
+                9
+              ],
+              "received": "2015-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=47253",
+              "original": "review_originals/cvm_47253_g192.pdf.gz",
+              "original_sha256": "87f12aef584238b37ca71d3603393ff07c69608ae1e1493439d49761c77abe8e"
+            },
+            {
+              "docid": "47253",
+              "group": 193,
+              "pages": [
+                18,
+                19,
+                20,
+                36
+              ],
+              "received": "2015-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=47253",
+              "original": "review_originals/cvm_47253_g193.pdf.gz",
+              "original_sha256": "90161ccf48fef1c1fe7184848d2e24fe7f77b2feb520d9f03d7eaa1d6a452e0e"
+            },
+            {
+              "docid": "54474",
+              "group": 1653,
+              "pages": [
+                35,
+                36
+              ],
+              "received": "2016-03-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=54474",
+              "original": "review_originals/cvm_54474_g1653.pdf.gz",
+              "original_sha256": "25dcb03c44a9f040beafac9b916982d059d3f5dc034f2d5043b0eead1ac8811a"
+            },
+            {
+              "docid": "56211",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                7
+              ],
+              "received": "2016-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=56211",
+              "original": "review_originals/cvm_56211_g192.pdf.gz",
+              "original_sha256": "e5d4112d1505afb5bd39ba037879cf0030ef816effd21f7fff344f4f0704ce86"
+            },
+            {
+              "docid": "56211",
+              "group": 193,
+              "pages": [
+                20,
+                22,
+                37
+              ],
+              "received": "2016-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=56211",
+              "original": "review_originals/cvm_56211_g193.pdf.gz",
+              "original_sha256": "e2f0622d09ac9616ae3bc08007f6478a85ab8621d17a151b484c552033436615"
+            },
+            {
+              "docid": "65467",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                5,
+                6,
+                7
+              ],
+              "received": "2017-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=65467",
+              "original": "review_originals/cvm_65467_g192.pdf.gz",
+              "original_sha256": "263ed94d8530967aa96237f62cdf17494cc3bfed0cca90b30a3c7c714cc02980"
+            },
+            {
+              "docid": "65467",
+              "group": 193,
+              "pages": [
+                18,
+                19,
+                35
+              ],
+              "received": "2017-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=65467",
+              "original": "review_originals/cvm_65467_g193.pdf.gz",
+              "original_sha256": "b3dbd9eeaeee4f5692b0aa4e1a3a0f83cc1396e45e9aae7d661a6f3c6496c8fe"
+            },
+            {
+              "docid": "74266",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3
+              ],
+              "received": "2018-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=74266",
+              "original": "review_originals/cvm_74266_g192.pdf.gz",
+              "original_sha256": "dbce75d18c3548a5ab64bc8db7e75a8e0b7b39b0559eb751442c184add60f91f"
+            },
+            {
+              "docid": "74266",
+              "group": 193,
+              "pages": [
+                38,
+                39
+              ],
+              "received": "2018-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=74266",
+              "original": "review_originals/cvm_74266_g193.pdf.gz",
+              "original_sha256": "ce8743acfe3f0b5e1ac111b7b84767ed2f4c57b9c5c116b2bfe01a41d91ac189"
+            }
+          ],
+          "prior_year": 2017,
+          "review_2015": "Sem alteração material desta dimensão após confronto da tese anterior com os fatos descritos na atualização de 2015. Seca reduz volumeproduzido21,2% no1T15. AcordoGESP reconhece696,283mi sem ingressoimediatoequivalente;798,441mi controversos persistem. BNDESDL/EBITDA3,09 e3,17 ultrapassam3, exigindo garantia250mi.",
+          "review_2016": "Lucro1T16 cresce por reversão cambial enquanto EBITajustado cai43,6% no comparativo comGESP. Tarifa+15,2% conhecida não constitui prova de retorno incremental do CAPEX emergencial.",
+          "review_2017": "EBIT ajustado1.021,4mi e EBITDA1.353,4mi melhoram, mas incorporam volume e tarifa pós-seca. Economia do capital novo e custo de concessões/PPP ainda sem demonstração suficiente; mantémND.",
+          "review_2018": "EBITDA R$1.399 mi cresce3,4% enquanto NI R$580,4 mi cai13,9% por resultado financeiro. Tarifa/construção e retorno do capital novo continuam diferentes; mantém ND."
+        },
+        "earnings_reliability": {
+          "status": "SATISFACTORY",
+          "reason": "Lucro2014 de903mi preserva efeitos da seca; ganhoGESPé1T15 e não entra na medianaFY2010–14. A ponte explícita entre ganho contábil e caixa conservaSATdesta dimensão, com materialidade destacada. Revisão de 2016: Separa ganhoGESP2015, receita/custo de construção e variação cambialfavorável483,3mi no1T16; não adiciona perdas cambiais2015 nem anualiza lucros trimestrais. Revisão de 2017: Ponte1T17 separa câmbio, bônus153,8mi, tarifa contingência160,6mi no comparativo e ativos2,1bi entrando em operação. Lucro674,4mi não é anualizado; ganhosGESP anteriores não são tratados como caixa. Revisão de 2018: Separa receita/custo de construção R$647,2/R$632,7 mi e perdas estimadas de atacado R$36,1 mi. Mantém SAT da conciliação e não adiciona despesas para fabricar lucro normalizado.",
+          "favorable": "CPC33 has noDRE/DCF effect;2013 operating cash2.777b exceeds NI1.924b. R$1.412b uncertainGESP reimbursement is not booked as asset; pension obligation1.780b is recognized.",
+          "contrary_evidence": "Construction margins and currency gains/losses are separate from core operations; legal/actuarial estimates remain uncertain.2013 audit unqualified does not resolve economic controller conflict.",
+          "evidence": [
+            {
+              "docid": "35848",
+              "group": 412,
+              "pages": [
+                21,
+                22,
+                43,
+                44,
+                45
+              ],
+              "received": "2014-03-28",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35848",
+              "original": "review_originals/cvm_35848_g412.pdf.gz",
+              "original_sha256": "f78d1d7fb5802fe611f272ec3b3fc1413d1ec2d0e2f7c7e539df7e8bb22ab631"
+            },
+            {
+              "docid": "35848",
+              "group": 1653,
+              "pages": [
+                39
+              ],
+              "received": "2014-03-28",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35848",
+              "original": "review_originals/cvm_35848_g1653.pdf.gz",
+              "original_sha256": "4a64b769e2aebeabec93bf5170e0cfec4f4877850274192322c459607db41c1b"
+            },
+            {
+              "docid": "37910",
+              "group": 192,
+              "pages": [
+                4,
+                5,
+                6
+              ],
+              "received": "2014-05-15",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37910",
+              "original": "review_originals/cvm_37910_g192.pdf.gz",
+              "original_sha256": "75425821279c436555648cca433832b46ec317e04a8a6918d964d67096f690d0"
+            },
+            {
+              "docid": "45337",
+              "group": 1653,
+              "pages": [
+                2,
+                10,
+                12,
+                31,
+                38,
+                39
+              ],
+              "received": "2015-03-26",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=45337",
+              "original": "review_originals/cvm_45337_g1653.pdf.gz",
+              "original_sha256": "9069f9353b512e57c9d7fe8a9eec5cd97a46ab4332a31a8a0be46e0ff0fb24d3"
+            },
+            {
+              "docid": "47253",
+              "group": 192,
+              "pages": [
+                1,
+                8,
+                9
+              ],
+              "received": "2015-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=47253",
+              "original": "review_originals/cvm_47253_g192.pdf.gz",
+              "original_sha256": "87f12aef584238b37ca71d3603393ff07c69608ae1e1493439d49761c77abe8e"
+            },
+            {
+              "docid": "47253",
+              "group": 193,
+              "pages": [
+                18,
+                19,
+                20,
+                36
+              ],
+              "received": "2015-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=47253",
+              "original": "review_originals/cvm_47253_g193.pdf.gz",
+              "original_sha256": "90161ccf48fef1c1fe7184848d2e24fe7f77b2feb520d9f03d7eaa1d6a452e0e"
+            },
+            {
+              "docid": "54474",
+              "group": 1653,
+              "pages": [
+                35,
+                36
+              ],
+              "received": "2016-03-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=54474",
+              "original": "review_originals/cvm_54474_g1653.pdf.gz",
+              "original_sha256": "25dcb03c44a9f040beafac9b916982d059d3f5dc034f2d5043b0eead1ac8811a"
+            },
+            {
+              "docid": "56211",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                7
+              ],
+              "received": "2016-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=56211",
+              "original": "review_originals/cvm_56211_g192.pdf.gz",
+              "original_sha256": "e5d4112d1505afb5bd39ba037879cf0030ef816effd21f7fff344f4f0704ce86"
+            },
+            {
+              "docid": "56211",
+              "group": 193,
+              "pages": [
+                20,
+                22,
+                37
+              ],
+              "received": "2016-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=56211",
+              "original": "review_originals/cvm_56211_g193.pdf.gz",
+              "original_sha256": "e2f0622d09ac9616ae3bc08007f6478a85ab8621d17a151b484c552033436615"
+            },
+            {
+              "docid": "65467",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                5,
+                6,
+                7
+              ],
+              "received": "2017-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=65467",
+              "original": "review_originals/cvm_65467_g192.pdf.gz",
+              "original_sha256": "263ed94d8530967aa96237f62cdf17494cc3bfed0cca90b30a3c7c714cc02980"
+            },
+            {
+              "docid": "65467",
+              "group": 193,
+              "pages": [
+                18,
+                19,
+                35
+              ],
+              "received": "2017-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=65467",
+              "original": "review_originals/cvm_65467_g193.pdf.gz",
+              "original_sha256": "b3dbd9eeaeee4f5692b0aa4e1a3a0f83cc1396e45e9aae7d661a6f3c6496c8fe"
+            },
+            {
+              "docid": "74266",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3
+              ],
+              "received": "2018-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=74266",
+              "original": "review_originals/cvm_74266_g192.pdf.gz",
+              "original_sha256": "dbce75d18c3548a5ab64bc8db7e75a8e0b7b39b0559eb751442c184add60f91f"
+            },
+            {
+              "docid": "74266",
+              "group": 193,
+              "pages": [
+                38,
+                39
+              ],
+              "received": "2018-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=74266",
+              "original": "review_originals/cvm_74266_g193.pdf.gz",
+              "original_sha256": "ce8743acfe3f0b5e1ac111b7b84767ed2f4c57b9c5c116b2bfe01a41d91ac189"
+            }
+          ],
+          "prior_year": 2017,
+          "review_2015": "Seca reduz volumeproduzido21,2% no1T15. AcordoGESP reconhece696,283mi sem ingressoimediatoequivalente;798,441mi controversos persistem. BNDESDL/EBITDA3,09 e3,17 ultrapassam3, exigindo garantia250mi.",
+          "review_2016": "Separa ganhoGESP2015, receita/custo de construção e variação cambialfavorável483,3mi no1T16; não adiciona perdas cambiais2015 nem anualiza lucros trimestrais.",
+          "review_2017": "Ponte1T17 separa câmbio, bônus153,8mi, tarifa contingência160,6mi no comparativo e ativos2,1bi entrando em operação. Lucro674,4mi não é anualizado; ganhosGESP anteriores não são tratados como caixa.",
+          "review_2018": "Separa receita/custo de construção R$647,2/R$632,7 mi e perdas estimadas de atacado R$36,1 mi. Mantém SAT da conciliação e não adiciona despesas para fabricar lucro normalizado."
+        },
+        "financial_resilience": {
+          "status": "INDETERMINATE",
+          "reason": "CovenantBNDES excedido emdoiscortes(3,17/3,09>3) exige conta vinculada250mi. Queda de produção e exposição cambial consomem flexibilidade; rebaixaSATparaNDsem inferir defaulttotal ou saídaB00S. Revisão de 2016: ÍndiceBNDES3,02x está na faixa3,00–3,80 e exige recebíveis213,5mi/mês na conta fiduciária; contratos vigentes cumpridos. Ainda há pressão de dívida cambial e CAPEX, portanto não reverteND apenas pela recuperação do câmbio. Revisão de 2017: Covenants cumpridos31/03 e amortizações registradas; compromisso de investimento2017 de2,3bi, incluindo745,4mi no1T17/PPP189,8mi, mantém necessidade de financiamento. Não mantém o antigo covenantAMD após seu vencimento31/12/2016; risco econômico não se confunde com limite extinto. Revisão de 2018: Emissão efetiva de R$750 mi em fevereiro alonga dívida para3/5/7 anos; covenants cumpridos. Há R$3.606 mi contratados não sacados, porém vinculados a obras; não confunde com caixa livre. Mantém ND da folga econômica perante expansão e câmbio.",
+          "favorable": "CashMar2014 R$1.982472b; principal schedule2014R$417.195m and2015R$1.042744b; covenants complied with atMar2014. Project finance undrawn5.820b;2013 netdebt/EBITDA1.9.",
+          "contrary_evidence": "Undrawn5.820b is earmarked to works and cannot be added to unrestricted cash. Around40% debt is foreign currency; drought can reduce cash generation and demand emergencyinvestment. Stated buffers are not a forecast of crisis outcomes.",
+          "missing": "CovenantBNDES excedido emdoiscortes(3,17/3,09>3) exige conta vinculada250mi. Queda de produção e exposição cambial consomem flexibilidade; rebaixaSATparaNDsem inferir defaulttotal ou saídaB00S.",
+          "evidence": [
+            {
+              "docid": "35848",
+              "group": 1653,
+              "pages": [
+                10
+              ],
+              "received": "2014-03-28",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35848",
+              "original": "review_originals/cvm_35848_g1653.pdf.gz",
+              "original_sha256": "4a64b769e2aebeabec93bf5170e0cfec4f4877850274192322c459607db41c1b"
+            },
+            {
+              "docid": "35848",
+              "group": 412,
+              "pages": [
+                63,
+                64
+              ],
+              "received": "2014-03-28",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35848",
+              "original": "review_originals/cvm_35848_g412.pdf.gz",
+              "original_sha256": "f78d1d7fb5802fe611f272ec3b3fc1413d1ec2d0e2f7c7e539df7e8bb22ab631"
+            },
+            {
+              "docid": "37910",
+              "group": 193,
+              "pages": [
+                11,
+                31,
+                32
+              ],
+              "received": "2014-05-15",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37910",
+              "original": "review_originals/cvm_37910_g193.pdf.gz",
+              "original_sha256": "55420f288272c1d9cebd592e9860685f08042ace51fdc0bf9e0be24324d468a9"
+            },
+            {
+              "docid": "45337",
+              "group": 1653,
+              "pages": [
+                2,
+                10,
+                12,
+                31,
+                38,
+                39
+              ],
+              "received": "2015-03-26",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=45337",
+              "original": "review_originals/cvm_45337_g1653.pdf.gz",
+              "original_sha256": "9069f9353b512e57c9d7fe8a9eec5cd97a46ab4332a31a8a0be46e0ff0fb24d3"
+            },
+            {
+              "docid": "47253",
+              "group": 192,
+              "pages": [
+                1,
+                8,
+                9
+              ],
+              "received": "2015-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=47253",
+              "original": "review_originals/cvm_47253_g192.pdf.gz",
+              "original_sha256": "87f12aef584238b37ca71d3603393ff07c69608ae1e1493439d49761c77abe8e"
+            },
+            {
+              "docid": "47253",
+              "group": 193,
+              "pages": [
+                18,
+                19,
+                20,
+                36
+              ],
+              "received": "2015-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=47253",
+              "original": "review_originals/cvm_47253_g193.pdf.gz",
+              "original_sha256": "90161ccf48fef1c1fe7184848d2e24fe7f77b2feb520d9f03d7eaa1d6a452e0e"
+            },
+            {
+              "docid": "54474",
+              "group": 1653,
+              "pages": [
+                35,
+                36
+              ],
+              "received": "2016-03-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=54474",
+              "original": "review_originals/cvm_54474_g1653.pdf.gz",
+              "original_sha256": "25dcb03c44a9f040beafac9b916982d059d3f5dc034f2d5043b0eead1ac8811a"
+            },
+            {
+              "docid": "56211",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                7
+              ],
+              "received": "2016-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=56211",
+              "original": "review_originals/cvm_56211_g192.pdf.gz",
+              "original_sha256": "e5d4112d1505afb5bd39ba037879cf0030ef816effd21f7fff344f4f0704ce86"
+            },
+            {
+              "docid": "56211",
+              "group": 193,
+              "pages": [
+                20,
+                22,
+                37
+              ],
+              "received": "2016-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=56211",
+              "original": "review_originals/cvm_56211_g193.pdf.gz",
+              "original_sha256": "e2f0622d09ac9616ae3bc08007f6478a85ab8621d17a151b484c552033436615"
+            },
+            {
+              "docid": "65467",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                5,
+                6,
+                7
+              ],
+              "received": "2017-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=65467",
+              "original": "review_originals/cvm_65467_g192.pdf.gz",
+              "original_sha256": "263ed94d8530967aa96237f62cdf17494cc3bfed0cca90b30a3c7c714cc02980"
+            },
+            {
+              "docid": "65467",
+              "group": 193,
+              "pages": [
+                18,
+                19,
+                35
+              ],
+              "received": "2017-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=65467",
+              "original": "review_originals/cvm_65467_g193.pdf.gz",
+              "original_sha256": "b3dbd9eeaeee4f5692b0aa4e1a3a0f83cc1396e45e9aae7d661a6f3c6496c8fe"
+            },
+            {
+              "docid": "74266",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3
+              ],
+              "received": "2018-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=74266",
+              "original": "review_originals/cvm_74266_g192.pdf.gz",
+              "original_sha256": "dbce75d18c3548a5ab64bc8db7e75a8e0b7b39b0559eb751442c184add60f91f"
+            },
+            {
+              "docid": "74266",
+              "group": 193,
+              "pages": [
+                38,
+                39
+              ],
+              "received": "2018-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=74266",
+              "original": "review_originals/cvm_74266_g193.pdf.gz",
+              "original_sha256": "ce8743acfe3f0b5e1ac111b7b84767ed2f4c57b9c5c116b2bfe01a41d91ac189"
+            }
+          ],
+          "prior_year": 2017,
+          "review_2015": "Seca reduz volumeproduzido21,2% no1T15. AcordoGESP reconhece696,283mi sem ingressoimediatoequivalente;798,441mi controversos persistem. BNDESDL/EBITDA3,09 e3,17 ultrapassam3, exigindo garantia250mi.",
+          "review_2016": "ÍndiceBNDES3,02x está na faixa3,00–3,80 e exige recebíveis213,5mi/mês na conta fiduciária; contratos vigentes cumpridos. Ainda há pressão de dívida cambial e CAPEX, portanto não reverteND apenas pela recuperação do câmbio.",
+          "review_2017": "Covenants cumpridos31/03 e amortizações registradas; compromisso de investimento2017 de2,3bi, incluindo745,4mi no1T17/PPP189,8mi, mantém necessidade de financiamento. Não mantém o antigo covenantAMD após seu vencimento31/12/2016; risco econômico não se confunde com limite extinto.",
+          "review_2018": "Emissão efetiva de R$750 mi em fevereiro alonga dívida para3/5/7 anos; covenants cumpridos. Há R$3.606 mi contratados não sacados, porém vinculados a obras; não confunde com caixa livre. Mantém ND da folga econômica perante expansão e câmbio."
+        },
+        "capital_allocation": {
+          "status": "INDETERMINATE",
+          "reason": "CAPEXemergencial e compromissos de serviço continuam; remuneração tarifária e retorno incremental após crise não estão comprovados. Não transforma demanda essencial em aprovação da alocação. Revisão de 2016: CAPEX1T16 de665,4mi e obras hídricas têm finalidade operacional; retorno tarifário por ação após todos os custos não está comprovado. Não considera linha de crédito não utilizada como caixa disponível irrestrito. Revisão de 2017: Investimentos e depreciação332mi no1T17 são confrontados com expansão e fornecimento; não há prova atual suficiente de retorno incremental por ação para superarND anterior. Revisão de 2018: D&A R$328 mi e custos de manutenção crescentes acompanham projetos. Financiamento destinado a obras não comprova retorno incremental por ação; mantém ND da alocação.",
+          "favorable": "2013 investment2.716b and dividend/JCP537.465m versus NI1.923559b; retention1.289916b. Waterloss25.9%→24.4% over2009–13;1Q14 assets1.8b enteredservice.",
+          "contrary_evidence": "SãoLourenço adds4.7m3/s but investment2.21b/25-yearservicecontract6b; PPP capital is borne bySPE, not evidence of free capacity for issuer. Drought addscosts; no disqualification merely becausepayout is low or expansion cashflownegative.",
+          "missing": "Project/regulated return and timing bridge sufficient to connect retention and obligatory expansion to economic return per share under information atcutoff.",
+          "evidence": [
+            {
+              "docid": "35848",
+              "group": 1653,
+              "pages": [
+                10
+              ],
+              "received": "2014-03-28",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35848",
+              "original": "review_originals/cvm_35848_g1653.pdf.gz",
+              "original_sha256": "4a64b769e2aebeabec93bf5170e0cfec4f4877850274192322c459607db41c1b"
+            },
+            {
+              "docid": "35848",
+              "group": 412,
+              "pages": [
+                97,
+                98,
+                99
+              ],
+              "received": "2014-03-28",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35848",
+              "original": "review_originals/cvm_35848_g412.pdf.gz",
+              "original_sha256": "f78d1d7fb5802fe611f272ec3b3fc1413d1ec2d0e2f7c7e539df7e8bb22ab631"
+            },
+            {
+              "docid": "37910",
+              "group": 192,
+              "pages": [
+                5,
+                7
+              ],
+              "received": "2014-05-15",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37910",
+              "original": "review_originals/cvm_37910_g192.pdf.gz",
+              "original_sha256": "75425821279c436555648cca433832b46ec317e04a8a6918d964d67096f690d0"
+            },
+            {
+              "docid": "37910",
+              "group": 193,
+              "pages": [
+                51,
+                53
+              ],
+              "received": "2014-05-15",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37910",
+              "original": "review_originals/cvm_37910_g193.pdf.gz",
+              "original_sha256": "55420f288272c1d9cebd592e9860685f08042ace51fdc0bf9e0be24324d468a9"
+            },
+            {
+              "docid": "45337",
+              "group": 1653,
+              "pages": [
+                2,
+                10,
+                12,
+                31,
+                38,
+                39
+              ],
+              "received": "2015-03-26",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=45337",
+              "original": "review_originals/cvm_45337_g1653.pdf.gz",
+              "original_sha256": "9069f9353b512e57c9d7fe8a9eec5cd97a46ab4332a31a8a0be46e0ff0fb24d3"
+            },
+            {
+              "docid": "47253",
+              "group": 192,
+              "pages": [
+                1,
+                8,
+                9
+              ],
+              "received": "2015-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=47253",
+              "original": "review_originals/cvm_47253_g192.pdf.gz",
+              "original_sha256": "87f12aef584238b37ca71d3603393ff07c69608ae1e1493439d49761c77abe8e"
+            },
+            {
+              "docid": "47253",
+              "group": 193,
+              "pages": [
+                18,
+                19,
+                20,
+                36
+              ],
+              "received": "2015-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=47253",
+              "original": "review_originals/cvm_47253_g193.pdf.gz",
+              "original_sha256": "90161ccf48fef1c1fe7184848d2e24fe7f77b2feb520d9f03d7eaa1d6a452e0e"
+            },
+            {
+              "docid": "54474",
+              "group": 1653,
+              "pages": [
+                35,
+                36
+              ],
+              "received": "2016-03-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=54474",
+              "original": "review_originals/cvm_54474_g1653.pdf.gz",
+              "original_sha256": "25dcb03c44a9f040beafac9b916982d059d3f5dc034f2d5043b0eead1ac8811a"
+            },
+            {
+              "docid": "56211",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                7
+              ],
+              "received": "2016-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=56211",
+              "original": "review_originals/cvm_56211_g192.pdf.gz",
+              "original_sha256": "e5d4112d1505afb5bd39ba037879cf0030ef816effd21f7fff344f4f0704ce86"
+            },
+            {
+              "docid": "56211",
+              "group": 193,
+              "pages": [
+                20,
+                22,
+                37
+              ],
+              "received": "2016-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=56211",
+              "original": "review_originals/cvm_56211_g193.pdf.gz",
+              "original_sha256": "e2f0622d09ac9616ae3bc08007f6478a85ab8621d17a151b484c552033436615"
+            },
+            {
+              "docid": "65467",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                5,
+                6,
+                7
+              ],
+              "received": "2017-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=65467",
+              "original": "review_originals/cvm_65467_g192.pdf.gz",
+              "original_sha256": "263ed94d8530967aa96237f62cdf17494cc3bfed0cca90b30a3c7c714cc02980"
+            },
+            {
+              "docid": "65467",
+              "group": 193,
+              "pages": [
+                18,
+                19,
+                35
+              ],
+              "received": "2017-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=65467",
+              "original": "review_originals/cvm_65467_g193.pdf.gz",
+              "original_sha256": "b3dbd9eeaeee4f5692b0aa4e1a3a0f83cc1396e45e9aae7d661a6f3c6496c8fe"
+            },
+            {
+              "docid": "74266",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3
+              ],
+              "received": "2018-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=74266",
+              "original": "review_originals/cvm_74266_g192.pdf.gz",
+              "original_sha256": "dbce75d18c3548a5ab64bc8db7e75a8e0b7b39b0559eb751442c184add60f91f"
+            },
+            {
+              "docid": "74266",
+              "group": 193,
+              "pages": [
+                38,
+                39
+              ],
+              "received": "2018-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=74266",
+              "original": "review_originals/cvm_74266_g193.pdf.gz",
+              "original_sha256": "ce8743acfe3f0b5e1ac111b7b84767ed2f4c57b9c5c116b2bfe01a41d91ac189"
+            }
+          ],
+          "prior_year": 2017,
+          "review_2015": "Seca reduz volumeproduzido21,2% no1T15. AcordoGESP reconhece696,283mi sem ingressoimediatoequivalente;798,441mi controversos persistem. BNDESDL/EBITDA3,09 e3,17 ultrapassam3, exigindo garantia250mi.",
+          "review_2016": "CAPEX1T16 de665,4mi e obras hídricas têm finalidade operacional; retorno tarifário por ação após todos os custos não está comprovado. Não considera linha de crédito não utilizada como caixa disponível irrestrito.",
+          "review_2017": "Investimentos e depreciação332mi no1T17 são confrontados com expansão e fornecimento; não há prova atual suficiente de retorno incremental por ação para superarND anterior.",
+          "review_2018": "D&A R$328 mi e custos de manutenção crescentes acompanham projetos. Financiamento destinado a obras não comprova retorno incremental por ação; mantém ND da alocação."
+        },
+        "governance": {
+          "status": "INDETERMINATE",
+          "reason": "AcordoGESP2015 reconhece696,283mi, com87,174mi em açõesCTEEP e609,109mi em156parcelas iniciando2017;798,441mi seguem controversos. A recuperação parcial não encerra a pendência anterior com controlador, mantémND. Revisão de 2016: Recebíveis doEstado871,344mi permanecem; litígioEMAE recebido11/04/2016 questiona uso de reservatórios sob controlador comum, perda possível não quantificável. MantémND de conflitos, sem presumir condenação. Revisão de 2017: AcordoEMAE28/10/2016 prevê6,610mi anuais até2042 e46,270mi emcinco parcelas, ainda condicionado à aprovação societáriaEMAE; ação dos minoritários e créditoGESP controverso955,334mi persistem. ND específico preservado, sem presumir condenação. Revisão de 2018: Inadimplência municipal e relações estaduais continuam materiais, ainda que a emissão discipline covenants. Mantém ND dos conflitos públicos, sem presumir fraude ou aprovação por regulação.",
+          "favorable": "4 of9 directors independent including minorityelected representative; CEO cannot chairboard; no auditor consulting services. Management sought arbitration and sued controller for recovery; disputed assets conservatively excluded.",
+          "contrary_evidence": "GESP refused reimbursement of disputed pension benefits; no agreement succeeded. UnrecognizedR$1.412479b (~10.92% equity) includes716.196m disputed benefits and696.283m reservoir transfer with probable legal-loss assessment. This is known pre2014, not a future controversy or proven abusive expropriation.",
+          "missing": "Evidence resolving or adequately bounding the material controller/minority reimbursement conflict; absence of an audit qualification does not resolve governance quality.",
+          "evidence": [
+            {
+              "docid": "35848",
+              "group": 1653,
+              "pages": [
+                12,
+                13
+              ],
+              "received": "2014-03-28",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35848",
+              "original": "review_originals/cvm_35848_g1653.pdf.gz",
+              "original_sha256": "4a64b769e2aebeabec93bf5170e0cfec4f4877850274192322c459607db41c1b"
+            },
+            {
+              "docid": "35848",
+              "group": 412,
+              "pages": [
+                42,
+                43,
+                44,
+                45
+              ],
+              "received": "2014-03-28",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35848",
+              "original": "review_originals/cvm_35848_g412.pdf.gz",
+              "original_sha256": "f78d1d7fb5802fe611f272ec3b3fc1413d1ec2d0e2f7c7e539df7e8bb22ab631"
+            },
+            {
+              "docid": "37910",
+              "group": 193,
+              "pages": [
+                51,
+                52
+              ],
+              "received": "2014-05-15",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37910",
+              "original": "review_originals/cvm_37910_g193.pdf.gz",
+              "original_sha256": "55420f288272c1d9cebd592e9860685f08042ace51fdc0bf9e0be24324d468a9"
+            },
+            {
+              "docid": "45337",
+              "group": 1653,
+              "pages": [
+                2,
+                10,
+                12,
+                31,
+                38,
+                39
+              ],
+              "received": "2015-03-26",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=45337",
+              "original": "review_originals/cvm_45337_g1653.pdf.gz",
+              "original_sha256": "9069f9353b512e57c9d7fe8a9eec5cd97a46ab4332a31a8a0be46e0ff0fb24d3"
+            },
+            {
+              "docid": "47253",
+              "group": 192,
+              "pages": [
+                1,
+                8,
+                9
+              ],
+              "received": "2015-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=47253",
+              "original": "review_originals/cvm_47253_g192.pdf.gz",
+              "original_sha256": "87f12aef584238b37ca71d3603393ff07c69608ae1e1493439d49761c77abe8e"
+            },
+            {
+              "docid": "47253",
+              "group": 193,
+              "pages": [
+                18,
+                19,
+                20,
+                36
+              ],
+              "received": "2015-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=47253",
+              "original": "review_originals/cvm_47253_g193.pdf.gz",
+              "original_sha256": "90161ccf48fef1c1fe7184848d2e24fe7f77b2feb520d9f03d7eaa1d6a452e0e"
+            },
+            {
+              "docid": "54474",
+              "group": 1653,
+              "pages": [
+                35,
+                36
+              ],
+              "received": "2016-03-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=54474",
+              "original": "review_originals/cvm_54474_g1653.pdf.gz",
+              "original_sha256": "25dcb03c44a9f040beafac9b916982d059d3f5dc034f2d5043b0eead1ac8811a"
+            },
+            {
+              "docid": "56211",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                7
+              ],
+              "received": "2016-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=56211",
+              "original": "review_originals/cvm_56211_g192.pdf.gz",
+              "original_sha256": "e5d4112d1505afb5bd39ba037879cf0030ef816effd21f7fff344f4f0704ce86"
+            },
+            {
+              "docid": "56211",
+              "group": 193,
+              "pages": [
+                20,
+                22,
+                37
+              ],
+              "received": "2016-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=56211",
+              "original": "review_originals/cvm_56211_g193.pdf.gz",
+              "original_sha256": "e2f0622d09ac9616ae3bc08007f6478a85ab8621d17a151b484c552033436615"
+            },
+            {
+              "docid": "65467",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                5,
+                6,
+                7
+              ],
+              "received": "2017-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=65467",
+              "original": "review_originals/cvm_65467_g192.pdf.gz",
+              "original_sha256": "263ed94d8530967aa96237f62cdf17494cc3bfed0cca90b30a3c7c714cc02980"
+            },
+            {
+              "docid": "65467",
+              "group": 193,
+              "pages": [
+                18,
+                19,
+                35
+              ],
+              "received": "2017-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=65467",
+              "original": "review_originals/cvm_65467_g193.pdf.gz",
+              "original_sha256": "b3dbd9eeaeee4f5692b0aa4e1a3a0f83cc1396e45e9aae7d661a6f3c6496c8fe"
+            },
+            {
+              "docid": "74266",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3
+              ],
+              "received": "2018-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=74266",
+              "original": "review_originals/cvm_74266_g192.pdf.gz",
+              "original_sha256": "dbce75d18c3548a5ab64bc8db7e75a8e0b7b39b0559eb751442c184add60f91f"
+            },
+            {
+              "docid": "74266",
+              "group": 193,
+              "pages": [
+                38,
+                39
+              ],
+              "received": "2018-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=74266",
+              "original": "review_originals/cvm_74266_g193.pdf.gz",
+              "original_sha256": "ce8743acfe3f0b5e1ac111b7b84767ed2f4c57b9c5c116b2bfe01a41d91ac189"
+            }
+          ],
+          "prior_year": 2017,
+          "review_2015": "Seca reduz volumeproduzido21,2% no1T15. AcordoGESP reconhece696,283mi sem ingressoimediatoequivalente;798,441mi controversos persistem. BNDESDL/EBITDA3,09 e3,17 ultrapassam3, exigindo garantia250mi.",
+          "review_2016": "Recebíveis doEstado871,344mi permanecem; litígioEMAE recebido11/04/2016 questiona uso de reservatórios sob controlador comum, perda possível não quantificável. MantémND de conflitos, sem presumir condenação.",
+          "review_2017": "AcordoEMAE28/10/2016 prevê6,610mi anuais até2042 e46,270mi emcinco parcelas, ainda condicionado à aprovação societáriaEMAE; ação dos minoritários e créditoGESP controverso955,334mi persistem. ND específico preservado, sem presumir condenação.",
+          "review_2018": "Inadimplência municipal e relações estaduais continuam materiais, ainda que a emissão discipline covenants. Mantém ND dos conflitos públicos, sem presumir fraude ou aprovação por regulação."
+        }
+      },
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "363 municipalities, predominantly30-year contracts; SãoPaulo2010 contract grants exclusivity, regulatory tariff remuneration and investment rights.",
+          "evidence": [
+            {
+              "docid": "35848",
+              "group": 412,
+              "pages": [
+                1,
+                2,
+                56,
+                57
+              ],
+              "received": "2014-03-28",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35848",
+              "original": "review_originals/cvm_35848_g412.pdf.gz",
+              "original_sha256": "f78d1d7fb5802fe611f272ec3b3fc1413d1ec2d0e2f7c7e539df7e8bb22ab631"
+            },
+            {
+              "docid": "37910",
+              "group": 193,
+              "pages": [
+                53
+              ],
+              "received": "2014-05-15",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37910",
+              "original": "review_originals/cvm_37910_g193.pdf.gz",
+              "original_sha256": "55420f288272c1d9cebd592e9860685f08042ace51fdc0bf9e0be24324d468a9"
+            },
+            {
+              "docid": "45337",
+              "group": 1653,
+              "pages": [
+                2,
+                10,
+                12,
+                31,
+                38,
+                39
+              ],
+              "received": "2015-03-26",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=45337",
+              "original": "review_originals/cvm_45337_g1653.pdf.gz",
+              "original_sha256": "9069f9353b512e57c9d7fe8a9eec5cd97a46ab4332a31a8a0be46e0ff0fb24d3"
+            },
+            {
+              "docid": "47253",
+              "group": 192,
+              "pages": [
+                1,
+                8,
+                9
+              ],
+              "received": "2015-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=47253",
+              "original": "review_originals/cvm_47253_g192.pdf.gz",
+              "original_sha256": "87f12aef584238b37ca71d3603393ff07c69608ae1e1493439d49761c77abe8e"
+            },
+            {
+              "docid": "47253",
+              "group": 193,
+              "pages": [
+                18,
+                19,
+                20,
+                36
+              ],
+              "received": "2015-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=47253",
+              "original": "review_originals/cvm_47253_g193.pdf.gz",
+              "original_sha256": "90161ccf48fef1c1fe7184848d2e24fe7f77b2feb520d9f03d7eaa1d6a452e0e"
+            },
+            {
+              "docid": "54474",
+              "group": 1653,
+              "pages": [
+                35,
+                36
+              ],
+              "received": "2016-03-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=54474",
+              "original": "review_originals/cvm_54474_g1653.pdf.gz",
+              "original_sha256": "25dcb03c44a9f040beafac9b916982d059d3f5dc034f2d5043b0eead1ac8811a"
+            },
+            {
+              "docid": "56211",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                7
+              ],
+              "received": "2016-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=56211",
+              "original": "review_originals/cvm_56211_g192.pdf.gz",
+              "original_sha256": "e5d4112d1505afb5bd39ba037879cf0030ef816effd21f7fff344f4f0704ce86"
+            },
+            {
+              "docid": "56211",
+              "group": 193,
+              "pages": [
+                20,
+                22,
+                37
+              ],
+              "received": "2016-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=56211",
+              "original": "review_originals/cvm_56211_g193.pdf.gz",
+              "original_sha256": "e2f0622d09ac9616ae3bc08007f6478a85ab8621d17a151b484c552033436615"
+            },
+            {
+              "docid": "65467",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                5,
+                6,
+                7
+              ],
+              "received": "2017-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=65467",
+              "original": "review_originals/cvm_65467_g192.pdf.gz",
+              "original_sha256": "263ed94d8530967aa96237f62cdf17494cc3bfed0cca90b30a3c7c714cc02980"
+            },
+            {
+              "docid": "65467",
+              "group": 193,
+              "pages": [
+                18,
+                19,
+                35
+              ],
+              "received": "2017-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=65467",
+              "original": "review_originals/cvm_65467_g193.pdf.gz",
+              "original_sha256": "b3dbd9eeaeee4f5692b0aa4e1a3a0f83cc1396e45e9aae7d661a6f3c6496c8fe"
+            },
+            {
+              "docid": "74266",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3
+              ],
+              "received": "2018-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=74266",
+              "original": "review_originals/cvm_74266_g192.pdf.gz",
+              "original_sha256": "dbce75d18c3548a5ab64bc8db7e75a8e0b7b39b0559eb751442c184add60f91f"
+            },
+            {
+              "docid": "74266",
+              "group": 193,
+              "pages": [
+                38,
+                39
+              ],
+              "received": "2018-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=74266",
+              "original": "review_originals/cvm_74266_g193.pdf.gz",
+              "original_sha256": "ce8743acfe3f0b5e1ac111b7b84767ed2f4c57b9c5c116b2bfe01a41d91ac189"
             }
           ]
         },
         "capital_economics": {
-          "favorable": {
-            "roe_parent_5": [
-              0.15905355988116704,
-              0.06883750551358396,
-              0.03969348442909738,
-              0.20230069402206913,
-              0.15299970667024573
-            ],
-            "normalized_profit": 2511570947.133543
-          },
+          "favorable": "2009–2013 EBITDA2.727→4.007b and operating result2.121→3.139b; lower losses and greater connections per employee;1Q14 adjusted EBITDA+10.2% and cash-supported earnings.",
           "evidence": [
             {
-              "fiscal_year": 2013,
-              "metric": "attributable_ni",
-              "value": 1923559000.0,
+              "docid": "35848",
+              "group": 1653,
+              "pages": [
+                10,
+                16,
+                17,
+                39
+              ],
+              "received": "2014-03-28",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35848",
+              "original": "review_originals/cvm_35848_g1653.pdf.gz",
+              "original_sha256": "4a64b769e2aebeabec93bf5170e0cfec4f4877850274192322c459607db41c1b"
+            },
+            {
+              "docid": "37910",
+              "group": 192,
+              "pages": [
+                1,
+                7
+              ],
+              "received": "2014-05-15",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37910",
+              "original": "review_originals/cvm_37910_g192.pdf.gz",
+              "original_sha256": "75425821279c436555648cca433832b46ec317e04a8a6918d964d67096f690d0"
+            },
+            {
+              "docid": "37910",
+              "group": 193,
+              "pages": [
+                51,
+                52,
+                53
+              ],
+              "received": "2014-05-15",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37910",
+              "original": "review_originals/cvm_37910_g193.pdf.gz",
+              "original_sha256": "55420f288272c1d9cebd592e9860685f08042ace51fdc0bf9e0be24324d468a9"
+            },
+            {
               "docid": "45337",
+              "group": 1653,
+              "pages": [
+                2,
+                10,
+                12,
+                31,
+                38,
+                39
+              ],
               "received": "2015-03-26",
-              "reference": "2014-12-31",
-              "period_end": "2013-12-31",
-              "perimeter": "ind",
-              "account": "3.11",
-              "description": "Lucro/Prejuízo do Período",
-              "source": "dfp_cia_aberta_DRE_ind_2014.csv",
-              "archive_sha256": "b8795dba134754475a485c0f88b6542face6613bb418d261caa011d90e032f28",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2014.zip"
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=45337",
+              "original": "review_originals/cvm_45337_g1653.pdf.gz",
+              "original_sha256": "9069f9353b512e57c9d7fe8a9eec5cd97a46ab4332a31a8a0be46e0ff0fb24d3"
             },
             {
-              "fiscal_year": 2014,
-              "metric": "attributable_ni",
-              "value": 902983000.0,
+              "docid": "47253",
+              "group": 192,
+              "pages": [
+                1,
+                8,
+                9
+              ],
+              "received": "2015-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=47253",
+              "original": "review_originals/cvm_47253_g192.pdf.gz",
+              "original_sha256": "87f12aef584238b37ca71d3603393ff07c69608ae1e1493439d49761c77abe8e"
+            },
+            {
+              "docid": "47253",
+              "group": 193,
+              "pages": [
+                18,
+                19,
+                20,
+                36
+              ],
+              "received": "2015-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=47253",
+              "original": "review_originals/cvm_47253_g193.pdf.gz",
+              "original_sha256": "90161ccf48fef1c1fe7184848d2e24fe7f77b2feb520d9f03d7eaa1d6a452e0e"
+            },
+            {
               "docid": "54474",
+              "group": 1653,
+              "pages": [
+                35,
+                36
+              ],
               "received": "2016-03-25",
-              "reference": "2015-12-31",
-              "period_end": "2014-12-31",
-              "perimeter": "ind",
-              "account": "3.11",
-              "description": "Lucro/Prejuízo do Período",
-              "source": "dfp_cia_aberta_DRE_ind_2015.csv",
-              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=54474",
+              "original": "review_originals/cvm_54474_g1653.pdf.gz",
+              "original_sha256": "25dcb03c44a9f040beafac9b916982d059d3f5dc034f2d5043b0eead1ac8811a"
             },
             {
-              "fiscal_year": 2015,
-              "metric": "attributable_ni",
-              "value": 536279000.0,
-              "docid": "63644",
-              "received": "2017-03-27",
-              "reference": "2016-12-31",
-              "period_end": "2015-12-31",
-              "perimeter": "ind",
-              "account": "3.11",
-              "description": "Lucro/Prejuízo do Período",
-              "source": "dfp_cia_aberta_DRE_ind_2016.csv",
-              "archive_sha256": "772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip"
+              "docid": "56211",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                7
+              ],
+              "received": "2016-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=56211",
+              "original": "review_originals/cvm_56211_g192.pdf.gz",
+              "original_sha256": "e5d4112d1505afb5bd39ba037879cf0030ef816effd21f7fff344f4f0704ce86"
             },
             {
-              "fiscal_year": 2016,
-              "metric": "attributable_ni",
-              "value": 2947098000.0,
-              "docid": "72785",
-              "received": "2018-03-27",
-              "reference": "2017-12-31",
-              "period_end": "2016-12-31",
-              "perimeter": "ind",
-              "account": "3.11",
-              "description": "Lucro/Prejuízo do Período",
-              "source": "dfp_cia_aberta_DRE_ind_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+              "docid": "56211",
+              "group": 193,
+              "pages": [
+                20,
+                22,
+                37
+              ],
+              "received": "2016-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=56211",
+              "original": "review_originals/cvm_56211_g193.pdf.gz",
+              "original_sha256": "e2f0622d09ac9616ae3bc08007f6478a85ab8621d17a151b484c552033436615"
             },
             {
-              "fiscal_year": 2017,
-              "metric": "attributable_ni",
-              "value": 2519310000.0,
-              "docid": "72785",
-              "received": "2018-03-27",
-              "reference": "2017-12-31",
-              "period_end": "2017-12-31",
-              "perimeter": "ind",
-              "account": "3.11",
-              "description": "Lucro/Prejuízo do Período",
-              "source": "dfp_cia_aberta_DRE_ind_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+              "docid": "65467",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                5,
+                6,
+                7
+              ],
+              "received": "2017-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=65467",
+              "original": "review_originals/cvm_65467_g192.pdf.gz",
+              "original_sha256": "263ed94d8530967aa96237f62cdf17494cc3bfed0cca90b30a3c7c714cc02980"
+            },
+            {
+              "docid": "65467",
+              "group": 193,
+              "pages": [
+                18,
+                19,
+                35
+              ],
+              "received": "2017-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=65467",
+              "original": "review_originals/cvm_65467_g193.pdf.gz",
+              "original_sha256": "b3dbd9eeaeee4f5692b0aa4e1a3a0f83cc1396e45e9aae7d661a6f3c6496c8fe"
+            },
+            {
+              "docid": "74266",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3
+              ],
+              "received": "2018-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=74266",
+              "original": "review_originals/cvm_74266_g192.pdf.gz",
+              "original_sha256": "dbce75d18c3548a5ab64bc8db7e75a8e0b7b39b0559eb751442c184add60f91f"
+            },
+            {
+              "docid": "74266",
+              "group": 193,
+              "pages": [
+                38,
+                39
+              ],
+              "received": "2018-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=74266",
+              "original": "review_originals/cvm_74266_g193.pdf.gz",
+              "original_sha256": "ce8743acfe3f0b5e1ac111b7b84767ed2f4c57b9c5c116b2bfe01a41d91ac189"
             }
           ]
         },
         "earnings_reliability": {
-          "favorable": {
-            "positive_attributable_years": 5,
-            "audit_records": 8
-          },
+          "favorable": "CPC33 has noDRE/DCF effect;2013 operating cash2.777b exceeds NI1.924b. R$1.412b uncertainGESP reimbursement is not booked as asset; pension obligation1.780b is recognized.",
           "evidence": [
             {
-              "docid": "72785",
-              "received": "2018-03-27",
-              "reference": "2017-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+              "docid": "35848",
+              "group": 412,
+              "pages": [
+                21,
+                22,
+                43,
+                44,
+                45
+              ],
+              "received": "2014-03-28",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35848",
+              "original": "review_originals/cvm_35848_g412.pdf.gz",
+              "original_sha256": "f78d1d7fb5802fe611f272ec3b3fc1413d1ec2d0e2f7c7e539df7e8bb22ab631"
             },
             {
-              "docid": "72785",
-              "received": "2018-03-27",
-              "reference": "2017-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+              "docid": "35848",
+              "group": 1653,
+              "pages": [
+                39
+              ],
+              "received": "2014-03-28",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35848",
+              "original": "review_originals/cvm_35848_g1653.pdf.gz",
+              "original_sha256": "4a64b769e2aebeabec93bf5170e0cfec4f4877850274192322c459607db41c1b"
             },
             {
-              "docid": "72785",
-              "received": "2018-03-27",
-              "reference": "2017-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+              "docid": "37910",
+              "group": 192,
+              "pages": [
+                4,
+                5,
+                6
+              ],
+              "received": "2014-05-15",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37910",
+              "original": "review_originals/cvm_37910_g192.pdf.gz",
+              "original_sha256": "75425821279c436555648cca433832b46ec317e04a8a6918d964d67096f690d0"
             },
             {
-              "docid": "72785",
-              "received": "2018-03-27",
-              "reference": "2017-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+              "docid": "45337",
+              "group": 1653,
+              "pages": [
+                2,
+                10,
+                12,
+                31,
+                38,
+                39
+              ],
+              "received": "2015-03-26",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=45337",
+              "original": "review_originals/cvm_45337_g1653.pdf.gz",
+              "original_sha256": "9069f9353b512e57c9d7fe8a9eec5cd97a46ab4332a31a8a0be46e0ff0fb24d3"
             },
             {
-              "docid": "72785",
-              "received": "2018-03-27",
-              "reference": "2017-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+              "docid": "47253",
+              "group": 192,
+              "pages": [
+                1,
+                8,
+                9
+              ],
+              "received": "2015-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=47253",
+              "original": "review_originals/cvm_47253_g192.pdf.gz",
+              "original_sha256": "87f12aef584238b37ca71d3603393ff07c69608ae1e1493439d49761c77abe8e"
             },
             {
-              "docid": "72785",
-              "received": "2018-03-27",
-              "reference": "2017-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+              "docid": "47253",
+              "group": 193,
+              "pages": [
+                18,
+                19,
+                20,
+                36
+              ],
+              "received": "2015-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=47253",
+              "original": "review_originals/cvm_47253_g193.pdf.gz",
+              "original_sha256": "90161ccf48fef1c1fe7184848d2e24fe7f77b2feb520d9f03d7eaa1d6a452e0e"
             },
             {
-              "docid": "72785",
-              "received": "2018-03-27",
-              "reference": "2017-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+              "docid": "54474",
+              "group": 1653,
+              "pages": [
+                35,
+                36
+              ],
+              "received": "2016-03-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=54474",
+              "original": "review_originals/cvm_54474_g1653.pdf.gz",
+              "original_sha256": "25dcb03c44a9f040beafac9b916982d059d3f5dc034f2d5043b0eead1ac8811a"
             },
             {
-              "docid": "72785",
-              "received": "2018-03-27",
-              "reference": "2017-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+              "docid": "56211",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                7
+              ],
+              "received": "2016-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=56211",
+              "original": "review_originals/cvm_56211_g192.pdf.gz",
+              "original_sha256": "e5d4112d1505afb5bd39ba037879cf0030ef816effd21f7fff344f4f0704ce86"
+            },
+            {
+              "docid": "56211",
+              "group": 193,
+              "pages": [
+                20,
+                22,
+                37
+              ],
+              "received": "2016-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=56211",
+              "original": "review_originals/cvm_56211_g193.pdf.gz",
+              "original_sha256": "e2f0622d09ac9616ae3bc08007f6478a85ab8621d17a151b484c552033436615"
+            },
+            {
+              "docid": "65467",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                5,
+                6,
+                7
+              ],
+              "received": "2017-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=65467",
+              "original": "review_originals/cvm_65467_g192.pdf.gz",
+              "original_sha256": "263ed94d8530967aa96237f62cdf17494cc3bfed0cca90b30a3c7c714cc02980"
+            },
+            {
+              "docid": "65467",
+              "group": 193,
+              "pages": [
+                18,
+                19,
+                35
+              ],
+              "received": "2017-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=65467",
+              "original": "review_originals/cvm_65467_g193.pdf.gz",
+              "original_sha256": "b3dbd9eeaeee4f5692b0aa4e1a3a0f83cc1396e45e9aae7d661a6f3c6496c8fe"
+            },
+            {
+              "docid": "74266",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3
+              ],
+              "received": "2018-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=74266",
+              "original": "review_originals/cvm_74266_g192.pdf.gz",
+              "original_sha256": "dbce75d18c3548a5ab64bc8db7e75a8e0b7b39b0559eb751442c184add60f91f"
+            },
+            {
+              "docid": "74266",
+              "group": 193,
+              "pages": [
+                38,
+                39
+              ],
+              "received": "2018-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=74266",
+              "original": "review_originals/cvm_74266_g193.pdf.gz",
+              "original_sha256": "ce8743acfe3f0b5e1ac111b7b84767ed2f4c57b9c5c116b2bfe01a41d91ac189"
             }
           ]
         },
         "financial_resilience": {
-          "favorable": {
-            "parent_equity_latest": 17513009000.0
-          },
+          "favorable": "CashMar2014 R$1.982472b; principal schedule2014R$417.195m and2015R$1.042744b; covenants complied with atMar2014. Project finance undrawn5.820b;2013 netdebt/EBITDA1.9.",
           "evidence": [
             {
-              "docid": "72785",
-              "received": "2018-03-27",
-              "reference": "2017-12-31",
-              "period_end": "2017-12-31",
-              "perimeter": "ind",
-              "account": "2.03",
-              "description": "Patrimônio Líquido",
-              "source": "dfp_cia_aberta_BPP_ind_2017.csv",
-              "archive_sha256": "",
-              "url": ""
+              "docid": "35848",
+              "group": 1653,
+              "pages": [
+                10
+              ],
+              "received": "2014-03-28",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35848",
+              "original": "review_originals/cvm_35848_g1653.pdf.gz",
+              "original_sha256": "4a64b769e2aebeabec93bf5170e0cfec4f4877850274192322c459607db41c1b"
+            },
+            {
+              "docid": "35848",
+              "group": 412,
+              "pages": [
+                63,
+                64
+              ],
+              "received": "2014-03-28",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35848",
+              "original": "review_originals/cvm_35848_g412.pdf.gz",
+              "original_sha256": "f78d1d7fb5802fe611f272ec3b3fc1413d1ec2d0e2f7c7e539df7e8bb22ab631"
+            },
+            {
+              "docid": "37910",
+              "group": 193,
+              "pages": [
+                11,
+                31,
+                32
+              ],
+              "received": "2014-05-15",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37910",
+              "original": "review_originals/cvm_37910_g193.pdf.gz",
+              "original_sha256": "55420f288272c1d9cebd592e9860685f08042ace51fdc0bf9e0be24324d468a9"
+            },
+            {
+              "docid": "45337",
+              "group": 1653,
+              "pages": [
+                2,
+                10,
+                12,
+                31,
+                38,
+                39
+              ],
+              "received": "2015-03-26",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=45337",
+              "original": "review_originals/cvm_45337_g1653.pdf.gz",
+              "original_sha256": "9069f9353b512e57c9d7fe8a9eec5cd97a46ab4332a31a8a0be46e0ff0fb24d3"
+            },
+            {
+              "docid": "47253",
+              "group": 192,
+              "pages": [
+                1,
+                8,
+                9
+              ],
+              "received": "2015-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=47253",
+              "original": "review_originals/cvm_47253_g192.pdf.gz",
+              "original_sha256": "87f12aef584238b37ca71d3603393ff07c69608ae1e1493439d49761c77abe8e"
+            },
+            {
+              "docid": "47253",
+              "group": 193,
+              "pages": [
+                18,
+                19,
+                20,
+                36
+              ],
+              "received": "2015-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=47253",
+              "original": "review_originals/cvm_47253_g193.pdf.gz",
+              "original_sha256": "90161ccf48fef1c1fe7184848d2e24fe7f77b2feb520d9f03d7eaa1d6a452e0e"
+            },
+            {
+              "docid": "54474",
+              "group": 1653,
+              "pages": [
+                35,
+                36
+              ],
+              "received": "2016-03-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=54474",
+              "original": "review_originals/cvm_54474_g1653.pdf.gz",
+              "original_sha256": "25dcb03c44a9f040beafac9b916982d059d3f5dc034f2d5043b0eead1ac8811a"
+            },
+            {
+              "docid": "56211",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                7
+              ],
+              "received": "2016-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=56211",
+              "original": "review_originals/cvm_56211_g192.pdf.gz",
+              "original_sha256": "e5d4112d1505afb5bd39ba037879cf0030ef816effd21f7fff344f4f0704ce86"
+            },
+            {
+              "docid": "56211",
+              "group": 193,
+              "pages": [
+                20,
+                22,
+                37
+              ],
+              "received": "2016-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=56211",
+              "original": "review_originals/cvm_56211_g193.pdf.gz",
+              "original_sha256": "e2f0622d09ac9616ae3bc08007f6478a85ab8621d17a151b484c552033436615"
+            },
+            {
+              "docid": "65467",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                5,
+                6,
+                7
+              ],
+              "received": "2017-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=65467",
+              "original": "review_originals/cvm_65467_g192.pdf.gz",
+              "original_sha256": "263ed94d8530967aa96237f62cdf17494cc3bfed0cca90b30a3c7c714cc02980"
+            },
+            {
+              "docid": "65467",
+              "group": 193,
+              "pages": [
+                18,
+                19,
+                35
+              ],
+              "received": "2017-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=65467",
+              "original": "review_originals/cvm_65467_g193.pdf.gz",
+              "original_sha256": "b3dbd9eeaeee4f5692b0aa4e1a3a0f83cc1396e45e9aae7d661a6f3c6496c8fe"
+            },
+            {
+              "docid": "74266",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3
+              ],
+              "received": "2018-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=74266",
+              "original": "review_originals/cvm_74266_g192.pdf.gz",
+              "original_sha256": "dbce75d18c3548a5ab64bc8db7e75a8e0b7b39b0559eb751442c184add60f91f"
+            },
+            {
+              "docid": "74266",
+              "group": 193,
+              "pages": [
+                38,
+                39
+              ],
+              "received": "2018-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=74266",
+              "original": "review_originals/cvm_74266_g193.pdf.gz",
+              "original_sha256": "ce8743acfe3f0b5e1ac111b7b84767ed2f4c57b9c5c116b2bfe01a41d91ac189"
             }
           ]
         },
         "capital_allocation": {
-          "favorable": {
-            "historical_payout": [
-              0.294117647,
-              0.294117647,
-              0.29421764,
-              0.29413153999999997,
-              null
-            ],
-            "distributions": [
-              537464960.0,
-              252304062.0,
-              149893714.0,
-              823492680.0,
-              null
-            ]
-          },
+          "favorable": "2013 investment2.716b and dividend/JCP537.465m versus NI1.923559b; retention1.289916b. Waterloss25.9%→24.4% over2009–13;1Q14 assets1.8b enteredservice.",
           "evidence": [
             {
-              "docid": "65468",
-              "received": "2017-05-13",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2016.csv",
-              "archive_sha256": "bfd0513d903cb3e5a43360dcb1673b3c9ac1f23396974726cca764df64d481cc",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=65468",
-              "fiscal_year": 2013,
-              "raw": {
-                "CNPJ_Companhia": "43.776.517/0001-80",
-                "Data_Referencia": "2016-01-01",
-                "Versao": "9",
-                "ID_Documento": "65468",
-                "Nome_Companhia": "CIA SANEAMENTO BASICO EST SAO PAULO",
-                "Data_Inicio_Exercicio_Social": "2013-01-01",
-                "Data_Fim_Exercicio_Social": "2013-12-31",
-                "Lucro_Liquido_Ajustado": "1827380864.00",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "14.87578150",
-                "Lucro_Liquido_Retido": "1386093844.00",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "29.41176470",
-                "Dividendo_Distribuido_Total": "537464960.00",
-                "Data_Aprovacao_Retencao": "2014-04-30"
-              }
+              "docid": "35848",
+              "group": 1653,
+              "pages": [
+                10
+              ],
+              "received": "2014-03-28",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35848",
+              "original": "review_originals/cvm_35848_g1653.pdf.gz",
+              "original_sha256": "4a64b769e2aebeabec93bf5170e0cfec4f4877850274192322c459607db41c1b"
             },
             {
-              "docid": "74977",
-              "received": "2018-05-21",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2017.csv",
-              "archive_sha256": "cb90963d1e7d6b2416265eb7aa0a463b98d067ade096f47b724467184273b0ab",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=74977",
-              "fiscal_year": 2014,
-              "raw": {
-                "CNPJ_Companhia": "43.776.517/0001-80",
-                "Data_Referencia": "2017-01-01",
-                "Versao": "10",
-                "ID_Documento": "74977",
-                "Nome_Companhia": "CIA SANEAMENTO BASICO EST SAO PAULO",
-                "Data_Inicio_Exercicio_Social": "2014-01-01",
-                "Data_Fim_Exercicio_Social": "2014-12-31",
-                "Lucro_Liquido_Ajustado": "857833809.00",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "6.78709900",
-                "Lucro_Liquido_Retido": "650678896.00",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "29.41176470",
-                "Dividendo_Distribuido_Total": "252304062.00",
-                "Data_Aprovacao_Retencao": "2015-04-30"
-              }
+              "docid": "35848",
+              "group": 412,
+              "pages": [
+                97,
+                98,
+                99
+              ],
+              "received": "2014-03-28",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35848",
+              "original": "review_originals/cvm_35848_g412.pdf.gz",
+              "original_sha256": "f78d1d7fb5802fe611f272ec3b3fc1413d1ec2d0e2f7c7e539df7e8bb22ab631"
             },
             {
-              "docid": "74977",
-              "received": "2018-05-21",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2017.csv",
-              "archive_sha256": "cb90963d1e7d6b2416265eb7aa0a463b98d067ade096f47b724467184273b0ab",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=74977",
-              "fiscal_year": 2015,
-              "raw": {
-                "CNPJ_Companhia": "43.776.517/0001-80",
-                "Data_Referencia": "2017-01-01",
-                "Versao": "10",
-                "ID_Documento": "74977",
-                "Nome_Companhia": "CIA SANEAMENTO BASICO EST SAO PAULO",
-                "Data_Inicio_Exercicio_Social": "2015-01-01",
-                "Data_Fim_Exercicio_Social": "2015-12-31",
-                "Lucro_Liquido_Ajustado": "509465425.00",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "3.90970620",
-                "Lucro_Liquido_Retido": "386385681.00",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "29.42176400",
-                "Dividendo_Distribuido_Total": "149893714.00",
-                "Data_Aprovacao_Retencao": "2016-04-29"
-              }
+              "docid": "37910",
+              "group": 192,
+              "pages": [
+                5,
+                7
+              ],
+              "received": "2014-05-15",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37910",
+              "original": "review_originals/cvm_37910_g192.pdf.gz",
+              "original_sha256": "75425821279c436555648cca433832b46ec317e04a8a6918d964d67096f690d0"
             },
             {
-              "docid": "74977",
-              "received": "2018-05-21",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2017.csv",
-              "archive_sha256": "cb90963d1e7d6b2416265eb7aa0a463b98d067ade096f47b724467184273b0ab",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=74977",
-              "fiscal_year": 2016,
-              "raw": {
-                "CNPJ_Companhia": "43.776.517/0001-80",
-                "Data_Referencia": "2017-01-01",
-                "Versao": "10",
-                "ID_Documento": "74977",
-                "Nome_Companhia": "CIA SANEAMENTO BASICO EST SAO PAULO",
-                "Data_Inicio_Exercicio_Social": "2016-12-01",
-                "Data_Fim_Exercicio_Social": "2016-12-31",
-                "Lucro_Liquido_Ajustado": "2799742862.00",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "19.11315500",
-                "Lucro_Liquido_Retido": "2123605059.00",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "29.41315400",
-                "Dividendo_Distribuido_Total": "823492680.00",
-                "Data_Aprovacao_Retencao": "2017-04-28"
-              }
+              "docid": "37910",
+              "group": 193,
+              "pages": [
+                51,
+                53
+              ],
+              "received": "2014-05-15",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37910",
+              "original": "review_originals/cvm_37910_g193.pdf.gz",
+              "original_sha256": "55420f288272c1d9cebd592e9860685f08042ace51fdc0bf9e0be24324d468a9"
+            },
+            {
+              "docid": "45337",
+              "group": 1653,
+              "pages": [
+                2,
+                10,
+                12,
+                31,
+                38,
+                39
+              ],
+              "received": "2015-03-26",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=45337",
+              "original": "review_originals/cvm_45337_g1653.pdf.gz",
+              "original_sha256": "9069f9353b512e57c9d7fe8a9eec5cd97a46ab4332a31a8a0be46e0ff0fb24d3"
+            },
+            {
+              "docid": "47253",
+              "group": 192,
+              "pages": [
+                1,
+                8,
+                9
+              ],
+              "received": "2015-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=47253",
+              "original": "review_originals/cvm_47253_g192.pdf.gz",
+              "original_sha256": "87f12aef584238b37ca71d3603393ff07c69608ae1e1493439d49761c77abe8e"
+            },
+            {
+              "docid": "47253",
+              "group": 193,
+              "pages": [
+                18,
+                19,
+                20,
+                36
+              ],
+              "received": "2015-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=47253",
+              "original": "review_originals/cvm_47253_g193.pdf.gz",
+              "original_sha256": "90161ccf48fef1c1fe7184848d2e24fe7f77b2feb520d9f03d7eaa1d6a452e0e"
+            },
+            {
+              "docid": "54474",
+              "group": 1653,
+              "pages": [
+                35,
+                36
+              ],
+              "received": "2016-03-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=54474",
+              "original": "review_originals/cvm_54474_g1653.pdf.gz",
+              "original_sha256": "25dcb03c44a9f040beafac9b916982d059d3f5dc034f2d5043b0eead1ac8811a"
+            },
+            {
+              "docid": "56211",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                7
+              ],
+              "received": "2016-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=56211",
+              "original": "review_originals/cvm_56211_g192.pdf.gz",
+              "original_sha256": "e5d4112d1505afb5bd39ba037879cf0030ef816effd21f7fff344f4f0704ce86"
+            },
+            {
+              "docid": "56211",
+              "group": 193,
+              "pages": [
+                20,
+                22,
+                37
+              ],
+              "received": "2016-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=56211",
+              "original": "review_originals/cvm_56211_g193.pdf.gz",
+              "original_sha256": "e2f0622d09ac9616ae3bc08007f6478a85ab8621d17a151b484c552033436615"
+            },
+            {
+              "docid": "65467",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                5,
+                6,
+                7
+              ],
+              "received": "2017-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=65467",
+              "original": "review_originals/cvm_65467_g192.pdf.gz",
+              "original_sha256": "263ed94d8530967aa96237f62cdf17494cc3bfed0cca90b30a3c7c714cc02980"
+            },
+            {
+              "docid": "65467",
+              "group": 193,
+              "pages": [
+                18,
+                19,
+                35
+              ],
+              "received": "2017-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=65467",
+              "original": "review_originals/cvm_65467_g193.pdf.gz",
+              "original_sha256": "b3dbd9eeaeee4f5692b0aa4e1a3a0f83cc1396e45e9aae7d661a6f3c6496c8fe"
+            },
+            {
+              "docid": "74266",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3
+              ],
+              "received": "2018-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=74266",
+              "original": "review_originals/cvm_74266_g192.pdf.gz",
+              "original_sha256": "dbce75d18c3548a5ab64bc8db7e75a8e0b7b39b0559eb751442c184add60f91f"
+            },
+            {
+              "docid": "74266",
+              "group": 193,
+              "pages": [
+                38,
+                39
+              ],
+              "received": "2018-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=74266",
+              "original": "review_originals/cvm_74266_g193.pdf.gz",
+              "original_sha256": "ce8743acfe3f0b5e1ac111b7b84767ed2f4c57b9c5c116b2bfe01a41d91ac189"
             }
           ]
         },
         "governance": {
-          "favorable": {
-            "dated_shareholder_right_records": 8,
-            "dated_related_party_records": 56
-          },
+          "favorable": "4 of9 directors independent including minorityelected representative; CEO cannot chairboard; no auditor consulting services. Management sought arbitration and sued controller for recovery; disputed assets conservatively excluded.",
           "evidence": [
             {
-              "docid": "72785",
-              "received": "2018-03-27",
-              "reference": "2017-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+              "docid": "35848",
+              "group": 1653,
+              "pages": [
+                12,
+                13
+              ],
+              "received": "2014-03-28",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35848",
+              "original": "review_originals/cvm_35848_g1653.pdf.gz",
+              "original_sha256": "4a64b769e2aebeabec93bf5170e0cfec4f4877850274192322c459607db41c1b"
             },
             {
-              "docid": "72785",
-              "received": "2018-03-27",
-              "reference": "2017-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+              "docid": "35848",
+              "group": 412,
+              "pages": [
+                42,
+                43,
+                44,
+                45
+              ],
+              "received": "2014-03-28",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35848",
+              "original": "review_originals/cvm_35848_g412.pdf.gz",
+              "original_sha256": "f78d1d7fb5802fe611f272ec3b3fc1413d1ec2d0e2f7c7e539df7e8bb22ab631"
             },
             {
-              "docid": "72785",
-              "received": "2018-03-27",
-              "reference": "2017-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+              "docid": "37910",
+              "group": 193,
+              "pages": [
+                51,
+                52
+              ],
+              "received": "2014-05-15",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37910",
+              "original": "review_originals/cvm_37910_g193.pdf.gz",
+              "original_sha256": "55420f288272c1d9cebd592e9860685f08042ace51fdc0bf9e0be24324d468a9"
             },
             {
-              "docid": "72785",
-              "received": "2018-03-27",
-              "reference": "2017-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+              "docid": "45337",
+              "group": 1653,
+              "pages": [
+                2,
+                10,
+                12,
+                31,
+                38,
+                39
+              ],
+              "received": "2015-03-26",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=45337",
+              "original": "review_originals/cvm_45337_g1653.pdf.gz",
+              "original_sha256": "9069f9353b512e57c9d7fe8a9eec5cd97a46ab4332a31a8a0be46e0ff0fb24d3"
             },
             {
-              "docid": "72785",
-              "received": "2018-03-27",
-              "reference": "2017-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+              "docid": "47253",
+              "group": 192,
+              "pages": [
+                1,
+                8,
+                9
+              ],
+              "received": "2015-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=47253",
+              "original": "review_originals/cvm_47253_g192.pdf.gz",
+              "original_sha256": "87f12aef584238b37ca71d3603393ff07c69608ae1e1493439d49761c77abe8e"
             },
             {
-              "docid": "72785",
-              "received": "2018-03-27",
-              "reference": "2017-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+              "docid": "47253",
+              "group": 193,
+              "pages": [
+                18,
+                19,
+                20,
+                36
+              ],
+              "received": "2015-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=47253",
+              "original": "review_originals/cvm_47253_g193.pdf.gz",
+              "original_sha256": "90161ccf48fef1c1fe7184848d2e24fe7f77b2feb520d9f03d7eaa1d6a452e0e"
             },
             {
-              "docid": "72785",
-              "received": "2018-03-27",
-              "reference": "2017-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+              "docid": "54474",
+              "group": 1653,
+              "pages": [
+                35,
+                36
+              ],
+              "received": "2016-03-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=54474",
+              "original": "review_originals/cvm_54474_g1653.pdf.gz",
+              "original_sha256": "25dcb03c44a9f040beafac9b916982d059d3f5dc034f2d5043b0eead1ac8811a"
             },
             {
-              "docid": "72785",
-              "received": "2018-03-27",
-              "reference": "2017-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+              "docid": "56211",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                7
+              ],
+              "received": "2016-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=56211",
+              "original": "review_originals/cvm_56211_g192.pdf.gz",
+              "original_sha256": "e5d4112d1505afb5bd39ba037879cf0030ef816effd21f7fff344f4f0704ce86"
+            },
+            {
+              "docid": "56211",
+              "group": 193,
+              "pages": [
+                20,
+                22,
+                37
+              ],
+              "received": "2016-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=56211",
+              "original": "review_originals/cvm_56211_g193.pdf.gz",
+              "original_sha256": "e2f0622d09ac9616ae3bc08007f6478a85ab8621d17a151b484c552033436615"
+            },
+            {
+              "docid": "65467",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                5,
+                6,
+                7
+              ],
+              "received": "2017-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=65467",
+              "original": "review_originals/cvm_65467_g192.pdf.gz",
+              "original_sha256": "263ed94d8530967aa96237f62cdf17494cc3bfed0cca90b30a3c7c714cc02980"
+            },
+            {
+              "docid": "65467",
+              "group": 193,
+              "pages": [
+                18,
+                19,
+                35
+              ],
+              "received": "2017-05-12",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=65467",
+              "original": "review_originals/cvm_65467_g193.pdf.gz",
+              "original_sha256": "b3dbd9eeaeee4f5692b0aa4e1a3a0f83cc1396e45e9aae7d661a6f3c6496c8fe"
+            },
+            {
+              "docid": "74266",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3
+              ],
+              "received": "2018-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=74266",
+              "original": "review_originals/cvm_74266_g192.pdf.gz",
+              "original_sha256": "dbce75d18c3548a5ab64bc8db7e75a8e0b7b39b0559eb751442c184add60f91f"
+            },
+            {
+              "docid": "74266",
+              "group": 193,
+              "pages": [
+                38,
+                39
+              ],
+              "received": "2018-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=74266",
+              "original": "review_originals/cvm_74266_g193.pdf.gz",
+              "original_sha256": "ce8743acfe3f0b5e1ac111b7b84767ed2f4c57b9c5c116b2bfe01a41d91ac189"
             }
           ]
         }

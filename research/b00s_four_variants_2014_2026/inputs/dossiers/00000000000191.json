@@ -2451,567 +2451,525 @@
       "ticker": "BBAS3",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": null,
-      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
-      "classification_changed": null,
-      "dimensions": {},
-      "dimension_evidence_updates": {
+      "assessment_ref": "00000000000191:2018",
+      "assessment_status": "ASSESSED",
+      "classification_changed": false,
+      "dimensions": {
         "durability": {
-          "favorable": "Banco Múltiplo",
+          "status": "SATISFACTORY",
+          "reason": "A franquia bancária, de agronegócio, distribuição e serviços permanece; carteira ampliada deR$675,6 bilhões no 1T18. Não se presume crescimento em todos os segmentos.",
+          "favorable": "Agronegócio cresce2,6% no comparativo informado.",
+          "contrary_evidence": "Carteira total cai frente R$688,7 bilhões e pessoas jurídicas recuam6,3%.",
+          "missing": "",
           "evidence": [
             {
-              "cnpj": "00000000000191",
-              "received": "2018-01-09",
-              "name": "BANCO DO BRASIL S.A.",
-              "sector": "Bancos",
-              "activity": "Banco Múltiplo",
-              "cvm": "001023",
-              "docid": "70915",
-              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=70915"
+              "docid": "74121",
+              "group": 192,
+              "pages": [
+                1,
+                5,
+                6
+              ],
+              "received": "2018-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=74121",
+              "original": "review_originals/cvm_74121_g192.pdf.gz",
+              "original_sha256": "badbc0f425b5ee9c33e5d669d733a4616381744541d46a482219ed5ca574023c"
+            },
+            {
+              "docid": "74121",
+              "group": 193,
+              "pages": [
+                48,
+                77,
+                79,
+                113
+              ],
+              "received": "2018-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=74121",
+              "original": "review_originals/cvm_74121_g193.pdf.gz",
+              "original_sha256": "bff22e08fa3570851082d0fa37de7644ea1ae97e867b984411ac6f18d8cd62cd"
             }
           ]
         },
         "capital_economics": {
-          "favorable": {
-            "roe_parent_5": [
-              0.15927956650412792,
-              0.16971794110365496,
-              0.20028789642504807,
-              0.0956798607712865,
-              0.12981816530509863
-            ],
-            "normalized_profit": 13628874034.985374
-          },
+          "status": "INDETERMINATE",
+          "reason": "Lucro contábil deR$2,749 bilhões e ajustado deR$3,026 bilhões, com ROE ajustado13,2%, mostram melhora. Não encerram a pendência de retorno econômico após perdas e reorganização.",
+          "favorable": "Resultado ajustado superior aos R$2,515 bilhões do 1T17.",
+          "contrary_evidence": "Redução de custo de crédito e ajustes gerenciais não provam isoladamente rentabilidade normalizada ou proteção do retorno minoritário.",
+          "missing": "Permanece necessária prova econômica do retorno após reorganizações e riscos de crédito, proporcional à admissão nova; não requerida para manutenção por B2.",
           "evidence": [
             {
-              "fiscal_year": 2013,
-              "metric": "attributable_ni",
-              "value": 10438066000.0,
-              "docid": "45354",
-              "received": "2015-03-27",
-              "reference": "2014-12-31",
-              "period_end": "2013-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2014.csv",
-              "archive_sha256": "b8795dba134754475a485c0f88b6542face6613bb418d261caa011d90e032f28",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2014.zip"
+              "docid": "74121",
+              "group": 192,
+              "pages": [
+                1,
+                5,
+                6
+              ],
+              "received": "2018-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=74121",
+              "original": "review_originals/cvm_74121_g192.pdf.gz",
+              "original_sha256": "badbc0f425b5ee9c33e5d669d733a4616381744541d46a482219ed5ca574023c"
             },
             {
-              "fiscal_year": 2014,
-              "metric": "attributable_ni",
-              "value": 11853096000.0,
-              "docid": "57534",
-              "received": "2016-06-02",
-              "reference": "2015-12-31",
-              "period_end": "2014-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2015.csv",
-              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
-            },
-            {
-              "fiscal_year": 2015,
-              "metric": "attributable_ni",
-              "value": 14069582000.0,
-              "docid": "63563",
-              "received": "2017-03-24",
-              "reference": "2016-12-31",
-              "period_end": "2015-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2016.csv",
-              "archive_sha256": "772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip"
-            },
-            {
-              "fiscal_year": 2016,
-              "metric": "attributable_ni",
-              "value": 7027281000.0,
-              "docid": "72574",
-              "received": "2018-03-23",
-              "reference": "2017-12-31",
-              "period_end": "2016-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
-            },
-            {
-              "fiscal_year": 2017,
-              "metric": "attributable_ni",
-              "value": 10628794000.0,
-              "docid": "72574",
-              "received": "2018-03-23",
-              "reference": "2017-12-31",
-              "period_end": "2017-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+              "docid": "74121",
+              "group": 193,
+              "pages": [
+                48,
+                77,
+                79,
+                113
+              ],
+              "received": "2018-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=74121",
+              "original": "review_originals/cvm_74121_g193.pdf.gz",
+              "original_sha256": "bff22e08fa3570851082d0fa37de7644ea1ae97e867b984411ac6f18d8cd62cd"
             }
           ]
         },
         "earnings_reliability": {
-          "favorable": {
-            "positive_attributable_years": 5,
-            "audit_records": 12
-          },
+          "status": "SATISFACTORY",
+          "reason": "Mantém conciliação de lucro contábil e ajustado e divulgação de crédito renegociado. Retém a inadimplência efetiva3,65%, sem substituir pelo indicador3,22% que exclui caso específico.",
+          "favorable": "Atraso90 dias da carteira renegociada cai a21,0%, frente27,8% no comparativo.",
+          "contrary_evidence": "A melhora não elimina o estoque problemático, nem autoriza adicionar de volta perdas de crédito.",
+          "missing": "",
           "evidence": [
             {
-              "docid": "72574",
-              "received": "2018-03-23",
-              "reference": "2017-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+              "docid": "74121",
+              "group": 192,
+              "pages": [
+                1,
+                5,
+                6
+              ],
+              "received": "2018-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=74121",
+              "original": "review_originals/cvm_74121_g192.pdf.gz",
+              "original_sha256": "badbc0f425b5ee9c33e5d669d733a4616381744541d46a482219ed5ca574023c"
             },
             {
-              "docid": "72574",
-              "received": "2018-03-23",
-              "reference": "2017-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
-            },
-            {
-              "docid": "72574",
-              "received": "2018-03-23",
-              "reference": "2017-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
-            },
-            {
-              "docid": "72574",
-              "received": "2018-03-23",
-              "reference": "2017-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
-            },
-            {
-              "docid": "72574",
-              "received": "2018-03-23",
-              "reference": "2017-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
-            },
-            {
-              "docid": "72574",
-              "received": "2018-03-23",
-              "reference": "2017-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
-            },
-            {
-              "docid": "72574",
-              "received": "2018-03-23",
-              "reference": "2017-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
-            },
-            {
-              "docid": "72574",
-              "received": "2018-03-23",
-              "reference": "2017-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
-            },
-            {
-              "docid": "72574",
-              "received": "2018-03-23",
-              "reference": "2017-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
-            },
-            {
-              "docid": "72574",
-              "received": "2018-03-23",
-              "reference": "2017-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
-            },
-            {
-              "docid": "72574",
-              "received": "2018-03-23",
-              "reference": "2017-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
-            },
-            {
-              "docid": "72574",
-              "received": "2018-03-23",
-              "reference": "2017-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+              "docid": "74121",
+              "group": 193,
+              "pages": [
+                48,
+                77,
+                79,
+                113
+              ],
+              "received": "2018-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=74121",
+              "original": "review_originals/cvm_74121_g193.pdf.gz",
+              "original_sha256": "bff22e08fa3570851082d0fa37de7644ea1ae97e867b984411ac6f18d8cd62cd"
             }
           ]
         },
         "financial_resilience": {
-          "favorable": {
-            "parent_equity_latest": 87530779000.0
-          },
+          "status": "SATISFACTORY",
+          "reason": "Basileia18,44% e capital principal9,76%, com CET1 deR$66.996,341 milhões, sustentam continuidade prudencial. A redução de CET1 é examinada com a conclusão do phase-in.",
+          "favorable": "Capital superior aos requisitos aplicáveis; resultado positivo.",
+          "contrary_evidence": "CET1 recua de10,48% em dezembro e sofre efeito deR$7,5 bilhões das deduções prudenciais; metas2019/2022 não são capital disponível. IHCD do Tesouro deR$8,1 bilhões continua explicitado.",
+          "missing": "",
           "evidence": [
             {
-              "docid": "72574",
-              "received": "2018-03-23",
-              "reference": "2017-12-31",
-              "period_end": "2017-12-31",
-              "perimeter": "ind",
-              "account": "2.05",
-              "description": "Patrimônio Líquido",
-              "source": "dfp_cia_aberta_BPP_ind_2017.csv",
-              "archive_sha256": "",
-              "url": ""
+              "docid": "74121",
+              "group": 192,
+              "pages": [
+                1,
+                5,
+                6
+              ],
+              "received": "2018-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=74121",
+              "original": "review_originals/cvm_74121_g192.pdf.gz",
+              "original_sha256": "badbc0f425b5ee9c33e5d669d733a4616381744541d46a482219ed5ca574023c"
+            },
+            {
+              "docid": "74121",
+              "group": 193,
+              "pages": [
+                48,
+                77,
+                79,
+                113
+              ],
+              "received": "2018-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=74121",
+              "original": "review_originals/cvm_74121_g193.pdf.gz",
+              "original_sha256": "bff22e08fa3570851082d0fa37de7644ea1ae97e867b984411ac6f18d8cd62cd"
             }
           ]
         },
         "capital_allocation": {
-          "favorable": {
-            "historical_payout": [
-              0.4,
-              0.4,
-              0.4,
-              0.2942,
-              null
-            ],
-            "distributions": [
-              6324148000.0,
-              4525140000.0,
-              5745746000.0,
-              2354607000.0,
-              null
-            ]
-          },
+          "status": "INDETERMINATE",
+          "reason": "A melhora operacional não resolve o retorno econômico das reorganizações e da alocação sob controle estatal. O acordo Mapfre de26/06 envolve a investida BB Seguridade, permanece condicionado e não gera ganho antecipado.",
+          "favorable": "Lucro atual e continuidade da distribuição bancária são fatos.",
+          "contrary_evidence": "Não creditar sinergias, venda de ativos ou dividendos extraordinários ainda condicionais.",
+          "missing": "Mantém pendência específica do dossiê anterior; a atualização não certifica retorno incremental ou crescimento econômico por ação.",
           "evidence": [
             {
-              "docid": "65849",
-              "received": "2017-05-18",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2016.csv",
-              "archive_sha256": "bfd0513d903cb3e5a43360dcb1673b3c9ac1f23396974726cca764df64d481cc",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=65849",
-              "fiscal_year": 2013,
-              "raw": {
-                "CNPJ_Companhia": "00.000.000/0001-91",
-                "Data_Referencia": "2016-01-01",
-                "Versao": "26",
-                "ID_Documento": "65849",
-                "Nome_Companhia": "BCO BRASIL S.A.",
-                "Data_Inicio_Exercicio_Social": "2013-01-01",
-                "Data_Fim_Exercicio_Social": "2013-12-31",
-                "Lucro_Liquido_Ajustado": "15810000000.00",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "15.95000000",
-                "Lucro_Liquido_Retido": "9960000000.00",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "40.00000000",
-                "Dividendo_Distribuido_Total": "6324148000.00",
-                "Data_Aprovacao_Retencao": "2014-04-29"
-              }
+              "docid": "74121",
+              "group": 192,
+              "pages": [
+                1,
+                5,
+                6
+              ],
+              "received": "2018-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=74121",
+              "original": "review_originals/cvm_74121_g192.pdf.gz",
+              "original_sha256": "badbc0f425b5ee9c33e5d669d733a4616381744541d46a482219ed5ca574023c"
             },
             {
-              "docid": "74927",
-              "received": "2018-05-18",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2017.csv",
-              "archive_sha256": "cb90963d1e7d6b2416265eb7aa0a463b98d067ade096f47b724467184273b0ab",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=74927",
-              "fiscal_year": 2014,
-              "raw": {
-                "CNPJ_Companhia": "00.000.000/0001-91",
-                "Data_Referencia": "2017-01-01",
-                "Versao": "24",
-                "ID_Documento": "74927",
-                "Nome_Companhia": "BCO BRASIL S.A.",
-                "Data_Inicio_Exercicio_Social": "2014-01-01",
-                "Data_Fim_Exercicio_Social": "2014-12-31",
-                "Lucro_Liquido_Ajustado": "11313000000.00",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "16.50000000",
-                "Lucro_Liquido_Retido": "7104000000.00",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "40.00000000",
-                "Dividendo_Distribuido_Total": "4525140000.00",
-                "Data_Aprovacao_Retencao": "2015-04-28"
-              }
-            },
-            {
-              "docid": "74927",
-              "received": "2018-05-18",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2017.csv",
-              "archive_sha256": "cb90963d1e7d6b2416265eb7aa0a463b98d067ade096f47b724467184273b0ab",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=74927",
-              "fiscal_year": 2015,
-              "raw": {
-                "CNPJ_Companhia": "00.000.000/0001-91",
-                "Data_Referencia": "2017-01-01",
-                "Versao": "24",
-                "ID_Documento": "74927",
-                "Nome_Companhia": "BCO BRASIL S.A.",
-                "Data_Inicio_Exercicio_Social": "2015-01-01",
-                "Data_Fim_Exercicio_Social": "2015-12-31",
-                "Lucro_Liquido_Ajustado": "14364000000.00",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "18.41000000",
-                "Lucro_Liquido_Retido": "9632000000.00",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "40.00000000",
-                "Dividendo_Distribuido_Total": "5745746000.00",
-                "Data_Aprovacao_Retencao": "2016-04-28"
-              }
-            },
-            {
-              "docid": "74927",
-              "received": "2018-05-18",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2017.csv",
-              "archive_sha256": "cb90963d1e7d6b2416265eb7aa0a463b98d067ade096f47b724467184273b0ab",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=74927",
-              "fiscal_year": 2016,
-              "raw": {
-                "CNPJ_Companhia": "00.000.000/0001-91",
-                "Data_Referencia": "2017-01-01",
-                "Versao": "24",
-                "ID_Documento": "74927",
-                "Nome_Companhia": "BCO BRASIL S.A.",
-                "Data_Inicio_Exercicio_Social": "2016-01-01",
-                "Data_Fim_Exercicio_Social": "2016-12-31",
-                "Lucro_Liquido_Ajustado": "8006000000.00",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "9.80000000",
-                "Lucro_Liquido_Retido": "5588000000.00",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "29.42000000",
-                "Dividendo_Distribuido_Total": "2354607000.00",
-                "Data_Aprovacao_Retencao": "2017-04-27"
-              }
+              "docid": "74121",
+              "group": 193,
+              "pages": [
+                48,
+                77,
+                79,
+                113
+              ],
+              "received": "2018-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=74121",
+              "original": "review_originals/cvm_74121_g193.pdf.gz",
+              "original_sha256": "bff22e08fa3570851082d0fa37de7644ea1ae97e867b984411ac6f18d8cd62cd"
             }
           ]
         },
         "governance": {
-          "favorable": {
-            "dated_shareholder_right_records": 8,
-            "dated_related_party_records": 0
-          },
+          "status": "INDETERMINATE",
+          "reason": "Mantém a pendência anterior relativa ao controlador estatal e à proteção econômica dos minoritários. Controles e transparência financeira não constituem prova de encerramento desse conflito material.",
+          "favorable": "Informações atuais permitem acompanhar capital e crédito.",
+          "contrary_evidence": "Interesses de política pública e alocação relacionadas ao controlador permanecem pertinentes.",
+          "missing": "Nenhuma evidência nova examinada resolve a pendência material anterior.",
           "evidence": [
             {
-              "docid": "72574",
-              "received": "2018-03-23",
-              "reference": "2017-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+              "docid": "74121",
+              "group": 192,
+              "pages": [
+                1,
+                5,
+                6
+              ],
+              "received": "2018-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=74121",
+              "original": "review_originals/cvm_74121_g192.pdf.gz",
+              "original_sha256": "badbc0f425b5ee9c33e5d669d733a4616381744541d46a482219ed5ca574023c"
             },
             {
-              "docid": "72574",
-              "received": "2018-03-23",
-              "reference": "2017-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+              "docid": "74121",
+              "group": 193,
+              "pages": [
+                48,
+                77,
+                79,
+                113
+              ],
+              "received": "2018-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=74121",
+              "original": "review_originals/cvm_74121_g193.pdf.gz",
+              "original_sha256": "bff22e08fa3570851082d0fa37de7644ea1ae97e867b984411ac6f18d8cd62cd"
             },
             {
-              "docid": "72574",
-              "received": "2018-03-23",
-              "reference": "2017-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+              "docid": "63563",
+              "group": 1653,
+              "pages": [
+                4,
+                10
+              ],
+              "received": "2017-03-24",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=63563",
+              "original": "review_originals/cvm_63563_g1653.pdf.gz",
+              "original_sha256": "d3ccae1d0997a408b75cd5670a06c0a43dd55415ae4bd44434a14eab2db4c1a1"
             },
             {
-              "docid": "72574",
-              "received": "2018-03-23",
-              "reference": "2017-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+              "docid": "63563",
+              "group": 412,
+              "pages": [
+                66,
+                96,
+                97
+              ],
+              "received": "2017-03-24",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=63563",
+              "original": "review_originals/cvm_63563_g412.pdf.gz",
+              "original_sha256": "3fed8ffd0981c2d5157816542fff3a2fb0fa467502c3caa0519ed554a4d259e9"
             },
             {
-              "docid": "72574",
-              "received": "2018-03-23",
-              "reference": "2017-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+              "docid": "65179",
+              "group": 192,
+              "pages": [
+                1,
+                5,
+                6,
+                11
+              ],
+              "received": "2017-05-11",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=65179",
+              "original": "review_originals/cvm_65179_g192.pdf.gz",
+              "original_sha256": "c78743d81cc723a2c5282d92ee5be52600377900ecd473b9af8a1205042b2215"
             },
             {
-              "docid": "72574",
-              "received": "2018-03-23",
-              "reference": "2017-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+              "docid": "65179",
+              "group": 193,
+              "pages": [
+                55,
+                56,
+                58,
+                123,
+                124
+              ],
+              "received": "2017-05-11",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=65179",
+              "original": "review_originals/cvm_65179_g193.pdf.gz",
+              "original_sha256": "508637353c80e6723b598616de890b155b7a3ccfd9ccf4c95973ebc54d08f318"
+            }
+          ]
+        }
+      },
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "Agronegócio cresce2,6% no comparativo informado.",
+          "evidence": [
+            {
+              "docid": "74121",
+              "group": 192,
+              "pages": [
+                1,
+                5,
+                6
+              ],
+              "received": "2018-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=74121",
+              "original": "review_originals/cvm_74121_g192.pdf.gz",
+              "original_sha256": "badbc0f425b5ee9c33e5d669d733a4616381744541d46a482219ed5ca574023c"
             },
             {
-              "docid": "72574",
-              "received": "2018-03-23",
-              "reference": "2017-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+              "docid": "74121",
+              "group": 193,
+              "pages": [
+                48,
+                77,
+                79,
+                113
+              ],
+              "received": "2018-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=74121",
+              "original": "review_originals/cvm_74121_g193.pdf.gz",
+              "original_sha256": "bff22e08fa3570851082d0fa37de7644ea1ae97e867b984411ac6f18d8cd62cd"
+            }
+          ]
+        },
+        "capital_economics": {
+          "favorable": "Resultado ajustado superior aos R$2,515 bilhões do 1T17.",
+          "evidence": [
+            {
+              "docid": "74121",
+              "group": 192,
+              "pages": [
+                1,
+                5,
+                6
+              ],
+              "received": "2018-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=74121",
+              "original": "review_originals/cvm_74121_g192.pdf.gz",
+              "original_sha256": "badbc0f425b5ee9c33e5d669d733a4616381744541d46a482219ed5ca574023c"
             },
             {
-              "docid": "72574",
-              "received": "2018-03-23",
-              "reference": "2017-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+              "docid": "74121",
+              "group": 193,
+              "pages": [
+                48,
+                77,
+                79,
+                113
+              ],
+              "received": "2018-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=74121",
+              "original": "review_originals/cvm_74121_g193.pdf.gz",
+              "original_sha256": "bff22e08fa3570851082d0fa37de7644ea1ae97e867b984411ac6f18d8cd62cd"
+            }
+          ]
+        },
+        "earnings_reliability": {
+          "favorable": "Atraso90 dias da carteira renegociada cai a21,0%, frente27,8% no comparativo.",
+          "evidence": [
+            {
+              "docid": "74121",
+              "group": 192,
+              "pages": [
+                1,
+                5,
+                6
+              ],
+              "received": "2018-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=74121",
+              "original": "review_originals/cvm_74121_g192.pdf.gz",
+              "original_sha256": "badbc0f425b5ee9c33e5d669d733a4616381744541d46a482219ed5ca574023c"
             },
             {
-              "docid": "72574",
-              "received": "2018-03-23",
-              "reference": "2017-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+              "docid": "74121",
+              "group": 193,
+              "pages": [
+                48,
+                77,
+                79,
+                113
+              ],
+              "received": "2018-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=74121",
+              "original": "review_originals/cvm_74121_g193.pdf.gz",
+              "original_sha256": "bff22e08fa3570851082d0fa37de7644ea1ae97e867b984411ac6f18d8cd62cd"
+            }
+          ]
+        },
+        "financial_resilience": {
+          "favorable": "Capital superior aos requisitos aplicáveis; resultado positivo.",
+          "evidence": [
+            {
+              "docid": "74121",
+              "group": 192,
+              "pages": [
+                1,
+                5,
+                6
+              ],
+              "received": "2018-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=74121",
+              "original": "review_originals/cvm_74121_g192.pdf.gz",
+              "original_sha256": "badbc0f425b5ee9c33e5d669d733a4616381744541d46a482219ed5ca574023c"
             },
             {
-              "docid": "72574",
-              "received": "2018-03-23",
-              "reference": "2017-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+              "docid": "74121",
+              "group": 193,
+              "pages": [
+                48,
+                77,
+                79,
+                113
+              ],
+              "received": "2018-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=74121",
+              "original": "review_originals/cvm_74121_g193.pdf.gz",
+              "original_sha256": "bff22e08fa3570851082d0fa37de7644ea1ae97e867b984411ac6f18d8cd62cd"
+            }
+          ]
+        },
+        "capital_allocation": {
+          "favorable": "Lucro atual e continuidade da distribuição bancária são fatos.",
+          "evidence": [
+            {
+              "docid": "74121",
+              "group": 192,
+              "pages": [
+                1,
+                5,
+                6
+              ],
+              "received": "2018-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=74121",
+              "original": "review_originals/cvm_74121_g192.pdf.gz",
+              "original_sha256": "badbc0f425b5ee9c33e5d669d733a4616381744541d46a482219ed5ca574023c"
             },
             {
-              "docid": "72574",
-              "received": "2018-03-23",
-              "reference": "2017-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+              "docid": "74121",
+              "group": 193,
+              "pages": [
+                48,
+                77,
+                79,
+                113
+              ],
+              "received": "2018-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=74121",
+              "original": "review_originals/cvm_74121_g193.pdf.gz",
+              "original_sha256": "bff22e08fa3570851082d0fa37de7644ea1ae97e867b984411ac6f18d8cd62cd"
+            }
+          ]
+        },
+        "governance": {
+          "favorable": "Informações atuais permitem acompanhar capital e crédito.",
+          "evidence": [
+            {
+              "docid": "74121",
+              "group": 192,
+              "pages": [
+                1,
+                5,
+                6
+              ],
+              "received": "2018-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=74121",
+              "original": "review_originals/cvm_74121_g192.pdf.gz",
+              "original_sha256": "badbc0f425b5ee9c33e5d669d733a4616381744541d46a482219ed5ca574023c"
             },
             {
-              "docid": "72574",
-              "received": "2018-03-23",
-              "reference": "2017-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2017.csv",
-              "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+              "docid": "74121",
+              "group": 193,
+              "pages": [
+                48,
+                77,
+                79,
+                113
+              ],
+              "received": "2018-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=74121",
+              "original": "review_originals/cvm_74121_g193.pdf.gz",
+              "original_sha256": "bff22e08fa3570851082d0fa37de7644ea1ae97e867b984411ac6f18d8cd62cd"
+            },
+            {
+              "docid": "63563",
+              "group": 1653,
+              "pages": [
+                4,
+                10
+              ],
+              "received": "2017-03-24",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=63563",
+              "original": "review_originals/cvm_63563_g1653.pdf.gz",
+              "original_sha256": "d3ccae1d0997a408b75cd5670a06c0a43dd55415ae4bd44434a14eab2db4c1a1"
+            },
+            {
+              "docid": "63563",
+              "group": 412,
+              "pages": [
+                66,
+                96,
+                97
+              ],
+              "received": "2017-03-24",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=63563",
+              "original": "review_originals/cvm_63563_g412.pdf.gz",
+              "original_sha256": "3fed8ffd0981c2d5157816542fff3a2fb0fa467502c3caa0519ed554a4d259e9"
+            },
+            {
+              "docid": "65179",
+              "group": 192,
+              "pages": [
+                1,
+                5,
+                6,
+                11
+              ],
+              "received": "2017-05-11",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=65179",
+              "original": "review_originals/cvm_65179_g192.pdf.gz",
+              "original_sha256": "c78743d81cc723a2c5282d92ee5be52600377900ecd473b9af8a1205042b2215"
+            },
+            {
+              "docid": "65179",
+              "group": 193,
+              "pages": [
+                55,
+                56,
+                58,
+                123,
+                124
+              ],
+              "received": "2017-05-11",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=65179",
+              "original": "review_originals/cvm_65179_g193.pdf.gz",
+              "original_sha256": "508637353c80e6723b598616de890b155b7a3ccfd9ccf4c95973ebc54d08f318"
             }
           ]
         }

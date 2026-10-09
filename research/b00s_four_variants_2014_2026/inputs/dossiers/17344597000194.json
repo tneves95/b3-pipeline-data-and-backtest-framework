@@ -6,468 +6,354 @@
     "cnpj": "17344597000194",
     "company": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
     "sector": "Seguros",
-    "category": "INDETERMINATE",
-    "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+    "category": "QUALIFIED_SATISFACTORY",
+    "assessment_status": "ASSESSED",
     "dimensions": {
       "durability": {
-        "status": "INDETERMINATE",
-        "favorable": "Participação no capital social de outras sociedades, que tenham por atividade operações de seguros, resseguros, previdências complementar ou capitalização.",
-        "missing": "Historical concession/contract durability, competitive position and pricing power",
+        "status": "SATISFACTORY",
+        "reason": "Franquia de distribuição pelo Banco do Brasil e parcerias com duração documentada sustentam demanda recorrente em vida, rural, habitação, previdência e capitalização. O acordo Mapfre mantém exclusividade e aliança até2031, sujeito ao fechamento; não presume monopólio perpétuo.",
+        "favorable": "Brasilprev tinha reservas deR$234,5 bilhões e participação30,6%; Brasilcap mantinha34,1% das reservas do segmento. A Corretora possui canal bancário contratado e rentável, distinto das seguradoras.",
+        "contrary_evidence": "Concentração no canal do controlador; captação líquida Brasilprev recua37,2% em2017. Parceria e comissões podem mudar e a operação de26/06 ainda é condicional.",
+        "missing": "",
         "evidence": [
           {
-            "cnpj": "17344597000194",
-            "received": "2018-04-30",
-            "name": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
-            "sector": "Emp. Adm. Part. - Seguradoras e Corretoras",
-            "activity": "Participação no capital social de outras sociedades, que tenham por atividade operações de seguros, resseguros, previdências complementar ou capitalização.",
-            "cvm": "023159",
-            "docid": "73601",
-            "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=73601"
+            "docid": "71564",
+            "group": 1653,
+            "pages": [
+              1,
+              4,
+              5
+            ],
+            "received": "2018-02-19",
+            "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=71564",
+            "original": "review_originals/cvm_71564_g1653.pdf.gz",
+            "original_sha256": "9128ca4b68b8c68168e9303ebb7c749dc53c14a3845e3b5a50ac01ea3496ea3b"
+          },
+          {
+            "docid": "bbse_mapfre_20180626",
+            "group": 0,
+            "pages": [
+              1,
+              2
+            ],
+            "received": "2018-06-26",
+            "url": "https://media.sumaq.report/bbseguridade-wd9bzcuv/docs/bb-seguridade-2018-06-26-Gzpmb8N7.pdf",
+            "original": "review_originals/bbse_mapfre_20180626_g0.pdf.gz",
+            "original_sha256": "94fa74d6fb89e7e88dc640b6b11dc529ff77b406593380b635eb2c6a4b5e0e95"
+          },
+          {
+            "docid": "mapfre_bb_20180626",
+            "group": 0,
+            "pages": [
+              1,
+              2
+            ],
+            "received": "2018-06-26",
+            "url": "https://www.mapfre.com/media/shareholders/2018/HR-Brasil-180626-en.pdf",
+            "original": "review_originals/mapfre_bb_20180626_g0.pdf.gz",
+            "original_sha256": "00cf3449c799809bb95cd43e0f2a24a2ec575bdd7edc937926e2bcee0c3b6387"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       },
       "capital_economics": {
-        "status": "INDETERMINATE",
-        "favorable": {
-          "roe_parent_5": [
-            0.39329434283807807,
-            0.4650687169417925,
-            0.5427280616936021,
-            0.5058467849031556,
-            0.4711839132254858
-          ],
-          "normalized_profit": 4186976098.090664
-        },
-        "missing": "Cycle-normalized ROIC/incremental returns or risk-adjusted prudential ROE; historical peer/capital comparison",
+        "status": "SATISFACTORY",
+        "reason": "Lucro atribuível IFRS é deR$4,207/4,014/4,049 bilhões em2015/16/17. Depois das retiradas conservadoras de extraordinários e perímetro, três pisos em moeda2018 permanecem acima deR$3,26 bilhões. A rentabilidade é lida com capital requerido e resultado operacional, sem score ou ROE mínimo universal.",
+        "favorable": "O PL é deR$8,289 bilhões em2016 e8,898 bilhões em2017, com suficiência prudencial das investidas. Brasilprev cresce lucro8,1% com taxas de gestão+21,7% e melhora de eficiência; Corretora aumenta margem operacional0,5 p.p. A capacidade econômica não depende exclusivamente do resultado financeiro de seguros.",
+        "contrary_evidence": "SH1 perde11,1% do lucro, SH2 tem prejuízo e Brasilcap cai41,8% pela menor margem financeira. O piso de lucro não prova crescimento econômico por ação ou o canal de reinvestimento15–25; não recebe HIGH.",
+        "missing": "",
         "evidence": [
           {
-            "fiscal_year": 2013,
-            "metric": "attributable_ni",
-            "value": 2473752000.0,
-            "docid": "43964",
-            "received": "2015-02-10",
-            "reference": "2014-12-31",
-            "period_end": "2013-12-31",
-            "perimeter": "con",
-            "account": "3.13.01",
-            "description": "Atribuído a Sócios da Empresa Controladora",
-            "source": "dfp_cia_aberta_DRE_con_2014.csv",
-            "archive_sha256": "b8795dba134754475a485c0f88b6542face6613bb418d261caa011d90e032f28",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2014.zip"
-          },
-          {
-            "fiscal_year": 2014,
-            "metric": "attributable_ni",
-            "value": 3456683000.0,
-            "docid": "53676",
-            "received": "2016-02-26",
-            "reference": "2015-12-31",
-            "period_end": "2014-12-31",
-            "perimeter": "con",
-            "account": "3.13.01",
-            "description": "Atribuído a Sócios da Empresa Controladora",
-            "source": "dfp_cia_aberta_DRE_con_2015.csv",
-            "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
-          },
-          {
-            "fiscal_year": 2015,
-            "metric": "attributable_ni",
-            "value": 4207432000.0,
             "docid": "62449",
+            "group": 412,
+            "pages": [
+              1,
+              41
+            ],
             "received": "2017-02-13",
-            "reference": "2016-12-31",
-            "period_end": "2015-12-31",
-            "perimeter": "con",
-            "account": "3.13.01",
-            "description": "Atribuído a Sócios da Empresa Controladora",
-            "source": "dfp_cia_aberta_DRE_con_2016.csv",
-            "archive_sha256": "772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2016.zip"
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=62449",
+            "original": "review_originals/cvm_62449_g412.pdf.gz",
+            "original_sha256": "c3bea407fc572c306c4a150d68ab843110f3bef25292bad88ad0858d2395f148"
           },
           {
-            "fiscal_year": 2016,
-            "metric": "attributable_ni",
-            "value": 4013852000.0,
-            "docid": "71564",
-            "received": "2018-02-19",
-            "reference": "2017-12-31",
-            "period_end": "2016-12-31",
-            "perimeter": "con",
-            "account": "3.13.01",
-            "description": "Atribuído a Sócios da Empresa Controladora",
-            "source": "dfp_cia_aberta_DRE_con_2017.csv",
-            "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+            "docid": "62449",
+            "group": 1653,
+            "pages": [
+              3,
+              4
+            ],
+            "received": "2017-02-13",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=62449",
+            "original": "review_originals/cvm_62449_g1653.pdf.gz",
+            "original_sha256": "5f89341fc94c7ba17d564b2242fa4a1abed63fd0a508e231a0637f4c97599928"
           },
           {
-            "fiscal_year": 2017,
-            "metric": "attributable_ni",
-            "value": 4049245000.0,
             "docid": "71564",
+            "group": 412,
+            "pages": [
+              1,
+              5,
+              43
+            ],
             "received": "2018-02-19",
-            "reference": "2017-12-31",
-            "period_end": "2017-12-31",
-            "perimeter": "con",
-            "account": "3.13.01",
-            "description": "Atribuído a Sócios da Empresa Controladora",
-            "source": "dfp_cia_aberta_DRE_con_2017.csv",
-            "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+            "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=71564",
+            "original": "review_originals/cvm_71564_g412.pdf.gz",
+            "original_sha256": "2e85f9b488ea801f42acfc99f6c6ed6d201f49bfd0ee12cf949e5dfdb628d6af"
+          },
+          {
+            "docid": "71564",
+            "group": 1653,
+            "pages": [
+              3,
+              4,
+              5
+            ],
+            "received": "2018-02-19",
+            "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=71564",
+            "original": "review_originals/cvm_71564_g1653.pdf.gz",
+            "original_sha256": "9128ca4b68b8c68168e9303ebb7c749dc53c14a3845e3b5a50ac01ea3496ea3b"
+          },
+          {
+            "docid": "73804",
+            "group": 193,
+            "pages": [
+              27,
+              28
+            ],
+            "received": "2018-05-07",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=73804",
+            "original": "review_originals/cvm_73804_g193.pdf.gz",
+            "original_sha256": "682a1d352512ad2cfa1129d9f3247d0de1b59dc2f75ac7407d2ca985082632a9"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       },
       "earnings_reliability": {
-        "status": "INDETERMINATE",
-        "favorable": {
-          "positive_attributable_years": 5,
-          "audit_records": 7
-        },
-        "missing": "Profit/cash/recurring earnings bridge; provisions and extraordinary items reviewed in dated notes",
+        "status": "SATISFACTORY",
+        "reason": "Lucro do controlador e atribuível consolidado coincidem nos demonstrativos IFRS. Notas identificam PCC, créditos tributários, impairment e alienação IRB, e permitem a ponte conservadora reproduzível. A retirada de extraordinários é efetiva e não depende de lucro gerencial ajustado.",
+        "favorable": "Em2017 a controladora recebe dividendos deR$4,984 bilhões e pagaR$3,286 bilhões; caixa consolidado fecha emR$3,644 bilhões. Valores de controladora e consolidado são distinguidos para evitar dupla contagem.",
+        "contrary_evidence": "PCC2015 foi revertida com ganhos não realizados de ativos garantidores, sem caixa equivalente; ganho IRB e ativação fiscal aumentam2017 e são retirados. EPS1,96/2,05 no quadro bursátil do MR diverge do DRE IFRS2,03/2,01; utiliza-se o DRE, não aquele quadro.",
+        "missing": "",
         "evidence": [
           {
-            "docid": "71564",
-            "received": "2018-02-19",
-            "reference": "2017-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2017.csv",
-            "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+            "docid": "62449",
+            "group": 412,
+            "pages": [
+              1,
+              4
+            ],
+            "received": "2017-02-13",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=62449",
+            "original": "review_originals/cvm_62449_g412.pdf.gz",
+            "original_sha256": "c3bea407fc572c306c4a150d68ab843110f3bef25292bad88ad0858d2395f148"
+          },
+          {
+            "docid": "62449",
+            "group": 1653,
+            "pages": [
+              3,
+              4
+            ],
+            "received": "2017-02-13",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=62449",
+            "original": "review_originals/cvm_62449_g1653.pdf.gz",
+            "original_sha256": "5f89341fc94c7ba17d564b2242fa4a1abed63fd0a508e231a0637f4c97599928"
           },
           {
             "docid": "71564",
+            "group": 412,
+            "pages": [
+              1,
+              4,
+              49,
+              60
+            ],
             "received": "2018-02-19",
-            "reference": "2017-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2017.csv",
-            "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+            "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=71564",
+            "original": "review_originals/cvm_71564_g412.pdf.gz",
+            "original_sha256": "2e85f9b488ea801f42acfc99f6c6ed6d201f49bfd0ee12cf949e5dfdb628d6af"
           },
           {
             "docid": "71564",
+            "group": 1653,
+            "pages": [
+              3,
+              4,
+              6
+            ],
             "received": "2018-02-19",
-            "reference": "2017-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2017.csv",
-            "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
-          },
-          {
-            "docid": "71564",
-            "received": "2018-02-19",
-            "reference": "2017-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2017.csv",
-            "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
-          },
-          {
-            "docid": "71564",
-            "received": "2018-02-19",
-            "reference": "2017-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2017.csv",
-            "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
-          },
-          {
-            "docid": "71564",
-            "received": "2018-02-19",
-            "reference": "2017-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2017.csv",
-            "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
-          },
-          {
-            "docid": "71564",
-            "received": "2018-02-19",
-            "reference": "2017-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2017.csv",
-            "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+            "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=71564",
+            "original": "review_originals/cvm_71564_g1653.pdf.gz",
+            "original_sha256": "9128ca4b68b8c68168e9303ebb7c749dc53c14a3845e3b5a50ac01ea3496ea3b"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       },
       "financial_resilience": {
-        "status": "INDETERMINATE",
-        "favorable": {
-          "parent_equity_latest": 8898470000.0
-        },
-        "missing": "SUSEP capital adequacy, technical reserves, claims and underwriting result",
+        "status": "SATISFACTORY",
+        "reason": "A análise usa solvência, provisões e liquidez de seguradoras, não apenas caixa da holding. Tabela2016 quantifica folgas por investida; DFP2017 e ITR1T18 confirmam suficiência de todas segundo CNSP321/2015 e regrasANS aplicáveis.",
+        "favorable": "Em2016: Cia Aliança PLA1.598,015/CMR1.154,860 milhões; Brasilprev PLA3.189,674/CMR1.580,278 milhões; todos os excessos de liquidez explicitados são positivos. ITR2018 reitera suficiência e divulga sensibilidades/ALM; a holding não tem dívida financeira conforme MR2017.",
+        "contrary_evidence": "Risco atuarial, garantias de renda, sinistros e descasamento de juros não desaparecem; a SH2 registra prejuízo e impairment. As folgas2016 são históricas, não quantidades atualizadas presumidas para2018.",
+        "missing": "",
         "evidence": [
           {
+            "docid": "62449",
+            "group": 412,
+            "pages": [
+              41
+            ],
+            "received": "2017-02-13",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=62449",
+            "original": "review_originals/cvm_62449_g412.pdf.gz",
+            "original_sha256": "c3bea407fc572c306c4a150d68ab843110f3bef25292bad88ad0858d2395f148"
+          },
+          {
             "docid": "71564",
+            "group": 412,
+            "pages": [
+              32
+            ],
             "received": "2018-02-19",
-            "reference": "2017-12-31",
-            "period_end": "2017-12-31",
-            "perimeter": "ind",
-            "account": "2.03",
-            "description": "Patrimônio Líquido",
-            "source": "dfp_cia_aberta_BPP_ind_2017.csv",
-            "archive_sha256": "",
-            "url": ""
+            "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=71564",
+            "original": "review_originals/cvm_71564_g412.pdf.gz",
+            "original_sha256": "2e85f9b488ea801f42acfc99f6c6ed6d201f49bfd0ee12cf949e5dfdb628d6af"
+          },
+          {
+            "docid": "71564",
+            "group": 1653,
+            "pages": [
+              13
+            ],
+            "received": "2018-02-19",
+            "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=71564",
+            "original": "review_originals/cvm_71564_g1653.pdf.gz",
+            "original_sha256": "9128ca4b68b8c68168e9303ebb7c749dc53c14a3845e3b5a50ac01ea3496ea3b"
+          },
+          {
+            "docid": "73804",
+            "group": 193,
+            "pages": [
+              27,
+              28
+            ],
+            "received": "2018-05-07",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=73804",
+            "original": "review_originals/cvm_73804_g193.pdf.gz",
+            "original_sha256": "682a1d352512ad2cfa1129d9f3247d0de1b59dc2f75ac7407d2ca985082632a9"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       },
       "capital_allocation": {
-        "status": "INDETERMINATE",
-        "favorable": {
-          "historical_payout": [
-            0.8,
-            0.8,
-            0.8,
-            0.823,
-            null
-          ],
-          "distributions": [
-            1979002000.0,
-            2765346000.0,
-            3365946000.0,
-            3304062.0,
-            null
-          ]
-        },
-        "missing": "Maintenance versus expansion CAPEX, sustainable dividends, adjusted per-share and incremental economic growth",
+        "status": "SATISFACTORY",
+        "reason": "Perfil de pagadora madura: a distribuição tem suporte de lucros normalizados, caixa recebido das investidas e solvência. Não é aprovação automática por payout85%. O acordo Mapfre vende participação após trocas, sem financiar aquisição nem exigir antecipação de sinergia para sustentar a franquia restante.",
+        "favorable": "Dividendos pagos de2015/16/17 são deR$3,362/3,342/3,286 bilhões, com recebimentos da controladora3,450/4,011/4,984 bilhões. Novo compromisso Ciclic20,250 milhões é pequeno perante capital e caixa documentados; nenhum rendimento desse investimento é presumido.",
+        "contrary_evidence": "Alienação e ajustes anuais de preço até2031 introduzem risco de execução; não considerarR$1,8 bilhão de capital potencialmente liberado como provento aprovado. Lucro e distribuições futuros devem ser reavaliados após fechamento; não se prova retorno incremental superior para reinvestidora.",
+        "missing": "",
         "evidence": [
           {
-            "docid": "64576",
-            "received": "2017-05-02",
-            "reference": "",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "fre_cia_aberta_distribuicao_dividendos_2016.csv",
-            "archive_sha256": "bfd0513d903cb3e5a43360dcb1673b3c9ac1f23396974726cca764df64d481cc",
-            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=64576",
-            "fiscal_year": 2013,
-            "raw": {
-              "CNPJ_Companhia": "17.344.597/0001-94",
-              "Data_Referencia": "2016-01-01",
-              "Versao": "14",
-              "ID_Documento": "64576",
-              "Nome_Companhia": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
-              "Data_Inicio_Exercicio_Social": "2013-01-01",
-              "Data_Fim_Exercicio_Social": "2013-12-31",
-              "Lucro_Liquido_Ajustado": "2473752000.00",
-              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "35.90000000",
-              "Lucro_Liquido_Retido": "494750000.00",
-              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "80.00000000",
-              "Dividendo_Distribuido_Total": "1979002000.00",
-              "Data_Aprovacao_Retencao": "2014-04-30"
-            }
+            "docid": "62449",
+            "group": 412,
+            "pages": [
+              4
+            ],
+            "received": "2017-02-13",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=62449",
+            "original": "review_originals/cvm_62449_g412.pdf.gz",
+            "original_sha256": "c3bea407fc572c306c4a150d68ab843110f3bef25292bad88ad0858d2395f148"
           },
           {
-            "docid": "73727",
-            "received": "2018-05-03",
-            "reference": "",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "fre_cia_aberta_distribuicao_dividendos_2017.csv",
-            "archive_sha256": "cb90963d1e7d6b2416265eb7aa0a463b98d067ade096f47b724467184273b0ab",
-            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=73727",
-            "fiscal_year": 2014,
-            "raw": {
-              "CNPJ_Companhia": "17.344.597/0001-94",
-              "Data_Referencia": "2017-01-01",
-              "Versao": "15",
-              "ID_Documento": "73727",
-              "Nome_Companhia": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
-              "Data_Inicio_Exercicio_Social": "2014-01-01",
-              "Data_Fim_Exercicio_Social": "2014-12-31",
-              "Lucro_Liquido_Ajustado": "3456683000.00",
-              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "49.80000000",
-              "Lucro_Liquido_Retido": "691337000.00",
-              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "80.00000000",
-              "Dividendo_Distribuido_Total": "2765346000.00",
-              "Data_Aprovacao_Retencao": "2015-04-27"
-            }
+            "docid": "71564",
+            "group": 412,
+            "pages": [
+              4,
+              5,
+              8
+            ],
+            "received": "2018-02-19",
+            "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=71564",
+            "original": "review_originals/cvm_71564_g412.pdf.gz",
+            "original_sha256": "2e85f9b488ea801f42acfc99f6c6ed6d201f49bfd0ee12cf949e5dfdb628d6af"
           },
           {
-            "docid": "73727",
-            "received": "2018-05-03",
-            "reference": "",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "fre_cia_aberta_distribuicao_dividendos_2017.csv",
-            "archive_sha256": "cb90963d1e7d6b2416265eb7aa0a463b98d067ade096f47b724467184273b0ab",
-            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=73727",
-            "fiscal_year": 2015,
-            "raw": {
-              "CNPJ_Companhia": "17.344.597/0001-94",
-              "Data_Referencia": "2017-01-01",
-              "Versao": "15",
-              "ID_Documento": "73727",
-              "Nome_Companhia": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
-              "Data_Inicio_Exercicio_Social": "2015-01-01",
-              "Data_Fim_Exercicio_Social": "2015-12-31",
-              "Lucro_Liquido_Ajustado": "4207432000.00",
-              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "54.80000000",
-              "Lucro_Liquido_Retido": "841486000.00",
-              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "80.00000000",
-              "Dividendo_Distribuido_Total": "3365946000.00",
-              "Data_Aprovacao_Retencao": "2016-04-20"
-            }
+            "docid": "71564",
+            "group": 1653,
+            "pages": [
+              6
+            ],
+            "received": "2018-02-19",
+            "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=71564",
+            "original": "review_originals/cvm_71564_g1653.pdf.gz",
+            "original_sha256": "9128ca4b68b8c68168e9303ebb7c749dc53c14a3845e3b5a50ac01ea3496ea3b"
           },
           {
-            "docid": "73727",
-            "received": "2018-05-03",
-            "reference": "",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "fre_cia_aberta_distribuicao_dividendos_2017.csv",
-            "archive_sha256": "cb90963d1e7d6b2416265eb7aa0a463b98d067ade096f47b724467184273b0ab",
-            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=73727",
-            "fiscal_year": 2016,
-            "raw": {
-              "CNPJ_Companhia": "17.344.597/0001-94",
-              "Data_Referencia": "2017-01-01",
-              "Versao": "15",
-              "ID_Documento": "73727",
-              "Nome_Companhia": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
-              "Data_Inicio_Exercicio_Social": "2016-01-01",
-              "Data_Fim_Exercicio_Social": "2016-12-31",
-              "Lucro_Liquido_Ajustado": "4013852.00",
-              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "51.80000000",
-              "Lucro_Liquido_Retido": "709790.00",
-              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "82.30000000",
-              "Dividendo_Distribuido_Total": "3304062.00",
-              "Data_Aprovacao_Retencao": "2017-04-20"
-            }
+            "docid": "73804",
+            "group": 193,
+            "pages": [
+              7
+            ],
+            "received": "2018-05-07",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=73804",
+            "original": "review_originals/cvm_73804_g193.pdf.gz",
+            "original_sha256": "682a1d352512ad2cfa1129d9f3247d0de1b59dc2f75ac7407d2ca985082632a9"
+          },
+          {
+            "docid": "bbse_mapfre_20180626",
+            "group": 0,
+            "pages": [
+              1,
+              2
+            ],
+            "received": "2018-06-26",
+            "url": "https://media.sumaq.report/bbseguridade-wd9bzcuv/docs/bb-seguridade-2018-06-26-Gzpmb8N7.pdf",
+            "original": "review_originals/bbse_mapfre_20180626_g0.pdf.gz",
+            "original_sha256": "94fa74d6fb89e7e88dc640b6b11dc529ff77b406593380b635eb2c6a4b5e0e95"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       },
       "governance": {
-        "status": "INDETERMINATE",
-        "favorable": {
-          "dated_shareholder_right_records": 5,
-          "dated_related_party_records": 0
-        },
-        "missing": "Review of material conflicts, related parties and audit opinions before cutoff; no ex-post controversy inference",
+        "status": "SATISFACTORY",
+        "reason": "A aprovação depende de proteções concretas e informações verificáveis: comitê de partes relacionadas inclui independente indicado pelos minoritários com poder de veto; conselho fiscal permanente e comitê de auditoria majoritariamente independente. Auditoria, rateio de despesas e condições do acordo são divulgados.",
+        "favorable": "Conselho com mínimo25% independentes; minoria participa de indicação no conselho e auditoria. O veto em partes relacionadas é proteção específica relevante ao canal BB, superior à mera listagem Novo Mercado.",
+        "contrary_evidence": "Controle estatal indireto, transações com o Banco do Brasil e concentração do canal continuam conflitos potenciais. A aprovação não certifica inexistência de risco nem usa informações de controvérsias posteriores ao corte.",
+        "missing": "",
         "evidence": [
           {
             "docid": "71564",
+            "group": 1653,
+            "pages": [
+              7,
+              8,
+              13
+            ],
             "received": "2018-02-19",
-            "reference": "2017-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2017.csv",
-            "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+            "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=71564",
+            "original": "review_originals/cvm_71564_g1653.pdf.gz",
+            "original_sha256": "9128ca4b68b8c68168e9303ebb7c749dc53c14a3845e3b5a50ac01ea3496ea3b"
           },
           {
-            "docid": "71564",
-            "received": "2018-02-19",
-            "reference": "2017-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2017.csv",
-            "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+            "docid": "73804",
+            "group": 193,
+            "pages": [
+              56
+            ],
+            "received": "2018-05-07",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=73804",
+            "original": "review_originals/cvm_73804_g193.pdf.gz",
+            "original_sha256": "682a1d352512ad2cfa1129d9f3247d0de1b59dc2f75ac7407d2ca985082632a9"
           },
           {
-            "docid": "71564",
-            "received": "2018-02-19",
-            "reference": "2017-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2017.csv",
-            "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
-          },
-          {
-            "docid": "71564",
-            "received": "2018-02-19",
-            "reference": "2017-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2017.csv",
-            "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
-          },
-          {
-            "docid": "71564",
-            "received": "2018-02-19",
-            "reference": "2017-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2017.csv",
-            "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
-          },
-          {
-            "docid": "71564",
-            "received": "2018-02-19",
-            "reference": "2017-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2017.csv",
-            "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
-          },
-          {
-            "docid": "71564",
-            "received": "2018-02-19",
-            "reference": "2017-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2017.csv",
-            "archive_sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2017.zip"
+            "docid": "bbse_mapfre_20180626",
+            "group": 0,
+            "pages": [
+              1,
+              2
+            ],
+            "received": "2018-06-26",
+            "url": "https://media.sumaq.report/bbseguridade-wd9bzcuv/docs/bb-seguridade-2018-06-26-Gzpmb8N7.pdf",
+            "original": "review_originals/bbse_mapfre_20180626_g0.pdf.gz",
+            "original_sha256": "94fa74d6fb89e7e88dc640b6b11dc529ff77b406593380b635eb2c6a4b5e0e95"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       }
     },
-    "limitation": "Structured facts only; economic review outstanding. No quality approval inferred.",
+    "limitation": "Documentary economic review of originals",
     "special_case": ""
   },
   "annual_evidence_updates": [

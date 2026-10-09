@@ -28,7 +28,7 @@ def expand_incremental(record, previous):
     if not all(confirmed.values()) or not record.get('valuation') or not record.get('incremental_review'):
         raise ValueError('Incremental reasons and current valuation required')
     merged=json.loads(json.dumps(previous))
-    for key in ['economic_metrics','capital_block','capital_interval']:
+    for key in ['economic_metrics','capital_block','capital_interval','numerical_proof']:
         merged.pop(key,None)
     merged.update({k:v for k,v in record.items() if k not in ['confirmed_dimensions','dimension_updates']})
     for name in DIMENSIONS:
