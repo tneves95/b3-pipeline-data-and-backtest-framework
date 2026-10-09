@@ -12,6 +12,8 @@ import hashlib
 import io
 import json
 import re
+import zipfile
+import xml.etree.ElementTree as ET
 import requests
 from bs4 import BeautifulSoup
 from pypdf import PdfReader
@@ -19,6 +21,52 @@ from b00s_variants import INPUT, jsonwrite
 
 DEST=INPUT/'review_originals'
 BASE='https://www.rad.cvm.gov.br/ENET/'
+
+def unpack_download(job, raw):
+    """Read original attachments when the public viewer has an empty header.
+
+    The complete-document download includes the submitted DFP/ITR and CVM's
+    dated delivery metadata. Do not use its newly rendered aggregate PDF.
+    """
+    docid=str(job['docid']);cutoff=job['cutoff']
+    outer=zipfile.ZipFile(io.BytesIO(raw))
+    names=[n for n in outer.namelist() if n.endswith(('.dfp','.itr'))]
+    if len(names)!=1:raise ValueError('One submitted financial document required')
+    name=names[0];kind=name.rsplit('.',1)[1].upper()
+    meta_name=f'FormularioDemonstracaoFinanceira{kind}.xml'
+    metadata=outer.read(meta_name);root=ET.fromstring(metadata)
+    received=root.findtext('.//DataEntrega','')[:10]
+    if root.findtext('.//NumeroSequencialDocumento')!=docid or not re.fullmatch(r'20\d\d-\d\d-\d\d',received):
+        raise ValueError('Download identity or delivery date not verified')
+    if received>cutoff:raise ValueError(('Future download',docid,received,cutoff))
+    container=outer.read(name);inner=zipfile.ZipFile(io.BytesIO(container))
+    inner_meta=ET.fromstring(inner.read(meta_name))
+    for key in ['DataReferenciaDocumento','NumeroVersaoDocumento']:
+        if root.findtext('.//'+key)!=inner_meta.findtext('.//'+key):raise ValueError('Different submitted version')
+    prefix=DEST/f'cvm_{docid}'
+    for suffix,content in [(f'.{kind.lower()}.gz',container),('.delivery.xml.gz',metadata)]:
+        Path(str(prefix)+suffix).write_bytes(gzip.compress(content,mtime=0))
+    rows=[]
+    url='https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento='+docid
+    for node in ET.fromstring(inner.read('AnexoDocumento.xml')):
+        group=int(node.findtext('NumeroGrupoRelacionado','0'))
+        if group not in job.get('groups',[412,1653,193,192]):continue
+        pdfraw=base64.b64decode(node.findtext('ImagemObjetoArquivoPdf'),validate=True)
+        if not pdfraw.startswith(b'%PDF'):raise ValueError('Not an original PDF attachment')
+        path=DEST/f'cvm_{docid}_g{group}.pdf.gz';path.write_bytes(gzip.compress(pdfraw,mtime=0))
+        pages=[p.extract_text() for p in PdfReader(io.BytesIO(pdfraw)).pages]
+        textpath=DEST/f'cvm_{docid}_g{group}.pages.json.gz'
+        textpath.write_bytes(gzip.compress(json.dumps(pages,ensure_ascii=False).encode(),mtime=0))
+        rows.append(dict(docid=docid,group=group,status='ARCHIVED',received=received,
+            receipt_label=root.findtext('.//DataEntrega'),cutoff=cutoff,ticker=job.get('ticker',''),url=url,
+            original_sha256=hashlib.sha256(pdfraw).hexdigest(),original=str(path.relative_to(INPUT)),
+            pages=str(textpath.relative_to(INPUT)),page_count=len(pages),
+            extraction='Original PDF from AnexoDocumento.xml in submitted DFP/ITR. Delivery/version checked against CVM download metadata; generated aggregate PDF ignored.',
+            submission=dict(path=str(Path(str(prefix)+f'.{kind.lower()}.gz').relative_to(INPUT)),sha256=hashlib.sha256(container).hexdigest(),
+                metadata=str(Path(str(prefix)+'.delivery.xml.gz').relative_to(INPUT)),metadata_sha256=hashlib.sha256(metadata).hexdigest(),
+                version=root.findtext('.//NumeroVersaoDocumento'),reference=root.findtext('.//DataReferenciaDocumento'))))
+    if not rows:raise ValueError('No original financial attachments in download')
+    return rows
 
 def collect(job):
     docid,cutoff=job['docid'],job['cutoff']
@@ -30,7 +78,10 @@ def collect(job):
         page=BeautifulSoup(response.content,'html.parser')
         node=page.find(id='lblDataEnvio');receipt=node.get_text(strip=True) if node else ''
         if re.match(r'\d{2}/\d{2}/\d{4}',receipt):break
-    else:raise ValueError(('CVM returned no dated header',docid))
+    else:
+        download='https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento='+docid
+        response=session.get(download,timeout=(20,60));response.raise_for_status()
+        return unpack_download(job,response.content)
     dd,mm,yyyy=receipt[:10].split('/');received=f'{yyyy}-{mm}-{dd}'
     if received>cutoff:raise ValueError(('Future document',docid,received,cutoff))
     if page.find(id='hdnHabilitaCaptcha').get('value')=='S':raise ValueError('Interactive CAPTCHA required; no bypass')

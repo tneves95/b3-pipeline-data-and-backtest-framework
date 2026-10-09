@@ -50,6 +50,11 @@ As seleções, retornos, fontes e documentos aceitos de junho/2014–junho/2015 
             kept=[r for r in rs if float(r['before'])>0 and r['base_status']!='FAIL']
             ratios=[float(r['after'])/float(r['before']) for r in kept]
             text+=f"\n{v}: {len(kept)} posições anteriores não reprovadas; fator de capital mantido entre {min(ratios):.8f} e {max(ratios):.8f}. Nenhuma posição não FAIL foi liquidada pelo financiamento.\n" if ratios else ''
+            if year>=2016:
+                exits=[r['ticker'] for r in rs if float(r['before'])>0 and r['base_status']=='FAIL']
+                uncertain=[r['ticker'] for r in kept if r['base_status']=='INDETERMINATE']
+                if exits:text+='\nSaídas determinadas exclusivamente pelo B00S-base: '+', '.join(exits)+'.\n'
+                if uncertain:text+='\nLinhagens mantidas com B00S-base indeterminado: '+', '.join(uncertain)+'. A continuidade herdada não equivale a aprovação de nova compra.\n'
         text+='\n## Composição e contribuição por ação\n\n'+table([r for r in hold if r['year']==str(year) and r['variant'] in ['VVAL','VQ']],['variant','row_type','ticker','initial_weight_pct','final_weight_pct','exposure_return_pct','contribution_pp','descendants'])
         text+='\n\nOs pesos são os econômicos reais após a renovação. Cada retorno individual inclui proventos e sucessores atribuíveis à exposição de origem. O resíduo numérico está separado; a soma das contribuições reconcilia exatamente o retorno anual.\n'
         text+='\n## Concentração\n\n'+table([r for r in risk if r['variant'] in ['VVAL','VQ'] and ((r['date']==DATES[year] and r['phase']=='AFTER_REVIEW') or (r['date']==DATES[year+1] and r['phase']=='PERIOD_END'))],['variant','date','phase','companies','largest_company_pct','top5_pct','issuer_hhi','sector_weights_pct'])
@@ -87,5 +92,6 @@ As seleções, retornos, fontes e documentos aceitos de junho/2014–junho/2015 
                 dossier+='\nProva econômica:\n\n```json\n'+json.dumps(r['economic_metrics'],ensure_ascii=False,indent=2)+'\n```\n'
         (ROOT/f'docs/dossies_b00s_{year}.md').write_text('\n'.join(line.rstrip() for line in dossier.splitlines())+'\n')
     verify_accepted_initial()
+    verify_completed_batches()
 
 if __name__=='__main__':main()

@@ -1237,399 +1237,439 @@
       "ticker": "BBDC4",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": null,
-      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
-      "classification_changed": null,
-      "dimensions": {},
-      "dimension_evidence_updates": {
+      "assessment_ref": "60746948000112:2016",
+      "assessment_status": "ASSESSED",
+      "classification_changed": true,
+      "dimensions": {
         "durability": {
-          "favorable": "Prática de operações bancárias em geral, inclusive câmbio",
+          "status": "SATISFACTORY",
+          "reason": "Franquias bancária e de seguros nacionais permanecem duráveis; HSBC era compromisso de aquisição ainda não concluído no corte.",
+          "favorable": "Receitas diversificadas; seguradora com15,186bi em prêmios/contribuições/capitalização no1T e1,380bi de lucro; ampla rede de atendimento.",
+          "contrary_evidence": "Crédito sofre com a recessão; compraHSBCUS$5,186bi impõe risco de integração e CADE impõe compromissos concorrenciais.",
+          "missing": "",
           "evidence": [
             {
-              "cnpj": "60746948000112",
-              "received": "2015-05-26",
-              "name": "BANCO BRADESCO SA",
-              "sector": "Bancos",
-              "activity": "Prática de operações bancárias em geral, inclusive câmbio",
-              "cvm": "000906",
-              "docid": "47726",
-              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=47726"
+              "docid": "55327",
+              "group": 192,
+              "pages": [
+                2,
+                3
+              ],
+              "received": "2016-04-28",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55327",
+              "original": "review_originals/cvm_55327_g192.pdf.gz",
+              "original_sha256": "c8fc4d6fda2ae55787be19e2331c7f6ac4cd7075d646e7aad6f987ac36f54d79"
+            },
+            {
+              "docid": "bradesco_hsbc_sec_20160609",
+              "group": 0,
+              "pages": [
+                1
+              ],
+              "received": "2016-06-09",
+              "url": "https://www.sec.gov/Archives/edgar/data/1160330/000129281416004929/0001292814-16-004929.txt",
+              "original": "review_originals/bradesco_hsbc_sec_20160609.sgml.gz",
+              "original_sha256": "b260d5fc8f61e6fb30e166b5986daab92bbea8459adddb37a8e83fe331b88906"
+            }
+          ],
+          "prior_year": 2015,
+          "review_2015": "A franquia bancária/seguros e a distribuição anteriores continuam sustentadas pelo novo trimestre.",
+          "review_2016": "Franquias bancária e de seguros nacionais permanecem duráveis; HSBC era compromisso de aquisição ainda não concluído no corte."
+        },
+        "capital_economics": {
+          "status": "SATISFACTORY",
+          "reason": "A rentabilidade segue sustentada por operações bancárias e de seguros, após reconhecer o aumento de perdas e os benefícios fiscais extraordinários; não extrapolar sinergias HSBC.",
+          "favorable": "LucroBRGAAP1T4,121bi e ROE17,5%; pisos IFRS históricos positivos e segregados; margem de capital prudencial.",
+          "contrary_evidence": "Perdas de crédito IFRS2015 sobem para14,721bi, frente10,291bi2014; capital e ROE pós-HSBC ainda não observados no corte.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "53890",
+              "group": 412,
+              "pages": [
+                92,
+                93
+              ],
+              "received": "2016-03-07",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=53890",
+              "original": "review_originals/cvm_53890_g412.pdf.gz",
+              "original_sha256": "3150e660feaa57471ee1b36ccdd77314c36a85ec782311ca3b84af95ba867d1d"
+            },
+            {
+              "docid": "55327",
+              "group": 192,
+              "pages": [
+                1
+              ],
+              "received": "2016-04-28",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55327",
+              "original": "review_originals/cvm_55327_g192.pdf.gz",
+              "original_sha256": "c8fc4d6fda2ae55787be19e2331c7f6ac4cd7075d646e7aad6f987ac36f54d79"
+            },
+            {
+              "docid": "55327",
+              "group": 193,
+              "pages": [
+                85
+              ],
+              "received": "2016-04-28",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55327",
+              "original": "review_originals/cvm_55327_g193.pdf.gz",
+              "original_sha256": "3be6b56701104ca27e5ce82bc351743ee85aae364cb5901ebc364097c7050c20"
+            }
+          ],
+          "prior_year": 2015,
+          "review_2015": "Resultado e capital são confrontados com a deterioração observada da carteira.",
+          "review_2016": "A rentabilidade segue sustentada por operações bancárias e de seguros, após reconhecer o aumento de perdas e os benefícios fiscais extraordinários; não extrapolar sinergias HSBC."
+        },
+        "earnings_reliability": {
+          "status": "SATISFACTORY",
+          "reason": "A conciliação IFRS continua explícita e os ganhos tributários são retirados dos limites; a controvérsia de conduta é avaliada em governança, sem inventar manipulação de demonstrações.",
+          "favorable": "Notas distinguem fiscal, perdas de crédito, capital por classe e contingências; não se adicionam perdas ao lucro.",
+          "contrary_evidence": "BenefícioCSLL2,341220bi em2015; não confundir lucro BRGAAP com IFRS; incerteza jurídica da Zelotes permanece separada.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "53890",
+              "group": 412,
+              "pages": [
+                3,
+                92,
+                93,
+                98
+              ],
+              "received": "2016-03-07",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=53890",
+              "original": "review_originals/cvm_53890_g412.pdf.gz",
+              "original_sha256": "3150e660feaa57471ee1b36ccdd77314c36a85ec782311ca3b84af95ba867d1d"
+            },
+            {
+              "docid": "55327",
+              "group": 193,
+              "pages": [
+                46,
+                73,
+                74
+              ],
+              "received": "2016-04-28",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55327",
+              "original": "review_originals/cvm_55327_g193.pdf.gz",
+              "original_sha256": "3be6b56701104ca27e5ce82bc351743ee85aae364cb5901ebc364097c7050c20"
+            }
+          ],
+          "prior_year": 2015,
+          "review_2015": "Reutiliza a ponte IFRS e a avaliação de provisões, distinguindo banco individual e conglomerado.",
+          "review_2016": "A conciliação IFRS continua explícita e os ganhos tributários são retirados dos limites; a controvérsia de conduta é avaliada em governança, sem inventar manipulação de demonstrações."
+        },
+        "financial_resilience": {
+          "status": "SATISFACTORY",
+          "reason": "Crédito piorou, mas provisões e capital prudencial documentados continuam suficientes para aprovação satisfatória do negócio existente.",
+          "favorable": "PR100,452488bi; RWA595,756969bi; Basileia16,9%,CET1 12,9%; mínimo total10,5%. Consolidado: provisão30,357073bi contra mínimo23,950904bi.",
+          "contrary_evidence": "Curso anormal28,772484bi de352,990686bi não é a métrica de atraso90dias. Excedente6,406169bi inclui garantia762,870m; mesmo retirando-a, sobra5,643299bi. A aquisição poderá consumir capital posteriormente.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "55327",
+              "group": 193,
+              "pages": [
+                46,
+                85
+              ],
+              "received": "2016-04-28",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55327",
+              "original": "review_originals/cvm_55327_g193.pdf.gz",
+              "original_sha256": "3be6b56701104ca27e5ce82bc351743ee85aae364cb5901ebc364097c7050c20"
+            },
+            {
+              "docid": "55327",
+              "group": 192,
+              "pages": [
+                1
+              ],
+              "received": "2016-04-28",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55327",
+              "original": "review_originals/cvm_55327_g192.pdf.gz",
+              "original_sha256": "c8fc4d6fda2ae55787be19e2331c7f6ac4cd7075d646e7aad6f987ac36f54d79"
+            }
+          ],
+          "prior_year": 2015,
+          "review_2015": "A folga de capital atual permanece demonstrada.",
+          "review_2016": "Crédito piorou, mas provisões e capital prudencial documentados continuam suficientes para aprovação satisfatória do negócio existente."
+        },
+        "capital_allocation": {
+          "status": "SATISFACTORY",
+          "reason": "A política histórica de distribuição e retenção continua coberta; a aquisição contratada foi tratada como risco conhecido e não como lucro/sinergia garantida.",
+          "favorable": "JCP1T1,450979bi bruto; novo capital8bi é capitalização de reservas/bonificação10%, sem dinheiro novo; subscrição3bi cancelada e divulgada.",
+          "contrary_evidence": "US$5,186bi mais ajuste pelo PL será pago no fechamento HSBC; preço e risco de execução são materiais.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "55327",
+              "group": 193,
+              "pages": [
+                73,
+                74,
+                93
+              ],
+              "received": "2016-04-28",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55327",
+              "original": "review_originals/cvm_55327_g193.pdf.gz",
+              "original_sha256": "3be6b56701104ca27e5ce82bc351743ee85aae364cb5901ebc364097c7050c20"
+            },
+            {
+              "docid": "bradesco_hsbc_sec_20160609",
+              "group": 0,
+              "pages": [
+                1
+              ],
+              "received": "2016-06-09",
+              "url": "https://www.sec.gov/Archives/edgar/data/1160330/000129281416004929/0001292814-16-004929.txt",
+              "original": "review_originals/bradesco_hsbc_sec_20160609.sgml.gz",
+              "original_sha256": "b260d5fc8f61e6fb30e166b5986daab92bbea8459adddb37a8e83fe331b88906"
+            }
+          ],
+          "prior_year": 2015,
+          "review_2015": "A política anterior é revisitada frente à distribuição e capital, sem inferir valor econômico da bonificação.",
+          "review_2016": "A política histórica de distribuição e retenção continua coberta; a aquisição contratada foi tratada como risco conhecido e não como lucro/sinergia garantida."
+        },
+        "governance": {
+          "status": "INDETERMINATE",
+          "reason": "Mudança material desde2015: indiciamento de três administradores, incluindo CEO, confirmado pelo emissor em31/05 e protocoladoSEC01/06. O alerta é material e não resolvido no corte, conforme regraV2; não há prova suficiente para renovação SAT nem para condenação/FAIL.",
+          "favorable": "Banco respondeu à CVM e negou proposta, contratação, pagamento ou vantagem indevida; diz que o processo CARF foi perdido por6–0 e levado ao Judiciário. Comitê revisa serviços de auditoria.",
+          "contrary_evidence": "Contatos com investigados e indiciamentos são confirmados; aviso08/06 reconhece uma class action protocolada e informa ausência de citação e desconhecimento completo dos pedidos.",
+          "missing": "Resolução independente suficiente do alerta de conduta e seus impactos; não usar desfechos posteriores ao corte.",
+          "evidence": [
+            {
+              "docid": "bradesco_zelotes_sec_20160601",
+              "group": 0,
+              "pages": [
+                1
+              ],
+              "received": "2016-06-01",
+              "url": "https://www.sec.gov/Archives/edgar/data/1160330/000129281416004866/0001292814-16-004866.txt",
+              "original": "review_originals/bradesco_zelotes_sec_20160601.sgml.gz",
+              "original_sha256": "03d8957ea69b3e328ae90e2e387fe2facebd11a826ef24c2d6281c24ee90afd6"
+            },
+            {
+              "docid": "bradesco_classaction_sec_20160609",
+              "group": 0,
+              "pages": [
+                1
+              ],
+              "received": "2016-06-09",
+              "url": "https://www.sec.gov/Archives/edgar/data/1160330/000129281416004925/0001292814-16-004925.txt",
+              "original": "review_originals/bradesco_classaction_sec_20160609.sgml.gz",
+              "original_sha256": "fe35223bd48f7fa8478640a2ce19411c7210025050f0323abebcfa0da5296e65"
+            },
+            {
+              "docid": "55327",
+              "group": 192,
+              "pages": [
+                3
+              ],
+              "received": "2016-04-28",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55327",
+              "original": "review_originals/cvm_55327_g192.pdf.gz",
+              "original_sha256": "c8fc4d6fda2ae55787be19e2331c7f6ac4cd7075d646e7aad6f987ac36f54d79"
+            }
+          ],
+          "prior_year": 2015,
+          "review_2015": "Mantém os direitos e controles comprovados em2014 após examinar a continuidade contábil e os atos de capital.",
+          "review_2016": "Mudança material desde2015: indiciamento de três administradores, incluindo CEO, confirmado pelo emissor em31/05 e protocoladoSEC01/06. O alerta é material e não resolvido no corte, conforme regraV2; não há prova suficiente para renovação SAT nem para condenação/FAIL."
+        }
+      },
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "Receitas diversificadas; seguradora com15,186bi em prêmios/contribuições/capitalização no1T e1,380bi de lucro; ampla rede de atendimento.",
+          "evidence": [
+            {
+              "docid": "55327",
+              "group": 192,
+              "pages": [
+                2,
+                3
+              ],
+              "received": "2016-04-28",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55327",
+              "original": "review_originals/cvm_55327_g192.pdf.gz",
+              "original_sha256": "c8fc4d6fda2ae55787be19e2331c7f6ac4cd7075d646e7aad6f987ac36f54d79"
+            },
+            {
+              "docid": "bradesco_hsbc_sec_20160609",
+              "group": 0,
+              "pages": [
+                1
+              ],
+              "received": "2016-06-09",
+              "url": "https://www.sec.gov/Archives/edgar/data/1160330/000129281416004929/0001292814-16-004929.txt",
+              "original": "review_originals/bradesco_hsbc_sec_20160609.sgml.gz",
+              "original_sha256": "b260d5fc8f61e6fb30e166b5986daab92bbea8459adddb37a8e83fe331b88906"
             }
           ]
         },
         "capital_economics": {
-          "favorable": {
-            "roe_parent_5": [
-              0.21149539963101782,
-              0.17976038883913883,
-              0.17584453959992882,
-              0.20092015344348252,
-              0.21280893441156618
-            ],
-            "normalized_profit": 15189590262.391401
-          },
+          "favorable": "LucroBRGAAP1T4,121bi e ROE17,5%; pisos IFRS históricos positivos e segregados; margem de capital prudencial.",
           "evidence": [
             {
-              "fiscal_year": 2011,
-              "metric": "attributable_ni",
-              "value": 10958054000.0,
-              "docid": "25736",
-              "received": "2013-03-28",
-              "reference": "2012-12-31",
-              "period_end": "2011-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2012.csv",
-              "archive_sha256": "3aff7a726d324d29924887eed45bbc58bc30b66cd9079bafe701d55efdfe0849",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2012.zip"
-            },
-            {
-              "fiscal_year": 2012,
-              "metric": "attributable_ni",
-              "value": 11291570000.0,
-              "docid": "35965",
-              "received": "2014-03-31",
-              "reference": "2013-12-31",
-              "period_end": "2012-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2013.csv",
-              "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
-            },
-            {
-              "fiscal_year": 2013,
-              "metric": "attributable_ni",
-              "value": 12395920000.0,
-              "docid": "45717",
-              "received": "2015-03-31",
-              "reference": "2014-12-31",
-              "period_end": "2013-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2014.csv",
-              "archive_sha256": "b8795dba134754475a485c0f88b6542face6613bb418d261caa011d90e032f28",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2014.zip"
-            },
-            {
-              "fiscal_year": 2014,
-              "metric": "attributable_ni",
-              "value": 15314943000.0,
               "docid": "53890",
+              "group": 412,
+              "pages": [
+                92,
+                93
+              ],
               "received": "2016-03-07",
-              "reference": "2015-12-31",
-              "period_end": "2014-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2015.csv",
-              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=53890",
+              "original": "review_originals/cvm_53890_g412.pdf.gz",
+              "original_sha256": "3150e660feaa57471ee1b36ccdd77314c36a85ec782311ca3b84af95ba867d1d"
             },
             {
-              "fiscal_year": 2015,
-              "metric": "attributable_ni",
-              "value": 18132906000.0,
-              "docid": "53890",
-              "received": "2016-03-07",
-              "reference": "2015-12-31",
-              "period_end": "2015-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2015.csv",
-              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
+              "docid": "55327",
+              "group": 192,
+              "pages": [
+                1
+              ],
+              "received": "2016-04-28",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55327",
+              "original": "review_originals/cvm_55327_g192.pdf.gz",
+              "original_sha256": "c8fc4d6fda2ae55787be19e2331c7f6ac4cd7075d646e7aad6f987ac36f54d79"
+            },
+            {
+              "docid": "55327",
+              "group": 193,
+              "pages": [
+                85
+              ],
+              "received": "2016-04-28",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55327",
+              "original": "review_originals/cvm_55327_g193.pdf.gz",
+              "original_sha256": "3be6b56701104ca27e5ce82bc351743ee85aae364cb5901ebc364097c7050c20"
             }
           ]
         },
         "earnings_reliability": {
-          "favorable": {
-            "positive_attributable_years": 5,
-            "audit_records": 5
-          },
+          "favorable": "Notas distinguem fiscal, perdas de crédito, capital por classe e contingências; não se adicionam perdas ao lucro.",
           "evidence": [
             {
               "docid": "53890",
+              "group": 412,
+              "pages": [
+                3,
+                92,
+                93,
+                98
+              ],
               "received": "2016-03-07",
-              "reference": "2015-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2015.csv",
-              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=53890",
+              "original": "review_originals/cvm_53890_g412.pdf.gz",
+              "original_sha256": "3150e660feaa57471ee1b36ccdd77314c36a85ec782311ca3b84af95ba867d1d"
             },
             {
-              "docid": "53890",
-              "received": "2016-03-07",
-              "reference": "2015-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2015.csv",
-              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
-            },
-            {
-              "docid": "53890",
-              "received": "2016-03-07",
-              "reference": "2015-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2015.csv",
-              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
-            },
-            {
-              "docid": "53890",
-              "received": "2016-03-07",
-              "reference": "2015-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2015.csv",
-              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
-            },
-            {
-              "docid": "53890",
-              "received": "2016-03-07",
-              "reference": "2015-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2015.csv",
-              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
+              "docid": "55327",
+              "group": 193,
+              "pages": [
+                46,
+                73,
+                74
+              ],
+              "received": "2016-04-28",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55327",
+              "original": "review_originals/cvm_55327_g193.pdf.gz",
+              "original_sha256": "3be6b56701104ca27e5ce82bc351743ee85aae364cb5901ebc364097c7050c20"
             }
           ]
         },
         "financial_resilience": {
-          "favorable": {
-            "parent_equity_latest": 88906644000.0
-          },
+          "favorable": "PR100,452488bi; RWA595,756969bi; Basileia16,9%,CET1 12,9%; mínimo total10,5%. Consolidado: provisão30,357073bi contra mínimo23,950904bi.",
           "evidence": [
             {
-              "docid": "53890",
-              "received": "2016-03-07",
-              "reference": "2015-12-31",
-              "period_end": "2015-12-31",
-              "perimeter": "ind",
-              "account": "2.05",
-              "description": "Patrimônio Líquido",
-              "source": "dfp_cia_aberta_BPP_ind_2015.csv",
-              "archive_sha256": "",
-              "url": ""
+              "docid": "55327",
+              "group": 193,
+              "pages": [
+                46,
+                85
+              ],
+              "received": "2016-04-28",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55327",
+              "original": "review_originals/cvm_55327_g193.pdf.gz",
+              "original_sha256": "3be6b56701104ca27e5ce82bc351743ee85aae364cb5901ebc364097c7050c20"
+            },
+            {
+              "docid": "55327",
+              "group": 192,
+              "pages": [
+                1
+              ],
+              "received": "2016-04-28",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55327",
+              "original": "review_originals/cvm_55327_g192.pdf.gz",
+              "original_sha256": "c8fc4d6fda2ae55787be19e2331c7f6ac4cd7075d646e7aad6f987ac36f54d79"
             }
           ]
         },
         "capital_allocation": {
-          "favorable": {
-            "historical_payout": [
-              0.35700899999999997,
-              0.36024165,
-              0.35738275999999997,
-              0.35261943,
-              null
-            ],
-            "distributions": [
-              3740334802.89,
-              3894998325.77,
-              4077907489.0,
-              5054579977.1,
-              null
-            ]
-          },
+          "favorable": "JCP1T1,450979bi bruto; novo capital8bi é capitalização de reservas/bonificação10%, sem dinheiro novo; subscrição3bi cancelada e divulgada.",
           "evidence": [
             {
-              "docid": "47285",
-              "received": "2015-05-15",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2014.csv",
-              "archive_sha256": "8797e5b66f4c126d9266746ab704bdb0d787ed5d92dca917ceffa2749b150a50",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=47285",
-              "fiscal_year": 2011,
-              "raw": {
-                "CNPJ_Companhia": "60.746.948/0001-12",
-                "Data_Referencia": "2014-01-01",
-                "Versao": "19",
-                "ID_Documento": "47285",
-                "Nome_Companhia": "BCO BRADESCO S.A.",
-                "Data_Inicio_Exercicio_Social": "2011-01-01",
-                "Data_Fim_Exercicio_Social": "2011-12-31",
-                "Lucro_Liquido_Ajustado": "10476852079.21",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "19.84148200",
-                "Lucro_Liquido_Retido": "7287930543.63",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "35.70090000",
-                "Dividendo_Distribuido_Total": "3740334802.89",
-                "Data_Aprovacao_Retencao": "2012-03-09"
-              }
+              "docid": "55327",
+              "group": 193,
+              "pages": [
+                73,
+                74,
+                93
+              ],
+              "received": "2016-04-28",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55327",
+              "original": "review_originals/cvm_55327_g193.pdf.gz",
+              "original_sha256": "3be6b56701104ca27e5ce82bc351743ee85aae364cb5901ebc364097c7050c20"
             },
             {
-              "docid": "56672",
-              "received": "2016-05-18",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2015.csv",
-              "archive_sha256": "21be79d408fcc08e9edafcee941f02a339c5664e96b3ad83afd84f27ed838d60",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=56672",
-              "fiscal_year": 2012,
-              "raw": {
-                "CNPJ_Companhia": "60.746.948/0001-12",
-                "Data_Referencia": "2015-01-01",
-                "Versao": "21",
-                "ID_Documento": "56672",
-                "Nome_Companhia": "BCO BRADESCO S.A.",
-                "Data_Inicio_Exercicio_Social": "2012-01-01",
-                "Data_Fim_Exercicio_Social": "2012-12-31",
-                "Lucro_Liquido_Ajustado": "10812182236.32",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "16.24790500",
-                "Lucro_Liquido_Retido": "7486246133.50",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "36.02416500",
-                "Dividendo_Distribuido_Total": "3894998325.77",
-                "Data_Aprovacao_Retencao": "2013-03-11"
-              }
-            },
-            {
-              "docid": "56672",
-              "received": "2016-05-18",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2015.csv",
-              "archive_sha256": "21be79d408fcc08e9edafcee941f02a339c5664e96b3ad83afd84f27ed838d60",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=56672",
-              "fiscal_year": 2013,
-              "raw": {
-                "CNPJ_Companhia": "60.746.948/0001-12",
-                "Data_Referencia": "2015-01-01",
-                "Versao": "21",
-                "ID_Documento": "56672",
-                "Nome_Companhia": "BCO BRADESCO S.A.",
-                "Data_Inicio_Exercicio_Social": "2013-01-01",
-                "Data_Fim_Exercicio_Social": "2013-12-31",
-                "Lucro_Liquido_Ajustado": "11410476390.24",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "16.93129600",
-                "Lucro_Liquido_Retido": "7933120271.31",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "35.73827600",
-                "Dividendo_Distribuido_Total": "4077907489.00",
-                "Data_Aprovacao_Retencao": "2014-03-10"
-              }
-            },
-            {
-              "docid": "56672",
-              "received": "2016-05-18",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2015.csv",
-              "archive_sha256": "21be79d408fcc08e9edafcee941f02a339c5664e96b3ad83afd84f27ed838d60",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=56672",
-              "fiscal_year": 2014,
-              "raw": {
-                "CNPJ_Companhia": "60.746.948/0001-12",
-                "Data_Referencia": "2015-01-01",
-                "Versao": "21",
-                "ID_Documento": "56672",
-                "Nome_Companhia": "BCO BRADESCO S.A.",
-                "Data_Inicio_Exercicio_Social": "2014-01-01",
-                "Data_Fim_Exercicio_Social": "2014-12-31",
-                "Lucro_Liquido_Ajustado": "14334377257.19",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "18.51201300",
-                "Lucro_Liquido_Retido": "10034238188.36",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "35.26194300",
-                "Dividendo_Distribuido_Total": "5054579977.10",
-                "Data_Aprovacao_Retencao": "2015-03-10"
-              }
+              "docid": "bradesco_hsbc_sec_20160609",
+              "group": 0,
+              "pages": [
+                1
+              ],
+              "received": "2016-06-09",
+              "url": "https://www.sec.gov/Archives/edgar/data/1160330/000129281416004929/0001292814-16-004929.txt",
+              "original": "review_originals/bradesco_hsbc_sec_20160609.sgml.gz",
+              "original_sha256": "b260d5fc8f61e6fb30e166b5986daab92bbea8459adddb37a8e83fe331b88906"
             }
           ]
         },
         "governance": {
-          "favorable": {
-            "dated_shareholder_right_records": 12,
-            "dated_related_party_records": 97
-          },
+          "favorable": "Banco respondeu à CVM e negou proposta, contratação, pagamento ou vantagem indevida; diz que o processo CARF foi perdido por6–0 e levado ao Judiciário. Comitê revisa serviços de auditoria.",
           "evidence": [
             {
-              "docid": "53890",
-              "received": "2016-03-07",
-              "reference": "2015-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2015.csv",
-              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
+              "docid": "bradesco_zelotes_sec_20160601",
+              "group": 0,
+              "pages": [
+                1
+              ],
+              "received": "2016-06-01",
+              "url": "https://www.sec.gov/Archives/edgar/data/1160330/000129281416004866/0001292814-16-004866.txt",
+              "original": "review_originals/bradesco_zelotes_sec_20160601.sgml.gz",
+              "original_sha256": "03d8957ea69b3e328ae90e2e387fe2facebd11a826ef24c2d6281c24ee90afd6"
             },
             {
-              "docid": "53890",
-              "received": "2016-03-07",
-              "reference": "2015-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2015.csv",
-              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
+              "docid": "bradesco_classaction_sec_20160609",
+              "group": 0,
+              "pages": [
+                1
+              ],
+              "received": "2016-06-09",
+              "url": "https://www.sec.gov/Archives/edgar/data/1160330/000129281416004925/0001292814-16-004925.txt",
+              "original": "review_originals/bradesco_classaction_sec_20160609.sgml.gz",
+              "original_sha256": "fe35223bd48f7fa8478640a2ce19411c7210025050f0323abebcfa0da5296e65"
             },
             {
-              "docid": "53890",
-              "received": "2016-03-07",
-              "reference": "2015-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2015.csv",
-              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
-            },
-            {
-              "docid": "53890",
-              "received": "2016-03-07",
-              "reference": "2015-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2015.csv",
-              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
-            },
-            {
-              "docid": "53890",
-              "received": "2016-03-07",
-              "reference": "2015-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2015.csv",
-              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
+              "docid": "55327",
+              "group": 192,
+              "pages": [
+                3
+              ],
+              "received": "2016-04-28",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55327",
+              "original": "review_originals/cvm_55327_g192.pdf.gz",
+              "original_sha256": "c8fc4d6fda2ae55787be19e2331c7f6ac4cd7075d646e7aad6f987ac36f54d79"
             }
           ]
         }

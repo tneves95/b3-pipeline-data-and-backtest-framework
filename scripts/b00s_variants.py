@@ -101,6 +101,36 @@ def verify_accepted_initial(check_results=True):
                 raise ValueError(('Accepted first-period observations changed',name))
     return len(snap['tables'])
 
+def verify_completed_batches(check_results=True):
+    """Later review batches may extend, never silently rewrite, a checkpoint."""
+    count=0
+    for path in sorted(INPUT.glob('accepted_20[1-2][0-9].json')):
+        snap=json.loads(path.read_text())
+        if 'formation_year' not in snap:continue
+        year=snap['formation_year']
+        for item in snap['documents']:
+            if sha(ROOT/item['path'])!=item['sha256']:
+                raise ValueError(('Completed batch document changed',year,item['path']))
+        sources={(r['docid'],r['group']):r for r in json.loads((INPUT/'review_original_sources.json').read_text())}
+        if any(sources[r['docid'],r['group']]!=r for r in snap['sources']):
+            raise ValueError(('Completed batch source changed',year))
+        decisions=[r for r in json.loads((INPUT/'fundamental_decisions.json').read_text()) if r['year']==year]
+        if decisions!=snap['decisions']:raise ValueError(('Completed batch decisions changed',year))
+        if check_results:
+            for name,expected in snap['tables'].items():
+                def belongs(r):
+                    if name=='risk_concentration.csv':
+                        return r['year']==str(year) or (r['year']==str(year+1) and r['phase']=='PERIOD_END')
+                    if 'year' in r:return r['year']==str(year)
+                    if 'closing_year' in r:return r['closing_year']==str(year+1)
+                    if 'date' in r:
+                        return r['date']==DATES[year] or (r['date']==DATES[year+1] and r.get('phase')=='PERIOD_END')
+                    return True
+                actual=[r for r in read(RESULT/name) if belongs(r)]
+                if actual!=expected:raise ValueError(('Completed batch observations changed',year,name))
+        count+=1
+    return count
+
 @lru_cache(maxsize=1)
 def candidates():
     """Exactly the accepted control's PASS universe, not a rerun of its screener."""
@@ -220,6 +250,7 @@ def reviewed_through():
 
 def verify_decision_freeze():
     verify_accepted_initial(check_results=False)
+    verify_completed_batches(check_results=False)
     year=reviewed_through()
     path=INPUT/'decision_freeze_record.json' if year==2014 else INPUT/'decision_freezes'/f'{year}.json'
     freeze=json.loads(path.read_text())
@@ -468,6 +499,7 @@ def publish(runs):
     write(RESULT/'checkpoint_summary.csv',checkpoint)
     verify_accepted_controls()
     verify_accepted_initial()
+    verify_completed_batches()
     write(RESULT/'entry_funding_requests.csv',[r for v in runs.values() for r in v['funding']])
     workbook()
     manifest=dict(protocol_commit=PROTOCOL_SHA,baseline_commit='8d394e9ab563daebe43603a3e85f35f43c1402bc',

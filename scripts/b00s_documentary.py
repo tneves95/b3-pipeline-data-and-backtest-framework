@@ -13,6 +13,38 @@ from b00s_variants import INPUT, DATES
 DIMENSIONS = ('durability', 'capital_economics', 'earnings_reliability',
               'financial_resilience', 'capital_allocation', 'governance')
 
+def expand_incremental(record, previous):
+    """Reuse a dossier only after an explicit review of every dimension.
+
+    Annual economic calculations and share-count exceptions never carry forward
+    implicitly. The new valuation must address the new five-year window.
+    """
+    year=record['years'][0];prior=previous['years'][0]
+    confirmed=record.get('confirmed_dimensions',{})
+    updates=record.get('dimension_updates',{})
+    if prior>=year or record['years']!=[year]:raise ValueError('Invalid chronological dossier reuse')
+    if set(confirmed)&set(updates) or set(confirmed)|set(updates)!=set(DIMENSIONS):
+        raise ValueError('Six explicit incremental dimension reviews required')
+    if not all(confirmed.values()) or not record.get('valuation') or not record.get('incremental_review'):
+        raise ValueError('Incremental reasons and current valuation required')
+    merged=json.loads(json.dumps(previous))
+    for key in ['economic_metrics','capital_block','capital_interval']:
+        merged.pop(key,None)
+    merged.update({k:v for k,v in record.items() if k not in ['confirmed_dimensions','dimension_updates']})
+    for name in DIMENSIONS:
+        d=merged['dimensions'][name]
+        if name in updates:
+            d.update(updates[name])
+            if not updates[name].get('reason') or not updates[name].get('evidence'):
+                raise ValueError('Changed dimension needs current reason and evidence')
+            reason=updates[name]['reason']
+        else:
+            reason=confirmed[name]
+            d['reason']=previous['dimensions'][name]['reason']+f' Revisão de {year}: '+reason
+            d['evidence']=d['evidence']+record['incremental_review']['evidence']
+        d['prior_year']=prior;d[f'review_{year}']=reason
+    return merged
+
 def load_reviews():
     path = INPUT/'economic_reviews.json'
     if not path.exists():
@@ -40,6 +72,10 @@ def load_reviews():
         return ref | {k:src[k] for k in ['received','url','original','original_sha256']}
     result = {}
     for record in records:
+        if record.get('reuse_previous'):
+            prior,cnpj=record['prior_assessment'].split(':')
+            if cnpj!=record['cnpj']:raise ValueError('Different issuer cannot inherit a dossier')
+            record=expand_incremental(record,result[int(prior),cnpj])
         if record['valuation']['status'] not in ['COMPARABLE','COMPARABLE_BOUNDED','INDETERMINATE']:
             raise ValueError('Unknown documentary valuation status')
         if record['valuation']['status']=='COMPARABLE_BOUNDED':
@@ -63,6 +99,11 @@ def load_reviews():
                 for fact in statement.get('records',[]):
                     if fact['received']>cutoff or fact['period_end']>cutoff:
                         raise ValueError(('Future economic metric input',fact['docid']))
+            proof=r.get('economic_metrics',{})
+            if 'real_eps' in proof and (proof['real_eps']['first']['year'],proof['real_eps']['last']['year'])!=(year-5,year-1):
+                raise ValueError('EPS proof must cover the current five fiscal years')
+            if 'roic' in proof and [x['year'] for x in proof['roic']['annual_inputs']]!=list(range(year-4,year)):
+                raise ValueError('ROIC proof must cover the current three annual returns')
             for dim in r['dimensions'].values():
                 if not dim.get('reason') or not dim.get('contrary_evidence'):
                     raise ValueError('Economic reason and contrary evidence are required')

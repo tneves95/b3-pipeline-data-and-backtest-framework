@@ -1301,401 +1301,423 @@
       "year": 2016,
       "cutoff": "2016-06-30",
       "ticker": "ITUB4",
-      "category": "INDETERMINATE",
+      "category": "QUALIFIED_SATISFACTORY",
       "special_case": "",
-      "assessment_ref": null,
-      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
-      "classification_changed": null,
-      "dimensions": {},
-      "dimension_evidence_updates": {
+      "assessment_ref": "60872504000123:2016",
+      "assessment_status": "ASSESSED",
+      "classification_changed": false,
+      "dimensions": {
         "durability": {
-          "favorable": "A sociedade tem por objeto a atividade bancária em todas as modalidades autorizadas, inclusive a de operações de câmbio.",
+          "status": "SATISFACTORY",
+          "reason": "As franquias brasileiras e latino-americanas continuam comprovadas; CorpBanca amplia escala mas não é tratado como lucro realizado.",
+          "favorable": "ItaúCorpBanca passa ao4º lugar noChile; franquias de depósitos, cartões, seguros e serviços conservam fontes recorrentes.",
+          "contrary_evidence": "Integração emChile/Colômbia e novo controle33,58% requerem execução; não confundir33,58% com100%de lucro econômico.",
+          "missing": "",
           "evidence": [
             {
-              "cnpj": "60872504000123",
-              "received": "2016-01-29",
-              "name": "ITAÚ UNIBANCO HOLDING S.A.",
-              "sector": "Bancos",
-              "activity": "A sociedade tem por objeto a atividade bancária em todas as modalidades autorizadas, inclusive a de operações de câmbio.",
-              "cvm": "019348",
-              "docid": "53113",
-              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=53113"
+              "docid": "55455",
+              "group": 192,
+              "pages": [
+                1,
+                2
+              ],
+              "received": "2016-05-03",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55455",
+              "original": "review_originals/cvm_55455_g192.pdf.gz",
+              "original_sha256": "f7e0ab322103299d6d745acd9c7f3532316fc4fcaa6bbc04ccc0d07ec57e8c18"
+            },
+            {
+              "docid": "55455",
+              "group": 193,
+              "pages": [
+                8,
+                9
+              ],
+              "received": "2016-05-03",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55455",
+              "original": "review_originals/cvm_55455_g193.pdf.gz",
+              "original_sha256": "fda5aaffdc2a12aadef5e704a1c328059ab11f8cab0779a6943bc049f230d465"
+            }
+          ],
+          "prior_year": 2015,
+          "review_2015": "A franquia diversificada anterior continua sustentada por receita de serviços e base de crédito; a integração planejada não é antecipada como fato consumado.",
+          "review_2016": "As franquias brasileiras e latino-americanas continuam comprovadas; CorpBanca amplia escala mas não é tratado como lucro realizado."
+        },
+        "capital_economics": {
+          "status": "SATISFACTORY",
+          "reason": "Histórico normalizado e retorno corrente sustentam qualidade satisfatória apesar do ciclo adverso; nenhuma tese de prêmio25 ou sinergia futura é inferida.",
+          "favorable": "ROE1T19,7%,lucro5,2bi; lucroIFRS2015atribuído25,740bi tem benefícioCSLL3,921bi explícito, não considerado recorrente.",
+          "contrary_evidence": "ROE cai de24,2%;PDD7,2bi cresce31,3%; nova participaçãoCorpBanca ainda semresultado consolidado no balanço disponível.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "55455",
+              "group": 192,
+              "pages": [
+                2,
+                4
+              ],
+              "received": "2016-05-03",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55455",
+              "original": "review_originals/cvm_55455_g192.pdf.gz",
+              "original_sha256": "f7e0ab322103299d6d745acd9c7f3532316fc4fcaa6bbc04ccc0d07ec57e8c18"
+            },
+            {
+              "docid": "53154",
+              "group": 412,
+              "pages": [
+                145,
+                146
+              ],
+              "received": "2016-02-02",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=53154",
+              "original": "review_originals/cvm_53154_g412.pdf.gz",
+              "original_sha256": "7d7a601ab9d550be07fcba9ea2fcb58c6dac360b00129ba23ec9be40f9e0db5b"
+            }
+          ],
+          "prior_year": 2015,
+          "review_2015": "Retorno positivo é cotejado com custo de crédito e capital efetivo; não usar o P/L barato ou um ROE universal para conceder qualidade.",
+          "review_2016": "Histórico normalizado e retorno corrente sustentam qualidade satisfatória apesar do ciclo adverso; nenhuma tese de prêmio25 ou sinergia futura é inferida."
+        },
+        "earnings_reliability": {
+          "status": "SATISFACTORY",
+          "reason": "Os resultados atuais e os limites da informação de aquisição são apresentados claramente; ausência dePPA final impede certificar valuation do novo perímetro, sem comprovar lucro ilusório do banco existente.",
+          "favorable": "Notas discriminam benefício tributário3,921bi, matching cambial/hedge e ausência deCorpBanca no1T; não usar aumento bruto93% da margem como ganho econômico.",
+          "contrary_evidence": "PPA pendente, créditos tributários dependem de lucros futuros e variações de câmbio ampliam linhas brutas.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "53154",
+              "group": 412,
+              "pages": [
+                145
+              ],
+              "received": "2016-02-02",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=53154",
+              "original": "review_originals/cvm_53154_g412.pdf.gz",
+              "original_sha256": "7d7a601ab9d550be07fcba9ea2fcb58c6dac360b00129ba23ec9be40f9e0db5b"
+            },
+            {
+              "docid": "55455",
+              "group": 192,
+              "pages": [
+                2
+              ],
+              "received": "2016-05-03",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55455",
+              "original": "review_originals/cvm_55455_g192.pdf.gz",
+              "original_sha256": "f7e0ab322103299d6d745acd9c7f3532316fc4fcaa6bbc04ccc0d07ec57e8c18"
+            },
+            {
+              "docid": "55455",
+              "group": 193,
+              "pages": [
+                9
+              ],
+              "received": "2016-05-03",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55455",
+              "original": "review_originals/cvm_55455_g193.pdf.gz",
+              "original_sha256": "fda5aaffdc2a12aadef5e704a1c328059ab11f8cab0779a6943bc049f230d465"
+            }
+          ],
+          "prior_year": 2015,
+          "review_2015": "As diferenças entre IFRS atribuído, BRGAAP e lucro gerencial são identificáveis; a ponte de valuation e a exposição ao crédito são examinadas separadamente.",
+          "review_2016": "Os resultados atuais e os limites da informação de aquisição são apresentados claramente; ausência dePPA final impede certificar valuation do novo perímetro, sem comprovar lucro ilusório do banco existente."
+        },
+        "financial_resilience": {
+          "status": "SATISFACTORY",
+          "reason": "A solvência do grupo disponível é robusta, mesmo diante da piora creditícia; distinguir capital prudencial do novo balanço CorpBanca ainda indisponível.",
+          "favorable": "PR122,872bi,RWA694,899bi,total17,7%,principal14,3%; mínimo9,875%+0,625%adicional; provisão excedente11bi e cobertura210%.",
+          "contrary_evidence": "NPL>90 sobe3,0→3,9%; aquisição adicionará117bi deativos, segundo relato, e requer acompanhamento posterior. Cenário de impacto não é capital pós-fusão certificado.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "55455",
+              "group": 192,
+              "pages": [
+                1,
+                4,
+                5
+              ],
+              "received": "2016-05-03",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55455",
+              "original": "review_originals/cvm_55455_g192.pdf.gz",
+              "original_sha256": "f7e0ab322103299d6d745acd9c7f3532316fc4fcaa6bbc04ccc0d07ec57e8c18"
+            },
+            {
+              "docid": "55455",
+              "group": 193,
+              "pages": [
+                168,
+                169
+              ],
+              "received": "2016-05-03",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55455",
+              "original": "review_originals/cvm_55455_g193.pdf.gz",
+              "original_sha256": "fda5aaffdc2a12aadef5e704a1c328059ab11f8cab0779a6943bc049f230d465"
+            }
+          ],
+          "prior_year": 2015,
+          "review_2015": "Há capital prudencial e funding documentados no corte, com riscos de crédito explícitos; não pressupõe apoio ou capital futuro.",
+          "review_2016": "A solvência do grupo disponível é robusta, mesmo diante da piora creditícia; distinguir capital prudencial do novo balanço CorpBanca ainda indisponível."
+        },
+        "capital_allocation": {
+          "status": "SATISFACTORY",
+          "reason": "A política de retenção e distribuição e a capacidade de financiar negócios persistem; não considerar expectativa de sinergias prova de reinvestimento excepcional.",
+          "favorable": "AporteBIC2,309bi concluído22/03, acordos e aprovações publicados; Recovery e ConectCar descritos com preços.",
+          "contrary_evidence": "AquisiçãoCorpBanca consumiu capital e diluiu participação no antigoBIC; rentabilidade incremental ePPA precisam de atualização posterior.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "55455",
+              "group": 193,
+              "pages": [
+                8,
+                9
+              ],
+              "received": "2016-05-03",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55455",
+              "original": "review_originals/cvm_55455_g193.pdf.gz",
+              "original_sha256": "fda5aaffdc2a12aadef5e704a1c328059ab11f8cab0779a6943bc049f230d465"
+            },
+            {
+              "docid": "55455",
+              "group": 192,
+              "pages": [
+                2,
+                5
+              ],
+              "received": "2016-05-03",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55455",
+              "original": "review_originals/cvm_55455_g192.pdf.gz",
+              "original_sha256": "f7e0ab322103299d6d745acd9c7f3532316fc4fcaa6bbc04ccc0d07ec57e8c18"
+            }
+          ],
+          "prior_year": 2015,
+          "review_2015": "A tese anterior de retenção, distribuição e negócios comprados permanece sustentável diante do capital disponível; não antecipar resultados da CorpBanca.",
+          "review_2016": "A política de retenção e distribuição e a capacidade de financiar negócios persistem; não considerar expectativa de sinergias prova de reinvestimento excepcional."
+        },
+        "governance": {
+          "status": "SATISFACTORY",
+          "reason": "Os fatos societários materiais, condições, partes e datas foram detalhados; não identificada neste lote nova controvérsia material não resolvida que invalide a avaliação anterior.",
+          "favorable": "Acordo de controle33,58%contraCorpGroup33,13% e demais33,29% exposto; ausência deativos/receitas no1T ePPA pendente explicitamente reconhecidas.",
+          "contrary_evidence": "Controle concentrado e direitos de parceiros exigem acompanhamento; aprovação regulatória não prova sucesso da aquisição.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "55455",
+              "group": 193,
+              "pages": [
+                8,
+                9,
+                95,
+                96
+              ],
+              "received": "2016-05-03",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55455",
+              "original": "review_originals/cvm_55455_g193.pdf.gz",
+              "original_sha256": "fda5aaffdc2a12aadef5e704a1c328059ab11f8cab0779a6943bc049f230d465"
+            },
+            {
+              "docid": "55455",
+              "group": 192,
+              "pages": [
+                5
+              ],
+              "received": "2016-05-03",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55455",
+              "original": "review_originals/cvm_55455_g192.pdf.gz",
+              "original_sha256": "f7e0ab322103299d6d745acd9c7f3532316fc4fcaa6bbc04ccc0d07ec57e8c18"
+            }
+          ],
+          "prior_year": 2015,
+          "review_2015": "Reutiliza os controles e direitos comprovados em2014, após examinar as novas operações e transparência das reconciliações. Não houve nova evidência material que justificasse reclassificação nesta dimensão.",
+          "review_2016": "Os fatos societários materiais, condições, partes e datas foram detalhados; não identificada neste lote nova controvérsia material não resolvida que invalide a avaliação anterior."
+        }
+      },
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "ItaúCorpBanca passa ao4º lugar noChile; franquias de depósitos, cartões, seguros e serviços conservam fontes recorrentes.",
+          "evidence": [
+            {
+              "docid": "55455",
+              "group": 192,
+              "pages": [
+                1,
+                2
+              ],
+              "received": "2016-05-03",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55455",
+              "original": "review_originals/cvm_55455_g192.pdf.gz",
+              "original_sha256": "f7e0ab322103299d6d745acd9c7f3532316fc4fcaa6bbc04ccc0d07ec57e8c18"
+            },
+            {
+              "docid": "55455",
+              "group": 193,
+              "pages": [
+                8,
+                9
+              ],
+              "received": "2016-05-03",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55455",
+              "original": "review_originals/cvm_55455_g193.pdf.gz",
+              "original_sha256": "fda5aaffdc2a12aadef5e704a1c328059ab11f8cab0779a6943bc049f230d465"
             }
           ]
         },
         "capital_economics": {
-          "favorable": {
-            "roe_parent_5": [
-              null,
-              null,
-              0.187648897898057,
-              0.2255655856924759,
-              0.2421782744654933
-            ],
-            "normalized_profit": 20125479227.803696
-          },
+          "favorable": "ROE1T19,7%,lucro5,2bi; lucroIFRS2015atribuído25,740bi tem benefícioCSLL3,921bi explícito, não considerado recorrente.",
           "evidence": [
             {
-              "fiscal_year": 2011,
-              "metric": "attributable_ni",
-              "value": 11890196000.0,
-              "docid": "24646",
-              "received": "2013-03-04",
-              "reference": "2011-12-31",
-              "period_end": "2011-12-31",
-              "perimeter": "ind",
-              "account": "3.13",
-              "description": "Lucro/Prejuízo do Período",
-              "source": "PR3/recovered_original_24646",
-              "archive_sha256": "",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2011.zip"
+              "docid": "55455",
+              "group": 192,
+              "pages": [
+                2,
+                4
+              ],
+              "received": "2016-05-03",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55455",
+              "original": "review_originals/cvm_55455_g192.pdf.gz",
+              "original_sha256": "f7e0ab322103299d6d745acd9c7f3532316fc4fcaa6bbc04ccc0d07ec57e8c18"
             },
             {
-              "fiscal_year": 2012,
-              "metric": "attributable_ni",
-              "value": 12634000000.0,
-              "docid": "36223",
-              "received": "2014-04-11",
-              "reference": "2013-12-31",
-              "period_end": "2012-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2013.csv",
-              "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
-            },
-            {
-              "fiscal_year": 2013,
-              "metric": "attributable_ni",
-              "value": 16424000000.0,
-              "docid": "43750",
-              "received": "2015-02-03",
-              "reference": "2014-12-31",
-              "period_end": "2013-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2014.csv",
-              "archive_sha256": "b8795dba134754475a485c0f88b6542face6613bb418d261caa011d90e032f28",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2014.zip"
-            },
-            {
-              "fiscal_year": 2014,
-              "metric": "attributable_ni",
-              "value": 21555000000.0,
               "docid": "53154",
+              "group": 412,
+              "pages": [
+                145,
+                146
+              ],
               "received": "2016-02-02",
-              "reference": "2015-12-31",
-              "period_end": "2014-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2015.csv",
-              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
-            },
-            {
-              "fiscal_year": 2015,
-              "metric": "attributable_ni",
-              "value": 25740000000.0,
-              "docid": "53154",
-              "received": "2016-02-02",
-              "reference": "2015-12-31",
-              "period_end": "2015-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2015.csv",
-              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=53154",
+              "original": "review_originals/cvm_53154_g412.pdf.gz",
+              "original_sha256": "7d7a601ab9d550be07fcba9ea2fcb58c6dac360b00129ba23ec9be40f9e0db5b"
             }
           ]
         },
         "earnings_reliability": {
-          "favorable": {
-            "positive_attributable_years": 5,
-            "audit_records": 5
-          },
+          "favorable": "Notas discriminam benefício tributário3,921bi, matching cambial/hedge e ausência deCorpBanca no1T; não usar aumento bruto93% da margem como ganho econômico.",
           "evidence": [
             {
               "docid": "53154",
+              "group": 412,
+              "pages": [
+                145
+              ],
               "received": "2016-02-02",
-              "reference": "2015-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2015.csv",
-              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=53154",
+              "original": "review_originals/cvm_53154_g412.pdf.gz",
+              "original_sha256": "7d7a601ab9d550be07fcba9ea2fcb58c6dac360b00129ba23ec9be40f9e0db5b"
             },
             {
-              "docid": "53154",
-              "received": "2016-02-02",
-              "reference": "2015-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2015.csv",
-              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
+              "docid": "55455",
+              "group": 192,
+              "pages": [
+                2
+              ],
+              "received": "2016-05-03",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55455",
+              "original": "review_originals/cvm_55455_g192.pdf.gz",
+              "original_sha256": "f7e0ab322103299d6d745acd9c7f3532316fc4fcaa6bbc04ccc0d07ec57e8c18"
             },
             {
-              "docid": "53154",
-              "received": "2016-02-02",
-              "reference": "2015-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2015.csv",
-              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
-            },
-            {
-              "docid": "53154",
-              "received": "2016-02-02",
-              "reference": "2015-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2015.csv",
-              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
-            },
-            {
-              "docid": "53154",
-              "received": "2016-02-02",
-              "reference": "2015-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2015.csv",
-              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
+              "docid": "55455",
+              "group": 193,
+              "pages": [
+                9
+              ],
+              "received": "2016-05-03",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55455",
+              "original": "review_originals/cvm_55455_g193.pdf.gz",
+              "original_sha256": "fda5aaffdc2a12aadef5e704a1c328059ab11f8cab0779a6943bc049f230d465"
             }
           ]
         },
         "financial_resilience": {
-          "favorable": {
-            "parent_equity_latest": 110680842000.0
-          },
+          "favorable": "PR122,872bi,RWA694,899bi,total17,7%,principal14,3%; mínimo9,875%+0,625%adicional; provisão excedente11bi e cobertura210%.",
           "evidence": [
             {
-              "docid": "53154",
-              "received": "2016-02-02",
-              "reference": "2015-12-31",
-              "period_end": "2015-12-31",
-              "perimeter": "ind",
-              "account": "2.05",
-              "description": "Patrimônio Líquido",
-              "source": "dfp_cia_aberta_BPP_ind_2015.csv",
-              "archive_sha256": "",
-              "url": ""
+              "docid": "55455",
+              "group": 192,
+              "pages": [
+                1,
+                4,
+                5
+              ],
+              "received": "2016-05-03",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55455",
+              "original": "review_originals/cvm_55455_g192.pdf.gz",
+              "original_sha256": "f7e0ab322103299d6d745acd9c7f3532316fc4fcaa6bbc04ccc0d07ec57e8c18"
+            },
+            {
+              "docid": "55455",
+              "group": 193,
+              "pages": [
+                168,
+                169
+              ],
+              "received": "2016-05-03",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55455",
+              "original": "review_originals/cvm_55455_g193.pdf.gz",
+              "original_sha256": "fda5aaffdc2a12aadef5e704a1c328059ab11f8cab0779a6943bc049f230d465"
             }
           ]
         },
         "capital_allocation": {
-          "favorable": {
-            "historical_payout": [
-              0.389,
-              0.44,
-              0.46,
-              0.402,
-              null
-            ],
-            "distributions": [
-              4394000000.0,
-              4518000000.0,
-              5095000000.0,
-              6635000000.0,
-              null
-            ]
-          },
+          "favorable": "AporteBIC2,309bi concluído22/03, acordos e aprovações publicados; Recovery e ConectCar descritos com preços.",
           "evidence": [
             {
-              "docid": "46825",
-              "received": "2015-05-11",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2014.csv",
-              "archive_sha256": "8797e5b66f4c126d9266746ab704bdb0d787ed5d92dca917ceffa2749b150a50",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=46825",
-              "fiscal_year": 2011,
-              "raw": {
-                "CNPJ_Companhia": "60.872.504/0001-23",
-                "Data_Referencia": "2014-01-01",
-                "Versao": "12",
-                "ID_Documento": "46825",
-                "Nome_Companhia": "ITAU UNIBANCO HOLDING S.A.",
-                "Data_Inicio_Exercicio_Social": "2011-01-01",
-                "Data_Fim_Exercicio_Social": "2011-12-31",
-                "Lucro_Liquido_Ajustado": "11296000000.00",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "15.20000000",
-                "Lucro_Liquido_Retido": "0.00",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "38.90000000",
-                "Dividendo_Distribuido_Total": "4394000000.00",
-                "Data_Aprovacao_Retencao": ""
-              }
+              "docid": "55455",
+              "group": 193,
+              "pages": [
+                8,
+                9
+              ],
+              "received": "2016-05-03",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55455",
+              "original": "review_originals/cvm_55455_g193.pdf.gz",
+              "original_sha256": "fda5aaffdc2a12aadef5e704a1c328059ab11f8cab0779a6943bc049f230d465"
             },
             {
-              "docid": "55766",
-              "received": "2016-05-06",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2015.csv",
-              "archive_sha256": "21be79d408fcc08e9edafcee941f02a339c5664e96b3ad83afd84f27ed838d60",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=55766",
-              "fiscal_year": 2012,
-              "raw": {
-                "CNPJ_Companhia": "60.872.504/0001-23",
-                "Data_Referencia": "2015-01-01",
-                "Versao": "13",
-                "ID_Documento": "55766",
-                "Nome_Companhia": "ITAU UNIBANCO HOLDING S.A.",
-                "Data_Inicio_Exercicio_Social": "2012-01-01",
-                "Data_Fim_Exercicio_Social": "2012-12-31",
-                "Lucro_Liquido_Ajustado": "10260000000.00",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "12.60000000",
-                "Lucro_Liquido_Retido": "0.00",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "44.00000000",
-                "Dividendo_Distribuido_Total": "4518000000.00",
-                "Data_Aprovacao_Retencao": ""
-              }
-            },
-            {
-              "docid": "55766",
-              "received": "2016-05-06",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2015.csv",
-              "archive_sha256": "21be79d408fcc08e9edafcee941f02a339c5664e96b3ad83afd84f27ed838d60",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=55766",
-              "fiscal_year": 2013,
-              "raw": {
-                "CNPJ_Companhia": "60.872.504/0001-23",
-                "Data_Referencia": "2015-01-01",
-                "Versao": "13",
-                "ID_Documento": "55766",
-                "Nome_Companhia": "ITAU UNIBANCO HOLDING S.A.",
-                "Data_Inicio_Exercicio_Social": "2013-01-01",
-                "Data_Fim_Exercicio_Social": "2013-12-31",
-                "Lucro_Liquido_Ajustado": "11078000000.00",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "13.10000000",
-                "Lucro_Liquido_Retido": "0.00",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "46.00000000",
-                "Dividendo_Distribuido_Total": "5095000000.00",
-                "Data_Aprovacao_Retencao": ""
-              }
-            },
-            {
-              "docid": "55766",
-              "received": "2016-05-06",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2015.csv",
-              "archive_sha256": "21be79d408fcc08e9edafcee941f02a339c5664e96b3ad83afd84f27ed838d60",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=55766",
-              "fiscal_year": 2014,
-              "raw": {
-                "CNPJ_Companhia": "60.872.504/0001-23",
-                "Data_Referencia": "2015-01-01",
-                "Versao": "13",
-                "ID_Documento": "55766",
-                "Nome_Companhia": "ITAU UNIBANCO HOLDING S.A.",
-                "Data_Inicio_Exercicio_Social": "2014-01-01",
-                "Data_Fim_Exercicio_Social": "2014-12-31",
-                "Lucro_Liquido_Ajustado": "16522000000.00",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "17.10000000",
-                "Lucro_Liquido_Retido": "0.00",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "40.20000000",
-                "Dividendo_Distribuido_Total": "6635000000.00",
-                "Data_Aprovacao_Retencao": ""
-              }
+              "docid": "55455",
+              "group": 192,
+              "pages": [
+                2,
+                5
+              ],
+              "received": "2016-05-03",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55455",
+              "original": "review_originals/cvm_55455_g192.pdf.gz",
+              "original_sha256": "f7e0ab322103299d6d745acd9c7f3532316fc4fcaa6bbc04ccc0d07ec57e8c18"
             }
           ]
         },
         "governance": {
-          "favorable": {
-            "dated_shareholder_right_records": 12,
-            "dated_related_party_records": 197
-          },
+          "favorable": "Acordo de controle33,58%contraCorpGroup33,13% e demais33,29% exposto; ausência deativos/receitas no1T ePPA pendente explicitamente reconhecidas.",
           "evidence": [
             {
-              "docid": "53154",
-              "received": "2016-02-02",
-              "reference": "2015-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2015.csv",
-              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
+              "docid": "55455",
+              "group": 193,
+              "pages": [
+                8,
+                9,
+                95,
+                96
+              ],
+              "received": "2016-05-03",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55455",
+              "original": "review_originals/cvm_55455_g193.pdf.gz",
+              "original_sha256": "fda5aaffdc2a12aadef5e704a1c328059ab11f8cab0779a6943bc049f230d465"
             },
             {
-              "docid": "53154",
-              "received": "2016-02-02",
-              "reference": "2015-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2015.csv",
-              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
-            },
-            {
-              "docid": "53154",
-              "received": "2016-02-02",
-              "reference": "2015-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2015.csv",
-              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
-            },
-            {
-              "docid": "53154",
-              "received": "2016-02-02",
-              "reference": "2015-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2015.csv",
-              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
-            },
-            {
-              "docid": "53154",
-              "received": "2016-02-02",
-              "reference": "2015-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2015.csv",
-              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
+              "docid": "55455",
+              "group": 192,
+              "pages": [
+                5
+              ],
+              "received": "2016-05-03",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=55455",
+              "original": "review_originals/cvm_55455_g192.pdf.gz",
+              "original_sha256": "f7e0ab322103299d6d745acd9c7f3532316fc4fcaa6bbc04ccc0d07ec57e8c18"
             }
           ]
         }

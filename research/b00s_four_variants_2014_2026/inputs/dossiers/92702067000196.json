@@ -1169,375 +1169,431 @@
       "ticker": "BRSR6",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": null,
-      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
-      "classification_changed": null,
-      "dimensions": {},
-      "dimension_evidence_updates": {
+      "assessment_ref": "92702067000196:2016",
+      "assessment_status": "ASSESSED",
+      "classification_changed": false,
+      "dimensions": {
         "durability": {
-          "favorable": "Banco Múltiplo atuante nas carteiras comercial, crédito, financiamento e investimento, crédito imobiliário, desenvolvimento e arrendamento mercantil e de investimentos.",
+          "status": "SATISFACTORY",
+          "reason": "A franquia regional e os canais permanecem ativos; a associação de seguros amplia o portfólio sem eliminar os serviços bancários históricos.",
+          "favorable": "Crédito31,3735bi, depósitos37,5800bi e rede Vero191,2mil estabelecimentos; receitas de serviços e distribuição documentadas.",
+          "contrary_evidence": "Concentração geográfica no RS e dependência do pagamento estadual; crédito PF cresce em parte pelo adiantamento do13º de servidores.",
+          "missing": "",
           "evidence": [
             {
-              "cnpj": "92702067000196",
-              "received": "2016-05-03",
-              "name": "BANCO DO ESTADO DO RIO GRANDE DO SUL SA",
-              "sector": "Bancos",
-              "activity": "Banco Múltiplo atuante nas carteiras comercial, crédito, financiamento e investimento, crédito imobiliário, desenvolvimento e arrendamento mercantil e de investimentos.",
-              "cvm": "001210",
-              "docid": "55468",
-              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=55468"
+              "docid": "56012",
+              "group": 192,
+              "pages": [
+                3,
+                4,
+                5
+              ],
+              "received": "2016-05-11",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=56012",
+              "original": "review_originals/cvm_56012_g192.pdf.gz",
+              "original_sha256": "ea1e99cad4843369110d59b74a04b50ad782733fae38ec55bb5d4ea26a4740fd"
+            },
+            {
+              "docid": "54017",
+              "group": 412,
+              "pages": [
+                68
+              ],
+              "received": "2016-03-11",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=54017",
+              "original": "review_originals/cvm_54017_g412.pdf.gz",
+              "original_sha256": "95baf5937cc1523a887005e0a3f3b4d3a7d7bb01bc7e8549a7e15c47f920e51a"
+            }
+          ],
+          "prior_year": 2015,
+          "review_2015": "A base regional e os canais mantêm demanda e acesso a funding; há evidência concreta além do controle estatal.",
+          "review_2016": "A franquia regional e os canais permanecem ativos; a associação de seguros amplia o portfólio sem eliminar os serviços bancários históricos."
+        },
+        "capital_economics": {
+          "status": "INDETERMINATE",
+          "reason": "Mantida lacuna específica de rentabilidade ajustada ao ciclo e ao risco, agora com crédito corporativo mais fraco. ROAE trimestral12,6% isolado não prova economia durável do capital.",
+          "favorable": "Lucro1T188,1m, PL6,3228bi; margem e receitas positivas preservam capacidade operacional.",
+          "contrary_evidence": "RiscoH5,0%, carteiraPJ recua8,1% por atrasos; resultado2015 inclui173,768m de dívida,22,521m de contrato e109,437m de tributos.",
+          "missing": "Demonstração suficiente de retorno recorrente ajustado ao risco e da rentabilidade incremental no ciclo adverso.",
+          "evidence": [
+            {
+              "docid": "56012",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3
+              ],
+              "received": "2016-05-11",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=56012",
+              "original": "review_originals/cvm_56012_g192.pdf.gz",
+              "original_sha256": "ea1e99cad4843369110d59b74a04b50ad782733fae38ec55bb5d4ea26a4740fd"
+            },
+            {
+              "docid": "54017",
+              "group": 412,
+              "pages": [
+                53,
+                56,
+                57
+              ],
+              "received": "2016-03-11",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=54017",
+              "original": "review_originals/cvm_54017_g412.pdf.gz",
+              "original_sha256": "95baf5937cc1523a887005e0a3f3b4d3a7d7bb01bc7e8549a7e15c47f920e51a"
+            }
+          ],
+          "prior_year": 2015,
+          "review_2015": "A melhora do lucro contábil e o capital regulatório suficiente não provam retorno econômico normalizado satisfatório do capital sob aumento de risco.",
+          "review_2016": "Mantida lacuna específica de rentabilidade ajustada ao ciclo e ao risco, agora com crédito corporativo mais fraco. ROAE trimestral12,6% isolado não prova economia durável do capital."
+        },
+        "earnings_reliability": {
+          "status": "SATISFACTORY",
+          "reason": "Os eventos relevantes são identificáveis e segregáveis; a ponte conserva as despesas históricas e separa IFRS, banco individual e conglomerado prudencial.",
+          "favorable": "Notas discriminam Icatu, dívida, benefício fiscal, provisões e efeitos do hedge; novos swaps casam valor nocional, prazo e taxa.",
+          "contrary_evidence": "A realização deR$1,2bi de hedge gera caixa, mas não deve ser chamada de lucro recorrente; créditos fiscais dependem de lucros futuros.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "54017",
+              "group": 412,
+              "pages": [
+                53,
+                56,
+                57,
+                69
+              ],
+              "received": "2016-03-11",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=54017",
+              "original": "review_originals/cvm_54017_g412.pdf.gz",
+              "original_sha256": "95baf5937cc1523a887005e0a3f3b4d3a7d7bb01bc7e8549a7e15c47f920e51a"
+            },
+            {
+              "docid": "56012",
+              "group": 193,
+              "pages": [
+                20,
+                21,
+                37
+              ],
+              "received": "2016-05-11",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=56012",
+              "original": "review_originals/cvm_56012_g193.pdf.gz",
+              "original_sha256": "e9eca85443da20b9735d7bf43f2a8146b0c00bcac007d00bd6b969fdd67ed144"
+            }
+          ],
+          "prior_year": 2015,
+          "review_2015": "A conciliação IFRS/BRGAAP, os itens extraordinários e provisões são divulgados e foram efetivamente separados; manter a despesa real de crédito.",
+          "review_2016": "Os eventos relevantes são identificáveis e segregáveis; a ponte conserva as despesas históricas e separa IFRS, banco individual e conglomerado prudencial."
+        },
+        "financial_resilience": {
+          "status": "SATISFACTORY",
+          "reason": "A piora do crédito é material, mas o capital documentado permanece acima das exigências efetivas, sem prova de insuficiência estrutural.",
+          "favorable": "Prudencial: PR7,3136bi; capital principal6,2477bi; RWA40,044bi; total18,26%, principal15,60%, mínimos10,50% e5,13% incluindo adicional.",
+          "contrary_evidence": "CréditoD–G6,5%,H5,0%; riscos do controlador estadual e redução de carteiraPJ permanecem.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "56012",
+              "group": 193,
+              "pages": [
+                54,
+                55
+              ],
+              "received": "2016-05-11",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=56012",
+              "original": "review_originals/cvm_56012_g193.pdf.gz",
+              "original_sha256": "e9eca85443da20b9735d7bf43f2a8146b0c00bcac007d00bd6b969fdd67ed144"
+            },
+            {
+              "docid": "56012",
+              "group": 192,
+              "pages": [
+                3,
+                4
+              ],
+              "received": "2016-05-11",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=56012",
+              "original": "review_originals/cvm_56012_g192.pdf.gz",
+              "original_sha256": "ea1e99cad4843369110d59b74a04b50ad782733fae38ec55bb5d4ea26a4740fd"
+            }
+          ],
+          "prior_year": 2015,
+          "review_2015": "O novo perímetro prudencial tem folgas de capital documentadas, sem projetar capitalização estatal.",
+          "review_2016": "A piora do crédito é material, mas o capital documentado permanece acima das exigências efetivas, sem prova de insuficiência estrutural."
+        },
+        "capital_allocation": {
+          "status": "INDETERMINATE",
+          "reason": "Distribuição e associação Icatu são documentadas, mas não suprem a prova anterior de produtividade do capital incremental.",
+          "favorable": "JCP356,443m em2015; política40% ajustada; participação49,9% na BIPAR tem lucro próprio reportado12,368m e operação ativa.",
+          "contrary_evidence": "Pagamento extraordinário115m em2014 e complemento22,521m em2015 não são retorno anual da parceria de20anos; provisões e desligamentos não serão adicionados aos lucros.",
+          "missing": "Ponte de retorno incremental por ação dos reinvestimentos, parcerias e exposição ao Estado.",
+          "evidence": [
+            {
+              "docid": "54017",
+              "group": 412,
+              "pages": [
+                5,
+                54,
+                56
+              ],
+              "received": "2016-03-11",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=54017",
+              "original": "review_originals/cvm_54017_g412.pdf.gz",
+              "original_sha256": "95baf5937cc1523a887005e0a3f3b4d3a7d7bb01bc7e8549a7e15c47f920e51a"
+            },
+            {
+              "docid": "56012",
+              "group": 192,
+              "pages": [
+                3,
+                7
+              ],
+              "received": "2016-05-11",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=56012",
+              "original": "review_originals/cvm_56012_g192.pdf.gz",
+              "original_sha256": "ea1e99cad4843369110d59b74a04b50ad782733fae38ec55bb5d4ea26a4740fd"
+            }
+          ],
+          "prior_year": 2015,
+          "review_2015": "Distribuição e investimento existem, mas a operação Icatu e a expansão do consignado não demonstram por si o retorno do novo capital.",
+          "review_2016": "Distribuição e associação Icatu são documentadas, mas não suprem a prova anterior de produtividade do capital incremental."
+        },
+        "governance": {
+          "status": "INDETERMINATE",
+          "reason": "A transparência das notas é favorável, porém o conflito material com o controlador estadual continua sem evidência suficiente de mitigação na alocação.",
+          "favorable": "Partes relacionadas e remuneração abertas; empréstimos vedados aos dirigentes explicitados.",
+          "contrary_evidence": "Dependência de folha e ampliação de crédito a servidores em contexto estadual adverso; isso não equivale a fraude provada.",
+          "missing": "Prova específica de proteção econômica dos minoritários nas decisões relacionadas ao controlador.",
+          "evidence": [
+            {
+              "docid": "54017",
+              "group": 412,
+              "pages": [
+                68,
+                69
+              ],
+              "received": "2016-03-11",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=54017",
+              "original": "review_originals/cvm_54017_g412.pdf.gz",
+              "original_sha256": "95baf5937cc1523a887005e0a3f3b4d3a7d7bb01bc7e8549a7e15c47f920e51a"
+            },
+            {
+              "docid": "56012",
+              "group": 192,
+              "pages": [
+                3
+              ],
+              "received": "2016-05-11",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=56012",
+              "original": "review_originals/cvm_56012_g192.pdf.gz",
+              "original_sha256": "ea1e99cad4843369110d59b74a04b50ad782733fae38ec55bb5d4ea26a4740fd"
+            },
+            {
+              "docid": "56012",
+              "group": 193,
+              "pages": [
+                56
+              ],
+              "received": "2016-05-11",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=56012",
+              "original": "review_originals/cvm_56012_g193.pdf.gz",
+              "original_sha256": "e9eca85443da20b9735d7bf43f2a8146b0c00bcac007d00bd6b969fdd67ed144"
+            }
+          ],
+          "prior_year": 2015,
+          "review_2015": "Há contraprestação documentada no convênio; não tratar serviços gratuitos isolados como prova de abuso. Ainda não há avaliação suficiente do equilíbrio econômico do conjunto para elevar esta dimensão.",
+          "review_2016": "A transparência das notas é favorável, porém o conflito material com o controlador estadual continua sem evidência suficiente de mitigação na alocação."
+        }
+      },
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "Crédito31,3735bi, depósitos37,5800bi e rede Vero191,2mil estabelecimentos; receitas de serviços e distribuição documentadas.",
+          "evidence": [
+            {
+              "docid": "56012",
+              "group": 192,
+              "pages": [
+                3,
+                4,
+                5
+              ],
+              "received": "2016-05-11",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=56012",
+              "original": "review_originals/cvm_56012_g192.pdf.gz",
+              "original_sha256": "ea1e99cad4843369110d59b74a04b50ad782733fae38ec55bb5d4ea26a4740fd"
+            },
+            {
+              "docid": "54017",
+              "group": 412,
+              "pages": [
+                68
+              ],
+              "received": "2016-03-11",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=54017",
+              "original": "review_originals/cvm_54017_g412.pdf.gz",
+              "original_sha256": "95baf5937cc1523a887005e0a3f3b4d3a7d7bb01bc7e8549a7e15c47f920e51a"
             }
           ]
         },
         "capital_economics": {
-          "favorable": {
-            "roe_parent_5": [
-              0.22629903994669737,
-              0.18454113991130774,
-              0.1530901578429258,
-              0.1147541256398428,
-              0.1481624884613966
-            ],
-            "normalized_profit": 917560839.1510649
-          },
+          "favorable": "Lucro1T188,1m, PL6,3228bi; margem e receitas positivas preservam capacidade operacional.",
           "evidence": [
             {
-              "fiscal_year": 2011,
-              "metric": "attributable_ni",
-              "value": 934021000.0,
-              "docid": "25439",
-              "received": "2013-03-27",
-              "reference": "2012-12-31",
-              "period_end": "2011-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2012.csv",
-              "archive_sha256": "3aff7a726d324d29924887eed45bbc58bc30b66cd9079bafe701d55efdfe0849",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2012.zip"
+              "docid": "56012",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3
+              ],
+              "received": "2016-05-11",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=56012",
+              "original": "review_originals/cvm_56012_g192.pdf.gz",
+              "original_sha256": "ea1e99cad4843369110d59b74a04b50ad782733fae38ec55bb5d4ea26a4740fd"
             },
             {
-              "fiscal_year": 2012,
-              "metric": "attributable_ni",
-              "value": 833587000.0,
-              "docid": "35198",
-              "received": "2014-03-14",
-              "reference": "2013-12-31",
-              "period_end": "2012-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2013.csv",
-              "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
-            },
-            {
-              "fiscal_year": 2013,
-              "metric": "attributable_ni",
-              "value": 748803000.0,
-              "docid": "44817",
-              "received": "2015-03-06",
-              "reference": "2014-12-31",
-              "period_end": "2013-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2014.csv",
-              "archive_sha256": "b8795dba134754475a485c0f88b6542face6613bb418d261caa011d90e032f28",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2014.zip"
-            },
-            {
-              "fiscal_year": 2014,
-              "metric": "attributable_ni",
-              "value": 620654000.0,
               "docid": "54017",
+              "group": 412,
+              "pages": [
+                53,
+                56,
+                57
+              ],
               "received": "2016-03-11",
-              "reference": "2015-12-31",
-              "period_end": "2014-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2015.csv",
-              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
-            },
-            {
-              "fiscal_year": 2015,
-              "metric": "attributable_ni",
-              "value": 879741000.0,
-              "docid": "54017",
-              "received": "2016-03-11",
-              "reference": "2015-12-31",
-              "period_end": "2015-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2015.csv",
-              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=54017",
+              "original": "review_originals/cvm_54017_g412.pdf.gz",
+              "original_sha256": "95baf5937cc1523a887005e0a3f3b4d3a7d7bb01bc7e8549a7e15c47f920e51a"
             }
           ]
         },
         "earnings_reliability": {
-          "favorable": {
-            "positive_attributable_years": 5,
-            "audit_records": 4
-          },
+          "favorable": "Notas discriminam Icatu, dívida, benefício fiscal, provisões e efeitos do hedge; novos swaps casam valor nocional, prazo e taxa.",
           "evidence": [
             {
               "docid": "54017",
+              "group": 412,
+              "pages": [
+                53,
+                56,
+                57,
+                69
+              ],
               "received": "2016-03-11",
-              "reference": "2015-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2015.csv",
-              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=54017",
+              "original": "review_originals/cvm_54017_g412.pdf.gz",
+              "original_sha256": "95baf5937cc1523a887005e0a3f3b4d3a7d7bb01bc7e8549a7e15c47f920e51a"
             },
             {
-              "docid": "54017",
-              "received": "2016-03-11",
-              "reference": "2015-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2015.csv",
-              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
-            },
-            {
-              "docid": "54017",
-              "received": "2016-03-11",
-              "reference": "2015-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2015.csv",
-              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
-            },
-            {
-              "docid": "54017",
-              "received": "2016-03-11",
-              "reference": "2015-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2015.csv",
-              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
+              "docid": "56012",
+              "group": 193,
+              "pages": [
+                20,
+                21,
+                37
+              ],
+              "received": "2016-05-11",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=56012",
+              "original": "review_originals/cvm_56012_g193.pdf.gz",
+              "original_sha256": "e9eca85443da20b9735d7bf43f2a8146b0c00bcac007d00bd6b969fdd67ed144"
             }
           ]
         },
         "financial_resilience": {
-          "favorable": {
-            "parent_equity_latest": 6206106000.0
-          },
+          "favorable": "Prudencial: PR7,3136bi; capital principal6,2477bi; RWA40,044bi; total18,26%, principal15,60%, mínimos10,50% e5,13% incluindo adicional.",
           "evidence": [
             {
-              "docid": "54017",
-              "received": "2016-03-11",
-              "reference": "2015-12-31",
-              "period_end": "2015-12-31",
-              "perimeter": "ind",
-              "account": "2.05",
-              "description": "Patrimônio Líquido",
-              "source": "dfp_cia_aberta_BPP_ind_2015.csv",
-              "archive_sha256": "",
-              "url": ""
+              "docid": "56012",
+              "group": 193,
+              "pages": [
+                54,
+                55
+              ],
+              "received": "2016-05-11",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=56012",
+              "original": "review_originals/cvm_56012_g193.pdf.gz",
+              "original_sha256": "e9eca85443da20b9735d7bf43f2a8146b0c00bcac007d00bd6b969fdd67ed144"
+            },
+            {
+              "docid": "56012",
+              "group": 192,
+              "pages": [
+                3,
+                4
+              ],
+              "received": "2016-05-11",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=56012",
+              "original": "review_originals/cvm_56012_g192.pdf.gz",
+              "original_sha256": "ea1e99cad4843369110d59b74a04b50ad782733fae38ec55bb5d4ea26a4740fd"
             }
           ]
         },
         "capital_allocation": {
-          "favorable": {
-            "historical_payout": [
-              0.4,
-              0.4,
-              0.4,
-              0.4,
-              null
-            ],
-            "distributions": [
-              343652598.43,
-              311064340.05,
-              300813504.86,
-              264410416.95,
-              null
-            ]
-          },
+          "favorable": "JCP356,443m em2015; política40% ajustada; participação49,9% na BIPAR tem lucro próprio reportado12,368m e operação ativa.",
           "evidence": [
             {
-              "docid": "46884",
-              "received": "2015-05-12",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2014.csv",
-              "archive_sha256": "8797e5b66f4c126d9266746ab704bdb0d787ed5d92dca917ceffa2749b150a50",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=46884",
-              "fiscal_year": 2011,
-              "raw": {
-                "CNPJ_Companhia": "92.702.067/0001-96",
-                "Data_Referencia": "2014-01-01",
-                "Versao": "16",
-                "ID_Documento": "46884",
-                "Nome_Companhia": "BCO ESTADO DO RIO GRANDE DO SUL S.A.",
-                "Data_Inicio_Exercicio_Social": "2011-01-01",
-                "Data_Fim_Exercicio_Social": "2011-12-31",
-                "Lucro_Liquido_Ajustado": "859131496.08",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "21.91000000",
-                "Lucro_Liquido_Retido": "0.00",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "40.00000000",
-                "Dividendo_Distribuido_Total": "343652598.43",
-                "Data_Aprovacao_Retencao": ""
-              }
+              "docid": "54017",
+              "group": 412,
+              "pages": [
+                5,
+                54,
+                56
+              ],
+              "received": "2016-03-11",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=54017",
+              "original": "review_originals/cvm_54017_g412.pdf.gz",
+              "original_sha256": "95baf5937cc1523a887005e0a3f3b4d3a7d7bb01bc7e8549a7e15c47f920e51a"
             },
             {
-              "docid": "55921",
-              "received": "2016-05-10",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2015.csv",
-              "archive_sha256": "21be79d408fcc08e9edafcee941f02a339c5664e96b3ad83afd84f27ed838d60",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=55921",
-              "fiscal_year": 2012,
-              "raw": {
-                "CNPJ_Companhia": "92.702.067/0001-96",
-                "Data_Referencia": "2015-01-01",
-                "Versao": "24",
-                "ID_Documento": "55921",
-                "Nome_Companhia": "BCO ESTADO DO RIO GRANDE DO SUL S.A.",
-                "Data_Inicio_Exercicio_Social": "2012-01-01",
-                "Data_Fim_Exercicio_Social": "2012-12-31",
-                "Lucro_Liquido_Ajustado": "777660850.12",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "17.62000000",
-                "Lucro_Liquido_Retido": "0.00",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "40.00000000",
-                "Dividendo_Distribuido_Total": "311064340.05",
-                "Data_Aprovacao_Retencao": ""
-              }
-            },
-            {
-              "docid": "55921",
-              "received": "2016-05-10",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2015.csv",
-              "archive_sha256": "21be79d408fcc08e9edafcee941f02a339c5664e96b3ad83afd84f27ed838d60",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=55921",
-              "fiscal_year": 2013,
-              "raw": {
-                "CNPJ_Companhia": "92.702.067/0001-96",
-                "Data_Referencia": "2015-01-01",
-                "Versao": "24",
-                "ID_Documento": "55921",
-                "Nome_Companhia": "BCO ESTADO DO RIO GRANDE DO SUL S.A.",
-                "Data_Inicio_Exercicio_Social": "2013-01-01",
-                "Data_Fim_Exercicio_Social": "2013-12-31",
-                "Lucro_Liquido_Ajustado": "752033762.14",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "16.18000000",
-                "Lucro_Liquido_Retido": "0.00",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "40.00000000",
-                "Dividendo_Distribuido_Total": "300813504.86",
-                "Data_Aprovacao_Retencao": ""
-              }
-            },
-            {
-              "docid": "55921",
-              "received": "2016-05-10",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2015.csv",
-              "archive_sha256": "21be79d408fcc08e9edafcee941f02a339c5664e96b3ad83afd84f27ed838d60",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=55921",
-              "fiscal_year": 2014,
-              "raw": {
-                "CNPJ_Companhia": "92.702.067/0001-96",
-                "Data_Referencia": "2015-01-01",
-                "Versao": "24",
-                "ID_Documento": "55921",
-                "Nome_Companhia": "BCO ESTADO DO RIO GRANDE DO SUL S.A.",
-                "Data_Inicio_Exercicio_Social": "2014-01-01",
-                "Data_Fim_Exercicio_Social": "2014-12-31",
-                "Lucro_Liquido_Ajustado": "661026042.37",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "13.90000000",
-                "Lucro_Liquido_Retido": "0.00",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "40.00000000",
-                "Dividendo_Distribuido_Total": "264410416.95",
-                "Data_Aprovacao_Retencao": ""
-              }
+              "docid": "56012",
+              "group": 192,
+              "pages": [
+                3,
+                7
+              ],
+              "received": "2016-05-11",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=56012",
+              "original": "review_originals/cvm_56012_g192.pdf.gz",
+              "original_sha256": "ea1e99cad4843369110d59b74a04b50ad782733fae38ec55bb5d4ea26a4740fd"
             }
           ]
         },
         "governance": {
-          "favorable": {
-            "dated_shareholder_right_records": 27,
-            "dated_related_party_records": 294
-          },
+          "favorable": "Partes relacionadas e remuneração abertas; empréstimos vedados aos dirigentes explicitados.",
           "evidence": [
             {
               "docid": "54017",
+              "group": 412,
+              "pages": [
+                68,
+                69
+              ],
               "received": "2016-03-11",
-              "reference": "2015-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2015.csv",
-              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=54017",
+              "original": "review_originals/cvm_54017_g412.pdf.gz",
+              "original_sha256": "95baf5937cc1523a887005e0a3f3b4d3a7d7bb01bc7e8549a7e15c47f920e51a"
             },
             {
-              "docid": "54017",
-              "received": "2016-03-11",
-              "reference": "2015-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2015.csv",
-              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
+              "docid": "56012",
+              "group": 192,
+              "pages": [
+                3
+              ],
+              "received": "2016-05-11",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=56012",
+              "original": "review_originals/cvm_56012_g192.pdf.gz",
+              "original_sha256": "ea1e99cad4843369110d59b74a04b50ad782733fae38ec55bb5d4ea26a4740fd"
             },
             {
-              "docid": "54017",
-              "received": "2016-03-11",
-              "reference": "2015-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2015.csv",
-              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
-            },
-            {
-              "docid": "54017",
-              "received": "2016-03-11",
-              "reference": "2015-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2015.csv",
-              "archive_sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2015.zip"
+              "docid": "56012",
+              "group": 193,
+              "pages": [
+                56
+              ],
+              "received": "2016-05-11",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=56012",
+              "original": "review_originals/cvm_56012_g193.pdf.gz",
+              "original_sha256": "e9eca85443da20b9735d7bf43f2a8146b0c00bcac007d00bd6b969fdd67ed144"
             }
           ]
         }

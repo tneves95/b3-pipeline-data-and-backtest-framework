@@ -53,7 +53,8 @@ def test_published_weights_risk_and_turnover_use_actual_continuity():
     for r in m.read(m.RESULT/'turnover_by_year.csv'):
         if r['formation']=='False':
             assert float(r['purchases_pct'])==pytest.approx(float(r['sales_pct']),abs=1e-10)
-    final=groups['VVAL',m.DATES[m.reviewed_through()+1],'PERIOD_END']
+    # This accepted observation describes June 2016, not every future renewal.
+    final=groups['VVAL',m.DATES[2016],'PERIOD_END']
     assert {'PSSA3','CSMG3','SBSP3'}<={r['ticker'] for r in final}
     assert all(float(r['one_way_turnover_pct'])==0 for r in m.read(m.RESULT/'turnover_by_year.csv') if r['year']=='2014')
 
