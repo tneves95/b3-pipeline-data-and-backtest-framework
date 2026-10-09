@@ -152,3 +152,57 @@ def test_corrected_cost_removed_and_realized_gain_on_actual_sales():
     for r in ordinary:
         assert float(r['cost_removed'])==pytest.approx(float(r['quantity'])*float(r['average_cost_before']))
         assert float(r['realized_gain_loss'])==pytest.approx(float(r['gross_value'])-float(r['cost_removed']),abs=1e-7)
+
+
+def test_income_partial_preserves_net_and_withholds_only_supported_gross_jcp():
+    rows=read(OUT/'CG_PLUS_JCP_CERTIFIED_PARTIAL/income.csv')
+    net=[r for r in rows if r['amount_basis']=='NET_ALREADY_WITHHELD' and r['distribution_type']=='JCP']
+    assert net and all(float(r['withheld_additional'])==0 for r in net)
+    withheld=[r for r in rows if float(r['withheld_additional'])>0]
+    assert withheld
+    for r in withheld:
+        assert r['distribution_type']=='JCP' and r['amount_basis']=='GROSS'
+        assert float(r['withheld_additional'])==pytest.approx(float(r['source_amount'])*float(r['tax_rate']))
+        assert float(r['source_amount'])-float(r['withheld_additional'])==pytest.approx(float(r['reinvested']))
+    unknown=[r for r in rows if r['amount_basis']=='UNKNOWN' and r['distribution_type']=='JCP']
+    assert unknown and all(float(r['withheld_additional'])==0 for r in unknown)
+    for s in read(OUT/'consolidated_income_corrected.csv'):
+        p=s['portfolio'];own=[r for r in rows if r['portfolio']==p]
+        assert sum(float(r['withheld_additional']) for r in own)==pytest.approx(float(s['income_withheld']))
+        assert int(s['rank'])==int(s['gross_rank'])
+
+
+def test_dividend_threshold_control_and_no_unsupported_full_certification():
+    control=read(OUT/'dividend_monthly_issuer_2026_corrected.csv')
+    assert control and all(float(r['all_distributions_cash_envelope'])<50000 for r in control)
+    rows=read(OUT/'all_corrected_scenarios.csv')
+    assert len(rows)==15 and all(r['full_historical_certified_wealth']=='ND' for r in rows)
+    for r in rows:
+        assert float(r['total_additional_tax_paid_modeled'])==pytest.approx(float(r['tax_paid'])+float(r['income_withheld']))
+
+
+def test_partial_liquidation_and_cash_actual_reconcile():
+    summaries=read(OUT/'consolidated_income_corrected.csv')
+    positions=read(OUT/'CG_PLUS_JCP_CERTIFIED_PARTIAL/final_positions.csv')
+    for r in summaries:
+        own=[p for p in positions if p['portfolio']==r['portfolio']]
+        assert sum(float(p['value']) for p in own)+float(r['cash'])-float(r['unpaid_liability'])==pytest.approx(float(r['final_wealth']))
+        assert float(r['final_wealth'])-float(r['liquidation_tax'])==pytest.approx(float(r['liquidation_wealth']))
+    for r in read(OUT/'CG_PLUS_JCP_CERTIFIED_PARTIAL/wealth.csv'):
+        assert float(r['cash_available'])>=-1e-6
+    for r in read(OUT/'CG_PLUS_JCP_CERTIFIED_PARTIAL/trades.csv'):
+        if r['side']=='SELL':assert r['reason']==FAIL_REASON
+
+
+def test_workbook_independent_reader_matches_csv():
+    from openpyxl import load_workbook
+    book=load_workbook(OUT/'aportes_politica_corrigida_2014_2026.xlsx',read_only=True,data_only=True)
+    sheet=book['Consolidado'];values=list(sheet.values);header=values[0]
+    actual=[dict(zip(header,row)) for row in values[1:]]
+    assert len(actual)==15
+    indexed={(r['mode'],r['portfolio']):r for r in actual}
+    for row in read(OUT/'all_corrected_scenarios.csv'):
+        other=indexed[row['mode'],row['portfolio']]
+        for k in ['final_wealth','xirr_pct','tax_paid','income_withheld','liquidation_wealth']:
+            assert other[k]==pytest.approx(float(row[k]),rel=1e-12)
+    book.close()
