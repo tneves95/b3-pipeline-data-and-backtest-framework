@@ -1,0 +1,13 @@
+{
+  "source_docid": "45354",
+  "source_group": 412,
+  "received": "2015-03-27",
+  "original_pdf_sha256": "a5f65190ff60b836ad32cd9af30857378bf33878b7d6da1e694748a32b49658e",
+  "original_extracted_pages_sha256": "8678188adaac30dc7e8eec7b66e9d41a8a8f59134938495259e23d6ad7043553",
+  "derived_pages": "review_originals/cvm_45354_g412.decoded.pages.json.gz",
+  "derived_payload_sha256": "15d1c1065931ab6d17160db43cc70e6a48f197f21be19a719d31043a75806a80",
+  "derived_gzip_sha256": "2fe900717ebdced1d788aabfd7b11937e27d1757e7295551adb743ed63785821",
+  "page_count": 302,
+  "method": "Read every embedded font /Encoding /Differences array with pypdf; map each /gNN glyph name to its original WinAnsi source byte decoded as Windows-1252. Replace /gNN tokens in the original extracted page strings. No OCR, guessed numeric offsets or reconstructed financial statements. The sole conflicting glyph is /g3 (space versus control byte 0x01), normalized to space. All other glyph maps agree; no unresolved /gNN tokens remain. One-to-one original PDF page numbering preserved. Original PDF and original extraction are unchanged.",
+  "observed_glyph_conflict_occurrences": 2
+}

@@ -72,6 +72,35 @@ def verify_accepted_controls():
         if actual!=frozen:raise ValueError(('Accepted V0/V10 changed',name))
     return len(snapshot['tables'])
 
+def verify_accepted_initial(check_results=True):
+    """Protect the accepted first period and its original documentary evidence."""
+    snap=json.loads((INPUT/'accepted_2014.json').read_text())
+    for item in snap['documents']:
+        if sha(ROOT/item['path'])!=item['sha256']:raise ValueError(('Accepted 2014 document changed',item['path']))
+    sources={(r['docid'],r['group']):r for r in json.loads((INPUT/'review_original_sources.json').read_text())}
+    for row in snap['sources']:
+        if sources[row['docid'],row['group']]!=row:raise ValueError('Accepted original source changed')
+    actual=[r for r in json.loads((INPUT/'fundamental_decisions.json').read_text()) if r['year']==2014]
+    if actual!=snap['decisions']:raise ValueError('Accepted 2014 decisions changed')
+    for c,expected in snap['initial_dossiers'].items():
+        if json.loads((INPUT/'dossiers'/f'{c}.json').read_text())['initial_assessment']!=expected:
+            raise ValueError(('Accepted initial dossier changed',c))
+    if check_results:
+        for name,expected in snap['tables'].items():
+            keys=list(expected[0])
+            rows=read(RESULT/name)
+            def initial(r):
+                if 'year' in r:return r['year']=='2014'
+                if 'closing_year' in r:return r['closing_year']=='2015'
+                if 'date' in r:return r['date']==DATES[2014] or (r['date']==DATES[2015] and r.get('phase')=='PERIOD_END')
+                return True
+            if name=='risk_concentration.csv':
+                rows=[r for r in rows if r['year']=='2014' or (r['year']=='2015' and r['phase']=='PERIOD_END')]
+            else:rows=[r for r in rows if initial(r)]
+            if [{k:r[k] for k in keys} for r in rows]!=expected:
+                raise ValueError(('Accepted first-period observations changed',name))
+    return len(snap['tables'])
+
 @lru_cache(maxsize=1)
 def candidates():
     """Exactly the accepted control's PASS universe, not a rerun of its screener."""
@@ -189,9 +218,26 @@ def concentration(variant, year, phase, values):
 def reviewed_through():
     return json.loads((INPUT/'review_progress.json').read_text())['completed_formation_year']
 
+def verify_decision_freeze():
+    verify_accepted_initial(check_results=False)
+    year=reviewed_through()
+    path=INPUT/'decision_freeze_record.json' if year==2014 else INPUT/'decision_freezes'/f'{year}.json'
+    freeze=json.loads(path.read_text())
+    if sha(INPUT/'economic_reviews.json')!=json.loads((INPUT/'decision_freeze_record.json').read_text())['economic_reviews_sha256']:
+        raise ValueError('Accepted original economic reviews changed')
+    if year>2014:
+        for item in freeze['files']:
+            if sha(ROOT/item['path'])!=item['sha256']:raise ValueError(('Pre-return decision freeze changed',item['path']))
+        policy=json.loads((INPUT/'funding_policy_2015.json').read_text())
+        if sha(ROOT/'scripts/b00s_funding.py')!=policy['code_sha256'] or sha(ROOT/'tests/test_b00s_funding.py')!=policy['test_sha256']:
+            raise ValueError('Frozen B2 funding policy changed')
+    # At the initial horizon the accepted 2014 subset is protected above;
+    # unreviewed future extracts may acquire new evidence without changing it.
+    return freeze
+
 def simulate(variant, frozen=None, include=None, end_year=None):
     if end_year is None:end_year=2025 if variant in ['V0','V10'] else reviewed_through()
-    quote, bydate=market(); units={}; annual=[]; holdings=[]; positions=[]; reviews=[]; risk=[]; decisions=[]; transfers=[]
+    quote, bydate=market(); units={}; annual=[]; holdings=[]; positions=[]; reviews=[]; risk=[]; decisions=[]; transfers=[]; funding=[]
     cands=candidates(); frozen=frozen or {}
     for year in range(2014,end_year+1):
         start,end=DATES[year],DATES[year+1]
@@ -219,7 +265,15 @@ def simulate(variant, frozen=None, include=None, end_year=None):
             # Representation-equivalent candidates inherit their PASS source.
             for t in targets:
                 if t not in base_targets and t in units and status.get(t)!='FAIL':status[t]='PASS'
-            after,review=renew_b2(before,status,targets)
+            if variant not in ['V0','V10']:
+                from b00s_funding import reference_entries, renew_reference_entries
+                requests=reference_entries(before,status,targets,identities())
+                after,review=renew_reference_entries(before,status,requests)
+                funding.extend(dict(variant=variant,year=year,ticker=t,reference_weight_pct=100*w,
+                    requested_nav=math.fsum(before.values())*w,executed_weight_pct=100*after[t]/math.fsum(before.values()),
+                    executed_nav=after[t]) for t,w in requests.items())
+            else:
+                after,review=renew_b2(before,status,targets)
             if any(v<=0 and status.get(t)!='FAIL' for t,v in after.items()):
                 raise ValueError(('UNRESOLVED_ENTRY_FUNDING_WOULD_LIQUIDATE_NONFAIL',variant,year))
         nav=math.fsum(after.values());units={t:v/quote[t,start] for t,v in after.items()}
@@ -249,7 +303,7 @@ def simulate(variant, frozen=None, include=None, end_year=None):
                 sector=m['sector'],base_status=status.get(t,'INDETERMINATE'),initial_units=after[t]/quote[t,start],
                 initial_weight_pct=100*v/nav,final_weight_pct=100*endvalue/nav1,exposure_return_pct=100*(endvalue/v-1),
                 contribution_pp=100*(endvalue-v)/nav,descendants=';'.join(sorted(sleeves[t])),event_ids=';'.join(sorted(seen[t]))))
-    return dict(annual=annual,holdings=holdings,positions=positions,reviews=reviews,risk=risk,decisions=decisions,transfers=transfers)
+    return dict(annual=annual,holdings=holdings,positions=positions,reviews=reviews,risk=risk,decisions=decisions,transfers=transfers,funding=funding)
 
 def reconcile(rows, annual):
     result=[]
@@ -297,10 +351,12 @@ def workbook():
     import xlsxwriter
     b=xlsxwriter.Workbook(RESULT/'b00s_four_variants.xlsx',{'strings_to_urls':False,'strings_to_formulas':False})
     b.set_properties({'title':'Experimento B00S V2','created':datetime(2026,10,8)})
-    for filename in ['checkpoint_summary','consolidated_pct','annual_returns_pct','cumulative_returns_pct','portfolio_status','risk_concentration','turnover_by_year','holdings_by_june','attribution_cumulative','positions_by_june','review_ledger','selection_decisions','coverage_by_year_sector','sensitivity_summary','sensitivity_annual_pct']:
+    for filename in ['checkpoint_summary','consolidated_pct','annual_returns_pct','cumulative_returns_pct','portfolio_status','risk_concentration','turnover_by_year','holdings_by_june','attribution_cumulative','positions_by_june','review_ledger','entry_funding_requests','selection_decisions','coverage_by_year_sector','sensitivity_summary','sensitivity_annual_pct']:
         p=RESULT/(filename+'.csv')
         if not p.exists():continue
-        rows=read(p);ws=b.add_worksheet(filename[:31]);keys=list(rows[0]);ws.freeze_panes(1,2)
+        rows=read(p)
+        if not rows:continue
+        ws=b.add_worksheet(filename[:31]);keys=list(rows[0]);ws.freeze_panes(1,2)
         ws.write_row(0,0,keys);ws.autofilter(0,0,len(rows),len(keys)-1);ws.set_column(0,len(keys)-1,20)
         for i,r in enumerate(rows,1):
             for j,k in enumerate(keys):
@@ -411,6 +467,8 @@ def publish(runs):
             revisions=len(trades),scope='Reviewed chronological batch; formation is not turnover'))
     write(RESULT/'checkpoint_summary.csv',checkpoint)
     verify_accepted_controls()
+    verify_accepted_initial()
+    write(RESULT/'entry_funding_requests.csv',[r for v in runs.values() for r in v['funding']])
     workbook()
     manifest=dict(protocol_commit=PROTOCOL_SHA,baseline_commit='8d394e9ab563daebe43603a3e85f35f43c1402bc',
         protected_stage1_files=verify_frozen(),variants={v:sum(r['return_pct']!='' for r in d['annual']) for v,d in runs.items()},
@@ -426,10 +484,7 @@ def main():
     if args.stage!='v10':
         lock=json.loads((INPUT/'fundamental_decisions_lock.json').read_text())
         if sha(INPUT/'fundamental_decisions.json')!=lock['decisions_sha256']:raise ValueError('Decision lock mismatch')
-        freeze=json.loads((INPUT/'decision_freeze_record.json').read_text())
-        if (sha(INPUT/'economic_reviews.json')!=freeze['economic_reviews_sha256'] or
-            sha(INPUT/'fundamental_decisions.json')!=freeze['decisions_sha256']):
-            raise ValueError('Pre-return documentary freeze changed')
+        verify_decision_freeze()
         ds=json.loads((INPUT/'fundamental_decisions.json').read_text());ds={(r['year'],r['ticker']):r for r in ds}
         runs.update({v:simulate(v,ds) for v in (['VVAL','VQ'] if args.stage=='all' else ['VVAL'])})
     publish(runs)

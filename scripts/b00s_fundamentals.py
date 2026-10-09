@@ -20,6 +20,13 @@ def valuation_gate(pe, evidence, mature=15, premium=25):
     if pe<=mature:return 'PASS_MATURE'
     if pe>premium:return 'REJECTED_PRICE'
     keys=['real_eps_cagr','average_payout','return_on_capital_median','inflation_reference','solidity_proven']
+    # These are necessary conditions. One evidenced failure is decisive even
+    # when another condition is unresolved; absence alone is never failure.
+    if (evidence.get('real_eps_cagr') is not None and evidence['real_eps_cagr']<.04 or
+        evidence.get('average_payout') is not None and evidence['average_payout']>.80 or
+        evidence.get('return_on_capital_median') is not None and evidence.get('inflation_reference') is not None and
+        evidence['return_on_capital_median']<evidence['inflation_reference']+.06 or
+        evidence.get('solidity_proven') is False):return 'REJECTED_REINVESTMENT'
     if any(evidence.get(k) is None for k in keys):return 'INDETERMINATE'
     if (evidence['real_eps_cagr']>=.04 and evidence['average_payout']<=.80 and
         evidence['return_on_capital_median']>=evidence['inflation_reference']+.06 and evidence['solidity_proven'] is True):
@@ -91,7 +98,8 @@ class Fundamentals:
         classes=[dict(share_class='ON',quantity=cap['on'],price=prices.get('3'))]
         if cap['pn']:
             ids={r['raw']['ID_Capital_Social'] for r in self.fre[c] if r['docid']==cap['docid'] and r['part']=='capital_social'
-                 and r['raw']['Tipo_Capital']=='Capital Emitido' and r['raw']['Data_Autorizacao_Aprovacao']==cap['approved']}
+                 and r['raw']['Tipo_Capital']==(cap.get('capital_type','Capital Emitido') if y>=2015 else 'Capital Emitido')
+                 and r['raw']['Data_Autorizacao_Aprovacao']==cap['approved']}
             docs=[r for r in self.fre[c] if r['docid']==cap['docid'] and r['part']=='capital_social_classe_acao' and r['raw']['ID_Capital_Social'] in ids]
             byclass={r['raw'].get('Tipo_Classe_Acao_Preferencial'):num(r['raw'].get('Quantidade_Acoes')) for r in docs}
             if len(byclass)>1:
@@ -128,6 +136,11 @@ class Fundamentals:
                 ni=normalized_profit(profits,factors)
                 interval=profit_interval(profits,factors,y,assessment)
                 cap=caps.get(c);mc,classes,missing=self.capital(c,y,cap)
+                if assessment and assessment.get('capital_block'):
+                    mc=None;missing.append(assessment['capital_block']['reason'])
+                    classes=assessment['capital_block']['classes']
+                capital_interval=assessment.get('capital_interval') if assessment else None
+                if capital_interval:mc=None
                 if ni is None:missing.append('FIVE_COMPARABLE_ATTRIBUTABLE_PROFITS_MISSING')
                 if len(set(income_modes))>1 and not (assessment and assessment['valuation'].get('income_modes_reconciled')):
                     missing.append('PARENT_CONSOLIDATED_RECONCILIATION_REQUIRED')
@@ -172,6 +185,11 @@ class Fundamentals:
                     graham_pe_pb=graham,incremental_return=None,
                     profit_evidence=evidence,payout_evidence=payout_sources,
                     missing=';'.join(missing),quality_category='INDETERMINATE',dossier=f'inputs/dossiers/{c}.json')
+                if assessment and assessment.get('economic_metrics'):
+                    from b00s_incremental import calculate_metrics
+                    f.update(calculate_metrics(assessment['economic_metrics'],self.ipca))
+                if capital_interval:
+                    f['market_cap_interval']={k:capital_interval[k] for k in ['lower','upper']}
                 preliminary=valuation_gate(pe,f)
                 # Quantitative values alone do not certify the common economic
                 # perimeter and extraordinary earnings in the normalized history.
@@ -189,9 +207,11 @@ class Fundamentals:
                     # The point from raw accounts is diagnostic, not certified.
                     f['mechanical_normalized_pe']=pe
                     f['normalized_pe']=None;f['normalized_profit']=None
-                    if interval and mc is not None and not missing and interval['lower'] and interval['lower']>0:
-                        f['normalized_pe_interval']=dict(lower=mc/interval['upper'] if interval['upper'] and interval['upper']>0 else 0,
-                                                       upper=mc/interval['lower'])
+                    caplo=capital_interval['lower'] if capital_interval else mc
+                    caphi=capital_interval['upper'] if capital_interval else mc
+                    if interval and caphi is not None and not missing and interval['lower'] and interval['lower']>0:
+                        f['normalized_pe_interval']=dict(lower=caplo/interval['upper'] if interval['upper'] and interval['upper']>0 else 0,
+                                                       upper=caphi/interval['lower'])
                         if f['normalized_pe_interval']['upper']<=15:f['valuation_status']='PASS_MATURE'
                     f['bazin_normalized_dy']=None;f['bazin_issuer_price_ceiling']=None
                 if not review or review['status'] not in ['COMPARABLE','COMPARABLE_BOUNDED']:f['missing']+=';ECONOMIC_PERIMETER_AND_NONRECURRING_ITEMS_REVIEW'
@@ -262,6 +282,7 @@ class Fundamentals:
         jsonwrite(INPUT/'fundamental_decisions_lock.json',dict(decisions_sha256=sha(INPUT/'fundamental_decisions.json'),
             quantitative_thresholds=[15,25,.04,.20,.06],frozen_before_variant_returns=True,
             documentary_reviews_sha256=sha(INPUT/'economic_reviews.json') if (INPUT/'economic_reviews.json').exists() else None,
+            incremental_reviews=[dict(path=p.name,sha256=sha(p)) for p in sorted(INPUT.glob('economic_reviews_[0-9][0-9][0-9][0-9].json'))],
             extract_sha256=sha(INPUT/'cvm_directed_extract.json.gz'),ipca_sha256=sha(INPUT/'ipca_sgs433.json')))
         for y in range(2014,2026):
             rs=[r for r in decisions if r['year']==y]

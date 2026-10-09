@@ -23,7 +23,9 @@ def test_each_initial_company_has_six_effective_judgements():
         assert all(x.get('missing') for x in r['dimensions'].values() if x['status']=='INDETERMINATE')
     names={r['ticker'] for r in reviews.values() if f.quality_gate(r['dimensions']).startswith('QUALIFIED')}
     assert {'PSSA3','TBLE3','BBDC4'}<=names
-    assert not any(y>2014 for y,c in reviews)  # No unreviewed carry-forward.
+    # Every additional cutoff needs its own reviewed input, never a blanket reuse.
+    reviewed={2014}|{int(p.stem[-4:]) for p in m.INPUT.glob('economic_reviews_[0-9][0-9][0-9][0-9].json')}
+    assert all(y in reviewed for y,c in reviews)
 
 def test_original_dates_and_hashes_are_enforced(tmp_path,monkeypatch):
     raw=b'%PDF-original-for-validation';name='sample.pdf.gz'
@@ -88,6 +90,12 @@ def test_reviews_were_committed_before_portfolio_replay():
     freeze=json.loads((m.INPUT/'decision_freeze_record.json').read_text())
     for filename,key in [('economic_reviews.json','economic_reviews_sha256'),('fundamental_decisions.json','decisions_sha256')]:
         path=m.INPUT/filename
-        assert m.sha(path)==freeze[key]
+        if filename=='economic_reviews.json':assert m.sha(path)==freeze[key]
         committed=subprocess.check_output(['git','show',freeze['decision_commit']+':'+str(path.relative_to(m.ROOT))],cwd=m.ROOT)
         assert hashlib.sha256(committed).hexdigest()==freeze[key]
+    assert m.verify_accepted_initial()==10
+    if m.reviewed_through()>2014:
+        latest=m.verify_decision_freeze()
+        for r in latest['files']:
+            committed=subprocess.check_output(['git','show',latest['decision_commit']+':'+r['path']],cwd=m.ROOT)
+            assert hashlib.sha256(committed).hexdigest()==r['sha256']

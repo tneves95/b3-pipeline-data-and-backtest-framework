@@ -43,6 +43,9 @@ As fichas futuras mantêm fatos contábeis coletados, mas **não representam ava
     (ROOT/'docs/dossies_b00s_v2.md').write_text(text)
 
 def main():
+    if reviewed_through()>2014:
+        from b00s_incremental_report import main as incremental_report
+        return incremental_report()
     annual=read(RESULT/'annual_returns_pct.csv');stats=read(RESULT/'consolidated_pct.csv')
     summary=read(RESULT/'checkpoint_summary.csv');hold=read(RESULT/'holdings_by_june.csv')
     risk=read(RESULT/'risk_concentration.csv');positions=read(RESULT/'positions_by_june.csv')

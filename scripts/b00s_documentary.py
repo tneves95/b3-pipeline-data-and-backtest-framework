@@ -18,6 +18,9 @@ def load_reviews():
     if not path.exists():
         return {}
     records = json.loads(path.read_text())
+    # Incremental batches never rewrite the accepted initial assessments.
+    for update in sorted(INPUT.glob('economic_reviews_[0-9][0-9][0-9][0-9].json')):
+        records.extend(json.loads(update.read_text()))
     manifest = {(r['docid'], r['group']): r for r in
                 json.loads((INPUT/'review_original_sources.json').read_text())
                 if r['status']=='ARCHIVED'}
@@ -53,6 +56,13 @@ def load_reviews():
             if year != min(r['years']) and str(year) not in r.get('continuity', {}):
                 raise ValueError(('Missing incremental review', r['ticker'], year))
             r['valuation']['evidence'] = [validate(e,cutoff) for e in r['valuation']['evidence']]
+            for extra in ['economic_metrics','capital_block','capital_interval','incremental_review']:
+                if extra in r:
+                    r[extra]['evidence']=[validate(e,cutoff) for e in r[extra]['evidence']]
+            for statement in r.get('economic_metrics',{}).get('statement_sources',[]):
+                for fact in statement.get('records',[]):
+                    if fact['received']>cutoff or fact['period_end']>cutoff:
+                        raise ValueError(('Future economic metric input',fact['docid']))
             for dim in r['dimensions'].values():
                 if not dim.get('reason') or not dim.get('contrary_evidence'):
                     raise ValueError('Economic reason and contrary evidence are required')

@@ -47,7 +47,9 @@ def test_frozen_decisions_have_no_future_sources_or_unapproved_base_names():
     for r in ds:
         for e in r['profit_evidence']+r['payout_evidence']:assert e['received']<=r['cutoff']
         assert r['capital_source'] is None or r['capital_source']['received']<=r['cutoff']
-        if r['sector'] not in ['Bancos','Seguros']:assert r['return_on_capital_median'] is None
+        if r['sector'] not in ['Bancos','Seguros'] and r['return_on_capital_median'] is not None:
+            assert r['return_on_capital_kind'].startswith('ROIC_')
+            assert r['documentary_assessment']['economic_metrics']['roic']['annual_inputs']
         if r['valuation_status'].startswith('PASS'):
             assert r['perimeter_review']['status'] in ['COMPARABLE','COMPARABLE_BOUNDED']
             assert r['normalized_pe'] is not None or r['normalized_pe_interval']['upper']<=15

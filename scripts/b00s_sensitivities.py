@@ -31,6 +31,7 @@ def coverage(ds):
         latest_income_receipt=max((e['received'] for e in r['profit_evidence']),default='')) for r in ds])
 
 def main():
+    verify_decision_freeze()
     raw=json.loads((INPUT/'fundamental_decisions.json').read_text());ds={(r['year'],r['ticker']):r for r in raw}
     coverage(raw);paths=[];summaries=[];contributions=[];trades=[];decision_diff=[]
     horizon=reviewed_through()-2013
@@ -71,7 +72,10 @@ def main():
         record(name,simulate('VVAL',scenario),'DIAGNOSTIC_ONLY_MISSING_IS_NOT_ZERO',base_final)
     record('VVAL_ALL_UNKNOWN_INCLUDED',simulate('VVAL',ds,include=lambda r,d:d['valuation_status']=='INDETERMINATE'),'DOCUMENTATION_INCLUSION',base_final)
     allq=simulate('VQ',ds,include=lambda r,d:d['quality_category']=='INDETERMINATE')
-    if any(not math.isclose(a['return_pct'],b['return_pct'],abs_tol=1e-10) for a,b in zip(allq['annual'],v0['annual'])):raise ValueError('All-unknown scenario must reproduce base')
+    # Initial formation is unchanged; from 2015 the frozen VVAL/VQ funding
+    # policy can differ from the preserved V0 renewal even for the same cohort.
+    if not math.isclose(allq['annual'][0]['return_pct'],v0['annual'][0]['return_pct'],abs_tol=1e-10):
+        raise ValueError('All-unknown initial formation must reproduce base')
     record('VQ_ALL_UNKNOWN_INCLUDED',allq,'DOCUMENTATION_INCLUSION_NOT_QUALIFIED',v0final)
     for c in sorted({r['cnpj'] for r in raw if r['year']<=reviewed_through()}):
         record('VVAL_INCLUDE_'+c,conditional_run('VVAL',ds,include=lambda r,d,c=c:r['cnpj']==c and d['valuation_status']=='INDETERMINATE'),

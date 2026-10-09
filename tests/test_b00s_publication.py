@@ -22,7 +22,7 @@ def test_published_references_are_literal_and_unreviewed_years_are_blank():
     assert len(status)==12
     assert all(r['status']=='AWAITING_CHRONOLOGICAL_REVIEW' for r in status if int(r['year'])>m.reviewed_through())
     stats={r['variant']:r for r in m.read(m.RESULT/'consolidated_pct.csv')}
-    assert stats['VQ']['final_pct']=='' and stats['VQ']['periods']=='1'
+    assert stats['VQ']['final_pct']=='' and int(stats['VQ']['periods'])==m.reviewed_through()-2013
     assert stats['VVAL']['final_rank']==''
 
 def test_published_attribution_reconciles_annual_and_compounded():
@@ -55,7 +55,7 @@ def test_published_weights_risk_and_turnover_use_actual_continuity():
             assert float(r['purchases_pct'])==pytest.approx(float(r['sales_pct']),abs=1e-10)
     final=groups['VVAL',m.DATES[m.reviewed_through()+1],'PERIOD_END']
     assert {'PSSA3','CSMG3','SBSP3'}<={r['ticker'] for r in final}
-    assert all(float(r['one_way_turnover_pct'])==0 for r in m.read(m.RESULT/'turnover_by_year.csv') if r['variant']=='VVAL')
+    assert all(float(r['one_way_turnover_pct'])==0 for r in m.read(m.RESULT/'turnover_by_year.csv') if r['year']=='2014')
 
 def test_sensitivities_cover_each_issuer_without_silent_failed_series():
     rows=m.read(m.RESULT/'sensitivity_summary.csv');bycase={r['case']:r for r in rows}
@@ -66,18 +66,21 @@ def test_sensitivities_cover_each_issuer_without_silent_failed_series():
     failed={r['case'] for r in rows if r['periods']=='0'}
     for r in m.read(m.RESULT/'sensitivity_annual_pct.csv'):
         if r['case'] in failed:assert r['return_pct']=='' and r['cumulative_pct']==''
-    frozen=m.read(m.RESULT/'cumulative_returns_pct.csv')[m.reviewed_through()-2014]['V0']
+    frozen=m.read(m.RESULT/'annual_returns_pct.csv')[0]['V0']
     for case in ['VVAL_ALL_UNKNOWN_INCLUDED','VQ_ALL_UNKNOWN_INCLUDED']:
-        assert float(bycase[case]['final_pct'])==pytest.approx(float(frozen),abs=1e-10)
+        first=next(r for r in m.read(m.RESULT/'sensitivity_annual_pct.csv') if r['case']==case and r['year']=='2014')
+        assert float(first['return_pct'])==pytest.approx(float(frozen),abs=1e-10)
 
-def test_unresolved_full_nav_entry_never_liquidates_nonfail():
+def test_reference_entry_never_liquidates_nonfail():
     rows=json.loads((m.INPUT/'fundamental_decisions.json').read_text())
     ds={(r['year'],r['ticker']):r for r in rows}
-    # Synthetic decisions isolate the unchanged B2 funding guard from new reviews.
+    # Synthetic decisions isolate funding from the economic judgements.
     for r in ds.values():r['valuation_status']='PASS_MATURE' if r['year']==2014 and r['ticker'] in ['BBDC4','TBLE3'] else 'INDETERMINATE'
-    # A new Eletrobras candidate in 2024 would need 100% funding.
-    with pytest.raises(ValueError,match='UNRESOLVED_ENTRY_FUNDING_WOULD_LIQUIDATE_NONFAIL'):
-        m.simulate('VVAL',ds,include=lambda r,d:r['cnpj']=='00001180000126' and d['valuation_status']=='INDETERMINATE',end_year=2025)
+    # Former counterexample: a sole new entrant no longer requests 100% NAV.
+    run=m.simulate('VVAL',ds,include=lambda r,d:r['cnpj']=='00001180000126' and d['valuation_status']=='INDETERMINATE',end_year=2025)
+    assert run['funding']
+    for r in run['reviews']:
+        if r['before']>0 and r['base_status']!='FAIL':assert r['after']>0
 
 def test_excel_and_manifest_match_published_sources():
     import openpyxl
@@ -93,7 +96,7 @@ def test_excel_and_manifest_match_published_sources():
                 else:assert value==cell
     book.close()
     manifest=json.loads((m.RESULT/'manifest.json').read_text())
-    assert manifest['variants']==dict(V0=12,V10=12,VVAL=1,VQ=1)
+    assert manifest['variants']==dict(V0=12,V10=12,VVAL=m.reviewed_through()-2013,VQ=m.reviewed_through()-2013)
     for r in manifest['inputs']+manifest['outputs']:assert m.sha(m.ROOT/r['path'])==r['sha256']
 
 def test_dossiers_preserve_dates_and_all_six_dimensions():
