@@ -26866,397 +26866,533 @@
       "year": 2024,
       "cutoff": "2024-06-28",
       "ticker": "PSSA3",
-      "category": "INDETERMINATE",
+      "category": "QUALIFIED_SATISFACTORY",
       "special_case": "",
-      "assessment_ref": null,
-      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
-      "classification_changed": null,
-      "dimensions": {},
-      "dimension_evidence_updates": {
+      "assessment_ref": "02149205000169:2024",
+      "assessment_status": "ASSESSED",
+      "classification_changed": false,
+      "dimensions": {
         "durability": {
-          "favorable": "Gestão de Participações Societárias (holding)",
+          "status": "SATISFACTORY",
+          "reason": "Franquia de seguros/distribuição e carteira financeira 17,563 bi preservadas; saúde e serviços diversificam. Enchentes RS conhecidas em maio trazem risco catastrófico, sem usar valor de sinistros divulgado após corte.",
+          "favorable": "Franquia de seguros/distribuição e carteira financeira 17,563 bi preservadas; saúde e serviços diversificam. Enchentes RS conhecidas em maio trazem risco catastrófico, sem usar valor de sinistros divulgado após corte.",
+          "contrary_evidence": "Franquia de seguros/distribuição e carteira financeira 17,563 bi preservadas; saúde e serviços diversificam. Enchentes RS conhecidas em maio trazem risco catastrófico, sem usar valor de sinistros divulgado após corte.",
           "evidence": [
             {
-              "cnpj": "02149205000169",
-              "received": "2024-05-29",
-              "name": "PORTO SEGURO S.A.",
-              "sector": "Seguradoras e Corretoras",
-              "activity": "Gestão de Participações Societárias (holding)",
-              "cvm": "016659",
-              "docid": "138421",
-              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=138421"
+              "docid": "134284",
+              "group": 412,
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "received": "2024-02-27",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=134284",
+              "original": "review_originals/cvm_134284_g412.pdf.gz",
+              "original_sha256": "a3dc9be8cbd2d44fbe2bf478d88f5e765ec8fc35b7704c52f13c5272bfa886b0"
+            },
+            {
+              "docid": "137268",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                29
+              ],
+              "received": "2024-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=137268",
+              "original": "review_originals/cvm_137268_g192.pdf.gz",
+              "original_sha256": "d52eec0443ce1abfb3390be4f738339bea40e888e68d32d43ab8e33b86e473ab"
+            }
+          ],
+          "prior_year": 2023,
+          "review_2015": "Sem alteração material desta dimensão após confronto da tese anterior com os fatos descritos na atualização de 2015. Lucroatribuível2014 de875,829mi; ganho2013 removido. LPAbásico2010/14 calculado com327,642/323,293milhões de ações resultaCAGRreal2,90535%, abaixo4%. No1T15 índicecombinado97,3%, excedentegarantias570,416mi.",
+          "review_2016": "Frota5,2milhões e receitas de seguros diversificadas preservam franquia/corretores; recessão e sinistros de saúde/auto pioram1T16 e são contrapontos explícitos.",
+          "review_2017": "Frota5,5milhões em2016; franquia de corretores e diversificação preservadas. Prêmiosauto−3% no1T17 e roubos pressionam preço/margem, sem perda comprovada da franquia.",
+          "review_2018": "Prêmios crescem7% e outros negócios14%; franquia de corretores e automóveis é mantida. Conecta segue pressionando serviços, sem perda da franquia de seguros comprovada.",
+          "review_2019": "Frota segurada+6% e 35 milcorretores sustentam a franquia, mesmo prêmios estáveis e mais competição. CooperaçãoTravelers ealiançaAIG são distinguidas de lucro realizado; mantém SAT.",
+          "review_2020": "Franquia diversificada de seguros, serviços e crédito continua: receita4,5bi+3,7%, prêmios3,7bi+2,3% e negóciosfinanceiros715mi+15,4%; COVID exige acompanhamento, não elimina demanda recorrente.",
+          "review_2021": "Seguros, serviços ecrédito mantêm franquias com demanda recorrente. NovoPetlove13,5% dependiaCADE; tecnologia/novosprodutos não são receitas antecipadas. MantémSAT.",
+          "review_2022": "SAT: franquia auto/saúde/serviços/crédito permanece; recomposição de prêmios anunciada é ação presente, não recuperação futura de margem já comprovada.",
+          "review_2023": "SAT: franquia12,7milhõesclientes,auto5,7milhõesveículos−0,5%; prêmioauto+25,5% reflete recomposiçãodepreço. Serviços desmembrados emPortoAssistência e quatroverticais mudam apresentação, não extinção dafranquia.",
+          "missing": "",
+          "review_2024": "Franquia de seguros/distribuição e carteira financeira 17,563 bi preservadas; saúde e serviços diversificam. Enchentes RS conhecidas em maio trazem risco catastrófico, sem usar valor de sinistros divulgado após corte."
+        },
+        "capital_economics": {
+          "status": "SATISFACTORY",
+          "reason": "Lucro 651 mi, ROAE 20,9% com patrimônio médio 12,4602 bi; combinado seguros 88,9% e sinistralidade auto 56,2% frente 61,5% na mesma base. ROE Porto Bank usa capital regulatório requerido 2,2248 bi, não patrimônio consolidado.",
+          "favorable": "Lucro 651 mi, ROAE 20,9% com patrimônio médio 12,4602 bi; combinado seguros 88,9% e sinistralidade auto 56,2% frente 61,5% na mesma base. ROE Porto Bank usa capital regulatório requerido 2,2248 bi, não patrimônio consolidado.",
+          "contrary_evidence": "Lucro 651 mi, ROAE 20,9% com patrimônio médio 12,4602 bi; combinado seguros 88,9% e sinistralidade auto 56,2% frente 61,5% na mesma base. ROE Porto Bank usa capital regulatório requerido 2,2248 bi, não patrimônio consolidado.",
+          "evidence": [
+            {
+              "docid": "134284",
+              "group": 412,
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "received": "2024-02-27",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=134284",
+              "original": "review_originals/cvm_134284_g412.pdf.gz",
+              "original_sha256": "a3dc9be8cbd2d44fbe2bf478d88f5e765ec8fc35b7704c52f13c5272bfa886b0"
+            },
+            {
+              "docid": "137268",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                29
+              ],
+              "received": "2024-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=137268",
+              "original": "review_originals/cvm_137268_g192.pdf.gz",
+              "original_sha256": "d52eec0443ce1abfb3390be4f738339bea40e888e68d32d43ab8e33b86e473ab"
+            }
+          ],
+          "prior_year": 2023,
+          "review_2015": "Lucroatribuível2014 de875,829mi; ganho2013 removido. LPAbásico2010/14 calculado com327,642/323,293milhões de ações resultaCAGRreal2,90535%, abaixo4%. No1T15 índicecombinado97,3%, excedentegarantias570,416mi.",
+          "review_2016": "Índice combinado98,9% ainda indica subscrição equilibrada, mas piora1,5pp; ROAEgerencial16,8% não é ROE ajustado nem licença para prêmio15–25. A tese madura anterior se mantém.",
+          "review_2017": "Combinado99,1% em2016 e1T17; ROAEgerencial15,5%/13,8% com menor juro, sem substituir retorno ajustado. Resultado operacional1T17+22% e subscrição próxima de equilíbrio sustentam a tese madura, não um prêmio15–25.",
+          "review_2018": "Combinado93,5% e resultado operacional de seguros R$247,2 mi compensam redução de23% do financeiro. Mantém SAT da economia madura; ROAE gerencial15,9% não é convertido em prêmio de reinvestimento.",
+          "review_2019": "Combinado 95,2% piora 2 pp por enchentes e perdas parciais, mas permanece abaixo da média dos cinco primeiros trimestres; resultadooperacional de seguros 172,9 mi efinanceiro 271,1 mi são separados. Mantém SAT da economia madura, sem HIGH ou prêmio por ROAE17,6%trimestral.",
+          "review_2020": "Resultado técnico melhora: índice combinado94,1%−1,1pp e sinistralidade52,6%−1,5pp; operacional421mi+52%. ROAE12,3% com resultadofinanceiro−1,5mi não é anualização de um trimestre nem retorno hipotético19,4% após retirada do excesso de capital. MantémSAT do modelo de subscrição comprovado.",
+          "review_2021": "Índice combinado recorrente/ajustado92,3% (exclui despesasCOVID indicadas noapêndice) /sinistralidade50,5% e série2016–20 combinados99,1/96,7/92,2/94,5/90,1 sustentam economia de subscrição. ROAEobservado14,7%, não proforma20,2%semexcessocapital. COVID reduz sinistrosauto e retornofinanceiro488%CDIé atípico; contrapontos não invalidam histórico. MantémSAT.",
+          "review_2022": "SAT histórico mantido com deterioração explícita: combinado99,2%total/99,5%seguros,auto65,3%sinistros+15,1pp eROAE7,5%. Série anterior de subscrição e comparação Jan/Fev mercado75,2%exPorto versus68,3%Porto suportam franquia, sem comparar essesdoismeses como se fossemtrimestre. Um trimestre fraco não prova fragilidade estrutural.",
+          "review_2023": "SAT com recuperação demonstrada: lucro332,8mi/ROAE12,4%,combinadoSeguros91,1%versus99,8%; auto58,7%vs66,9% na novabase. Reclassificaçãoassistência exigeponte p9, não comparar mecanicamente com65,3%publicadoanteriormente.",
+          "missing": "",
+          "review_2024": "Lucro 651 mi, ROAE 20,9% com patrimônio médio 12,4602 bi; combinado seguros 88,9% e sinistralidade auto 56,2% frente 61,5% na mesma base. ROE Porto Bank usa capital regulatório requerido 2,2248 bi, não patrimônio consolidado."
+        },
+        "earnings_reliability": {
+          "status": "SATISFACTORY",
+          "reason": "IFRS17 adotado agora: Q1 lucro ex-IFRS17 658 menos 7 =651 mi; comparativo 332,8+9,4=342,2 mi. Reapresentação posterior não reescreve decisão ou retorno aceito de 2023.",
+          "favorable": "IFRS17 adotado agora: Q1 lucro ex-IFRS17 658 menos 7 =651 mi; comparativo 332,8+9,4=342,2 mi. Reapresentação posterior não reescreve decisão ou retorno aceito de 2023.",
+          "contrary_evidence": "IFRS17 adotado agora: Q1 lucro ex-IFRS17 658 menos 7 =651 mi; comparativo 332,8+9,4=342,2 mi. Reapresentação posterior não reescreve decisão ou retorno aceito de 2023.",
+          "evidence": [
+            {
+              "docid": "134284",
+              "group": 412,
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "received": "2024-02-27",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=134284",
+              "original": "review_originals/cvm_134284_g412.pdf.gz",
+              "original_sha256": "a3dc9be8cbd2d44fbe2bf478d88f5e765ec8fc35b7704c52f13c5272bfa886b0"
+            },
+            {
+              "docid": "137268",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                29
+              ],
+              "received": "2024-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=137268",
+              "original": "review_originals/cvm_137268_g192.pdf.gz",
+              "original_sha256": "d52eec0443ce1abfb3390be4f738339bea40e888e68d32d43ab8e33b86e473ab"
+            }
+          ],
+          "prior_year": 2023,
+          "review_2015": "Lucroatribuível2014 de875,829mi; ganho2013 removido. LPAbásico2010/14 calculado com327,642/323,293milhões de ações resultaCAGRreal2,90535%, abaixo4%. No1T15 índicecombinado97,3%, excedentegarantias570,416mi.",
+          "review_2016": "Retira dos limites o efeito COFINS2014 e não usa lucro gerencial1.009,1mi no lugar do atribuível1.001,517mi. PAT2015 é ganho não recorrente identificado; resultados financeiros353mi no1T16 não são anualizados.",
+          "review_2017": "Separa lucro gerencial923mi de NIatribuível e ganhos fiscais antigos; resultado financeiro1T17 de306mi caiu13%. Crédito4,9%atraso90dias, cobertura117,2%; não extrapola retorno financeiro nem ignora deterioraçãoauto.",
+          "review_2018": "Distingue lucro R$276,1 mi com business combination de R$278 mi gerenciais e ganho líquido IRB2017 R$126 mi. Mudança CAD é explicitamente reconciliada, sem alteração do combinado. Mantém SAT da transparência.",
+          "review_2019": "DFP identifica vendaPortomed: ganho bruto 44,929 mi; Conecta: impairment 84,316 mi e receita de migração variável. ITR compara lucros com/semPPA297,7/299,6 mi. Mantém SAT pela reconciliação, sem adicionar perdas ou capitalizar todo ganho como recorrente.",
+          "review_2020": "Lucro228mi−23,8% é explicado por mercado financeiro e contraposto à melhora técnica; resultado semBusinessCombination tem ponte, ganhoIRB126mi do comparativo é separado, DPVATpassa apresentação líquida. MantémSAT sem transportar lucro ajustado para valuation como cinco exercícios normalizados.",
+          "review_2021": "Lucro296,6mi semBusinessCombination compara com228,4mi ou199,1mi recorrente; alienaçãoalarme29,3mi no1T20 é separada. Série de lucro/técnico/financeiro permite conciliação. MantémSAT. Desde março2021, refinamento IFRS9 altera accrual de juros e baixa de360dias para1.890(cartão)/1.620(CDC). O relatório publica comparação sem mudança: carteira10,334bi, perdas/PDD95mi e cobertura123,8%; os novos indicadores não provam sozinhos melhora econômica. Transparência e ponte sustentamSAT, com alerta explícito.",
+          "review_2022": "SAT: lucrorecorrente175,1mi−40,6% separado do ganhoSELICIRCS241mi líquidoPLR no4T21 e custoINSSPLR150,7mi. CoberturaPCLD119%vs149% usa definição desde2T21 comcréditosaté360dias; não repete123,8%de2021 como comparação homogênea.",
+          "review_2023": "SAT: reconciliaçãoverticais/societário p26 mantémmesmo lucro332,8mi; despesascréditodiferentes porclassificação de descontos. CPC50ainda não aplicado noITR contemporâneo poropçãopermitida naCVM09/05/2023; comparativos só seriamreapresentados comDFP2023, vedado usá-los neste corte.",
+          "missing": "",
+          "review_2024": "IFRS17 adotado agora: Q1 lucro ex-IFRS17 658 menos 7 =651 mi; comparativo 332,8+9,4=342,2 mi. Reapresentação posterior não reescreve decisão ou retorno aceito de 2023."
+        },
+        "financial_resilience": {
+          "status": "SATISFACTORY",
+          "reason": "Gráfico original: PLA 10,102 bi, necessidade 6,692 bi e excedente 3,410 bi. NPL 90–360 dias 6,5% contra 7,5%, cobertura 128% e 76% dos empréstimos garantidos. Cartões 15 bi e enchentes contrapõem melhora; perdas específicas ainda não quantificadas no corte.",
+          "favorable": "Gráfico original: PLA 10,102 bi, necessidade 6,692 bi e excedente 3,410 bi. NPL 90–360 dias 6,5% contra 7,5%, cobertura 128% e 76% dos empréstimos garantidos. Cartões 15 bi e enchentes contrapõem melhora; perdas específicas ainda não quantificadas no corte.",
+          "contrary_evidence": "Gráfico original: PLA 10,102 bi, necessidade 6,692 bi e excedente 3,410 bi. NPL 90–360 dias 6,5% contra 7,5%, cobertura 128% e 76% dos empréstimos garantidos. Cartões 15 bi e enchentes contrapõem melhora; perdas específicas ainda não quantificadas no corte.",
+          "evidence": [
+            {
+              "docid": "134284",
+              "group": 412,
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "received": "2024-02-27",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=134284",
+              "original": "review_originals/cvm_134284_g412.pdf.gz",
+              "original_sha256": "a3dc9be8cbd2d44fbe2bf478d88f5e765ec8fc35b7704c52f13c5272bfa886b0"
+            },
+            {
+              "docid": "137268",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                29
+              ],
+              "received": "2024-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=137268",
+              "original": "review_originals/cvm_137268_g192.pdf.gz",
+              "original_sha256": "d52eec0443ce1abfb3390be4f738339bea40e888e68d32d43ab8e33b86e473ab"
+            }
+          ],
+          "prior_year": 2023,
+          "review_2015": "Lucroatribuível2014 de875,829mi; ganho2013 removido. LPAbásico2010/14 calculado com327,642/323,293milhões de ações resultaCAGRreal2,90535%, abaixo4%. No1T15 índicecombinado97,3%, excedentegarantias570,416mi.",
+          "review_2016": "PLA de seguradoras3.932mi versus necessidade3.050mi; negócios financeiros591mi versus473mi, ambos com excedente. Holding754mi é separada e não substitui capital prudencial das seguradoras.",
+          "review_2017": "Notas1T17 afirmam capital acima dos mínimos e conciliam ativos garantidores10.156,538mi, necessidadeprovisões9.014,534mi e liquidez570,290mi: excedente571,714mi. Excedente técnico distinto do capitalprudencial, ambos documentados.",
+          "review_2018": "Capital acima dos mínimos regulatórios e ativos garantidores R$11.153,443 mi frente necessidade R$9.985,459 mi mais liquidez R$469,098 mi geram excedente técnico R$698,886 mi. Mantém SAT e distingue garantia de capital prudencial.",
+          "review_2019": "Ativos garantidores 12.129,574 mi cobrem necessidade 10.688,334 mi mais liquidez 481,845 mi, excedente 959,395 mi. Mantém SAT e distingue cobertura de provisões de capital prudencial, reaproveitando a revisão prévia de reservas.",
+          "review_2020": "Suficiência regulatória de capital apresentada por segmento, resultado técnico positivo e provisões de crédito acompanham choqueCOVID; mantémSAT do dossiê prudencial, sem supor rendimento financeiro normalizado como caixa disponível. Cobertura de vidaCOVID explicitada nas condições dos contratos.",
+          "review_2021": "Capitalregulatório: seguradorasPLA3,454bi/necessidade3,156bi, financeiras1,196bi/1,033bi; holdingPLA7,010bi/necessidade4,189bi. NPL4%vs4,8% e carteira10,4bi têm mudançaIFRS9; utiliza também cobertura proforma123,8% e perdas95mi sem mudança, explicitadas na dimensão de confiabilidade. MantémSAT, sem confundir capitalexcedente com receita.",
+          "review_2022": "SAT: PLAseguradoras4,022bi/necessidade3,592bi;financeiras1,619bi/1,367bi; holding939mi, suficiênciatotal1,621bi1T22. NPL90dias6,2%vs4,0% ecarteira13,510bi+30% são contrapontos concretos. Capital cobre exigência atual, não impede perdas futuras.",
+          "review_2023": "SAT: PLA8,350bi/necessidade6,068bi/suficiência2,282bi na figura contemporânea. NPL>90dias7,5%/mercado8,3% e cobertura120% comdefiniçãoaté360dias; carteira16,512bi+22,2% e custo do risco93% são contrapontos. Não transportaantigoíndice6,2%como comparaçãohomogênea;2023reclassifica série1T22para5,6%.",
+          "missing": "",
+          "review_2024": "Gráfico original: PLA 10,102 bi, necessidade 6,692 bi e excedente 3,410 bi. NPL 90–360 dias 6,5% contra 7,5%, cobertura 128% e 76% dos empréstimos garantidos. Cartões 15 bi e enchentes contrapõem melhora; perdas específicas ainda não quantificadas no corte."
+        },
+        "capital_allocation": {
+          "status": "SATISFACTORY",
+          "reason": "CAPEX 54 mi frente 75 mi e renovação de sistemas acompanham melhoria de subscrição, crédito e cobertura. Expansão saúde e risco catastrófico exigem acompanhamento; melhora efetiva sustenta classificação anterior.",
+          "favorable": "CAPEX 54 mi frente 75 mi e renovação de sistemas acompanham melhoria de subscrição, crédito e cobertura. Expansão saúde e risco catastrófico exigem acompanhamento; melhora efetiva sustenta classificação anterior.",
+          "contrary_evidence": "CAPEX 54 mi frente 75 mi e renovação de sistemas acompanham melhoria de subscrição, crédito e cobertura. Expansão saúde e risco catastrófico exigem acompanhamento; melhora efetiva sustenta classificação anterior.",
+          "evidence": [
+            {
+              "docid": "134284",
+              "group": 412,
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "received": "2024-02-27",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=134284",
+              "original": "review_originals/cvm_134284_g412.pdf.gz",
+              "original_sha256": "a3dc9be8cbd2d44fbe2bf478d88f5e765ec8fc35b7704c52f13c5272bfa886b0"
+            },
+            {
+              "docid": "137268",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                29
+              ],
+              "received": "2024-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=137268",
+              "original": "review_originals/cvm_137268_g192.pdf.gz",
+              "original_sha256": "d52eec0443ce1abfb3390be4f738339bea40e888e68d32d43ab8e33b86e473ab"
+            }
+          ],
+          "prior_year": 2023,
+          "review_2015": "Lucroatribuível2014 de875,829mi; ganho2013 removido. LPAbásico2010/14 calculado com327,642/323,293milhões de ações resultaCAGRreal2,90535%, abaixo4%. No1T15 índicecombinado97,3%, excedentegarantias570,416mi.",
+          "review_2016": "CAPEX1T16 de79,9mi reduz5,7%, com sistemas e sucursais identificados; novos negócios têmROAE13,6% em2015. Mantém qualidade madura sem presumir sucesso dos negócios em implantação nem exigir distribuição excessiva.",
+          "review_2017": "Eficiência administrativa1%despesascrescimento2016 e investimentos em sistemas preservam a política anterior; novos negócios crescem8%, mas não se presume retorno incremental certificado nem payout alto obrigatório.",
+          "review_2018": "Recomposição de preços auto melhorou subscrição; negócios menos maduros continuam separados e sujeitos a perdas. Mantém SAT da disciplina anterior, sem presumir que o desempenho de um trimestre certifique toda expansão.",
+          "review_2019": "EncerramentoConecta reconhece perda 84,316 mi e interrompe expansão deficitária; desinvestimentoPortomed 50 mi e crédito cominadimplência 90 dias 5,6% explicitam custo/benefício. Mantém SAT da disciplina, sem apagar perda ou presumir toda receita futura de migração.",
+          "review_2020": "CAPEX87,5% em sistemas/licenças/hardware suporta franquia, com evolução operacional positiva e negócios diversificados; distribuição e capital regulatório são confrontados no dossiê anterior. MantémSAT, sem considerar retorno financeiro atípico como produtividade doCAPEX.",
+          "review_2021": "CAPEX93mi1T21,92%em sistemas/licenças/hardware; série2016–20 417/414/264/214/329mi sustenta franquia com resultado técnico crescente. Payout e aquisiçãoPetlove ponderados; não exigeCAPEXalto paraqualificar pagadora. MantémSAT.",
+          "review_2022": "SAT mantido: CAPEX92mi1T22 versus93mi direcionado a sistemas/canais e operação, com aquisiçãoNido. AcordoINSSreduz contingência>400mi mediante custo150,7mi. Expansão do crédito/menor cobertura requer acompanhamento; não presume recomposição futura de lucro.",
+          "review_2023": "SAT: recomposição de subscrição constatada, CAPEX75mi versus92mi,sistemasIFRS17/canais. Crédito novo80%clientesrelacionados e80%empréstimoscomgarantia sãofatosfavoráveis, sem supor inadimplênciafutura recuperada. Expansão/cartões continua riscoexplícito.",
+          "missing": "",
+          "review_2024": "CAPEX 54 mi frente 75 mi e renovação de sistemas acompanham melhoria de subscrição, crédito e cobertura. Expansão saúde e risco catastrófico exigem acompanhamento; melhora efetiva sustenta classificação anterior."
+        },
+        "governance": {
+          "status": "SATISFACTORY",
+          "reason": "Conciliações IFRS17 e denominador ROE bancário explícitos; direitos e relações de distribuição reutilizados. Transparência distingue risco climático conhecido de estimativas posteriores, sem afirmar ausência de perdas.",
+          "favorable": "Conciliações IFRS17 e denominador ROE bancário explícitos; direitos e relações de distribuição reutilizados. Transparência distingue risco climático conhecido de estimativas posteriores, sem afirmar ausência de perdas.",
+          "contrary_evidence": "Conciliações IFRS17 e denominador ROE bancário explícitos; direitos e relações de distribuição reutilizados. Transparência distingue risco climático conhecido de estimativas posteriores, sem afirmar ausência de perdas.",
+          "evidence": [
+            {
+              "docid": "134284",
+              "group": 412,
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "received": "2024-02-27",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=134284",
+              "original": "review_originals/cvm_134284_g412.pdf.gz",
+              "original_sha256": "a3dc9be8cbd2d44fbe2bf478d88f5e765ec8fc35b7704c52f13c5272bfa886b0"
+            },
+            {
+              "docid": "137268",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                29
+              ],
+              "received": "2024-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=137268",
+              "original": "review_originals/cvm_137268_g192.pdf.gz",
+              "original_sha256": "d52eec0443ce1abfb3390be4f738339bea40e888e68d32d43ab8e33b86e473ab"
+            }
+          ],
+          "prior_year": 2023,
+          "review_2015": "Sem alteração material desta dimensão após confronto da tese anterior com os fatos descritos na atualização de 2015. Lucroatribuível2014 de875,829mi; ganho2013 removido. LPAbásico2010/14 calculado com327,642/323,293milhões de ações resultaCAGRreal2,90535%, abaixo4%. No1T15 índicecombinado97,3%, excedentegarantias570,416mi.",
+          "review_2016": "A nota de partes relacionadas e controles prudenciais mantém rastreabilidade sob a estrutura societária anterior; litígios fiscais são divulgados, sem tratar a mera disputa como abuso.",
+          "review_2017": "Estrutura de controle e divulgação mantida; notas de riscos/partes relacionadas e reconciliação prudencial sustentam SAT anterior, com conflitos de controlador e tributos ainda explicitados.",
+          "review_2018": "Notas atuais de risco e partes relacionadas mantêm mecanismos e contrapontos de controle já avaliados. Alienação do IRB é divulgada e não confundida com resultado ordinário. Mantém SAT.",
+          "review_2019": "RelaçãoItaú/distribuição e mecanismos prévios permanecem; migração das marcas e alienações são divulgadas com condições. Mantém SAT com conflito do controlador e risco de execução explícitos.",
+          "review_2020": "Informações identificam mudançaDPVAT, ganhoIRB e efeitos de aquisições; preservaSAT anterior de controles e tratamento das relações comItaú. Nada nas mudanças materiais examinadas invalida a tese, sem exigir prova universal de inexistência de litígios.",
+          "review_2021": "MantémSAT anterior, com mudanças de perímetro/recorrência explicitadas; relaçãoItaú permanece contraponto conhecido. Não exige certificado universal de ausência de litígios.",
+          "review_2022": "SAT: operações e mudanças deprovisão/extraordinários explicitadas, relaçãoItaú e novos negócios já ponderados. Bonificação1:1 em20/10/2021 altera647milhõesaproximados de ações sem emissão paga/diluição econômica.",
+          "review_2023": "SAT: pontes da reorganização/divulgação CPC50 e relaçõesItaúexplicitadas; captaçãoPortoseg1,046414bi custo38,204mi revelado. Não confunde rebateintercompany comreceitaexterna nemtransfere futuraadoçãoIFRS17 ao passado.",
+          "missing": "",
+          "review_2024": "Conciliações IFRS17 e denominador ROE bancário explícitos; direitos e relações de distribuição reutilizados. Transparência distingue risco climático conhecido de estimativas posteriores, sem afirmar ausência de perdas."
+        }
+      },
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "Franquia de seguros/distribuição e carteira financeira 17,563 bi preservadas; saúde e serviços diversificam. Enchentes RS conhecidas em maio trazem risco catastrófico, sem usar valor de sinistros divulgado após corte.",
+          "evidence": [
+            {
+              "docid": "134284",
+              "group": 412,
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "received": "2024-02-27",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=134284",
+              "original": "review_originals/cvm_134284_g412.pdf.gz",
+              "original_sha256": "a3dc9be8cbd2d44fbe2bf478d88f5e765ec8fc35b7704c52f13c5272bfa886b0"
+            },
+            {
+              "docid": "137268",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                29
+              ],
+              "received": "2024-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=137268",
+              "original": "review_originals/cvm_137268_g192.pdf.gz",
+              "original_sha256": "d52eec0443ce1abfb3390be4f738339bea40e888e68d32d43ab8e33b86e473ab"
             }
           ]
         },
         "capital_economics": {
-          "favorable": {
-            "roe_parent_5": [
-              0.17332905420253983,
-              0.19546873001788487,
-              0.16814399559498922,
-              0.11465626459798706,
-              0.1976086909319881
-            ],
-            "normalized_profit": 1795559814.349606
-          },
+          "favorable": "Lucro 651 mi, ROAE 20,9% com patrimônio médio 12,4602 bi; combinado seguros 88,9% e sinistralidade auto 56,2% frente 61,5% na mesma base. ROE Porto Bank usa capital regulatório requerido 2,2248 bi, não patrimônio consolidado.",
           "evidence": [
             {
-              "fiscal_year": 2019,
-              "metric": "attributable_ni",
-              "value": 1379083000.0,
-              "docid": "100458",
-              "received": "2021-02-25",
-              "reference": "2020-12-31",
-              "period_end": "2019-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2020.csv",
-              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
-            },
-            {
-              "fiscal_year": 2020,
-              "metric": "attributable_ni",
-              "value": 1688191000.0,
-              "docid": "111606",
-              "received": "2022-02-07",
-              "reference": "2021-12-31",
-              "period_end": "2020-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2021.csv",
-              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
-            },
-            {
-              "fiscal_year": 2021,
-              "metric": "attributable_ni",
-              "value": 1544249000.0,
-              "docid": "123439",
-              "received": "2023-02-09",
-              "reference": "2022-12-31",
-              "period_end": "2021-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2022.csv",
-              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
-            },
-            {
-              "fiscal_year": 2022,
-              "metric": "attributable_ni",
-              "value": 1139971000.0,
               "docid": "134284",
+              "group": 412,
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
               "received": "2024-02-27",
-              "reference": "2023-12-31",
-              "period_end": "2022-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=134284",
+              "original": "review_originals/cvm_134284_g412.pdf.gz",
+              "original_sha256": "a3dc9be8cbd2d44fbe2bf478d88f5e765ec8fc35b7704c52f13c5272bfa886b0"
             },
             {
-              "fiscal_year": 2023,
-              "metric": "attributable_ni",
-              "value": 2266149000.0,
-              "docid": "134284",
-              "received": "2024-02-27",
-              "reference": "2023-12-31",
-              "period_end": "2023-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+              "docid": "137268",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                29
+              ],
+              "received": "2024-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=137268",
+              "original": "review_originals/cvm_137268_g192.pdf.gz",
+              "original_sha256": "d52eec0443ce1abfb3390be4f738339bea40e888e68d32d43ab8e33b86e473ab"
             }
           ]
         },
         "earnings_reliability": {
-          "favorable": {
-            "positive_attributable_years": 5,
-            "audit_records": 6
-          },
+          "favorable": "IFRS17 adotado agora: Q1 lucro ex-IFRS17 658 menos 7 =651 mi; comparativo 332,8+9,4=342,2 mi. Reapresentação posterior não reescreve decisão ou retorno aceito de 2023.",
           "evidence": [
             {
               "docid": "134284",
+              "group": 412,
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
               "received": "2024-02-27",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=134284",
+              "original": "review_originals/cvm_134284_g412.pdf.gz",
+              "original_sha256": "a3dc9be8cbd2d44fbe2bf478d88f5e765ec8fc35b7704c52f13c5272bfa886b0"
             },
             {
-              "docid": "134284",
-              "received": "2024-02-27",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134284",
-              "received": "2024-02-27",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134284",
-              "received": "2024-02-27",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134284",
-              "received": "2024-02-27",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134284",
-              "received": "2024-02-27",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+              "docid": "137268",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                29
+              ],
+              "received": "2024-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=137268",
+              "original": "review_originals/cvm_137268_g192.pdf.gz",
+              "original_sha256": "d52eec0443ce1abfb3390be4f738339bea40e888e68d32d43ab8e33b86e473ab"
             }
           ]
         },
         "financial_resilience": {
-          "favorable": {
-            "parent_equity_latest": 12415262000.0
-          },
+          "favorable": "Gráfico original: PLA 10,102 bi, necessidade 6,692 bi e excedente 3,410 bi. NPL 90–360 dias 6,5% contra 7,5%, cobertura 128% e 76% dos empréstimos garantidos. Cartões 15 bi e enchentes contrapõem melhora; perdas específicas ainda não quantificadas no corte.",
           "evidence": [
             {
               "docid": "134284",
+              "group": 412,
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
               "received": "2024-02-27",
-              "reference": "2023-12-31",
-              "period_end": "2023-12-31",
-              "perimeter": "ind",
-              "account": "2.03",
-              "description": "Patrimônio Líquido",
-              "source": "dfp_cia_aberta_BPP_ind_2023.csv",
-              "archive_sha256": "",
-              "url": ""
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=134284",
+              "original": "review_originals/cvm_134284_g412.pdf.gz",
+              "original_sha256": "a3dc9be8cbd2d44fbe2bf478d88f5e765ec8fc35b7704c52f13c5272bfa886b0"
+            },
+            {
+              "docid": "137268",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                29
+              ],
+              "received": "2024-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=137268",
+              "original": "review_originals/cvm_137268_g192.pdf.gz",
+              "original_sha256": "d52eec0443ce1abfb3390be4f738339bea40e888e68d32d43ab8e33b86e473ab"
             }
           ]
         },
         "capital_allocation": {
-          "favorable": {
-            "historical_payout": [
-              0.5254,
-              0.5265,
-              0.4279,
-              null,
-              null
-            ],
-            "distributions": [
-              689541435.38,
-              844095500.09,
-              629500024.81,
-              null,
-              null
-            ]
-          },
+          "favorable": "CAPEX 54 mi frente 75 mi e renovação de sistemas acompanham melhoria de subscrição, crédito e cobertura. Expansão saúde e risco catastrófico exigem acompanhamento; melhora efetiva sustenta classificação anterior.",
           "evidence": [
             {
-              "docid": "126960",
-              "received": "2023-05-17",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
-              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=126960",
-              "fiscal_year": 2019,
-              "raw": {
-                "CNPJ_Companhia": "02.149.205/0001-69",
-                "Data_Referencia": "2022-01-01",
-                "Versao": "9",
-                "ID_Documento": "126960",
-                "Nome_Companhia": "PORTO SEGURO S.A.",
-                "Data_Inicio_Exercicio_Social": "2019-01-01",
-                "Data_Fim_Exercicio_Social": "2019-12-31",
-                "Lucro_Liquido_Ajustado": "1312494829.48",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "8.34000000",
-                "Lucro_Liquido_Retido": "689541435.38",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "52.54000000",
-                "Dividendo_Distribuido_Total": "689541435.38",
-                "Data_Aprovacao_Retencao": "2020-03-31"
-              }
+              "docid": "134284",
+              "group": 412,
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "received": "2024-02-27",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=134284",
+              "original": "review_originals/cvm_134284_g412.pdf.gz",
+              "original_sha256": "a3dc9be8cbd2d44fbe2bf478d88f5e765ec8fc35b7704c52f13c5272bfa886b0"
             },
             {
-              "docid": "126960",
-              "received": "2023-05-17",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
-              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=126960",
-              "fiscal_year": 2020,
-              "raw": {
-                "CNPJ_Companhia": "02.149.205/0001-69",
-                "Data_Referencia": "2022-01-01",
-                "Versao": "9",
-                "ID_Documento": "126960",
-                "Nome_Companhia": "PORTO SEGURO S.A.",
-                "Data_Inicio_Exercicio_Social": "2020-01-01",
-                "Data_Fim_Exercicio_Social": "2020-12-31",
-                "Lucro_Liquido_Ajustado": "1603190454.41",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "9.41000000",
-                "Lucro_Liquido_Retido": "844095500.09",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "52.65000000",
-                "Dividendo_Distribuido_Total": "844095500.09",
-                "Data_Aprovacao_Retencao": "2021-03-31"
-              }
-            },
-            {
-              "docid": "126960",
-              "received": "2023-05-17",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
-              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=126960",
-              "fiscal_year": 2021,
-              "raw": {
-                "CNPJ_Companhia": "02.149.205/0001-69",
-                "Data_Referencia": "2022-01-01",
-                "Versao": "9",
-                "ID_Documento": "126960",
-                "Nome_Companhia": "PORTO SEGURO S.A.",
-                "Data_Inicio_Exercicio_Social": "2021-01-01",
-                "Data_Fim_Exercicio_Social": "2021-12-31",
-                "Lucro_Liquido_Ajustado": "1471083735.75",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "6.72000000",
-                "Lucro_Liquido_Retido": "914749088.21",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "42.79000000",
-                "Dividendo_Distribuido_Total": "629500024.81",
-                "Data_Aprovacao_Retencao": "2022-03-31"
-              }
+              "docid": "137268",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                29
+              ],
+              "received": "2024-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=137268",
+              "original": "review_originals/cvm_137268_g192.pdf.gz",
+              "original_sha256": "d52eec0443ce1abfb3390be4f738339bea40e888e68d32d43ab8e33b86e473ab"
             }
           ]
         },
         "governance": {
-          "favorable": {
-            "dated_shareholder_right_records": 13,
-            "dated_related_party_records": 412
-          },
+          "favorable": "Conciliações IFRS17 e denominador ROE bancário explícitos; direitos e relações de distribuição reutilizados. Transparência distingue risco climático conhecido de estimativas posteriores, sem afirmar ausência de perdas.",
           "evidence": [
             {
               "docid": "134284",
+              "group": 412,
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
               "received": "2024-02-27",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=134284",
+              "original": "review_originals/cvm_134284_g412.pdf.gz",
+              "original_sha256": "a3dc9be8cbd2d44fbe2bf478d88f5e765ec8fc35b7704c52f13c5272bfa886b0"
             },
             {
-              "docid": "134284",
-              "received": "2024-02-27",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134284",
-              "received": "2024-02-27",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134284",
-              "received": "2024-02-27",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134284",
-              "received": "2024-02-27",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134284",
-              "received": "2024-02-27",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+              "docid": "137268",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                29
+              ],
+              "received": "2024-05-14",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=137268",
+              "original": "review_originals/cvm_137268_g192.pdf.gz",
+              "original_sha256": "d52eec0443ce1abfb3390be4f738339bea40e888e68d32d43ab8e33b86e473ab"
             }
           ]
         }

@@ -3838,491 +3838,651 @@
       "ticker": "SANB4",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": null,
-      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
-      "classification_changed": null,
-      "dimensions": {},
-      "dimension_evidence_updates": {
+      "assessment_ref": "90400888000142:2024",
+      "assessment_status": "ASSESSED",
+      "classification_changed": false,
+      "dimensions": {
         "durability": {
-          "favorable": "Banco Múltiplo com Carteira Comercial",
+          "status": "SATISFACTORY",
+          "reason": "Franquia bancária nacional preservada com crédito440,324bi e funding857,861bi na base administrativa. Ajuste de portfólio para melhor rating/garantias contrapõe risco atacado/varejo.",
+          "favorable": "Franquia bancária nacional preservada com crédito440,324bi e funding857,861bi na base administrativa. Ajuste de portfólio para melhor rating/garantias contrapõe risco atacado/varejo.",
+          "contrary_evidence": "Franquia bancária nacional preservada com crédito440,324bi e funding857,861bi na base administrativa. Ajuste de portfólio para melhor rating/garantias contrapõe risco atacado/varejo.",
+          "missing": "",
           "evidence": [
             {
-              "cnpj": "90400888000142",
-              "received": "2023-04-03",
-              "name": "BCO SANTANDER (BRASIL) S.A.",
-              "sector": "Bancos",
-              "activity": "Banco Múltiplo com Carteira Comercial",
-              "cvm": "020532",
-              "docid": "124955",
-              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=124955"
+              "docid": "134144",
+              "group": 412,
+              "pages": [
+                60,
+                109,
+                132,
+                149,
+                153,
+                158,
+                170,
+                175,
+                176
+              ],
+              "received": "2024-02-20",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=134144",
+              "original": "review_originals/cvm_134144_g412.pdf.gz",
+              "original_sha256": "8c981447b04debd813f2cb9969dd5ac96471977ac4e3e463928a1c16d87070df"
+            },
+            {
+              "docid": "136041",
+              "group": 192,
+              "pages": [
+                2,
+                3
+              ],
+              "received": "2024-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136041",
+              "original": "review_originals/cvm_136041_g192.pdf.gz",
+              "original_sha256": "292c52b58e8c57ee33216528ace0f79d1ef76ba24dbc5bab1acc542b66500c77"
+            },
+            {
+              "docid": "136041",
+              "group": 193,
+              "pages": [
+                60,
+                88,
+                90
+              ],
+              "received": "2024-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136041",
+              "original": "review_originals/cvm_136041_g193.pdf.gz",
+              "original_sha256": "17e3d28e1f8a30875ae4c2f649ca1570f6ed3b6ea09f71c4c64b292f2b47a824"
+            }
+          ],
+          "prior_year": 2023,
+          "review_2021": "Franquia diversificada de crédito, depósitos, veículos e serviços continua em 2021. A cisão Getnet foi aprovada em 31/03, mas as ações Santander ainda carregam o direito proporcional à Getnet até futura data de corte condicionada às aprovações; não se supõe perda do negócio sem compensação aos atuais titulares.",
+          "review_2022": "Franquia bancária permanece após entrega Getnet aos acionistas; nota Getnet confirma negociação separada 18/10/2021. Receitas de tarifas caíram 10,2% no1T22, coerentes com mudança de perímetro.",
+          "review_2023": "Franquia bancária legada mantém crédito 500, 314 bi no 1T23 e receitas líquidas de serviços IFRS 3, 996412 bi. Getnetcontinua contraparte comercial; venda 40%Webmotors concluída 28/04 reduz 70%para 30%, sem eliminar o banco legado. A contribuição antiga Webmotorsjáfoiretirada na ponte econômica.",
+          "review_2024": "Franquia bancária nacional preservada com crédito440,324bi e funding857,861bi na base administrativa. Ajuste de portfólio para melhor rating/garantias contrapõe risco atacado/varejo."
+        },
+        "capital_economics": {
+          "status": "SATISFACTORY",
+          "reason": "Lucro administrativo2,936bi/ROE13,64% melhora frente2,063bi. Margem com clientes e serviços favorecem; tesouraria/curva de juros e provisões têm influência material. Base IFRS e lucro de perímetro vendido não são confundidos.",
+          "favorable": "Lucro administrativo2,936bi/ROE13,64% melhora frente2,063bi. Margem com clientes e serviços favorecem; tesouraria/curva de juros e provisões têm influência material. Base IFRS e lucro de perímetro vendido não são confundidos.",
+          "contrary_evidence": "Lucro administrativo2,936bi/ROE13,64% melhora frente2,063bi. Margem com clientes e serviços favorecem; tesouraria/curva de juros e provisões têm influência material. Base IFRS e lucro de perímetro vendido não são confundidos.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "134144",
+              "group": 412,
+              "pages": [
+                60,
+                109,
+                132,
+                149,
+                153,
+                158,
+                170,
+                175,
+                176
+              ],
+              "received": "2024-02-20",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=134144",
+              "original": "review_originals/cvm_134144_g412.pdf.gz",
+              "original_sha256": "8c981447b04debd813f2cb9969dd5ac96471977ac4e3e463928a1c16d87070df"
+            },
+            {
+              "docid": "136041",
+              "group": 192,
+              "pages": [
+                2,
+                3
+              ],
+              "received": "2024-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136041",
+              "original": "review_originals/cvm_136041_g192.pdf.gz",
+              "original_sha256": "292c52b58e8c57ee33216528ace0f79d1ef76ba24dbc5bab1acc542b66500c77"
+            },
+            {
+              "docid": "136041",
+              "group": 193,
+              "pages": [
+                60,
+                88,
+                90
+              ],
+              "received": "2024-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136041",
+              "original": "review_originals/cvm_136041_g193.pdf.gz",
+              "original_sha256": "17e3d28e1f8a30875ae4c2f649ca1570f6ed3b6ea09f71c4c64b292f2b47a824"
+            }
+          ],
+          "prior_year": 2023,
+          "review_2021": "Mantém ND específico da economia do capital: lucro atribuível IFRS 2020 de R$ 13,418529 bilhões inclui benefícios tributários e efeitos financeiros que requerem normalização. Q1BRGAAP de R$ 2,816264 bilhões difere do recorrenteR$ 3,988812 bilhões, por ágio e baixa de crédito tributário Getnet. A margem operacional favorável é reconhecida, mas não se mistura ROE gerencial com capital prudencial ou patrimônioIFRS.",
+          "review_2022": "A pendência da economia do capital foi reavaliada com ponte efetiva: três lucros históricos recorrentes permanecem positivos e relevantes mesmo após deduções amplas, contribuindo ao exame do ciclo 2018–20. Patrimônio IFRS e bases contábeis são reconciliados; ROE contábil anualizado 14,36% no1T22 e margem líquida com juros 13,4482 bi mostram continuidade após cisão. O juízo SAT combina rentabilidade histórica, capital requerido e risco, não deriva apenas do P/L nem de limiar universal de ROE.",
+          "review_2023": "Mantém SAT pela série histórica conservadora reconciliada e operação bancária positiva pós-cisão, com deterioração atual explícita: margem líquida IFRS 12, 558992 bi versus 13, 448203 bi e perdasfinanceiras 8, 052337 bi versus 5, 058526 bi. BRGAA Patribuível 2, 062835 bi é distinto do IFRS; ganhos tributários/reversões no trimestre não são atribuídos à franquia recorrente. Não deriva a qualidade do P/L ou de um ROE mínimo universal.",
+          "review_2024": "Lucro administrativo2,936bi/ROE13,64% melhora frente2,063bi. Margem com clientes e serviços favorecem; tesouraria/curva de juros e provisões têm influência material. Base IFRS e lucro de perímetro vendido não são confundidos."
+        },
+        "earnings_reliability": {
+          "status": "SATISFACTORY",
+          "reason": "Notas IFRS separam impostos, minoritários, equivalência e perímetro. Relatório contém frase de queda de lucro em contexto que tabela mostra aumento42%; prevalecem demonstrações/tabela, registrando erro de direção, sem converter frase em dado numérico.",
+          "favorable": "Notas IFRS separam impostos, minoritários, equivalência e perímetro. Relatório contém frase de queda de lucro em contexto que tabela mostra aumento42%; prevalecem demonstrações/tabela, registrando erro de direção, sem converter frase em dado numérico.",
+          "contrary_evidence": "Notas IFRS separam impostos, minoritários, equivalência e perímetro. Relatório contém frase de queda de lucro em contexto que tabela mostra aumento42%; prevalecem demonstrações/tabela, registrando erro de direção, sem converter frase em dado numérico.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "134144",
+              "group": 412,
+              "pages": [
+                60,
+                109,
+                132,
+                149,
+                153,
+                158,
+                170,
+                175,
+                176
+              ],
+              "received": "2024-02-20",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=134144",
+              "original": "review_originals/cvm_134144_g412.pdf.gz",
+              "original_sha256": "8c981447b04debd813f2cb9969dd5ac96471977ac4e3e463928a1c16d87070df"
+            },
+            {
+              "docid": "136041",
+              "group": 192,
+              "pages": [
+                2,
+                3
+              ],
+              "received": "2024-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136041",
+              "original": "review_originals/cvm_136041_g192.pdf.gz",
+              "original_sha256": "292c52b58e8c57ee33216528ace0f79d1ef76ba24dbc5bab1acc542b66500c77"
+            },
+            {
+              "docid": "136041",
+              "group": 193,
+              "pages": [
+                60,
+                88,
+                90
+              ],
+              "received": "2024-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136041",
+              "original": "review_originals/cvm_136041_g193.pdf.gz",
+              "original_sha256": "17e3d28e1f8a30875ae4c2f649ca1570f6ed3b6ea09f71c4c64b292f2b47a824"
+            }
+          ],
+          "prior_year": 2023,
+          "review_2021": "Mantém SAT: notas separam lucro contábil/recorrente, mostram o hedge cambial com seus tributos e descrevem alienações, provisões e itens pós-emprego. A soma conjunta do hedge cambial é zero em 2018–20; remover só o benefício tributário produziria falsa perda econômica.",
+          "review_2022": "Demonstrações IFRS reconciliam BRGAAP, hedge cambial líquido neutro e ganho de opção 1,180949 bi em 2021. A cisão e novo contrato Getnet são identificáveis; a avaliação não mistura lucro Gerencial/BRGAAP/IFRS.",
+          "review_2023": "SAT com bases BRGAAP/IFRS separadas, IFRS 17 imaterial e ganhos tributários identificados. Q 1 temreversão de contingências e crédito tributário que não equivalem a geração ordinária; perdas decrédito permanecem. FR 13/06 corrige a premissa jurídica da nota 1 T: Tema 372 foi desfavorável, montante 4, 5 bi bruto ainda sujeito à avaliação deprovisão; não antecipa 2T23.",
+          "review_2024": "Notas IFRS separam impostos, minoritários, equivalência e perímetro. Relatório contém frase de queda de lucro em contexto que tabela mostra aumento42%; prevalecem demonstrações/tabela, registrando erro de direção, sem converter frase em dado numérico."
+        },
+        "financial_resilience": {
+          "status": "SATISFACTORY",
+          "reason": "Basileia14,47%, NI12,37% e capital principal76,3449bi frenteRWA670,6596bi. Índices/folga prudencial preservados; carteira e perdas esperadas requerem acompanhamento, sem eliminar risco pela média.",
+          "favorable": "Basileia14,47%, NI12,37% e capital principal76,3449bi frenteRWA670,6596bi. Índices/folga prudencial preservados; carteira e perdas esperadas requerem acompanhamento, sem eliminar risco pela média.",
+          "contrary_evidence": "Basileia14,47%, NI12,37% e capital principal76,3449bi frenteRWA670,6596bi. Índices/folga prudencial preservados; carteira e perdas esperadas requerem acompanhamento, sem eliminar risco pela média.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "134144",
+              "group": 412,
+              "pages": [
+                60,
+                109,
+                132,
+                149,
+                153,
+                158,
+                170,
+                175,
+                176
+              ],
+              "received": "2024-02-20",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=134144",
+              "original": "review_originals/cvm_134144_g412.pdf.gz",
+              "original_sha256": "8c981447b04debd813f2cb9969dd5ac96471977ac4e3e463928a1c16d87070df"
+            },
+            {
+              "docid": "136041",
+              "group": 192,
+              "pages": [
+                2,
+                3
+              ],
+              "received": "2024-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136041",
+              "original": "review_originals/cvm_136041_g192.pdf.gz",
+              "original_sha256": "292c52b58e8c57ee33216528ace0f79d1ef76ba24dbc5bab1acc542b66500c77"
+            },
+            {
+              "docid": "136041",
+              "group": 193,
+              "pages": [
+                60,
+                88,
+                90
+              ],
+              "received": "2024-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136041",
+              "original": "review_originals/cvm_136041_g193.pdf.gz",
+              "original_sha256": "17e3d28e1f8a30875ae4c2f649ca1570f6ed3b6ea09f71c4c64b292f2b47a824"
+            }
+          ],
+          "prior_year": 2023,
+          "review_2021": "CET1 de 12,63%, Nível I13,91% e Basileia 15,18% em 31/03/2021, com PRR$ 87,353958 bilhões e RWA R$ 575,642618 bilhões, sustentam continuidade financeiraSAT. A nota61 explicita mínimos6,75/8,25/10,25% em março e elevação de0,375pp emabril e0,375pp emoutubro, evitando usar indefinidamente o alívio.",
+          "review_2022": "Basileia 14,71%,Nível I 12,75% e CET1 11,74% em março excedem mínimos aplicáveis abril 11,5/9,5/8%. A conclusão preserva risco de crédito, sem tratar capital adicional como ordinário.",
+          "review_2023": "Basileia 13, 81%, Nível I 11, 81%, CET 110, 81% frente 11, 5/9, 5/8% sustentam SAT com folga menor. PR 91, 5729 bi/RWA 663, 1408 bi deixam 15, 311708 bi acima requisito total 11, 5%. Contingência PIS/COFINS 4, 5 bi brutos conhecida 13/06 é risco patrimonial real e inferior à folga nominal observada; comparação não é razão prudencial pós-evento nem presume benefício fiscal. Mais PDD e redução do lucro permanecem contrapontos.",
+          "review_2024": "Basileia14,47%, NI12,37% e capital principal76,3449bi frenteRWA670,6596bi. Índices/folga prudencial preservados; carteira e perdas esperadas requerem acompanhamento, sem eliminar risco pela média."
+        },
+        "capital_allocation": {
+          "status": "INDETERMINATE",
+          "reason": "PSA50% vendido31/08/2023, Getnet/Superdigital e Webmotors alteraram uso de capital. Ganhos de alienação não certificam retorno incremental de todo investimento; ND específico de alocação mantido.",
+          "favorable": "PSA50% vendido31/08/2023, Getnet/Superdigital e Webmotors alteraram uso de capital. Ganhos de alienação não certificam retorno incremental de todo investimento; ND específico de alocação mantido.",
+          "contrary_evidence": "PSA50% vendido31/08/2023, Getnet/Superdigital e Webmotors alteraram uso de capital. Ganhos de alienação não certificam retorno incremental de todo investimento; ND específico de alocação mantido.",
+          "missing": "PSA50% vendido31/08/2023, Getnet/Superdigital e Webmotors alteraram uso de capital. Ganhos de alienação não certificam retorno incremental de todo investimento; ND específico de alocação mantido.",
+          "evidence": [
+            {
+              "docid": "134144",
+              "group": 412,
+              "pages": [
+                60,
+                109,
+                132,
+                149,
+                153,
+                158,
+                170,
+                175,
+                176
+              ],
+              "received": "2024-02-20",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=134144",
+              "original": "review_originals/cvm_134144_g412.pdf.gz",
+              "original_sha256": "8c981447b04debd813f2cb9969dd5ac96471977ac4e3e463928a1c16d87070df"
+            },
+            {
+              "docid": "136041",
+              "group": 192,
+              "pages": [
+                2,
+                3
+              ],
+              "received": "2024-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136041",
+              "original": "review_originals/cvm_136041_g192.pdf.gz",
+              "original_sha256": "292c52b58e8c57ee33216528ace0f79d1ef76ba24dbc5bab1acc542b66500c77"
+            },
+            {
+              "docid": "136041",
+              "group": 193,
+              "pages": [
+                60,
+                88,
+                90
+              ],
+              "received": "2024-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136041",
+              "original": "review_originals/cvm_136041_g193.pdf.gz",
+              "original_sha256": "17e3d28e1f8a30875ae4c2f649ca1570f6ed3b6ea09f71c4c64b292f2b47a824"
+            }
+          ],
+          "prior_year": 2023,
+          "review_2021": "Mantém ND após avaliação das mudanças: Olé foi incorporada em 2020 após compra residual porR$ 1,608772 bilhões; Getnet tem cisão aprovada com direitos proporcionais; Superdigital foi vendida porR$ 270 milhões; novos negócios Paytec/Gira são efetivados e Toro ainda condicionado na informação de abril.",
+          "review_2022": "Cisão Getnet foi concluída e ações entregues, resolvendo a pendência de execução 2021. Novas compras Toro/Paytec/Liderança/Solutions 4 Fleet e contrato Getnet deixam pendência de retorno econômico da nova alocação, sem presumir fracasso.",
+          "review_2023": "Mantém ND específico de retorno da nova alocação: Paytecfoi vendida 26/05/2022; Webmotors 40%vendida 28/04/2023, restando 30%; não mantê-las como compras pendentes. Getnet FY 22 registra serviçosao Santander 1, 457057 bi e contrato variável; entrega de ativos e notas transparentes são favoráveis, mas retornoincremental Toro/Liderança/Solutions 4 Fleet/Monetus/Mobills e nova relação Getnet ainda não está suficientemente demonstrado.",
+          "review_2024": "PSA50% vendido31/08/2023, Getnet/Superdigital e Webmotors alteraram uso de capital. Ganhos de alienação não certificam retorno incremental de todo investimento; ND específico de alocação mantido."
+        },
+        "governance": {
+          "status": "SATISFACTORY",
+          "reason": "Auditoria interna subordinada ao conselho/comitê independente e termos das alienações divulgados. Composição do controlador e contratos externos são contrapontos econômicos; não exigir garantia perpétua do custo variável de serviços.",
+          "favorable": "Auditoria interna subordinada ao conselho/comitê independente e termos das alienações divulgados. Composição do controlador e contratos externos são contrapontos econômicos; não exigir garantia perpétua do custo variável de serviços.",
+          "contrary_evidence": "Auditoria interna subordinada ao conselho/comitê independente e termos das alienações divulgados. Composição do controlador e contratos externos são contrapontos econômicos; não exigir garantia perpétua do custo variável de serviços.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "134144",
+              "group": 412,
+              "pages": [
+                60,
+                109,
+                132,
+                149,
+                153,
+                158,
+                170,
+                175,
+                176
+              ],
+              "received": "2024-02-20",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=134144",
+              "original": "review_originals/cvm_134144_g412.pdf.gz",
+              "original_sha256": "8c981447b04debd813f2cb9969dd5ac96471977ac4e3e463928a1c16d87070df"
+            },
+            {
+              "docid": "136041",
+              "group": 192,
+              "pages": [
+                2,
+                3
+              ],
+              "received": "2024-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136041",
+              "original": "review_originals/cvm_136041_g192.pdf.gz",
+              "original_sha256": "292c52b58e8c57ee33216528ace0f79d1ef76ba24dbc5bab1acc542b66500c77"
+            },
+            {
+              "docid": "136041",
+              "group": 193,
+              "pages": [
+                60,
+                88,
+                90
+              ],
+              "received": "2024-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136041",
+              "original": "review_originals/cvm_136041_g193.pdf.gz",
+              "original_sha256": "17e3d28e1f8a30875ae4c2f649ca1570f6ed3b6ea09f71c4c64b292f2b47a824"
+            }
+          ],
+          "prior_year": 2023,
+          "review_2021": "Mantém SAT com análise concreta do tratamento dos titulares: cisãoGetnet preserva participação proporcional por classe e depende de data de corte futura anunciada. Controle concentrado e transações com a Espanha permanecem explicitamente contrapostos aos controles e à prestação de contas anteriormente examinados.",
+          "review_2022": "Mantém SAT com cisão aprovada, entrega proporcional de ações, notas das partes relacionadas e controles atuais. O contrato Getnet não é presumido vantajoso apenas por pertencer ao mesmo grupo.",
+          "review_2023": "Mantém SAT: controle/relacionadas e venda Webmotors são documentados; FR 13/06 divulga prontamente decisão STF, exposição bruta e tratamentoaindaemavaliação. Não presume decisão favorável, provisão completa ou vantagem em negócio intragrupo. Controle internacional, comercialização Getnet e alocação em controladas seguem conflitos explícitos.",
+          "review_2024": "Auditoria interna subordinada ao conselho/comitê independente e termos das alienações divulgados. Composição do controlador e contratos externos são contrapontos econômicos; não exigir garantia perpétua do custo variável de serviços."
+        }
+      },
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "Franquia bancária nacional preservada com crédito440,324bi e funding857,861bi na base administrativa. Ajuste de portfólio para melhor rating/garantias contrapõe risco atacado/varejo.",
+          "evidence": [
+            {
+              "docid": "134144",
+              "group": 412,
+              "pages": [
+                60,
+                109,
+                132,
+                149,
+                153,
+                158,
+                170,
+                175,
+                176
+              ],
+              "received": "2024-02-20",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=134144",
+              "original": "review_originals/cvm_134144_g412.pdf.gz",
+              "original_sha256": "8c981447b04debd813f2cb9969dd5ac96471977ac4e3e463928a1c16d87070df"
+            },
+            {
+              "docid": "136041",
+              "group": 192,
+              "pages": [
+                2,
+                3
+              ],
+              "received": "2024-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136041",
+              "original": "review_originals/cvm_136041_g192.pdf.gz",
+              "original_sha256": "292c52b58e8c57ee33216528ace0f79d1ef76ba24dbc5bab1acc542b66500c77"
+            },
+            {
+              "docid": "136041",
+              "group": 193,
+              "pages": [
+                60,
+                88,
+                90
+              ],
+              "received": "2024-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136041",
+              "original": "review_originals/cvm_136041_g193.pdf.gz",
+              "original_sha256": "17e3d28e1f8a30875ae4c2f649ca1570f6ed3b6ea09f71c4c64b292f2b47a824"
             }
           ]
         },
         "capital_economics": {
-          "favorable": {
-            "roe_parent_5": [
-              0.5030544503126197,
-              null,
-              0.39389269993427917,
-              0.17768946938242697,
-              0.1125727357627041
-            ],
-            "normalized_profit": 16715756139.973558
-          },
+          "favorable": "Lucro administrativo2,936bi/ROE13,64% melhora frente2,063bi. Margem com clientes e serviços favorecem; tesouraria/curva de juros e provisões têm influência material. Base IFRS e lucro de perímetro vendido não são confundidos.",
           "evidence": [
             {
-              "fiscal_year": 2019,
-              "metric": "attributable_ni",
-              "value": 16406932000.0,
-              "docid": "100531",
-              "received": "2021-02-26",
-              "reference": "2020-12-31",
-              "period_end": "2019-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2020.csv",
-              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
-            },
-            {
-              "fiscal_year": 2020,
-              "metric": "attributable_ni",
-              "value": 13418529000.0,
-              "docid": "112144",
-              "received": "2022-02-28",
-              "reference": "2021-12-31",
-              "period_end": "2020-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído aos Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2021.csv",
-              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
-            },
-            {
-              "fiscal_year": 2021,
-              "metric": "attributable_ni",
-              "value": 15528052000.0,
-              "docid": "123805",
-              "received": "2023-03-01",
-              "reference": "2022-12-31",
-              "period_end": "2021-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído aos Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2022.csv",
-              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
-            },
-            {
-              "fiscal_year": 2022,
-              "metric": "attributable_ni",
-              "value": 14287093000.0,
               "docid": "134144",
+              "group": 412,
+              "pages": [
+                60,
+                109,
+                132,
+                149,
+                153,
+                158,
+                170,
+                175,
+                176
+              ],
               "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "2022-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído aos Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=134144",
+              "original": "review_originals/cvm_134144_g412.pdf.gz",
+              "original_sha256": "8c981447b04debd813f2cb9969dd5ac96471977ac4e3e463928a1c16d87070df"
             },
             {
-              "fiscal_year": 2023,
-              "metric": "attributable_ni",
-              "value": 9449313000.0,
-              "docid": "134144",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "2023-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído aos Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+              "docid": "136041",
+              "group": 192,
+              "pages": [
+                2,
+                3
+              ],
+              "received": "2024-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136041",
+              "original": "review_originals/cvm_136041_g192.pdf.gz",
+              "original_sha256": "292c52b58e8c57ee33216528ace0f79d1ef76ba24dbc5bab1acc542b66500c77"
+            },
+            {
+              "docid": "136041",
+              "group": 193,
+              "pages": [
+                60,
+                88,
+                90
+              ],
+              "received": "2024-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136041",
+              "original": "review_originals/cvm_136041_g193.pdf.gz",
+              "original_sha256": "17e3d28e1f8a30875ae4c2f649ca1570f6ed3b6ea09f71c4c64b292f2b47a824"
             }
           ]
         },
         "earnings_reliability": {
-          "favorable": {
-            "positive_attributable_years": 5,
-            "audit_records": 10
-          },
+          "favorable": "Notas IFRS separam impostos, minoritários, equivalência e perímetro. Relatório contém frase de queda de lucro em contexto que tabela mostra aumento42%; prevalecem demonstrações/tabela, registrando erro de direção, sem converter frase em dado numérico.",
           "evidence": [
             {
               "docid": "134144",
+              "group": 412,
+              "pages": [
+                60,
+                109,
+                132,
+                149,
+                153,
+                158,
+                170,
+                175,
+                176
+              ],
               "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=134144",
+              "original": "review_originals/cvm_134144_g412.pdf.gz",
+              "original_sha256": "8c981447b04debd813f2cb9969dd5ac96471977ac4e3e463928a1c16d87070df"
             },
             {
-              "docid": "134144",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+              "docid": "136041",
+              "group": 192,
+              "pages": [
+                2,
+                3
+              ],
+              "received": "2024-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136041",
+              "original": "review_originals/cvm_136041_g192.pdf.gz",
+              "original_sha256": "292c52b58e8c57ee33216528ace0f79d1ef76ba24dbc5bab1acc542b66500c77"
             },
             {
-              "docid": "134144",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134144",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134144",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134144",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134144",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134144",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134144",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134144",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+              "docid": "136041",
+              "group": 193,
+              "pages": [
+                60,
+                88,
+                90
+              ],
+              "received": "2024-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136041",
+              "original": "review_originals/cvm_136041_g193.pdf.gz",
+              "original_sha256": "17e3d28e1f8a30875ae4c2f649ca1570f6ed3b6ea09f71c4c64b292f2b47a824"
             }
           ]
         },
         "financial_resilience": {
-          "favorable": {
-            "parent_equity_latest": 85913641000.0
-          },
+          "favorable": "Basileia14,47%, NI12,37% e capital principal76,3449bi frenteRWA670,6596bi. Índices/folga prudencial preservados; carteira e perdas esperadas requerem acompanhamento, sem eliminar risco pela média.",
           "evidence": [
             {
               "docid": "134144",
+              "group": 412,
+              "pages": [
+                60,
+                109,
+                132,
+                149,
+                153,
+                158,
+                170,
+                175,
+                176
+              ],
               "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "2023-12-31",
-              "perimeter": "ind",
-              "account": "2.07",
-              "description": "Patrimônio Líquido",
-              "source": "dfp_cia_aberta_BPP_ind_2023.csv",
-              "archive_sha256": "",
-              "url": ""
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=134144",
+              "original": "review_originals/cvm_134144_g412.pdf.gz",
+              "original_sha256": "8c981447b04debd813f2cb9969dd5ac96471977ac4e3e463928a1c16d87070df"
+            },
+            {
+              "docid": "136041",
+              "group": 192,
+              "pages": [
+                2,
+                3
+              ],
+              "received": "2024-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136041",
+              "original": "review_originals/cvm_136041_g192.pdf.gz",
+              "original_sha256": "292c52b58e8c57ee33216528ace0f79d1ef76ba24dbc5bab1acc542b66500c77"
+            },
+            {
+              "docid": "136041",
+              "group": 193,
+              "pages": [
+                60,
+                88,
+                90
+              ],
+              "received": "2024-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136041",
+              "original": "review_originals/cvm_136041_g193.pdf.gz",
+              "original_sha256": "17e3d28e1f8a30875ae4c2f649ca1570f6ed3b6ea09f71c4c64b292f2b47a824"
             }
           ]
         },
         "capital_allocation": {
-          "favorable": {
-            "historical_payout": [
-              0.8069,
-              0.2874,
-              0.7545416815999999,
-              null,
-              null
-            ],
-            "distributions": [
-              10800000000.0,
-              3837085231.82,
-              10749000000.0,
-              null,
-              null
-            ]
-          },
+          "favorable": "PSA50% vendido31/08/2023, Getnet/Superdigital e Webmotors alteraram uso de capital. Ganhos de alienação não certificam retorno incremental de todo investimento; ND específico de alocação mantido.",
           "evidence": [
             {
-              "docid": "127163",
-              "received": "2023-05-23",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
-              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=127163",
-              "fiscal_year": 2019,
-              "raw": {
-                "CNPJ_Companhia": "90.400.888/0001-42",
-                "Data_Referencia": "2022-01-01",
-                "Versao": "12",
-                "ID_Documento": "127163",
-                "Nome_Companhia": "BCO SANTANDER (BRASIL) S.A.",
-                "Data_Inicio_Exercicio_Social": "2019-01-01",
-                "Data_Fim_Exercicio_Social": "2019-12-31",
-                "Lucro_Liquido_Ajustado": "14089180217.18",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "15.50000000",
-                "Lucro_Liquido_Retido": "2584721257.62",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "80.69000000",
-                "Dividendo_Distribuido_Total": "10800000000.00",
-                "Data_Aprovacao_Retencao": "2020-04-30"
-              }
+              "docid": "134144",
+              "group": 412,
+              "pages": [
+                60,
+                109,
+                132,
+                149,
+                153,
+                158,
+                170,
+                175,
+                176
+              ],
+              "received": "2024-02-20",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=134144",
+              "original": "review_originals/cvm_134144_g412.pdf.gz",
+              "original_sha256": "8c981447b04debd813f2cb9969dd5ac96471977ac4e3e463928a1c16d87070df"
             },
             {
-              "docid": "127163",
-              "received": "2023-05-23",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
-              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=127163",
-              "fiscal_year": 2020,
-              "raw": {
-                "CNPJ_Companhia": "90.400.888/0001-42",
-                "Data_Referencia": "2022-01-01",
-                "Versao": "12",
-                "ID_Documento": "127163",
-                "Nome_Companhia": "BCO SANTANDER (BRASIL) S.A.",
-                "Data_Inicio_Exercicio_Social": "2020-01-01",
-                "Data_Fim_Exercicio_Social": "2020-12-31",
-                "Lucro_Liquido_Ajustado": "13353340927.27",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "17.75000000",
-                "Lucro_Liquido_Retido": "10219063112.67",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "28.74000000",
-                "Dividendo_Distribuido_Total": "3837085231.82",
-                "Data_Aprovacao_Retencao": ""
-              }
+              "docid": "136041",
+              "group": 192,
+              "pages": [
+                2,
+                3
+              ],
+              "received": "2024-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136041",
+              "original": "review_originals/cvm_136041_g192.pdf.gz",
+              "original_sha256": "292c52b58e8c57ee33216528ace0f79d1ef76ba24dbc5bab1acc542b66500c77"
             },
             {
-              "docid": "127163",
-              "received": "2023-05-23",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
-              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=127163",
-              "fiscal_year": 2021,
-              "raw": {
-                "CNPJ_Companhia": "90.400.888/0001-42",
-                "Data_Referencia": "2022-01-01",
-                "Versao": "12",
-                "ID_Documento": "127163",
-                "Nome_Companhia": "BCO SANTANDER (BRASIL) S.A.",
-                "Data_Inicio_Exercicio_Social": "2021-01-01",
-                "Data_Fim_Exercicio_Social": "2021-12-31",
-                "Lucro_Liquido_Ajustado": "14245733883.48",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "13.63323819",
-                "Lucro_Liquido_Retido": "4246509351.03",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "75.45416816",
-                "Dividendo_Distribuido_Total": "10749000000.00",
-                "Data_Aprovacao_Retencao": ""
-              }
+              "docid": "136041",
+              "group": 193,
+              "pages": [
+                60,
+                88,
+                90
+              ],
+              "received": "2024-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136041",
+              "original": "review_originals/cvm_136041_g193.pdf.gz",
+              "original_sha256": "17e3d28e1f8a30875ae4c2f649ca1570f6ed3b6ea09f71c4c64b292f2b47a824"
             }
           ]
         },
         "governance": {
-          "favorable": {
-            "dated_shareholder_right_records": 26,
-            "dated_related_party_records": 1326
-          },
+          "favorable": "Auditoria interna subordinada ao conselho/comitê independente e termos das alienações divulgados. Composição do controlador e contratos externos são contrapontos econômicos; não exigir garantia perpétua do custo variável de serviços.",
           "evidence": [
             {
               "docid": "134144",
+              "group": 412,
+              "pages": [
+                60,
+                109,
+                132,
+                149,
+                153,
+                158,
+                170,
+                175,
+                176
+              ],
               "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=134144",
+              "original": "review_originals/cvm_134144_g412.pdf.gz",
+              "original_sha256": "8c981447b04debd813f2cb9969dd5ac96471977ac4e3e463928a1c16d87070df"
             },
             {
-              "docid": "134144",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+              "docid": "136041",
+              "group": 192,
+              "pages": [
+                2,
+                3
+              ],
+              "received": "2024-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136041",
+              "original": "review_originals/cvm_136041_g192.pdf.gz",
+              "original_sha256": "292c52b58e8c57ee33216528ace0f79d1ef76ba24dbc5bab1acc542b66500c77"
             },
             {
-              "docid": "134144",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134144",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134144",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134144",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134144",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134144",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134144",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134144",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+              "docid": "136041",
+              "group": 193,
+              "pages": [
+                60,
+                88,
+                90
+              ],
+              "received": "2024-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136041",
+              "original": "review_originals/cvm_136041_g193.pdf.gz",
+              "original_sha256": "17e3d28e1f8a30875ae4c2f649ca1570f6ed3b6ea09f71c4c64b292f2b47a824"
             }
           ]
         }

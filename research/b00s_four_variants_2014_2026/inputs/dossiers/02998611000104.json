@@ -17976,419 +17976,603 @@
       "ticker": "TRPL4",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": null,
-      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
-      "classification_changed": null,
-      "dimensions": {},
-      "dimension_evidence_updates": {
+      "assessment_ref": "02998611000104:2024",
+      "assessment_status": "ASSESSED",
+      "classification_changed": false,
+      "dimensions": {
         "durability": {
-          "favorable": "Transmissão de Energia Elétrica",
+          "status": "SATISFACTORY",
+          "favorable": "35 concessões, 23 mil km e RAP 5,509662 bi mais 705,257 mi coligadas. IENS 0,000544% pior que SIN 0,00009% neste trimestre; contratos sustentam duração apesar do alerta de qualidade.",
+          "contrary_evidence": "35 concessões, 23 mil km e RAP 5,509662 bi mais 705,257 mi coligadas. IENS 0,000544% pior que SIN 0,00009% neste trimestre; contratos sustentam duração apesar do alerta de qualidade.",
+          "reason": "35 concessões, 23 mil km e RAP 5,509662 bi mais 705,257 mi coligadas. IENS 0,000544% pior que SIN 0,00009% neste trimestre; contratos sustentam duração apesar do alerta de qualidade.",
           "evidence": [
             {
-              "cnpj": "02998611000104",
-              "received": "2023-04-03",
-              "name": "CTEEP - CIA TRANSMISSÃO ENERGIA ELÉTRICA PAULISTA",
-              "sector": "Energia Elétrica",
-              "activity": "Transmissão de Energia Elétrica",
-              "cvm": "018376",
-              "docid": "124961",
-              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=124961"
+              "docid": "136067",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "received": "2024-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136067",
+              "original": "review_originals/cvm_136067_g192.pdf.gz",
+              "original_sha256": "3c56d87e744c687fed4deee662694ccf6d9e793bea1481f748f51a07dbf23ce5"
+            },
+            {
+              "docid": "136067",
+              "group": 193,
+              "pages": [
+                3,
+                4,
+                5,
+                11,
+                13,
+                20,
+                22,
+                35,
+                43,
+                49
+              ],
+              "received": "2024-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136067",
+              "original": "review_originals/cvm_136067_g193.pdf.gz",
+              "original_sha256": "7fdc366df72276d2e2a47ecd8f80145e88c4de5706983b5775099e8b6a240063"
+            }
+          ],
+          "prior_year": 2023,
+          "review_2015": "Sem alteração material desta dimensão após confronto da tese anterior com os fatos descritos na atualização de 2015. Resetdeconcessões anterior continua;1T15lucro86,592mi versus85,542mi não reconstróiRAPantiga. CapitalON continua sem preço próprio reconciliado; retomada de investimento precisa retorno e financiamento.",
+          "review_2016": "Rede de18.500km e concessões operacionais sustentam receita de disponibilidade;43projetos de reforço entraram em2015. Duração contratual não restaura remuneração pré-renovação.",
+          "review_2017": "ConcessãoRAP e infraestrutura continuam; remuneraçãoRBSE reconhecida altera base de receita, com fluxofuturo regulado e não lucro repetido anualmente.",
+          "review_2018": "Receita de O&M e RAP seguem sob concessão; novas obras não alteram caráter regulado. Mantém SAT da durabilidade, sem tratar RBSE como ganho integral repetido.",
+          "review_2019": "RAP e contratos regulados de transmissão permanecem; novas energizações iniciam remuneração. A suspensão judicial do custo de capital próprio de 2013 a junho de 2017 continua. RBSE não é um fluxo perpétuo. Mantém SAT da franquia.",
+          "review_2020": "Transmissão remunerada por disponibilidade; Itapura entregue18mesesantes e base17estados/126subestações sustentamSAT. Redução do consumo não reduz automaticamenteRAP, mas atrasos de pagamento/regulação permanecem riscos.",
+          "review_2021": "30concessões eRAPcontrolada3,922025bi/contratosremanescentes sustentamSAT. PBTEadquirida02/03/2021 possui linhaoperacionaldesdeabril2020; não é mera promessa deobras.",
+          "review_2022": "SAT:30concessões, RAPcontrolada3,161818bi eJVs616,226mi; IENS0,000008% permanece inferiorSIN0,0046%referênciafevereiro. Contratos/qualidade de rede sustentam durabilidade, com revisãoRAP.",
+          "review_2023": "SAT:32concessões,RAP4,176011bi+693,991miJVs; IENS0,000783%abaixo0,0012%SIN. Rede22milkm eobrasefetivas mantêmfranquia, semgarantirrenovações.",
+          "missing": "",
+          "review_2024": "35 concessões, 23 mil km e RAP 5,509662 bi mais 705,257 mi coligadas. IENS 0,000544% pior que SIN 0,00009% neste trimestre; contratos sustentam duração apesar do alerta de qualidade."
+        },
+        "capital_economics": {
+          "status": "INDETERMINATE",
+          "favorable": "Lucro 655,915 mi −13,1%; construção 1,014643 bi frente 505,302 mi e eficiência 22,807 mi não são caixa livre. Remuneração de ativos 854,100 mi e O&M 334,873 mi refletem inflação; produtividade de todo capital ainda pendente.",
+          "contrary_evidence": "Lucro 655,915 mi −13,1%; construção 1,014643 bi frente 505,302 mi e eficiência 22,807 mi não são caixa livre. Remuneração de ativos 854,100 mi e O&M 334,873 mi refletem inflação; produtividade de todo capital ainda pendente.",
+          "reason": "Lucro 655,915 mi −13,1%; construção 1,014643 bi frente 505,302 mi e eficiência 22,807 mi não são caixa livre. Remuneração de ativos 854,100 mi e O&M 334,873 mi refletem inflação; produtividade de todo capital ainda pendente.",
+          "missing": "Lucro 655,915 mi −13,1%; construção 1,014643 bi frente 505,302 mi e eficiência 22,807 mi não são caixa livre. Remuneração de ativos 854,100 mi e O&M 334,873 mi refletem inflação; produtividade de todo capital ainda pendente.",
+          "evidence": [
+            {
+              "docid": "136067",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "received": "2024-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136067",
+              "original": "review_originals/cvm_136067_g192.pdf.gz",
+              "original_sha256": "3c56d87e744c687fed4deee662694ccf6d9e793bea1481f748f51a07dbf23ce5"
+            },
+            {
+              "docid": "136067",
+              "group": 193,
+              "pages": [
+                3,
+                4,
+                5,
+                11,
+                13,
+                20,
+                22,
+                35,
+                43,
+                49
+              ],
+              "received": "2024-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136067",
+              "original": "review_originals/cvm_136067_g193.pdf.gz",
+              "original_sha256": "7fdc366df72276d2e2a47ecd8f80145e88c4de5706983b5775099e8b6a240063"
+            }
+          ],
+          "prior_year": 2023,
+          "review_2015": "Resetdeconcessões anterior continua;1T15lucro86,592mi versus85,542mi não reconstróiRAPantiga. CapitalON continua sem preço próprio reconciliado; retomada de investimento precisa retorno e financiamento.",
+          "review_2016": "Melhora do lucro1T16 deriva de reajusteRAP, menor despesa e novas operações; indenização3,9bi não é lucro anual normalizado nem retorno de capital recorrente.",
+          "review_2017": "NI1T17 atribuível261,309mi inclui remuneraçãoRBSE211,748mi. Taxa contábil9,5% sobreativo não equivale aROICincremental; mantémND do retorno normalizado.",
+          "review_2018": "Remuneração RBSE R$210,506 mi e de outros ativos R$94,860 mi requerem separar retorno de recuperação de principal. Mantém ND de economia do capital novo.",
+          "review_2019": "Remuneração RBSE de R$1.269,108 milhões em 2018 e ganho de eficiência de R$91,893 milhões no 1T19 incluem remuneração financeira e construção. Projetos precisam demonstrar retorno econômico além da antecipação contábil. Mantém ND.",
+          "review_2020": "RBSEremuneração1.011,977mi e ganho de eficiência514,532mi2019 separam caixa de antecipação de margem; novas linhas entregues não demonstram sozinhas ROICde todo capital e ganhosCPC47. MantémND de economia normalizada.",
+          "review_2021": "NI584,479mi compara522,080mi reapresentado, não392,454mi antigo. Remuneraçãoativo679,010mi incluiRBSE/IPCA; eficiênciaAguapeí20,922mi antecipada e créditoICMSMadeira8,6mi não comprovamretornoincrementalnormalizado. MantémND do capital.",
+          "review_2022": "ND: NI553,170mi vs584,479mi eCAPEX344,129mi+85%; remuneraçãoconcessão839,064mi contémRBSE+53,911mi eprojetos+106,143mi. Retorno do capital dePBTE/reforços não é comprovado pelo lucrocontábil isolado.",
+          "review_2023": "ND: lucro755,203mi+36,52% inclui eficiênciaconstrução39,076mi eJVs193,345mi. MenorIPCA−16,965mi e taxaimplícita+45,331mi são fluxoscontábeis; retornodo capitalPBTE/reforços segueanáliseincremental.",
+          "review_2024": "Lucro 655,915 mi −13,1%; construção 1,014643 bi frente 505,302 mi e eficiência 22,807 mi não são caixa livre. Remuneração de ativos 854,100 mi e O&M 334,873 mi refletem inflação; produtividade de todo capital ainda pendente."
+        },
+        "earnings_reliability": {
+          "status": "SATISFACTORY",
+          "favorable": "Construção/custo 835,104 mi segregados; receita EPTE de 25,315 mi do comparativo não representa perda operacional igual. Provisão atuarial adicional 8,660 mi e contingências 5,494 mi mantidas, equivalência 149,951 mi detalhada.",
+          "contrary_evidence": "Construção/custo 835,104 mi segregados; receita EPTE de 25,315 mi do comparativo não representa perda operacional igual. Provisão atuarial adicional 8,660 mi e contingências 5,494 mi mantidas, equivalência 149,951 mi detalhada.",
+          "reason": "Construção/custo 835,104 mi segregados; receita EPTE de 25,315 mi do comparativo não representa perda operacional igual. Provisão atuarial adicional 8,660 mi e contingências 5,494 mi mantidas, equivalência 149,951 mi detalhada.",
+          "evidence": [
+            {
+              "docid": "136067",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "received": "2024-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136067",
+              "original": "review_originals/cvm_136067_g192.pdf.gz",
+              "original_sha256": "3c56d87e744c687fed4deee662694ccf6d9e793bea1481f748f51a07dbf23ce5"
+            },
+            {
+              "docid": "136067",
+              "group": 193,
+              "pages": [
+                3,
+                4,
+                5,
+                11,
+                13,
+                20,
+                22,
+                35,
+                43,
+                49
+              ],
+              "received": "2024-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136067",
+              "original": "review_originals/cvm_136067_g193.pdf.gz",
+              "original_sha256": "7fdc366df72276d2e2a47ecd8f80145e88c4de5706983b5775099e8b6a240063"
+            }
+          ],
+          "prior_year": 2023,
+          "review_2015": "Resetdeconcessões anterior continua;1T15lucro86,592mi versus85,542mi não reconstróiRAPantiga. CapitalON continua sem preço próprio reconciliado; retomada de investimento precisa retorno e financiamento.",
+          "review_2016": "Relatório separa RAP, infraestrutura, equivalência e fim da atualização de ativos reversíveis; lucro atribuível94,411mi é distinto de98,239mi consolidado. MantémSAT de transparência.",
+          "review_2017": "Notas conciliam ativoLei12783, infraestrutura e remuneração; mantémSAT da explicação contábil, sem chamar ganhoRBSE de caixa já recebido.",
+          "review_2018": "Concilia IPTU histórico R$10,956 mi, reversão de PDD R$2,764 mi e seguro R$1,667 mi; comparativo de equivalência inclui benefício fiscal2017. Mantém SAT da identificação dos efeitos.",
+          "review_2019": "DFP reconcilia efeito CPC47/IFRS15 de R$387,946 milhões no lucro de 2018 e ganho de compra IESUL de R$24,756 milhões. O 1T18 foi reapresentado; o suplemento RBSE de 2017 gerou R$259,131 milhões líquidos. Mantém SAT da rastreabilidade; auditoria não torna esses efeitos recorrentes.",
+          "review_2020": "Notas explicamCPC47, fluxosRBSE e incertezaKe; lucro392,454mi do1T20 é comparado com353,512mi da mesmaapresentação. Não misturar comparativoantigo226,344mi com a base atual. MantémSAT da rastreabilidade, sem igualar recebíveljudicial a caixa.",
+          "review_2021": "OfícioCVM04 reexpressa comparação eCPC47; ponte explicita receita deconstrução235,645mi/custo185,716mi. MantémSAT comcomparabilidadecorrigida e alertaRBSE, sem alterar arquivos aceitos2020.",
+          "review_2022": "SAT: construção397,080mi vs235,645mi eganhos de eficiência3,914mi vs20,922mi separados. O&M293,705mi vs318,120mi inclui−45,699miPA; não équedaorgânica simples.",
+          "review_2023": "SAT: receitaO&M346,499mi,construção505,302mi e25,556mi atualizaçãonegociaçãoEPTEsegregadas. Não confundeeficiência deobra comlucrooperacionalreplicável detodasconcessões.",
+          "missing": "",
+          "review_2024": "Construção/custo 835,104 mi segregados; receita EPTE de 25,315 mi do comparativo não representa perda operacional igual. Provisão atuarial adicional 8,660 mi e contingências 5,494 mi mantidas, equivalência 149,951 mi detalhada."
+        },
+        "financial_resilience": {
+          "status": "INDETERMINATE",
+          "favorable": "Dívida 10,371945 bi após emissão 1,327399 bi e quitação 444,633 mi; custo 10,51% menor é favorável. CAPEX 835,104 mi e Funcesp permanecem obrigações; cobertura proporcional da expansão não inteiramente reconciliada.",
+          "contrary_evidence": "Dívida 10,371945 bi após emissão 1,327399 bi e quitação 444,633 mi; custo 10,51% menor é favorável. CAPEX 835,104 mi e Funcesp permanecem obrigações; cobertura proporcional da expansão não inteiramente reconciliada.",
+          "reason": "Dívida 10,371945 bi após emissão 1,327399 bi e quitação 444,633 mi; custo 10,51% menor é favorável. CAPEX 835,104 mi e Funcesp permanecem obrigações; cobertura proporcional da expansão não inteiramente reconciliada.",
+          "missing": "Dívida 10,371945 bi após emissão 1,327399 bi e quitação 444,633 mi; custo 10,51% menor é favorável. CAPEX 835,104 mi e Funcesp permanecem obrigações; cobertura proporcional da expansão não inteiramente reconciliada.",
+          "evidence": [
+            {
+              "docid": "136067",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "received": "2024-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136067",
+              "original": "review_originals/cvm_136067_g192.pdf.gz",
+              "original_sha256": "3c56d87e744c687fed4deee662694ccf6d9e793bea1481f748f51a07dbf23ce5"
+            },
+            {
+              "docid": "136067",
+              "group": 193,
+              "pages": [
+                3,
+                4,
+                5,
+                11,
+                13,
+                20,
+                22,
+                35,
+                43,
+                49
+              ],
+              "received": "2024-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136067",
+              "original": "review_originals/cvm_136067_g193.pdf.gz",
+              "original_sha256": "7fdc366df72276d2e2a47ecd8f80145e88c4de5706983b5775099e8b6a240063"
+            }
+          ],
+          "prior_year": 2023,
+          "review_2015": "Sem alteração material desta dimensão após confronto da tese anterior com os fatos descritos na atualização de 2015. Resetdeconcessões anterior continua;1T15lucro86,592mi versus85,542mi não reconstróiRAPantiga. CapitalON continua sem preço próprio reconciliado; retomada de investimento precisa retorno e financiamento.",
+          "review_2016": "Reconhecimento do direito indenizatório ainda não define integralmente o caixa e remuneração. Não presume recebimento imediato para financiar novos projetos; mantémND de cobertura econômica.",
+          "review_2017": "Contas areceberEstado 1.150,358mi e prazo indenizatório continuam relevantes; despesasfinanceiras1T17 aumentam16,3% por menorcaixa. MantémND de liquidez econômica anterior.",
+          "review_2018": "Dívida líquida/EBITDA3,1 e pagamento de tributos R$163,234 mi mostram demanda de caixa superior ao comparativo. Mantém ND da cobertura econômica, sem concluir default.",
+          "review_2019": "Caixa e aplicações de R$1.105,252 milhões cobrem R$377,160 milhões de dívida curta. Dívida líquida de R$2.013,138 milhões frente a patrimônio de R$11.705,069 milhões e covenants cumpridos são favoráveis. Garantias das investidas e CAPEX dos dez projetos ainda exigem cobertura proporcional. Mantém ND, sem repetir 3,1 x de 2018 como dado atual.",
+          "review_2020": "Caixa/aplicações1.269,262mi versus empréstimoscirculantes886,355mi e debênturescurtas371,913mi deixam margem estreita antesCAPEX. GarantiasJV incluemIvaí801,475mi/Madeira902,702mi; reserva40,084mi é restrita. Covenantscumpridos e financiamentolongoverde387,852mi são favoráveis, mas pendência conjunta permaneceND, sem inferirdefault.",
+          "review_2021": "Caixa/TVM1,323421bi versus dívida curta715,093mi e covenantscumpridos favoráveis. PBTE1,571065bi maisdívidaadquirida373,537mi eleva dívidalíquida2,014838→4,281771bi; garantiasJV e reperfilamentoRBSEabril reduzem folga do programa. MantémND proporcional comfatosatuais, não falta de informação genérica.",
+          "review_2022": "ND específico do conjunto financiamento/benefícios/expansão: despesa financeira230,291mi vs115,769mi apósPBTE ejuros maiores. Ausência de default no relatório não substitui conciliação de cobertura proporcional das obrigações.",
+          "review_2023": "ND dirigido: dívida8,794309bi vs8,041697bi apósdebênture550mi ejuros; custo12,25%vs12,78%,financeiro−233,530mi. Redução deprovisãoatuarial13,231mi nãoequivale aquitaçãoFuncesp oufolga proporcional deJVs/obras.",
+          "review_2024": "Dívida 10,371945 bi após emissão 1,327399 bi e quitação 444,633 mi; custo 10,51% menor é favorável. CAPEX 835,104 mi e Funcesp permanecem obrigações; cobertura proporcional da expansão não inteiramente reconciliada."
+        },
+        "capital_allocation": {
+          "status": "INDETERMINATE",
+          "favorable": "54 reforços energizados e Piraquê/Serra Dourada/Itatiaia justificam CAPEX material. Crescimento de 99% não é reprovação automática; eficiência deve ser confrontada com capital PBTE e passivos previdenciários.",
+          "contrary_evidence": "54 reforços energizados e Piraquê/Serra Dourada/Itatiaia justificam CAPEX material. Crescimento de 99% não é reprovação automática; eficiência deve ser confrontada com capital PBTE e passivos previdenciários.",
+          "reason": "54 reforços energizados e Piraquê/Serra Dourada/Itatiaia justificam CAPEX material. Crescimento de 99% não é reprovação automática; eficiência deve ser confrontada com capital PBTE e passivos previdenciários.",
+          "missing": "54 reforços energizados e Piraquê/Serra Dourada/Itatiaia justificam CAPEX material. Crescimento de 99% não é reprovação automática; eficiência deve ser confrontada com capital PBTE e passivos previdenciários.",
+          "evidence": [
+            {
+              "docid": "136067",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "received": "2024-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136067",
+              "original": "review_originals/cvm_136067_g192.pdf.gz",
+              "original_sha256": "3c56d87e744c687fed4deee662694ccf6d9e793bea1481f748f51a07dbf23ce5"
+            },
+            {
+              "docid": "136067",
+              "group": 193,
+              "pages": [
+                3,
+                4,
+                5,
+                11,
+                13,
+                20,
+                22,
+                35,
+                43,
+                49
+              ],
+              "received": "2024-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136067",
+              "original": "review_originals/cvm_136067_g193.pdf.gz",
+              "original_sha256": "7fdc366df72276d2e2a47ecd8f80145e88c4de5706983b5775099e8b6a240063"
+            }
+          ],
+          "prior_year": 2023,
+          "review_2015": "Sem alteração material desta dimensão após confronto da tese anterior com os fatos descritos na atualização de 2015. Resetdeconcessões anterior continua;1T15lucro86,592mi versus85,542mi não reconstróiRAPantiga. CapitalON continua sem preço próprio reconciliado; retomada de investimento precisa retorno e financiamento.",
+          "review_2016": "43reforços e novaIEGaranhuns demonstram execução, mas retorno por ação após reinvestimento/contingências permanece pendente. Receita de construção não é fluxo livre distribuível.",
+          "review_2017": "Infraestrutura77,098mi de receita versus69,754mi de custo1T17. Obras e expansão não provam rentabilidadepor ação do capital novo; payout sobre ganho não caixa exige cuidado.",
+          "review_2018": "Infraestrutura recebe R$80,136 mi de receita e R$75,764 mi de custo; IENNE acrescenta dívida. Construção e remuneração financeira não provam retorno incremental por ação; mantém ND.",
+          "review_2019": "Novas linhas geram RAP, porém ganho de eficiência de R$91,893 milhões é valor presente reconhecido antes do caixa. Mantém ND do retorno incremental do programa de aproximadamente R$2,9 bilhões; construção contábil não equivale a retorno realizado.",
+          "review_2020": "CAPEX2019 771mi e dividendos995mi devem confrontar recebimentosRBSE, contratos e obras; eficiência de construção antecipada não é retorno recorrente. MantémND da produtividade incremental poração do programa de expansão.",
+          "review_2021": "PBTEpaga1,571065bi maisdeveresfinanceiros; valorjusto preliminar493,129mi+intangívelholding66,970mi. NovalinhaRAP171,719mi não éROIC; obras antecipadasAguapeí e financiamento672,5mi positivos, mas retornoincremental apóscustototal aindaND.",
+          "review_2022": "ND de retorno incremental dos investimentos,PBTEjáconcluída e15reforços emcurso. Entrega física é favorável, mas custos previdenciários/financeiros maiores precisam ser remunerados poração.",
+          "review_2023": "ND: CAPEX419,627mi+22% com40projetos; ganhosdasenergizações sãofavoráveis, masrentabilização total do capital histórico e expansão pósPBTE continua sempontecompleta. Não reprovaobras emsi.",
+          "review_2024": "54 reforços energizados e Piraquê/Serra Dourada/Itatiaia justificam CAPEX material. Crescimento de 99% não é reprovação automática; eficiência deve ser confrontada com capital PBTE e passivos previdenciários."
+        },
+        "governance": {
+          "status": "INDETERMINATE",
+          "favorable": "Menor desconto NTN-B eleva passivo atuarial; divulgação e financiamento detalhados são favoráveis, mas falta resolução/comutatividade integral dos acordos históricos.",
+          "contrary_evidence": "Menor desconto NTN-B eleva passivo atuarial; divulgação e financiamento detalhados são favoráveis, mas falta resolução/comutatividade integral dos acordos históricos.",
+          "reason": "Menor desconto NTN-B eleva passivo atuarial; divulgação e financiamento detalhados são favoráveis, mas falta resolução/comutatividade integral dos acordos históricos.",
+          "missing": "Menor desconto NTN-B eleva passivo atuarial; divulgação e financiamento detalhados são favoráveis, mas falta resolução/comutatividade integral dos acordos históricos.",
+          "evidence": [
+            {
+              "docid": "136067",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "received": "2024-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136067",
+              "original": "review_originals/cvm_136067_g192.pdf.gz",
+              "original_sha256": "3c56d87e744c687fed4deee662694ccf6d9e793bea1481f748f51a07dbf23ce5"
+            },
+            {
+              "docid": "136067",
+              "group": 193,
+              "pages": [
+                3,
+                4,
+                5,
+                11,
+                13,
+                20,
+                22,
+                35,
+                43,
+                49
+              ],
+              "received": "2024-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136067",
+              "original": "review_originals/cvm_136067_g193.pdf.gz",
+              "original_sha256": "7fdc366df72276d2e2a47ecd8f80145e88c4de5706983b5775099e8b6a240063"
+            }
+          ],
+          "prior_year": 2023,
+          "review_2015": "Sem alteração material desta dimensão após confronto da tese anterior com os fatos descritos na atualização de 2015. Resetdeconcessões anterior continua;1T15lucro86,592mi versus85,542mi não reconstróiRAPantiga. CapitalON continua sem preço próprio reconciliado; retomada de investimento precisa retorno e financiamento.",
+          "review_2016": "ControladorISA concentra89,5% dasON eNível1 não prova proteção suficiente. Centralização de gestão das investidas melhora visibilidade, sem encerrar pendências de minoritários/controlador.",
+          "review_2017": "ValoresEstado e disputas de atualizaçãoNI/RBSE são explícitos. MantémND de conflitos/controlador e apropriação econômica; não presume fraude por reconhecimento regulatório.",
+          "review_2018": "Recebíveis públicos/RBSE e conflitos regulatórios anteriores permanecem materialmente relevantes; provisões e seguros são divulgados. Mantém ND específico, sem acusação presumida.",
+          "review_2019": "Controle ISA, participação Eletrobras e comitês não estatutários de auditoria e remuneração são identificados. Disputa do custo de capital e recebíveis públicos exigem contrapesos. Mantém ND específico, sem equiparar Nível 1 a aprovação.",
+          "review_2020": "Oito conselheiros incluemdoisindependentes e representanteempregados, com comitês de auditoria/risco e avaliação2019. AçõesRBSE parcialmente encerradas não eliminam outrasliminares; contasEstado/Funcesp e proteçãoPN permanecem contrapontos materiais específicos. MantémND, sem reprovar apenas controleISA/Nível1.",
+          "review_2021": "AquisiçãoexternaPBTEteveCADE/ANEEL e laudoindependente, evidência favorável. Contrapontos específicosRBSE/Funcesp e proteçãoPN persistem; mantémND semafirmar compra departerelacionada ouignorar aprovações.",
+          "review_2022": "ND de decisões e transaçõesFuncesp/controladores do dossiê histórico; não declara conclusão de litígios ou reparação com base só noMR. Sem nova acusação presumida.",
+          "review_2023": "ND das transações/obrigaçõesFuncespcontroladores anteriormenteidentificadas. Ajusteatuarialatual ealienaçãofaixadedominio não documentam resolução dessapendência econômica.",
+          "review_2024": "Menor desconto NTN-B eleva passivo atuarial; divulgação e financiamento detalhados são favoráveis, mas falta resolução/comutatividade integral dos acordos históricos."
+        }
+      },
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "35 concessões, 23 mil km e RAP 5,509662 bi mais 705,257 mi coligadas. IENS 0,000544% pior que SIN 0,00009% neste trimestre; contratos sustentam duração apesar do alerta de qualidade.",
+          "evidence": [
+            {
+              "docid": "136067",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "received": "2024-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136067",
+              "original": "review_originals/cvm_136067_g192.pdf.gz",
+              "original_sha256": "3c56d87e744c687fed4deee662694ccf6d9e793bea1481f748f51a07dbf23ce5"
+            },
+            {
+              "docid": "136067",
+              "group": 193,
+              "pages": [
+                3,
+                4,
+                5,
+                11,
+                13,
+                20,
+                22,
+                35,
+                43,
+                49
+              ],
+              "received": "2024-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136067",
+              "original": "review_originals/cvm_136067_g193.pdf.gz",
+              "original_sha256": "7fdc366df72276d2e2a47ecd8f80145e88c4de5706983b5775099e8b6a240063"
             }
           ]
         },
         "capital_economics": {
-          "favorable": {
-            "roe_parent_5": [
-              0.15419093043308554,
-              0.26314574864018,
-              0.2144387148605276,
-              0.14797202493483755,
-              0.16932782304522923
-            ],
-            "normalized_profit": 2905586332.825109
-          },
+          "favorable": "Lucro 655,915 mi −13,1%; construção 1,014643 bi frente 505,302 mi e eficiência 22,807 mi não são caixa livre. Remuneração de ativos 854,100 mi e O&M 334,873 mi refletem inflação; produtividade de todo capital ainda pendente.",
           "evidence": [
             {
-              "fiscal_year": 2019,
-              "metric": "attributable_ni",
-              "value": 1762631000.0,
-              "docid": "100343",
-              "received": "2021-02-22",
-              "reference": "2020-12-31",
-              "period_end": "2019-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2020.csv",
-              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+              "docid": "136067",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "received": "2024-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136067",
+              "original": "review_originals/cvm_136067_g192.pdf.gz",
+              "original_sha256": "3c56d87e744c687fed4deee662694ccf6d9e793bea1481f748f51a07dbf23ce5"
             },
             {
-              "fiscal_year": 2020,
-              "metric": "attributable_ni",
-              "value": 3361503000.0,
-              "docid": "111992",
-              "received": "2022-02-23",
-              "reference": "2021-12-31",
-              "period_end": "2020-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2021.csv",
-              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
-            },
-            {
-              "fiscal_year": 2021,
-              "metric": "attributable_ni",
-              "value": 3018599000.0,
-              "docid": "123675",
-              "received": "2023-02-23",
-              "reference": "2022-12-31",
-              "period_end": "2021-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2022.csv",
-              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
-            },
-            {
-              "fiscal_year": 2022,
-              "metric": "attributable_ni",
-              "value": 2262245000.0,
-              "docid": "134145",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "2022-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "fiscal_year": 2023,
-              "metric": "attributable_ni",
-              "value": 2841117000.0,
-              "docid": "134145",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "2023-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+              "docid": "136067",
+              "group": 193,
+              "pages": [
+                3,
+                4,
+                5,
+                11,
+                13,
+                20,
+                22,
+                35,
+                43,
+                49
+              ],
+              "received": "2024-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136067",
+              "original": "review_originals/cvm_136067_g193.pdf.gz",
+              "original_sha256": "7fdc366df72276d2e2a47ecd8f80145e88c4de5706983b5775099e8b6a240063"
             }
           ]
         },
         "earnings_reliability": {
-          "favorable": {
-            "positive_attributable_years": 5,
-            "audit_records": 7
-          },
+          "favorable": "Construção/custo 835,104 mi segregados; receita EPTE de 25,315 mi do comparativo não representa perda operacional igual. Provisão atuarial adicional 8,660 mi e contingências 5,494 mi mantidas, equivalência 149,951 mi detalhada.",
           "evidence": [
             {
-              "docid": "134145",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+              "docid": "136067",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "received": "2024-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136067",
+              "original": "review_originals/cvm_136067_g192.pdf.gz",
+              "original_sha256": "3c56d87e744c687fed4deee662694ccf6d9e793bea1481f748f51a07dbf23ce5"
             },
             {
-              "docid": "134145",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134145",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134145",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134145",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134145",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134145",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+              "docid": "136067",
+              "group": 193,
+              "pages": [
+                3,
+                4,
+                5,
+                11,
+                13,
+                20,
+                22,
+                35,
+                43,
+                49
+              ],
+              "received": "2024-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136067",
+              "original": "review_originals/cvm_136067_g193.pdf.gz",
+              "original_sha256": "7fdc366df72276d2e2a47ecd8f80145e88c4de5706983b5775099e8b6a240063"
             }
           ]
         },
         "financial_resilience": {
-          "favorable": {
-            "parent_equity_latest": 17380140000.0
-          },
+          "favorable": "Dívida 10,371945 bi após emissão 1,327399 bi e quitação 444,633 mi; custo 10,51% menor é favorável. CAPEX 835,104 mi e Funcesp permanecem obrigações; cobertura proporcional da expansão não inteiramente reconciliada.",
           "evidence": [
             {
-              "docid": "134145",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "2023-12-31",
-              "perimeter": "ind",
-              "account": "2.03",
-              "description": "Patrimônio Líquido",
-              "source": "dfp_cia_aberta_BPP_ind_2023.csv",
-              "archive_sha256": "",
-              "url": ""
+              "docid": "136067",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "received": "2024-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136067",
+              "original": "review_originals/cvm_136067_g192.pdf.gz",
+              "original_sha256": "3c56d87e744c687fed4deee662694ccf6d9e793bea1481f748f51a07dbf23ce5"
+            },
+            {
+              "docid": "136067",
+              "group": 193,
+              "pages": [
+                3,
+                4,
+                5,
+                11,
+                13,
+                20,
+                22,
+                35,
+                43,
+                49
+              ],
+              "received": "2024-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136067",
+              "original": "review_originals/cvm_136067_g193.pdf.gz",
+              "original_sha256": "7fdc366df72276d2e2a47ecd8f80145e88c4de5706983b5775099e8b6a240063"
             }
           ]
         },
         "capital_allocation": {
-          "favorable": {
-            "historical_payout": [
-              0.546,
-              0.49700000000000005,
-              0.433,
-              null,
-              null
-            ],
-            "distributions": [
-              917459000.0,
-              1670630000.0,
-              1309030000.0,
-              null,
-              null
-            ]
-          },
+          "favorable": "54 reforços energizados e Piraquê/Serra Dourada/Itatiaia justificam CAPEX material. Crescimento de 99% não é reprovação automática; eficiência deve ser confrontada com capital PBTE e passivos previdenciários.",
           "evidence": [
             {
-              "docid": "126090",
-              "received": "2023-05-10",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
-              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=126090",
-              "fiscal_year": 2019,
-              "raw": {
-                "CNPJ_Companhia": "02.998.611/0001-04",
-                "Data_Referencia": "2022-01-01",
-                "Versao": "8",
-                "ID_Documento": "126090",
-                "Nome_Companhia": "ISA ENERGIA BRASIL",
-                "Data_Inicio_Exercicio_Social": "2019-01-01",
-                "Data_Fim_Exercicio_Social": "2019-12-31",
-                "Lucro_Liquido_Ajustado": "1681775000.00",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "12.81000000",
-                "Lucro_Liquido_Retido": "845474000.00",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "54.60000000",
-                "Dividendo_Distribuido_Total": "917459000.00",
-                "Data_Aprovacao_Retencao": "2020-04-16"
-              }
+              "docid": "136067",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "received": "2024-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136067",
+              "original": "review_originals/cvm_136067_g192.pdf.gz",
+              "original_sha256": "3c56d87e744c687fed4deee662694ccf6d9e793bea1481f748f51a07dbf23ce5"
             },
             {
-              "docid": "126090",
-              "received": "2023-05-10",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
-              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=126090",
-              "fiscal_year": 2020,
-              "raw": {
-                "CNPJ_Companhia": "02.998.611/0001-04",
-                "Data_Referencia": "2022-01-01",
-                "Versao": "8",
-                "ID_Documento": "126090",
-                "Nome_Companhia": "ISA ENERGIA BRASIL",
-                "Data_Inicio_Exercicio_Social": "2020-01-01",
-                "Data_Fim_Exercicio_Social": "2020-12-31",
-                "Lucro_Liquido_Ajustado": "3361880000.00",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "23.80000000",
-                "Lucro_Liquido_Retido": "1691250000.00",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "49.70000000",
-                "Dividendo_Distribuido_Total": "1670630000.00",
-                "Data_Aprovacao_Retencao": "2021-03-25"
-              }
-            },
-            {
-              "docid": "126090",
-              "received": "2023-05-10",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
-              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=126090",
-              "fiscal_year": 2021,
-              "raw": {
-                "CNPJ_Companhia": "02.998.611/0001-04",
-                "Data_Referencia": "2022-01-01",
-                "Versao": "8",
-                "ID_Documento": "126090",
-                "Nome_Companhia": "ISA ENERGIA BRASIL",
-                "Data_Inicio_Exercicio_Social": "2021-01-01",
-                "Data_Fim_Exercicio_Social": "2021-12-31",
-                "Lucro_Liquido_Ajustado": "3022398000.00",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "20.40000000",
-                "Lucro_Liquido_Retido": "1713368000.00",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "43.30000000",
-                "Dividendo_Distribuido_Total": "1309030000.00",
-                "Data_Aprovacao_Retencao": "2021-03-24"
-              }
+              "docid": "136067",
+              "group": 193,
+              "pages": [
+                3,
+                4,
+                5,
+                11,
+                13,
+                20,
+                22,
+                35,
+                43,
+                49
+              ],
+              "received": "2024-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136067",
+              "original": "review_originals/cvm_136067_g193.pdf.gz",
+              "original_sha256": "7fdc366df72276d2e2a47ecd8f80145e88c4de5706983b5775099e8b6a240063"
             }
           ]
         },
         "governance": {
-          "favorable": {
-            "dated_shareholder_right_records": 26,
-            "dated_related_party_records": 378
-          },
+          "favorable": "Menor desconto NTN-B eleva passivo atuarial; divulgação e financiamento detalhados são favoráveis, mas falta resolução/comutatividade integral dos acordos históricos.",
           "evidence": [
             {
-              "docid": "134145",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+              "docid": "136067",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "received": "2024-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136067",
+              "original": "review_originals/cvm_136067_g192.pdf.gz",
+              "original_sha256": "3c56d87e744c687fed4deee662694ccf6d9e793bea1481f748f51a07dbf23ce5"
             },
             {
-              "docid": "134145",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134145",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134145",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134145",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134145",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134145",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+              "docid": "136067",
+              "group": 193,
+              "pages": [
+                3,
+                4,
+                5,
+                11,
+                13,
+                20,
+                22,
+                35,
+                43,
+                49
+              ],
+              "received": "2024-04-30",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136067",
+              "original": "review_originals/cvm_136067_g193.pdf.gz",
+              "original_sha256": "7fdc366df72276d2e2a47ecd8f80145e88c4de5706983b5775099e8b6a240063"
             }
           ]
         }

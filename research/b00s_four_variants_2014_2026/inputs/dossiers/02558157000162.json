@@ -21471,419 +21471,591 @@
       "ticker": "VIVT3",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": null,
-      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
-      "classification_changed": null,
-      "dimensions": {},
-      "dimension_evidence_updates": {
+      "assessment_ref": "02558157000162:2024",
+      "assessment_status": "ASSESSED",
+      "classification_changed": false,
+      "dimensions": {
         "durability": {
-          "favorable": "Prestação de serviços de telecomunicações, exploração de serviços de valor adicionado e soluções integradas.",
+          "status": "SATISFACTORY",
+          "favorable": "Móvel +9,3%, churn pós 0,97%/mês e FTTH +14,7%, 443 municípios. Migração pré ao pós favorece; B2B com base pontual de 2023 não equivale a crescimento orgânico recorrente igual.",
+          "contrary_evidence": "Móvel +9,3%, churn pós 0,97%/mês e FTTH +14,7%, 443 municípios. Migração pré ao pós favorece; B2B com base pontual de 2023 não equivale a crescimento orgânico recorrente igual.",
+          "reason": "Móvel +9,3%, churn pós 0,97%/mês e FTTH +14,7%, 443 municípios. Migração pré ao pós favorece; B2B com base pontual de 2023 não equivale a crescimento orgânico recorrente igual.",
           "evidence": [
             {
-              "cnpj": "02558157000162",
-              "received": "2023-01-06",
-              "name": "TELEFÔNICA BRASIL S.A",
-              "sector": "Telecomunicações",
-              "activity": "Prestação de serviços de telecomunicações, exploração de serviços de valor adicionado e soluções integradas.",
-              "cvm": "017671",
-              "docid": "122941",
-              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=122941"
+              "docid": "136590",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2024-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136590",
+              "original": "review_originals/cvm_136590_g192.pdf.gz",
+              "original_sha256": "fe5eb6c47f0e8347af136f0752901c8ab0df2c71c42041162d6d6bc4e60991b1"
+            },
+            {
+              "docid": "136590",
+              "group": 193,
+              "pages": [
+                2,
+                3,
+                6,
+                16,
+                17,
+                28,
+                35,
+                36,
+                38,
+                39,
+                42
+              ],
+              "received": "2024-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136590",
+              "original": "review_originals/cvm_136590_g193.pdf.gz",
+              "original_sha256": "24b89e4ba49202066bcc50f4c823f6c69c61698eed59f413934f50835af329ee"
+            }
+          ],
+          "prior_year": 2023,
+          "review_2015": "Sem alteração material desta dimensão após confronto da tese anterior com os fatos descritos na atualização de 2015. AquisiçãoGVT autorizada e aumento de capital mudam novamente o perímetro; restriçõesANATEL/CADE e relação comcontrolador continuam materiais. Não misturar sérieTelesp2010 com Vivo/GVTcomo crescimento orgânico.",
+          "review_2016": "Rede móvel/fixa e base instalada mantêm franquia; dados/SVA crescem22,8% enquanto voz cai15,6%. Migração tecnológica requer capital e não elimina competição.",
+          "review_2017": "Base de rede/móvel mantém vantagem de escala; dados+37% e banda larga+11,4% no1T17 compensam voz em queda e regulaçãoVU-M. MantémSAT de durabilidade com substituição tecnológica explícita.",
+          "review_2018": "Dados/serviços digitais+17,4% e banda larga+15,7% compensam voz em queda; mantém SAT da rede e escala com substituição tecnológica explícita.",
+          "review_2019": "Receita de dados móveis +8%, FTTH +49,6% e nove novas cidades sustentam SAT da franquia. Voz fixa −18,4% e receita fixa −3,2% evidenciam substituição tecnológica.",
+          "review_2020": "FTTHreceita+43,3%, IPTV+29,3% e dadosTIC+13,8% contrapõem voz−18,8%; receita móvelestável. Barreiras de rede e substituição de legado preservamSAT, sem supor crescimento de todossegmentos.",
+          "review_2021": "FTTH+61,2%/IPTV+25,9% e16,3milhõescasas em276cidades contrapõem fixonãocore−24,1%. Franquia de rede e migração de tecnologia preservamSAT; não extrapola crescimento de umproduto aoconjunto.",
+          "review_2022": "SAT: receita móvel+5,7%/pós+5,9%,corefixa+11,9%; fibra/conectividade substituemserviçoslegados. OiMóvelfechada20/04/2022 eFiBrasiloperacional desdejulho2021, não pendentes.",
+          "review_2023": "SAT: serviçomóvel+15,9%,fibra+17,7% e95novascidades;Oiintegradacomlimpeza457milacessosinativos. DTHdescontinuadojan2023, franquialegada não é perpetuada semajuste.",
+          "missing": "",
+          "review_2024": "Móvel +9,3%, churn pós 0,97%/mês e FTTH +14,7%, 443 municípios. Migração pré ao pós favorece; B2B com base pontual de 2023 não equivale a crescimento orgânico recorrente igual."
+        },
+        "capital_economics": {
+          "status": "INDETERMINATE",
+          "favorable": "Oi/5G/FiBrasil e investimento 1,874 bi +11,2% ampliam capacidade, contrapostos a amortização +3,3% e financeiro −687 mi. ARPU fibra e menor churn favorecem, sem retorno incremental de todo capital demonstrado.",
+          "contrary_evidence": "Oi/5G/FiBrasil e investimento 1,874 bi +11,2% ampliam capacidade, contrapostos a amortização +3,3% e financeiro −687 mi. ARPU fibra e menor churn favorecem, sem retorno incremental de todo capital demonstrado.",
+          "reason": "Oi/5G/FiBrasil e investimento 1,874 bi +11,2% ampliam capacidade, contrapostos a amortização +3,3% e financeiro −687 mi. ARPU fibra e menor churn favorecem, sem retorno incremental de todo capital demonstrado.",
+          "missing": "Oi/5G/FiBrasil e investimento 1,874 bi +11,2% ampliam capacidade, contrapostos a amortização +3,3% e financeiro −687 mi. ARPU fibra e menor churn favorecem, sem retorno incremental de todo capital demonstrado.",
+          "evidence": [
+            {
+              "docid": "136590",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2024-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136590",
+              "original": "review_originals/cvm_136590_g192.pdf.gz",
+              "original_sha256": "fe5eb6c47f0e8347af136f0752901c8ab0df2c71c42041162d6d6bc4e60991b1"
+            },
+            {
+              "docid": "136590",
+              "group": 193,
+              "pages": [
+                2,
+                3,
+                6,
+                16,
+                17,
+                28,
+                35,
+                36,
+                38,
+                39,
+                42
+              ],
+              "received": "2024-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136590",
+              "original": "review_originals/cvm_136590_g193.pdf.gz",
+              "original_sha256": "24b89e4ba49202066bcc50f4c823f6c69c61698eed59f413934f50835af329ee"
+            }
+          ],
+          "prior_year": 2023,
+          "review_2015": "AquisiçãoGVT autorizada e aumento de capital mudam novamente o perímetro; restriçõesANATEL/CADE e relação comcontrolador continuam materiais. Não misturar sérieTelesp2010 com Vivo/GVTcomo crescimento orgânico.",
+          "review_2016": "GVT e novos ativos alteram capital/goodwill/depreciação; ganho de torres513,5mi não é retorno operacional. Falta série normalizada por ação sob perímetro comparável.",
+          "review_2017": "GVT/sinergias e CAPEXalto ainda exigemROICincluindo goodwill/arrendamento; redução de custos1,1% não comprova retorno incremental. MantémND específico.",
+          "review_2018": "Nono trimestre de queda de custos recorrentes e expansão FTTH são favoráveis. GVT/goodwill, licenças e arrendamentos ainda devem integrar retorno econômico; mantém ND.",
+          "review_2019": "CAPEX de R$1,696 bilhão e D&A antes de IFRS16 +7,9% exigem retorno ajustado por GVT, licenças e arrendamentos. Créditos fiscais não comprovam produtividade. Mantém ND da economia do capital.",
+          "review_2020": "CAPEX1.648mi/15,2%receita e redução custorecorrente3,3% apoiam eficiência; depreciação+6% inclui revisão de vidaútil4T19. ROICincluindoGVT/goodwill/licenças/arrendamentos aindaND; queda de custo não basta.",
+          "review_2021": "CAPEX1,943bi/17,9%receita, depreciação+5,9% e despesasfinanceiras315mi porleases. Ganhosfiscais/alienações2020 separamretornofranquia deextraordinários. MantémND deROICcomgoodwill/licenças/leases e retorno do capitalincremental.",
+          "review_2022": "ND de retorno incremental: investimento1,880bi1T22,amortização+5,8%licenças5G; alienaçãoFiBrasil416,577mi eSELICIRCS1,407523bi2021 não são franquia recorrente. Crescimento de rede não provaROICdo capital emOi/5G.",
+          "review_2023": "ND: aquisiçãoOi eexpansãoFTTHcrescemreceita, masamortização+6,1%/financeiro−657mi mostramcusto do capital. Integração ainda não certificaretornoincrementaldeOi/5G/FiBrasil.",
+          "review_2024": "Oi/5G/FiBrasil e investimento 1,874 bi +11,2% ampliam capacidade, contrapostos a amortização +3,3% e financeiro −687 mi. ARPU fibra e menor churn favorecem, sem retorno incremental de todo capital demonstrado."
+        },
+        "earnings_reliability": {
+          "status": "SATISFACTORY",
+          "favorable": "Menor recuperação tributária e materiais explicam despesas diversas 129 mi; PDD 398 mi +12,7% mantida. Liquidação de empréstimo FX em setembro/2023 e retenção Oi são distintas de lucro recorrente.",
+          "contrary_evidence": "Menor recuperação tributária e materiais explicam despesas diversas 129 mi; PDD 398 mi +12,7% mantida. Liquidação de empréstimo FX em setembro/2023 e retenção Oi são distintas de lucro recorrente.",
+          "reason": "Menor recuperação tributária e materiais explicam despesas diversas 129 mi; PDD 398 mi +12,7% mantida. Liquidação de empréstimo FX em setembro/2023 e retenção Oi são distintas de lucro recorrente.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "136590",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2024-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136590",
+              "original": "review_originals/cvm_136590_g192.pdf.gz",
+              "original_sha256": "fe5eb6c47f0e8347af136f0752901c8ab0df2c71c42041162d6d6bc4e60991b1"
+            },
+            {
+              "docid": "136590",
+              "group": 193,
+              "pages": [
+                2,
+                3,
+                6,
+                16,
+                17,
+                28,
+                35,
+                36,
+                38,
+                39,
+                42
+              ],
+              "received": "2024-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136590",
+              "original": "review_originals/cvm_136590_g193.pdf.gz",
+              "original_sha256": "24b89e4ba49202066bcc50f4c823f6c69c61698eed59f413934f50835af329ee"
+            }
+          ],
+          "prior_year": 2023,
+          "review_2015": "Sem alteração material desta dimensão após confronto da tese anterior com os fatos descritos na atualização de 2015. AquisiçãoGVT autorizada e aumento de capital mudam novamente o perímetro; restriçõesANATEL/CADE e relação comcontrolador continuam materiais. Não misturar sérieTelesp2010 com Vivo/GVTcomo crescimento orgânico.",
+          "review_2016": "O trimestre distingue ganho de torres e despesas de integração, mas a série de cinco anos ainda mistura mudanças societárias. Não usa EBITDA ajustado nem proforma curto para certificar lucro homogêneo.",
+          "review_2017": "Comparativo explicita ganho de torres513,5mi no1T16; reclassificaçãoSVA muda linhas de receita. Ponte2012–16 do perímetroGVT/PPA permanece pendente para qualidade/valuation, sem presumir lucros fictícios.",
+          "review_2018": "IFRS15 e valores pró-forma são apresentados separadamente; crescimento218,3% de serviços digitais inclui mudança de ofertas desde2017. PDD cresce9% para R$390 mi. Mantém ND de comparabilidade/caixa histórico, sem presumir que reclassificação seja crescimento puro.",
+          "review_2019": "Resolve a identificação dos efeitos materiais: crédito PIS/COFINS de 2018 com principal de R$3.386,433 milhões e atualização de R$2.926,247 milhões; PIS/COFINS sobre atualização de R$136,070 milhões. O ITR separa resultados com e sem IFRS16. Junto às notas anteriores de GVT e torres, a reconciliação sustenta SAT da transparência, sem certificar automaticamente o lucro normalizado.",
+          "review_2020": "Venda de torres/rooftops75,7mi no1T20 separada de custosrecorrentes; despesa financeira195mi vs90mi explicada por menoratualização de créditosfiscais. DFP separaIFRS16, créditos2018 eTISsobcontrolecomum. MantémSAT de lucros rastreáveis.",
+          "review_2021": "Notas2020 identificamPIS435,698mi operacional/512,659mi atualização e alienações425,562mi. Reversõesrecuperações1T21 não são todasrecorrentes. MantémSAT de informações conciliáveis, sem usarNIbruto paraqualificareconomia.",
+          "review_2022": "SAT: outrosganhos79mi−62,8% pormenor crédito tributário efinanças−524mi+66,6% explicitados; arrendamento ejuros não somem da ponte. Não repete ganho2016torres fora da janela2017–21.",
+          "review_2023": "SAT: limpeza deacessos,encerramentoTSAOi emfevereiro,menoresganhosdevendamateriais/imóveis−100mi e leases explicitados. Crescimentoreceitamóvel não é lucrocomparável sem efeitos decompra.",
+          "review_2024": "Menor recuperação tributária e materiais explicam despesas diversas 129 mi; PDD 398 mi +12,7% mantida. Liquidação de empréstimo FX em setembro/2023 e retenção Oi são distintas de lucro recorrente."
+        },
+        "financial_resilience": {
+          "status": "SATISFACTORY",
+          "favorable": "Dívida sem leases 5,066 bi toda em reais, caixa líquido sem leases 1,920 bi; incluindo leases dívida líquida 11,540 bi. Ônus contratuais e CAPEX permanecem apesar das liquidações efetivas.",
+          "contrary_evidence": "Dívida sem leases 5,066 bi toda em reais, caixa líquido sem leases 1,920 bi; incluindo leases dívida líquida 11,540 bi. Ônus contratuais e CAPEX permanecem apesar das liquidações efetivas.",
+          "reason": "Dívida sem leases 5,066 bi toda em reais, caixa líquido sem leases 1,920 bi; incluindo leases dívida líquida 11,540 bi. Ônus contratuais e CAPEX permanecem apesar das liquidações efetivas.",
+          "evidence": [
+            {
+              "docid": "136590",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2024-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136590",
+              "original": "review_originals/cvm_136590_g192.pdf.gz",
+              "original_sha256": "fe5eb6c47f0e8347af136f0752901c8ab0df2c71c42041162d6d6bc4e60991b1"
+            },
+            {
+              "docid": "136590",
+              "group": 193,
+              "pages": [
+                2,
+                3,
+                6,
+                16,
+                17,
+                28,
+                35,
+                36,
+                38,
+                39,
+                42
+              ],
+              "received": "2024-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136590",
+              "original": "review_originals/cvm_136590_g193.pdf.gz",
+              "original_sha256": "24b89e4ba49202066bcc50f4c823f6c69c61698eed59f413934f50835af329ee"
+            }
+          ],
+          "prior_year": 2023,
+          "review_2015": "A oferta de ações foi homologada em abril de 2015: R$15.812 milhões, além do lote suplementar de R$295,285 milhões, para financiar a operação. As notas apresentam cobertura da exposição cambial da parcela em euros. Essa capitalização sustenta a avaliação satisfatória da estrutura financeira divulgada; não demonstra retorno econômico da compra, sinergias ou ausência de risco de integração.",
+          "review_2016": "Dívida bruta8.921,7mi, líquida4.686,5mi e100%da exposição cambial protegida; captação por ações reduziu alavancagem. Arrendamento e CAPEX não são apagados e integração permanece risco.",
+          "review_2017": "Dívida líquida4.549,1mi, bruta10.822,9mi após debêntures2bi paraalongamento;11,3%em moedaestrangeira100%hedge. MantémSAT anterior atualizado com exposição e CAPEX.",
+          "review_2018": "Dívida bruta R$8.029,2 mi, líquida R$3.083,8 mi;2,4% em moeda estrangeira com hedge. Amortizações reduzem alavancagem; mantém SAT com CAPEX e compromissos de rede explícitos.",
+          "review_2019": "Mantém SAT incluindo arrendamentos: dívida líquida gerencial de R$9,581 bilhões com IFRS16, frente a R$1,279 bilhão sem o novo efeito. Notas de março discriminam R$8,679604 bilhões de passivo de arrendamento total, R$1,723331 bilhão circulante em valor presente e R$2,088196 bilhões de pagamentos nominais em doze meses. Caixa efetivo de R$4,074843 bilhões, empréstimos e debêntures com pagamentos nominais de R$573,860 milhões e R$177,069 milhões em doze meses, e covenants cumpridos contrapõem essa obrigação. Fornecedores de R$7,109210 bilhões e CAPEX trimestral de R$1,696 bilhão dependem da operação recorrente; o caixa não cobre todos os passivos correntes isoladamente. Proteção cambial e a franquia geradora de caixa sustentam continuidade, sem tratar o ganho fiscal como receita operacional permanente.",
+          "review_2020": "Caixa/aplicações implícitos5.980mi e dívida financeira4.643mi, sem dívida emmoedaestrangeira, sustentamSAT anterior. IncorporarIFRS16 muda caixa líquido1.337mi para dívida líquida7.402mi; não usar indicadorsemleases como ausência de obrigações. CAPEXe parcelamentoFistel continuam na avaliação.",
+          "review_2021": "Dívidafinanceira1,880bi emreais, caixalíquidoexleases5,030bi; incluindoarrendamentos há dívidalíquida5,936bi. MantémSAT anterior comobrigaçõeslease eCAPEXincluídos, sem afirmar ausênciadedívida.",
+          "review_2022": "SAT mantido comfolga menor: caixa6,430521bi+aplicações30,839mi março; dívidaexleases3,610bi,comleaseslíquida9,127bi. Oi5,373046bi efetivaabril,4,884588bi paga/488,458mi retida; empréstimoCitibank1bi recebido08/04 comswapCDI+0,7%. Não subtrai aquisição antesde2022 nem chama caixa prépagamento de caixa disponível póscompra. Licenças5G/leases/CAPEX permanecem obrigações. DFCnativaCVM1T22: caixaoperacional4,459610bi e pagamentos deCAPEX1,815310bi; suporte de geração efetiva para obrigações após compra, sem anualizar mecanicamente ou contar esse caixa duas vezes no saldo de março.",
+          "review_2023": "SAT mantido: dívidaexleases7,193bi comFX100%protegida, líquida1,371bi apósretensões/derivativos; comleases13,160bi. Financiamentosjáefetivos/CAPEX1,686bi e amostra deobrigações considerados, não excluileasesparaconcluirsolidez.",
+          "missing": "",
+          "review_2024": "Dívida sem leases 5,066 bi toda em reais, caixa líquido sem leases 1,920 bi; incluindo leases dívida líquida 11,540 bi. Ônus contratuais e CAPEX permanecem apesar das liquidações efetivas."
+        },
+        "capital_allocation": {
+          "status": "INDETERMINATE",
+          "favorable": "5G em 181 cidades/47% da população e monetização digital favorecem. Crédito Vivo Money 420 mi e saúde exigem capital e controle; 4,3 vezes mais clientes Vale Saúde não prova retorno do preço de compra.",
+          "contrary_evidence": "5G em 181 cidades/47% da população e monetização digital favorecem. Crédito Vivo Money 420 mi e saúde exigem capital e controle; 4,3 vezes mais clientes Vale Saúde não prova retorno do preço de compra.",
+          "reason": "5G em 181 cidades/47% da população e monetização digital favorecem. Crédito Vivo Money 420 mi e saúde exigem capital e controle; 4,3 vezes mais clientes Vale Saúde não prova retorno do preço de compra.",
+          "missing": "5G em 181 cidades/47% da população e monetização digital favorecem. Crédito Vivo Money 420 mi e saúde exigem capital e controle; 4,3 vezes mais clientes Vale Saúde não prova retorno do preço de compra.",
+          "evidence": [
+            {
+              "docid": "136590",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2024-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136590",
+              "original": "review_originals/cvm_136590_g192.pdf.gz",
+              "original_sha256": "fe5eb6c47f0e8347af136f0752901c8ab0df2c71c42041162d6d6bc4e60991b1"
+            },
+            {
+              "docid": "136590",
+              "group": 193,
+              "pages": [
+                2,
+                3,
+                6,
+                16,
+                17,
+                28,
+                35,
+                36,
+                38,
+                39,
+                42
+              ],
+              "received": "2024-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136590",
+              "original": "review_originals/cvm_136590_g193.pdf.gz",
+              "original_sha256": "24b89e4ba49202066bcc50f4c823f6c69c61698eed59f413934f50835af329ee"
+            }
+          ],
+          "prior_year": 2023,
+          "review_2015": "AquisiçãoGVT autorizada e aumento de capital mudam novamente o perímetro; restriçõesANATEL/CADE e relação comcontrolador continuam materiais. Não misturar sérieTelesp2010 com Vivo/GVTcomo crescimento orgânico.",
+          "review_2016": "CAPEX1T16 de1.491,9mi,75%comercial; expansão4G/fibra pode ser produtiva, mas ganhos por ação após preçoGVT, diluição e leaseback ainda não estão comprovados.",
+          "review_2017": "CAPEX1T17 de1.328,2mi, rede1.193,4mi e304novascidades4G. Entrega física documentada, mas retorno sobre capitalpor ação pósGVT segueND; não penaliza FCL de expansão isoladamente.",
+          "review_2018": "CAPEX1T18 R$1.547,4 mi; anúncio12/03 estima R$24 bi em2018–20 mais R$2,5 bi de fibra, excluindo licenças. Plano futuro não é lucro realizado; mantém ND de retorno incremental por ação.",
+          "review_2019": "CAPEX de rede de R$1,514 bilhão e contenção de custos são favoráveis. Mantém ND do crescimento real por ação e do retorno incremental após GVT; créditos judiciais não autorizam aprovação automática.",
+          "review_2020": "Expansãofibra/4G e manutenção distinguemdestinações, mas produtividade poração apóscapitalGVT e compromissosleaseback permaneceND. Venda torres é monetização com obrigações, não crescimentooperacional.",
+          "review_2021": "Fibra/4G e novassoluções exigemCAPEX17,9%receita; ganho detorres2016/20 monetizaativos comleaseback. Retornoeconômicopor açãoapóscapitalGVT eleases continuaND; GVTjáintegra todosanos2016–20 e não serve mais como bloqueio de perímetro incompleto2015.",
+          "review_2022": "ND: Oi+licenças5G+FiBrasil25%Vivo/25%TelefInfra/50%CDPQ alteramcapital. Migraçãoaté115mi inclui40mi já pagos20/04; transição147,551mi também integralmente paga20/04, além4,884588bi da aquisição. Take-or-pay179miVPN é compromisso conhecido; synergiesfuturas não comprovam produtividade poração.",
+          "review_2023": "ND: términoTSA conhecido reduziu dependência masgerou custo;CAPEX13,3%receita não provaROIC. NovaaquisiçãoValeSaúdesempre até60mi eexpansão5G/fibra sãoinvestimentos com retornoa demonstrar.",
+          "review_2024": "5G em 181 cidades/47% da população e monetização digital favorecem. Crédito Vivo Money 420 mi e saúde exigem capital e controle; 4,3 vezes mais clientes Vale Saúde não prova retorno do preço de compra."
+        },
+        "governance": {
+          "status": "INDETERMINATE",
+          "favorable": "Transparência de contratos Telefónica/FiBrasil e leases favorece avaliação; metas ASG não provam comutatividade econômica de todos os acordos. Não há prova nova de extração abusiva.",
+          "contrary_evidence": "Transparência de contratos Telefónica/FiBrasil e leases favorece avaliação; metas ASG não provam comutatividade econômica de todos os acordos. Não há prova nova de extração abusiva.",
+          "reason": "Transparência de contratos Telefónica/FiBrasil e leases favorece avaliação; metas ASG não provam comutatividade econômica de todos os acordos. Não há prova nova de extração abusiva.",
+          "missing": "Transparência de contratos Telefónica/FiBrasil e leases favorece avaliação; metas ASG não provam comutatividade econômica de todos os acordos. Não há prova nova de extração abusiva.",
+          "evidence": [
+            {
+              "docid": "136590",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2024-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136590",
+              "original": "review_originals/cvm_136590_g192.pdf.gz",
+              "original_sha256": "fe5eb6c47f0e8347af136f0752901c8ab0df2c71c42041162d6d6bc4e60991b1"
+            },
+            {
+              "docid": "136590",
+              "group": 193,
+              "pages": [
+                2,
+                3,
+                6,
+                16,
+                17,
+                28,
+                35,
+                36,
+                38,
+                39,
+                42
+              ],
+              "received": "2024-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136590",
+              "original": "review_originals/cvm_136590_g193.pdf.gz",
+              "original_sha256": "24b89e4ba49202066bcc50f4c823f6c69c61698eed59f413934f50835af329ee"
+            }
+          ],
+          "prior_year": 2023,
+          "review_2015": "AquisiçãoGVT autorizada e aumento de capital mudam novamente o perímetro; restriçõesANATEL/CADE e relação comcontrolador continuam materiais. Não misturar sérieTelesp2010 com Vivo/GVTcomo crescimento orgânico.",
+          "review_2016": "Mantém restrições regulatórias e estrutura com controlador; incorpora troca de açõesVivendi/Telefónica e itens intragrupo documentados, sem presumir que fechamento elimina conflitos.",
+          "review_2017": "Transaçõesintragrupo, sinergias e reestruturação mantêm as pendências específicasanteriores de tratamento do acionista e remuneração do controlador. Não promove aSAT só pela melhoraoperacional.",
+          "review_2018": "Relações com controlador e perímetro pós-GVT preservam contrapontos específicos. Redução de custos e plano de investimento não resolvem por si a proteção de minoritários; mantém ND.",
+          "review_2019": "Serviços e licenças contratados com o grupo Telefónica têm notas dedicadas. Mantém ND pelo contraponto anterior de controle e partes relacionadas; a ponte contábil mais clara não resolve sozinha a proteção econômica dos minoritários.",
+          "review_2020": "Aquisição intragrupoTIS70,844mi em26/09/2019, semdiluição, foi aprovada pela subsidiária comlaudoDCF e auditoria; preço acimaativo líquido é debitadoPL. É evidência favorável de processo, mas materializa novo conflito intragrupo junto aBrandFee/Telxius; mantémND específico deproteção/condições econômicas.",
+          "review_2021": "ConversãoPN→ONem23/11/2020 resolve dualidadeclasses e é continuidadeCNPJ. RelaçõesTelxius/BrandFee/TIS e condições econômicas continuam materialmente pendentes, não apenas nome do ticker. MantémND da proteção econômica.",
+          "review_2022": "ND específico de comutatividade das operações comgrupo e direitos econômicos naFiBrasil/serviços. Divulgação e criaçãoVivoVentures98/2% são favoráveis àrastreabilidade, não prova suficiente para aprovar proteção.",
+          "review_2023": "ND específico dasrelaçõesTelefónica/FiBrasil. Operações/retensões foramdivulgadas, masnãoresolvemcomutatividade de todoscustos e direitos jápendentes; nenhumaabusonovo presumido.",
+          "review_2024": "Transparência de contratos Telefónica/FiBrasil e leases favorece avaliação; metas ASG não provam comutatividade econômica de todos os acordos. Não há prova nova de extração abusiva."
+        }
+      },
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "Móvel +9,3%, churn pós 0,97%/mês e FTTH +14,7%, 443 municípios. Migração pré ao pós favorece; B2B com base pontual de 2023 não equivale a crescimento orgânico recorrente igual.",
+          "evidence": [
+            {
+              "docid": "136590",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2024-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136590",
+              "original": "review_originals/cvm_136590_g192.pdf.gz",
+              "original_sha256": "fe5eb6c47f0e8347af136f0752901c8ab0df2c71c42041162d6d6bc4e60991b1"
+            },
+            {
+              "docid": "136590",
+              "group": 193,
+              "pages": [
+                2,
+                3,
+                6,
+                16,
+                17,
+                28,
+                35,
+                36,
+                38,
+                39,
+                42
+              ],
+              "received": "2024-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136590",
+              "original": "review_originals/cvm_136590_g193.pdf.gz",
+              "original_sha256": "24b89e4ba49202066bcc50f4c823f6c69c61698eed59f413934f50835af329ee"
             }
           ]
         },
         "capital_economics": {
-          "favorable": {
-            "roe_parent_5": [
-              0.07040577638288416,
-              0.06814437830059296,
-              0.08946353401495054,
-              0.05906145245774958,
-              0.07290526198220511
-            ],
-            "normalized_profit": 5942750206.908644
-          },
+          "favorable": "Oi/5G/FiBrasil e investimento 1,874 bi +11,2% ampliam capacidade, contrapostos a amortização +3,3% e financeiro −687 mi. ARPU fibra e menor churn favorecem, sem retorno incremental de todo capital demonstrado.",
           "evidence": [
             {
-              "fiscal_year": 2019,
-              "metric": "attributable_ni",
-              "value": 5001014000.0,
-              "docid": "100383",
-              "received": "2021-02-23",
-              "reference": "2020-12-31",
-              "period_end": "2019-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2020.csv",
-              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+              "docid": "136590",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2024-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136590",
+              "original": "review_originals/cvm_136590_g192.pdf.gz",
+              "original_sha256": "fe5eb6c47f0e8347af136f0752901c8ab0df2c71c42041162d6d6bc4e60991b1"
             },
             {
-              "fiscal_year": 2020,
-              "metric": "attributable_ni",
-              "value": 4770527000.0,
-              "docid": "111940",
-              "received": "2022-02-22",
-              "reference": "2021-12-31",
-              "period_end": "2020-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2021.csv",
-              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
-            },
-            {
-              "fiscal_year": 2021,
-              "metric": "attributable_ni",
-              "value": 6239364000.0,
-              "docid": "123623",
-              "received": "2023-02-17",
-              "reference": "2022-12-31",
-              "period_end": "2021-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2022.csv",
-              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
-            },
-            {
-              "fiscal_year": 2022,
-              "metric": "attributable_ni",
-              "value": 4085013000.0,
-              "docid": "134135",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "2022-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "fiscal_year": 2023,
-              "metric": "attributable_ni",
-              "value": 5029389000.0,
-              "docid": "134135",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "2023-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+              "docid": "136590",
+              "group": 193,
+              "pages": [
+                2,
+                3,
+                6,
+                16,
+                17,
+                28,
+                35,
+                36,
+                38,
+                39,
+                42
+              ],
+              "received": "2024-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136590",
+              "original": "review_originals/cvm_136590_g193.pdf.gz",
+              "original_sha256": "24b89e4ba49202066bcc50f4c823f6c69c61698eed59f413934f50835af329ee"
             }
           ]
         },
         "earnings_reliability": {
-          "favorable": {
-            "positive_attributable_years": 5,
-            "audit_records": 7
-          },
+          "favorable": "Menor recuperação tributária e materiais explicam despesas diversas 129 mi; PDD 398 mi +12,7% mantida. Liquidação de empréstimo FX em setembro/2023 e retenção Oi são distintas de lucro recorrente.",
           "evidence": [
             {
-              "docid": "134135",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+              "docid": "136590",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2024-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136590",
+              "original": "review_originals/cvm_136590_g192.pdf.gz",
+              "original_sha256": "fe5eb6c47f0e8347af136f0752901c8ab0df2c71c42041162d6d6bc4e60991b1"
             },
             {
-              "docid": "134135",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134135",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134135",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134135",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134135",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134135",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+              "docid": "136590",
+              "group": 193,
+              "pages": [
+                2,
+                3,
+                6,
+                16,
+                17,
+                28,
+                35,
+                36,
+                38,
+                39,
+                42
+              ],
+              "received": "2024-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136590",
+              "original": "review_originals/cvm_136590_g193.pdf.gz",
+              "original_sha256": "24b89e4ba49202066bcc50f4c823f6c69c61698eed59f413934f50835af329ee"
             }
           ]
         },
         "financial_resilience": {
-          "favorable": {
-            "parent_equity_latest": 69566795000.0
-          },
+          "favorable": "Dívida sem leases 5,066 bi toda em reais, caixa líquido sem leases 1,920 bi; incluindo leases dívida líquida 11,540 bi. Ônus contratuais e CAPEX permanecem apesar das liquidações efetivas.",
           "evidence": [
             {
-              "docid": "134135",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "2023-12-31",
-              "perimeter": "ind",
-              "account": "2.03",
-              "description": "Patrimônio Líquido",
-              "source": "dfp_cia_aberta_BPP_ind_2023.csv",
-              "archive_sha256": "",
-              "url": ""
+              "docid": "136590",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2024-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136590",
+              "original": "review_originals/cvm_136590_g192.pdf.gz",
+              "original_sha256": "fe5eb6c47f0e8347af136f0752901c8ab0df2c71c42041162d6d6bc4e60991b1"
+            },
+            {
+              "docid": "136590",
+              "group": 193,
+              "pages": [
+                2,
+                3,
+                6,
+                16,
+                17,
+                28,
+                35,
+                36,
+                38,
+                39,
+                42
+              ],
+              "received": "2024-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136590",
+              "original": "review_originals/cvm_136590_g193.pdf.gz",
+              "original_sha256": "24b89e4ba49202066bcc50f4c823f6c69c61698eed59f413934f50835af329ee"
             }
           ]
         },
         "capital_allocation": {
-          "favorable": {
-            "historical_payout": [
-              1.2220203554,
-              1.2003626813,
-              1.0038721457,
-              null,
-              null
-            ],
-            "distributions": [
-              5783575340.79,
-              5417518375.45,
-              6263524280.52,
-              null,
-              null
-            ]
-          },
+          "favorable": "5G em 181 cidades/47% da população e monetização digital favorecem. Crédito Vivo Money 420 mi e saúde exigem capital e controle; 4,3 vezes mais clientes Vale Saúde não prova retorno do preço de compra.",
           "evidence": [
             {
-              "docid": "125390",
-              "received": "2023-04-24",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
-              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=125390",
-              "fiscal_year": 2019,
-              "raw": {
-                "CNPJ_Companhia": "02.558.157/0001-62",
-                "Data_Referencia": "2022-01-01",
-                "Versao": "11",
-                "ID_Documento": "125390",
-                "Nome_Companhia": "TELEFÔNICA BRASIL S.A",
-                "Data_Inicio_Exercicio_Social": "2019-01-01",
-                "Data_Fim_Exercicio_Social": "2019-12-31",
-                "Lucro_Liquido_Ajustado": "4732797874.78",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "6.71742110",
-                "Lucro_Liquido_Retido": "600000000.00",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "122.20203554",
-                "Dividendo_Distribuido_Total": "5783575340.79",
-                "Data_Aprovacao_Retencao": "2020-05-28"
-              }
+              "docid": "136590",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2024-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136590",
+              "original": "review_originals/cvm_136590_g192.pdf.gz",
+              "original_sha256": "fe5eb6c47f0e8347af136f0752901c8ab0df2c71c42041162d6d6bc4e60991b1"
             },
             {
-              "docid": "125390",
-              "received": "2023-04-24",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
-              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=125390",
-              "fiscal_year": 2020,
-              "raw": {
-                "CNPJ_Companhia": "02.558.157/0001-62",
-                "Data_Referencia": "2022-01-01",
-                "Versao": "11",
-                "ID_Documento": "125390",
-                "Nome_Companhia": "TELEFÔNICA BRASIL S.A",
-                "Data_Inicio_Exercicio_Social": "2020-01-01",
-                "Data_Fim_Exercicio_Social": "2020-12-31",
-                "Lucro_Liquido_Ajustado": "4513234591.45",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "6.48856321",
-                "Lucro_Liquido_Retido": "0.00",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "120.03626813",
-                "Dividendo_Distribuido_Total": "5417518375.45",
-                "Data_Aprovacao_Retencao": ""
-              }
-            },
-            {
-              "docid": "125390",
-              "received": "2023-04-24",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
-              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=125390",
-              "fiscal_year": 2021,
-              "raw": {
-                "CNPJ_Companhia": "02.558.157/0001-62",
-                "Data_Referencia": "2022-01-01",
-                "Versao": "11",
-                "ID_Documento": "125390",
-                "Nome_Companhia": "TELEFÔNICA BRASIL S.A",
-                "Data_Inicio_Exercicio_Social": "2021-01-01",
-                "Data_Fim_Exercicio_Social": "2021-12-31",
-                "Lucro_Liquido_Ajustado": "6239364551.81",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "8.91258906",
-                "Lucro_Liquido_Retido": "0.00",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "100.38721457",
-                "Dividendo_Distribuido_Total": "6263524280.52",
-                "Data_Aprovacao_Retencao": ""
-              }
+              "docid": "136590",
+              "group": 193,
+              "pages": [
+                2,
+                3,
+                6,
+                16,
+                17,
+                28,
+                35,
+                36,
+                38,
+                39,
+                42
+              ],
+              "received": "2024-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136590",
+              "original": "review_originals/cvm_136590_g193.pdf.gz",
+              "original_sha256": "24b89e4ba49202066bcc50f4c823f6c69c61698eed59f413934f50835af329ee"
             }
           ]
         },
         "governance": {
-          "favorable": {
-            "dated_shareholder_right_records": 23,
-            "dated_related_party_records": 694
-          },
+          "favorable": "Transparência de contratos Telefónica/FiBrasil e leases favorece avaliação; metas ASG não provam comutatividade econômica de todos os acordos. Não há prova nova de extração abusiva.",
           "evidence": [
             {
-              "docid": "134135",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+              "docid": "136590",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2024-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136590",
+              "original": "review_originals/cvm_136590_g192.pdf.gz",
+              "original_sha256": "fe5eb6c47f0e8347af136f0752901c8ab0df2c71c42041162d6d6bc4e60991b1"
             },
             {
-              "docid": "134135",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134135",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134135",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134135",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134135",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134135",
-              "received": "2024-02-20",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+              "docid": "136590",
+              "group": 193,
+              "pages": [
+                2,
+                3,
+                6,
+                16,
+                17,
+                28,
+                35,
+                36,
+                38,
+                39,
+                42
+              ],
+              "received": "2024-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=136590",
+              "original": "review_originals/cvm_136590_g193.pdf.gz",
+              "original_sha256": "24b89e4ba49202066bcc50f4c823f6c69c61698eed59f413934f50835af329ee"
             }
           ]
         }

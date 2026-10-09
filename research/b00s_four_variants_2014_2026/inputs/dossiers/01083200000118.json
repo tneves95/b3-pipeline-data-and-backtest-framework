@@ -3566,467 +3566,675 @@
       "ticker": "NEOE3",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": null,
-      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
-      "classification_changed": null,
-      "dimensions": {},
-      "dimension_evidence_updates": {
+      "assessment_ref": "01083200000118:2024",
+      "assessment_status": "ASSESSED",
+      "classification_changed": false,
+      "dimensions": {
         "durability": {
-          "favorable": "Participação em outras sociedades",
+          "status": "SATISFACTORY",
+          "reason": "GIC adquiriu 50% de oito ativos e permuta Dardanelos concluída em setembro/2023. Redes e concessões continuam; mudança de perímetro afeta comparativos e não permanece proposta pendente.",
           "evidence": [
             {
-              "cnpj": "01083200000118",
-              "received": "2023-04-11",
-              "name": "NEOENERGIA S.A.",
-              "sector": "Emp. Adm. Part. - Energia Elétrica",
-              "activity": "Participação em outras sociedades",
-              "cvm": "015539",
-              "docid": "125159",
-              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=125159"
+              "docid": "133915",
+              "group": 1653,
+              "pages": [
+                28,
+                37,
+                38,
+                39
+              ],
+              "received": "2024-02-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=133915",
+              "original": "review_originals/cvm_133915_g1653.pdf.gz",
+              "original_sha256": "d95addc53a7011186ee8db22f025500dd46c8dfa9eba855f124b4633b26e2065"
+            },
+            {
+              "docid": "133915",
+              "group": 412,
+              "pages": [
+                37,
+                38,
+                39,
+                40,
+                59,
+                60
+              ],
+              "received": "2024-02-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=133915",
+              "original": "review_originals/cvm_133915_g412.pdf.gz",
+              "original_sha256": "2bf2366b3c481374fc502132b33d6dc6099d8a8ac352539411f0c5bc0a23c3ed"
+            },
+            {
+              "docid": "139096",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "received": "2024-06-13",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=139096",
+              "original": "review_originals/cvm_139096_g192.pdf.gz",
+              "original_sha256": "a3a6818df72a1f7fba5d4d8a42c5987d5396ec7323fb5c7c7cc1dcc55de898ec"
+            }
+          ],
+          "contrary_evidence": "GIC adquiriu 50% de oito ativos e permuta Dardanelos concluída em setembro/2023. Redes e concessões continuam; mudança de perímetro afeta comparativos e não permanece proposta pendente.",
+          "missing": "",
+          "favorable": "GIC adquiriu 50% de oito ativos e permuta Dardanelos concluída em setembro/2023. Redes e concessões continuam; mudança de perímetro afeta comparativos e não permanece proposta pendente.",
+          "prior_year": 2023,
+          "review_2021": "CEB-Dinclui28diasno1T21; volume+6,2%,+2,7%semCEB. Distribuidoras/geração e contratos sustentamSAT, sem atribuir crescimentoorgânico àaquisição.",
+          "review_2022": "SAT: distribuidoras e geração contratada sustentam durabilidade; Brasília já consolidada desde02/03/2021. ChafarizgeraEBITDA31mi1T22; não trata expansão como operação antiga nem penaliza crescimento por aquisição em si.",
+          "review_2023": "SAT: redes16,111milhõesclientes eLuziasolar149MWp integral emmarço2023. Proposta de venda50%transmissão epermutahidros não são operações integralmente liquidadas só pela reclassificaçãoIFRS5.",
+          "review_2024": "GIC adquiriu 50% de oito ativos e permuta Dardanelos concluída em setembro/2023. Redes e concessões continuam; mudança de perímetro afeta comparativos e não permanece proposta pendente."
+        },
+        "capital_economics": {
+          "status": "INDETERMINATE",
+          "reason": "Lucro atribuível 2023 de 4,461 bi; Q1 1,127 bi, EBITDA caixa 2,820 bi frente IFRS 3,507 bi. VNR 418 mi/IFRS 269 mi não são caixa imediatamente livre; falta retorno incremental de todo capital.",
+          "evidence": [
+            {
+              "docid": "133915",
+              "group": 1653,
+              "pages": [
+                28,
+                37,
+                38,
+                39
+              ],
+              "received": "2024-02-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=133915",
+              "original": "review_originals/cvm_133915_g1653.pdf.gz",
+              "original_sha256": "d95addc53a7011186ee8db22f025500dd46c8dfa9eba855f124b4633b26e2065"
+            },
+            {
+              "docid": "133915",
+              "group": 412,
+              "pages": [
+                37,
+                38,
+                39,
+                40,
+                59,
+                60
+              ],
+              "received": "2024-02-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=133915",
+              "original": "review_originals/cvm_133915_g412.pdf.gz",
+              "original_sha256": "2bf2366b3c481374fc502132b33d6dc6099d8a8ac352539411f0c5bc0a23c3ed"
+            },
+            {
+              "docid": "139096",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "received": "2024-06-13",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=139096",
+              "original": "review_originals/cvm_139096_g192.pdf.gz",
+              "original_sha256": "a3a6818df72a1f7fba5d4d8a42c5987d5396ec7323fb5c7c7cc1dcc55de898ec"
+            }
+          ],
+          "contrary_evidence": "Lucro atribuível 2023 de 4,461 bi; Q1 1,127 bi, EBITDA caixa 2,820 bi frente IFRS 3,507 bi. VNR 418 mi/IFRS 269 mi não são caixa imediatamente livre; falta retorno incremental de todo capital.",
+          "missing": "Lucro atribuível 2023 de 4,461 bi; Q1 1,127 bi, EBITDA caixa 2,820 bi frente IFRS 3,507 bi. VNR 418 mi/IFRS 269 mi não são caixa imediatamente livre; falta retorno incremental de todo capital.",
+          "favorable": "Lucro atribuível 2023 de 4,461 bi; Q1 1,127 bi, EBITDA caixa 2,820 bi frente IFRS 3,507 bi. VNR 418 mi/IFRS 269 mi não são caixa imediatamente livre; falta retorno incremental de todo capital.",
+          "prior_year": 2023,
+          "review_2021": "Lucroatribuível1,007bi+75% contémIFRS15401mi contra102 eVNR323mi contra71. NovosparquesChafariz/Oitis ainda emconstrução; crescimento contábil não resolve retornoincremental do capital de aquisição/expansão. MantémND.",
+          "review_2022": "ND de retorno incremental: lucro2021 3,925bi incluiVNR1,579bi,IFRS15trans1,209bi eGSF163mi+58miJV; EBITDAcaixa7,328bi difere9,856biIFRS. BaixaNESA482mi é perda econômica e não automaticamente retirada.",
+          "review_2023": "ND: lucroFY20224,718bi e1T231,215bi não equivalem a retorno homogêneo. Gás extraordinariamente nãofornecido em1T22 evitou custoTermopernambuco; contraponto atual−119mi margem, não crescimento recorrente. Brasília−45mi versus+29mi eólicos+13mi versus−8mi são investigados.",
+          "review_2024": "Lucro atribuível 2023 de 4,461 bi; Q1 1,127 bi, EBITDA caixa 2,820 bi frente IFRS 3,507 bi. VNR 418 mi/IFRS 269 mi não são caixa imediatamente livre; falta retorno incremental de todo capital."
+        },
+        "earnings_reliability": {
+          "status": "SATISFACTORY",
+          "reason": "GIC passa à equivalência 37 mi e Dardanelos à consolidação. Perdas GIC 198 mi/Itabapoana 166 mi permanecem; ganho bruto EAPSA 1,555 bi precisa ser retirado separadamente do saldo líquido corporativo 1,191 bi.",
+          "evidence": [
+            {
+              "docid": "133915",
+              "group": 1653,
+              "pages": [
+                28,
+                37,
+                38,
+                39
+              ],
+              "received": "2024-02-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=133915",
+              "original": "review_originals/cvm_133915_g1653.pdf.gz",
+              "original_sha256": "d95addc53a7011186ee8db22f025500dd46c8dfa9eba855f124b4633b26e2065"
+            },
+            {
+              "docid": "133915",
+              "group": 412,
+              "pages": [
+                37,
+                38,
+                39,
+                40,
+                59,
+                60
+              ],
+              "received": "2024-02-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=133915",
+              "original": "review_originals/cvm_133915_g412.pdf.gz",
+              "original_sha256": "2bf2366b3c481374fc502132b33d6dc6099d8a8ac352539411f0c5bc0a23c3ed"
+            },
+            {
+              "docid": "139096",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "received": "2024-06-13",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=139096",
+              "original": "review_originals/cvm_139096_g192.pdf.gz",
+              "original_sha256": "a3a6818df72a1f7fba5d4d8a42c5987d5396ec7323fb5c7c7cc1dcc55de898ec"
+            }
+          ],
+          "contrary_evidence": "GIC passa à equivalência 37 mi e Dardanelos à consolidação. Perdas GIC 198 mi/Itabapoana 166 mi permanecem; ganho bruto EAPSA 1,555 bi precisa ser retirado separadamente do saldo líquido corporativo 1,191 bi.",
+          "missing": "",
+          "favorable": "GIC passa à equivalência 37 mi e Dardanelos à consolidação. Perdas GIC 198 mi/Itabapoana 166 mi permanecem; ganho bruto EAPSA 1,555 bi precisa ser retirado separadamente do saldo líquido corporativo 1,191 bi.",
+          "prior_year": 2023,
+          "review_2021": "Pontes explicitamGSF6mi eIFRS/VNR; arbitragem25,5mi pertencecomparativo2020. MantémSAT da informação, sem reutilizar EBITDAajustado como caixa ou lucro economicamente normalizado.",
+          "review_2022": "SAT: composição eproformaBrasília permitem rastrear a mudança; Q1BrasíliaNI29mi versus−27mi proforma, masPCLD+5mi por política de provisão. Não chama alteração contábil de melhoria real de crédito.",
+          "review_2023": "SAT: VNR649mi/IFRS15362mi conciliamEBITDA3,620bi→2,609bi. Reclassificação ativos mantidosparavenda retira dívida da métrica, sem ingresso de caixa; cifra1,7milhões no texto gerencial é confrontada com dívida1,984bi nasnotas, não repetida como liquidação.",
+          "review_2024": "GIC passa à equivalência 37 mi e Dardanelos à consolidação. Perdas GIC 198 mi/Itabapoana 166 mi permanecem; ganho bruto EAPSA 1,555 bi precisa ser retirado separadamente do saldo líquido corporativo 1,191 bi."
+        },
+        "financial_resilience": {
+          "status": "INDETERMINATE",
+          "reason": "Dívida bruta 48,740 bi, curta 9,630 bi, caixa 8,543 bi e líquida 40,197 bi; 3,28 contra 3,17 vezes. GIC recebido 1,111 bi efetivamente. Obras 1,9 bi e financeiro 1,293 bi exigem reconciliação de cobertura proporcional.",
+          "evidence": [
+            {
+              "docid": "133915",
+              "group": 1653,
+              "pages": [
+                28,
+                37,
+                38,
+                39
+              ],
+              "received": "2024-02-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=133915",
+              "original": "review_originals/cvm_133915_g1653.pdf.gz",
+              "original_sha256": "d95addc53a7011186ee8db22f025500dd46c8dfa9eba855f124b4633b26e2065"
+            },
+            {
+              "docid": "133915",
+              "group": 412,
+              "pages": [
+                37,
+                38,
+                39,
+                40,
+                59,
+                60
+              ],
+              "received": "2024-02-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=133915",
+              "original": "review_originals/cvm_133915_g412.pdf.gz",
+              "original_sha256": "2bf2366b3c481374fc502132b33d6dc6099d8a8ac352539411f0c5bc0a23c3ed"
+            },
+            {
+              "docid": "139096",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "received": "2024-06-13",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=139096",
+              "original": "review_originals/cvm_139096_g192.pdf.gz",
+              "original_sha256": "a3a6818df72a1f7fba5d4d8a42c5987d5396ec7323fb5c7c7cc1dcc55de898ec"
+            }
+          ],
+          "contrary_evidence": "Dívida bruta 48,740 bi, curta 9,630 bi, caixa 8,543 bi e líquida 40,197 bi; 3,28 contra 3,17 vezes. GIC recebido 1,111 bi efetivamente. Obras 1,9 bi e financeiro 1,293 bi exigem reconciliação de cobertura proporcional.",
+          "missing": "Dívida bruta 48,740 bi, curta 9,630 bi, caixa 8,543 bi e líquida 40,197 bi; 3,28 contra 3,17 vezes. GIC recebido 1,111 bi efetivamente. Obras 1,9 bi e financeiro 1,293 bi exigem reconciliação de cobertura proporcional.",
+          "favorable": "Dívida bruta 48,740 bi, curta 9,630 bi, caixa 8,543 bi e líquida 40,197 bi; 3,28 contra 3,17 vezes. GIC recebido 1,111 bi efetivamente. Obras 1,9 bi e financeiro 1,293 bi exigem reconciliação de cobertura proporcional.",
+          "prior_year": 2023,
+          "review_2021": "Dívida apóshedge28,015bi/líquida23,777bi e alavancagem3,28x contra2,85x. Captações4,792bi sãoefetivas, mas empréstimoponteCEB-D2,5bi vence2022 e expansãoCAPEX1,822bi trimestral é material. MantémND específico de financiamento integrado, sem alegardefault.",
+          "review_2022": "ND específico: dívida2021bruta36,753bi/líquida30,749bi,20%curta; ponteCEB2,5bi vence2022. Q1alavancagem3,14x eCAPEX2,4bi; melhora de lucro não prova fechamento conjunto de vencimentos/obras. Sem evidência de inadimplemento, nãoREJECTED.",
+          "review_2023": "ND específico: dívida43,040bi,curta8,416bi,disponibilidades6,213bi eCAPEX2,129bi trimestre. Captações1,579bi efetivas e500miCoelba04/04favorecem;1,454bi contratado mistura desembolsado/previsto. Melhora3,15→3,06x inclui−0,14ppclassificaçãovenda; não prova financiamento integral deobras nem recebe1,2biGICantesfechamento.",
+          "review_2024": "Dívida bruta 48,740 bi, curta 9,630 bi, caixa 8,543 bi e líquida 40,197 bi; 3,28 contra 3,17 vezes. GIC recebido 1,111 bi efetivamente. Obras 1,9 bi e financeiro 1,293 bi exigem reconciliação de cobertura proporcional."
+        },
+        "capital_allocation": {
+          "status": "INDETERMINATE",
+          "reason": "Reciclagem GIC e permuta são efetivas; CAPEX anual 8,9 bi e operação de novos ativos favorecem. Perda corporativa 364 mi não é adicionada de volta e benefício extraordinário de gás 2022 não vira produtividade.",
+          "evidence": [
+            {
+              "docid": "133915",
+              "group": 1653,
+              "pages": [
+                28,
+                37,
+                38,
+                39
+              ],
+              "received": "2024-02-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=133915",
+              "original": "review_originals/cvm_133915_g1653.pdf.gz",
+              "original_sha256": "d95addc53a7011186ee8db22f025500dd46c8dfa9eba855f124b4633b26e2065"
+            },
+            {
+              "docid": "133915",
+              "group": 412,
+              "pages": [
+                37,
+                38,
+                39,
+                40,
+                59,
+                60
+              ],
+              "received": "2024-02-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=133915",
+              "original": "review_originals/cvm_133915_g412.pdf.gz",
+              "original_sha256": "2bf2366b3c481374fc502132b33d6dc6099d8a8ac352539411f0c5bc0a23c3ed"
+            },
+            {
+              "docid": "139096",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "received": "2024-06-13",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=139096",
+              "original": "review_originals/cvm_139096_g192.pdf.gz",
+              "original_sha256": "a3a6818df72a1f7fba5d4d8a42c5987d5396ec7323fb5c7c7cc1dcc55de898ec"
+            }
+          ],
+          "contrary_evidence": "Reciclagem GIC e permuta são efetivas; CAPEX anual 8,9 bi e operação de novos ativos favorecem. Perda corporativa 364 mi não é adicionada de volta e benefício extraordinário de gás 2022 não vira produtividade.",
+          "missing": "Reciclagem GIC e permuta são efetivas; CAPEX anual 8,9 bi e operação de novos ativos favorecem. Perda corporativa 364 mi não é adicionada de volta e benefício extraordinário de gás 2022 não vira produtividade.",
+          "favorable": "Reciclagem GIC e permuta são efetivas; CAPEX anual 8,9 bi e operação de novos ativos favorecem. Perda corporativa 364 mi não é adicionada de volta e benefício extraordinário de gás 2022 não vira produtividade.",
+          "prior_year": 2023,
+          "review_2021": "CAPEXrede873mi separaexpansão590/manutenção130/perdas112; trans477/eólica416. Contratos100%doCAPEXChafariz não equivalem a retornoprodutivo járealizado. CEB-Daltera capital e exige avaliação poração além do lucro total; mantémND.",
+          "review_2022": "ND: expansão efetiva e geração iniciada são favoráveis, masChafariz aumenta depreciação/juros e Brasília usa novo capital. CAPEX+34% não é sozinho sinal de má alocação; falta retorno poração após os custos.",
+          "review_2023": "ND: ativosoperacionais novos emremovação e novaslinhas reais, mas preço/perímetroGIC50% e permutahidros condicionais impedem dar por concluída reciclagemcapital. Ausência de gás2022 não é ganho repetível de eficiência.",
+          "review_2024": "Reciclagem GIC e permuta são efetivas; CAPEX anual 8,9 bi e operação de novos ativos favorecem. Perda corporativa 364 mi não é adicionada de volta e benefício extraordinário de gás 2022 não vira produtividade."
+        },
+        "governance": {
+          "status": "INDETERMINATE",
+          "reason": "GIC externo e termos de permuta são favoráveis. Relações Iberdrola/Previ e retorno dos ativos adquiridos ainda requerem avaliação específica de comutatividade, sem presumir irregularidade.",
+          "evidence": [
+            {
+              "docid": "133915",
+              "group": 1653,
+              "pages": [
+                28,
+                37,
+                38,
+                39
+              ],
+              "received": "2024-02-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=133915",
+              "original": "review_originals/cvm_133915_g1653.pdf.gz",
+              "original_sha256": "d95addc53a7011186ee8db22f025500dd46c8dfa9eba855f124b4633b26e2065"
+            },
+            {
+              "docid": "133915",
+              "group": 412,
+              "pages": [
+                37,
+                38,
+                39,
+                40,
+                59,
+                60
+              ],
+              "received": "2024-02-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=133915",
+              "original": "review_originals/cvm_133915_g412.pdf.gz",
+              "original_sha256": "2bf2366b3c481374fc502132b33d6dc6099d8a8ac352539411f0c5bc0a23c3ed"
+            },
+            {
+              "docid": "139096",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "received": "2024-06-13",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=139096",
+              "original": "review_originals/cvm_139096_g192.pdf.gz",
+              "original_sha256": "a3a6818df72a1f7fba5d4d8a42c5987d5396ec7323fb5c7c7cc1dcc55de898ec"
+            }
+          ],
+          "contrary_evidence": "GIC externo e termos de permuta são favoráveis. Relações Iberdrola/Previ e retorno dos ativos adquiridos ainda requerem avaliação específica de comutatividade, sem presumir irregularidade.",
+          "missing": "GIC externo e termos de permuta são favoráveis. Relações Iberdrola/Previ e retorno dos ativos adquiridos ainda requerem avaliação específica de comutatividade, sem presumir irregularidade.",
+          "favorable": "GIC externo e termos de permuta são favoráveis. Relações Iberdrola/Previ e retorno dos ativos adquiridos ainda requerem avaliação específica de comutatividade, sem presumir irregularidade.",
+          "prior_year": 2023,
+          "review_2021": "Sem prova dirigida que resolva pendências das operações comIberdrola/Previ do dossiê2020; compraCEB-Dexterna não prova comutatividade das anteriores. MantémND específico, sem tratar controle como reprovação automática.",
+          "review_2022": "MantémND específico de comutatividade das operaçõesIberdrola/Previ já identificadas; compraCEBexterna e relatório trimestral não solucionam essa questão. Sem presunção de abuso novo.",
+          "review_2023": "ND de comutatividade das transaçõesIberdrola/Previ do dossiê;GICcontratado e divulgação das reclassificações ajudam, mas não resolvem a proteção econômica no conjunto. Não presume abuso.",
+          "review_2024": "GIC externo e termos de permuta são favoráveis. Relações Iberdrola/Previ e retorno dos ativos adquiridos ainda requerem avaliação específica de comutatividade, sem presumir irregularidade."
+        }
+      },
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "GIC adquiriu 50% de oito ativos e permuta Dardanelos concluída em setembro/2023. Redes e concessões continuam; mudança de perímetro afeta comparativos e não permanece proposta pendente.",
+          "evidence": [
+            {
+              "docid": "133915",
+              "group": 1653,
+              "pages": [
+                28,
+                37,
+                38,
+                39
+              ],
+              "received": "2024-02-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=133915",
+              "original": "review_originals/cvm_133915_g1653.pdf.gz",
+              "original_sha256": "d95addc53a7011186ee8db22f025500dd46c8dfa9eba855f124b4633b26e2065"
+            },
+            {
+              "docid": "133915",
+              "group": 412,
+              "pages": [
+                37,
+                38,
+                39,
+                40,
+                59,
+                60
+              ],
+              "received": "2024-02-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=133915",
+              "original": "review_originals/cvm_133915_g412.pdf.gz",
+              "original_sha256": "2bf2366b3c481374fc502132b33d6dc6099d8a8ac352539411f0c5bc0a23c3ed"
+            },
+            {
+              "docid": "139096",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "received": "2024-06-13",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=139096",
+              "original": "review_originals/cvm_139096_g192.pdf.gz",
+              "original_sha256": "a3a6818df72a1f7fba5d4d8a42c5987d5396ec7323fb5c7c7cc1dcc55de898ec"
             }
           ]
         },
         "capital_economics": {
-          "favorable": {
-            "roe_parent_5": [
-              0.12305135224410142,
-              0.13999850482194923,
-              0.17448321849299844,
-              0.18689219433936105,
-              0.15809618315200058
-            ],
-            "normalized_profit": 4442496636.681403
-          },
+          "favorable": "Lucro atribuível 2023 de 4,461 bi; Q1 1,127 bi, EBITDA caixa 2,820 bi frente IFRS 3,507 bi. VNR 418 mi/IFRS 269 mi não são caixa imediatamente livre; falta retorno incremental de todo capital.",
           "evidence": [
             {
-              "fiscal_year": 2019,
-              "metric": "attributable_ni",
-              "value": 2229000000.0,
-              "docid": "100039",
-              "received": "2021-02-09",
-              "reference": "2020-12-31",
-              "period_end": "2019-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2020.csv",
-              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
-            },
-            {
-              "fiscal_year": 2020,
-              "metric": "attributable_ni",
-              "value": 2809000000.0,
-              "docid": "111842",
-              "received": "2022-02-17",
-              "reference": "2021-12-31",
-              "period_end": "2020-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2021.csv",
-              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
-            },
-            {
-              "fiscal_year": 2021,
-              "metric": "attributable_ni",
-              "value": 3925000000.0,
-              "docid": "123844",
-              "received": "2023-03-02",
-              "reference": "2022-12-31",
-              "period_end": "2021-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2022.csv",
-              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
-            },
-            {
-              "fiscal_year": 2022,
-              "metric": "attributable_ni",
-              "value": 4718000000.0,
               "docid": "133915",
+              "group": 1653,
+              "pages": [
+                28,
+                37,
+                38,
+                39
+              ],
               "received": "2024-02-07",
-              "reference": "2023-12-31",
-              "period_end": "2022-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=133915",
+              "original": "review_originals/cvm_133915_g1653.pdf.gz",
+              "original_sha256": "d95addc53a7011186ee8db22f025500dd46c8dfa9eba855f124b4633b26e2065"
             },
             {
-              "fiscal_year": 2023,
-              "metric": "attributable_ni",
-              "value": 4461000000.0,
               "docid": "133915",
+              "group": 412,
+              "pages": [
+                37,
+                38,
+                39,
+                40,
+                59,
+                60
+              ],
               "received": "2024-02-07",
-              "reference": "2023-12-31",
-              "period_end": "2023-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=133915",
+              "original": "review_originals/cvm_133915_g412.pdf.gz",
+              "original_sha256": "2bf2366b3c481374fc502132b33d6dc6099d8a8ac352539411f0c5bc0a23c3ed"
+            },
+            {
+              "docid": "139096",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "received": "2024-06-13",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=139096",
+              "original": "review_originals/cvm_139096_g192.pdf.gz",
+              "original_sha256": "a3a6818df72a1f7fba5d4d8a42c5987d5396ec7323fb5c7c7cc1dcc55de898ec"
             }
           ]
         },
         "earnings_reliability": {
-          "favorable": {
-            "positive_attributable_years": 5,
-            "audit_records": 9
-          },
+          "favorable": "GIC passa à equivalência 37 mi e Dardanelos à consolidação. Perdas GIC 198 mi/Itabapoana 166 mi permanecem; ganho bruto EAPSA 1,555 bi precisa ser retirado separadamente do saldo líquido corporativo 1,191 bi.",
           "evidence": [
             {
               "docid": "133915",
+              "group": 1653,
+              "pages": [
+                28,
+                37,
+                38,
+                39
+              ],
               "received": "2024-02-07",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=133915",
+              "original": "review_originals/cvm_133915_g1653.pdf.gz",
+              "original_sha256": "d95addc53a7011186ee8db22f025500dd46c8dfa9eba855f124b4633b26e2065"
             },
             {
               "docid": "133915",
+              "group": 412,
+              "pages": [
+                37,
+                38,
+                39,
+                40,
+                59,
+                60
+              ],
               "received": "2024-02-07",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=133915",
+              "original": "review_originals/cvm_133915_g412.pdf.gz",
+              "original_sha256": "2bf2366b3c481374fc502132b33d6dc6099d8a8ac352539411f0c5bc0a23c3ed"
             },
             {
-              "docid": "133915",
-              "received": "2024-02-07",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "133915",
-              "received": "2024-02-07",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "133915",
-              "received": "2024-02-07",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "133915",
-              "received": "2024-02-07",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "133915",
-              "received": "2024-02-07",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "133915",
-              "received": "2024-02-07",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "133915",
-              "received": "2024-02-07",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+              "docid": "139096",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "received": "2024-06-13",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=139096",
+              "original": "review_originals/cvm_139096_g192.pdf.gz",
+              "original_sha256": "a3a6818df72a1f7fba5d4d8a42c5987d5396ec7323fb5c7c7cc1dcc55de898ec"
             }
           ]
         },
         "financial_resilience": {
-          "favorable": {
-            "parent_equity_latest": 29781000000.0
-          },
+          "favorable": "Dívida bruta 48,740 bi, curta 9,630 bi, caixa 8,543 bi e líquida 40,197 bi; 3,28 contra 3,17 vezes. GIC recebido 1,111 bi efetivamente. Obras 1,9 bi e financeiro 1,293 bi exigem reconciliação de cobertura proporcional.",
           "evidence": [
             {
               "docid": "133915",
+              "group": 1653,
+              "pages": [
+                28,
+                37,
+                38,
+                39
+              ],
               "received": "2024-02-07",
-              "reference": "2023-12-31",
-              "period_end": "2023-12-31",
-              "perimeter": "ind",
-              "account": "2.03",
-              "description": "Patrimônio Líquido",
-              "source": "dfp_cia_aberta_BPP_ind_2023.csv",
-              "archive_sha256": "",
-              "url": ""
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=133915",
+              "original": "review_originals/cvm_133915_g1653.pdf.gz",
+              "original_sha256": "d95addc53a7011186ee8db22f025500dd46c8dfa9eba855f124b4633b26e2065"
+            },
+            {
+              "docid": "133915",
+              "group": 412,
+              "pages": [
+                37,
+                38,
+                39,
+                40,
+                59,
+                60
+              ],
+              "received": "2024-02-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=133915",
+              "original": "review_originals/cvm_133915_g412.pdf.gz",
+              "original_sha256": "2bf2366b3c481374fc502132b33d6dc6099d8a8ac352539411f0c5bc0a23c3ed"
+            },
+            {
+              "docid": "139096",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "received": "2024-06-13",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=139096",
+              "original": "review_originals/cvm_139096_g192.pdf.gz",
+              "original_sha256": "a3a6818df72a1f7fba5d4d8a42c5987d5396ec7323fb5c7c7cc1dcc55de898ec"
             }
           ]
         },
         "capital_allocation": {
-          "favorable": {
-            "historical_payout": [
-              0.2621825631,
-              0.28,
-              0.0026343075,
-              null,
-              null
-            ],
-            "distributions": [
-              555695000.0,
-              745749149.51,
-              972976371.59,
-              null,
-              null
-            ]
-          },
+          "favorable": "Reciclagem GIC e permuta são efetivas; CAPEX anual 8,9 bi e operação de novos ativos favorecem. Perda corporativa 364 mi não é adicionada de volta e benefício extraordinário de gás 2022 não vira produtividade.",
           "evidence": [
             {
-              "docid": "126025",
-              "received": "2023-05-09",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
-              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=126025",
-              "fiscal_year": 2019,
-              "raw": {
-                "CNPJ_Companhia": "01.083.200/0001-18",
-                "Data_Referencia": "2022-01-01",
-                "Versao": "9",
-                "ID_Documento": "126025",
-                "Nome_Companhia": "NEOENERGIA S.A.",
-                "Data_Inicio_Exercicio_Social": "2019-01-01",
-                "Data_Fim_Exercicio_Social": "2019-12-31",
-                "Lucro_Liquido_Ajustado": "2119496405.00",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "19.99933835",
-                "Lucro_Liquido_Retido": "1675353848.00",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "26.21825631",
-                "Dividendo_Distribuido_Total": "555695000.00",
-                "Data_Aprovacao_Retencao": "2020-04-20"
-              }
+              "docid": "133915",
+              "group": 1653,
+              "pages": [
+                28,
+                37,
+                38,
+                39
+              ],
+              "received": "2024-02-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=133915",
+              "original": "review_originals/cvm_133915_g1653.pdf.gz",
+              "original_sha256": "d95addc53a7011186ee8db22f025500dd46c8dfa9eba855f124b4633b26e2065"
             },
             {
-              "docid": "126025",
-              "received": "2023-05-09",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
-              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=126025",
-              "fiscal_year": 2020,
-              "raw": {
-                "CNPJ_Companhia": "01.083.200/0001-18",
-                "Data_Referencia": "2022-01-01",
-                "Versao": "9",
-                "ID_Documento": "126025",
-                "Nome_Companhia": "NEOENERGIA S.A.",
-                "Data_Inicio_Exercicio_Social": "2020-01-01",
-                "Data_Fim_Exercicio_Social": "2020-12-31",
-                "Lucro_Liquido_Ajustado": "2655966598.02",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "12.54752730",
-                "Lucro_Liquido_Retido": "2050005164.21",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "28.00000000",
-                "Dividendo_Distribuido_Total": "745749149.51",
-                "Data_Aprovacao_Retencao": "2021-04-12"
-              }
+              "docid": "133915",
+              "group": 412,
+              "pages": [
+                37,
+                38,
+                39,
+                40,
+                59,
+                60
+              ],
+              "received": "2024-02-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=133915",
+              "original": "review_originals/cvm_133915_g412.pdf.gz",
+              "original_sha256": "2bf2366b3c481374fc502132b33d6dc6099d8a8ac352539411f0c5bc0a23c3ed"
             },
             {
-              "docid": "126025",
-              "received": "2023-05-09",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
-              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=126025",
-              "fiscal_year": 2021,
-              "raw": {
-                "CNPJ_Companhia": "01.083.200/0001-18",
-                "Data_Referencia": "2022-01-01",
-                "Versao": "9",
-                "ID_Documento": "126025",
-                "Nome_Companhia": "NEOENERGIA S.A.",
-                "Data_Inicio_Exercicio_Social": "2021-01-01",
-                "Data_Fim_Exercicio_Social": "2021-12-31",
-                "Lucro_Liquido_Ajustado": "3693480588.57",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "0.15462848",
-                "Lucro_Liquido_Retido": "2914897932.17",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "0.26343075",
-                "Dividendo_Distribuido_Total": "972976371.59",
-                "Data_Aprovacao_Retencao": "2022-04-25"
-              }
+              "docid": "139096",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "received": "2024-06-13",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=139096",
+              "original": "review_originals/cvm_139096_g192.pdf.gz",
+              "original_sha256": "a3a6818df72a1f7fba5d4d8a42c5987d5396ec7323fb5c7c7cc1dcc55de898ec"
             }
           ]
         },
         "governance": {
-          "favorable": {
-            "dated_shareholder_right_records": 13,
-            "dated_related_party_records": 1253
-          },
+          "favorable": "GIC externo e termos de permuta são favoráveis. Relações Iberdrola/Previ e retorno dos ativos adquiridos ainda requerem avaliação específica de comutatividade, sem presumir irregularidade.",
           "evidence": [
             {
               "docid": "133915",
+              "group": 1653,
+              "pages": [
+                28,
+                37,
+                38,
+                39
+              ],
               "received": "2024-02-07",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=133915",
+              "original": "review_originals/cvm_133915_g1653.pdf.gz",
+              "original_sha256": "d95addc53a7011186ee8db22f025500dd46c8dfa9eba855f124b4633b26e2065"
             },
             {
               "docid": "133915",
+              "group": 412,
+              "pages": [
+                37,
+                38,
+                39,
+                40,
+                59,
+                60
+              ],
               "received": "2024-02-07",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=133915",
+              "original": "review_originals/cvm_133915_g412.pdf.gz",
+              "original_sha256": "2bf2366b3c481374fc502132b33d6dc6099d8a8ac352539411f0c5bc0a23c3ed"
             },
             {
-              "docid": "133915",
-              "received": "2024-02-07",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "133915",
-              "received": "2024-02-07",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "133915",
-              "received": "2024-02-07",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "133915",
-              "received": "2024-02-07",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "133915",
-              "received": "2024-02-07",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "133915",
-              "received": "2024-02-07",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "133915",
-              "received": "2024-02-07",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+              "docid": "139096",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+              ],
+              "received": "2024-06-13",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=139096",
+              "original": "review_originals/cvm_139096_g192.pdf.gz",
+              "original_sha256": "a3a6818df72a1f7fba5d4d8a42c5987d5396ec7323fb5c7c7cc1dcc55de898ec"
             }
           ]
         }

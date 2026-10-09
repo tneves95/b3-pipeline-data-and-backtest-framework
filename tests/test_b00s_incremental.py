@@ -636,3 +636,65 @@ def test_2023_material_changes_use_current_documents_and_no_diagnostic_admission
     assert sanb['valuation_status']=='PASS_MATURE'
     assert sanb['normalized_pe_interval']['upper']==pytest.approx(11.298540120717973)
     assert sanb['real_eps_cagr'] is None
+
+
+def test_2024_rolling_median_keeps_unknowns_and_preserves_historical_floors():
+    rows={r['ticker']:r for r in json.loads((m.INPUT/'fundamental_decisions.json').read_text()) if r['year']==2024}
+    for t in ['CSMG3','SANB4']:
+        r=rows[t];a=r['documentary_assessment'];v=a['valuation']
+        assert set(v['profit_bounds'])=={'2019','2020','2021','2022','2023'}
+        assert v['profit_bounds']['2021']['lower'] is None
+        assert v['profit_bounds']['2023']['lower'] is None
+        assert r['valuation_status']=='PASS_MATURE'
+        assert r['normalized_profit'] is None and r['normalized_pe'] is None
+        assert r['real_eps_cagr'] is None
+    c=rows['CSMG3'];p=c['documentary_assessment']['numerical_proof']
+    old=load_reviews()[2023,c['cnpj']]['numerical_proof']['fiscal_floors']
+    for y,floor in p['fiscal_floors'].items():assert floor['nominal_lower']==old[y]['nominal_lower']
+    assert c['normalized_pe_interval']['upper']==pytest.approx(13.551172976321116)
+    sanb=rows['SANB4'];p=sanb['documentary_assessment']['numerical_proof']
+    assert sanb['normalized_pe_interval']['upper']==pytest.approx(14.385675808057046)
+    assert sanb['market_cap']==pytest.approx(3818695031*13.13+3679836020*14.43)
+    for annual in p['annual']:
+        assert annual['lower_nominal']==annual['reported_attributable_profit']-sum(annual['deductions'].values())
+        assert annual['deductions']['whole_psa_ifrs_profit_before_eliminations']>0
+
+
+def test_2024_directed_component_bridges_do_not_become_certified_profits():
+    rows={r['ticker']:r for r in json.loads((m.INPUT/'fundamental_decisions.json').read_text()) if r['year']==2024}
+    for t in ['CPFE3','NEOE3','TAEE4']:
+        r=rows[t];a=r['documentary_assessment'];p=a['numerical_proof']
+        assert r['valuation_status']=='INDETERMINATE'
+        assert 'profit_bounds' not in a['valuation'] and 'profit_overrides' not in a['valuation']
+        if 'annual' in p:
+            for annual in p['annual']:
+                assert not annual['certified']
+                assert annual['component_subtotal']==annual['reported_attributable']-sum(annual['deductions'].values())
+                assert annual['real_component_subtotal']==pytest.approx(annual['component_subtotal']*annual['ipca_factor'])
+        else:
+            assert not p['certified']
+            assert p['component_subtotal']==pytest.approx(p['reported_attributable_profit']-sum(p['deductions'].values()))
+            assert p['real_component_subtotal']<p['required_real_median']
+            assert p['deductions']['holding_escrow']==26400000
+            assert p['ordinary_items_retained']['sudam_sudene']==40895000
+    neo=rows['NEOE3']['documentary_assessment']['numerical_proof']
+    assert next(a for a in neo['annual'] if a['fiscal_year']==2023)['deductions']['eapsa_acquisition_gain_gross']==1555000000
+    assert neo['losses_retained']['gic_2023']==198000000
+    assert neo['losses_retained']['itabapoana_2023']==166000000
+
+
+def test_2024_review_uses_executed_events_and_assesses_every_candidate():
+    rows={r['ticker']:r for r in json.loads((m.INPUT/'fundamental_decisions.json').read_text()) if r['year']==2024}
+    assert len(rows)==20 and set(rows)=={r['ticker'] for r in m.candidates() if r['year']==2024}
+    assert {'ELET3','BMGB4'}<=set(rows)
+    for r in rows.values():
+        a=r['documentary_assessment'];assert len(a['dimensions'])==6
+        for d in a['dimensions'].values():
+            assert d['reason'] and d['contrary_evidence'] and d['evidence']
+            assert all(e['received']<=r['cutoff'] for e in d['evidence'])
+    cpfe=rows['CPFE3']['documentary_assessment']['dimensions']['financial_resilience']
+    assert cpfe['status']=='SATISFACTORY'
+    assert any(e['docid']=='cpfl_loan_extension_20240521' and e['received']=='2024-05-21' for e in cpfe['evidence'])
+    assert rows['CPLE6']['market_cap'] is None and rows['ELET3']['market_cap'] is None
+    assert rows['PSSA3']['quality_category']=='QUALIFIED_SATISFACTORY'
+    assert m.selection('B00S',2024)[0]['SBSP3']=='FAIL'

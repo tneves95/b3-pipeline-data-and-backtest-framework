@@ -19291,419 +19291,663 @@
       "ticker": "CMIG4",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": null,
-      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
-      "classification_changed": null,
-      "dimensions": {},
-      "dimension_evidence_updates": {
+      "assessment_ref": "17155730000164:2024",
+      "assessment_status": "ASSESSED",
+      "classification_changed": false,
+      "dimensions": {
         "durability": {
-          "favorable": "Concessionária de serviço público de energia elétrica.",
+          "status": "SATISFACTORY",
+          "favorable": "Volume faturado 15,556 TWh (+3,89%) e transportado +5,08% confirmam continuidade das redes e geração. Migração industrial ao mercado livre reduz venda cativa mas conserva remuneração da rede.",
+          "contrary_evidence": "Volume faturado 15,556 TWh (+3,89%) e transportado +5,08% confirmam continuidade das redes e geração. Migração industrial ao mercado livre reduz venda cativa mas conserva remuneração da rede.",
+          "reason": "Volume faturado 15,556 TWh (+3,89%) e transportado +5,08% confirmam continuidade das redes e geração. Migração industrial ao mercado livre reduz venda cativa mas conserva remuneração da rede.",
+          "missing": "",
           "evidence": [
             {
-              "cnpj": "17155730000164",
-              "received": "2023-05-22",
-              "name": "CIA ENERGETICA DE MINAS GERAIS - CEMIG",
-              "sector": "Energia Elétrica",
-              "activity": "Concessionária de serviço público de energia elétrica.",
-              "cvm": "002453",
-              "docid": "127080",
-              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=127080"
+              "docid": "134993",
+              "group": 412,
+              "pages": [
+                60,
+                127
+              ],
+              "received": "2024-03-21",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=134993",
+              "original": "review_originals/cvm_134993_g412.pdf.gz",
+              "original_sha256": "ccfab033f093f87239274b9493bc3a761cc78cc2276ba5c7c8d0edf07da0e294"
+            },
+            {
+              "docid": "137088",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "received": "2024-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=137088",
+              "original": "review_originals/cvm_137088_g192.pdf.gz",
+              "original_sha256": "c64b14451737383ef438c25666c689cda740efd9d8db403e6bc4c00da6b75799"
+            },
+            {
+              "docid": "137088",
+              "group": 193,
+              "pages": [
+                5,
+                6,
+                23,
+                48,
+                52,
+                54
+              ],
+              "received": "2024-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=137088",
+              "original": "review_originals/cvm_137088_g193.pdf.gz",
+              "original_sha256": "482c38b695633707154986bbaa688387b5b37f97f5e89bd60c41b797a12f6a34"
+            }
+          ],
+          "prior_year": 2023,
+          "review_2015": "Distribuição permanece recorrente, mas Jaguara e São Simão venceram em 2013 e janeiro de 2015, respectivamente, com continuidade judicialmente disputada. Não se presume a renovação nem se transforma a incerteza em insolvência; permanece indeterminada a durabilidade do conjunto no corte.",
+          "review_2016": "Jaguara mantém operação sob liminar STF publicada01/02/2016; São Simão segue controvertida. O indeferimento anterior não equivale a perda definitiva, mas duração econômica permanece incerta.",
+          "review_2017": "UsinasJaguara/SãoSimão/Miranda permanecem sob controvérsia conforme notas1T17. A melhora de receita não resolve duração/concessão; não antecipa leilão ou resultado judicial posterior.",
+          "review_2018": "As antigas Jaguara/Miranda/São Simão agora aparecem como indenizações, não como concessões apenas sob disputa. Reavalia o encolhimento do perímetro; mantém ND da tese de durabilidade anterior.",
+          "review_2019": "Distribuição cresce 3,51% em volume e o reajuste de 2018 tem efeito integral no trimestre. As usinas perdidas permanecem fora do perímetro. Mantém ND da durabilidade conjunta já afetada pela redução da geração; tarifa não é crescimento orgânico.",
+          "review_2020": "A franquia remanescente opera43.597GWh/8,514milhões de clientes em2019, já após perda das antigas usinas; Gasmig estendeu concessão até2053 com outorga891mi. Centroeste passou100% em13/01/2020. A redução passada do perímetro permanece relevante ao valuation, mas não impede reconhecer durabilidade da rede e contratos atuais; atualiza SAT.",
+          "review_2021": "Rede e contratos remanescentes preservam durabilidade. Volume13,24TWh−1,73% não se confunde com perda equivalente de rede: migraçãoACL mantémTUSD. Venda integralLightem22/01/2021 muda investidas, sem apagar redeCemig.",
+          "review_2022": "Rede, concessões e clientes preservam durabilidade. Volume13,817TWh+4,35% e EBITDAajustado1,916431bi mostram operação; não confunde migração de clientes com desaparecimento da remuneração dos fios.",
+          "review_2023": "SAT: rede e concessões continuam produzindo demanda;14,974111TWh faturados+4,26%. Menor receita bruta por reduçãoICMS não é perda equivalente de franquia; TUSD980,398mi vs859,444mi.",
+          "review_2024": "Volume faturado 15,556 TWh (+3,89%) e transportado +5,08% confirmam continuidade das redes e geração. Migração industrial ao mercado livre reduz venda cativa mas conserva remuneração da rede."
+        },
+        "capital_economics": {
+          "status": "INDETERMINATE",
+          "favorable": "Lucro 1,152891 bi e EBITDA ajustado 1,990700 bi contra 2,072566 bi anterior. Ganho de venda de usinas 42,989 mi bruto/25,012 mi líquido e impairment 22,958 mi não demonstram retorno recorrente de todo capital; perdas históricas permanecem.",
+          "contrary_evidence": "Lucro 1,152891 bi e EBITDA ajustado 1,990700 bi contra 2,072566 bi anterior. Ganho de venda de usinas 42,989 mi bruto/25,012 mi líquido e impairment 22,958 mi não demonstram retorno recorrente de todo capital; perdas históricas permanecem.",
+          "reason": "Lucro 1,152891 bi e EBITDA ajustado 1,990700 bi contra 2,072566 bi anterior. Ganho de venda de usinas 42,989 mi bruto/25,012 mi líquido e impairment 22,958 mi não demonstram retorno recorrente de todo capital; perdas históricas permanecem.",
+          "missing": "Lucro 1,152891 bi e EBITDA ajustado 1,990700 bi contra 2,072566 bi anterior. Ganho de venda de usinas 42,989 mi bruto/25,012 mi líquido e impairment 22,958 mi não demonstram retorno recorrente de todo capital; perdas históricas permanecem.",
+          "evidence": [
+            {
+              "docid": "134993",
+              "group": 412,
+              "pages": [
+                60,
+                127
+              ],
+              "received": "2024-03-21",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=134993",
+              "original": "review_originals/cvm_134993_g412.pdf.gz",
+              "original_sha256": "ccfab033f093f87239274b9493bc3a761cc78cc2276ba5c7c8d0edf07da0e294"
+            },
+            {
+              "docid": "137088",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "received": "2024-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=137088",
+              "original": "review_originals/cvm_137088_g192.pdf.gz",
+              "original_sha256": "c64b14451737383ef438c25666c689cda740efd9d8db403e6bc4c00da6b75799"
+            },
+            {
+              "docid": "137088",
+              "group": 193,
+              "pages": [
+                5,
+                6,
+                23,
+                48,
+                52,
+                54
+              ],
+              "received": "2024-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=137088",
+              "original": "review_originals/cvm_137088_g193.pdf.gz",
+              "original_sha256": "482c38b695633707154986bbaa688387b5b37f97f5e89bd60c41b797a12f6a34"
+            }
+          ],
+          "prior_year": 2023,
+          "review_2015": "A Gasmig passa a ser consolidada após compra de 40% por R$570,976 milhões. Reavaliação contábil de R$280,945 milhões não constitui retorno do investimento; o ganho contábil, a CVA e a indenização de transmissão não certificam retorno recorrente do novo capital.",
+          "review_2016": "Menor geração própria exige mais compras; não há prova de retorno sustentável dos novos investimentos que compense a perda de margem. Lucro1T16 de5,207mi não vira taxa anual nem reprovação estrutural automática.",
+          "review_2017": "EBITDA1T17 de1.100,234mi versus645,177mi e NI342,734mi não comprovam retorno da expansão. InvestimentosRenova/MESA sob estresse reforçamND anterior, sem converter umtrimestre em tendência.",
+          "review_2018": "NI1T18 R$464,595 mi sobe35,6% enquanto EBITDA cai8,47%; redução da despesa financeira líquida favorece o lucro. Não transforma melhora do lucro em retorno do capital; Renova/MESA mantêm ND.",
+          "review_2019": "Lucro de R$797,239 milhões e EBITDA de R$1.461,184 milhões no 1T19 melhoram. MESA registra prejuízo de R$80,888 milhões e Renova continua material. Mantém ND da economia do capital, sem usar um trimestre para apagar o histórico.",
+          "review_2020": "Lucro2019 R$3,127bi inclui créditos tributários principais1,428bi e atualização1,580bi, contrapostos a PLR/previdência1,213bi e perdas de investidas. No1T20 prejuízo atribuível57,115mi inclui Light609,160mi e perda líquida de hedge438mi. Não normaliza tudo como extraordinário nem infere retorno adequado do capital novo; mantém ND.",
+          "review_2021": "Lucro422,351mi e EBITDA1,845bi têm ponte para1,657bi ajustado; ganhoLight108,550mi e reversãofiscal78,688mi não demonstram retornoincremental. Renova permanece zerada; mantémND de economia do capital após perdas e redução do perímetro.",
+          "review_2022": "MantémND do retorno do capital, após perdas e redução do perímetro já examinadas. Lucro1T22 1,455571bi versus422,351mi contém efeito câmbio/hedge após impostos+254,795mi versus−619,244mi; não prova crescimento estrutural nem recuperação dos investimentos anteriores.",
+          "review_2023": "ND de economia do capital após os investimentos históricos: lucro1,398206bi versus1,455571bi, EBITDAajustado2,072566bi+8,15%. Alienação55,391mi/remensuração pós-emprego56,961mi e impairmentPCH46,126mi impedem interpretar o resultado total como produtividade orgânica.",
+          "review_2024": "Lucro 1,152891 bi e EBITDA ajustado 1,990700 bi contra 2,072566 bi anterior. Ganho de venda de usinas 42,989 mi bruto/25,012 mi líquido e impairment 22,958 mi não demonstram retorno recorrente de todo capital; perdas históricas permanecem."
+        },
+        "earnings_reliability": {
+          "status": "SATISFACTORY",
+          "favorable": "Pontes discriminam alienação, impairment e devolução de PIS/Cofins aos consumidores 322,666 mi. Aliança é mantida para venda sem antecipação de lucro. Passivos previdenciários são divulgados.",
+          "contrary_evidence": "Pontes discriminam alienação, impairment e devolução de PIS/Cofins aos consumidores 322,666 mi. Aliança é mantida para venda sem antecipação de lucro. Passivos previdenciários são divulgados.",
+          "reason": "Pontes discriminam alienação, impairment e devolução de PIS/Cofins aos consumidores 322,666 mi. Aliança é mantida para venda sem antecipação de lucro. Passivos previdenciários são divulgados.",
+          "evidence": [
+            {
+              "docid": "134993",
+              "group": 412,
+              "pages": [
+                60,
+                127
+              ],
+              "received": "2024-03-21",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=134993",
+              "original": "review_originals/cvm_134993_g412.pdf.gz",
+              "original_sha256": "ccfab033f093f87239274b9493bc3a761cc78cc2276ba5c7c8d0edf07da0e294"
+            },
+            {
+              "docid": "137088",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "received": "2024-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=137088",
+              "original": "review_originals/cvm_137088_g192.pdf.gz",
+              "original_sha256": "c64b14451737383ef438c25666c689cda740efd9d8db403e6bc4c00da6b75799"
+            },
+            {
+              "docid": "137088",
+              "group": 193,
+              "pages": [
+                5,
+                6,
+                23,
+                48,
+                52,
+                54
+              ],
+              "received": "2024-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=137088",
+              "original": "review_originals/cvm_137088_g193.pdf.gz",
+              "original_sha256": "482c38b695633707154986bbaa688387b5b37f97f5e89bd60c41b797a12f6a34"
+            }
+          ],
+          "prior_year": 2023,
+          "review_2015": "CVA2014 reconhece1.107mi; Gasmig passa a consolidar emoutubro2014;1T15 traz ajusteCVAdevedor80,671mi. ConcessõesJaguara/SãoSimão/Miranda e CRC/AFAC permanecem materiais.",
+          "review_2016": "Separados CVA1.704mi, Gasmig com doze meses e operação societária extraordinária no comparativo1T15; transparência da ponte contábil continua suficiente, sem certificar série econômica de cinco anos.",
+          "review_2017": "Ponte de receita/CCEE e investidas é publicada; problemas emRenova são explicitados. MantémSAT da rastreabilidade e distingue lucro confiável de lucro econômico comparável.",
+          "review_2018": "Indenização básica Miranda/São Simão R$1.101,591 mi é conciliada com ajuste e correção; definição/pagamento ainda condicionados. Mantém SAT da rastreabilidade, sem equiparar a caixa.",
+          "review_2019": "Notas distinguem o encerramento da investigação interna da MESA, sem evidências objetivas de pagamentos indevidos, das deficiências de controles da Renova. Mantém SAT da explicitação contábil; nenhum ajuste até o corte não significa ausência de irregularidade.",
+          "review_2020": "Notas identificam a ponte tributária, perda Light e hedge sem compensação integral; perdasRenova688mi foram reconhecidas emjunho2019, informação divulgada depois do corte anterior. Mantém SAT da rastreabilidade, sem confundir ausência de novas perdas de equivalência (investimento já zerado) com recuperação operacional.",
+          "review_2021": "Lucro e comparativos foram reapresentados porRenova. GanhoLight108,550mi antes/71,643mi após impostos, reversões e hedge separados. Informação nova atualiza2021, não resultados aceitos no corte anterior. MantémSAT da rastreabilidade.",
+          "review_2022": "MantémSAT: ponte gerencial separa ganhoLight108,550mi e reversãofiscal78,688mi do comparativo2021, e efeito câmbio/hedge. EBITDAajustado+15,6% contra lucro+244,6% torna a diferença explícita.",
+          "review_2023": "SAT: ponte explicita alienação55,391mi, remensuração56,961mi, impairment46,126mi eoutros22,511mi. RestituiçãoPIS/Cofins695,989mi devida aos consumidores não é crédito disponível a acionistas. Divergência textual do sinal de volumeindustrial é confrontada com tabela+3,59%.",
+          "missing": "",
+          "review_2024": "Pontes discriminam alienação, impairment e devolução de PIS/Cofins aos consumidores 322,666 mi. Aliança é mantida para venda sem antecipação de lucro. Passivos previdenciários são divulgados."
+        },
+        "financial_resilience": {
+          "status": "INDETERMINATE",
+          "favorable": "Quitação SAAG 780 mi em maio/2023 e venda MESA com assunção de garantias pelo comprador são efetivas. Em março caixa 2,177401 bi mais TVM 2,300277 bi frente dívida corrente 2,713786 bi; 10ª debênture de 2 bi liquidada em 15/03. Dividendos a pagar 3,310765 bi, provisões 2,264265 bi e previdência 5,434974 bi continuam obrigações.",
+          "contrary_evidence": "Quitação SAAG 780 mi em maio/2023 e venda MESA com assunção de garantias pelo comprador são efetivas. Em março caixa 2,177401 bi mais TVM 2,300277 bi frente dívida corrente 2,713786 bi; 10ª debênture de 2 bi liquidada em 15/03. Dividendos a pagar 3,310765 bi, provisões 2,264265 bi e previdência 5,434974 bi continuam obrigações.",
+          "reason": "Quitação SAAG 780 mi em maio/2023 e venda MESA com assunção de garantias pelo comprador são efetivas. Em março caixa 2,177401 bi mais TVM 2,300277 bi frente dívida corrente 2,713786 bi; 10ª debênture de 2 bi liquidada em 15/03. Dividendos a pagar 3,310765 bi, provisões 2,264265 bi e previdência 5,434974 bi continuam obrigações.",
+          "missing": "Quitação SAAG 780 mi em maio/2023 e venda MESA com assunção de garantias pelo comprador são efetivas. Em março caixa 2,177401 bi mais TVM 2,300277 bi frente dívida corrente 2,713786 bi; 10ª debênture de 2 bi liquidada em 15/03. Dividendos a pagar 3,310765 bi, provisões 2,264265 bi e previdência 5,434974 bi continuam obrigações.",
+          "evidence": [
+            {
+              "docid": "134993",
+              "group": 412,
+              "pages": [
+                60,
+                127
+              ],
+              "received": "2024-03-21",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=134993",
+              "original": "review_originals/cvm_134993_g412.pdf.gz",
+              "original_sha256": "ccfab033f093f87239274b9493bc3a761cc78cc2276ba5c7c8d0edf07da0e294"
+            },
+            {
+              "docid": "137088",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "received": "2024-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=137088",
+              "original": "review_originals/cvm_137088_g192.pdf.gz",
+              "original_sha256": "c64b14451737383ef438c25666c689cda740efd9d8db403e6bc4c00da6b75799"
+            },
+            {
+              "docid": "137088",
+              "group": 193,
+              "pages": [
+                5,
+                6,
+                23,
+                48,
+                52,
+                54
+              ],
+              "received": "2024-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=137088",
+              "original": "review_originals/cvm_137088_g193.pdf.gz",
+              "original_sha256": "482c38b695633707154986bbaa688387b5b37f97f5e89bd60c41b797a12f6a34"
+            }
+          ],
+          "prior_year": 2023,
+          "review_2015": "Sem alteração material desta dimensão após confronto da tese anterior com os fatos descritos na atualização de 2015. CVA2014 reconhece1.107mi; Gasmig passa a consolidar emoutubro2014;1T15 traz ajusteCVAdevedor80,671mi. ConcessõesJaguara/SãoSimão/Miranda e CRC/AFAC permanecem materiais.",
+          "review_2016": "Passivo circulante excede ativo circulante em3.709mi nofim2015, caixa925mi e rolagem ainda em negociação. Dividendos provisionados1.068mi e opções de venda1.245mi reduzem flexibilidade; ND atualizado com fatos.",
+          "review_2017": "Renova capital circulante negativo1.670,180mi consolidado e quebra decovenant semanuência até31/03; dívida reclassificada. Light tem capital circulante negativo971,210mi. Não chama controlador insolvente por esses fatos, mas mantémND de resiliência.",
+          "review_2018": "MESA tem capital circulante negativo R$2.155,727 mi e Renova prejuízo R$120,543 mi no trimestre. Covenants foram renegociados com limites decrescentes; cumprir limite contratual não elimina risco de financiamento. Mantém ND.",
+          "review_2019": "MESA reduz o déficit circulante para R$383,234 milhões após reperfilamento, mas depende do suporte dos acionistas. Renova refinancia R$185 milhões com Citibank a 155% do CDI, por seis anos, em 03/05. Mantém ND do suporte conjunto, considerando essas evidências favoráveis de financiamento.",
+          "review_2020": "CFO2019 2,037bi, captações4,477bi/amortizações4,883bi e dividendos701mi são explicitados. Renova não gera obrigação automática além do reconhecido, mas recebeuDIP36,5mi; NESA tem déficitcirculante3,301bi. Choque de arrecadação e perda de hedge438mi mantêm ND do conjunto proporcional; não utiliza perda futura para provar insolvência.",
+          "review_2021": "Caixa livre3,332411bi e covenantscumpridos são positivos; exclui63,448mi restritos. Garantias a investidas4,888594bi incluemNESA2,585799bi,Light683,615mi eSantoAntônio1,549214bi. VendaLight não elimina contragarantias. MantémND da cobertura proporcional e exposição financeira.",
+          "review_2022": "MantémND específico da exposição proporcional a investidas/garantias após vendaLight eRJRenova no dossiê anterior. Ativosregulatórios/CVA−700,107mi versus+338,907mi e lucro cambial não são liquidez livre ou quitação das garantias.",
+          "review_2023": "ND dirigido: CVA20,840mi versus−700,107mi favorece receita, mas não prova liberação de garantias e obrigações das investidasRenova/SantoAntônio examinadas antes. Lucro/EBITDA não substituem a exposição proporcional.",
+          "review_2024": "Quitação SAAG 780 mi em maio/2023 e venda MESA com assunção de garantias pelo comprador são efetivas. Em março caixa 2,177401 bi mais TVM 2,300277 bi frente dívida corrente 2,713786 bi; 10ª debênture de 2 bi liquidada em 15/03. Dividendos a pagar 3,310765 bi, provisões 2,264265 bi e previdência 5,434974 bi continuam obrigações."
+        },
+        "capital_allocation": {
+          "status": "INDETERMINATE",
+          "favorable": "Aliança 45% por 2,7 bi: contrato de 27/03 sujeito a condições, sem somar preço ao caixa. Guanhães devolveu 46,476 mi após absorção de prejuízos. Simplificação favorável, mas sem demonstração de retorno adequado de todos os aportes.",
+          "contrary_evidence": "Aliança 45% por 2,7 bi: contrato de 27/03 sujeito a condições, sem somar preço ao caixa. Guanhães devolveu 46,476 mi após absorção de prejuízos. Simplificação favorável, mas sem demonstração de retorno adequado de todos os aportes.",
+          "reason": "Aliança 45% por 2,7 bi: contrato de 27/03 sujeito a condições, sem somar preço ao caixa. Guanhães devolveu 46,476 mi após absorção de prejuízos. Simplificação favorável, mas sem demonstração de retorno adequado de todos os aportes.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "134993",
+              "group": 412,
+              "pages": [
+                60,
+                127
+              ],
+              "received": "2024-03-21",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=134993",
+              "original": "review_originals/cvm_134993_g412.pdf.gz",
+              "original_sha256": "ccfab033f093f87239274b9493bc3a761cc78cc2276ba5c7c8d0edf07da0e294"
+            },
+            {
+              "docid": "137088",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "received": "2024-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=137088",
+              "original": "review_originals/cvm_137088_g192.pdf.gz",
+              "original_sha256": "c64b14451737383ef438c25666c689cda740efd9d8db403e6bc4c00da6b75799"
+            },
+            {
+              "docid": "137088",
+              "group": 193,
+              "pages": [
+                5,
+                6,
+                23,
+                48,
+                52,
+                54
+              ],
+              "received": "2024-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=137088",
+              "original": "review_originals/cvm_137088_g193.pdf.gz",
+              "original_sha256": "482c38b695633707154986bbaa688387b5b37f97f5e89bd60c41b797a12f6a34"
+            }
+          ],
+          "prior_year": 2023,
+          "review_2015": "CVA2014 reconhece1.107mi; Gasmig passa a consolidar emoutubro2014;1T15 traz ajusteCVAdevedor80,671mi. ConcessõesJaguara/SãoSimão/Miranda e CRC/AFAC permanecem materiais.",
+          "review_2016": "CFO2015 de3.007mi frente investimentos3.217mi e compromissos societários/dividendos; projetos e aquisições precisam retorno por ação após financiamento. Não exigir FCL positivo universal nem presumir reinvestimento produtivo.",
+          "review_2017": "MESA investimento1.277,931mi e disputa de aporte750mi; dependência de refinanciamento/projetos permanece. Não supõe recuperação futura ou cria addback para melhorar rentabilidade.",
+          "review_2018": "Investimento direto/indireto MESA R$1.067,775 mi e medidas de desinvestimento das participadas continuam relevantes. Não adiciona perdas nem presume sucesso de recuperação; mantém ND de alocação.",
+          "review_2019": "Venda de Alto Sertão III contratada em 09/04 depende de dívida e aprovações, com redução de R$20 milhões por mês de atraso. A compra de participação na Renova também é condicionada. Mantém ND do retorno efetivo, sem computar vendas ainda não fechadas.",
+          "review_2020": "Renova ingressou emRJ emoutubro2019, recebeuDIP36,5mi eAFAC5mi; ofertaARC/G5/XP ainda em diligência. Provisão688mi e investimento anterior zerado mostram custo efetivo. OutorgaGasmig891mi remunera concessão até2053, mas novos benefícios não são rentabilidade já realizada. Mantém ND de disciplina/retorno do conjunto.",
+          "review_2021": "VendaLight por1,372425bi já efetiva e não participação ainda pendente. RJRenova aprovada18/12/2020; DIP37,361mi provisionado integralmente. Cemig não acompanhou aumento de capital demaio, ficando15,09%total/29,72%votos; novoDIP362,465mi é doinvestidor, não aporteCemig. MantémND do retorno das decisões anteriores.",
+          "review_2022": "VendaLight efetiva permanece reconhecida; não é projeto futuro. Resultados operacionais melhores não resolvem retorno dos aportes anteriores emRenova/SantoAntônio; mantémND de alocação sem compensação por câmbio favorável.",
+          "review_2023": "ND: alienações e ganho contábil são reconhecidos no corte; as perdasPCH também. A melhora dos segmentos não demonstra por si a recuperação econômica dos aportes problemáticos do dossiê anterior.",
+          "review_2024": "Aliança 45% por 2,7 bi: contrato de 27/03 sujeito a condições, sem somar preço ao caixa. Guanhães devolveu 46,476 mi após absorção de prejuízos. Simplificação favorável, mas sem demonstração de retorno adequado de todos os aportes."
+        },
+        "governance": {
+          "status": "INDETERMINATE",
+          "favorable": "Promotores decidiram arquivar inquéritos CPI em agosto/2023 constatando regularidade, evidência favorável. Homologação pelo Conselho Superior e investigação IBM ainda pendentes; relações com controlador público exigem análise específica.",
+          "contrary_evidence": "Promotores decidiram arquivar inquéritos CPI em agosto/2023 constatando regularidade, evidência favorável. Homologação pelo Conselho Superior e investigação IBM ainda pendentes; relações com controlador público exigem análise específica.",
+          "reason": "Promotores decidiram arquivar inquéritos CPI em agosto/2023 constatando regularidade, evidência favorável. Homologação pelo Conselho Superior e investigação IBM ainda pendentes; relações com controlador público exigem análise específica.",
+          "missing": "Promotores decidiram arquivar inquéritos CPI em agosto/2023 constatando regularidade, evidência favorável. Homologação pelo Conselho Superior e investigação IBM ainda pendentes; relações com controlador público exigem análise específica.",
+          "evidence": [
+            {
+              "docid": "134993",
+              "group": 412,
+              "pages": [
+                60,
+                127
+              ],
+              "received": "2024-03-21",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=134993",
+              "original": "review_originals/cvm_134993_g412.pdf.gz",
+              "original_sha256": "ccfab033f093f87239274b9493bc3a761cc78cc2276ba5c7c8d0edf07da0e294"
+            },
+            {
+              "docid": "137088",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "received": "2024-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=137088",
+              "original": "review_originals/cvm_137088_g192.pdf.gz",
+              "original_sha256": "c64b14451737383ef438c25666c689cda740efd9d8db403e6bc4c00da6b75799"
+            },
+            {
+              "docid": "137088",
+              "group": 193,
+              "pages": [
+                5,
+                6,
+                23,
+                48,
+                52,
+                54
+              ],
+              "received": "2024-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=137088",
+              "original": "review_originals/cvm_137088_g193.pdf.gz",
+              "original_sha256": "482c38b695633707154986bbaa688387b5b37f97f5e89bd60c41b797a12f6a34"
+            }
+          ],
+          "prior_year": 2023,
+          "review_2015": "CVA2014 reconhece1.107mi; Gasmig passa a consolidar emoutubro2014;1T15 traz ajusteCVAdevedor80,671mi. ConcessõesJaguara/SãoSimão/Miranda e CRC/AFAC permanecem materiais.",
+          "review_2016": "Cobrança AFAC pelo Estado permanece provável e provisionada276,671mi no1T16. Litígios de concessão e relação com controlador não foram resolvidos; mantém a pendência específica de conflitos.",
+          "review_2017": "ArbitragemMESA, conflitos de acionistas e AFAC continuam documentados; investigação de outros acionistas é distinguida de culpaCemig. MantémND específico de governança.",
+          "review_2018": "Investigações em acionistas/fornecedores MESA continuam sem conclusão; liminar FID é contraposta à provisão R$691,464 mi e nova medida cautelar24/04. Não infere culpa Cemig; mantém ND específico.",
+          "review_2019": "A conclusão favorável da investigação interna MESA é contraponto. Renova apresenta deficiências documentadas de controles e buscas em 11/04; a primeira fase interna da Cemig terminou em 13/05 sem ajuste. Mantém ND específico das investigações, sem presumir culpa ou repetir que a investigação MESA permaneceu inalterada.",
+          "review_2020": "Investigação Renova encerrada20/02/2020 não encontrou prova concreta de corrupção, porém apontou pagamentos40mi sem contraprestação comprovada,137mi em desacordo com políticas e falhas de controles;142mi já atingiram resultado anterior. Conselho adotou reparação/reforço de controles, mas investigações externas continuam. Mantém ND material, sem atribuir automaticamente todos os atos àCemig ou declarar absolvição.",
+          "review_2021": "Continuidade do juízoND após os conflitosRenova: planoRJ/entrada de outroinvestidor não comprovam encerramento das investigações externas ou reparação de controles. Não afirma corrupção nova nem absolvição.",
+          "review_2022": "MantémND dos conflitos e decisões de capital documentados antes do corte. Relatório operacional não comprova encerramento das questões de controle/Renova; não afirma infração nova por desconhecimento.",
+          "review_2023": "ND dos conflitos/decisões de capital anteriores. Não declara irregularidade nova nem presume reparação só pela publicação de resultados operacionais.",
+          "review_2024": "Promotores decidiram arquivar inquéritos CPI em agosto/2023 constatando regularidade, evidência favorável. Homologação pelo Conselho Superior e investigação IBM ainda pendentes; relações com controlador público exigem análise específica."
+        }
+      },
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "Volume faturado 15,556 TWh (+3,89%) e transportado +5,08% confirmam continuidade das redes e geração. Migração industrial ao mercado livre reduz venda cativa mas conserva remuneração da rede.",
+          "evidence": [
+            {
+              "docid": "134993",
+              "group": 412,
+              "pages": [
+                60,
+                127
+              ],
+              "received": "2024-03-21",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=134993",
+              "original": "review_originals/cvm_134993_g412.pdf.gz",
+              "original_sha256": "ccfab033f093f87239274b9493bc3a761cc78cc2276ba5c7c8d0edf07da0e294"
+            },
+            {
+              "docid": "137088",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "received": "2024-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=137088",
+              "original": "review_originals/cvm_137088_g192.pdf.gz",
+              "original_sha256": "c64b14451737383ef438c25666c689cda740efd9d8db403e6bc4c00da6b75799"
+            },
+            {
+              "docid": "137088",
+              "group": 193,
+              "pages": [
+                5,
+                6,
+                23,
+                48,
+                52,
+                54
+              ],
+              "received": "2024-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=137088",
+              "original": "review_originals/cvm_137088_g193.pdf.gz",
+              "original_sha256": "482c38b695633707154986bbaa688387b5b37f97f5e89bd60c41b797a12f6a34"
             }
           ]
         },
         "capital_economics": {
-          "favorable": {
-            "roe_parent_5": [
-              0.20821336550339026,
-              0.17063040957380943,
-              0.2031635396682132,
-              0.19849328827996723,
-              0.24831773670395055
-            ],
-            "normalized_profit": 4245918707.1623745
-          },
+          "favorable": "Lucro 1,152891 bi e EBITDA ajustado 1,990700 bi contra 2,072566 bi anterior. Ganho de venda de usinas 42,989 mi bruto/25,012 mi líquido e impairment 22,958 mi não demonstram retorno recorrente de todo capital; perdas históricas permanecem.",
           "evidence": [
             {
-              "fiscal_year": 2019,
-              "metric": "attributable_ni",
-              "value": 3193678000.0,
-              "docid": "102461",
-              "received": "2021-03-30",
-              "reference": "2020-12-31",
-              "period_end": "2019-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2020.csv",
-              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
-            },
-            {
-              "fiscal_year": 2020,
-              "metric": "attributable_ni",
-              "value": 2864110000.0,
-              "docid": "113213",
-              "received": "2022-03-29",
-              "reference": "2021-12-31",
-              "period_end": "2020-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2021.csv",
-              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
-            },
-            {
-              "fiscal_year": 2021,
-              "metric": "attributable_ni",
-              "value": 3751321000.0,
-              "docid": "124595",
-              "received": "2023-03-25",
-              "reference": "2022-12-31",
-              "period_end": "2021-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2022.csv",
-              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
-            },
-            {
-              "fiscal_year": 2022,
-              "metric": "attributable_ni",
-              "value": 4092313000.0,
               "docid": "134993",
+              "group": 412,
+              "pages": [
+                60,
+                127
+              ],
               "received": "2024-03-21",
-              "reference": "2023-12-31",
-              "period_end": "2022-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=134993",
+              "original": "review_originals/cvm_134993_g412.pdf.gz",
+              "original_sha256": "ccfab033f093f87239274b9493bc3a761cc78cc2276ba5c7c8d0edf07da0e294"
             },
             {
-              "fiscal_year": 2023,
-              "metric": "attributable_ni",
-              "value": 5764273000.0,
-              "docid": "134993",
-              "received": "2024-03-21",
-              "reference": "2023-12-31",
-              "period_end": "2023-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+              "docid": "137088",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "received": "2024-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=137088",
+              "original": "review_originals/cvm_137088_g192.pdf.gz",
+              "original_sha256": "c64b14451737383ef438c25666c689cda740efd9d8db403e6bc4c00da6b75799"
+            },
+            {
+              "docid": "137088",
+              "group": 193,
+              "pages": [
+                5,
+                6,
+                23,
+                48,
+                52,
+                54
+              ],
+              "received": "2024-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=137088",
+              "original": "review_originals/cvm_137088_g193.pdf.gz",
+              "original_sha256": "482c38b695633707154986bbaa688387b5b37f97f5e89bd60c41b797a12f6a34"
             }
           ]
         },
         "earnings_reliability": {
-          "favorable": {
-            "positive_attributable_years": 5,
-            "audit_records": 7
-          },
+          "favorable": "Pontes discriminam alienação, impairment e devolução de PIS/Cofins aos consumidores 322,666 mi. Aliança é mantida para venda sem antecipação de lucro. Passivos previdenciários são divulgados.",
           "evidence": [
             {
               "docid": "134993",
+              "group": 412,
+              "pages": [
+                60,
+                127
+              ],
               "received": "2024-03-21",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=134993",
+              "original": "review_originals/cvm_134993_g412.pdf.gz",
+              "original_sha256": "ccfab033f093f87239274b9493bc3a761cc78cc2276ba5c7c8d0edf07da0e294"
             },
             {
-              "docid": "134993",
-              "received": "2024-03-21",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+              "docid": "137088",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "received": "2024-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=137088",
+              "original": "review_originals/cvm_137088_g192.pdf.gz",
+              "original_sha256": "c64b14451737383ef438c25666c689cda740efd9d8db403e6bc4c00da6b75799"
             },
             {
-              "docid": "134993",
-              "received": "2024-03-21",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134993",
-              "received": "2024-03-21",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134993",
-              "received": "2024-03-21",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134993",
-              "received": "2024-03-21",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134993",
-              "received": "2024-03-21",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+              "docid": "137088",
+              "group": 193,
+              "pages": [
+                5,
+                6,
+                23,
+                48,
+                52,
+                54
+              ],
+              "received": "2024-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=137088",
+              "original": "review_originals/cvm_137088_g193.pdf.gz",
+              "original_sha256": "482c38b695633707154986bbaa688387b5b37f97f5e89bd60c41b797a12f6a34"
             }
           ]
         },
         "financial_resilience": {
-          "favorable": {
-            "parent_equity_latest": 24649235000.0
-          },
+          "favorable": "Quitação SAAG 780 mi em maio/2023 e venda MESA com assunção de garantias pelo comprador são efetivas. Em março caixa 2,177401 bi mais TVM 2,300277 bi frente dívida corrente 2,713786 bi; 10ª debênture de 2 bi liquidada em 15/03. Dividendos a pagar 3,310765 bi, provisões 2,264265 bi e previdência 5,434974 bi continuam obrigações.",
           "evidence": [
             {
               "docid": "134993",
+              "group": 412,
+              "pages": [
+                60,
+                127
+              ],
               "received": "2024-03-21",
-              "reference": "2023-12-31",
-              "period_end": "2023-12-31",
-              "perimeter": "ind",
-              "account": "2.03",
-              "description": "Patrimônio Líquido",
-              "source": "dfp_cia_aberta_BPP_ind_2023.csv",
-              "archive_sha256": "",
-              "url": ""
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=134993",
+              "original": "review_originals/cvm_134993_g412.pdf.gz",
+              "original_sha256": "ccfab033f093f87239274b9493bc3a761cc78cc2276ba5c7c8d0edf07da0e294"
+            },
+            {
+              "docid": "137088",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "received": "2024-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=137088",
+              "original": "review_originals/cvm_137088_g192.pdf.gz",
+              "original_sha256": "c64b14451737383ef438c25666c689cda740efd9d8db403e6bc4c00da6b75799"
+            },
+            {
+              "docid": "137088",
+              "group": 193,
+              "pages": [
+                5,
+                6,
+                23,
+                48,
+                52,
+                54
+              ],
+              "received": "2024-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=137088",
+              "original": "review_originals/cvm_137088_g193.pdf.gz",
+              "original_sha256": "482c38b695633707154986bbaa688387b5b37f97f5e89bd60c41b797a12f6a34"
             }
           ]
         },
         "capital_allocation": {
-          "favorable": {
-            "historical_payout": [
-              0.25,
-              0.5175,
-              0.5242,
-              null,
-              null
-            ],
-            "distributions": [
-              764181000.0,
-              1482146000.0,
-              1966538.0,
-              null,
-              null
-            ]
-          },
+          "favorable": "Aliança 45% por 2,7 bi: contrato de 27/03 sujeito a condições, sem somar preço ao caixa. Guanhães devolveu 46,476 mi após absorção de prejuízos. Simplificação favorável, mas sem demonstração de retorno adequado de todos os aportes.",
           "evidence": [
             {
-              "docid": "125990",
-              "received": "2023-05-09",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
-              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=125990",
-              "fiscal_year": 2019,
-              "raw": {
-                "CNPJ_Companhia": "17.155.730/0001-64",
-                "Data_Referencia": "2022-01-01",
-                "Versao": "11",
-                "ID_Documento": "125990",
-                "Nome_Companhia": "CIA ENERGETICA DE MINAS GERAIS - CEMIG",
-                "Data_Inicio_Exercicio_Social": "2019-01-01",
-                "Data_Fim_Exercicio_Social": "2019-12-31",
-                "Lucro_Liquido_Ajustado": "3127398000.00",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "4.75000000",
-                "Lucro_Liquido_Retido": "1535170000.00",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "25.00000000",
-                "Dividendo_Distribuido_Total": "764181000.00",
-                "Data_Aprovacao_Retencao": "2020-07-31"
-              }
+              "docid": "134993",
+              "group": 412,
+              "pages": [
+                60,
+                127
+              ],
+              "received": "2024-03-21",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=134993",
+              "original": "review_originals/cvm_134993_g412.pdf.gz",
+              "original_sha256": "ccfab033f093f87239274b9493bc3a761cc78cc2276ba5c7c8d0edf07da0e294"
             },
             {
-              "docid": "125990",
-              "received": "2023-05-09",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
-              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=125990",
-              "fiscal_year": 2020,
-              "raw": {
-                "CNPJ_Companhia": "17.155.730/0001-64",
-                "Data_Referencia": "2022-01-01",
-                "Versao": "11",
-                "ID_Documento": "125990",
-                "Nome_Companhia": "CIA ENERGETICA DE MINAS GERAIS - CEMIG",
-                "Data_Inicio_Exercicio_Social": "2020-01-01",
-                "Data_Fim_Exercicio_Social": "2020-12-31",
-                "Lucro_Liquido_Ajustado": "2864110000.00",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "8.48000000",
-                "Lucro_Liquido_Retido": "1450411000.00",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "51.75000000",
-                "Dividendo_Distribuido_Total": "1482146000.00",
-                "Data_Aprovacao_Retencao": "2021-04-30"
-              }
+              "docid": "137088",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "received": "2024-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=137088",
+              "original": "review_originals/cvm_137088_g192.pdf.gz",
+              "original_sha256": "c64b14451737383ef438c25666c689cda740efd9d8db403e6bc4c00da6b75799"
             },
             {
-              "docid": "125990",
-              "received": "2023-05-09",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
-              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=125990",
-              "fiscal_year": 2021,
-              "raw": {
-                "CNPJ_Companhia": "17.155.730/0001-64",
-                "Data_Referencia": "2022-01-01",
-                "Versao": "11",
-                "ID_Documento": "125990",
-                "Nome_Companhia": "CIA ENERGETICA DE MINAS GERAIS - CEMIG",
-                "Data_Inicio_Exercicio_Social": "2021-01-01",
-                "Data_Fim_Exercicio_Social": "2021-12-31",
-                "Lucro_Liquido_Ajustado": "3751321.00",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "10.10000000",
-                "Lucro_Liquido_Retido": "1552818.00",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "52.42000000",
-                "Dividendo_Distribuido_Total": "1966538.00",
-                "Data_Aprovacao_Retencao": "2022-04-29"
-              }
+              "docid": "137088",
+              "group": 193,
+              "pages": [
+                5,
+                6,
+                23,
+                48,
+                52,
+                54
+              ],
+              "received": "2024-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=137088",
+              "original": "review_originals/cvm_137088_g193.pdf.gz",
+              "original_sha256": "482c38b695633707154986bbaa688387b5b37f97f5e89bd60c41b797a12f6a34"
             }
           ]
         },
         "governance": {
-          "favorable": {
-            "dated_shareholder_right_records": 26,
-            "dated_related_party_records": 578
-          },
+          "favorable": "Promotores decidiram arquivar inquéritos CPI em agosto/2023 constatando regularidade, evidência favorável. Homologação pelo Conselho Superior e investigação IBM ainda pendentes; relações com controlador público exigem análise específica.",
           "evidence": [
             {
               "docid": "134993",
+              "group": 412,
+              "pages": [
+                60,
+                127
+              ],
               "received": "2024-03-21",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=134993",
+              "original": "review_originals/cvm_134993_g412.pdf.gz",
+              "original_sha256": "ccfab033f093f87239274b9493bc3a761cc78cc2276ba5c7c8d0edf07da0e294"
             },
             {
-              "docid": "134993",
-              "received": "2024-03-21",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+              "docid": "137088",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "received": "2024-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=137088",
+              "original": "review_originals/cvm_137088_g192.pdf.gz",
+              "original_sha256": "c64b14451737383ef438c25666c689cda740efd9d8db403e6bc4c00da6b75799"
             },
             {
-              "docid": "134993",
-              "received": "2024-03-21",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134993",
-              "received": "2024-03-21",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134993",
-              "received": "2024-03-21",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134993",
-              "received": "2024-03-21",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "docid": "134993",
-              "received": "2024-03-21",
-              "reference": "2023-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+              "docid": "137088",
+              "group": 193,
+              "pages": [
+                5,
+                6,
+                23,
+                48,
+                52,
+                54
+              ],
+              "received": "2024-05-10",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=137088",
+              "original": "review_originals/cvm_137088_g193.pdf.gz",
+              "original_sha256": "482c38b695633707154986bbaa688387b5b37f97f5e89bd60c41b797a12f6a34"
             }
           ]
         }

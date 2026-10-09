@@ -7,487 +7,238 @@
     "company": "BANCO BMG S/A",
     "sector": "Bancos",
     "category": "INDETERMINATE",
-    "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
+    "assessment_status": "ASSESSED",
     "dimensions": {
       "durability": {
-        "status": "INDETERMINATE",
-        "favorable": "Prática de todas as operações ativas, passivas e acessórias permitidas nas normas legais e regulamentares para o funcionamento dos bancos com carteira comercial, de investimento, inclusive câmbio",
-        "missing": "Historical concession/contract durability, competitive position and pricing power",
+        "status": "SATISFACTORY",
+        "reason": "Franquia de 10,6 milhões de clientes, crédito IFRS 24,923490 bi e consignados 62%. Desconto em folha favorece previsibilidade, contraposto a concentração em regras/pagadores/originadores.",
+        "favorable": "Franquia de 10,6 milhões de clientes, crédito IFRS 24,923490 bi e consignados 62%. Desconto em folha favorece previsibilidade, contraposto a concentração em regras/pagadores/originadores.",
+        "contrary_evidence": "Franquia de 10,6 milhões de clientes, crédito IFRS 24,923490 bi e consignados 62%. Desconto em folha favorece previsibilidade, contraposto a concentração em regras/pagadores/originadores.",
+        "missing": "",
         "evidence": [
           {
-            "cnpj": "61186680000174",
-            "received": "2024-03-19",
-            "name": "BANCO BMG S/A",
-            "sector": "Bancos",
-            "activity": "Prática de todas as operações ativas, passivas e acessórias permitidas nas normas legais e regulamentares para o funcionamento dos bancos com carteira comercial, de investimento, inclusive câmbio",
-            "cvm": "024600",
-            "docid": "134853",
-            "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=134853"
+            "docid": "133849",
+            "group": 412,
+            "pages": [
+              1,
+              2,
+              3
+            ],
+            "received": "2024-02-05",
+            "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=133849",
+            "original": "review_originals/cvm_133849_g412.pdf.gz",
+            "original_sha256": "91c085f3aecd57213b096be0b981b9a1ee46d8ea4c0218db67d2409656f396cc"
+          },
+          {
+            "docid": "137469",
+            "group": 193,
+            "pages": [
+              9,
+              42,
+              68,
+              69,
+              80,
+              94
+            ],
+            "received": "2024-05-15",
+            "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=137469",
+            "original": "review_originals/cvm_137469_g193.pdf.gz",
+            "original_sha256": "67707bd2b6972ce51bf020fb9b79b70a40c6aa8acbb8f4379b0a4f609328f2c1"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       },
       "capital_economics": {
         "status": "INDETERMINATE",
-        "favorable": {
-          "roe_parent_5": [
-            0.11618531166572268,
-            0.07691455140227936,
-            0.04246286201471967,
-            0.015467748672538697,
-            0.06813321733708244
-          ],
-          "normalized_profit": 274000541.2930323
-        },
-        "missing": "Cycle-normalized ROIC/incremental returns or risk-adjusted prudential ROE; historical peer/capital comparison",
+        "reason": "IFRS atribuível 2023 267,921 mi ante 60,342 mi; Q1 96,991 mi não total 102,625 mi. Ativos fiscais diferidos 3,325284 bi e benefícios/ganhos não operacionais exigem separar retorno recorrente sobre todo capital.",
+        "favorable": "IFRS atribuível 2023 267,921 mi ante 60,342 mi; Q1 96,991 mi não total 102,625 mi. Ativos fiscais diferidos 3,325284 bi e benefícios/ganhos não operacionais exigem separar retorno recorrente sobre todo capital.",
+        "contrary_evidence": "IFRS atribuível 2023 267,921 mi ante 60,342 mi; Q1 96,991 mi não total 102,625 mi. Ativos fiscais diferidos 3,325284 bi e benefícios/ganhos não operacionais exigem separar retorno recorrente sobre todo capital.",
+        "missing": "IFRS atribuível 2023 267,921 mi ante 60,342 mi; Q1 96,991 mi não total 102,625 mi. Ativos fiscais diferidos 3,325284 bi e benefícios/ganhos não operacionais exigem separar retorno recorrente sobre todo capital.",
         "evidence": [
           {
-            "fiscal_year": 2019,
-            "metric": "attributable_ni",
-            "value": 387395000.0,
-            "docid": "102434",
-            "received": "2021-03-30",
-            "reference": "2020-12-31",
-            "period_end": "2019-12-31",
-            "perimeter": "con",
-            "account": "3.09.01",
-            "description": "Atribuído a Sócios da Empresa Controladora",
-            "source": "dfp_cia_aberta_DRE_con_2020.csv",
-            "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
-          },
-          {
-            "fiscal_year": 2020,
-            "metric": "attributable_ni",
-            "value": 313677000.0,
-            "docid": "112039",
-            "received": "2022-02-24",
-            "reference": "2021-12-31",
-            "period_end": "2020-12-31",
-            "perimeter": "con",
-            "account": "3.09.01",
-            "description": "Atribuído a Sócios da Empresa Controladora",
-            "source": "dfp_cia_aberta_DRE_con_2021.csv",
-            "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
-          },
-          {
-            "fiscal_year": 2021,
-            "metric": "attributable_ni",
-            "value": 169662000.0,
-            "docid": "123519",
-            "received": "2023-02-14",
-            "reference": "2022-12-31",
-            "period_end": "2021-12-31",
-            "perimeter": "con",
-            "account": "3.09.01",
-            "description": "Atribuído a Sócios da Empresa Controladora",
-            "source": "dfp_cia_aberta_DRE_con_2022.csv",
-            "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
-          },
-          {
-            "fiscal_year": 2022,
-            "metric": "attributable_ni",
-            "value": 60342000.0,
             "docid": "133849",
+            "group": 412,
+            "pages": [
+              1,
+              2,
+              3
+            ],
             "received": "2024-02-05",
-            "reference": "2023-12-31",
-            "period_end": "2022-12-31",
-            "perimeter": "con",
-            "account": "3.09.01",
-            "description": "Atribuído a Sócios da Empresa Controladora",
-            "source": "dfp_cia_aberta_DRE_con_2023.csv",
-            "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=133849",
+            "original": "review_originals/cvm_133849_g412.pdf.gz",
+            "original_sha256": "91c085f3aecd57213b096be0b981b9a1ee46d8ea4c0218db67d2409656f396cc"
           },
           {
-            "fiscal_year": 2023,
-            "metric": "attributable_ni",
-            "value": 267921000.0,
-            "docid": "133849",
-            "received": "2024-02-05",
-            "reference": "2023-12-31",
-            "period_end": "2023-12-31",
-            "perimeter": "con",
-            "account": "3.09.01",
-            "description": "Atribuído a Sócios da Empresa Controladora",
-            "source": "dfp_cia_aberta_DRE_con_2023.csv",
-            "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            "docid": "137469",
+            "group": 193,
+            "pages": [
+              9,
+              42,
+              68,
+              69,
+              80,
+              94
+            ],
+            "received": "2024-05-15",
+            "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=137469",
+            "original": "review_originals/cvm_137469_g193.pdf.gz",
+            "original_sha256": "67707bd2b6972ce51bf020fb9b79b70a40c6aa8acbb8f4379b0a4f609328f2c1"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       },
       "earnings_reliability": {
-        "status": "INDETERMINATE",
-        "favorable": {
-          "positive_attributable_years": 5,
-          "audit_records": 9
-        },
-        "missing": "Profit/cash/recurring earnings bridge; provisions and extraordinary items reviewed in dated notes",
+        "status": "SATISFACTORY",
+        "reason": "BRGAAP/IFRS, controladores/minoritários e estágios de crédito são distintos. Remensuração de perímetro seguradoras/corretoras não autoriza substituir lucro atribuível por total 287,230 mi.",
+        "favorable": "BRGAAP/IFRS, controladores/minoritários e estágios de crédito são distintos. Remensuração de perímetro seguradoras/corretoras não autoriza substituir lucro atribuível por total 287,230 mi.",
+        "contrary_evidence": "BRGAAP/IFRS, controladores/minoritários e estágios de crédito são distintos. Remensuração de perímetro seguradoras/corretoras não autoriza substituir lucro atribuível por total 287,230 mi.",
+        "missing": "",
         "evidence": [
           {
             "docid": "133849",
+            "group": 412,
+            "pages": [
+              1,
+              2,
+              3
+            ],
             "received": "2024-02-05",
-            "reference": "2023-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2023.csv",
-            "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=133849",
+            "original": "review_originals/cvm_133849_g412.pdf.gz",
+            "original_sha256": "91c085f3aecd57213b096be0b981b9a1ee46d8ea4c0218db67d2409656f396cc"
           },
           {
-            "docid": "133849",
-            "received": "2024-02-05",
-            "reference": "2023-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2023.csv",
-            "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-          },
-          {
-            "docid": "133849",
-            "received": "2024-02-05",
-            "reference": "2023-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2023.csv",
-            "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-          },
-          {
-            "docid": "133849",
-            "received": "2024-02-05",
-            "reference": "2023-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2023.csv",
-            "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-          },
-          {
-            "docid": "133849",
-            "received": "2024-02-05",
-            "reference": "2023-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2023.csv",
-            "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-          },
-          {
-            "docid": "133849",
-            "received": "2024-02-05",
-            "reference": "2023-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2023.csv",
-            "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-          },
-          {
-            "docid": "133849",
-            "received": "2024-02-05",
-            "reference": "2023-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2023.csv",
-            "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-          },
-          {
-            "docid": "133849",
-            "received": "2024-02-05",
-            "reference": "2023-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2023.csv",
-            "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-          },
-          {
-            "docid": "133849",
-            "received": "2024-02-05",
-            "reference": "2023-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2023.csv",
-            "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            "docid": "137469",
+            "group": 193,
+            "pages": [
+              9,
+              42,
+              68,
+              69,
+              80,
+              94
+            ],
+            "received": "2024-05-15",
+            "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=137469",
+            "original": "review_originals/cvm_137469_g193.pdf.gz",
+            "original_sha256": "67707bd2b6972ce51bf020fb9b79b70a40c6aa8acbb8f4379b0a4f609328f2c1"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       },
       "financial_resilience": {
-        "status": "INDETERMINATE",
-        "favorable": {
-          "parent_equity_latest": 3925174000.0
-        },
-        "missing": "BCB Basel/NPL/provision coverage under contemporaneous rules",
+        "status": "SATISFACTORY",
+        "reason": "Basileia 13,24%, NI 9,74% e CET1 9,31%; PR 3,472515 bi/RWA 26,231791 bi. Fluxos contratuais +5,073306 bi até90dias e −4,295202 bi até360dias não são caixa livre garantido. Estágio3/provisões deterioram, com folga de capital ainda presente.",
+        "favorable": "Basileia 13,24%, NI 9,74% e CET1 9,31%; PR 3,472515 bi/RWA 26,231791 bi. Fluxos contratuais +5,073306 bi até90dias e −4,295202 bi até360dias não são caixa livre garantido. Estágio3/provisões deterioram, com folga de capital ainda presente.",
+        "contrary_evidence": "Basileia 13,24%, NI 9,74% e CET1 9,31%; PR 3,472515 bi/RWA 26,231791 bi. Fluxos contratuais +5,073306 bi até90dias e −4,295202 bi até360dias não são caixa livre garantido. Estágio3/provisões deterioram, com folga de capital ainda presente.",
+        "missing": "",
         "evidence": [
           {
             "docid": "133849",
+            "group": 412,
+            "pages": [
+              1,
+              2,
+              3
+            ],
             "received": "2024-02-05",
-            "reference": "2023-12-31",
-            "period_end": "2023-12-31",
-            "perimeter": "ind",
-            "account": "2.05",
-            "description": "Patrimônio Líquido",
-            "source": "dfp_cia_aberta_BPP_ind_2023.csv",
-            "archive_sha256": "",
-            "url": ""
+            "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=133849",
+            "original": "review_originals/cvm_133849_g412.pdf.gz",
+            "original_sha256": "91c085f3aecd57213b096be0b981b9a1ee46d8ea4c0218db67d2409656f396cc"
+          },
+          {
+            "docid": "137469",
+            "group": 193,
+            "pages": [
+              9,
+              42,
+              68,
+              69,
+              80,
+              94
+            ],
+            "received": "2024-05-15",
+            "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=137469",
+            "original": "review_originals/cvm_137469_g193.pdf.gz",
+            "original_sha256": "67707bd2b6972ce51bf020fb9b79b70a40c6aa8acbb8f4379b0a4f609328f2c1"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       },
       "capital_allocation": {
         "status": "INDETERMINATE",
-        "favorable": {
-          "historical_payout": [
-            0.0,
-            0.0,
-            0.0,
-            null,
-            null
-          ],
-          "distributions": [
-            150863907.75,
-            105000000.0,
-            184000000.0,
-            null,
-            null
-          ]
-        },
-        "missing": "Maintenance versus expansion CAPEX, sustainable dividends, adjusted per-share and incremental economic growth",
+        "reason": "Granito 5% por10 mi e aporte50 mi, Araújo Fontes21,666 mi, Cayman99,554 mi e redução CBFácil400 mi foram examinados. Goodwill BCV995,585 mi e retorno de todos aportes ainda sem prova suficiente.",
+        "favorable": "Granito 5% por10 mi e aporte50 mi, Araújo Fontes21,666 mi, Cayman99,554 mi e redução CBFácil400 mi foram examinados. Goodwill BCV995,585 mi e retorno de todos aportes ainda sem prova suficiente.",
+        "contrary_evidence": "Granito 5% por10 mi e aporte50 mi, Araújo Fontes21,666 mi, Cayman99,554 mi e redução CBFácil400 mi foram examinados. Goodwill BCV995,585 mi e retorno de todos aportes ainda sem prova suficiente.",
+        "missing": "Granito 5% por10 mi e aporte50 mi, Araújo Fontes21,666 mi, Cayman99,554 mi e redução CBFácil400 mi foram examinados. Goodwill BCV995,585 mi e retorno de todos aportes ainda sem prova suficiente.",
         "evidence": [
           {
-            "docid": "125746",
-            "received": "2023-05-04",
-            "reference": "",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
-            "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
-            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=125746",
-            "fiscal_year": 2019,
-            "raw": {
-              "CNPJ_Companhia": "61.186.680/0001-74",
-              "Data_Referencia": "2022-01-01",
-              "Versao": "17",
-              "ID_Documento": "125746",
-              "Nome_Companhia": "BANCO BMG S/A",
-              "Data_Inicio_Exercicio_Social": "2019-01-01",
-              "Data_Fim_Exercicio_Social": "2019-12-31",
-              "Lucro_Liquido_Ajustado": "349113600.00",
-              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "9.12270250",
-              "Lucro_Liquido_Retido": "198249692.25",
-              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "0.00000000",
-              "Dividendo_Distribuido_Total": "150863907.75",
-              "Data_Aprovacao_Retencao": "2019-12-09"
-            }
+            "docid": "133849",
+            "group": 412,
+            "pages": [
+              1,
+              2,
+              3
+            ],
+            "received": "2024-02-05",
+            "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=133849",
+            "original": "review_originals/cvm_133849_g412.pdf.gz",
+            "original_sha256": "91c085f3aecd57213b096be0b981b9a1ee46d8ea4c0218db67d2409656f396cc"
           },
           {
-            "docid": "125746",
-            "received": "2023-05-04",
-            "reference": "",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
-            "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
-            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=125746",
-            "fiscal_year": 2020,
-            "raw": {
-              "CNPJ_Companhia": "61.186.680/0001-74",
-              "Data_Referencia": "2022-01-01",
-              "Versao": "17",
-              "ID_Documento": "125746",
-              "Nome_Companhia": "BANCO BMG S/A",
-              "Data_Inicio_Exercicio_Social": "2020-01-01",
-              "Data_Fim_Exercicio_Social": "2020-12-31",
-              "Lucro_Liquido_Ajustado": "312591800.00",
-              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "7.97059080",
-              "Lucro_Liquido_Retido": "207591800.00",
-              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "0.00000000",
-              "Dividendo_Distribuido_Total": "105000000.00",
-              "Data_Aprovacao_Retencao": "2020-12-29"
-            }
-          },
-          {
-            "docid": "125746",
-            "received": "2023-05-04",
-            "reference": "",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
-            "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
-            "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=125746",
-            "fiscal_year": 2021,
-            "raw": {
-              "CNPJ_Companhia": "61.186.680/0001-74",
-              "Data_Referencia": "2022-01-01",
-              "Versao": "17",
-              "ID_Documento": "125746",
-              "Nome_Companhia": "BANCO BMG S/A",
-              "Data_Inicio_Exercicio_Social": "2021-01-01",
-              "Data_Fim_Exercicio_Social": "2021-12-31",
-              "Lucro_Liquido_Ajustado": "229816400.00",
-              "Taxa_Retorno_Patrimonio_Liquido_Emissor": "6.26252480",
-              "Lucro_Liquido_Retido": "45816000.00",
-              "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "0.00000000",
-              "Dividendo_Distribuido_Total": "184000000.00",
-              "Data_Aprovacao_Retencao": "2021-12-16"
-            }
+            "docid": "137469",
+            "group": 193,
+            "pages": [
+              9,
+              42,
+              68,
+              69,
+              80,
+              94
+            ],
+            "received": "2024-05-15",
+            "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=137469",
+            "original": "review_originals/cvm_137469_g193.pdf.gz",
+            "original_sha256": "67707bd2b6972ce51bf020fb9b79b70a40c6aa8acbb8f4379b0a4f609328f2c1"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       },
       "governance": {
         "status": "INDETERMINATE",
-        "favorable": {
-          "dated_shareholder_right_records": 10,
-          "dated_related_party_records": 127
-        },
-        "missing": "Review of material conflicts, related parties and audit opinions before cutoff; no ex-post controversy inference",
+        "reason": "Tag along100%, conselho44% independente e comitês são favoráveis. Macchiato/Descarte/glosas não têm desfecho; investigação interna não encontrou irregularidades no acervo, sem equivaler a absolvição institucional.",
+        "favorable": "Tag along100%, conselho44% independente e comitês são favoráveis. Macchiato/Descarte/glosas não têm desfecho; investigação interna não encontrou irregularidades no acervo, sem equivaler a absolvição institucional.",
+        "contrary_evidence": "Tag along100%, conselho44% independente e comitês são favoráveis. Macchiato/Descarte/glosas não têm desfecho; investigação interna não encontrou irregularidades no acervo, sem equivaler a absolvição institucional.",
+        "missing": "Tag along100%, conselho44% independente e comitês são favoráveis. Macchiato/Descarte/glosas não têm desfecho; investigação interna não encontrou irregularidades no acervo, sem equivaler a absolvição institucional.",
         "evidence": [
           {
             "docid": "133849",
+            "group": 412,
+            "pages": [
+              1,
+              2,
+              3
+            ],
             "received": "2024-02-05",
-            "reference": "2023-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2023.csv",
-            "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=133849",
+            "original": "review_originals/cvm_133849_g412.pdf.gz",
+            "original_sha256": "91c085f3aecd57213b096be0b981b9a1ee46d8ea4c0218db67d2409656f396cc"
           },
           {
-            "docid": "133849",
-            "received": "2024-02-05",
-            "reference": "2023-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2023.csv",
-            "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-          },
-          {
-            "docid": "133849",
-            "received": "2024-02-05",
-            "reference": "2023-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2023.csv",
-            "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-          },
-          {
-            "docid": "133849",
-            "received": "2024-02-05",
-            "reference": "2023-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2023.csv",
-            "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-          },
-          {
-            "docid": "133849",
-            "received": "2024-02-05",
-            "reference": "2023-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2023.csv",
-            "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-          },
-          {
-            "docid": "133849",
-            "received": "2024-02-05",
-            "reference": "2023-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2023.csv",
-            "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-          },
-          {
-            "docid": "133849",
-            "received": "2024-02-05",
-            "reference": "2023-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2023.csv",
-            "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-          },
-          {
-            "docid": "133849",
-            "received": "2024-02-05",
-            "reference": "2023-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2023.csv",
-            "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-          },
-          {
-            "docid": "133849",
-            "received": "2024-02-05",
-            "reference": "2023-12-31",
-            "period_end": "",
-            "perimeter": "",
-            "account": "",
-            "description": "",
-            "source": "dfp_cia_aberta_parecer_2023.csv",
-            "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
+            "docid": "137469",
+            "group": 193,
+            "pages": [
+              9,
+              42,
+              68,
+              69,
+              80,
+              94
+            ],
+            "received": "2024-05-15",
+            "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=137469",
+            "original": "review_originals/cvm_137469_g193.pdf.gz",
+            "original_sha256": "67707bd2b6972ce51bf020fb9b79b70a40c6aa8acbb8f4379b0a4f609328f2c1"
           }
-        ],
-        "contrary_evidence": "No structural rejection established by this extract; missing review is not evidence of poor business quality."
+        ]
       }
     },
-    "limitation": "Structured facts only; economic review outstanding. No quality approval inferred.",
+    "limitation": "Documentary economic review of originals",
     "special_case": ""
   },
   "annual_evidence_updates": [
