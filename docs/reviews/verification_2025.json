@@ -1,0 +1,30 @@
+{
+  "formation_year": 2025,
+  "decision_commit": "06a0033ca0d7021329def099f1f0c14a5bf79e96",
+  "tests_passed": 222,
+  "offline_identical_files": 2606,
+  "protected_pr3_files": 840,
+  "protected_stage1_files": 271,
+  "accepted_control_tables": 11,
+  "accepted_initial_tables": 10,
+  "preserved_later_batches": 10,
+  "actual_return_replayed_after_decision_freeze": true,
+  "criteria_changed_after_returns": false,
+  "taxes": false,
+  "contributions": false,
+  "pr_draft": true,
+  "merge": false,
+  "diagnostic_clarifications": [
+    {
+      "ticker": "CPFE3",
+      "field": "real_2020_if_only_documented_ordinary_transmission_retained",
+      "stored_historical_2024_value": 2533465842.7773156,
+      "current_2025_partial_value": 2668236992.631284,
+      "required_current_real_median": 3138741094.56,
+      "certified": false,
+      "used_in_admission": false,
+      "frozen_input_modified_after_returns": false,
+      "documentation": "docs/resultados_b00s_2014_2026.md"
+    }
+  ]
+}
