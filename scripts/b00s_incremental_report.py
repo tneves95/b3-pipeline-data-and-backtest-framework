@@ -52,16 +52,19 @@ def main():
                 empresas_finais=rr[0]['companies'] if rr else '',maior_peso_final_pct=rr[0]['largest_company_pct'] if rr else '',
                 top5_final_pct=rr[0]['top5_pct'] if rr else ''))
         freeze=json.loads((INPUT/'decision_freezes'/f'{year}.json').read_text())
+        economic_commit=freeze.get('original_pre_return_decision_commit',freeze['decision_commit'])
         text=f'''# PR #4 — revisão de junho/{year} e retorno até junho/{year+1}
 
 Protocolo V2 `7fea064`, critérios 15/25 e exigências de reinvestimento preservados. [Revisão do coordenador](https://github.com/tneves95/b3-pipeline-data-and-backtest-framework/pull/4#issuecomment-6071009589). PR draft, sem merge, impostos, custos ou aportes. Retorno total bruto com os eventos e qualificações herdados do PR #3.
 
-As seleções, retornos, fontes e documentos aceitos de junho/2014–junho/2015 permanecem protegidos por comparação literal e hashes. Os 840 arquivos do PR #3 e as 11 tabelas de V0/V10 também permanecem protegidos. Decisões deste corte congeladas em `{freeze['decision_commit'][:7]}` antes do replay; critérios não foram ajustados após os resultados.
+As seleções, retornos, fontes e documentos aceitos de junho/2014–junho/2015 permanecem protegidos por comparação literal e hashes. Os 840 arquivos do PR #3 e as 11 tabelas de V0/V10 também permanecem protegidos. Decisões deste corte congeladas em `{economic_commit[:7]}` antes do replay; critérios não foram ajustados após os resultados.
 
 ## Resultado do período
 
 '''+table(summary,list(summary[0]))
         text+='\n\nDiferenças em pontos percentuais. Resultados das carteiras efetivamente selecionadas, condicionados à evidência disponível e às qualificações dos eventos herdados; uma janela não demonstra superioridade estrutural.\n'
+        if freeze.get('metadata_commit_after_first_replay'):
+            text+=f"\nCorreção documental posterior ao primeiro cálculo: o commit `{freeze['decision_commit'][:7]}` replica no campo redundante `missing` a pendência da Cemig já expressa na justificativa original. O [registro da correção](reviews/metadata_correction_{year}.json) e o [congelamento original](reviews/decision_freeze_{year}_original.json) conservam os hashes anteriores. Nenhuma classificação, critério ou resultado numérico mudou.\n"
         cumulative=next(r for r in read(RESULT/'cumulative_returns_pct.csv') if r['closing_year']==str(year+1))
         observed=[]
         for v in ['V0','V10','VVAL','VQ','IBOV']:
