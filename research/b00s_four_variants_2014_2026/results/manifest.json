@@ -5,8 +5,8 @@
   "variants": {
     "V0": 12,
     "V10": 12,
-    "VVAL": 7,
-    "VQ": 7
+    "VVAL": 8,
+    "VQ": 8
   },
   "inputs": [
     {
@@ -32,6 +32,10 @@
     {
       "path": "research/b00s_four_variants_2014_2026/inputs/accepted_2019.json",
       "sha256": "1848326d7683e0db0c8c214161f22dd59ba1e549938f61ac958759a7dbd5e755"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/accepted_2020.json",
+      "sha256": "a0605699571b589e7eb55d4c8c00a9c21a8d7088e387b59f143848a0df77428e"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/inputs/accepted_v0_v10.json",
@@ -90,8 +94,12 @@
       "sha256": "03f94f2a7c6b72ec9b084774d066942d0c5aa8f6f3976686f67ab37c8c6ce67a"
     },
     {
+      "path": "research/b00s_four_variants_2014_2026/inputs/decision_freezes/2021.json",
+      "sha256": "0102f5a4b4e6d373a38be5df5a7a45909b93da6ca71bbbc09515004bc5ebbd3a"
+    },
+    {
       "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/00000000000191.json",
-      "sha256": "799e4b5fba9ce3ccd32c0d2b61a2e9c3aa7084905389750b584d8278bfa42c7c"
+      "sha256": "785c220c11691459d99302c00718b8e91419d8148b76c475400792245e52d584"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/00001180000126.json",
@@ -99,19 +107,19 @@
     },
     {
       "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/01083200000118.json",
-      "sha256": "c60008db29517bd72b9166bb78e4f3c36c69dc0a760ce84854e392d59b458ffe"
+      "sha256": "c1c094b98276cc7750aa0d4c5b27ce777566e372cf49732fdd1794fe4ecd76f7"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/02149205000169.json",
-      "sha256": "a3c561e7b0088f74f8f6adb0b15c5785178db6aa2a8163b2c39baa7e3b9edba5"
+      "sha256": "cfd5b17b11d113deb115a7ebb4d8fec2f4db16a9b660fc16868d2c4c08477265"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/02429144000193.json",
-      "sha256": "e9984dfa322ad144e093e48740928014d419348bf701144d440a424d5a676edb"
+      "sha256": "0e8849251152dc45a7af5696cc1b7f123d2f2277befdf49fe2d130e15f5cda7c"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/02474103000119.json",
-      "sha256": "f74d3866061f01cbbe7d0eb667dccb891da5546e1714a59363bcbc4ebb2e878b"
+      "sha256": "96f811d5c1ceb2a3be4707a7cb0e08e9fb0fe32a6edddc6f105291872daca245"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/02558115000121.json",
@@ -119,7 +127,7 @@
     },
     {
       "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/02558157000162.json",
-      "sha256": "c7ebeb19b3699733240d95f5e7b20c4704abb53c3f0a29c59d887f71d382672e"
+      "sha256": "79be8a1eb173ae4b6095c0fdda3a98dd207a288d98dece4f389d7c6af894fd00"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/02998609000127.json",
@@ -127,11 +135,11 @@
     },
     {
       "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/02998611000104.json",
-      "sha256": "a873202385ede8bd3a0c806f396f02910af0680f5be6d813602251278e672dc6"
+      "sha256": "0e12c552060f171ce9be3d812746bf55921c32b549f19b25b69aed2fc02bba59"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/03220438000173.json",
-      "sha256": "9b8920a4d4d6a60125990cd1881162d7f3a60706acecd99e5593c47a13b39ff6"
+      "sha256": "d9037aba7e8ab054073e0cd6e19e4cc19899adc84d7342ffc0cc18e9c5962815"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/03378521000175.json",
@@ -139,7 +147,7 @@
     },
     {
       "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/03983431000103.json",
-      "sha256": "329606f8d9f379a134641d96518aeb09ba7b016b0effa0834e1a2d0366faffa9"
+      "sha256": "9492271604f1516b59871661c3d7c484faf4dca3fb92a611836ff25b6c5abe00"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/04128563000110.json",
@@ -151,23 +159,23 @@
     },
     {
       "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/07859971000130.json",
-      "sha256": "9f445b3dc41ac4c98686929e2ed0e43cb069b8302fcec1b86f37c92bede9d177"
+      "sha256": "7060a53f5822cae0cfb0f54f508ad6b253e9dd0b3a7329930e80d90005b9c40e"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/17155730000164.json",
-      "sha256": "c17e484740d097c6a5bafc8b102a682ed3b4556a9f54a094574544a0aee4ddf9"
+      "sha256": "e8ef7eb8f204eb7480a00af70c34b771d8c450e0e7547b029e5c95b581fcf76a"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/17281106000103.json",
-      "sha256": "2065759bb9d2eff4b72575622b6940388820dfe4e0e4dccc16d746bfda8d86c0"
+      "sha256": "8f40a29ebeda86b0ed5fba4a7d391e7efdafa2bc0cf48ab44ac8851c095bf6dd"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/17344597000194.json",
-      "sha256": "ccd1f68a8f54ce621af206ede0f97b1fc307e7ce963ec8441e4ca5bc67164f84"
+      "sha256": "f8d206bf09582fa329f53971165ae4bb44741eee7b0cd8e249ea834eb69c09c5"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/28195667000106.json",
-      "sha256": "eb1441e210922ae8d4c79dea8d20881ef881e08d9ec16d02e19bcc8e24a1bbb0"
+      "sha256": "003ee55a0ce91329eb97c32dcb93233ab0256db55d08ca33c1e2d4b8c9ccacb9"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/33376989000191.json",
@@ -175,15 +183,15 @@
     },
     {
       "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/43776517000180.json",
-      "sha256": "6e3f0c2a568cd15382838e4a52b58dfda3e4812283481aeb3e46dcc759058cc8"
+      "sha256": "08e15b7de2b95c4fc8d96deae7888a57390e8aa6becff7d750e0223e18002f82"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/60746948000112.json",
-      "sha256": "d8d1faa32f57bf19b05b7f97a89f1d0278b96cbc34fcb0e91de59f2aa6e60933"
+      "sha256": "d2e61ac31159e79f1db8ba89a68f292699a4ac0d380509da2682c8276e4f0329"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/60872504000123.json",
-      "sha256": "cceb9b1a18ea6520577ce87fbc1b6f5d363a7f7116621e97ac57bff13425a7c9"
+      "sha256": "52402059d77a02e5c28125860f459535a687ab04c8204b9b0a85e032e049fc26"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/61186680000174.json",
@@ -191,15 +199,15 @@
     },
     {
       "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/76483817000120.json",
-      "sha256": "b6500bfb89ffff1e33c0a4f97c53f0d9acc9db649f84fc0342d69383892bf99a"
+      "sha256": "1572dba34c03073640c4d06ff6fb9aba21f2ee6cc892fec524e1386c65091f2a"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/76484013000145.json",
-      "sha256": "dad53968c4cbf94b4428e062c02178f16f387d3fc15eddde5c5d5519da6f32b8"
+      "sha256": "e21e9dde66cb8c6fde9b7e13803cde8a0c0cf6bd4c6314a6b361210f90a37b40"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/90400888000142.json",
-      "sha256": "e2753e1015b41a934636203029cb6a8aa6e35c3ee7e9d34c5ee91210617d52c3"
+      "sha256": "795d4cf074582e31a4fd855a4054bd3347bb5bce986dbf1373a7cd756414fbbe"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/inputs/dossiers/92702067000196.json",
@@ -238,16 +246,20 @@
       "sha256": "35aac4b7726a87cf7a6565a653e6af401bf6a2cc91cfe42f1abd7ebaa33f12b6"
     },
     {
+      "path": "research/b00s_four_variants_2014_2026/inputs/economic_reviews_2021.json",
+      "sha256": "29baadec76c400c733352780167aee643db46b3e2a11e8bd8cbcf227a59de6c0"
+    },
+    {
       "path": "research/b00s_four_variants_2014_2026/inputs/economic_reviews_adversarial_first.json",
       "sha256": "3b571a6f5c9c7751fe26760e8171a0e0ae8ebcbeb8e022f682fd4122d67f556b"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/inputs/fundamental_decisions.json",
-      "sha256": "6439318ba6dd317fc0265c9ab055ac9509bed2765bf6cf6f6e95739293c46259"
+      "sha256": "2d01065fca2fedcdc6e3f004141f868e6c7447dbe6a9c9465da29dfee3245663"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/inputs/fundamental_decisions_lock.json",
-      "sha256": "3aab6ac02fa5e4019dde1f161d175d75bdc35a11da94ce268f430f1068db0751"
+      "sha256": "c44b1e49b8e2d8214090bf2064b94032c90a6163a939835b3a147fe6e21a693a"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/inputs/funding_policy_2015.json",
@@ -367,7 +379,7 @@
     },
     {
       "path": "research/b00s_four_variants_2014_2026/inputs/review_original_sources.json",
-      "sha256": "8a09edb92fa9405c3b5d0d5e0d91cc8ce1d55b90e39423febbd13e31b0d2af82"
+      "sha256": "890136a24fe66d4d7816cfb501508db34074a00da49e908aa805bd5100e7611d"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/bbse_mapfre_20180206_g0.pages.json.gz",
@@ -440,6 +452,742 @@
     {
       "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cpfe_capital_20190613.pages.json.gz",
       "sha256": "906604df41633cf6a3dbdd75fe5d595ff5e510365e95481d3f62d84288ccfed3"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_100039.delivery.xml.gz",
+      "sha256": "ef125700fdfe9f772dc3d5d18acf1740a0d6832dfb48a58ffe7e83983d30a99c"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_100039.dfp.gz",
+      "sha256": "361f4bd286f3c30098da688ce95e807967ce6358e39230bb4c0e502484751106"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_100039_g1653.pages.json.gz",
+      "sha256": "99d994b4a4cb39cd8c538dac4445e9741ae338d2f051db1428b5637b93160f6f"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_100039_g1653.pdf.gz",
+      "sha256": "9d4cb6eb54436df4c52de93df42d4dcbdba86bdd68b036fcbbc63d960618fdad"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_100039_g412.pages.json.gz",
+      "sha256": "3d4d3e4dcdebd9545c99462ec746fb8be0cc80f703a020475d16b3a3ca4435cc"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_100039_g412.pdf.gz",
+      "sha256": "8af50935255e0b81c7227693b5b15f2e07aa8c965fa651179eb0a0b7f7274861"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_100129_g1653.pages.json.gz",
+      "sha256": "f96020fe85e2aa754ea5857420f42613d1c445da5002943a9324c6fcb9efeeff"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_100129_g1653.pdf.gz",
+      "sha256": "3d645bf4603586049338eafaea24f63e99f6226cd60fb22f562a0f1f13cbf82d"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_100129_g412.pages.json.gz",
+      "sha256": "407706d2306ca92150630645fc195123b4252886e5859f09c6aa677d9a4c65fc"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_100129_g412.pdf.gz",
+      "sha256": "2462b3ce90cc45832d9c8cfe54d1065b2b42a4aa114afd1b5fa6951cebbce1de"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_100343_g1653.pages.json.gz",
+      "sha256": "453bd4240345e015772acdb2abc32b9de20ff25a8dd4434fc334c77ff51b6c6a"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_100343_g1653.pdf.gz",
+      "sha256": "f09bf510ca6daa386dc0d060240efcf811f5cf268708bf8ede8294e3e1140567"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_100343_g412.pages.json.gz",
+      "sha256": "067948941b7c501551448f89ea49f19c1e6f9cee7b634a12c1102876ff743ece"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_100343_g412.pdf.gz",
+      "sha256": "5a6a30f6422e2e2c5d7d7b62e3a50490a348567e8867a3f4f0adb8452b658557"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_100383_g1653.pages.json.gz",
+      "sha256": "ff6036abcceaa50baefd89e18a9a3fb3c1a984e8f9ae24e28ec43eb90117ba7f"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_100383_g1653.pdf.gz",
+      "sha256": "407ce369f2d157a8b839ff5d54a5698f42274e4f4b0297055be7d2100cfb39dd"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_100383_g412.pages.json.gz",
+      "sha256": "bb9ec4a9785d91aa7515aecca942af02ba9ecd29d25f699c29a8a8093acced90"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_100383_g412.pdf.gz",
+      "sha256": "1786eafd2bae9a6cee9284098b12c9db59b68ba73dea1a31a6bccf5673e5018e"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_100458_g1653.pages.json.gz",
+      "sha256": "dd966e175de771219c99fdc6e3e11877d92fcbb80859b2644277ee97cf706244"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_100458_g1653.pdf.gz",
+      "sha256": "130eca56841a4856ff1df6c6ff0884d29ce9be9cc1fe792ab0472aa06092ef2a"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_100458_g412.pages.json.gz",
+      "sha256": "3bdb32a8da58156890ec6a0f140349dd027557dbf4d9c5e43d21e9194f993563"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_100458_g412.pdf.gz",
+      "sha256": "274fc226cf2abd4133888b817a542f9c66ca393035764b2845065e298f335799"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_100459.delivery.xml.gz",
+      "sha256": "7a0a7e2ca9a87fb40d69d04c09f17fc40ad696ecb468ea4ed07c542ba7bfa4ea"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_100459.dfp.gz",
+      "sha256": "779c6daf23fa3c7d7e5f05e0e1f76295a010a4fd92fb84ccfbead757dd2ba0f6"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_100459_g1653.pages.json.gz",
+      "sha256": "8488a7abe57226ca39750f063d7f459a7aba1c643ee9134bf5021d7ddbed8498"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_100459_g1653.pdf.gz",
+      "sha256": "01458024b47741b814b61de19b656443df5a28929b43b83fa1eb8f0bb099fc82"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_100459_g412.pages.json.gz",
+      "sha256": "9f5351e97b56fa664141a26afeaf5529922b3b63cb44e16bd8bf3e4d3c21da52"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_100459_g412.pdf.gz",
+      "sha256": "81effe2cf2a90cdb0fdb83a7cd8b0363cf0fc5f14f5edc36dead596d937871ab"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_100531.delivery.xml.gz",
+      "sha256": "d0efd3e7c4df188f7f7a1decd715dc26eff8c9110aeaadb4c0dde3b0d20ff204"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_100531.dfp.gz",
+      "sha256": "86e3debc634c315b7cc19b19f930b17eb39b52ef376b3585b42be9b28ceebf17"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_100531_g1653.pages.json.gz",
+      "sha256": "8f117ae852bc3d3fb61be2fe4eed274c738a001bb41df742abb987b11f3b341c"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_100531_g1653.pdf.gz",
+      "sha256": "5162e8a76f4154e822d23d2b73ee796481ed857b68df74f1e89a6ac345bbb9a6"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_100531_g412.pages.json.gz",
+      "sha256": "84749d7f1445d8b002f69dc1d25bf5c820c9486036b6ffa3e3877a8344f4364a"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_100531_g412.pdf.gz",
+      "sha256": "ee7e3c5ff560dc76b906b681725f8032cbcfa22f1844ebbbdaa9fffc15ac3d3b"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_100641_g1653.pages.json.gz",
+      "sha256": "283198cc3ded8b9bf256e2564eb2fbfe0b74e2f14d7a6c81e5a3442c40c662f0"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_100641_g1653.pdf.gz",
+      "sha256": "360050bdb0f3e35720044d745844d943ac3047829bcf53a0191d9deb495a596a"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_100641_g412.pages.json.gz",
+      "sha256": "41b1f9ea0cab5e63ddbaac5f1a698de25b27ff454e39b56e57d0e11d0ca885c9"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_100641_g412.pdf.gz",
+      "sha256": "cda82c42b967710590cf9e78c5a9f9a8f880adf4ad8ff3480e1344a206819570"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_100788_g1653.pages.json.gz",
+      "sha256": "35c8ac388abacda9f992003b99b89dbb020779afe38563511fb43a475c4bdaaa"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_100788_g1653.pdf.gz",
+      "sha256": "f7aceec88f92eeeb209328aba23a58a5f4e5959767c488804b25139f65eb7016"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_100788_g412.pages.json.gz",
+      "sha256": "70d61461b3405d593fd1e952b03fe6721f70bb2ce11255aa8ac82e4d73325978"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_100788_g412.pdf.gz",
+      "sha256": "55b881ecb4b772748a78ed4ef283cc45e5e6d9903424c5a51dfc41970ab66ad9"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_102205_g1653.pages.json.gz",
+      "sha256": "5bb2c179a9d9755b17d5588eb4a5ff525bb807ca97b2c3beac15169c2f2a6295"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_102205_g1653.pdf.gz",
+      "sha256": "c735ca0f969bf853cd2fc8c607414615eb2b7de71a89e53e277d5061a25ff18f"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_102205_g412.pages.json.gz",
+      "sha256": "0cf50eff1871eff9df0aadd8423083cc451dca0bcef4d99eac89d0f56d8adcc4"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_102205_g412.pdf.gz",
+      "sha256": "ea3a1ab45e870e9deaa9e3a48ce5aa1fbe189a5edd3d82ee92f7e8a1146e6bcb"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_102262_g1653.pages.json.gz",
+      "sha256": "57ce287b6fec424c50c89b6e942129ca76e62f40e9aed693e82512777d3bf0a1"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_102262_g1653.pdf.gz",
+      "sha256": "e33146342f1aac46d7bee968195f97eb825b9a1994766aeee5d91116a1cdeee2"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_102262_g412.pages.json.gz",
+      "sha256": "390277fd0ae5f644e8b8091f9be1cd8df356ca47c3234758bc782bf3f7423f17"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_102262_g412.pdf.gz",
+      "sha256": "b437db2b7d2d99b162668f06bfb63c1c28e14768921ef370f862c5babff89a73"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_102382.delivery.xml.gz",
+      "sha256": "1b88cb9dcf59f46cf9c2d2cd751f6337c09a9c070c6a5be36a6e056b148340e1"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_102382.dfp.gz",
+      "sha256": "335978d8f771a34f5619299b743bca6249281a1acf1df0a21c555487076a5d4f"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_102382_g1653.pages.json.gz",
+      "sha256": "d08e3101581f6cd0ff22f5b4825c2165e17a58363635cca581ee75d6205da704"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_102382_g1653.pdf.gz",
+      "sha256": "818f4534ea9bb3f155b0abb7650623f8f2ae63251d914e9e51853675b8ad6ecd"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_102382_g412.pages.json.gz",
+      "sha256": "f2b433eb6afdbe7d829d01f4e796603312d832f27cb254e265e10fcd4f29e522"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_102382_g412.pdf.gz",
+      "sha256": "ed730e80fce0877179a49e69432269c0d4bf10eb2879a04e23abab2429fa7532"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_102461.delivery.xml.gz",
+      "sha256": "324b1f2a5c83858e2552c39aacc3ddaaee61b59ba76262f45992cd0b66455f89"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_102461.dfp.gz",
+      "sha256": "7afc60f5dcbe856a360c5942914e5492730586744886b475d0b659dd550dd12f"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_102461_g1653.pages.json.gz",
+      "sha256": "5135286f3e98d9bedc6d03599663eeb47bd3dd36cca8caa510dbc8db6b483b29"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_102461_g1653.pdf.gz",
+      "sha256": "eff1259925bf532ae379ed03687d5e4541dd3330b0fd2a884699be5d2e35894d"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_102461_g412.pages.json.gz",
+      "sha256": "5c72b1ae9823dc53a9a46ed691a73cd41cd3ac5a1e44dc7d8da1b7161920e6f8"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_102461_g412.pdf.gz",
+      "sha256": "94523e981ccfb91106e10bdb24763ae904becd1e5b31cb2888f6b4b10579870d"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_102515_g1653.pages.json.gz",
+      "sha256": "7178296eb3b580bdf658b36e5b4b5d966d73a0eabca04938eee1b8a5bcbe2bb9"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_102515_g1653.pdf.gz",
+      "sha256": "e5c604f43cbd71bbbc0e5bc64f89fb92bd740e741be123b1d17f0de9cf71903e"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_102515_g412.pages.json.gz",
+      "sha256": "ca22310ea85921585e15f77b57b508a40c00c3232a5f0787a3fb5bb7f18ddd11"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_102515_g412.pdf.gz",
+      "sha256": "1ee5d9fb503fe6adfa672c5da4dd07fee4ad09c4c31673e24159cbf95511e113"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_102581.delivery.xml.gz",
+      "sha256": "5063e34b9c992a5d084d9f26acdb59a37f1ac91b2705e59cb5c6c09a9c9214d2"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_102581.dfp.gz",
+      "sha256": "c720d3dbe5bd5ad8e84f373f7321243deb5f5ecaba983af3eaa75456f1fb9906"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_102581_g1653.pages.json.gz",
+      "sha256": "a13d18ffe58bcd55c511ab148f282c1db7fdf9f83682cea6442fc8e99cc6d58d"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_102581_g1653.pdf.gz",
+      "sha256": "188f7f1bca90ddd16cbd8b22e1a882ca04068c8a844c6e04f09e04cfc053b215"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_102581_g412.pages.json.gz",
+      "sha256": "e39c05f2a9d5b3cd89e922e5d950c5f6950ad4b346165af9eb5f5bbd3acc0cf5"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_102581_g412.pdf.gz",
+      "sha256": "3d66fc2674d29036f548b869857ab23662aa472c3cf9cd5627fa701a5755990a"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_102963_g1653.pages.json.gz",
+      "sha256": "470d97309819e75f2d7cd1ecca093cc9f74c9498c99f2f3a54003b6fc4cbe6b9"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_102963_g1653.pdf.gz",
+      "sha256": "84c0cfac3348b5142e10b53850077e3f06f3a486bf3b4b1af743b74efaa51ec8"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_102963_g412.pages.json.gz",
+      "sha256": "d1ea2898b74e8abd4ad958d039182b553e72e56320cb560d95517514c804ff1b"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_102963_g412.pdf.gz",
+      "sha256": "9e8b600f74d38e593a0f665530e12886c9721da6a422825eef4858209155ee5a"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_102985_g1653.pages.json.gz",
+      "sha256": "a09c972e39bf4706f99a4603b56cac317f51bf9900d76990e87263ab9a761ba4"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_102985_g1653.pdf.gz",
+      "sha256": "6011452544621c161dc1f11338fffee87ed376413dde0c51932672e0496da3f0"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_102985_g412.pages.json.gz",
+      "sha256": "4754248b2ca0ad12263add180a418e86c57782149966386a169ec3a42612d771"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_102985_g412.pdf.gz",
+      "sha256": "22420b52143c3a81c58af3b76f37d97e9237ee92cb33bbd196c2d6d76868ca72"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103062_g1653.pages.json.gz",
+      "sha256": "fc65ea8452cbf0f1089f667d120197a1d3bec095c03528556c1ed0022372bd84"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103062_g1653.pdf.gz",
+      "sha256": "4fcd10093007931139d8c1d2843c51b602251b95ab3659d67d92724e8711da76"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103062_g412.pages.json.gz",
+      "sha256": "b50aaa75cb206fd09c6d44c5fd26158d6f04ad6a7a058bf7b81e042b8ec78740"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103062_g412.pdf.gz",
+      "sha256": "281e61e81b14608adffd31187c4a3581fe18c61eeb67a2b6ac61891e65ba25fe"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103127_g192.pages.json.gz",
+      "sha256": "19b79f97e0c8a765a944c710a89f7aff910426469765929af306a191ba638ae7"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103127_g192.pdf.gz",
+      "sha256": "6d7d3e5f7c7b1e879ea00bb2070ccb0c7dd17ae1d5ceb5dc4264a0be2986a883"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103127_g193.pages.json.gz",
+      "sha256": "ae2de3943efc0c15f8efd4aaa8b255be136bbaf8f75830aabc89ef0668742fe9"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103127_g193.pdf.gz",
+      "sha256": "c2ac876e80c75661f15f012dcddc98e8f6a42fa57282865ef8ca67a3477132e0"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103180.delivery.xml.gz",
+      "sha256": "dab8ade83ff4f576fe9065e3d0c530a9e1e0c683f7e476d95ed083dbb60e85b4"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103180.itr.gz",
+      "sha256": "c6ad426a5406af73c87023250d10ad5fb779ece4c0b030aa3eabf6d5f992fc59"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103180_g192.pages.json.gz",
+      "sha256": "377163e363fe94366ce9f17bd35321f368672082b9d1aa756a3cf21632ac3cd3"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103180_g192.pdf.gz",
+      "sha256": "014362875313b42996d912f8c8d26d220514e790ac0bf8542d7799026340adc9"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103180_g193.pages.json.gz",
+      "sha256": "cfa615ff77f13d2b8946057ac142565d708ba361b48795884df08678971b5ca6"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103180_g193.pdf.gz",
+      "sha256": "bd1ee2d15aa4d4378429f8341eea5dfabeb580f81c135f05371206af969c69a4"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103271.delivery.xml.gz",
+      "sha256": "a98ebe07fd0cbd61bab2b1f5fc89e151c8626ee57fe5da7cd60ecb268b303dea"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103271.itr.gz",
+      "sha256": "ef82708f59f166093b6a06c92eda04213203ba15a2a32e14634a9ade6d170638"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103271_g192.pages.json.gz",
+      "sha256": "eda4fd2a54ea7162b6abb43dcd5a9e983da6c243094a29b05a0cc0f384856410"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103271_g192.pdf.gz",
+      "sha256": "033c3e65fd6b92f09113d492acbce1e9fbfd5ce337c3d3d98b478f41748f1508"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103271_g193.pages.json.gz",
+      "sha256": "fa067802106e98e9d8dd203b90cd1e96731d7627a19b08096d5223d8813a1d57"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103271_g193.pdf.gz",
+      "sha256": "65431a2e03f71cff4fc125bdac36fd761db43af6dac2d4869ac3eb9b01603f59"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103273_g192.pages.json.gz",
+      "sha256": "13b0f525a4fce951c01bacf6d6d89bfd76e20880479cc96c70cf6baef07bf3b5"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103273_g192.pdf.gz",
+      "sha256": "93b3e5d23b7042a664db25147fb520bb58a02f721c29b808c8082d306b75b72d"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103273_g193.pages.json.gz",
+      "sha256": "61f310b35eeb3caa90dbf3cf617ee4a2caa8dacf794f91fb262fc6fb0901f7ba"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103273_g193.pdf.gz",
+      "sha256": "f2d829da65d920bdc4dab72130c08f90ddc14d1a47ef5f5510edc514b32ec471"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103318_g192.pages.json.gz",
+      "sha256": "75be7aba537c751b7bd29a24a93305b764dc5e1c0a8d8c82c8d98ffb7bf4c8a4"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103318_g192.pdf.gz",
+      "sha256": "bce54905411db296474f450ca1c8b9a781ff5be2146b5ddf802f1f62bdbe7008"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103318_g193.pages.json.gz",
+      "sha256": "4479ec7c9af1fa410ca0b6a6ddb68f5b6d9037ac4726e129c52e6898143eeff2"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103318_g193.pdf.gz",
+      "sha256": "126da1dce12055d08b075fe08b8c03255569ce83c8f279da82a1b42e686089e8"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103358.delivery.xml.gz",
+      "sha256": "962306666419073036619b6f31dc5de9180a9c2ce19a06e3cad73ea47b8c4b60"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103358.itr.gz",
+      "sha256": "fe2e8f12c12c5ae38f8248d70558d8f4edc6b8cabc053f7f9810c6c288ae16be"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103358_g192.pages.json.gz",
+      "sha256": "c816b60c5fb9afd5fae2c2f4113b0a24cb0140dcdd333c7028717ef5332079bc"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103358_g192.pdf.gz",
+      "sha256": "2a48b5dbe98eaef6995c512bdc1423880d8c554e54f90cdfa2830e47345c9331"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103358_g193.pages.json.gz",
+      "sha256": "be7b68992557685e4f041a3988f72dc9f850335e7bec9b862ca14fa2d2679fc3"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103358_g193.pdf.gz",
+      "sha256": "b3478df9e75196bb5fb96ecc765a59ad6c000cbb3ad6f322634020f1e618185c"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103359_g192.pages.json.gz",
+      "sha256": "425ec8cac24c8520fa0ec18b5ea00abed2d1e83e5bd8899d826bb9927d8e7804"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103359_g192.pdf.gz",
+      "sha256": "2376390c5ed54b064aadae4839b142491abd5cb1ff5d7e79d3acb1cd8d43d49e"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103359_g193.pages.json.gz",
+      "sha256": "1dd8a133b84f764d60f620a62eb2a5f4df7a15b5ee470358ea286eeed5526eef"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103359_g193.pdf.gz",
+      "sha256": "ce354b6a732eb92b125ebe925d2daa8ef5a485ebd2b1294a0c2ccd841227296a"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103410_g192.pages.json.gz",
+      "sha256": "d69aadb85646edad6a3bde2184cf2663d3b936ea44f3352fe92fb39dfc7ebc4e"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103410_g192.pdf.gz",
+      "sha256": "3c36ac54d8797de1d6a60914aa02bf6813897cb79a4d2100862f3aa22b7c60b6"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103410_g193.pages.json.gz",
+      "sha256": "0f0927599ab6d400dec4bd1bbe997be97c17a00269a8458564a49950f6a81ae2"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103410_g193.pdf.gz",
+      "sha256": "797e9dfe39628a60f7ccad83d6ace257b464c8fe74c3d27e9ba8df9229f4aff1"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103439.delivery.xml.gz",
+      "sha256": "c8380aa2ab63a03a79784c55d473f3de4b53fb978ca956820bfdb247f49c8803"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103439.itr.gz",
+      "sha256": "89572f0a19fa76628a6817361c8946e6ac9153662b2e6cbb78f1c1e13fb0a5c5"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103439_g192.pages.json.gz",
+      "sha256": "dbe62d4f90c6caa8330d764139d6f10d78bbc7bed0b379f7e2615f5ca1976613"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103439_g192.pdf.gz",
+      "sha256": "006ee3658abc371aea3390f2fda8b1fae37b439a2ce664be35a3ac23fe0ae726"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103439_g193.pages.json.gz",
+      "sha256": "e159a4ba746b577a6e5826006791f450cfcf887d37b8dd78b8a1adca6fd55432"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103439_g193.pdf.gz",
+      "sha256": "ec7db717d67858a0eba48f92fa9951e39bb229ce156b7fae0af35f70edde5f75"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103443_g192.pages.json.gz",
+      "sha256": "bfc26931dcaddbfcd66215d702c41646ed4ca5891d5c6e43f21fc0dc441fa5c9"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103443_g192.pdf.gz",
+      "sha256": "383790d2407ec28a6269c365ce2317b494b0bea76c270fe33a09ace91cb9eec7"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103443_g193.pages.json.gz",
+      "sha256": "7e1d615dd8be4dcc9d97911a5aa8057e38e6ac32852c0a8f16aeeaaac34e8d82"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103443_g193.pdf.gz",
+      "sha256": "46cdff2bebbaabc160e869571a124cdd7de00713e838468112fa4bead91f02d8"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103444.delivery.xml.gz",
+      "sha256": "f6bfec5dde2dae0c734dfdd14bd7c57fb1ea7f9c4c2766670d9cfa2cfc90a8f8"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103444.dfp.gz",
+      "sha256": "b864360f4d38904811aaf55512bfabbfcf7eda958942c8b7bc89a8f80bb97e70"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103444_g1653.pages.json.gz",
+      "sha256": "79413077d6c0e0ff216cb9d71d0c85df8ff49bade2d97e9154c422648dfb043a"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103444_g1653.pdf.gz",
+      "sha256": "6863d318a82f824a217c0a84f48b50385765fa2cb316320aaa445dcadc2686e7"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103444_g412.pages.json.gz",
+      "sha256": "a2254ae9a9fcdd7ea2ce832f691c4ab63de162392d552fab48aad3daa52438df"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103444_g412.pdf.gz",
+      "sha256": "d0370f232d0671904ec053afd50ac005de55e2812098500244f5376160f9b36b"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103514_g192.pages.json.gz",
+      "sha256": "34b5dd901a356b432041e91a073a9f44d8c07af9824e90a9a6748c27a06f2e42"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103514_g192.pdf.gz",
+      "sha256": "6af59c58dea6c07f0630f9ae841e914e4d21807c82499daee2a6db4be834921c"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103514_g193.pages.json.gz",
+      "sha256": "9ed40f17c3f8893a953a7978c32502c35245fe429a049d6705ff1e1322782800"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103514_g193.pdf.gz",
+      "sha256": "1f0720ba9eec2baf105d772803604a3cabbece86578a0cf7546fbc3057bed584"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103805.delivery.xml.gz",
+      "sha256": "0d01cb2234e4966db84f4e09d5a7ca575cf7eae767e942e33e1d55575d911540"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103805.itr.gz",
+      "sha256": "4588a95cb0be1508933420d11ca0163549a89c6834f163979748fd81894c9602"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103805_g192.pages.json.gz",
+      "sha256": "0f78aa6e83304ea7cb7f0b45084c02b0ce3d386df29b297f722666bfbf92278f"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103805_g192.pdf.gz",
+      "sha256": "286b5979205eb2372afd5b1069b75cd4bcfd4f5c858051e9f1006a139e7f5b75"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103805_g193.pages.json.gz",
+      "sha256": "152d27ebbb5e4c03ca1de980b518b798cf349b90a642cd0d13dd8d650e2d4e06"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103805_g193.pdf.gz",
+      "sha256": "63f6a2b26b1f9ba8d978189e7933bf541f62bd3d52f4a1ee77b8fb18579e2d4a"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103930_g192.pages.json.gz",
+      "sha256": "59d2905d86a4d6a8973469a094fe7e3f60f4e6bf2caebbe4b3e0301158a25062"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103930_g192.pdf.gz",
+      "sha256": "2078a0ad08b2134c72ea363233d357c8706e50ee2226f6301064a6c29f4d6be5"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103930_g193.pages.json.gz",
+      "sha256": "3f8575007fff0855e633e35b65c4414922f1968ea519c5aaa082473980a22b3c"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103930_g193.pdf.gz",
+      "sha256": "37c2f8e3a56e53bbb5b9dbbe20fc50a6f97460ebb1970a76c586ef97007c825d"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103946_g192.pages.json.gz",
+      "sha256": "66d93e0bb422ef555d70d975091196cadeda62f4a9de7ebca80fceac50bc1179"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103946_g192.pdf.gz",
+      "sha256": "1eb832a596136dc6939e0903c460b31fb87560f76fdc2f84874b60ff61e74021"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103946_g193.pages.json.gz",
+      "sha256": "f0edef65d14c730c0615046bcb5125d7c8a36f3cf1d0cf03010152741a1d2b8b"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_103946_g193.pdf.gz",
+      "sha256": "2c34db304ed42ce8c89d984ee6ae58150d7d8f8f22370b2c7420b62094584f7b"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_104040.delivery.xml.gz",
+      "sha256": "a7f3b8adbf18ea4626a4fabeaab247fa75a8758d9f31632519036c4ade421338"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_104040.itr.gz",
+      "sha256": "45cd22351149676d544ab409bc86ae7e3d1b697f73ac66360ae6b9974f7a81bb"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_104040_g192.pages.json.gz",
+      "sha256": "5aa075242fc2380cdcc64fe631de6c223e51d04f48fbd3dcbbebafd8e39bd66a"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_104040_g192.pdf.gz",
+      "sha256": "a1c1fe5cc67e61dba4964c672ee404683fed2b6a2cba76e24258a4ce28fb67a7"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_104040_g193.pages.json.gz",
+      "sha256": "29539187231829bef5df7dcfecc7fb6a223177cb6af4c3e0bf1faadfd7b192dd"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_104040_g193.pdf.gz",
+      "sha256": "53c701aa232ec7f8191eeaa2d9e9934ac9523546af7df7338bdba9d303e182ae"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_104047_g192.pages.json.gz",
+      "sha256": "a30465cb38b07ca9dd2f125410ae5175fea029924aac11faf971ff9699b0b8da"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_104047_g192.pdf.gz",
+      "sha256": "c79a21b912903b50fb73382312b12a9f0413c11b5215c5a70f2300f783c379d8"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_104047_g193.pages.json.gz",
+      "sha256": "aba550cc302f23c4ce9f2c88a5ad48fdcd007a85f5c113c598d31b1a895b86b9"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_104047_g193.pdf.gz",
+      "sha256": "3966532653f2dabc5f605065c3ad1258c83cfcf67c1ae590ab661f954f908d94"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_104066.delivery.xml.gz",
+      "sha256": "61645563e37552d6f7d5bb8eec1c222797f17d88331c331107c2319b6918ed6a"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_104066.itr.gz",
+      "sha256": "0c647cba3b0ae9fb9fdb7a59cd25b846e78db0cb98a5dfc61cff270f2367db65"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_104066_g192.pages.json.gz",
+      "sha256": "fb7e90ca5a5d5e6413f114f17392ce9d72c54dd5f0df97496db6c542fae18970"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_104066_g192.pdf.gz",
+      "sha256": "f8d2a0d85d30fca6048d3f7d8f8c473bdf5424ad05c39fe99f83b6672411e598"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_104066_g193.pages.json.gz",
+      "sha256": "046b94d8b6e62575e44e44920547bc770249e8b503451b57cd21750a75adf44a"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_104066_g193.pdf.gz",
+      "sha256": "acb06670926ea0b41b09e63d004ec69572be1c0e68d5a2af43d6d7dd9f37a29f"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_104151_g192.pages.json.gz",
+      "sha256": "4e441bfcf942e2df683cbc7d4a7827a5490d99fb0f10066a1fb2f1729821e7fc"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_104151_g192.pdf.gz",
+      "sha256": "d914076413f404ef98a5da53d6493396b924fb065e8b7820237d3af8469bf28c"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_104151_g193.pages.json.gz",
+      "sha256": "aec3a4ec4d16e61a8634a664ee963113c73b8f808a4ad31d1024c05ef56be001"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_104151_g193.pdf.gz",
+      "sha256": "fc576387f2604d9c7fe28855b680a8eae39c38b0103eff117fe4cbd7cbb48589"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_104166_g192.pages.json.gz",
+      "sha256": "d9341273bb02d436aeb1840ca82ef717d44590839eb183f27e63314a79d2689a"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_104166_g192.pdf.gz",
+      "sha256": "06f61f5012229fec5ef1555fe918241bb80de9680211989e31833b0a8ac9e89b"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_104166_g193.pages.json.gz",
+      "sha256": "5d515d36fbed0323b3d81dc79afb7c924ee6aec4ccaa38afb2cac201381cb125"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_104166_g193.pdf.gz",
+      "sha256": "aa7b58a1744ba545e64de3a98a7b821ebec3314a2d101c4b75bfa2be94def183"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_104325_g192.pages.json.gz",
+      "sha256": "0a72b03c68c124aa60efb06debdcd6df9c86992dce5015202d5f3e2447c0dcd1"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_104325_g192.pdf.gz",
+      "sha256": "286ec25c9417b0177de36fe44282fc29034114102308ac75ee5814b31d1752ba"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_104325_g193.pages.json.gz",
+      "sha256": "0e7b51e4ffab5f371f0532c3190929dd845bb445757444d8c749b61d8d0b0ce8"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_104325_g193.pdf.gz",
+      "sha256": "3467cbc94df60912449746de971e116159cfa0145c117f186078ae23bd99fdbf"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_14351_g412.pages.json.gz",
@@ -3734,6 +4482,22 @@
       "sha256": "e346995049c5d534ea02bbcaaeef0bd1a4f8fc600089aee2783dff94582507aa"
     },
     {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_74904_g1653.pages.json.gz",
+      "sha256": "30b6b56e92fb3ba40b6e7d869a33f2e5a3a0021e2617585758d1e59b47ff097f"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_74904_g1653.pdf.gz",
+      "sha256": "36f3ef28425f4411fb31ada220ef9e2064465795d1b5ffa50c3f5bd38e3f16be"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_74904_g412.pages.json.gz",
+      "sha256": "525b2b3bc765122e24aee80f9bc220ebdca5feb76a6697876add97a83114894b"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_74904_g412.pdf.gz",
+      "sha256": "9d4e95372b3dfec7e5a2ab8c5ef9e798b404f2c6f134e5b742f6cc05bee627c6"
+    },
+    {
       "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_76554_g1653.pages.json.gz",
       "sha256": "4cabab3ccb6305468c7ba46e30be2d962eafeae81cdb91cbb84da16e8e3f3ac0"
     },
@@ -3908,6 +4672,22 @@
     {
       "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_80957_g412.pdf.gz",
       "sha256": "efa011216c10e665d3de74e0bf476cafc395e2358058a280cd187cfa9e782be6"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_80985_g1653.pages.json.gz",
+      "sha256": "f1348c0d389a021a26b464fc5b0601887ea4a34f7706c98ec82400e938abb1d9"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_80985_g1653.pdf.gz",
+      "sha256": "d11d5312474f98168a578ba11ffccc7563f946118fdecb3908a624b972eca3a6"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_80985_g412.pages.json.gz",
+      "sha256": "570df579048edcf63dd1e34394c3253b5f5b725a37473262461abe091150ced3"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_80985_g412.pdf.gz",
+      "sha256": "a27d19a8bde48deff7e22e1698befbf6b68992a774dcdbd8e4be86cde8c3595f"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_80990_g1653.pages.json.gz",
@@ -4846,6 +5626,22 @@
       "sha256": "40d0efbde1f77d9597a3871c5a8a2157d366a67ac520cc81f2aa232ad5842667"
     },
     {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_91546_g1653.pages.json.gz",
+      "sha256": "f70eb1a391889a16cb66d09c7e87f6fe12c240fca9180d8f7981b8ae026723d6"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_91546_g1653.pdf.gz",
+      "sha256": "81cb8c5188712101196badb4b05baf077f41f1029e82cb73a1ce5a2974b8808c"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_91546_g412.pages.json.gz",
+      "sha256": "dbef1e1472cf05c6f815478c394b1a8143879c06f0808de8a161a49b9dfdfa93"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_91546_g412.pdf.gz",
+      "sha256": "95620d4196e4b13b28e765bfc00c0b8ca8ae7b8c052ebfbf37d19d9ecda87e9b"
+    },
+    {
       "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_91605_g1653.pages.json.gz",
       "sha256": "7e7216826f53893f117554cd594656edf35723071e963cc4af665b664c161b03"
     },
@@ -4860,6 +5656,22 @@
     {
       "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_91605_g412.pdf.gz",
       "sha256": "a6cd6014002c724c6952b1b02c6ccad6604f23c79ed5bcce8d5c4ead2beabb20"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_91684_g1653.pages.json.gz",
+      "sha256": "323b6cb94fc58a799ce519f8bff13e1e5b940d6a4648b122ee1985bf298b6ffe"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_91684_g1653.pdf.gz",
+      "sha256": "27aab3abe1a95bce5cf627b336f17e16ab7204d4284e14f807faf5189938c889"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_91684_g412.pages.json.gz",
+      "sha256": "f273cfd44c93abc0973f906b5e7a5683bdbaa6c9be0d9c80d69865a46071ff1c"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_91684_g412.pdf.gz",
+      "sha256": "9020651641f4bd760fea5b25889a26171c0d5d102dd55b5e3cd204c74c02a9f6"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_91838.delivery.xml.gz",
@@ -5446,6 +6258,30 @@
       "sha256": "a6c762a167440d6e9ececca072ecc221b5da069452571e690f6798cfaa1b5b06"
     },
     {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_99979.delivery.xml.gz",
+      "sha256": "79114867a93404d952611d4c98a29f3a7c7bc2fe67d21edc5b1c03367b6bdb5f"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_99979.dfp.gz",
+      "sha256": "c382ae24dfcc3b07d2af4aa47eee7fb4e03a97eb36a8c32cb444d23c31ec6a90"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_99979_g1653.pages.json.gz",
+      "sha256": "62859e6b811bf7df758b748eb1d1413879841235f8ce6c5874d9bc94513f2c5f"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_99979_g1653.pdf.gz",
+      "sha256": "7b0522a7abf9a5f77553def72ef0abb023355d9be9b7d9da96a0608d9a5bc15d"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_99979_g412.pages.json.gz",
+      "sha256": "a1ebb53c5b17e501ad2856606915b4e8d7686af5f28dd183ffb86c90270c7189"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/cvm_99979_g412.pdf.gz",
+      "sha256": "2b631eaaf666cb2d06272f37f3c132a8b59d50111a3abd8123480982313a127c"
+    },
+    {
       "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/engie_doe_sc_20180612.pages.json.gz",
       "sha256": "e6d4049e581d79d4747fbbf5725dfe3e57540653596c019a605ca9cb0c707109"
     },
@@ -5460,6 +6296,14 @@
     {
       "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/engie_tag_20190624.pdf.gz",
       "sha256": "c80be7b3c801d5038a739eeb27610f285c7b54dac14033739552377b0f4e64f6"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/getnet_presentation_20210302.pages.json.gz",
+      "sha256": "47e491cfbc1996e29a99dd90ea9fd03c43ce66bf8b7807a3c0a28eefe5c87006"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/getnet_presentation_20210302.pdf.gz",
+      "sha256": "9c518870e80325d42368542b1125d43a29d0bd67a3b279da99b6ecc6a1b3e26b"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/inputs/review_originals/mapfre_bb_20180626_g0.pages.json.gz",
@@ -5511,7 +6355,7 @@
     },
     {
       "path": "research/b00s_four_variants_2014_2026/inputs/review_progress.json",
-      "sha256": "52fda060070770cc5271db15eee0efd5f003715c1f131c709965c9b6eefe1e97"
+      "sha256": "84f4716bfa2b670d43432a8e413d8875e54ce2d8fb4ffd2f017b25fdfe5e3f8c"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/inputs/valuation_perimeter_reviews.json",
@@ -5521,35 +6365,35 @@
   "outputs": [
     {
       "path": "research/b00s_four_variants_2014_2026/results/annual_returns_pct.csv",
-      "sha256": "48ed939c6336d46def19700cec630dc8ce5edf23fcdddcc4e9f145cab0beb72d"
+      "sha256": "d8435b39e4bdf276e9f4b0c73ac7d7b00efd2ed069eda25bde7de50d4f2a7e38"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/results/attribution_cumulative.csv",
-      "sha256": "0ca627d87462e5bf09d32bb7c44b0785738f2b10e0fc8e43aacf5b21d4bcd6d4"
+      "sha256": "605b7188dea2447b5e88010ea0cd5d572b935deb1ee19939376e678431e9d039"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/results/b00s_four_variants.xlsx",
-      "sha256": "0d68ab88b3ccbe774e28cb6be94bac634b133dbc8cf657db73c241930f02c81e"
+      "sha256": "0cc47c80f75ac8c15016d71ec1ecd86c9f029d23e068aad453d9c9bcb75a78e8"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/results/checkpoint_summary.csv",
-      "sha256": "ac4b2bd0f1b80fea2eede930f45f4d5bc296dac71b8893f778fa3157ed822507"
+      "sha256": "46fd4dd4856911c8f0b4b3a9afc4173e7101df3e847e5d380afe0aff736ad84e"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/results/consolidated_pct.csv",
-      "sha256": "43585b1e0d767a87f2bb75cd4fd990b6a17221ecb29abeee9c9ff4ce65fae9f1"
+      "sha256": "56d9059ef14b4e6a2a6392a72d2db97cd73bf6347878c02ba375eca37050f808"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/results/coverage_by_year_sector.csv",
-      "sha256": "a06f7908188356dd12cccea7bd761bc1e7168e39483956c3191144b983e66c8a"
+      "sha256": "01dfd3b3cc862419ef438399a7eafd9c842a240bca4b3d008044916952b1834b"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/results/cumulative_returns_pct.csv",
-      "sha256": "fee3af3f636a111ce9caf2de034b14517a821cb77ae815945fa3e34018b240cd"
+      "sha256": "0784f9d310f83cccf2fbba8d3b02420aab7e5621919754f4a7bfb32988aab291"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/results/entry_funding_requests.csv",
-      "sha256": "4027b301c2bcb377b05552bf68155c6e465bc31cde473ef08c90e62760986c0a"
+      "sha256": "8b6e50bcf88a2c8fda098b0247761f7f013e1304e7b1f0e2db8b8d22c0a6269c"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/results/formation_2014_review.csv",
@@ -5561,11 +6405,11 @@
     },
     {
       "path": "research/b00s_four_variants_2014_2026/results/holdings_by_june.csv",
-      "sha256": "7d9bd6ad7a7d48ba94245b71b76af0bd3fe7a1c1a7eeeb50b4dae4b062e728bd"
+      "sha256": "c2b65d8fea5fc6b063387d36d04cb6e6ad9881283b882bfa6c8399c07581fab1"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/results/indeterminate_queue.csv",
-      "sha256": "258b387d8c3177e6ae4046484b64561b080e4c5d09eeafed9df52c4ffa2e4b6e"
+      "sha256": "45674353f0407fee0fc2548d9ca09f5060d8929542319a4725594b91173d8e82"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/results/initial_pit_inventory.csv",
@@ -5573,11 +6417,11 @@
     },
     {
       "path": "research/b00s_four_variants_2014_2026/results/portfolio_status.csv",
-      "sha256": "563d073a967792a85237362f7cce2f179c2714bd15bf3bf7467496b056151394"
+      "sha256": "bb267e811b99ad49840359aa91ead6b7e4765bbd3826815786dc82b6de3d45b7"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/results/positions_by_june.csv",
-      "sha256": "e2a6361cb41a32d697328de414a948295a2ccbf5236ecddcc73e5b3fe472fa25"
+      "sha256": "89f56a3697a622dd7c713ed976517f99d0283584299f4e9781b1f57752684a4f"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/results/redemption_transfers.csv",
@@ -5585,39 +6429,39 @@
     },
     {
       "path": "research/b00s_four_variants_2014_2026/results/review_ledger.csv",
-      "sha256": "faa5ed303609aa3a3867bed1471367481c32ee59504f4e7048d54b797fc1ed21"
+      "sha256": "721b4aaab5879be17f16945fad1d3d743bbcdb657022897024eed5eaf795d763"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/results/risk_concentration.csv",
-      "sha256": "62ad6587c8ab54591271cf5bcf282bc04086e8018cb43ec320ddc28943f17001"
+      "sha256": "88d85f21de88307f08cbeb4b3ede4721d85cc1fd0a983dcfd74b08aee8f29ea4"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/results/selection_decisions.csv",
-      "sha256": "0f8dd72a0457dc16b9d6b6cfcbb82ffc1ee8adb5de2280ee55d20e9c762bbd2d"
+      "sha256": "ca51a5257ff4861380b177445ca793de64c435299877be3f02ce799907e18e80"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/results/sensitivity_annual_pct.csv",
-      "sha256": "452394b769784629b189b8bf300cb056fc228f875598db4c9c56d254cd09d65d"
+      "sha256": "a24d641542c7b0a36084914b7e9776e2bf414cf39b400d56982c643744102b12"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/results/sensitivity_attribution.csv",
-      "sha256": "ca9eeaed7b75abb034aee8c6d86d9267e3cd5dc55af65ad62350db0fa7e2910e"
+      "sha256": "011afd601a07af77873cf16aacad428a176117b12e95e3fcb470cd74c86dab3d"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/results/sensitivity_reviews.csv",
-      "sha256": "e0c7e4892ca9cf9146fe258bc73d2ca8664d1a5dd8e7cefa92270608029251e9"
+      "sha256": "82e74319e8335e1965a99db0793f7d8ba64211cb435e58ee9503ebb50b1b928c"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/results/sensitivity_summary.csv",
-      "sha256": "f9b8df01479733338c31cc7e523c71dd0f4e55089af461c48bcc3b4404049d42"
+      "sha256": "99c1ce65e62507d64254a2cc7ae72c5931497d0e71387da57c5fab4bd15fd5c6"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/results/turnover_by_year.csv",
-      "sha256": "9a92b50cc4ac88561a27973382b67bbc06447ec7a071fb871567ee07891bba8e"
+      "sha256": "6a2001f12564b2af97259ce357a1760be162cb1d193b2006d0d127c1cbe3a0ec"
     },
     {
       "path": "research/b00s_four_variants_2014_2026/results/valuation_threshold_decisions.csv",
-      "sha256": "74cad9e8b3e55c2352d47f688b10a36e42541aea923460cc2f4bf16453a71fff"
+      "sha256": "e0052a3bf250b68494ec559834fd87c5d91976ba02de3b1ba2525fb85887eab6"
     }
   ]
 }
