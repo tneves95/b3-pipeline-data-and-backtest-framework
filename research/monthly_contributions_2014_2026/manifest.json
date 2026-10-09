@@ -1,0 +1,448 @@
+{
+  "baseline_commit": "8671156586c2d12c3c8c121510db33144199338c",
+  "starting_commit": "7588d52dfd6564f6fb2b86737af1eaa8660a043f",
+  "protected_files_verified": 3567,
+  "portfolios": [
+    "V0",
+    "BH padrão",
+    "BESST-10 BH",
+    "V10",
+    "VVAL"
+  ],
+  "monthly_dates": 144,
+  "initial_capital": 100000,
+  "monthly_contribution": 2500,
+  "total_external_per_investor": 460000,
+  "principal_contribution_rows": 720,
+  "benchmark_contribution_rows": 144,
+  "status": "NUMERICAL_TRAJECTORIES_COMPLETE_WITH_EXPLICIT_ND_TWR_AND_CONDITIONAL_BESST_RANKING",
+  "selection_changed": false,
+  "older_results_modified": false,
+  "pr_draft": true,
+  "merged": false,
+  "sources_and_outputs": [
+    {
+      "path": "research/monthly_contributions_2014_2026/annual_and_cumulative_returns.csv",
+      "sha256": "30937a45c7737a0129774104ff1ae308165197c08aa382b861c86df44806897b"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/aportes_mensais_cinco_carteiras.xlsx",
+      "sha256": "2ec506b0e6a0e3fba17771a7adb3086524c8e171fec48f7cb5d27caf34cbee66"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/benchmark_contributions_ledger.csv",
+      "sha256": "2f5c81016694396d87c9862072b0179bfd5dc1a59eadf54ba4e49df88d1263b1"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/besst10_bh_ranking_2014.csv",
+      "sha256": "f6ca88f67c98d1e53e7df446cc9740c9eafdf2d5e731eb9f7718af445d411219"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/besst10_bh_selection_2014.csv",
+      "sha256": "7212cbb5a12c8999f73857b59f0c32998df5076220af0124974d6cd1ff655bb2"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/checkpoints/2016/annual_and_cumulative_returns.csv",
+      "sha256": "1bed47f90fe683ce501137a4a66522786a2a37934b145001a0e7a94260bf7db8"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/checkpoints/2016/benchmark_contributions_ledger.csv",
+      "sha256": "14071714cc1ba2913931ab3f2c1eb2ce5da4edb5249f07e28872c625f5a04fc0"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/checkpoints/2016/consolidated.csv",
+      "sha256": "bd143ca836703da59f827e5c02e8ada17b318b3322e67d48e9fbf0ee14950b4d"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/checkpoints/2016/contributions_ledger.csv",
+      "sha256": "a5d8e76ce782a3fc1731c1f399a1d41fffc9be53a2b931fb82a32f3298cb93c7"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/checkpoints/2016/internal_events_ledger.csv",
+      "sha256": "0a6884becb478b27aff5319a29f6dd5fcf88a64d4720aeb41625fa88a745c6b5"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/checkpoints/2016/investor_cash_flows.csv",
+      "sha256": "50d60c3214ba86cbb776e605854a3ff0eb77802fddf46491bce424a723cef783"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/checkpoints/2016/june_reviews.csv",
+      "sha256": "9640ee4fb31faeea364a47194037dda1c1aae7ccaa1d1f54f90ca899b461a2c3"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/checkpoints/2016/monthly_positions.csv",
+      "sha256": "85a0f3c7a2c578c8509095576dddf44710ac25e8b873e5ea897b443ab307a638"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/checkpoints/2016/monthly_returns.csv",
+      "sha256": "8d8ee27e0837fcb27a0602f1730be69c2931dac7d3b7476c59e5c72340726a59"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/checkpoints/2016/monthly_wealth.csv",
+      "sha256": "d89324daac6499f9763925cda57863ce3854636fb8c4ae37f3399fc6b539c606"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/checkpoints/2016/operations.csv",
+      "sha256": "b818266041d53db281680db83a8b8d6d16951fb26f2e46e01a2401749cf21996"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/checkpoints/lote2_2026/annual_and_cumulative_returns.csv",
+      "sha256": "c65be3c6fb9115c427dccf95e73676b8d38843c4adeefa6f3f19aa4f6cf4cc63"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/checkpoints/lote2_2026/benchmark_contributions_ledger.csv",
+      "sha256": "2f5c81016694396d87c9862072b0179bfd5dc1a59eadf54ba4e49df88d1263b1"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/checkpoints/lote2_2026/consolidated.csv",
+      "sha256": "6bc05ae9441eb23281146a58c7deecb9f7b269a6d8a1087f9d838a4cfa1c78c3"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/checkpoints/lote2_2026/contributions_ledger.csv",
+      "sha256": "4df48256b6f4b0066f9223fc230c20fce8e46604c220ac6ee3a54a97eb39c73d"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/checkpoints/lote2_2026/internal_events_ledger.csv",
+      "sha256": "2389faef5836a1c2c68d3ab2f6cf0c9dbced6ed9ad99a5f5dc5da4fdd5f6e763"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/checkpoints/lote2_2026/investor_cash_flows.csv",
+      "sha256": "70554c1bb701ae1477062fa538e94b4f91bf62e2a7e160c8ab9f2191b14c9b62"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/checkpoints/lote2_2026/june_reviews.csv",
+      "sha256": "5269911722ac6ef6086729ff01cad2bf2b6ca0342b2cfa5cde9037a6938381fe"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/checkpoints/lote2_2026/monthly_positions.csv",
+      "sha256": "9e9142ad94a8626b48846790ee7d5f946cc5a08a59dcc348b14e626cbc9c44b1"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/checkpoints/lote2_2026/monthly_returns.csv",
+      "sha256": "0cb4aa5600acab82ec4479c10fd33c4332d2f908156d5638ff6f461e818823b4"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/checkpoints/lote2_2026/monthly_wealth.csv",
+      "sha256": "1bd953ce0bf90de6179c5ea319accd98eab0843ab9bb7064c0173e62ff269fa2"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/checkpoints/lote2_2026/operations.csv",
+      "sha256": "2824e6f98063b672810d7c30c60d13435a0577175dd5e3e23f83a4dd27a194c4"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/consolidated.csv",
+      "sha256": "e68b9a32fcfb740d37a5f228587be034e5bbdf3251bbb167afd0f675c22e9fd2"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/contribution_calendar.csv",
+      "sha256": "70dac060cd97d21ab5bd2f368f309e49b543fdb5368f737cf3ebf5c0b0970303"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/contributions_ledger.csv",
+      "sha256": "ad1defe9b488df3cb7969a2f2959eb7f76a0cd05f32ce4b3d6f7068055f8c416"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/inputs/besst_class_quotes_2014.csv",
+      "sha256": "4c6275c677078f59ae6388e933c24865d37ecd3cb73acdf78e9d63d3fda00a9a"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/inputs/besst_universe_exclusions_2014.csv",
+      "sha256": "e7238cc8390e537b5c385c0fc4d7cb3d01911785506fb6222ab83817ab8a54da"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/inputs/ibov_daily.csv",
+      "sha256": "2a5acfc2e2776e3a5ca26604d1ab67372fb029412a6ff55978320b9cb28e5aaf"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/inputs/monetary_policy_freeze.json",
+      "sha256": "532f3d995edec5e19251c034f35d68dbd62916691ae4853b9c57c5b1f453865e"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/inputs/originals/alupar_2013.pdf.gz",
+      "sha256": "64ad5895d993c294e090639b90cba881add32b253f564494bb5d051b5a956bff"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/inputs/originals/sula_2011.pdf.gz",
+      "sha256": "0f1e7e3a6bd846cff1c85dba236d8350bbd58ef6d4b7f1bbf97d7461bde99f9b"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/inputs/originals/taesa_2012.pdf.gz",
+      "sha256": "ddb416b680eee61fc79276c88335d6b43da621149bde66b9ed4dfe9fe302c1bc"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/inputs/protected_pr3_pr4.json",
+      "sha256": "7faa7fc6f57274e75a9970f9500c27a0ea62864c9251478c9e14558e24f9fe6e"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/inputs/quote_security_names.json",
+      "sha256": "b5c00b41ddd8ea970eeb13a896be6f06940a62249e58fad53c58c7a6f9c300be"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/inputs/quote_sources.json",
+      "sha256": "05a6463572e2f889c0e91fc34ad8c9a398a6370e15c136494751df124cb4b8f6"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/inputs/quotes_2014.json.gz",
+      "sha256": "8264844e90406e98ba35c59906aa4591dbca356e6240e1be8da88222dabf297f"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/inputs/quotes_2015.json.gz",
+      "sha256": "bafca1474ba65e89ce9dafde8de10eb4cd03bfa175712f65314321eb532d52ed"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/inputs/quotes_2016.json.gz",
+      "sha256": "4f751499fd80c4cd14605fd14ac904391e9c7217a1e42c4427f870013c7bce36"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/inputs/quotes_2017.json.gz",
+      "sha256": "1875e7fa4d8598a9e5799916e8eb4ee30f3617ce6142b3f2d1bc5f1a43f757fe"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/inputs/quotes_2018.json.gz",
+      "sha256": "3db1c7bf1188bfb4cc084c7e6f02087de96a946ec602ce49f96eeb29a01b60e3"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/inputs/quotes_2019.json.gz",
+      "sha256": "4d5d4fc93202bb71863894bd7bfa631d9ac63f188fed731ca4c4be71d6d804a9"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/inputs/quotes_2020.json.gz",
+      "sha256": "76779f732eb851cc419e8837f549fa296ea46761752ece2aff43dd0270fc7854"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/inputs/quotes_2021.json.gz",
+      "sha256": "7df6d75237db333ea92e67c2a55abde898994feec9cb0edcfb6c1db48f7eeef8"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/inputs/quotes_2022.json.gz",
+      "sha256": "d85a9b79d5820c6528255b58520f9586a3be6223e69d15680718cf1015fab6f3"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/inputs/quotes_2023.json.gz",
+      "sha256": "192d5633cba055a53d977d2b08fb85146424655c6e76d6316f443f0a8f067511"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/inputs/quotes_2024.json.gz",
+      "sha256": "e3aa52a21a768ad7eb2b10ee38c96655324c5f67735d360833ab241c8ba038be"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/inputs/quotes_2025.json.gz",
+      "sha256": "4e12323a468761fbc81a2ceec41f193e8068fa146b642d33dc080e84782aaba2"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/inputs/quotes_2026.json.gz",
+      "sha256": "82fd3635a4f03dcea532b9a11531602bbad186f715456d642937ec1dd783ef34"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/inputs/ranking_freeze.json",
+      "sha256": "493d5871f2ac73a138e572c8d65fa6785555a917df7764564c694bd45b8e6b19"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/inputs/unit_page_proof.json",
+      "sha256": "effe820a1cd82b0a690f72249cca01c441d078ebb1bf774434db4c6e37c6afb1"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/inputs/unit_primary_sources.json",
+      "sha256": "b805b2b968455068152c7cd9e575a3423404dd2f244f8648dc25c036805092f0"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/inputs/universe_quotes_2014.json.gz",
+      "sha256": "af632cf7b3d2496912a3390cd7727fb0ddaef660c90a74c96a7d9d0372c8bc1a"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/inputs/unresolved_equity_identities_2014.csv",
+      "sha256": "c75fd3de490e9affd455e02b9b3d736a00575880427f1bff73aff0bb766389c1"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/internal_events_ledger.csv",
+      "sha256": "d417c8150aebfab769c9b0a60accb2aa8f1c214ec29afb7a985e9b6b47abe60a"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/investor_cash_flows.csv",
+      "sha256": "19a590d9cda926f608efa7ed8d6c4ac539634aabbd479a944053c346b6f035b4"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/june_reviews.csv",
+      "sha256": "e715aa1a398c085d7638f1724ef0cb94036cdc46ce7cc05483dfcf340bd3bee5"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/lineage_cash_attribution.csv",
+      "sha256": "08998fe19ae1bd21f621bcec638e53975c29af3fe5464c9460c42b0fcb3afe71"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/monthly_positions.csv",
+      "sha256": "2f599f8a4ebaaa6b7f807f6e50001b615ed3284edb2bc8fd8118302900fc8ff9"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/monthly_returns.csv",
+      "sha256": "094025aa4f16aeea838455302b514bb48618e0b549e810d090a7e5676c71f1bd"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/monthly_wealth.csv",
+      "sha256": "bb6c35b33dca21fbe3c6bbd30818319ba5101a9a319eeb5fcedd7f477a72b842"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/operations.csv",
+      "sha256": "383ec1be66814b19e0c203a383902ee2bbb61c0ae5fcd3543baa6dc711bc4e93"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/quote_coverage.csv",
+      "sha256": "be9a4dddfa42843539a9924fdd38e4337cf26e100f867381aaebc0efb7a158f6"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/ranking_besst_market_cap_2014.csv",
+      "sha256": "f6ca88f67c98d1e53e7df446cc9740c9eafdf2d5e731eb9f7718af445d411219"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/sensitivities/BBDC4_2014_NOT_ADMITTED/annual_and_cumulative_returns.csv",
+      "sha256": "91aaaa33bc2f398069ee95465541323464e3da5257a8ef28533150a413040094"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/sensitivities/BBDC4_2014_NOT_ADMITTED/benchmark_contributions_ledger.csv",
+      "sha256": "2f5c81016694396d87c9862072b0179bfd5dc1a59eadf54ba4e49df88d1263b1"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/sensitivities/BBDC4_2014_NOT_ADMITTED/consolidated.csv",
+      "sha256": "4b3fc095d19d838685fdfe5760362978fcb02b0c71998048cc6cb45fd0375ef8"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/sensitivities/BBDC4_2014_NOT_ADMITTED/contributions_ledger.csv",
+      "sha256": "590f58a526085b097d81fa87f34b2f4cbd2af94aa14267e325e191635b2e55d0"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/sensitivities/BBDC4_2014_NOT_ADMITTED/internal_events_ledger.csv",
+      "sha256": "7d61049a8faf7b367d30878136d4f708cdc67371d2224c96ba7977eb41f9aaf4"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/sensitivities/BBDC4_2014_NOT_ADMITTED/investor_cash_flows.csv",
+      "sha256": "9e78541c83e8e75d39c1ac687aeacec714a0431a159992d88f62d9fa7e2cc8c4"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/sensitivities/BBDC4_2014_NOT_ADMITTED/june_reviews.csv",
+      "sha256": "57c1b32a42110c62cec87f540a920b35c239b3ff48d43693bc4434700c4d228f"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/sensitivities/BBDC4_2014_NOT_ADMITTED/lineage_cash_attribution.csv",
+      "sha256": "cfad7473581b285f40e80bb7ab61e6e85608d1a4122b99781c128a509af22259"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/sensitivities/BBDC4_2014_NOT_ADMITTED/monthly_positions.csv",
+      "sha256": "7735b12dee45d316c48b20ac6319029bae24abc0d92900c8a70ab29542e328d9"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/sensitivities/BBDC4_2014_NOT_ADMITTED/monthly_returns.csv",
+      "sha256": "d47247c9b0da984ce385612329f16a23307d691a4772419dac3500e8befd150f"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/sensitivities/BBDC4_2014_NOT_ADMITTED/monthly_wealth.csv",
+      "sha256": "24188945c47675e0fdc7ad3f9aa08fb4ac6768e21f9182f0e0629e7a10607151"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/sensitivities/BBDC4_2014_NOT_ADMITTED/operations.csv",
+      "sha256": "848d0e8d6ade862f6972de78ddc8b89f692869110115dc0e0723a25f4e148c1e"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/sensitivities/NO_WINNER_PRESERVATION/annual_and_cumulative_returns.csv",
+      "sha256": "d88a8155c17c4bf56474e04a5c7e87f4fd17d5a9b67c9a2c4b410b0c31cb0f5c"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/sensitivities/NO_WINNER_PRESERVATION/benchmark_contributions_ledger.csv",
+      "sha256": "2f5c81016694396d87c9862072b0179bfd5dc1a59eadf54ba4e49df88d1263b1"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/sensitivities/NO_WINNER_PRESERVATION/consolidated.csv",
+      "sha256": "4ab0ef9134a981e9cd066b07fb468947411e43fc7fa389a13097415793fd442b"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/sensitivities/NO_WINNER_PRESERVATION/contributions_ledger.csv",
+      "sha256": "7e4ae429618f49b4059ca1b6f6794e51fe82253732e72f86a8d11e247ec6374a"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/sensitivities/NO_WINNER_PRESERVATION/internal_events_ledger.csv",
+      "sha256": "12172fe6d9905ca63085bfa2993f2d4a1059fbb928a05291f2293628e5f6b1c8"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/sensitivities/NO_WINNER_PRESERVATION/investor_cash_flows.csv",
+      "sha256": "2eba7677fb0beaa8379a7f2e1fbed6012a30664f5c6ca4c0ebaf7d77a8eefbf2"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/sensitivities/NO_WINNER_PRESERVATION/june_reviews.csv",
+      "sha256": "74d203430475a541c362a23dbb866979c3fff2e1e50269127dedaebcda2ad96e"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/sensitivities/NO_WINNER_PRESERVATION/lineage_cash_attribution.csv",
+      "sha256": "7f347de4a60f1717ec322a1108a732aa7547101019c1d3d679810d1b041a1c2f"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/sensitivities/NO_WINNER_PRESERVATION/monthly_positions.csv",
+      "sha256": "c79081de212abe4f7e0d0c5e0c69d5f109b0291e4075a5a9373fbc923fabd158"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/sensitivities/NO_WINNER_PRESERVATION/monthly_returns.csv",
+      "sha256": "8c8c56835aa0574ccba3a27ef4a6183ab73e4bd5dee7a6f5a8e036e03dbf143c"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/sensitivities/NO_WINNER_PRESERVATION/monthly_wealth.csv",
+      "sha256": "54269c89e4e7b8aff59afdf7d0dbd55ce4221799da4ab38a2a6ea70559c823e4"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/sensitivities/NO_WINNER_PRESERVATION/operations.csv",
+      "sha256": "464579bd951d5b3abe7ee408aee94044dfb74dc653c99828de88a3fcac6ab904"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/sensitivities.csv",
+      "sha256": "7ed96cf98bfe5e28e15a87900e3dab1a1519647ebcb9c47f97e709ce57ecec6c"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/validation.json",
+      "sha256": "e2583876c179185c313b0bad6e2b0618907214f25d672ddfcd1621e53031ca35"
+    }
+  ],
+  "implementation": [
+    {
+      "path": "scripts/monthly_contributions.py",
+      "sha256": "f365f09a73a75392554d4d5b46b9c0b10f52a0905970094166e1ff1a65e773ec"
+    },
+    {
+      "path": "scripts/monthly_inputs.py",
+      "sha256": "b8ac7101650c9d78f780516f8f9ce9baf037cc2ac5418c176b9238c1e72af1ff"
+    },
+    {
+      "path": "scripts/monthly_publish.py",
+      "sha256": "9b8c5bd93b5162bb580473ed9a2a5f94089afe824753d7c8cfff61ded8bf0e0d"
+    },
+    {
+      "path": "tests/test_monthly_contributions.py",
+      "sha256": "982a95fa7296f4033a40e1dfeba1158224fc7ada773af7230b8f6be6a575c8ba"
+    },
+    {
+      "path": "docs/estudo_aportes_mensais_cinco_carteiras.md",
+      "sha256": "a4660416396d26f9bc90f79e79be53a39d8f8f5599adc26d8bb8ad23454e181c"
+    },
+    {
+      "path": "docs/checkpoint_aportes_lote3.md",
+      "sha256": "a44d5bdaacec51e63c238cb126a33bae13b7335fcac55c9fb3cba8de476c2e43"
+    }
+  ],
+  "validation": {
+    "new_tests_passed": 32,
+    "legacy_regression_tests_passed": 222,
+    "protected_files_verified": 3567,
+    "initial": 100000,
+    "monthly": 2500,
+    "monthly_count": 144,
+    "external_capital": 460000,
+    "principal_deposit_rows": 720,
+    "benchmark_deposit_rows": 144,
+    "workbook_sheets": 17,
+    "zero_contribution_bh_june_endpoints": 13,
+    "max_abs_zero_contribution_difference_brl": 1.1641532182693481e-10,
+    "no_voluntary_sales_outside_june": true,
+    "no_bh_voluntary_sales": true,
+    "no_final_june_2026_renewal": true,
+    "monetary_attribution_reconciled": true,
+    "missing_annual_twr_rows": 3,
+    "complete_annual_twr_rows": 69,
+    "preserved_second_checkpoint": true
+  }
+}

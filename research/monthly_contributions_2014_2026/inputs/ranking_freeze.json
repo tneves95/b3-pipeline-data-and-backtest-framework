@@ -1,0 +1,25 @@
+{
+  "cutoff": "2014-06-30",
+  "baseline": "8671156586c2d12c3c8c121510db33144199338c",
+  "basis": "ISSUED_CAPITAL; exact prices for leaders; disclosed missing-class scenarios for other issuers",
+  "tie_break": "median traded BRL volume over last 126 sessions, session count, total BRL volume, ascending ticker; rank ties ascending CNPJ",
+  "returns_accessed": false,
+  "files": [
+    {
+      "path": "research/monthly_contributions_2014_2026/besst10_bh_ranking_2014.csv",
+      "sha256": "f6ca88f67c98d1e53e7df446cc9740c9eafdf2d5e731eb9f7718af445d411219"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/besst10_bh_selection_2014.csv",
+      "sha256": "7212cbb5a12c8999f73857b59f0c32998df5076220af0124974d6cd1ff655bb2"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/inputs/besst_class_quotes_2014.csv",
+      "sha256": "4c6275c677078f59ae6388e933c24865d37ecd3cb73acdf78e9d63d3fda00a9a"
+    },
+    {
+      "path": "research/monthly_contributions_2014_2026/inputs/besst_universe_exclusions_2014.csv",
+      "sha256": "e7238cc8390e537b5c385c0fc4d7cb3d01911785506fb6222ab83817ab8a54da"
+    }
+  ]
+}

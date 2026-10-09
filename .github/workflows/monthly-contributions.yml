@@ -1,0 +1,19 @@
+name: Monthly contributions PR5
+on:
+  pull_request:
+    paths:
+      - 'scripts/monthly_*.py'
+      - 'tests/test_monthly_contributions.py'
+      - 'research/monthly_contributions_2014_2026/**'
+      - 'docs/*aportes*'
+      - '.github/workflows/monthly-contributions.yml'
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pandas pytest XlsxWriter
+      - run: python -m pytest -q tests/test_monthly_contributions.py
