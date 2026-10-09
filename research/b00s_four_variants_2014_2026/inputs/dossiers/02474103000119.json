@@ -20661,415 +20661,585 @@
       "ticker": "TBLE3",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": null,
-      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
-      "classification_changed": null,
-      "dimensions": {},
-      "dimension_evidence_updates": {
+      "assessment_ref": "02474103000119:2025",
+      "assessment_status": "ASSESSED",
+      "classification_changed": true,
+      "dimensions": {
         "durability": {
-          "favorable": "GERAÇÃO, COMERCIALIZAÇÃO E TRANSMISSÃO DE ENERGIA ELÉTRICA",
+          "status": "SATISFACTORY",
+          "reason": "Geração/transmissão/gás seguem; energia/EBITDA 2,040 bi+12,4%. Aquisição Hidrelétricas Lajeado/Mascarenhas assinada 21/03 sujeita CADE/ANEEL, não operação concluída.",
+          "favorable": "Geração/transmissão/gás seguem; energia/EBITDA 2,040 bi+12,4%. Aquisição Hidrelétricas Lajeado/Mascarenhas assinada 21/03 sujeita CADE/ANEEL, não operação concluída.",
+          "contrary_evidence": "CAPEX projetado R$7,081 bilhões e aquisição hidrelétrica pendente de R$2,285 bilhões mais dívida assumida; caixa atual e dívida longa não certificam retorno de cada novo investimento.",
           "evidence": [
             {
-              "cnpj": "02474103000119",
-              "received": "2024-01-31",
-              "name": "ENGIE BRASIL ENERGIA S.A.",
-              "sector": "Energia Elétrica",
-              "activity": "GERAÇÃO, COMERCIALIZAÇÃO E TRANSMISSÃO DE ENERGIA ELÉTRICA",
-              "cvm": "017329",
-              "docid": "133760",
-              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=133760"
+              "docid": "147000",
+              "group": 192,
+              "pages": [
+                9,
+                10,
+                12,
+                13,
+                14,
+                15
+              ],
+              "received": "2025-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147000",
+              "original": "review_originals/cvm_147000_g192.pdf.gz",
+              "original_sha256": "9043c11f0b22f7762471cdaf635df0de40f9b34df62668e6da412005eceadea2"
+            },
+            {
+              "docid": "147000",
+              "group": 193,
+              "pages": [
+                9,
+                10,
+                16,
+                29,
+                34,
+                35,
+                36,
+                37,
+                55
+              ],
+              "received": "2025-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147000",
+              "original": "review_originals/cvm_147000_g193.pdf.gz",
+              "original_sha256": "cc0911fb98d98fbf6f6b42efeae5dbed233f37479d661ac5e3411c71b3b1328e"
+            }
+          ],
+          "prior_year": 2024,
+          "review_2015": "Sem alteração material desta dimensão após confronto da tese anterior com os fatos descritos na atualização de 2015. Geraçãocontratada e diversificada continuam;2014 lucrolíquido inclui ganhoslíquidos173,6mi, retirados sem adicionarimpairment/perdasGSF.1T15 EBITDA789,8mi e lucro344,8mi, provisãofornecedor76,6mi e recuperaçãoCCEE46mi separados.",
+          "review_2016": "Contratos bilaterais e ativos diversificados permanecem; volume1T16 cai3,3% por vencimentos e preço médio sobe5,9%. RiscoGSF e posiçãoCCEE continuam, sem pressupor produção garantida.",
+          "review_2017": "Engie é a mesma linhagem Tractebel. Contratos de longo prazo permanecem, com vencimento do leilão ao fim2016 e menor volume1T17; encerramentoCharqueadas e ativos mantidos para venda são identificados.",
+          "review_2018": "Jaguara/Miranda têm concessão de30 anos;70% da garantia física em cotas ACR sem risco de demanda/mercado/hidrologia,30% livre. Mantém SAT da durabilidade com carteira livre sujeita a preço.",
+          "review_2019": "Mantém concessões hidráulicas e contratos, com expansão de Campo Largo e Umburanas. A aquisição de 90% da TAG pelo consórcio, com participação indireta de 29,25% da EBE, foi concluída em 14/06, segundo a fonte arquivada e confirmada na teleconferência de 24/06. Contratos longos sustentam SAT da durabilidade; projeções para 2021 não são resultados realizados.",
+          "review_2020": "PampaSul operando desde28/06/2019 e Umburanas ampliam geração; TAG29,25%direta desde incorporação reversa02/09/2019 acrescenta contratos de transporte. MantémSAT; não registra previsão de projeto como operação efetiva.",
+          "review_2021": "Geração/contratos eTAG mantêmSAT; participaçãoTAGagora32,50%, não29,25%. Transmissão cresce enquanto portfólioantigovende−3%volume; não antecipar projetos.",
+          "review_2022": "SAT: geração econtratos/TAG mantêm franquia; Diamantesaiu18/10/2021, mas contrato de compraenergiamantém exposição comercial. Não transporta produção dausina vendida como capacidade atual.",
+          "review_2023": "SAT: geração,vendascontratadas eTAG;FotovoltaicosFloresta/Paracatu incorporados mudamvolume+1%,não crescimento orgânico puro. Contratoslivres a preçosmenores ebaixoPLDsão contrapontos.",
+          "missing": "",
+          "review_2024": "Geração contratada/transmissão preservadas; vendas 8.649 GWh −8,8% e preço 222,34/MWh −3,1% refletem Pampa Sul e mercado livre. Solares adquiridos e contratos favorecem, sem garantir preço estável.",
+          "review_2025": "Geração/transmissão/gás seguem; energia/EBITDA 2,040 bi+12,4%. Aquisição Hidrelétricas Lajeado/Mascarenhas assinada 21/03 sujeita CADE/ANEEL, não operação concluída."
+        },
+        "capital_economics": {
+          "status": "SATISFACTORY",
+          "reason": "Contribuição TAG 17,5% comlucro 953 mi 1 T e EP 167 mi distingue resultado damenorparticipação; alienação TAG 15%1.350 bi lucro 1 T 24 não é crescimento recorrente.",
+          "favorable": "Contribuição TAG 17,5% comlucro 953 mi 1 T e EP 167 mi distingue resultado damenorparticipação; alienação TAG 15%1.350 bi lucro 1 T 24 não é crescimento recorrente.",
+          "contrary_evidence": "CAPEX projetado R$7,081 bilhões e aquisição hidrelétrica pendente de R$2,285 bilhões mais dívida assumida; caixa atual e dívida longa não certificam retorno de cada novo investimento.",
+          "evidence": [
+            {
+              "docid": "147000",
+              "group": 192,
+              "pages": [
+                9,
+                10,
+                12,
+                13,
+                14,
+                15
+              ],
+              "received": "2025-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147000",
+              "original": "review_originals/cvm_147000_g192.pdf.gz",
+              "original_sha256": "9043c11f0b22f7762471cdaf635df0de40f9b34df62668e6da412005eceadea2"
+            },
+            {
+              "docid": "147000",
+              "group": 193,
+              "pages": [
+                9,
+                10,
+                16,
+                29,
+                34,
+                35,
+                36,
+                37,
+                55
+              ],
+              "received": "2025-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147000",
+              "original": "review_originals/cvm_147000_g193.pdf.gz",
+              "original_sha256": "cc0911fb98d98fbf6f6b42efeae5dbed233f37479d661ac5e3411c71b3b1328e"
+            }
+          ],
+          "prior_year": 2024,
+          "review_2015": "Geraçãocontratada e diversificada continuam;2014 lucrolíquido inclui ganhoslíquidos173,6mi, retirados sem adicionarimpairment/perdasGSF.1T15 EBITDA789,8mi e lucro344,8mi, provisãofornecedor76,6mi e recuperaçãoCCEE46mi separados.",
+          "review_2016": "EBITDA2015 cresce7,6% mesmo sem repetir reversões2014; após encargos financeiros470,6mi e tributos531,9mi permanece lucro positivo relevante. Mantém qualidade histórica do capital, sem confundirROCE comROIC do prêmio.",
+          "review_2017": "MargemEBITDA2016 de49,3% e baixo endividamento sustentam eficiência madura anterior. Melhora1T17 inclui energia secundária e royalties; não vira ROICincremental nem permite prêmio de múltiplo.",
+          "review_2018": "Franquia anterior preserva margens; EBITDA56% inclui remuneração regulada dos ativos novos. Taxa contábil de6,9% antes de impostos não é ROIC geral ou prêmio15–25. Mantém SAT da economia madura anterior com essa ressalva.",
+          "review_2019": "Preço médio de energia +6% e volume +2,6% sustentam a economia da franquia anterior. Remuneração financeira das outorgas de R$100,2 milhões e a nova TAG não comprovam retorno incremental de toda a alocação. Mantém SAT da economia madura com esse limite.",
+          "review_2020": "Receita novaPampaSul/Umburanas182,8mi contrapõe queda5% da receita do portfólio antigo. TAGgera102,901mi de equivalência após juros91,6mi/maisvalia66,3mi na participação. Economia da geração existente permanece satisfatória; novos ativos e contratos são examinados, sem anualizar seu primeirotrimestre.",
+          "review_2021": "GeraçãoEBIT1,176bi contra981mi eTAGequivalência175mi contra103mi comprovam operação. GSF52mi no trimestre e transconstrução837mi/680micusto são segregados. MantémSAT da economia da franquia comprovada; PampaSulprejuízo74,242mi é contraponto real, sem compensação por receitas futuras.",
+          "review_2022": "SAT anterior: EBITgeração1,209bi vs1,176 eTAGequivalência173mi vs175 sustentam negócio operacional. TransEBIT234mi inclui remuneraçãoativo249mi e construção252mi; não trata tudo como retorno caixa. Novos parques ainda contraponto incremental.",
+          "review_2023": "SAT anterior mantido: EBITgeração1,299bi vs1,209bi eTAGequivalência248mi vs173mi sustentam negóciosoperacionais. Transmissãoremativo282mi econstrução82mi/custo77mi separados; não usa toda receita comoretornocaixa.",
+          "missing": "",
+          "review_2024": "EBIT geração 1,162 bi e EBITDA ajustado 1,815 bi −12,1%; TAG total lucro 841 mi, parcela atual 162 mi. Lucro divulgado 1,684 bi menos ganho de venda 891 mi líquido deixa 793 mi frente 882 mi. Franquia produtiva anterior permanece com contrapontos atuais.",
+          "review_2025": "Contribuição TAG 17,5% comlucro 953 mi 1 T e EP 167 mi distingue resultado damenorparticipação; alienação TAG 15%1.350 bi lucro 1 T 24 não é crescimento recorrente."
+        },
+        "earnings_reliability": {
+          "status": "SATISFACTORY",
+          "reason": "Receitas/dívida/outorgas ecapitalizaçãodejuros+53 mi sãoexplicadas. Pampa Sul saldoareceber 2027 continua não caixa atual; não adicionar jurosouperdas.",
+          "favorable": "Receitas/dívida/outorgas ecapitalizaçãodejuros+53 mi sãoexplicadas. Pampa Sul saldoareceber 2027 continua não caixa atual; não adicionar jurosouperdas.",
+          "contrary_evidence": "CAPEX projetado R$7,081 bilhões e aquisição hidrelétrica pendente de R$2,285 bilhões mais dívida assumida; caixa atual e dívida longa não certificam retorno de cada novo investimento.",
+          "evidence": [
+            {
+              "docid": "147000",
+              "group": 192,
+              "pages": [
+                9,
+                10,
+                12,
+                13,
+                14,
+                15
+              ],
+              "received": "2025-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147000",
+              "original": "review_originals/cvm_147000_g192.pdf.gz",
+              "original_sha256": "9043c11f0b22f7762471cdaf635df0de40f9b34df62668e6da412005eceadea2"
+            },
+            {
+              "docid": "147000",
+              "group": 193,
+              "pages": [
+                9,
+                10,
+                16,
+                29,
+                34,
+                35,
+                36,
+                37,
+                55
+              ],
+              "received": "2025-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147000",
+              "original": "review_originals/cvm_147000_g193.pdf.gz",
+              "original_sha256": "cc0911fb98d98fbf6f6b42efeae5dbed233f37479d661ac5e3411c71b3b1328e"
+            }
+          ],
+          "prior_year": 2024,
+          "review_2015": "Geraçãocontratada e diversificada continuam;2014 lucrolíquido inclui ganhoslíquidos173,6mi, retirados sem adicionarimpairment/perdasGSF.1T15 EBITDA789,8mi e lucro344,8mi, provisãofornecedor76,6mi e recuperaçãoCCEE46mi separados.",
+          "review_2016": "Mantidos ajustes2013/14 e perdas operacionais; PIS/Cofins15,3mi e jurosjudiciais37,2mi conhecidos no1T16 são isolados, não extrapolados. Remoção dos ganhos não constitui recuperação de impairments.",
+          "review_2017": "A ponte1T17 discrimina ganhoCCEE60mi, combustível24,1mi, impostos2016 e juros judiciais37,2mi comparativos. Impairmenttérmico e venda deativos não são adicionados indiscriminadamente ao lucro normalizado.",
+          "review_2018": "Notas separam R$84,8 mi da remuneração do ativo, custos GAG, juros R$36 mi das novas promissórias e câmbio/hedge. Mantém SAT da confiabilidade, sem anualizar o lucro1T18 R$489,3 mi.",
+          "review_2019": "Separa receita de trading de R$231,6 milhões, aumento de custos de trading de R$214 milhões, construção de R$15,7 milhões e remuneração das outorgas. TAG por equivalência exige considerar obrigações proporcionais. Mantém SAT da rastreabilidade, sem confundir EBITDA e caixa.",
+          "review_2020": "PonteTAG discriminaEBITDA356,5mi, D&A112mi, fin91,6mi e impostos50mi atribuíveis. Ganho de trading28,3mi de marcação é separado de2,3mi realizado; receita de construção e outorga não são caixa. MantémSAT.",
+          "review_2021": "TAGdivulgaNI537,013mi e participação32,5%; MTMtrading10,814ganho/5,194perda explicitado. Não confunde concessãofinanceira com amortização de principal nem crescimentoIFRS com caixa. MantémSAT.",
+          "review_2022": "SAT: reversãoimpairmentsolar118mi ealienação−94mi segregadas, net24mi não é lucro recorrente. GSF52mi pertence1T21, não2022; nota evita extrapolação de receitastransmissão.",
+          "review_2023": "SAT: pontes identificampreço/volume,contratosencerrados,IPCA,saída de painéissolares;reversãoimpairment118mi do comparativo2022não éreplicada. Dívida/custo das novascompras integramo juízo.",
+          "missing": "",
+          "review_2024": "Página12 chama 1,684 bi de recorrente, mas páginas9/13 mostram ganho TAG 1,350 bi bruto/891 mi líquido. Venda 15% fechada em 10/01 por 2,780 bi e parcela remanescente 17,5%; preço-base 3,113 bi não foi ingresso real.",
+          "review_2025": "Receitas/dívida/outorgas ecapitalizaçãodejuros+53 mi sãoexplicadas. Pampa Sul saldoareceber 2027 continua não caixa atual; não adicionar jurosouperdas."
+        },
+        "financial_resilience": {
+          "status": "SATISFACTORY",
+          "reason": "Caixa 5,574639 bi contra dívida corrente 2,775468 bi, maioriadívidaaté 2032 e 14ª2 bi efetiva. Liquidezconhecidasustenta SATatual; futuraaquisiçãoaté 2,285 bi+672 mi dívida e CAPEXnão são garantidos.",
+          "favorable": "Caixa 5,574639 bi contra dívida corrente 2,775468 bi, maioriadívidaaté 2032 e 14ª2 bi efetiva. Liquidezconhecidasustenta SATatual; futuraaquisiçãoaté 2,285 bi+672 mi dívida e CAPEXnão são garantidos.",
+          "contrary_evidence": "CAPEX projetado R$7,081 bilhões e aquisição hidrelétrica pendente de R$2,285 bilhões mais dívida assumida; caixa atual e dívida longa não certificam retorno de cada novo investimento.",
+          "evidence": [
+            {
+              "docid": "147000",
+              "group": 192,
+              "pages": [
+                9,
+                10,
+                12,
+                13,
+                14,
+                15
+              ],
+              "received": "2025-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147000",
+              "original": "review_originals/cvm_147000_g192.pdf.gz",
+              "original_sha256": "9043c11f0b22f7762471cdaf635df0de40f9b34df62668e6da412005eceadea2"
+            },
+            {
+              "docid": "147000",
+              "group": 193,
+              "pages": [
+                9,
+                10,
+                16,
+                29,
+                34,
+                35,
+                36,
+                37,
+                55
+              ],
+              "received": "2025-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147000",
+              "original": "review_originals/cvm_147000_g193.pdf.gz",
+              "original_sha256": "cc0911fb98d98fbf6f6b42efeae5dbed233f37479d661ac5e3411c71b3b1328e"
+            }
+          ],
+          "prior_year": 2024,
+          "review_2015": "Geraçãocontratada e diversificada continuam;2014 lucrolíquido inclui ganhoslíquidos173,6mi, retirados sem adicionarimpairment/perdasGSF.1T15 EBITDA789,8mi e lucro344,8mi, provisãofornecedor76,6mi e recuperaçãoCCEE46mi separados.",
+          "review_2016": "Caixa2.396,9mi e DL1.214,8mi nofim2015, sem exposição cambial líquida após swaps; covenants de empréstimos e debêntures integralmente cumpridos no1T16. Concessões a pagar e GSF permanecem obrigações adicionais.",
+          "review_2017": "Dívida líquida2016 de1.093,2mi, caixa1.815,3mi, dívida bruta3.088,7mi e209mi vencendo2017. Covenants de empréstimos/debêntures1T17 conferidos. ExpansãoPampaSul exige monitoramento, não insolvência presumida.",
+          "missing": "",
+          "review_2018": "Covenants cumpridos, mas caixa R$716,144 mi contrasta com empréstimos curtos R$955,547 mi e promissórias/debêntures curtas R$2.176,643 mi. Empréstimos abril R$681,030 mi têm hedge; refinanciamento das promissórias deve ser verificado antes de recertificar a antiga folga. ND específico, não reprovação material. DiárioSC12/06 registra emissão proposta Jaguara R$1,117 bi e Miranda R$685 mi, séries5/9 anos e garantia firme de colocação. O texto prevê contrato de distribuição a celebrar: reduz risco do plano, porém não comprova recebimento/termos finais até o corte. Não afirma ausência de refinanciamento efetivo; faltam os termos finais contemporâneos para resolver a folga econômica. Contraponto: ITR73382g193p2 informa BNDES R$1.039,100 mi Campo Largo e R$728,950 mi Pampa Sul, obrigações prévias cumpridas/contratos em fase final. Não são caixa recebido. O caixa menor inclui dividendo R$938,918 mi pago10/01; não caracteriza falta absoluta de financiamento.",
+          "review_2019": "Resolve a pendência anterior: debêntures Jaguara de R$1.109,701 milhões e Miranda de R$680,108 milhões já emitidas, com cronogramas longos e covenants cumpridos. A TAG acrescenta dívida/capital de aproximadamente 70/30 no veículo, além da 8ª emissão de R$2,5 bilhões aprovada na EBE. Mantém ND pela cobertura proporcional da TAG e do plano de investimentos; não por desconhecimento das emissões de 2018.",
+          "review_2020": "Caixa livre4.188,050mi contra fluxos de dívida/juros3.327,169mi até1ano, mais outorgas170,589mi e fornecedores767,785mi. Dívida líquida11.084,033mi ainda exclui406,151mi vinculados; TAGnão consolidada precisa incluir sua exposição. Covenantscumpridos são favoráveis, mas pendência de cobertura proporcional deCAPEX/TAG continuaND; não chama antigo funding2018 desconhecido.",
+          "review_2021": "Caixa livre4,314022bi exclui495,355mi vinculados. Covenantscumpridos e dívidacurtaempréstimos1,545608bi/deb526,466mi são positivos; TAGnão consolidada passivos32,646245bi e compromissoNovoSantoAgostinho2,264bi exigem coberturaproporcional do ciclo. MantémND específico, sem tratar compraTAGcomo pendente.",
+          "review_2022": "ND específico mantido: expansão/TAG não integralmente consolidada exige examinar dívida proporcional e obrigações de construção junto do caixa. Lucro trimestral e alienaçãoDiamante não equivalem a liquidação de toda dívida/capital contratado. Q1despesasfinanceiras974mi,juros+142mi;TAGônusfinanceiroproporcional159mi vs91mi. Lucro ajustado636mi difere645mi contábeis; não equivale a fluxo de caixa livre.",
+          "review_2023": "ND proporcional mantido: despesasdejuros e atualizaçãoinvestigadas; atualização monetáriareduz114mi masjurosde dívida sobem23mi. Expansão/TAG e obrigaçõesnãoconsolidadas não são resolvidas apenas pelomenorcusto nominalsobinflação.",
+          "review_2024": "Venda reduz exposição TAG; dívida TAG 17,873 bi, caixa 1,143 bi e depósito 1,552 bi vinculado. Refinanciamento e menor financeiro favorecem; obrigações proporcionais, concessões 177 mi e expansão precisam cobertura integrada.",
+          "review_2025": "Caixa 5,574639 bi contra dívida corrente 2,775468 bi, maioriadívidaaté 2032 e 14ª2 bi efetiva. Liquidezconhecidasustenta SATatual; futuraaquisiçãoaté 2,285 bi+672 mi dívida e CAPEXnão são garantidos."
+        },
+        "capital_allocation": {
+          "status": "INDETERMINATE",
+          "reason": "TAGvendidoefetivo eprojetos Assú Sol/Assuruá avançam; comprahidrelétrica pendente e CAPEXprojetado 7,081 bi 2025 não provam retornode todo capital. ND de alocação permanece.",
+          "favorable": "TAGvendidoefetivo eprojetos Assú Sol/Assuruá avançam; comprahidrelétrica pendente e CAPEXprojetado 7,081 bi 2025 não provam retornode todo capital. ND de alocação permanece.",
+          "contrary_evidence": "CAPEX projetado R$7,081 bilhões e aquisição hidrelétrica pendente de R$2,285 bilhões mais dívida assumida; caixa atual e dívida longa não certificam retorno de cada novo investimento.",
+          "evidence": [
+            {
+              "docid": "147000",
+              "group": 192,
+              "pages": [
+                9,
+                10,
+                12,
+                13,
+                14,
+                15
+              ],
+              "received": "2025-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147000",
+              "original": "review_originals/cvm_147000_g192.pdf.gz",
+              "original_sha256": "9043c11f0b22f7762471cdaf635df0de40f9b34df62668e6da412005eceadea2"
+            },
+            {
+              "docid": "147000",
+              "group": 193,
+              "pages": [
+                9,
+                10,
+                16,
+                29,
+                34,
+                35,
+                36,
+                37,
+                55
+              ],
+              "received": "2025-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147000",
+              "original": "review_originals/cvm_147000_g193.pdf.gz",
+              "original_sha256": "cc0911fb98d98fbf6f6b42efeae5dbed233f37479d661ac5e3411c71b3b1328e"
+            }
+          ],
+          "prior_year": 2024,
+          "review_2015": "Geraçãocontratada e diversificada continuam;2014 lucrolíquido inclui ganhoslíquidos173,6mi, retirados sem adicionarimpairment/perdasGSF.1T15 EBITDA789,8mi e lucro344,8mi, provisãofornecedor76,6mi e recuperaçãoCCEE46mi separados.",
+          "review_2016": "CAPEX2015: manutenção222,9mi, modernização134,5mi, expansão493,6mi e aquisição66,3mi. Dividendos834,8mi/55% do distribuível deixam retenção; projetos futuros não recebem retorno antecipado.",
+          "review_2017": "CAPEX2016 de1.189,7mi segregado: expansão875,1, manutenção191,6, modernização97,8, projetos25,2. Proventos1.487,3mi/100%lucrodistribuível confrontados com caixa e dívida baixa; mantém pagadora madura, sem impor payout mínimo.",
+          "missing": "TAGvendidoefetivo eprojetos Assú Sol/Assuruá avançam; comprahidrelétrica pendente e CAPEXprojetado 7,081 bi 2025 não provam retornode todo capital. ND de alocação permanece.",
+          "review_2018": "Outorga Jaguara/Miranda R$3,531 bi já paga altera escala do capital; expansão Pampa Sul, dividendos R$636,756 mi e negociação de venda térmica não concluída devem ser examinados conjuntamente. ND de retorno incremental da nova alocação, sem presumir perda ou ganho.",
+          "review_2019": "A TAG foi adquirida. As projeções de ROCE em dois dígitos e de crescimento são expectativas. Mantém ND para o retorno dos novos compromissos de capital, incluindo TAG, Pampa Sul e transmissão, sem julgar resultados futuros.",
+          "review_2020": "Incorporação reversaTAGjá efetiva, não nova aquisição de100%; amortização de maisvalia66,3mi/trimestre é custo econômico. Novas térmicas/transmissão e posiçãoTAG mantêmND de retorno incremental por ação após todo financiamento, sem assumir que melhoraEBITDAprova produtividade.",
+          "review_2021": "TAGjá32,5% e novosparques/transmissão exigem capital; PampaSulprejuízo eGCAPEX contrastamEBITDAgeração. MantémND da produtividadeincremental poração apósprojetos/financiamento, preservando qualidade da geraçãoantiga.",
+          "review_2022": "ND da produtividade incremental: vendaDiamante remove ativo, mas mantém aquisiçãoenergética; novosprojetos exigem capital. Não transforma receita de construção ou valorização contratual em retorno comprovado poração.",
+          "review_2023": "ND: aquisiçãoFloresta/Paracatutemcontratospreçosacimamédia, maspreçopago,expansão etotalcapitalprecisamser remunerados;isso não égarantido peloadicionaldevolume deumtrimestre.",
+          "review_2024": "Reciclagem TAG e novos solares são efetivos; menor preço de energia e capital necessário contrapõem. Valor de alienação não certifica retorno de todo portfólio, preservando custos/perdas.",
+          "review_2025": "TAGvendidoefetivo eprojetos Assú Sol/Assuruá avançam; comprahidrelétrica pendente e CAPEXprojetado 7,081 bi 2025 não provam retornode todo capital. ND de alocação permanece."
+        },
+        "governance": {
+          "status": "SATISFACTORY",
+          "reason": "Partesrelacionadas econtrole Engie/acordos TAG mantêm análiseanterior SAT; termos/pré-condiçõesdaaquisiçãoexplicitados. Avaliação dosnovospreços não baseia-se em retorno 2025–26.",
+          "favorable": "Partesrelacionadas econtrole Engie/acordos TAG mantêm análiseanterior SAT; termos/pré-condiçõesdaaquisiçãoexplicitados. Avaliação dosnovospreços não baseia-se em retorno 2025–26.",
+          "contrary_evidence": "CAPEX projetado R$7,081 bilhões e aquisição hidrelétrica pendente de R$2,285 bilhões mais dívida assumida; caixa atual e dívida longa não certificam retorno de cada novo investimento.",
+          "evidence": [
+            {
+              "docid": "147000",
+              "group": 192,
+              "pages": [
+                9,
+                10,
+                12,
+                13,
+                14,
+                15
+              ],
+              "received": "2025-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147000",
+              "original": "review_originals/cvm_147000_g192.pdf.gz",
+              "original_sha256": "9043c11f0b22f7762471cdaf635df0de40f9b34df62668e6da412005eceadea2"
+            },
+            {
+              "docid": "147000",
+              "group": 193,
+              "pages": [
+                9,
+                10,
+                16,
+                29,
+                34,
+                35,
+                36,
+                37,
+                55
+              ],
+              "received": "2025-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147000",
+              "original": "review_originals/cvm_147000_g193.pdf.gz",
+              "original_sha256": "cc0911fb98d98fbf6f6b42efeae5dbed233f37479d661ac5e3411c71b3b1328e"
+            }
+          ],
+          "prior_year": 2024,
+          "review_2015": "Sem alteração material desta dimensão após confronto da tese anterior com os fatos descritos na atualização de 2015. Geraçãocontratada e diversificada continuam;2014 lucrolíquido inclui ganhoslíquidos173,6mi, retirados sem adicionarimpairment/perdasGSF.1T15 EBITDA789,8mi e lucro344,8mi, provisãofornecedor76,6mi e recuperaçãoCCEE46mi separados.",
+          "review_2016": "Reutiliza comitês, conselho e fiscalização do dossiê anterior sob o mesmo controlador; ganho judicial e obrigaçõesCCEE são divulgados. MantémSAT com contraponto de concentração e transações intragrupo.",
+          "review_2017": "Sucessão planejada da presidênciajulho2016 e divulgação de partes relacionadas/ativos à venda mantêm rastreabilidade. ControleEngie e transações intragrupo permanecem contrapontos; não classifica independência plena.",
+          "review_2018": "Processo de venda térmica sem evolução satisfatória divulgado12/04; nova proposta para50% da Engie Solar ainda não é aquisição concluída. Mantém SAT dos mecanismos e divulgação, com operações controladoras como contraponto.",
+          "review_2019": "A oferta TAG contou com parecer favorável do Comitê Especial Independente para Transações com Partes Relacionadas. As participações EBE, ENGIE S.A. e CDPQ estão separadas. Mantém SAT dos mecanismos e explicita o conflito com o controlador; não atribui toda a aquisição à EBE.",
+          "review_2020": "MantémSAT do dossiê de governança; ponte proporcionalTAG/controle conjunto e operações trading são transparentes nas notas. Aquisição do controlador permanece contraponto documentado, sem fato novo suficiente para reclassificação nesta dimensão.",
+          "review_2021": "MantémSAT compartesrelacionadas/controleconjunto emaisvalias explicitados. Aquisiçõesdocontrolador continuam contraponto conhecido, sem novo fato que invalide proteção.",
+          "review_2022": "SAT mantido com controle/partesrelacionadas e operações de venda reconhecidos; fato novo analisado não prova deterioração estrutural dos direitos.",
+          "review_2023": "SAT mantido: segmentação e operaçõescomcontrolador/TAG documentadas; nenhum novofatomaterialprovaextração devalor. Reutiliza direitos jáexaminados, sematribuirSATporfaltadeinformação.",
+          "missing": "",
+          "review_2024": "Alienação à CDPQ com preço ajustado, controle conjunto residual e acordo de acionistas são explicitados. Rótulo de lucro reconciliado com notas sem presumir fraude.",
+          "review_2025": "Partesrelacionadas econtrole Engie/acordos TAG mantêm análiseanterior SAT; termos/pré-condiçõesdaaquisiçãoexplicitados. Avaliação dosnovospreços não baseia-se em retorno 2025–26."
+        }
+      },
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "Geração/transmissão/gás seguem; energia/EBITDA 2,040 bi+12,4%. Aquisição Hidrelétricas Lajeado/Mascarenhas assinada 21/03 sujeita CADE/ANEEL, não operação concluída.",
+          "evidence": [
+            {
+              "docid": "147000",
+              "group": 192,
+              "pages": [
+                9,
+                10,
+                12,
+                13,
+                14,
+                15
+              ],
+              "received": "2025-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147000",
+              "original": "review_originals/cvm_147000_g192.pdf.gz",
+              "original_sha256": "9043c11f0b22f7762471cdaf635df0de40f9b34df62668e6da412005eceadea2"
+            },
+            {
+              "docid": "147000",
+              "group": 193,
+              "pages": [
+                9,
+                10,
+                16,
+                29,
+                34,
+                35,
+                36,
+                37,
+                55
+              ],
+              "received": "2025-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147000",
+              "original": "review_originals/cvm_147000_g193.pdf.gz",
+              "original_sha256": "cc0911fb98d98fbf6f6b42efeae5dbed233f37479d661ac5e3411c71b3b1328e"
             }
           ]
         },
         "capital_economics": {
-          "favorable": {
-            "roe_parent_5": [
-              0.3796608315224698,
-              0.19960063916624762,
-              0.3254497715625464,
-              0.3964965504659641,
-              0.4251824389631283
-            ],
-            "normalized_profit": 3669754917.6593146
-          },
+          "favorable": "Contribuição TAG 17,5% comlucro 953 mi 1 T e EP 167 mi distingue resultado damenorparticipação; alienação TAG 15%1.350 bi lucro 1 T 24 não é crescimento recorrente.",
           "evidence": [
             {
-              "fiscal_year": 2020,
-              "metric": "attributable_ni",
-              "value": 2797091000.0,
-              "docid": "111751",
-              "received": "2022-02-14",
-              "reference": "2021-12-31",
-              "period_end": "2020-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2021.csv",
-              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+              "docid": "147000",
+              "group": 192,
+              "pages": [
+                9,
+                10,
+                12,
+                13,
+                14,
+                15
+              ],
+              "received": "2025-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147000",
+              "original": "review_originals/cvm_147000_g192.pdf.gz",
+              "original_sha256": "9043c11f0b22f7762471cdaf635df0de40f9b34df62668e6da412005eceadea2"
             },
             {
-              "fiscal_year": 2021,
-              "metric": "attributable_ni",
-              "value": 1563725000.0,
-              "docid": "132868",
-              "received": "2023-11-30",
-              "reference": "2022-12-31",
-              "period_end": "2021-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2022.csv",
-              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
-            },
-            {
-              "fiscal_year": 2022,
-              "metric": "attributable_ni",
-              "value": 2663079000.0,
-              "docid": "134298",
-              "received": "2024-02-27",
-              "reference": "2023-12-31",
-              "period_end": "2022-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "fiscal_year": 2023,
-              "metric": "attributable_ni",
-              "value": 3429555000.0,
-              "docid": "144906",
-              "received": "2025-02-20",
-              "reference": "2024-12-31",
-              "period_end": "2023-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "fiscal_year": 2024,
-              "metric": "attributable_ni",
-              "value": 4279349000.0,
-              "docid": "144906",
-              "received": "2025-02-20",
-              "reference": "2024-12-31",
-              "period_end": "2024-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+              "docid": "147000",
+              "group": 193,
+              "pages": [
+                9,
+                10,
+                16,
+                29,
+                34,
+                35,
+                36,
+                37,
+                55
+              ],
+              "received": "2025-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147000",
+              "original": "review_originals/cvm_147000_g193.pdf.gz",
+              "original_sha256": "cc0911fb98d98fbf6f6b42efeae5dbed233f37479d661ac5e3411c71b3b1328e"
             }
           ]
         },
         "earnings_reliability": {
-          "favorable": {
-            "positive_attributable_years": 5,
-            "audit_records": 8
-          },
+          "favorable": "Receitas/dívida/outorgas ecapitalizaçãodejuros+53 mi sãoexplicadas. Pampa Sul saldoareceber 2027 continua não caixa atual; não adicionar jurosouperdas.",
           "evidence": [
             {
-              "docid": "144906",
-              "received": "2025-02-20",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+              "docid": "147000",
+              "group": 192,
+              "pages": [
+                9,
+                10,
+                12,
+                13,
+                14,
+                15
+              ],
+              "received": "2025-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147000",
+              "original": "review_originals/cvm_147000_g192.pdf.gz",
+              "original_sha256": "9043c11f0b22f7762471cdaf635df0de40f9b34df62668e6da412005eceadea2"
             },
             {
-              "docid": "144906",
-              "received": "2025-02-20",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "144906",
-              "received": "2025-02-20",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "144906",
-              "received": "2025-02-20",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "144906",
-              "received": "2025-02-20",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "144906",
-              "received": "2025-02-20",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "144906",
-              "received": "2025-02-20",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "144906",
-              "received": "2025-02-20",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+              "docid": "147000",
+              "group": 193,
+              "pages": [
+                9,
+                10,
+                16,
+                29,
+                34,
+                35,
+                36,
+                37,
+                55
+              ],
+              "received": "2025-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147000",
+              "original": "review_originals/cvm_147000_g193.pdf.gz",
+              "original_sha256": "cc0911fb98d98fbf6f6b42efeae5dbed233f37479d661ac5e3411c71b3b1328e"
             }
           ]
         },
         "financial_resilience": {
-          "favorable": {
-            "parent_equity_latest": 11266701000.0
-          },
+          "favorable": "Caixa 5,574639 bi contra dívida corrente 2,775468 bi, maioriadívidaaté 2032 e 14ª2 bi efetiva. Liquidezconhecidasustenta SATatual; futuraaquisiçãoaté 2,285 bi+672 mi dívida e CAPEXnão são garantidos.",
           "evidence": [
             {
-              "docid": "144906",
-              "received": "2025-02-20",
-              "reference": "2024-12-31",
-              "period_end": "2024-12-31",
-              "perimeter": "ind",
-              "account": "2.03",
-              "description": "Patrimônio Líquido",
-              "source": "dfp_cia_aberta_BPP_ind_2024.csv",
-              "archive_sha256": "",
-              "url": ""
+              "docid": "147000",
+              "group": 192,
+              "pages": [
+                9,
+                10,
+                12,
+                13,
+                14,
+                15
+              ],
+              "received": "2025-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147000",
+              "original": "review_originals/cvm_147000_g192.pdf.gz",
+              "original_sha256": "9043c11f0b22f7762471cdaf635df0de40f9b34df62668e6da412005eceadea2"
+            },
+            {
+              "docid": "147000",
+              "group": 193,
+              "pages": [
+                9,
+                10,
+                16,
+                29,
+                34,
+                35,
+                36,
+                37,
+                55
+              ],
+              "received": "2025-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147000",
+              "original": "review_originals/cvm_147000_g193.pdf.gz",
+              "original_sha256": "cc0911fb98d98fbf6f6b42efeae5dbed233f37479d661ac5e3411c71b3b1328e"
             }
           ]
         },
         "capital_allocation": {
-          "favorable": {
-            "historical_payout": [
-              1.0,
-              1.0,
-              null,
-              null,
-              null
-            ],
-            "distributions": [
-              2016754364.44,
-              1399315598.06,
-              null,
-              null,
-              null
-            ]
-          },
+          "favorable": "TAGvendidoefetivo eprojetos Assú Sol/Assuruá avançam; comprahidrelétrica pendente e CAPEXprojetado 7,081 bi 2025 não provam retornode todo capital. ND de alocação permanece.",
           "evidence": [
             {
-              "docid": "126050",
-              "received": "2023-05-09",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
-              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=126050",
-              "fiscal_year": 2020,
-              "raw": {
-                "CNPJ_Companhia": "02.474.103/0001-19",
-                "Data_Referencia": "2022-01-01",
-                "Versao": "7",
-                "ID_Documento": "126050",
-                "Nome_Companhia": "ENGIE BRASIL ENERGIA S.A.",
-                "Data_Inicio_Exercicio_Social": "2020-01-01",
-                "Data_Fim_Exercicio_Social": "2020-12-31",
-                "Lucro_Liquido_Ajustado": "2016754364.44",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "26.05784363",
-                "Lucro_Liquido_Retido": "638669403.00",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "100.00000000",
-                "Dividendo_Distribuido_Total": "2016754364.44",
-                "Data_Aprovacao_Retencao": "2021-04-28"
-              }
+              "docid": "147000",
+              "group": 192,
+              "pages": [
+                9,
+                10,
+                12,
+                13,
+                14,
+                15
+              ],
+              "received": "2025-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147000",
+              "original": "review_originals/cvm_147000_g192.pdf.gz",
+              "original_sha256": "9043c11f0b22f7762471cdaf635df0de40f9b34df62668e6da412005eceadea2"
             },
             {
-              "docid": "126050",
-              "received": "2023-05-09",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
-              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=126050",
-              "fiscal_year": 2021,
-              "raw": {
-                "CNPJ_Companhia": "02.474.103/0001-19",
-                "Data_Referencia": "2022-01-01",
-                "Versao": "7",
-                "ID_Documento": "126050",
-                "Nome_Companhia": "ENGIE BRASIL ENERGIA S.A.",
-                "Data_Inicio_Exercicio_Social": "2021-01-01",
-                "Data_Fim_Exercicio_Social": "2021-12-31",
-                "Lucro_Liquido_Ajustado": "1399315598.06",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "17.64805100",
-                "Lucro_Liquido_Retido": "0.00",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "100.00000000",
-                "Dividendo_Distribuido_Total": "1399315598.06",
-                "Data_Aprovacao_Retencao": ""
-              }
+              "docid": "147000",
+              "group": 193,
+              "pages": [
+                9,
+                10,
+                16,
+                29,
+                34,
+                35,
+                36,
+                37,
+                55
+              ],
+              "received": "2025-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147000",
+              "original": "review_originals/cvm_147000_g193.pdf.gz",
+              "original_sha256": "cc0911fb98d98fbf6f6b42efeae5dbed233f37479d661ac5e3411c71b3b1328e"
             }
           ]
         },
         "governance": {
-          "favorable": {
-            "dated_shareholder_right_records": 13,
-            "dated_related_party_records": 192
-          },
+          "favorable": "Partesrelacionadas econtrole Engie/acordos TAG mantêm análiseanterior SAT; termos/pré-condiçõesdaaquisiçãoexplicitados. Avaliação dosnovospreços não baseia-se em retorno 2025–26.",
           "evidence": [
             {
-              "docid": "144906",
-              "received": "2025-02-20",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+              "docid": "147000",
+              "group": 192,
+              "pages": [
+                9,
+                10,
+                12,
+                13,
+                14,
+                15
+              ],
+              "received": "2025-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147000",
+              "original": "review_originals/cvm_147000_g192.pdf.gz",
+              "original_sha256": "9043c11f0b22f7762471cdaf635df0de40f9b34df62668e6da412005eceadea2"
             },
             {
-              "docid": "144906",
-              "received": "2025-02-20",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "144906",
-              "received": "2025-02-20",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "144906",
-              "received": "2025-02-20",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "144906",
-              "received": "2025-02-20",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "144906",
-              "received": "2025-02-20",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "144906",
-              "received": "2025-02-20",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "144906",
-              "received": "2025-02-20",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+              "docid": "147000",
+              "group": 193,
+              "pages": [
+                9,
+                10,
+                16,
+                29,
+                34,
+                35,
+                36,
+                37,
+                55
+              ],
+              "received": "2025-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147000",
+              "original": "review_originals/cvm_147000_g193.pdf.gz",
+              "original_sha256": "cc0911fb98d98fbf6f6b42efeae5dbed233f37479d661ac5e3411c71b3b1328e"
             }
           ]
         }

@@ -18567,463 +18567,465 @@
       "ticker": "CPLE6",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": null,
-      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
-      "classification_changed": null,
-      "dimensions": {},
-      "dimension_evidence_updates": {
+      "assessment_ref": "76483817000120:2025",
+      "assessment_status": "ASSESSED",
+      "classification_changed": false,
+      "dimensions": {
         "durability": {
-          "favorable": "Geração, Transmissão, Comercialização e Distribuição de Energia Elétrica",
+          "status": "SATISFACTORY",
+          "favorable": "Energia DIS 6.198 TWh+9,2% e GET 4.720 TWh+1,4%; capacidade redes permanece. Compagas descontinuada agora concluída, altera perímetro de gás.",
+          "contrary_evidence": "Saídas de Compagas/UEGA e outorgas modificam perímetro e obrigações; preço de classe PNA continua sem evidência própria para nova compra.",
+          "reason": "Energia DIS 6.198 TWh+9,2% e GET 4.720 TWh+1,4%; capacidade redes permanece. Compagas descontinuada agora concluída, altera perímetro de gás.",
           "evidence": [
             {
-              "cnpj": "76483817000120",
-              "received": "2024-07-01",
-              "name": "CIA PARANAENSE DE ENERGIA - COPEL",
-              "sector": "Energia Elétrica",
-              "activity": "Geração, Transmissão, Comercialização e Distribuição de Energia Elétrica",
-              "cvm": "014311",
-              "docid": "139349",
-              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=139349"
+              "docid": "147138",
+              "group": 192,
+              "pages": [
+                1,
+                2
+              ],
+              "received": "2025-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147138",
+              "original": "review_originals/cvm_147138_g192.pdf.gz",
+              "original_sha256": "7856d66da0839723835b8cb7d3883997a23237352e79edbb031cb224f23e32c9"
+            },
+            {
+              "docid": "147138",
+              "group": 193,
+              "pages": [
+                6,
+                25,
+                37
+              ],
+              "received": "2025-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147138",
+              "original": "review_originals/cvm_147138_g193.pdf.gz",
+              "original_sha256": "411acbc7769a1d2567451707f61f7f6e8bc2e32a662bf6a5369b26df84e0fc78"
+            }
+          ],
+          "prior_year": 2024,
+          "review_2015": "Sem alteração material desta dimensão após confronto da tese anterior com os fatos descritos na atualização de 2015. ReconhecimentoCVAinicial1.033,866mi e impairmentgeração807,3mi coexistem em2014. CAPEX2.469mi,+39%;1T15 lucrototal469,991mi vs583,050mi. Não adicionar impairment nem extrapolarCVA.",
+          "review_2016": "Concessões e rede permanecem em operação; receita de distribuição cresce18,9%, volume cativo cai4,3%. Essencialidade não neutraliza hidrologia e ambiente tarifário.",
+          "review_2017": "Expansão de redes e atendimento prossegue; volume cativo1T17−11,3% e tarifa−12,87% desdejunho2016. Migração para mercado livre não significa desaparecimento da concessão.",
+          "review_2018": "Redes compactas crescem8% e secundárias6,6%; concessão segue com tarifa média+4,8%. Mantém SAT, distinguindo migração de mercado livre de perda da franquia.",
+          "review_2019": "Redes compactas +9,1% e secundárias +4,7%. Baixo Iguaçu está totalmente em operação comercial em abril de 2019; Cutia e Bento Miguel também operam. Mantém SAT da franquia e atualiza a descrição anterior de obras não entregues.",
+          "review_2020": "Colíder três unidades concluídas em2019, BaixoIguaçu e parquesCutia/Bento já operacionais; atualiza fatos anteriores de obras. Venda total13.369GWh cresce9,1%, com comercialização+51,4%, embora distribuição−2,2% e geração própria caia; mantém durabilidadeSAT.",
+          "review_2021": "Geração5.410GWh contra2.475 reflete recuperaçãohídrica, não crescimento permanente; fios+2,6%/mercadocativo−2,5%. Usinas e redeoperacionais sustentamSAT.",
+          "review_2022": "Franquia operacional mantida: 7.912km ParanáTrifásico/130milclientes e330mil medidores inteligentes; geração3.626GWh versus5.422 reflete hidrologia/MRE, não perda proporcional de receita contratada. SAT.",
+          "review_2023": "SAT: aquisiçãoAventura/SRMN fechada30/01/2023por1,005bi,260,4MW; obras efetivas11.667km/185milclientes e458milmedidores. Geração6.430GWhvs3.626 reflete chuva e novos parques, não ganho orgânico de igualproporção.",
+          "missing": "",
+          "review_2024": "Redes rurais 16.286 km e 703.617 medidores inteligentes; geração 6.639 GWh contra 6.430. Aventura/SRMN operacionais alteram a base, sem chamar receita adquirida de crescimento orgânico.",
+          "review_2025": "Energia DIS 6.198 TWh+9,2% e GET 4.720 TWh+1,4%; capacidade redes permanece. Compagas descontinuada agora concluída, altera perímetro de gás."
+        },
+        "capital_economics": {
+          "status": "INDETERMINATE",
+          "favorable": "CAPEXDIS 596,6 mi e energiaeólica+11,7% não demonstram isoladamente retorno incremental após outorgas/financiamento. ND anterior permanece específico.",
+          "contrary_evidence": "Saídas de Compagas/UEGA e outorgas modificam perímetro e obrigações; preço de classe PNA continua sem evidência própria para nova compra.",
+          "reason": "CAPEXDIS 596,6 mi e energiaeólica+11,7% não demonstram isoladamente retorno incremental após outorgas/financiamento. ND anterior permanece específico.",
+          "missing": "CAPEXDIS 596,6 mi e energiaeólica+11,7% não demonstram isoladamente retorno incremental após outorgas/financiamento. ND anterior permanece específico.",
+          "evidence": [
+            {
+              "docid": "147138",
+              "group": 192,
+              "pages": [
+                1,
+                2
+              ],
+              "received": "2025-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147138",
+              "original": "review_originals/cvm_147138_g192.pdf.gz",
+              "original_sha256": "7856d66da0839723835b8cb7d3883997a23237352e79edbb031cb224f23e32c9"
+            },
+            {
+              "docid": "147138",
+              "group": 193,
+              "pages": [
+                6,
+                25,
+                37
+              ],
+              "received": "2025-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147138",
+              "original": "review_originals/cvm_147138_g193.pdf.gz",
+              "original_sha256": "411acbc7769a1d2567451707f61f7f6e8bc2e32a662bf6a5369b26df84e0fc78"
+            }
+          ],
+          "prior_year": 2024,
+          "review_2015": "ReconhecimentoCVAinicial1.033,866mi e impairmentgeração807,3mi coexistem em2014. CAPEX2.469mi,+39%;1T15 lucrototal469,991mi vs583,050mi. Não adicionar impairment nem extrapolarCVA.",
+          "review_2016": "Queda do EBITDA e maior custo financeiro não comprovam retorno dos parques em construção; o impairment anterior continua retido no diagnóstico, sem recuperação futura presumida.",
+          "review_2017": "Queda da receita de fornecimento28,2%, recuperaçãoTUSD e obrasColíder mantêm necessidade de provar retorno do capital novo. MantémND de economia de capital, sem anualizar1T17.",
+          "review_2018": "Colíder acumula R$2.152,298 mi e Baixo Iguaçu R$648,393 mi na participação30%; capital em obra ainda precisa demonstrar retorno. Mantém ND, sem penalizar expansão só por CAPEX.",
+          "review_2019": "Colíder entrega parcialmente 41,1 MW médios diante de 125 MW médios contratados. Impairments de R$731,265 milhões em Colíder, R$171,352 milhões em Cutia e R$87,372 milhões em Bento Miguel limitam a conclusão de rentabilidade. Mantém ND; não adiciona automaticamente impairments ao lucro econômico.",
+          "review_2020": "Perdas econômicas persistem: Colíderimpairment758,941mi, Cutia54,104mi e UEGA50,508mi. Entrada em operação não prova retorno adequado do capital histórico; mantémND de economia, sem adicionar todas as perdas ao lucro.",
+          "review_2021": "Impairmentremanescente1,047039bi incluiColíder683,193mi eUEGA139,572mi; trimestre ainda reconhece1,210mi. Recuperação do volume não demonstra remuneração adequada do capital histórico e novo. MantémND específico.",
+          "review_2022": "Recuperação operacional não encerra pendência do retorno dos projetos e impairments históricos. Nota32.4 identifica reversão gás1,629mi e comparativo impairment geração2,604mi; não interpreta reversão como retorno incremental recorrente. ND.",
+          "review_2023": "ND: expansão das redes e compras têm resultado operacional, mas os novos ativos e outorgas deGBM/Segredo/SaltoCaxias mudam capital comprometido. Não estima benefício de privatização que ainda não se concretizou no documento.",
+          "review_2024": "Novas outorgas GBM/GNB/GJR de 3,719428 bi mais SELIC, alienações e novos ativos alteram capital comprometido. Melhora operacional após privatização não prova retorno adequado de todo investimento.",
+          "review_2025": "CAPEXDIS 596,6 mi e energiaeólica+11,7% não demonstram isoladamente retorno incremental após outorgas/financiamento. ND anterior permanece específico."
+        },
+        "earnings_reliability": {
+          "status": "SATISFACTORY",
+          "favorable": "UEGA/Compagas e comparativos descontinuados discriminados; Compagas conta a receber atésetembro/2026, não preço integral recebido no corte.",
+          "contrary_evidence": "Saídas de Compagas/UEGA e outorgas modificam perímetro e obrigações; preço de classe PNA continua sem evidência própria para nova compra.",
+          "reason": "UEGA/Compagas e comparativos descontinuados discriminados; Compagas conta a receber atésetembro/2026, não preço integral recebido no corte.",
+          "evidence": [
+            {
+              "docid": "147138",
+              "group": 192,
+              "pages": [
+                1,
+                2
+              ],
+              "received": "2025-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147138",
+              "original": "review_originals/cvm_147138_g192.pdf.gz",
+              "original_sha256": "7856d66da0839723835b8cb7d3883997a23237352e79edbb031cb224f23e32c9"
+            },
+            {
+              "docid": "147138",
+              "group": 193,
+              "pages": [
+                6,
+                25,
+                37
+              ],
+              "received": "2025-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147138",
+              "original": "review_originals/cvm_147138_g193.pdf.gz",
+              "original_sha256": "411acbc7769a1d2567451707f61f7f6e8bc2e32a662bf6a5369b26df84e0fc78"
+            }
+          ],
+          "prior_year": 2024,
+          "review_2015": "ReconhecimentoCVAinicial1.033,866mi e impairmentgeração807,3mi coexistem em2014. CAPEX2.469mi,+39%;1T15 lucrototal469,991mi vs583,050mi. Não adicionar impairment nem extrapolarCVA.",
+          "review_2016": "Explicados Araucária/PLD, volume, custos de energia e financeirização; não usa lucro trimestral anualizado nem elimina perdas operacionais da mediana.",
+          "review_2017": "Reclassificações tarifárias e custos são discriminados; mantém SAT de confiabilidade documental, separada do lucro normalizado econômico ainda incerto.",
+          "review_2018": "Decisão judicial favorável06/04/2018 e alternativas de cumprimento de energia são explicadas; não repete apenas a negativa de2017. Mantém SAT da confiabilidade e incertezas explicitadas.",
+          "review_2019": "As notas reconhecem receita e custo da energia de Colíder apesar da liminar e do mérito pendente. Separam início comercial, capital investido e impairment. Mantém SAT da transparência.",
+          "review_2020": "Notas discriminam reversãoColíder18,353mi e novaUEGA50,508mi, despesa líquida32,155mi; provisõesTelecom e exposição de energia são explícitas. CCEE84,881mi emabril é obrigação regulatória, não lucro; mantémSAT da confiabilidade.",
+          "review_2021": "Notas separam impairment, resultado daTelecom e reprogramaçãoRBSE. EmabrilANEEL alterou recebimentos2021–28, sem permitir tratar todoativo como caixacorrente. MantémSAT de lucros rastreáveis.",
+          "review_2022": "SAT: Telecom foi vendida em03/08/2021, com ativos/passivos/caixa das operações descontinuadas separados. Comparação2022 é com demonstração2021 reclassificada; não transporta lucro daTelecom como negócio atual.",
+          "review_2023": "SAT: notas distinguem aquisição, classes de ações, impostos e perdas/reversões. PerímetroTelecom já vendido permanece excluído; compra eólica não justifica somar resultadosproforma aoslucros históricos.",
+          "missing": "",
+          "review_2024": "UEGA/Compagas descontinuadas e comparativos reapresentados. ITR informa preço UEGA 290,662 mi e depósito 58,132 mi. Comunicado de 29/05 atualiza EV 395 mi, equity 358 mi e parte Copel 320,7 mi; datas/bases distintas sem presumir recebimento integral.",
+          "review_2025": "UEGA/Compagas e comparativos descontinuados discriminados; Compagas conta a receber atésetembro/2026, não preço integral recebido no corte."
+        },
+        "financial_resilience": {
+          "status": "SATISFACTORY",
+          "favorable": "Notas distinguem contas a receber, financiamento e outorgas; recebe análise anterior SAT com riscos de financiamento e contratos ainda materiais. Preço de alienação futuro não é caixa atual.",
+          "contrary_evidence": "Saídas de Compagas/UEGA e outorgas modificam perímetro e obrigações; preço de classe PNA continua sem evidência própria para nova compra.",
+          "reason": "Notas distinguem contas a receber, financiamento e outorgas; recebe análise anterior SAT com riscos de financiamento e contratos ainda materiais. Preço de alienação futuro não é caixa atual.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "147138",
+              "group": 192,
+              "pages": [
+                1,
+                2
+              ],
+              "received": "2025-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147138",
+              "original": "review_originals/cvm_147138_g192.pdf.gz",
+              "original_sha256": "7856d66da0839723835b8cb7d3883997a23237352e79edbb031cb224f23e32c9"
+            },
+            {
+              "docid": "147138",
+              "group": 193,
+              "pages": [
+                6,
+                25,
+                37
+              ],
+              "received": "2025-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147138",
+              "original": "review_originals/cvm_147138_g193.pdf.gz",
+              "original_sha256": "411acbc7769a1d2567451707f61f7f6e8bc2e32a662bf6a5369b26df84e0fc78"
+            }
+          ],
+          "prior_year": 2024,
+          "review_2015": "Sem alteração material desta dimensão após confronto da tese anterior com os fatos descritos na atualização de 2015. ReconhecimentoCVAinicial1.033,866mi e impairmentgeração807,3mi coexistem em2014. CAPEX2.469mi,+39%;1T15 lucrototal469,991mi vs583,050mi. Não adicionar impairment nem extrapolarCVA.",
+          "review_2016": "Despesa financeira+107,7% e queda de geração/volume mantêm ND de cobertura dos compromissos da expansão, mesmo com custo de energia comprada menor22,3%.",
+          "review_2017": "Empréstimos3.988,626mi e debêntures4.929,051mi; curtoprazo1.463,370mi e1.284,329mi. Covenants integralmente cumpridos emmarço, mas cronograma de obras e caixa necessários continuam contraponto à folga econômica; ND anterior preservado.",
+          "review_2018": "Cronogramas de dívida e cobertura mínima1,3/1,5 exigem avaliação conjunta com obras. Garantias e liminar não equivalem a liquidez disponível; mantém ND da folga financeira.",
+          "review_2019": "Indicadores anuais de 2018 e trimestrais de 2019 foram cumpridos. Coberturas contratuais de 1,2–1,3 e compromissos de projetos exigem folga conjunta além do cumprimento contratual. Mantém ND anterior de resiliência com essas contraprovas favoráveis.",
+          "review_2020": "Caixa consolidado3.014,957mi supera dívida+juros contratuais dos próximos12meses1.962,421mi, mas é inferior ao total de fluxos contratuais curtos3.635,258mi incluindo fornecedores/outorgas/PERT/leases; estes dependem também da geração operacional e ciclo de recebíveis. AplicaçõesBNDES291,239mi restritas são excluídas. Covenants cumpridos; dívida total11.198,618mi, garantias972,615mi e obras contratadas identificadas. Operação dos grandes projetos e caixa resolvem pendência financeira imediata: SAT, com contraponto do déficit circulante holding333,215mi e CAPEX futuro.",
+          "review_2021": "Caixa2,924126bi, usinas já operacionais e covenantscumpridos sustentamSAT anterior. Compromissosdistribuição1,089893bi e gás589,121mi permanecem; preçoTelecom2,395bi não é caixa atéfechamento.",
+          "review_2022": "SAT mantido: caixa3,970974bi eTVM382,573mi, excluindo depósitos167mil; covenants e vencimentos explícitos nas notas21/22. VendaTelecom já recebida, não financiamento pendente. Obrigações de geração/distribuição e saúde/previdência continuam contrapontos.",
+          "review_2023": "SAT anterior mantido: financiamentos eólicosBNBaté2043aIPCA+2,19%/+1,98% identificados e caixa atual verificável. Novas outorgas ligadas à transformação emcorporação são obrigações condicionais conhecidas, não caixa já pago nem financiamento assegurado de todasexpansões.",
+          "review_2024": "Empréstimos 5,258062 bi mais debêntures 9,788477 bi, caixa 5,789893 bi; TVM de 437,167 mi são vinculados. Outorgas e ICSD Cutia permanecem obrigações, sem antecipar caixa da venda futura.",
+          "review_2025": "Notas distinguem contas a receber, financiamento e outorgas; recebe análise anterior SAT com riscos de financiamento e contratos ainda materiais. Preço de alienação futuro não é caixa atual."
+        },
+        "capital_allocation": {
+          "status": "INDETERMINATE",
+          "favorable": "Desinvestimento Compagas efetivo resolve condição anterior, mas não retorno do capital adicional nas novas outorgas/ativos. Não presumir sucesso do plano por mudança societária.",
+          "contrary_evidence": "Saídas de Compagas/UEGA e outorgas modificam perímetro e obrigações; preço de classe PNA continua sem evidência própria para nova compra.",
+          "reason": "Desinvestimento Compagas efetivo resolve condição anterior, mas não retorno do capital adicional nas novas outorgas/ativos. Não presumir sucesso do plano por mudança societária.",
+          "missing": "Desinvestimento Compagas efetivo resolve condição anterior, mas não retorno do capital adicional nas novas outorgas/ativos. Não presumir sucesso do plano por mudança societária.",
+          "evidence": [
+            {
+              "docid": "147138",
+              "group": 192,
+              "pages": [
+                1,
+                2
+              ],
+              "received": "2025-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147138",
+              "original": "review_originals/cvm_147138_g192.pdf.gz",
+              "original_sha256": "7856d66da0839723835b8cb7d3883997a23237352e79edbb031cb224f23e32c9"
+            },
+            {
+              "docid": "147138",
+              "group": 193,
+              "pages": [
+                6,
+                25,
+                37
+              ],
+              "received": "2025-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147138",
+              "original": "review_originals/cvm_147138_g193.pdf.gz",
+              "original_sha256": "411acbc7769a1d2567451707f61f7f6e8bc2e32a662bf6a5369b26df84e0fc78"
+            }
+          ],
+          "prior_year": 2024,
+          "review_2015": "ReconhecimentoCVAinicial1.033,866mi e impairmentgeração807,3mi coexistem em2014. CAPEX2.469mi,+39%;1T15 lucrototal469,991mi vs583,050mi. Não adicionar impairment nem extrapolarCVA.",
+          "review_2016": "Projetos anteriores são reutilizados, mas a melhora tarifária não comprova retorno econômico por ação dos novos ativos; continuidade da pendência de execução/financiamento.",
+          "review_2017": "Redescompactas+922km e secundárias+1.333km mostram entrega física. Colíder e demaisprojetos requerem retorno por ação após financiamento, não apenas quantidade de obras.",
+          "review_2018": "Entrega de redes é favorável, mas custo acumulado/atrasos de Colíder e Baixo Iguaçu continuam materiais; mantém ND de retorno por ação do capital alocado.",
+          "review_2019": "A participação de 30% em Baixo Iguaçu transfere R$723,271 milhões ao ativo em serviço. Entregas resolvem atrasos operacionais, porém perdas e custos acumulados mantêm indeterminado o retorno por ação do capital alocado.",
+          "review_2020": "Jandaíra438,861mi,BelaVista82,458mi,transmissão94,227mi,distribuição578,393mi eTelecom79,383mi são compromissos futuros identificados. Impairments materiais de projetos já entregues mantêmND da produtividade por ação; não exigeFCLsemprepositivo.",
+          "review_2021": "ContratoTelecom assinado14/01/2021 apósleilão, ainda pendenteCADE/Anatel noITR; obrigações de pessoal/previdência ficamCopel. Impairments e expansão ainda impedem comprovar retornoincremental conjunto; mantémND, sem penalizarCAPEX por si.",
+          "review_2022": "VendaTelecom concluída e modernização de rede executada são fatos favoráveis. AindaND do retorno após capital de Colíder/UEGA e obrigações remanescentes; não presume benefício econômico porque houve venda ou implantação física.",
+          "review_2023": "ND: programa de rede executado eparquesadquiridos são favoráveis, mas retorno do capital adicional e da renovação de outorgas deve ser reconciliado; não considera a mera mudança de controle como aprovação.",
+          "review_2024": "CADE aprova UEGA sem restrições em 29/05, com trânsito 15 dias após publicação; comunicado não declara fechamento. Tag along Petrobras em 26/02 e novas outorgas precisam análise de remuneração do capital adicional.",
+          "review_2025": "Desinvestimento Compagas efetivo resolve condição anterior, mas não retorno do capital adicional nas novas outorgas/ativos. Não presumir sucesso do plano por mudança societária."
+        },
+        "governance": {
+          "status": "INDETERMINATE",
+          "favorable": "Corpor ação/limite de votos/golden share anteriores mantidos; termos de outorgas e incentivos precisam continuar comutativos. Propostas societárias posteriores ao corte não entram.",
+          "contrary_evidence": "Saídas de Compagas/UEGA e outorgas modificam perímetro e obrigações; preço de classe PNA continua sem evidência própria para nova compra.",
+          "reason": "Corpor ação/limite de votos/golden share anteriores mantidos; termos de outorgas e incentivos precisam continuar comutativos. Propostas societárias posteriores ao corte não entram.",
+          "missing": "Corpor ação/limite de votos/golden share anteriores mantidos; termos de outorgas e incentivos precisam continuar comutativos. Propostas societárias posteriores ao corte não entram.",
+          "evidence": [
+            {
+              "docid": "147138",
+              "group": 192,
+              "pages": [
+                1,
+                2
+              ],
+              "received": "2025-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147138",
+              "original": "review_originals/cvm_147138_g192.pdf.gz",
+              "original_sha256": "7856d66da0839723835b8cb7d3883997a23237352e79edbb031cb224f23e32c9"
+            },
+            {
+              "docid": "147138",
+              "group": 193,
+              "pages": [
+                6,
+                25,
+                37
+              ],
+              "received": "2025-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147138",
+              "original": "review_originals/cvm_147138_g193.pdf.gz",
+              "original_sha256": "411acbc7769a1d2567451707f61f7f6e8bc2e32a662bf6a5369b26df84e0fc78"
+            }
+          ],
+          "prior_year": 2024,
+          "review_2015": "Sem alteração material desta dimensão após confronto da tese anterior com os fatos descritos na atualização de 2015. ReconhecimentoCVAinicial1.033,866mi e impairmentgeração807,3mi coexistem em2014. CAPEX2.469mi,+39%;1T15 lucrototal469,991mi vs583,050mi. Não adicionar impairment nem extrapolarCVA.",
+          "review_2016": "Controle estadual e conflitos potenciais já registrados permanecem sob a mesma estrutura. A documentação revisada não resolve a evidência pendente de decisões entre controlador, expansão e minoritários.",
+          "review_2017": "Estrutura estadual e conflitos já documentados continuam relevantes; contratos/covenants explicitados não resolvem sozinhos prova de alocação independente para minoritários.",
+          "review_2018": "Controle estatal, decisões de investimento e pleitos regulatórios continuam os contrapontos específicos. A liminar reduz uma incerteza operacional, não resolve governança dos investimentos; mantém ND.",
+          "review_2019": "Controle estatal, decisões de investimento e pleitos regulatórios continuam sendo os contrapontos. A liminar de Colíder é provisória; entregas não resolvem a proteção econômica dos minoritários nem o retorno das decisões passadas. Mantém ND específico.",
+          "review_2020": "Controle estatal e partes relacionadas não são reprovação automática. A pendência anterior de decisões de capital/garantias e proteçãoPN permanece específica; novos projetos com impairment não fornecem a prova necessária de alinhamento econômico. MantémND.",
+          "review_2021": "Conversão voluntária/unitizaçãoabril2021 altera classes; não é diluição automática. Mantém pendênciaespecífica de decisões de capital/garantias e proteção dasclasses apósimpairments, sem repetir capitalantigo como fatoatual.",
+          "review_2022": "MantémND específico de proteção econômica nas decisões de capital/classes e passivos históricos. Conversão/unitização não é diluição automática nem prova de proteção; transparência da venda atualiza o dossiê.",
+          "review_2023": "ND atualizado: transformação emcorporação e termos de outorga ainda emandamento noITR, embora autorizados/iniciados. Proteção econômica/classes e passivos anteriores continuam exigindo análise; não antecipa privatização concluída.",
+          "review_2024": "Transformação em corporação efetiva em 11/08/2023; limite de 10% dos votos e golden share com vetos delimitados são salvaguardas. Novas outorgas e plano de ações com diluição máxima de 1% exigem avaliar comutatividade.",
+          "review_2025": "Corpor ação/limite de votos/golden share anteriores mantidos; termos de outorgas e incentivos precisam continuar comutativos. Propostas societárias posteriores ao corte não entram."
+        }
+      },
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "Energia DIS 6.198 TWh+9,2% e GET 4.720 TWh+1,4%; capacidade redes permanece. Compagas descontinuada agora concluída, altera perímetro de gás.",
+          "evidence": [
+            {
+              "docid": "147138",
+              "group": 192,
+              "pages": [
+                1,
+                2
+              ],
+              "received": "2025-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147138",
+              "original": "review_originals/cvm_147138_g192.pdf.gz",
+              "original_sha256": "7856d66da0839723835b8cb7d3883997a23237352e79edbb031cb224f23e32c9"
+            },
+            {
+              "docid": "147138",
+              "group": 193,
+              "pages": [
+                6,
+                25,
+                37
+              ],
+              "received": "2025-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147138",
+              "original": "review_originals/cvm_147138_g193.pdf.gz",
+              "original_sha256": "411acbc7769a1d2567451707f61f7f6e8bc2e32a662bf6a5369b26df84e0fc78"
             }
           ]
         },
         "capital_economics": {
-          "favorable": {
-            "roe_parent_5": [
-              0.2098383229389282,
-              0.23698712811603273,
-              0.052140333135245076,
-              0.10105737318162238,
-              0.11338101785983544
-            ],
-            "normalized_profit": 2886771073.7750206
-          },
+          "favorable": "CAPEXDIS 596,6 mi e energiaeólica+11,7% não demonstram isoladamente retorno incremental após outorgas/financiamento. ND anterior permanece específico.",
           "evidence": [
             {
-              "fiscal_year": 2020,
-              "metric": "attributable_ni",
-              "value": 3904202000.0,
-              "docid": "112827",
-              "received": "2022-03-22",
-              "reference": "2021-12-31",
-              "period_end": "2020-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2021.csv",
-              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+              "docid": "147138",
+              "group": 192,
+              "pages": [
+                1,
+                2
+              ],
+              "received": "2025-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147138",
+              "original": "review_originals/cvm_147138_g192.pdf.gz",
+              "original_sha256": "7856d66da0839723835b8cb7d3883997a23237352e79edbb031cb224f23e32c9"
             },
             {
-              "fiscal_year": 2021,
-              "metric": "attributable_ni",
-              "value": 4952573000.0,
-              "docid": "124426",
-              "received": "2023-03-21",
-              "reference": "2022-12-31",
-              "period_end": "2021-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2022.csv",
-              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
-            },
-            {
-              "fiscal_year": 2022,
-              "metric": "attributable_ni",
-              "value": 1112007000.0,
-              "docid": "134367",
-              "received": "2024-02-29",
-              "reference": "2023-12-31",
-              "period_end": "2022-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "fiscal_year": 2023,
-              "metric": "attributable_ni",
-              "value": 2258810000.0,
-              "docid": "145117",
-              "received": "2025-02-27",
-              "reference": "2024-12-31",
-              "period_end": "2023-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "fiscal_year": 2024,
-              "metric": "attributable_ni",
-              "value": 2809631000.0,
-              "docid": "145117",
-              "received": "2025-02-27",
-              "reference": "2024-12-31",
-              "period_end": "2024-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+              "docid": "147138",
+              "group": 193,
+              "pages": [
+                6,
+                25,
+                37
+              ],
+              "received": "2025-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147138",
+              "original": "review_originals/cvm_147138_g193.pdf.gz",
+              "original_sha256": "411acbc7769a1d2567451707f61f7f6e8bc2e32a662bf6a5369b26df84e0fc78"
             }
           ]
         },
         "earnings_reliability": {
-          "favorable": {
-            "positive_attributable_years": 5,
-            "audit_records": 10
-          },
+          "favorable": "UEGA/Compagas e comparativos descontinuados discriminados; Compagas conta a receber atésetembro/2026, não preço integral recebido no corte.",
           "evidence": [
             {
-              "docid": "145117",
-              "received": "2025-02-27",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+              "docid": "147138",
+              "group": 192,
+              "pages": [
+                1,
+                2
+              ],
+              "received": "2025-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147138",
+              "original": "review_originals/cvm_147138_g192.pdf.gz",
+              "original_sha256": "7856d66da0839723835b8cb7d3883997a23237352e79edbb031cb224f23e32c9"
             },
             {
-              "docid": "145117",
-              "received": "2025-02-27",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "145117",
-              "received": "2025-02-27",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "145117",
-              "received": "2025-02-27",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "145117",
-              "received": "2025-02-27",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "145117",
-              "received": "2025-02-27",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "145117",
-              "received": "2025-02-27",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "145117",
-              "received": "2025-02-27",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "145117",
-              "received": "2025-02-27",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "145117",
-              "received": "2025-02-27",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+              "docid": "147138",
+              "group": 193,
+              "pages": [
+                6,
+                25,
+                37
+              ],
+              "received": "2025-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147138",
+              "original": "review_originals/cvm_147138_g193.pdf.gz",
+              "original_sha256": "411acbc7769a1d2567451707f61f7f6e8bc2e32a662bf6a5369b26df84e0fc78"
             }
           ]
         },
         "financial_resilience": {
-          "favorable": {
-            "parent_equity_latest": 25674718000.0
-          },
+          "favorable": "Notas distinguem contas a receber, financiamento e outorgas; recebe análise anterior SAT com riscos de financiamento e contratos ainda materiais. Preço de alienação futuro não é caixa atual.",
           "evidence": [
             {
-              "docid": "145117",
-              "received": "2025-02-27",
-              "reference": "2024-12-31",
-              "period_end": "2024-12-31",
-              "perimeter": "ind",
-              "account": "2.03",
-              "description": "Patrimônio Líquido",
-              "source": "dfp_cia_aberta_BPP_ind_2024.csv",
-              "archive_sha256": "",
-              "url": ""
+              "docid": "147138",
+              "group": 192,
+              "pages": [
+                1,
+                2
+              ],
+              "received": "2025-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147138",
+              "original": "review_originals/cvm_147138_g192.pdf.gz",
+              "original_sha256": "7856d66da0839723835b8cb7d3883997a23237352e79edbb031cb224f23e32c9"
+            },
+            {
+              "docid": "147138",
+              "group": 193,
+              "pages": [
+                6,
+                25,
+                37
+              ],
+              "received": "2025-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147138",
+              "original": "review_originals/cvm_147138_g193.pdf.gz",
+              "original_sha256": "411acbc7769a1d2567451707f61f7f6e8bc2e32a662bf6a5369b26df84e0fc78"
             }
           ]
         },
         "capital_allocation": {
-          "favorable": {
-            "historical_payout": [
-              0.2703,
-              0.65,
-              null,
-              null,
-              null
-            ],
-            "distributions": [
-              2526005856.23,
-              3088487160.06,
-              null,
-              null,
-              null
-            ]
-          },
+          "favorable": "Desinvestimento Compagas efetivo resolve condição anterior, mas não retorno do capital adicional nas novas outorgas/ativos. Não presumir sucesso do plano por mudança societária.",
           "evidence": [
             {
-              "docid": "125885",
-              "received": "2023-05-08",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
-              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=125885",
-              "fiscal_year": 2020,
-              "raw": {
-                "CNPJ_Companhia": "76.483.817/0001-20",
-                "Data_Referencia": "2022-01-01",
-                "Versao": "6",
-                "ID_Documento": "125885",
-                "Nome_Companhia": "CIA PARANAENSE DE ENERGIA - COPEL",
-                "Data_Inicio_Exercicio_Social": "2020-01-01",
-                "Data_Fim_Exercicio_Social": "2020-12-31",
-                "Lucro_Liquido_Ajustado": "3768622370.35",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "0.19277600",
-                "Lucro_Liquido_Retido": "2945275647.05",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "27.03000000",
-                "Dividendo_Distribuido_Total": "2526005856.23",
-                "Data_Aprovacao_Retencao": "2021-04-29"
-              }
+              "docid": "147138",
+              "group": 192,
+              "pages": [
+                1,
+                2
+              ],
+              "received": "2025-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147138",
+              "original": "review_originals/cvm_147138_g192.pdf.gz",
+              "original_sha256": "7856d66da0839723835b8cb7d3883997a23237352e79edbb031cb224f23e32c9"
             },
             {
-              "docid": "125885",
-              "received": "2023-05-08",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
-              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=125885",
-              "fiscal_year": 2021,
-              "raw": {
-                "CNPJ_Companhia": "76.483.817/0001-20",
-                "Data_Referencia": "2022-01-01",
-                "Versao": "6",
-                "ID_Documento": "125885",
-                "Nome_Companhia": "CIA PARANAENSE DE ENERGIA - COPEL",
-                "Data_Inicio_Exercicio_Social": "2021-01-01",
-                "Data_Fim_Exercicio_Social": "2021-12-31",
-                "Lucro_Liquido_Ajustado": "4751518707.78",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "0.22333800",
-                "Lucro_Liquido_Retido": "2193833549.28",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "65.00000000",
-                "Dividendo_Distribuido_Total": "3088487160.06",
-                "Data_Aprovacao_Retencao": "2021-04-29"
-              }
+              "docid": "147138",
+              "group": 193,
+              "pages": [
+                6,
+                25,
+                37
+              ],
+              "received": "2025-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147138",
+              "original": "review_originals/cvm_147138_g193.pdf.gz",
+              "original_sha256": "411acbc7769a1d2567451707f61f7f6e8bc2e32a662bf6a5369b26df84e0fc78"
             }
           ]
         },
         "governance": {
-          "favorable": {
-            "dated_shareholder_right_records": 42,
-            "dated_related_party_records": 1416
-          },
+          "favorable": "Corpor ação/limite de votos/golden share anteriores mantidos; termos de outorgas e incentivos precisam continuar comutativos. Propostas societárias posteriores ao corte não entram.",
           "evidence": [
             {
-              "docid": "145117",
-              "received": "2025-02-27",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+              "docid": "147138",
+              "group": 192,
+              "pages": [
+                1,
+                2
+              ],
+              "received": "2025-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147138",
+              "original": "review_originals/cvm_147138_g192.pdf.gz",
+              "original_sha256": "7856d66da0839723835b8cb7d3883997a23237352e79edbb031cb224f23e32c9"
             },
             {
-              "docid": "145117",
-              "received": "2025-02-27",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "145117",
-              "received": "2025-02-27",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "145117",
-              "received": "2025-02-27",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "145117",
-              "received": "2025-02-27",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "145117",
-              "received": "2025-02-27",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "145117",
-              "received": "2025-02-27",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "145117",
-              "received": "2025-02-27",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "145117",
-              "received": "2025-02-27",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "145117",
-              "received": "2025-02-27",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+              "docid": "147138",
+              "group": 193,
+              "pages": [
+                6,
+                25,
+                37
+              ],
+              "received": "2025-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147138",
+              "original": "review_originals/cvm_147138_g193.pdf.gz",
+              "original_sha256": "411acbc7769a1d2567451707f61f7f6e8bc2e32a662bf6a5369b26df84e0fc78"
             }
           ]
         }

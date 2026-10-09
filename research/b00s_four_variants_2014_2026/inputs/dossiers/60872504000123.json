@@ -7065,535 +7065,321 @@
       "ticker": "ITUB4",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": null,
-      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
-      "classification_changed": null,
-      "dimensions": {},
-      "dimension_evidence_updates": {
+      "assessment_ref": "60872504000123:2025",
+      "assessment_status": "ASSESSED",
+      "classification_changed": true,
+      "dimensions": {
         "durability": {
-          "favorable": "A sociedade tem por objeto a atividade bancária em todas as modalidades autorizadas, inclusive a de operações de câmbio.",
+          "status": "SATISFACTORY",
+          "reason": "Crédito 1,4 tri+13,2% efranquia de serviços/banco preservada. Brasil+12,3%/América Latina+17,6%; concentração ejuros maiores permanecem riscos.",
+          "favorable": "Crédito 1,4 tri+13,2% efranquia de serviços/banco preservada. Brasil+12,3%/América Latina+17,6%; concentração ejuros maiores permanecem riscos.",
+          "contrary_evidence": "Bonificação altera a base por ação; a continuidade do lucro bancário não resolve por si a pendência de comutatividade das estruturas relacionadas registrada no dossiê anterior.",
+          "missing": "",
           "evidence": [
             {
-              "cnpj": "60872504000123",
-              "received": "2025-03-11",
-              "name": "ITAU UNIBANCO HOLDING S.A.",
-              "sector": "Bancos",
-              "activity": "A sociedade tem por objeto a atividade bancária em todas as modalidades autorizadas, inclusive a de operações de câmbio.",
-              "cvm": "019348",
-              "docid": "145293",
-              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=145293"
+              "docid": "147122",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                4,
+                8,
+                10
+              ],
+              "received": "2025-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147122",
+              "original": "review_originals/cvm_147122_g192.pdf.gz",
+              "original_sha256": "af8cd94fe7614b535dd7d16b9e643924e4e70aba92a67357d138d10ffb0e76d3"
+            }
+          ],
+          "prior_year": 2024,
+          "review_2019": "A carteira ampliada alcança R$647,1 bilhões no1T19, com expansão de pessoas físicas e pequenas/médias empresas. A franquia diversificada e os canais de serviços sustentam durabilidade. XP permanece participação minoritária, sem afirmar aquisição do controle.",
+          "review_2020": "A franquia bancária diversificada continua: carteira ampliada R$769,2 bilhões, receitas de serviços R$9,5 bilhões e captação de clientes 28,2% superior a dezembro. A escala de depósitos e distribuição persiste apesar de menor atividade em cartões e adquirência.",
+          "review_2021": "A franquia mantém escala e diversidade de crédito, serviços e seguros: carteira ampliada de R$ 906,4 bilhões, 23 milhões de clientes digitais PF e 1,2 milhão PJ. A distribuição digital amplia canais de uma base bancária já examinada.",
+          "review_2022": "Franquia bancária diversificada continua; carteira 1,0272 tri em 2021. Cisão XPart concluída e aumento de controle Corp Banca mudam participações, sem eliminar a base principal.",
+          "review_2023": "Franquia diversificada mantém carteira expandida 1, 2 trilhão no 1T23, crescimento 11, 7%anual, e receitas de serviços/cartões. Ideal 50, 1% foi adquirida 31/03/2023; incremento não é necessário para justificar durabilidade da franquia preexistente.",
+          "review_2024": "Carteira total1,2 trilhão e expansão em todos segmentos brasileiros preservam franquia; câmbio influencia comparação internacional.",
+          "review_2025": "Crédito 1,4 tri+13,2% efranquia de serviços/banco preservada. Brasil+12,3%/América Latina+17,6%; concentração ejuros maiores permanecem riscos."
+        },
+        "capital_economics": {
+          "status": "SATISFACTORY",
+          "reason": "Recorrente 11,1 bi+13,9%/ROE 22,5%, IFRS e lucrocontábil não igualamgerencial. Custo crédito 9 bi+2,1% mantém perdaefetiva; satisfatório econômicoanterior conservado.",
+          "favorable": "Recorrente 11,1 bi+13,9%/ROE 22,5%, IFRS e lucrocontábil não igualamgerencial. Custo crédito 9 bi+2,1% mantém perdaefetiva; satisfatório econômicoanterior conservado.",
+          "contrary_evidence": "Bonificação altera a base por ação; a continuidade do lucro bancário não resolve por si a pendência de comutatividade das estruturas relacionadas registrada no dossiê anterior.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "147122",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                4,
+                8,
+                10
+              ],
+              "received": "2025-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147122",
+              "original": "review_originals/cvm_147122_g192.pdf.gz",
+              "original_sha256": "af8cd94fe7614b535dd7d16b9e643924e4e70aba92a67357d138d10ffb0e76d3"
+            }
+          ],
+          "prior_year": 2024,
+          "review_2019": "Lucro contábil BRGAAP de R$6,7 bilhões e recorrente de R$6,9 bilhões, ROE recorrente anualizado de23,6%, sustentam retorno econômico coerente com capital e risco. A melhora com clientes contrasta com queda de28,4% da margem com mercado; não misturar lucro IFRS e denominador BRGAAP.",
+          "review_2020": "Reavaliação mantém economia de capital satisfatória no contexto da franquia e série examinada, com o contraponto atual de forte queda do lucro: lucro contábil BRGAAP R$3,4 bilhões, recorrente R$3,9 bilhões e ROE recorrente 12,8%. Não se apresenta o recorrente como lucro IFRS nem se extrapola a rentabilidade trimestral como sustentável.",
+          "review_2021": "Economia de capital permanece SAT com lucro BRGAAP de R$ 5,4 bilhões e recorrente gerencial de R$ 6,4 bilhões/ROE18,5% anualizado no1T21, sem tratar a recuperação frente à base pandêmica como normalização automática.",
+          "review_2022": "Resultado gerencial recorrente 26,9 bi e retorno 19,3% em 2021 são identificados como métricas gerenciais. Sustentam continuidade qualitativa junto às contas IFRS, sem converter ajustes em piso econômico.",
+          "review_2023": "Mantém SAT com resultado IFR Satribuível 7, 355 bi no 1T23 versus 6, 668 bi na base reapresentada; os 8, 4 bi e ROE 20, 7% são gerenciais e não substituem IFRS. Margem com clientes cresce 20%, enquanto custo de crédito gerencial 9, 1 bi cresce 30, 4% e margem de mercado cai 36%. Não remover perda de cliente específico nem converter RO Egerencial em critério universal.",
+          "review_2024": "Resultado gerencial recorrente9,8 bi/ROE21,9% e margem com clientes25,8 bi indicam operação produtiva. IFRS e custos Argentina/perímetro precisam separar; não usar apenas ROE gerencial para certificar valuation.",
+          "review_2025": "Recorrente 11,1 bi+13,9%/ROE 22,5%, IFRS e lucrocontábil não igualamgerencial. Custo crédito 9 bi+2,1% mantém perdaefetiva; satisfatório econômicoanterior conservado."
+        },
+        "earnings_reliability": {
+          "status": "SATISFACTORY",
+          "reason": "4.966 prospectiva sem efeito material declarado; bonificação 10% em 20/03/2025 ajusta LPA/açõescomparativas. Não calcular crescimento por ação usando denominadores nãoajustados.",
+          "favorable": "4.966 prospectiva sem efeito material declarado; bonificação 10% em 20/03/2025 ajusta LPA/açõescomparativas. Não calcular crescimento por ação usando denominadores nãoajustados.",
+          "contrary_evidence": "Bonificação altera a base por ação; a continuidade do lucro bancário não resolve por si a pendência de comutatividade das estruturas relacionadas registrada no dossiê anterior.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "147122",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                4,
+                8,
+                10
+              ],
+              "received": "2025-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147122",
+              "original": "review_originals/cvm_147122_g192.pdf.gz",
+              "original_sha256": "af8cd94fe7614b535dd7d16b9e643924e4e70aba92a67357d138d10ffb0e76d3"
+            }
+          ],
+          "prior_year": 2024,
+          "review_2019": "O relatório apresenta separadamente lucro contábil/recorrente, margem com clientes/mercado e custo de crédito de R$3,8 bilhões. Mantém a confiabilidade com ajuste prudente de ciclo e sem tratar desdobramento em50% como aumento econômico por ação.",
+          "review_2020": "O relatório distingue lucro contábil do recorrente, identifica custo de crédito R$10,1 bilhões e margem com mercado menor. Notas explicam o ganho de R$1,991 bilhão na diluição da participação na XP em dezembro de 2019, isolado do resultado bancário ordinário. A divulgação permite avaliar os componentes e manter o juízo qualitativo sem certificar mediana de valuation.",
+          "review_2021": "Conciliações atuais separam BRGAAP, IFRS e gerencial. DFP2020IFRS explicita ganhos XP de R$ 3,996 bilhões por alienação e R$ 545 milhões por diluição, enquanto o impairment CorpBanca foi R$ 5,772 bilhões em ágio e R$ 789 milhões em intangíveis. Mantém SAT de divulgação/confiabilidade sem certificar lucro econômico pontual.",
+          "review_2022": "A cisão XPart foi concluída e a participação antiga XP saiu do banco. Porém ITR p 234 informa nova aquisição de 11,36% por 8 bi efetivada 29/04/2022; não manter descrição pendente nem concluir que XP permanece ausente do perímetro. Ganhos das vendas anteriores, impairment Corp Banca e bases IFRS/gerencial seguem separados.",
+          "review_2023": "IFRS 17 usa retrospectiva modificada e divulga redução 318 mi no P Latribuível deabertura 2022; a ponte 1T23 B Rindividual 7, 773 para IFRS 7, 355 bi diferencia crédito, valorjusto e hedge. XP 11, 36% compradoem 2022 e posteriorvenda 1, 40% são separados de X Part 2021. Reconciliação conhecida permite SAT sem certificar os cinco lucros normalizados nem reescrever cortes anteriores.",
+          "review_2024": "Notas reconciliam lucro atribuível IFRS e BRGAAP, efeitos de hiperinflação/hedge e critérios de perda. Ganhos fiscais e alienações não entram automaticamente no lucro econômico recorrente.",
+          "review_2025": "4.966 prospectiva sem efeito material declarado; bonificação 10% em 20/03/2025 ajusta LPA/açõescomparativas. Não calcular crescimento por ação usando denominadores nãoajustados."
+        },
+        "financial_resilience": {
+          "status": "SATISFACTORY",
+          "reason": "NI 14,1%; custos/provisões de crédito eeficiência 39,4%12 meses contrapõem resultado. Índice prudencial continuaapoio da avaliação anterior, sem assumir ausência derisco.",
+          "favorable": "NI 14,1%; custos/provisões de crédito eeficiência 39,4%12 meses contrapõem resultado. Índice prudencial continuaapoio da avaliação anterior, sem assumir ausência derisco.",
+          "contrary_evidence": "Bonificação altera a base por ação; a continuidade do lucro bancário não resolve por si a pendência de comutatividade das estruturas relacionadas registrada no dossiê anterior.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "147122",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                4,
+                8,
+                10
+              ],
+              "received": "2025-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147122",
+              "original": "review_originals/cvm_147122_g192.pdf.gz",
+              "original_sha256": "af8cd94fe7614b535dd7d16b9e643924e4e70aba92a67357d138d10ffb0e76d3"
+            }
+          ],
+          "prior_year": 2024,
+          "review_2019": "Capital Principal13,3%, Nível I14,6% e Basileia16,0%, com ACP3,5% e requerimento total11,5%, demonstram folga. O excedente R$66,151 bilhões antes de ACP supera ACP R$28,834 bilhões. A queda de capital acompanha dividendos adicionais; NPL90 dias3,0% versus2,9% em dezembro exige acompanhamento.",
+          "review_2020": "PR R$139,218 bilhões, CET1 10,3%, Nível I 12,0% e Basileia 13,3% em março de 2020; RWA R$1.043,517 bilhões e folga de R$19,214 bilhões após o ACP divulgado. Funding de clientes cresceu e capital prudencial permanece acima dos requisitos, embora com menor margem. Não se presume que provisões já cubram toda a pandemia.",
+          "review_2021": "Em31/03/2021 PR de R$ 155,280 bilhões/RWA R$ 1.072,193 bilhões; CET1 de 11,3%, Nível I13,0% e Basileia 14,5%. ACP total2,25% àquela data (conservação1,25%+sistêmico1%); a nota explicita recomposição gradual, não adota mínimo aliviado indefinidamente. Inadimplência90dias2,3%, com carteira ampliada e provisões acompanhadas.",
+          "review_2022": "Mantém SAT com folga menor: março Basileia 13,9%, Nível I 12,5%, CET1 11,1%; folga de PR 69,057 bi antes de adicionais 34,930 bi deixa 34,127 bi após adicionais. Compra XP 8 bi efetivada 29/04 e compromisso Techfin 610 mi mais earn-out até 450 mi são considerados usos, não caixa disponível. A folga de março excede esses desembolsos identificados; não se inventa índice prudencial pós-compra. Corp Banca Colômbia/PDV e menor dívida N1/N2 reduziram capital no trimestre.",
+          "review_2023": "Basileia 15, 0%, Nível I 13, 5%, CET 112, 0% emmarço; PR 188, 752 bi e RWA 1.260, 433 bi. Folga 87, 917 bi antes ACP 44, 115 bi deixa 43, 802 bi apósadicionais, sem confundircomcaixa. Ideal 700 mi já está executada; Techfin 610 mi maisaté 450 mi e funding, e Avenue 493 mi de primeira etapa ainda condicionados nas notas. A folga e operação sustentam SAT com crédito piorando.",
+          "review_2024": "Basileia16,4%, NI14,5%; folga PRmínimo104,399 bi maior que ACP43,525 bi. Dividendos/crescimento reduziram índice0,6pp mas capital disponível preserva adicionais; subordinadas e risco de crédito explicitados.",
+          "review_2025": "NI 14,1%; custos/provisões de crédito eeficiência 39,4%12 meses contrapõem resultado. Índice prudencial continuaapoio da avaliação anterior, sem assumir ausência derisco."
+        },
+        "capital_allocation": {
+          "status": "SATISFACTORY",
+          "reason": "Bonificação não é capitalnovo; recorrentelucrativo econtinuidade decrédito sustentam alocação SAT anterior. Não tratar bonificação como diluição invalidante.",
+          "favorable": "Bonificação não é capitalnovo; recorrentelucrativo econtinuidade decrédito sustentam alocação SAT anterior. Não tratar bonificação como diluição invalidante.",
+          "contrary_evidence": "Bonificação altera a base por ação; a continuidade do lucro bancário não resolve por si a pendência de comutatividade das estruturas relacionadas registrada no dossiê anterior.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "147122",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                4,
+                8,
+                10
+              ],
+              "received": "2025-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147122",
+              "original": "review_originals/cvm_147122_g192.pdf.gz",
+              "original_sha256": "af8cd94fe7614b535dd7d16b9e643924e4e70aba92a67357d138d10ffb0e76d3"
+            }
+          ],
+          "prior_year": 2024,
+          "review_2019": "XP fechou em31/08/2018 por R$6,650 bilhões por49,9% do total/30,1% das ON, mantendo controle com XP; eventual etapa2022 depende de nova aprovação e não é assumida concluída. CorpBanca passou a38,14% por compra adicional de R$362,9 milhões. A política de dividendos condiciona pagamentos a Nível I Full13,5%, comparado a14,6% atual, e a perspectivas/obrigações; mantém SAT sem certificar retorno incremental dessas aquisições.",
+          "review_2020": "A franquia e disciplina de capital previamente examinadas seguem sustentadas por controles atuais, divulgação da diluição da XP e reforço de liquidez. Programas de renegociação e apoio a pequenas empresas respondem à crise com custos explícitos; futuras aquisições sujeitas a autorização não são tratadas como fechadas ou geradoras de retorno.",
+          "review_2021": "Mantém SAT no conjunto, com contraponto material novo: baixa IFRS de R$ 6,561 bilhões ligada à CorpBanca revela deterioração do valor da aquisição. A compra adicional de 1,08% por R$ 229 milhões em setembro2020 e a distribuição futura de XPart são explicitadas. Não se classifica isoladamente um impairment no choque como falha estrutural de toda política de capital.",
+          "review_2022": "Mantém SAT com contrapontos atuais: subscrição Corp Banca 4,296 bi elevou participação 56,60%; XPart entregue aos acionistas; nova tranche XP 11,36% por 8 bi efetivada 29/04 cumpre contrato original. Techfin 50% prevê 610 mi, earn-out até 450 mi e funding, condicionado a aprovações. Continuidade da franquia e capacidade de capital sustentam juízo, sem presumir sinergias ou retorno incremental alto.",
+          "review_2023": "Atualiza operações efetivas: Corp Banca/Chile 65, 62% desdejulho 2022 por reestruturação de dívida e término do acordo antigo; Ideal 50, 1%700 mi concluída 31/03/2023. X Pcomprado 8, 015 bi e venda parcial 867 mi em 2022 não são projeções; Techfin e Avenue ainda dependem das aprovações na informação examinada. SAT com controle de capital, sem presumir sinergias ou devolver impairment histórico.",
+          "review_2024": "JCP aprovado0,2418 por ação em04/03, capitalização e execução de carteira compatíveis com folga corrente. Retorno prometido de novas iniciativas não substitui resultados observados; mantém classificação histórica de alocação.",
+          "review_2025": "Bonificação não é capitalnovo; recorrentelucrativo econtinuidade decrédito sustentam alocação SAT anterior. Não tratar bonificação como diluição invalidante."
+        },
+        "governance": {
+          "status": "INDETERMINATE",
+          "reason": "Documentos AGOsocial/riscos conhecidos não resolvem integralmente a pendência econômica de estruturasrelacionadas do dossiê. ND específico preservado, sem presumir fraude ou garantir relaçãoexterna indevidamente.",
+          "favorable": "Documentos AGOsocial/riscos conhecidos não resolvem integralmente a pendência econômica de estruturasrelacionadas do dossiê. ND específico preservado, sem presumir fraude ou garantir relaçãoexterna indevidamente.",
+          "contrary_evidence": "Bonificação altera a base por ação; a continuidade do lucro bancário não resolve por si a pendência de comutatividade das estruturas relacionadas registrada no dossiê anterior.",
+          "missing": "Documentos AGOsocial/riscos conhecidos não resolvem integralmente a pendência econômica de estruturasrelacionadas do dossiê. ND específico preservado, sem presumir fraude ou garantir relaçãoexterna indevidamente.",
+          "evidence": [
+            {
+              "docid": "147122",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                4,
+                8,
+                10
+              ],
+              "received": "2025-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147122",
+              "original": "review_originals/cvm_147122_g192.pdf.gz",
+              "original_sha256": "af8cd94fe7614b535dd7d16b9e643924e4e70aba92a67357d138d10ffb0e76d3"
+            }
+          ],
+          "prior_year": 2024,
+          "review_2019": "Governança continua ND pela pendência material BankBoston já documentada no dossiê anterior; os documentos atuais não certificam encerramento. AGO/Conselho Fiscal e transparência sobre a independência de XP são contrapontos. Não se converte silêncio do ITR em prova de nova irregularidade nem em absolvição.",
+          "review_2020": "A estrutura de controle e auditoria permanece documentada, mas não se identificou nas demonstrações atuais prova de encerramento da pendência específica BankBoston/Zelotes anteriormente registrada. A continuidade dos controles favorece o juízo sem converter ausência de atualização textual em prova de absolvição.",
+          "review_2021": "A composição do conselho/comitê, controles e tratamento proporcional da XPart são atualizados. Governança continua ND pela controvérsia específica BankBoston/Zelotes examinada antes: os documentos atuais consultados não esclarecem seu desfecho, e silêncio não prova nem absolvição nem agravamento.",
+          "review_2022": "Reutiliza pendência Bank Boston sem inferir resolução da ausência de menção na DFP. A documentação das operações XP/Corp Banca melhora visibilidade, mas não encerra a questão material anterior.",
+          "review_2023": "Mantém ND da controvérsia específica Bank Boston, sem presumir resolução pelo silêncio da DFP/ITR. Evidência nova de controle e divulgação de XP/Corp Banca/Ideal é favorável, mas não encerra aquela pendência. Nenhum fato posterior ao corte é utilizado.",
+          "review_2024": "Pendências históricas específicas de acordos/contingências não são resolvidas por maior lucro ou por ausência de notícia nova. Divulgação de riscos e partes relacionadas favorece, mas exige desfecho contemporâneo para mudar ND anterior.",
+          "review_2025": "Documentos AGOsocial/riscos conhecidos não resolvem integralmente a pendência econômica de estruturasrelacionadas do dossiê. ND específico preservado, sem presumir fraude ou garantir relaçãoexterna indevidamente."
+        }
+      },
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "Crédito 1,4 tri+13,2% efranquia de serviços/banco preservada. Brasil+12,3%/América Latina+17,6%; concentração ejuros maiores permanecem riscos.",
+          "evidence": [
+            {
+              "docid": "147122",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                4,
+                8,
+                10
+              ],
+              "received": "2025-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147122",
+              "original": "review_originals/cvm_147122_g192.pdf.gz",
+              "original_sha256": "af8cd94fe7614b535dd7d16b9e643924e4e70aba92a67357d138d10ffb0e76d3"
             }
           ]
         },
         "capital_economics": {
-          "favorable": {
-            "roe_parent_5": [
-              0.1405204820352268,
-              0.19028453795913433,
-              0.1904820911486187,
-              0.19213302186561426,
-              0.21362444007102616
-            ],
-            "normalized_profit": 32912456895.52771
-          },
+          "favorable": "Recorrente 11,1 bi+13,9%/ROE 22,5%, IFRS e lucrocontábil não igualamgerencial. Custo crédito 9 bi+2,1% mantém perdaefetiva; satisfatório econômicoanterior conservado.",
           "evidence": [
             {
-              "fiscal_year": 2020,
-              "metric": "attributable_ni",
-              "value": 18896000000.0,
-              "docid": "111702",
-              "received": "2022-02-10",
-              "reference": "2021-12-31",
-              "period_end": "2020-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2021.csv",
-              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
-            },
-            {
-              "fiscal_year": 2021,
-              "metric": "attributable_ni",
-              "value": 26760000000.0,
-              "docid": "123392",
-              "received": "2023-02-07",
-              "reference": "2022-12-31",
-              "period_end": "2021-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2022.csv",
-              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
-            },
-            {
-              "fiscal_year": 2022,
-              "metric": "attributable_ni",
-              "value": 29207000000.0,
-              "docid": "133853",
-              "received": "2024-02-05",
-              "reference": "2023-12-31",
-              "period_end": "2022-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "fiscal_year": 2023,
-              "metric": "attributable_ni",
-              "value": 33105000000.0,
-              "docid": "144592",
-              "received": "2025-02-05",
-              "reference": "2024-12-31",
-              "period_end": "2023-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "fiscal_year": 2024,
-              "metric": "attributable_ni",
-              "value": 41085000000.0,
-              "docid": "144592",
-              "received": "2025-02-05",
-              "reference": "2024-12-31",
-              "period_end": "2024-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+              "docid": "147122",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                4,
+                8,
+                10
+              ],
+              "received": "2025-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147122",
+              "original": "review_originals/cvm_147122_g192.pdf.gz",
+              "original_sha256": "af8cd94fe7614b535dd7d16b9e643924e4e70aba92a67357d138d10ffb0e76d3"
             }
           ]
         },
         "earnings_reliability": {
-          "favorable": {
-            "positive_attributable_years": 5,
-            "audit_records": 13
-          },
+          "favorable": "4.966 prospectiva sem efeito material declarado; bonificação 10% em 20/03/2025 ajusta LPA/açõescomparativas. Não calcular crescimento por ação usando denominadores nãoajustados.",
           "evidence": [
             {
-              "docid": "144592",
-              "received": "2025-02-05",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "144592",
-              "received": "2025-02-05",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "144592",
-              "received": "2025-02-05",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "144592",
-              "received": "2025-02-05",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "144592",
-              "received": "2025-02-05",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "144592",
-              "received": "2025-02-05",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "144592",
-              "received": "2025-02-05",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "144592",
-              "received": "2025-02-05",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "144592",
-              "received": "2025-02-05",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "144592",
-              "received": "2025-02-05",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "144592",
-              "received": "2025-02-05",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "144592",
-              "received": "2025-02-05",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "144592",
-              "received": "2025-02-05",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+              "docid": "147122",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                4,
+                8,
+                10
+              ],
+              "received": "2025-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147122",
+              "original": "review_originals/cvm_147122_g192.pdf.gz",
+              "original_sha256": "af8cd94fe7614b535dd7d16b9e643924e4e70aba92a67357d138d10ffb0e76d3"
             }
           ]
         },
         "financial_resilience": {
-          "favorable": {
-            "parent_equity_latest": 202142000000.0
-          },
+          "favorable": "NI 14,1%; custos/provisões de crédito eeficiência 39,4%12 meses contrapõem resultado. Índice prudencial continuaapoio da avaliação anterior, sem assumir ausência derisco.",
           "evidence": [
             {
-              "docid": "144592",
-              "received": "2025-02-05",
-              "reference": "2024-12-31",
-              "period_end": "2024-12-31",
-              "perimeter": "ind",
-              "account": "2.05",
-              "description": "Patrimônio Líquido",
-              "source": "dfp_cia_aberta_BPP_ind_2024.csv",
-              "archive_sha256": "",
-              "url": ""
+              "docid": "147122",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                4,
+                8,
+                10
+              ],
+              "received": "2025-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147122",
+              "original": "review_originals/cvm_147122_g192.pdf.gz",
+              "original_sha256": "af8cd94fe7614b535dd7d16b9e643924e4e70aba92a67357d138d10ffb0e76d3"
             }
           ]
         },
         "capital_allocation": {
-          "favorable": {
-            "historical_payout": [
-              0.25,
-              0.25,
-              null,
-              null,
-              null
-            ],
-            "distributions": [
-              4503000000.0,
-              6231000000.0,
-              null,
-              null,
-              null
-            ]
-          },
+          "favorable": "Bonificação não é capitalnovo; recorrentelucrativo econtinuidade decrédito sustentam alocação SAT anterior. Não tratar bonificação como diluição invalidante.",
           "evidence": [
             {
-              "docid": "127205",
-              "received": "2023-05-24",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
-              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=127205",
-              "fiscal_year": 2020,
-              "raw": {
-                "CNPJ_Companhia": "60.872.504/0001-23",
-                "Data_Referencia": "2022-01-01",
-                "Versao": "15",
-                "ID_Documento": "127205",
-                "Nome_Companhia": "ITAU UNIBANCO HOLDING S.A.",
-                "Data_Inicio_Exercicio_Social": "2020-01-01",
-                "Data_Fim_Exercicio_Social": "2020-12-31",
-                "Lucro_Liquido_Ajustado": "18013000000.00",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "13.90000000",
-                "Lucro_Liquido_Retido": "14091000000.00",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "25.00000000",
-                "Dividendo_Distribuido_Total": "4503000000.00",
-                "Data_Aprovacao_Retencao": "2021-04-27"
-              }
-            },
-            {
-              "docid": "127205",
-              "received": "2023-05-24",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
-              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=127205",
-              "fiscal_year": 2021,
-              "raw": {
-                "CNPJ_Companhia": "60.872.504/0001-23",
-                "Data_Referencia": "2022-01-01",
-                "Versao": "15",
-                "ID_Documento": "127205",
-                "Nome_Companhia": "ITAU UNIBANCO HOLDING S.A.",
-                "Data_Inicio_Exercicio_Social": "2021-01-01",
-                "Data_Fim_Exercicio_Social": "2021-12-31",
-                "Lucro_Liquido_Ajustado": "24924000000.00",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "18.10000000",
-                "Lucro_Liquido_Retido": "19254000.00",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "25.00000000",
-                "Dividendo_Distribuido_Total": "6231000000.00",
-                "Data_Aprovacao_Retencao": "2022-04-29"
-              }
+              "docid": "147122",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                4,
+                8,
+                10
+              ],
+              "received": "2025-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147122",
+              "original": "review_originals/cvm_147122_g192.pdf.gz",
+              "original_sha256": "af8cd94fe7614b535dd7d16b9e643924e4e70aba92a67357d138d10ffb0e76d3"
             }
           ]
         },
         "governance": {
-          "favorable": {
-            "dated_shareholder_right_records": 26,
-            "dated_related_party_records": 377
-          },
+          "favorable": "Documentos AGOsocial/riscos conhecidos não resolvem integralmente a pendência econômica de estruturasrelacionadas do dossiê. ND específico preservado, sem presumir fraude ou garantir relaçãoexterna indevidamente.",
           "evidence": [
             {
-              "docid": "144592",
-              "received": "2025-02-05",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "144592",
-              "received": "2025-02-05",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "144592",
-              "received": "2025-02-05",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "144592",
-              "received": "2025-02-05",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "144592",
-              "received": "2025-02-05",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "144592",
-              "received": "2025-02-05",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "144592",
-              "received": "2025-02-05",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "144592",
-              "received": "2025-02-05",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "144592",
-              "received": "2025-02-05",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "144592",
-              "received": "2025-02-05",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "144592",
-              "received": "2025-02-05",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "144592",
-              "received": "2025-02-05",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "144592",
-              "received": "2025-02-05",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+              "docid": "147122",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                4,
+                8,
+                10
+              ],
+              "received": "2025-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147122",
+              "original": "review_originals/cvm_147122_g192.pdf.gz",
+              "original_sha256": "af8cd94fe7614b535dd7d16b9e643924e4e70aba92a67357d138d10ffb0e76d3"
             }
           ]
         }

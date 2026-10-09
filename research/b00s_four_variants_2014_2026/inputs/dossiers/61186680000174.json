@@ -248,439 +248,285 @@
       "ticker": "BMGB4",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": null,
-      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
-      "classification_changed": null,
-      "dimensions": {},
-      "dimension_evidence_updates": {
+      "assessment_ref": "61186680000174:2025",
+      "assessment_status": "ASSESSED",
+      "classification_changed": false,
+      "dimensions": {
         "durability": {
-          "favorable": "Prática de todas as operações ativas, passivas e acessórias permitidas nas normas legais e regulamentares para o funcionamento dos bancos com carteira comercial, de investimento, inclusive câmbio",
+          "status": "SATISFACTORY",
+          "reason": "Consignado e capilaridade continuam; crédito BR 26,817 bi/IFRS 26,866 bi+7,8%, foco público 50+/classes C,D e consignação. Concentração permanece risco.",
+          "favorable": "Consignado e capilaridade continuam; crédito BR 26,817 bi/IFRS 26,866 bi+7,8%, foco público 50+/classes C,D e consignação. Concentração permanece risco.",
+          "contrary_evidence": "Basileia de 12,2% caiu de 13,2%; diferença BRGAAP/IFRS e o resultado negativo do trimestre anterior impedem inferir qualidade apenas da recuperação atual.",
+          "missing": "",
           "evidence": [
             {
-              "cnpj": "61186680000174",
-              "received": "2025-05-26",
-              "name": "BANCO BMG S/A",
-              "sector": "Bancos",
-              "activity": "Prática de todas as operações ativas, passivas e acessórias permitidas nas normas legais e regulamentares para o funcionamento dos bancos com carteira comercial, de investimento, inclusive câmbio",
-              "cvm": "024600",
-              "docid": "148239",
-              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=148239"
+              "docid": "148405",
+              "group": 192,
+              "pages": [
+                1,
+                3,
+                6,
+                7,
+                8
+              ],
+              "received": "2025-05-28",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=148405",
+              "original": "review_originals/cvm_148405_g192.pdf.gz",
+              "original_sha256": "eb73c86db64abc855193da73d561611c90ceaceb61f948f278e3c66a64140737"
+            }
+          ],
+          "prior_year": 2024,
+          "review_2025": "Consignado e capilaridade continuam; crédito BR 26,817 bi/IFRS 26,866 bi+7,8%, foco público 50+/classes C,D e consignação. Concentração permanece risco."
+        },
+        "capital_economics": {
+          "status": "INDETERMINATE",
+          "reason": "IFRS lucro 131 mi/ROAE 12,5% contra 97 mi; prejuízo 14 mi no 4 T 24 não é apagado. Melhora trimestral não resolve economia plurianual/comparabilidade do conjunto.",
+          "favorable": "IFRS lucro 131 mi/ROAE 12,5% contra 97 mi; prejuízo 14 mi no 4 T 24 não é apagado. Melhora trimestral não resolve economia plurianual/comparabilidade do conjunto.",
+          "contrary_evidence": "Basileia de 12,2% caiu de 13,2%; diferença BRGAAP/IFRS e o resultado negativo do trimestre anterior impedem inferir qualidade apenas da recuperação atual.",
+          "missing": "IFRS lucro 131 mi/ROAE 12,5% contra 97 mi; prejuízo 14 mi no 4 T 24 não é apagado. Melhora trimestral não resolve economia plurianual/comparabilidade do conjunto.",
+          "evidence": [
+            {
+              "docid": "148405",
+              "group": 192,
+              "pages": [
+                1,
+                3,
+                6,
+                7,
+                8
+              ],
+              "received": "2025-05-28",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=148405",
+              "original": "review_originals/cvm_148405_g192.pdf.gz",
+              "original_sha256": "eb73c86db64abc855193da73d561611c90ceaceb61f948f278e3c66a64140737"
+            }
+          ],
+          "prior_year": 2024,
+          "review_2025": "IFRS lucro 131 mi/ROAE 12,5% contra 97 mi; prejuízo 14 mi no 4 T 24 não é apagado. Melhora trimestral não resolve economia plurianual/comparabilidade do conjunto."
+        },
+        "earnings_reliability": {
+          "status": "SATISFACTORY",
+          "reason": "BRGAAP/IFRS e PLs diferentes são expostos: BR 3,648 bi, IFRS 4,388 bi. Transição 4.966 exige conciliar perda esperada, não misturar indicadores.",
+          "favorable": "BRGAAP/IFRS e PLs diferentes são expostos: BR 3,648 bi, IFRS 4,388 bi. Transição 4.966 exige conciliar perda esperada, não misturar indicadores.",
+          "contrary_evidence": "Basileia de 12,2% caiu de 13,2%; diferença BRGAAP/IFRS e o resultado negativo do trimestre anterior impedem inferir qualidade apenas da recuperação atual.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "148405",
+              "group": 192,
+              "pages": [
+                1,
+                3,
+                6,
+                7,
+                8
+              ],
+              "received": "2025-05-28",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=148405",
+              "original": "review_originals/cvm_148405_g192.pdf.gz",
+              "original_sha256": "eb73c86db64abc855193da73d561611c90ceaceb61f948f278e3c66a64140737"
+            }
+          ],
+          "prior_year": 2024,
+          "review_2025": "BRGAAP/IFRS e PLs diferentes são expostos: BR 3,648 bi, IFRS 4,388 bi. Transição 4.966 exige conciliar perda esperada, não misturar indicadores."
+        },
+        "financial_resilience": {
+          "status": "SATISFACTORY",
+          "reason": "Basileia 12,2% contra 13,2% emdezembro; funding 33,104 bi IFRS−2,9% a/a, depósitos 76,4%. Mantém satisfatório prudencial com folga menor e concentração; não declara liquidez ilimitada.",
+          "favorable": "Basileia 12,2% contra 13,2% emdezembro; funding 33,104 bi IFRS−2,9% a/a, depósitos 76,4%. Mantém satisfatório prudencial com folga menor e concentração; não declara liquidez ilimitada.",
+          "contrary_evidence": "Basileia de 12,2% caiu de 13,2%; diferença BRGAAP/IFRS e o resultado negativo do trimestre anterior impedem inferir qualidade apenas da recuperação atual.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "148405",
+              "group": 192,
+              "pages": [
+                1,
+                3,
+                6,
+                7,
+                8
+              ],
+              "received": "2025-05-28",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=148405",
+              "original": "review_originals/cvm_148405_g192.pdf.gz",
+              "original_sha256": "eb73c86db64abc855193da73d561611c90ceaceb61f948f278e3c66a64140737"
+            }
+          ],
+          "prior_year": 2024,
+          "review_2025": "Basileia 12,2% contra 13,2% emdezembro; funding 33,104 bi IFRS−2,9% a/a, depósitos 76,4%. Mantém satisfatório prudencial com folga menor e concentração; não declara liquidez ilimitada."
+        },
+        "capital_allocation": {
+          "status": "INDETERMINATE",
+          "reason": "Investimentos em controladas 215 mi IFRS/176 mi BR não são automaticamente retorno produtivo; crédito e funding crescem diferentemente. ND da produtividade/comutatividade do uso de capital permanece.",
+          "favorable": "Investimentos em controladas 215 mi IFRS/176 mi BR não são automaticamente retorno produtivo; crédito e funding crescem diferentemente. ND da produtividade/comutatividade do uso de capital permanece.",
+          "contrary_evidence": "Basileia de 12,2% caiu de 13,2%; diferença BRGAAP/IFRS e o resultado negativo do trimestre anterior impedem inferir qualidade apenas da recuperação atual.",
+          "missing": "Investimentos em controladas 215 mi IFRS/176 mi BR não são automaticamente retorno produtivo; crédito e funding crescem diferentemente. ND da produtividade/comutatividade do uso de capital permanece.",
+          "evidence": [
+            {
+              "docid": "148405",
+              "group": 192,
+              "pages": [
+                1,
+                3,
+                6,
+                7,
+                8
+              ],
+              "received": "2025-05-28",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=148405",
+              "original": "review_originals/cvm_148405_g192.pdf.gz",
+              "original_sha256": "eb73c86db64abc855193da73d561611c90ceaceb61f948f278e3c66a64140737"
+            }
+          ],
+          "prior_year": 2024,
+          "review_2025": "Investimentos em controladas 215 mi IFRS/176 mi BR não são automaticamente retorno produtivo; crédito e funding crescem diferentemente. ND da produtividade/comutatividade do uso de capital permanece."
+        },
+        "governance": {
+          "status": "INDETERMINATE",
+          "reason": "Certificação de conduta e ASG favorável, contraposta ao controle concentrado e modelos de cessão/consignação do dossiê. Não certifica independência econômica apenas por declaração administrativa.",
+          "favorable": "Certificação de conduta e ASG favorável, contraposta ao controle concentrado e modelos de cessão/consignação do dossiê. Não certifica independência econômica apenas por declaração administrativa.",
+          "contrary_evidence": "Basileia de 12,2% caiu de 13,2%; diferença BRGAAP/IFRS e o resultado negativo do trimestre anterior impedem inferir qualidade apenas da recuperação atual.",
+          "missing": "Certificação de conduta e ASG favorável, contraposta ao controle concentrado e modelos de cessão/consignação do dossiê. Não certifica independência econômica apenas por declaração administrativa.",
+          "evidence": [
+            {
+              "docid": "148405",
+              "group": 192,
+              "pages": [
+                1,
+                3,
+                6,
+                7,
+                8
+              ],
+              "received": "2025-05-28",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=148405",
+              "original": "review_originals/cvm_148405_g192.pdf.gz",
+              "original_sha256": "eb73c86db64abc855193da73d561611c90ceaceb61f948f278e3c66a64140737"
+            }
+          ],
+          "prior_year": 2024,
+          "review_2025": "Certificação de conduta e ASG favorável, contraposta ao controle concentrado e modelos de cessão/consignação do dossiê. Não certifica independência econômica apenas por declaração administrativa."
+        }
+      },
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "Consignado e capilaridade continuam; crédito BR 26,817 bi/IFRS 26,866 bi+7,8%, foco público 50+/classes C,D e consignação. Concentração permanece risco.",
+          "evidence": [
+            {
+              "docid": "148405",
+              "group": 192,
+              "pages": [
+                1,
+                3,
+                6,
+                7,
+                8
+              ],
+              "received": "2025-05-28",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=148405",
+              "original": "review_originals/cvm_148405_g192.pdf.gz",
+              "original_sha256": "eb73c86db64abc855193da73d561611c90ceaceb61f948f278e3c66a64140737"
             }
           ]
         },
         "capital_economics": {
-          "favorable": {
-            "roe_parent_5": [
-              0.07691455140227936,
-              0.04246286201471967,
-              0.015467748672538697,
-              0.06813321733708244,
-              0.06144229755217347
-            ],
-            "normalized_profit": 259802420.21630302
-          },
+          "favorable": "IFRS lucro 131 mi/ROAE 12,5% contra 97 mi; prejuízo 14 mi no 4 T 24 não é apagado. Melhora trimestral não resolve economia plurianual/comparabilidade do conjunto.",
           "evidence": [
             {
-              "fiscal_year": 2020,
-              "metric": "attributable_ni",
-              "value": 313677000.0,
-              "docid": "112039",
-              "received": "2022-02-24",
-              "reference": "2021-12-31",
-              "period_end": "2020-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2021.csv",
-              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
-            },
-            {
-              "fiscal_year": 2021,
-              "metric": "attributable_ni",
-              "value": 169662000.0,
-              "docid": "123519",
-              "received": "2023-02-14",
-              "reference": "2022-12-31",
-              "period_end": "2021-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2022.csv",
-              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
-            },
-            {
-              "fiscal_year": 2022,
-              "metric": "attributable_ni",
-              "value": 60342000.0,
-              "docid": "133849",
-              "received": "2024-02-05",
-              "reference": "2023-12-31",
-              "period_end": "2022-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "fiscal_year": 2023,
-              "metric": "attributable_ni",
-              "value": 267921000.0,
-              "docid": "145409",
-              "received": "2025-03-14",
-              "reference": "2024-12-31",
-              "period_end": "2023-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "fiscal_year": 2024,
-              "metric": "attributable_ni",
-              "value": 252860000.0,
-              "docid": "145409",
-              "received": "2025-03-14",
-              "reference": "2024-12-31",
-              "period_end": "2024-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+              "docid": "148405",
+              "group": 192,
+              "pages": [
+                1,
+                3,
+                6,
+                7,
+                8
+              ],
+              "received": "2025-05-28",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=148405",
+              "original": "review_originals/cvm_148405_g192.pdf.gz",
+              "original_sha256": "eb73c86db64abc855193da73d561611c90ceaceb61f948f278e3c66a64140737"
             }
           ]
         },
         "earnings_reliability": {
-          "favorable": {
-            "positive_attributable_years": 5,
-            "audit_records": 9
-          },
+          "favorable": "BRGAAP/IFRS e PLs diferentes são expostos: BR 3,648 bi, IFRS 4,388 bi. Transição 4.966 exige conciliar perda esperada, não misturar indicadores.",
           "evidence": [
             {
-              "docid": "145409",
-              "received": "2025-03-14",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "145409",
-              "received": "2025-03-14",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "145409",
-              "received": "2025-03-14",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "145409",
-              "received": "2025-03-14",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "145409",
-              "received": "2025-03-14",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "145409",
-              "received": "2025-03-14",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "145409",
-              "received": "2025-03-14",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "145409",
-              "received": "2025-03-14",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "145409",
-              "received": "2025-03-14",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+              "docid": "148405",
+              "group": 192,
+              "pages": [
+                1,
+                3,
+                6,
+                7,
+                8
+              ],
+              "received": "2025-05-28",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=148405",
+              "original": "review_originals/cvm_148405_g192.pdf.gz",
+              "original_sha256": "eb73c86db64abc855193da73d561611c90ceaceb61f948f278e3c66a64140737"
             }
           ]
         },
         "financial_resilience": {
-          "favorable": {
-            "parent_equity_latest": 4305638000.0
-          },
+          "favorable": "Basileia 12,2% contra 13,2% emdezembro; funding 33,104 bi IFRS−2,9% a/a, depósitos 76,4%. Mantém satisfatório prudencial com folga menor e concentração; não declara liquidez ilimitada.",
           "evidence": [
             {
-              "docid": "145409",
-              "received": "2025-03-14",
-              "reference": "2024-12-31",
-              "period_end": "2024-12-31",
-              "perimeter": "ind",
-              "account": "2.05",
-              "description": "Patrimônio Líquido",
-              "source": "dfp_cia_aberta_BPP_ind_2024.csv",
-              "archive_sha256": "",
-              "url": ""
+              "docid": "148405",
+              "group": 192,
+              "pages": [
+                1,
+                3,
+                6,
+                7,
+                8
+              ],
+              "received": "2025-05-28",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=148405",
+              "original": "review_originals/cvm_148405_g192.pdf.gz",
+              "original_sha256": "eb73c86db64abc855193da73d561611c90ceaceb61f948f278e3c66a64140737"
             }
           ]
         },
         "capital_allocation": {
-          "favorable": {
-            "historical_payout": [
-              0.0,
-              0.0,
-              null,
-              null,
-              null
-            ],
-            "distributions": [
-              105000000.0,
-              184000000.0,
-              null,
-              null,
-              null
-            ]
-          },
+          "favorable": "Investimentos em controladas 215 mi IFRS/176 mi BR não são automaticamente retorno produtivo; crédito e funding crescem diferentemente. ND da produtividade/comutatividade do uso de capital permanece.",
           "evidence": [
             {
-              "docid": "125746",
-              "received": "2023-05-04",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
-              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=125746",
-              "fiscal_year": 2020,
-              "raw": {
-                "CNPJ_Companhia": "61.186.680/0001-74",
-                "Data_Referencia": "2022-01-01",
-                "Versao": "17",
-                "ID_Documento": "125746",
-                "Nome_Companhia": "BANCO BMG S/A",
-                "Data_Inicio_Exercicio_Social": "2020-01-01",
-                "Data_Fim_Exercicio_Social": "2020-12-31",
-                "Lucro_Liquido_Ajustado": "312591800.00",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "7.97059080",
-                "Lucro_Liquido_Retido": "207591800.00",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "0.00000000",
-                "Dividendo_Distribuido_Total": "105000000.00",
-                "Data_Aprovacao_Retencao": "2020-12-29"
-              }
-            },
-            {
-              "docid": "125746",
-              "received": "2023-05-04",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
-              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=125746",
-              "fiscal_year": 2021,
-              "raw": {
-                "CNPJ_Companhia": "61.186.680/0001-74",
-                "Data_Referencia": "2022-01-01",
-                "Versao": "17",
-                "ID_Documento": "125746",
-                "Nome_Companhia": "BANCO BMG S/A",
-                "Data_Inicio_Exercicio_Social": "2021-01-01",
-                "Data_Fim_Exercicio_Social": "2021-12-31",
-                "Lucro_Liquido_Ajustado": "229816400.00",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "6.26252480",
-                "Lucro_Liquido_Retido": "45816000.00",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "0.00000000",
-                "Dividendo_Distribuido_Total": "184000000.00",
-                "Data_Aprovacao_Retencao": "2021-12-16"
-              }
+              "docid": "148405",
+              "group": 192,
+              "pages": [
+                1,
+                3,
+                6,
+                7,
+                8
+              ],
+              "received": "2025-05-28",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=148405",
+              "original": "review_originals/cvm_148405_g192.pdf.gz",
+              "original_sha256": "eb73c86db64abc855193da73d561611c90ceaceb61f948f278e3c66a64140737"
             }
           ]
         },
         "governance": {
-          "favorable": {
-            "dated_shareholder_right_records": 10,
-            "dated_related_party_records": 159
-          },
+          "favorable": "Certificação de conduta e ASG favorável, contraposta ao controle concentrado e modelos de cessão/consignação do dossiê. Não certifica independência econômica apenas por declaração administrativa.",
           "evidence": [
             {
-              "docid": "145409",
-              "received": "2025-03-14",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "145409",
-              "received": "2025-03-14",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "145409",
-              "received": "2025-03-14",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "145409",
-              "received": "2025-03-14",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "145409",
-              "received": "2025-03-14",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "145409",
-              "received": "2025-03-14",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "145409",
-              "received": "2025-03-14",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "145409",
-              "received": "2025-03-14",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "145409",
-              "received": "2025-03-14",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+              "docid": "148405",
+              "group": 192,
+              "pages": [
+                1,
+                3,
+                6,
+                7,
+                8
+              ],
+              "received": "2025-05-28",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=148405",
+              "original": "review_originals/cvm_148405_g192.pdf.gz",
+              "original_sha256": "eb73c86db64abc855193da73d561611c90ceaceb61f948f278e3c66a64140737"
             }
           ]
         }

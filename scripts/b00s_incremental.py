@@ -3,6 +3,12 @@ import statistics
 
 def calculate_metrics(proof, ipca):
     result={}
+    if 'solidity' in proof:
+        assessment=proof['solidity']
+        if (type(assessment.get('proven')) is not bool or
+                not assessment.get('reason') or not proof.get('evidence')):
+            raise ValueError('Solidity needs an explicit sourced economic judgement')
+        result['solidity_proven']=assessment['proven']
     if 'real_eps' in proof:
         p=proof['real_eps'];a=p['first'];b=p['last']
         years=b['year']-a['year']

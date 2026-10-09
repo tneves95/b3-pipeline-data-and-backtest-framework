@@ -44,8 +44,16 @@ def test_published_references_are_literal_and_unreviewed_years_are_blank():
     assert len(status)==12
     assert all(r['status']=='AWAITING_CHRONOLOGICAL_REVIEW' for r in status if int(r['year'])>m.reviewed_through())
     stats={r['variant']:r for r in m.read(m.RESULT/'consolidated_pct.csv')}
-    assert stats['VQ']['final_pct']=='' and int(stats['VQ']['periods'])==m.reviewed_through()-2013
-    assert stats['VVAL']['final_rank']==''
+    assert int(stats['VQ']['periods'])==m.reviewed_through()-2013
+    if m.reviewed_through()<2025:
+        assert stats['VQ']['final_pct']=='' and stats['VVAL']['final_rank']==''
+    else:
+        # Full-horizon figures become publishable only after all twelve PIT cuts.
+        cumulative=m.read(m.RESULT/'cumulative_returns_pct.csv')[-1]
+        assert float(stats['VQ']['final_pct'])==pytest.approx(float(cumulative['VQ']))
+        assert float(stats['VVAL']['final_pct'])==pytest.approx(float(cumulative['VVAL']))
+        assert stats['VVAL']['final_rank']==''
+        assert stats['VVAL']['coverage']=='EVIDENCE_ONLY_NOT_COMPARABLE_TO_FULL_UNIVERSE'
 
 def test_published_attribution_reconciles_annual_and_compounded():
     with localcontext() as ctx:

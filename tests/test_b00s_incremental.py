@@ -698,3 +698,69 @@ def test_2024_review_uses_executed_events_and_assesses_every_candidate():
     assert rows['CPLE6']['market_cap'] is None and rows['ELET3']['market_cap'] is None
     assert rows['PSSA3']['quality_category']=='QUALIFIED_SATISFACTORY'
     assert m.selection('B00S',2024)[0]['SBSP3']=='FAIL'
+
+
+def test_explicit_solidity_judgement_is_sourced_and_not_defaulted():
+    assert 'solidity_proven' not in calculate_metrics({}, {})
+    with pytest.raises(ValueError, match='sourced economic judgement'):
+        calculate_metrics({'solidity': {'proven': True, 'reason': 'unsupported'}}, {})
+    for proven in [True, False]:
+        proof={'solidity': {'proven': proven, 'reason': 'Dated prudential assessment'},
+               'evidence': [{'docid': '1', 'group': 192, 'pages': [1]}]}
+        assert calculate_metrics(proof, {})['solidity_proven'] is proven
+    # True alone still does not supply growth, payout or return on capital.
+    assert valuation_gate(20, calculate_metrics(proof, {}) | {'solidity_proven': True})=='INDETERMINATE'
+
+
+def test_2025_median_price_and_premium_endpoint_have_different_proofs():
+    from b00s_documentary import profit_interval
+    facts={r['ticker']:r for r in json.loads((m.INPUT/'fundamental_decisions.json').read_text()) if r['year']==2025}
+    pssa=facts['PSSA3'];review=pssa['documentary_assessment'];proof=review['numerical_proof']
+    assert review['valuation']['status']=='COMPARABLE'
+    assert pssa['normalized_profit_interval']['lower']==pssa['normalized_profit_interval']['upper']
+    assert pssa['normalized_pe']==pytest.approx(proof['normalized_pe'])
+    assert 15<pssa['normalized_pe']<25
+    assert proof['premium_endpoint']['real_eps_cagr_lower']<.04<proof['premium_endpoint']['real_eps_cagr_upper']
+    assert proof['premium_endpoint']['weighted_shares']=={'2020':648800000, '2024':648563000}
+    assert proof['premium_endpoint']['losses_kept']
+    assert pssa['real_eps_cagr'] is None and pssa['valuation_status']=='INDETERMINATE'
+    assert pssa['solidity_proven'] is True
+    assert proof['premium_roe']['two_of_three_years_lower']>proof['premium_roe']['required']
+    assert proof['normalized_payout_certified'] is False
+
+
+def test_2025_rolling_floors_do_not_reuse_aged_or_uncertified_observations():
+    facts={r['ticker']:r for r in json.loads((m.INPUT/'fundamental_decisions.json').read_text()) if r['year']==2025}
+    csmg=facts['CSMG3'];cp=csmg['documentary_assessment']['numerical_proof']
+    assert cp['window']==list(range(2020,2025))
+    assert set(cp['fiscal_floors'])=={'2020','2022','2023','2024'}
+    assert cp['pe_upper']==pytest.approx(17.1542310605673)
+    for y in ['2023','2024']:
+        a=cp['fiscal_floors'][y]
+        assert a['nominal_lower']==a['reported_attributable_profit']-sum(a['deductions'].values())
+        assert a['losses_not_added_back']
+    assert csmg['valuation_status']=='INDETERMINATE'
+    sanb=facts['SANB4'];sp=sanb['documentary_assessment']['numerical_proof']
+    assert {a['fy']for a in sp['annual']}=={2020,2022}
+    assert sp['directed_2024_bridge']['certified'] is False
+    assert sp['median_lower'] is None and sanb['valuation_status']=='INDETERMINATE'
+    assert facts['TAEE4']['documentary_assessment']['numerical_proof']['comparative_restatement_delta']==-114000
+    assert facts['TAEE4']['documentary_assessment']['numerical_proof']['certified'] is False
+
+
+def test_2025_material_changes_and_all_six_reviews_use_current_originals():
+    reviews={r['ticker']:r for (y,c),r in load_reviews().items() if y==2025}
+    assert set(reviews)=={r['ticker']for r in m.candidates()if r['year']==2025}
+    assert len(reviews)==19
+    for r in reviews.values():
+        assert len(r['dimensions'])==6 and r['prior_assessment']=='2024:'+r['cnpj']
+        for d in r['dimensions'].values():
+            assert d['prior_year']==2024 and d['review_2025']
+            assert all(e['received']<='2025-06-30' for e in d['evidence'])
+            if d['status']=='INDETERMINATE':assert d['missing']
+    csmg=reviews['CSMG3']['dimensions']['governance']
+    assert csmg['status']=='SATISFACTORY'
+    assert any(e['docid']=='145717'and e['group']==1654 and e['original'].endswith('.xml.gz')for e in csmg['evidence'])
+    assert reviews['TBLE3']['dimensions']['financial_resilience']['status']=='SATISFACTORY'
+    assert reviews['TBLE3']['dimensions']['capital_allocation']['status']=='INDETERMINATE'
+    assert {'ABCB4','BBDC4','BBSE3','PSSA3'}=={t for t,r in reviews.items()if all(d['status']=='SATISFACTORY'for d in r['dimensions'].values())}

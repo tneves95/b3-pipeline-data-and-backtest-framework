@@ -6512,343 +6512,771 @@
       "ticker": "TAEE4",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": null,
-      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
-      "classification_changed": null,
-      "dimensions": {},
-      "dimension_evidence_updates": {
+      "assessment_ref": "07859971000130:2025",
+      "assessment_status": "ASSESSED",
+      "classification_changed": false,
+      "dimensions": {
         "durability": {
-          "favorable": "Transmissão de Energia Elétrica.",
+          "status": "SATISFACTORY",
+          "reason": "Novatransreforços RAP 18,1 mi/Pitiguari 4,4 mi agoraoperacionais. Cortes 50%jáefetivosnão reaplicadosanualmente; licenças/custosprojeto permanecem.",
           "evidence": [
             {
-              "cnpj": "07859971000130",
-              "received": "2025-02-10",
-              "name": "TRANSMISSORA ALIANÇA DE ENERGIA ELÉTRICA S.A.",
-              "sector": "Emp. Adm. Part. - Energia Elétrica",
-              "activity": "Transmissão de Energia Elétrica.",
-              "cvm": "020257",
-              "docid": "144682",
-              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=144682"
+              "docid": "147010",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2025-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147010",
+              "original": "review_originals/cvm_147010_g192.pdf.gz",
+              "original_sha256": "161b35438e7b6c1cce6d32ef3f5f51078e6370d632e910dc77e8e69c7c4d219a"
+            },
+            {
+              "docid": "147010",
+              "group": 193,
+              "pages": [
+                33,
+                36,
+                41,
+                42,
+                48,
+                51,
+                52,
+                53,
+                54,
+                56
+              ],
+              "received": "2025-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147010",
+              "original": "review_originals/cvm_147010_g193.pdf.gz",
+              "original_sha256": "2788aa252d6df61fcd2a9fbb7fa3612eb4a57c921f85a078b90188cdc6f09cff"
+            },
+            {
+              "docid": "145522",
+              "group": 412,
+              "pages": [
+                4,
+                22,
+                23,
+                24,
+                55,
+                56,
+                65,
+                66,
+                67
+              ],
+              "received": "2025-03-18",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=145522",
+              "original": "review_originals/cvm_145522_g412.pdf.gz",
+              "original_sha256": "adc282be3e0ce563118456898045a327055692eda46a42d106e36faae261ecf1"
+            }
+          ],
+          "contrary_evidence": "Resultado IFRS depende de remuneração/correção dos contratos; construção e reavaliação RAP são distintos de caixa. Dívida e resultado financeiro negativo precisam financiar projetos.",
+          "missing": "",
+          "favorable": "Novatransreforços RAP 18,1 mi/Pitiguari 4,4 mi agoraoperacionais. Cortes 50%jáefetivosnão reaplicadosanualmente; licenças/custosprojeto permanecem.",
+          "prior_year": 2024,
+          "review_2022": "SAT: disponibilidade2021 99,86%, receita contratada pela disponibilidade, não volume. Janaúbaoperasetembro2021,ESTEfevereiro2022,Aimorésmaio; contratos com corte50% no16ºano são contraponto, não concessões perpétuas.",
+          "review_2023": "SAT: disponibilidadeFY202299,95%/202199,86%. Novaslinhasoperacionais eSaíraadquirida30/03por870,624mi preservam base;RAP152,232miSaíra écontrato, nãolucro futurogarantido. Cortes50%no16ºanopermanecem.",
+          "review_2024": "Ivaí com 100% RAP desde 03/03; Saíra/Sant Ana em operação. Cronograma original identifica todos cortes categoria II; após ciclo 2023–24 não restam novos cortes de 50% desta espécie.",
+          "review_2025": "Novatransreforços RAP 18,1 mi/Pitiguari 4,4 mi agoraoperacionais. Cortes 50%jáefetivosnão reaplicadosanualmente; licenças/custosprojeto permanecem."
+        },
+        "capital_economics": {
+          "status": "INDETERMINATE",
+          "reason": "NI 365,161 mi−2,5%, correçãocontratual 231,530 mi+71,6% efinanceiro−344,291 mi. Margemconstrução não é caixa distribuível; não tratar alta IFRScomo crescimento produtivo automático.",
+          "evidence": [
+            {
+              "docid": "147010",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2025-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147010",
+              "original": "review_originals/cvm_147010_g192.pdf.gz",
+              "original_sha256": "161b35438e7b6c1cce6d32ef3f5f51078e6370d632e910dc77e8e69c7c4d219a"
+            },
+            {
+              "docid": "147010",
+              "group": 193,
+              "pages": [
+                33,
+                36,
+                41,
+                42,
+                48,
+                51,
+                52,
+                53,
+                54,
+                56
+              ],
+              "received": "2025-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147010",
+              "original": "review_originals/cvm_147010_g193.pdf.gz",
+              "original_sha256": "2788aa252d6df61fcd2a9fbb7fa3612eb4a57c921f85a078b90188cdc6f09cff"
+            },
+            {
+              "docid": "145522",
+              "group": 412,
+              "pages": [
+                4,
+                22,
+                23,
+                24,
+                55,
+                56,
+                65,
+                66,
+                67
+              ],
+              "received": "2025-03-18",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=145522",
+              "original": "review_originals/cvm_145522_g412.pdf.gz",
+              "original_sha256": "adc282be3e0ce563118456898045a327055692eda46a42d106e36faae261ecf1"
+            }
+          ],
+          "contrary_evidence": "Resultado IFRS depende de remuneração/correção dos contratos; construção e reavaliação RAP são distintos de caixa. Dívida e resultado financeiro negativo precisam financiar projetos.",
+          "missing": "NI 365,161 mi−2,5%, correçãocontratual 231,530 mi+71,6% efinanceiro−344,291 mi. Margemconstrução não é caixa distribuível; não tratar alta IFRScomo crescimento produtivo automático.",
+          "favorable": "NI 365,161 mi−2,5%, correçãocontratual 231,530 mi+71,6% efinanceiro−344,291 mi. Margemconstrução não é caixa distribuível; não tratar alta IFRScomo crescimento produtivo automático.",
+          "prior_year": 2024,
+          "review_2022": "ND econômico dirigido: IFRS2021NI2,213714bi inclui408,098miCPC47; O&Mtemmargem641,161mi sobre826,013mi receita. InflaçãoIGPM/IPCA e novaslinhas elevam lucros, mas não sãoCAGRreal/ROICincremental comprovados.",
+          "review_2023": "ND: NI20221,449215bi comCPC47207,632mi,apósfortevariaçãodacorreçãoIGPM/IPCA; nãoéCAGRreal. Saíra/Tangará eexpansão deSantAna exigemcapital, semaprovação porreceitaconstrução ouinflação.",
+          "review_2024": "Lucro Q1 374,027 mi, −3,3%, remuneração de ativos 288,329 mi, pessoal +25,3% e financeiro −303,912 mi. Mudanças fiscais e margens de construção impedem usar trimestre como crescimento produtivo real por ação.",
+          "review_2025": "NI 365,161 mi−2,5%, correçãocontratual 231,530 mi+71,6% efinanceiro−344,291 mi. Margemconstrução não é caixa distribuível; não tratar alta IFRScomo crescimento produtivo automático."
+        },
+        "earnings_reliability": {
+          "status": "SATISFACTORY",
+          "reason": "Reapresentaçãoexercício de 2023 por RTP 3.343/2024 sóconhecidaagora:NI 1.367720 bi/old 1.367834 bi. 1 TDTÁextemporânea 29,309 mi separada de SUDAMordinária e lucro presumidonegativo−3,792 mi.",
+          "evidence": [
+            {
+              "docid": "147010",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2025-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147010",
+              "original": "review_originals/cvm_147010_g192.pdf.gz",
+              "original_sha256": "161b35438e7b6c1cce6d32ef3f5f51078e6370d632e910dc77e8e69c7c4d219a"
+            },
+            {
+              "docid": "147010",
+              "group": 193,
+              "pages": [
+                33,
+                36,
+                41,
+                42,
+                48,
+                51,
+                52,
+                53,
+                54,
+                56
+              ],
+              "received": "2025-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147010",
+              "original": "review_originals/cvm_147010_g193.pdf.gz",
+              "original_sha256": "2788aa252d6df61fcd2a9fbb7fa3612eb4a57c921f85a078b90188cdc6f09cff"
+            },
+            {
+              "docid": "145522",
+              "group": 412,
+              "pages": [
+                4,
+                22,
+                23,
+                24,
+                55,
+                56,
+                65,
+                66,
+                67
+              ],
+              "received": "2025-03-18",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=145522",
+              "original": "review_originals/cvm_145522_g412.pdf.gz",
+              "original_sha256": "adc282be3e0ce563118456898045a327055692eda46a42d106e36faae261ecf1"
+            }
+          ],
+          "contrary_evidence": "Resultado IFRS depende de remuneração/correção dos contratos; construção e reavaliação RAP são distintos de caixa. Dívida e resultado financeiro negativo precisam financiar projetos.",
+          "missing": "",
+          "favorable": "Reapresentaçãoexercício de 2023 por RTP 3.343/2024 sóconhecidaagora:NI 1.367720 bi/old 1.367834 bi. 1 TDTÁextemporânea 29,309 mi separada de SUDAMordinária e lucro presumidonegativo−3,792 mi.",
+          "prior_year": 2024,
+          "review_2022": "SAT: impactosCPC47 isolados2018 116,924/2019 291,323/2020 631,470/2021 408,098mi; lucro2019reapresentado1,105661bi deve substituir1,001859 somente no corte que conhece revisão. Não confunde lucro comcaixa disponível para dividendo.",
+          "review_2023": "SAT: CPC47, lucrosadquiridosSJT/SPT/LNT140,436mi2022 eMariana7,884mi deextensãoconcessão identificados. ReversãoPV23,268mi1T23 éconciliação deprovisão, não margemordinária nova.",
+          "review_2024": "CPC47, O&M, parcela variável negativa 19,896 mi e reversões explícitas. Indenizações 26,4 mi foram recebidas na holding, distintas de lucro SJT/SPT; efeitos fiscais ETAU/Brasnorte são segregados.",
+          "review_2025": "Reapresentaçãoexercício de 2023 por RTP 3.343/2024 sóconhecidaagora:NI 1.367720 bi/old 1.367834 bi. 1 TDTÁextemporânea 29,309 mi separada de SUDAMordinária e lucro presumidonegativo−3,792 mi."
+        },
+        "financial_resilience": {
+          "status": "SATISFACTORY",
+          "reason": "17ª650 mi liquidada 15/01/2025 e 11ª335,981 mi paga; caixa 806,812 mi/covenants ecronograma explícitos. Expansão e encargosmaisaltos contrapõem; não somar autorização a ingressos.",
+          "evidence": [
+            {
+              "docid": "147010",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2025-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147010",
+              "original": "review_originals/cvm_147010_g192.pdf.gz",
+              "original_sha256": "161b35438e7b6c1cce6d32ef3f5f51078e6370d632e910dc77e8e69c7c4d219a"
+            },
+            {
+              "docid": "147010",
+              "group": 193,
+              "pages": [
+                33,
+                36,
+                41,
+                42,
+                48,
+                51,
+                52,
+                53,
+                54,
+                56
+              ],
+              "received": "2025-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147010",
+              "original": "review_originals/cvm_147010_g193.pdf.gz",
+              "original_sha256": "2788aa252d6df61fcd2a9fbb7fa3612eb4a57c921f85a078b90188cdc6f09cff"
+            },
+            {
+              "docid": "145522",
+              "group": 412,
+              "pages": [
+                4,
+                22,
+                23,
+                24,
+                55,
+                56,
+                65,
+                66,
+                67
+              ],
+              "received": "2025-03-18",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=145522",
+              "original": "review_originals/cvm_145522_g412.pdf.gz",
+              "original_sha256": "adc282be3e0ce563118456898045a327055692eda46a42d106e36faae261ecf1"
+            }
+          ],
+          "contrary_evidence": "Resultado IFRS depende de remuneração/correção dos contratos; construção e reavaliação RAP são distintos de caixa. Dívida e resultado financeiro negativo precisam financiar projetos.",
+          "missing": "",
+          "favorable": "17ª650 mi liquidada 15/01/2025 e 11ª335,981 mi paga; caixa 806,812 mi/covenants ecronograma explícitos. Expansão e encargosmaisaltos contrapõem; não somar autorização a ingressos.",
+          "prior_year": 2024,
+          "review_2022": "SAT mantido: JVcovenantscumpridos2021; captação800mi emjaneiro e emissão1,25bi em15/04, liquidada10/05/2022, efetivas, e450mi principal+26,561mi juros9ªemissãopagos08/04. Finanças1T22−228,179mi vs−183,098mi e800,293mi dividendodeliberado são contrapontos; captação não é lucro.",
+          "review_2023": "SAT mantido:13ªdebênture1bi17/02/2023 CDI+1,50%bullet2025financiaSaíra já paga; não soma1bicaixa aoativo870,624mi duasvezes. Dividendos460mijaneiro/cupom36,166miabril e futurasobras são contrapontos; RAP nova não écaixa anualinteiramente livre.",
+          "review_2024": "15ª emissão 1,3 bi liquidada em 19/04; 13ª emissão 1 bi resgatada em 22/04 por 1,023437 bi. Vencimento fevereiro/2025 já quitado não permanece pendente. Dividendos/JCP, obras e parcela variável são contrapontos.",
+          "review_2025": "17ª650 mi liquidada 15/01/2025 e 11ª335,981 mi paga; caixa 806,812 mi/covenants ecronograma explícitos. Expansão e encargosmaisaltos contrapõem; não somar autorização a ingressos."
+        },
+        "capital_allocation": {
+          "status": "INDETERMINATE",
+          "reason": "RAPnovosativosestabelecida mas Ananaílicenciamento eobras trazemcusto;preservar custosmanutenção/juros. ND de remuneração do conjunto permanece, sem exigir FCLpositivo universal.",
+          "evidence": [
+            {
+              "docid": "147010",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2025-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147010",
+              "original": "review_originals/cvm_147010_g192.pdf.gz",
+              "original_sha256": "161b35438e7b6c1cce6d32ef3f5f51078e6370d632e910dc77e8e69c7c4d219a"
+            },
+            {
+              "docid": "147010",
+              "group": 193,
+              "pages": [
+                33,
+                36,
+                41,
+                42,
+                48,
+                51,
+                52,
+                53,
+                54,
+                56
+              ],
+              "received": "2025-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147010",
+              "original": "review_originals/cvm_147010_g193.pdf.gz",
+              "original_sha256": "2788aa252d6df61fcd2a9fbb7fa3612eb4a57c921f85a078b90188cdc6f09cff"
+            },
+            {
+              "docid": "145522",
+              "group": 412,
+              "pages": [
+                4,
+                22,
+                23,
+                24,
+                55,
+                56,
+                65,
+                66,
+                67
+              ],
+              "received": "2025-03-18",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=145522",
+              "original": "review_originals/cvm_145522_g412.pdf.gz",
+              "original_sha256": "adc282be3e0ce563118456898045a327055692eda46a42d106e36faae261ecf1"
+            }
+          ],
+          "contrary_evidence": "Resultado IFRS depende de remuneração/correção dos contratos; construção e reavaliação RAP são distintos de caixa. Dívida e resultado financeiro negativo precisam financiar projetos.",
+          "missing": "RAPnovosativosestabelecida mas Ananaílicenciamento eobras trazemcusto;preservar custosmanutenção/juros. ND de remuneração do conjunto permanece, sem exigir FCLpositivo universal.",
+          "favorable": "RAPnovosativosestabelecida mas Ananaílicenciamento eobras trazemcusto;preservar custosmanutenção/juros. ND de remuneração do conjunto permanece, sem exigir FCLpositivo universal.",
+          "prior_year": 2024,
+          "review_2022": "ND: obras entram emreceita, mas expansãoAnanaí/reinvestimento e dividendos exigem retorno apósdívida/cortesRAP. Payout2021 exclui408,098miCPC47 retidos; não trata essa reserva como lucro produtivamente reinvestido comprovado.",
+          "review_2023": "ND: Janaúba/ESTE/SantAnaoperam efetivamente, mas aquisiçãoSaíra eobrasTangará1,117077bi/SaíraCAPEXtotal1,175720bi exigemretornoeconômico apóscustos. Construçãofinalizada nãosozinha aprova produtividade.",
+          "review_2024": "Licenças Tangará/Pitiguari e Ivaí operacional demonstram execução; incorporação SAN/SIT muda regime para lucro real. Eficiência fiscal estimada 16,3 mi no trimestre não vira lucro anual garantido nem prova retorno de toda expansão.",
+          "review_2025": "RAPnovosativosestabelecida mas Ananaílicenciamento eobras trazemcusto;preservar custosmanutenção/juros. ND de remuneração do conjunto permanece, sem exigir FCLpositivo universal."
+        },
+        "governance": {
+          "status": "SATISFACTORY",
+          "reason": "Controladores Cemig/ISA eacordos anteriores retomados; proventos FY 24 aprovados 29/04 e ROEdeinvestidascomregimefiscaldistinto discriminados. Governançasatisfatória não torna todos lucros recorrentes.",
+          "evidence": [
+            {
+              "docid": "147010",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2025-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147010",
+              "original": "review_originals/cvm_147010_g192.pdf.gz",
+              "original_sha256": "161b35438e7b6c1cce6d32ef3f5f51078e6370d632e910dc77e8e69c7c4d219a"
+            },
+            {
+              "docid": "147010",
+              "group": 193,
+              "pages": [
+                33,
+                36,
+                41,
+                42,
+                48,
+                51,
+                52,
+                53,
+                54,
+                56
+              ],
+              "received": "2025-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147010",
+              "original": "review_originals/cvm_147010_g193.pdf.gz",
+              "original_sha256": "2788aa252d6df61fcd2a9fbb7fa3612eb4a57c921f85a078b90188cdc6f09cff"
+            },
+            {
+              "docid": "145522",
+              "group": 412,
+              "pages": [
+                4,
+                22,
+                23,
+                24,
+                55,
+                56,
+                65,
+                66,
+                67
+              ],
+              "received": "2025-03-18",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=145522",
+              "original": "review_originals/cvm_145522_g412.pdf.gz",
+              "original_sha256": "adc282be3e0ce563118456898045a327055692eda46a42d106e36faae261ecf1"
+            }
+          ],
+          "contrary_evidence": "Resultado IFRS depende de remuneração/correção dos contratos; construção e reavaliação RAP são distintos de caixa. Dívida e resultado financeiro negativo precisam financiar projetos.",
+          "missing": "",
+          "favorable": "Controladores Cemig/ISA eacordos anteriores retomados; proventos FY 24 aprovados 29/04 e ROEdeinvestidascomregimefiscaldistinto discriminados. Governançasatisfatória não torna todos lucros recorrentes.",
+          "prior_year": 2024,
+          "review_2022": "SAT mantido:ON/PNmesmaparticipação noslucros e100%tagalong documentados,partesrelacionadas detalhadas. ForluzplanoDC integralmente coberto não é passivoBDdaCemig. Contraponto controleconjunto não vira reprovação automática.",
+          "review_2023": "SAT: contratos,classes/debêntures e partes relacionadas expostos. DireitosON/PN/controleconjunto já examinados, sem fato novo que invalide proteção; não assume que ausência de novo litígio seja prova universal.",
+          "review_2024": "Financiamento, arbitragem e auditor são divulgados. Rótulos legados 2023 em release são confrontados com recebimento CVM e conteúdo 2024; cronograma RAP documenta datas/percentuais exatos.",
+          "review_2025": "Controladores Cemig/ISA eacordos anteriores retomados; proventos FY 24 aprovados 29/04 e ROEdeinvestidascomregimefiscaldistinto discriminados. Governançasatisfatória não torna todos lucros recorrentes."
+        }
+      },
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "Novatransreforços RAP 18,1 mi/Pitiguari 4,4 mi agoraoperacionais. Cortes 50%jáefetivosnão reaplicadosanualmente; licenças/custosprojeto permanecem.",
+          "evidence": [
+            {
+              "docid": "147010",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2025-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147010",
+              "original": "review_originals/cvm_147010_g192.pdf.gz",
+              "original_sha256": "161b35438e7b6c1cce6d32ef3f5f51078e6370d632e910dc77e8e69c7c4d219a"
+            },
+            {
+              "docid": "147010",
+              "group": 193,
+              "pages": [
+                33,
+                36,
+                41,
+                42,
+                48,
+                51,
+                52,
+                53,
+                54,
+                56
+              ],
+              "received": "2025-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147010",
+              "original": "review_originals/cvm_147010_g193.pdf.gz",
+              "original_sha256": "2788aa252d6df61fcd2a9fbb7fa3612eb4a57c921f85a078b90188cdc6f09cff"
+            },
+            {
+              "docid": "145522",
+              "group": 412,
+              "pages": [
+                4,
+                22,
+                23,
+                24,
+                55,
+                56,
+                65,
+                66,
+                67
+              ],
+              "received": "2025-03-18",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=145522",
+              "original": "review_originals/cvm_145522_g412.pdf.gz",
+              "original_sha256": "adc282be3e0ce563118456898045a327055692eda46a42d106e36faae261ecf1"
             }
           ]
         },
         "capital_economics": {
-          "favorable": {
-            "roe_parent_5": [
-              0.4108332022394854,
-              0.34832400520507983,
-              0.2186630909213811,
-              0.2089121088129469,
-              0.25164446171677674
-            ],
-            "normalized_profit": 1740422433.918765
-          },
+          "favorable": "NI 365,161 mi−2,5%, correçãocontratual 231,530 mi+71,6% efinanceiro−344,291 mi. Margemconstrução não é caixa distribuível; não tratar alta IFRScomo crescimento produtivo automático.",
           "evidence": [
             {
-              "fiscal_year": 2020,
-              "metric": "attributable_ni",
-              "value": 2262927000.0,
-              "docid": "111877",
-              "received": "2022-02-18",
-              "reference": "2021-12-31",
-              "period_end": "2020-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2021.csv",
-              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+              "docid": "147010",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2025-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147010",
+              "original": "review_originals/cvm_147010_g192.pdf.gz",
+              "original_sha256": "161b35438e7b6c1cce6d32ef3f5f51078e6370d632e910dc77e8e69c7c4d219a"
             },
             {
-              "fiscal_year": 2021,
-              "metric": "attributable_ni",
-              "value": 2213714000.0,
-              "docid": "124208",
-              "received": "2023-03-15",
-              "reference": "2022-12-31",
-              "period_end": "2021-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2022.csv",
-              "archive_sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2022.zip"
+              "docid": "147010",
+              "group": 193,
+              "pages": [
+                33,
+                36,
+                41,
+                42,
+                48,
+                51,
+                52,
+                53,
+                54,
+                56
+              ],
+              "received": "2025-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147010",
+              "original": "review_originals/cvm_147010_g193.pdf.gz",
+              "original_sha256": "2788aa252d6df61fcd2a9fbb7fa3612eb4a57c921f85a078b90188cdc6f09cff"
             },
             {
-              "fiscal_year": 2022,
-              "metric": "attributable_ni",
-              "value": 1449215000.0,
-              "docid": "134502",
-              "received": "2024-03-06",
-              "reference": "2023-12-31",
-              "period_end": "2022-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2023.csv",
-              "archive_sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2023.zip"
-            },
-            {
-              "fiscal_year": 2023,
-              "metric": "attributable_ni",
-              "value": 1367720000.0,
               "docid": "145522",
+              "group": 412,
+              "pages": [
+                4,
+                22,
+                23,
+                24,
+                55,
+                56,
+                65,
+                66,
+                67
+              ],
               "received": "2025-03-18",
-              "reference": "2024-12-31",
-              "period_end": "2023-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "fiscal_year": 2024,
-              "metric": "attributable_ni",
-              "value": 1693915000.0,
-              "docid": "145522",
-              "received": "2025-03-18",
-              "reference": "2024-12-31",
-              "period_end": "2024-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=145522",
+              "original": "review_originals/cvm_145522_g412.pdf.gz",
+              "original_sha256": "adc282be3e0ce563118456898045a327055692eda46a42d106e36faae261ecf1"
             }
           ]
         },
         "earnings_reliability": {
-          "favorable": {
-            "positive_attributable_years": 5,
-            "audit_records": 5
-          },
+          "favorable": "Reapresentaçãoexercício de 2023 por RTP 3.343/2024 sóconhecidaagora:NI 1.367720 bi/old 1.367834 bi. 1 TDTÁextemporânea 29,309 mi separada de SUDAMordinária e lucro presumidonegativo−3,792 mi.",
           "evidence": [
             {
-              "docid": "145522",
-              "received": "2025-03-18",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+              "docid": "147010",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2025-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147010",
+              "original": "review_originals/cvm_147010_g192.pdf.gz",
+              "original_sha256": "161b35438e7b6c1cce6d32ef3f5f51078e6370d632e910dc77e8e69c7c4d219a"
+            },
+            {
+              "docid": "147010",
+              "group": 193,
+              "pages": [
+                33,
+                36,
+                41,
+                42,
+                48,
+                51,
+                52,
+                53,
+                54,
+                56
+              ],
+              "received": "2025-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147010",
+              "original": "review_originals/cvm_147010_g193.pdf.gz",
+              "original_sha256": "2788aa252d6df61fcd2a9fbb7fa3612eb4a57c921f85a078b90188cdc6f09cff"
             },
             {
               "docid": "145522",
+              "group": 412,
+              "pages": [
+                4,
+                22,
+                23,
+                24,
+                55,
+                56,
+                65,
+                66,
+                67
+              ],
               "received": "2025-03-18",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "145522",
-              "received": "2025-03-18",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "145522",
-              "received": "2025-03-18",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "145522",
-              "received": "2025-03-18",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=145522",
+              "original": "review_originals/cvm_145522_g412.pdf.gz",
+              "original_sha256": "adc282be3e0ce563118456898045a327055692eda46a42d106e36faae261ecf1"
             }
           ]
         },
         "financial_resilience": {
-          "favorable": {
-            "parent_equity_latest": 6939504000.0
-          },
+          "favorable": "17ª650 mi liquidada 15/01/2025 e 11ª335,981 mi paga; caixa 806,812 mi/covenants ecronograma explícitos. Expansão e encargosmaisaltos contrapõem; não somar autorização a ingressos.",
           "evidence": [
             {
+              "docid": "147010",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2025-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147010",
+              "original": "review_originals/cvm_147010_g192.pdf.gz",
+              "original_sha256": "161b35438e7b6c1cce6d32ef3f5f51078e6370d632e910dc77e8e69c7c4d219a"
+            },
+            {
+              "docid": "147010",
+              "group": 193,
+              "pages": [
+                33,
+                36,
+                41,
+                42,
+                48,
+                51,
+                52,
+                53,
+                54,
+                56
+              ],
+              "received": "2025-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147010",
+              "original": "review_originals/cvm_147010_g193.pdf.gz",
+              "original_sha256": "2788aa252d6df61fcd2a9fbb7fa3612eb4a57c921f85a078b90188cdc6f09cff"
+            },
+            {
               "docid": "145522",
+              "group": 412,
+              "pages": [
+                4,
+                22,
+                23,
+                24,
+                55,
+                56,
+                65,
+                66,
+                67
+              ],
               "received": "2025-03-18",
-              "reference": "2024-12-31",
-              "period_end": "2024-12-31",
-              "perimeter": "ind",
-              "account": "2.03",
-              "description": "Patrimônio Líquido",
-              "source": "dfp_cia_aberta_BPP_ind_2024.csv",
-              "archive_sha256": "",
-              "url": ""
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=145522",
+              "original": "review_originals/cvm_145522_g412.pdf.gz",
+              "original_sha256": "adc282be3e0ce563118456898045a327055692eda46a42d106e36faae261ecf1"
             }
           ]
         },
         "capital_allocation": {
-          "favorable": {
-            "historical_payout": [
-              0.7178221537999999,
-              0.814329417,
-              null,
-              null,
-              null
-            ],
-            "distributions": [
-              1606374000.0,
-              1789870000.0,
-              null,
-              null,
-              null
-            ]
-          },
+          "favorable": "RAPnovosativosestabelecida mas Ananaílicenciamento eobras trazemcusto;preservar custosmanutenção/juros. ND de remuneração do conjunto permanece, sem exigir FCLpositivo universal.",
           "evidence": [
             {
-              "docid": "126020",
-              "received": "2023-05-09",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
-              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=126020",
-              "fiscal_year": 2020,
-              "raw": {
-                "CNPJ_Companhia": "07.859.971/0001-30",
-                "Data_Referencia": "2022-01-01",
-                "Versao": "13",
-                "ID_Documento": "126020",
-                "Nome_Companhia": "TRANSMISSORA ALIANÇA DE ENERGIA ELÉTRICA S.A.",
-                "Data_Inicio_Exercicio_Social": "2020-01-01",
-                "Data_Fim_Exercicio_Social": "2020-12-31",
-                "Lucro_Liquido_Ajustado": "2237844000.00",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "37.55331980",
-                "Lucro_Liquido_Retido": "656553000.00",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "71.78221538",
-                "Dividendo_Distribuido_Total": "1606374000.00",
-                "Data_Aprovacao_Retencao": "2021-04-29"
-              }
+              "docid": "147010",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2025-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147010",
+              "original": "review_originals/cvm_147010_g192.pdf.gz",
+              "original_sha256": "161b35438e7b6c1cce6d32ef3f5f51078e6370d632e910dc77e8e69c7c4d219a"
             },
             {
-              "docid": "126020",
-              "received": "2023-05-09",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2022.csv",
-              "archive_sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=126020",
-              "fiscal_year": 2021,
-              "raw": {
-                "CNPJ_Companhia": "07.859.971/0001-30",
-                "Data_Referencia": "2022-01-01",
-                "Versao": "13",
-                "ID_Documento": "126020",
-                "Nome_Companhia": "TRANSMISSORA ALIANÇA DE ENERGIA ELÉTRICA S.A.",
-                "Data_Inicio_Exercicio_Social": "2021-01-01",
-                "Data_Fim_Exercicio_Social": "2021-12-31",
-                "Lucro_Liquido_Ajustado": "2197968000.00",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "33.11585344",
-                "Lucro_Liquido_Retido": "423844000.00",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "81.43294170",
-                "Dividendo_Distribuido_Total": "1789870000.00",
-                "Data_Aprovacao_Retencao": "2022-04-28"
-              }
+              "docid": "147010",
+              "group": 193,
+              "pages": [
+                33,
+                36,
+                41,
+                42,
+                48,
+                51,
+                52,
+                53,
+                54,
+                56
+              ],
+              "received": "2025-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147010",
+              "original": "review_originals/cvm_147010_g193.pdf.gz",
+              "original_sha256": "2788aa252d6df61fcd2a9fbb7fa3612eb4a57c921f85a078b90188cdc6f09cff"
+            },
+            {
+              "docid": "145522",
+              "group": 412,
+              "pages": [
+                4,
+                22,
+                23,
+                24,
+                55,
+                56,
+                65,
+                66,
+                67
+              ],
+              "received": "2025-03-18",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=145522",
+              "original": "review_originals/cvm_145522_g412.pdf.gz",
+              "original_sha256": "adc282be3e0ce563118456898045a327055692eda46a42d106e36faae261ecf1"
             }
           ]
         },
         "governance": {
-          "favorable": {
-            "dated_shareholder_right_records": 26,
-            "dated_related_party_records": 337
-          },
+          "favorable": "Controladores Cemig/ISA eacordos anteriores retomados; proventos FY 24 aprovados 29/04 e ROEdeinvestidascomregimefiscaldistinto discriminados. Governançasatisfatória não torna todos lucros recorrentes.",
           "evidence": [
             {
-              "docid": "145522",
-              "received": "2025-03-18",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+              "docid": "147010",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2025-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147010",
+              "original": "review_originals/cvm_147010_g192.pdf.gz",
+              "original_sha256": "161b35438e7b6c1cce6d32ef3f5f51078e6370d632e910dc77e8e69c7c4d219a"
+            },
+            {
+              "docid": "147010",
+              "group": 193,
+              "pages": [
+                33,
+                36,
+                41,
+                42,
+                48,
+                51,
+                52,
+                53,
+                54,
+                56
+              ],
+              "received": "2025-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=147010",
+              "original": "review_originals/cvm_147010_g193.pdf.gz",
+              "original_sha256": "2788aa252d6df61fcd2a9fbb7fa3612eb4a57c921f85a078b90188cdc6f09cff"
             },
             {
               "docid": "145522",
+              "group": 412,
+              "pages": [
+                4,
+                22,
+                23,
+                24,
+                55,
+                56,
+                65,
+                66,
+                67
+              ],
               "received": "2025-03-18",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "145522",
-              "received": "2025-03-18",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "145522",
-              "received": "2025-03-18",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
-            },
-            {
-              "docid": "145522",
-              "received": "2025-03-18",
-              "reference": "2024-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2024.csv",
-              "archive_sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2024.zip"
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=145522",
+              "original": "review_originals/cvm_145522_g412.pdf.gz",
+              "original_sha256": "adc282be3e0ce563118456898045a327055692eda46a42d106e36faae261ecf1"
             }
           ]
         }
