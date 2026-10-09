@@ -1,0 +1,208 @@
+import csv
+import json
+import math
+from pathlib import Path
+import sys
+import pytest
+ROOT=Path(__file__).resolve().parents[1]
+sys.path.insert(0,str(ROOT/'scripts'))
+import monthly_corrected_simulate as engine
+from monthly_policy_corrected import (references,recognize_winners,allocate_cash,review_members,
+                                      maintenance_evidence,FAIL_REASON,BH)
+from monthly_tax_accounting import Fiscal
+from run_monthly_corrected import guard_legacy,OUT
+
+
+def test_absence_or_pass_or_indeterminate_never_authorizes_exit():
+    buyers={'p':'PASS','i':'INDETERMINATE','f':'FAIL'}
+    evidence={('V0',2015,c):{'status':s,'reason':FAIL_REASON} for c,s in [('p','PASS'),('i','INDETERMINATE'),('f','FAIL')]}
+    kept,exits,entries=review_members('V0',2015,buyers,{'new':'NEW'},evidence)
+    assert kept=={'p':'PASS','i':'INDETERMINATE','new':'NEW'}
+    assert set(exits)=={'f'} and entries=={'new'}
+
+
+@pytest.mark.parametrize('portfolio',sorted(BH))
+def test_bh_ignores_voluntary_exit_and_admission(portfolio):
+    buyers={'a':'A'};ev={(portfolio,2015,'a'):{'status':'FAIL','reason':FAIL_REASON}}
+    assert review_members(portfolio,2015,buyers,{'b':'B'},ev)==(buyers,{},set())
+
+
+def test_winner_reference_is_not_cap_and_marker_survives_dilution():
+    buyers={str(i):str(i) for i in range(20)}
+    values={c:84/19 for c in buyers};values['0']=16
+    winners=recognize_winners(buyers,set(),values,100,{c:1 if c=='0' else 0 for c in buyers})
+    assert winners=={'0'} and references(buyers,winners)['0']==.1
+    buys,_=allocate_cash(values,2.5,set(buyers),102.5,references(buyers,winners))
+    assert '0' not in buys and values['0']==16
+    values['0']=8
+    assert recognize_winners(buyers,winners,values,100,{c:0 for c in buyers})==winners
+    buys,_=allocate_cash(values,2.5,set(buyers),102.5,references(buyers,winners))
+    assert buys['0']>0
+
+
+def test_n16_to15_suspends_reference_without_erasing_marker():
+    buyers={str(i):str(i) for i in range(16)};winners={'0'}
+    assert references(buyers,winners)['0']==2/16
+    del buyers['15']
+    winners=recognize_winners(buyers,winners,{},100,{})
+    assert winners=={'0'} and references(buyers,winners)['0']==1/15
+    buyers['new']='NEW'
+    assert references(buyers,winners)['0']==2/16
+
+
+def synthetic(monkeypatch,*,fail=False,entry=False):
+    start='2014-06-30';end='2015-06-30';buyers={str(i):f'T{i}' for i in range(20)}
+    desired=buyers.copy()
+    if entry:desired['new']='NEW'
+    quote={(t,d):(4. if t=='T0' and d==end else 1.) for t in list(buyers.values())+['NEW'] for d in [start,end]}
+    monkeypatch.setattr(engine,'read',lambda p:[{'date':end,'month_end':end}])
+    evidence={('V0',2015,'1'):dict(status='FAIL',reason=FAIL_REASON,source='synthetic',source_line=2,source_ticker='T1')} if fail else {}
+    f=Fiscal('V0',{},[start,end],enabled=False)
+    return engine.simulate('V0',quote,{}, {('V0',2014):buyers,('V0',2015):desired},end=end,monthly=0,fiscal=f,evidence=evidence)
+
+
+def test_engine_preserves_above_2x_winner_wholly(monkeypatch):
+    r=synthetic(monkeypatch)
+    assert not [x for x in r['trades'] if x['side']=='SELL']
+    assert r['book']['0']['T0']==5000
+    final=[x for x in r['positions'] if x['phase']=='AFTER_JUNE_REVIEW' and x['ticker']=='T0'][0]
+    assert final['winner_flag'] and final['security_weight']>final['buy_reference_weight']
+
+
+def test_engine_june_entry_waits_for_cash_without_incumbent_sales(monkeypatch):
+    r=synthetic(monkeypatch,entry=True)
+    assert len(r['trades'])==20 and 'new' not in r['book']
+    assert r['summary']['active_lineages']==21
+    assert next(x for x in r['junes'] if x['lineage']=='new')['unfunded_eligible']
+
+
+def test_engine_sells_only_confirmed_fail(monkeypatch):
+    r=synthetic(monkeypatch,fail=True,entry=True)
+    sells=[x for x in r['trades'] if x['side']=='SELL']
+    assert len(sells)==1 and sells[0]['ticker']=='T1' and sells[0]['reason']==FAIL_REASON
+    assert r['book']['0']['T0']==5000
+    assert 'new' in r['book']
+
+
+def read(p):
+    with p.open() as f:return list(csv.DictReader(f))
+
+
+def test_preserved_legacy_checkpoint_hashes():assert guard_legacy()>20
+
+
+def test_actual_gross_outputs_and_authorized_sales():
+    rows=read(OUT/'consolidated_policy_corrected.csv')
+    assert len(rows)==5
+    proofs=maintenance_evidence()
+    trades=read(OUT/'GROSS/trades.csv')
+    for r in rows:
+        assert float(r['external_capital'])==460000 and int(r['external_contributions'])==144
+        if r['portfolio'] in BH:
+            assert int(r['voluntary_sales'])==0
+            assert float(r['final_wealth'])==pytest.approx(float(r['original_pr5_wealth']),abs=1e-6)
+    for t in trades:
+        if t['side']=='SELL':
+            p=proofs[t['portfolio'],int(t['date'][:4]),t['lineage']]
+            assert t['reason']==p['reason']==FAIL_REASON and t['date'][5:7]=='06'
+    for p in ['V0','V10','VVAL']:
+        actual=[r for r in trades if r['portfolio']==p and r['side']=='SELL']
+        assert len(actual)==len([k for k in proofs if k[0]==p])
+
+
+def test_actual_cash_and_deposit_integrity():
+    for r in read(OUT/'GROSS/wealth.csv'):
+        assert float(r['cash_available'])>=-1e-6
+        assert float(r['tax_paid'])==0 and float(r['tax_liability'])==0
+    rows=read(OUT/'GROSS/contributions.csv')
+    for p in {r['portfolio'] for r in rows}:
+        group=[r for r in rows if r['portfolio']==p]
+        assert len(group)==144 and len({r['date'] for r in group})==144
+        assert all(float(r['external_deposit'])==2500 for r in group)
+
+
+def test_corrected_cg_cash_tax_payment_and_final_cost_reconcile():
+    rows=read(OUT/'consolidated_tax_corrected.csv')
+    assert len(rows)==5
+    wealth=read(OUT/'CG_ONLY/wealth.csv');annual=read(OUT/'CG_ONLY/annual_tax.csv')
+    final=read(OUT/'CG_ONLY/final_positions.csv');sales=read(OUT/'CG_ONLY/trades.csv')
+    for r in wealth:
+        assert float(r['cash_available'])>=-1e-6
+        assert float(r['cash'])-float(r['tax_restricted_cash'])==pytest.approx(float(r['cash_available']),abs=1e-6)
+        assert float(r['tax_restricted_cash'])>=float(r['tax_liability'])-1e-6
+    for r in rows:
+        p=r['portfolio'];positions=[x for x in final if x['portfolio']==p]
+        assert sum(float(x['total_acquisition_cost']) for x in positions)==pytest.approx(float(r['remaining_acquisition_basis']))
+        assert sum(float(x['value']) for x in positions)+float(r['cash'])-float(r['unpaid_liability'])==pytest.approx(float(r['final_wealth']))
+        assert sum(float(x['tax_paid']) for x in annual if x['portfolio']==p)==pytest.approx(float(r['tax_paid']))
+        assert float(r['final_wealth'])-float(r['liquidation_tax'])==pytest.approx(float(r['liquidation_wealth']))
+        assert float(r['income_withheld'])==0
+        assert int(r['rank'])==int(r['gross_rank'])
+        for x in positions:
+            assert float(x['quantity'])*float(x['average_cost'])==pytest.approx(float(x['total_acquisition_cost']))
+        portfolio_sales=[x for x in sales if x['portfolio']==p and x['side']=='SELL']
+        assert len(portfolio_sales)==int(r['voluntary_sales'])
+        assert all(x['reason']==FAIL_REASON for x in portfolio_sales)
+
+
+def test_corrected_cost_removed_and_realized_gain_on_actual_sales():
+    rows=read(OUT/'CG_ONLY/tax_trades.csv')
+    ordinary=[r for r in rows if r['side']=='SELL' and r['asset_tax_type']=='STOCK']
+    assert ordinary
+    for r in ordinary:
+        assert float(r['cost_removed'])==pytest.approx(float(r['quantity'])*float(r['average_cost_before']))
+        assert float(r['realized_gain_loss'])==pytest.approx(float(r['gross_value'])-float(r['cost_removed']),abs=1e-7)
+
+
+def test_income_partial_preserves_net_and_withholds_only_supported_gross_jcp():
+    rows=read(OUT/'CG_PLUS_JCP_CERTIFIED_PARTIAL/income.csv')
+    net=[r for r in rows if r['amount_basis']=='NET_ALREADY_WITHHELD' and r['distribution_type']=='JCP']
+    assert net and all(float(r['withheld_additional'])==0 for r in net)
+    withheld=[r for r in rows if float(r['withheld_additional'])>0]
+    assert withheld
+    for r in withheld:
+        assert r['distribution_type']=='JCP' and r['amount_basis']=='GROSS'
+        assert float(r['withheld_additional'])==pytest.approx(float(r['source_amount'])*float(r['tax_rate']))
+        assert float(r['source_amount'])-float(r['withheld_additional'])==pytest.approx(float(r['reinvested']))
+    unknown=[r for r in rows if r['amount_basis']=='UNKNOWN' and r['distribution_type']=='JCP']
+    assert unknown and all(float(r['withheld_additional'])==0 for r in unknown)
+    for s in read(OUT/'consolidated_income_corrected.csv'):
+        p=s['portfolio'];own=[r for r in rows if r['portfolio']==p]
+        assert sum(float(r['withheld_additional']) for r in own)==pytest.approx(float(s['income_withheld']))
+        assert int(s['rank'])==int(s['gross_rank'])
+
+
+def test_dividend_threshold_control_and_no_unsupported_full_certification():
+    control=read(OUT/'dividend_monthly_issuer_2026_corrected.csv')
+    assert control and all(float(r['all_distributions_cash_envelope'])<50000 for r in control)
+    rows=read(OUT/'all_corrected_scenarios.csv')
+    assert len(rows)==15 and all(r['full_historical_certified_wealth']=='ND' for r in rows)
+    for r in rows:
+        assert float(r['total_additional_tax_paid_modeled'])==pytest.approx(float(r['tax_paid'])+float(r['income_withheld']))
+
+
+def test_partial_liquidation_and_cash_actual_reconcile():
+    summaries=read(OUT/'consolidated_income_corrected.csv')
+    positions=read(OUT/'CG_PLUS_JCP_CERTIFIED_PARTIAL/final_positions.csv')
+    for r in summaries:
+        own=[p for p in positions if p['portfolio']==r['portfolio']]
+        assert sum(float(p['value']) for p in own)+float(r['cash'])-float(r['unpaid_liability'])==pytest.approx(float(r['final_wealth']))
+        assert float(r['final_wealth'])-float(r['liquidation_tax'])==pytest.approx(float(r['liquidation_wealth']))
+    for r in read(OUT/'CG_PLUS_JCP_CERTIFIED_PARTIAL/wealth.csv'):
+        assert float(r['cash_available'])>=-1e-6
+    for r in read(OUT/'CG_PLUS_JCP_CERTIFIED_PARTIAL/trades.csv'):
+        if r['side']=='SELL':assert r['reason']==FAIL_REASON
+
+
+def test_workbook_independent_reader_matches_csv():
+    from openpyxl import load_workbook
+    book=load_workbook(OUT/'aportes_politica_corrigida_2014_2026.xlsx',read_only=True,data_only=True)
+    sheet=book['Consolidado'];values=list(sheet.values);header=values[0]
+    actual=[dict(zip(header,row)) for row in values[1:]]
+    assert len(actual)==15
+    indexed={(r['mode'],r['portfolio']):r for r in actual}
+    for row in read(OUT/'all_corrected_scenarios.csv'):
+        other=indexed[row['mode'],row['portfolio']]
+        for k in ['final_wealth','xirr_pct','tax_paid','income_withheld','liquidation_wealth']:
+            assert other[k]==pytest.approx(float(row[k]),rel=1e-12)
+    book.close()

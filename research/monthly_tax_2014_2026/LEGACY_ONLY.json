@@ -1,0 +1,169 @@
+{
+  "status": "LEGACY_WRONG_REBALANCING_POLICY_PRESERVED_NOT_REQUESTED_STRATEGY",
+  "superseded_by_user_comment": "https://github.com/tneves95/b3-pipeline-data-and-backtest-framework/pull/6#issuecomment-6086144108",
+  "published_checkpoint1_commit": "d34b6da699f8918732e28ca41afb645623ead80c",
+  "second_checkpoint_status": "10 main runs and41 sensitivities computed under old policy; publication not completed. Full regression and extra fiscal-position export interrupted on urgent steering. Do not label certified or current requested strategy.",
+  "space_before_corrected_run": "df -h /workspaces:32G total28G used1.8G available95%",
+  "files": [
+    {
+      "path": "docs/estudo_tributacao_aportes_mensais_2014_2026.md",
+      "sha256": "f471f0542bfae2670257673023af5f959acb356b47177ade90be234ddf4599da"
+    },
+    {
+      "path": "research/monthly_tax_2014_2026/.gitignore",
+      "sha256": "6935a83dde8138602781798d53d64e4dc0841cfdb251fed7cf6aa320a5d5c11d"
+    },
+    {
+      "path": "research/monthly_tax_2014_2026/annual_tax_summary.csv",
+      "sha256": "274aa51280fd1f9d831f35c9c7db8a2023fcfb20ea9e4887f4155cbc5f900de0"
+    },
+    {
+      "path": "research/monthly_tax_2014_2026/cash_dividends_jcp_tax.csv",
+      "sha256": "dbe285ecce05fcccdd1f8817b9d2284234cf526c2ea3630c02a0361c2ebae0a3"
+    },
+    {
+      "path": "research/monthly_tax_2014_2026/checkpoint1_comment.md",
+      "sha256": "f471f0542bfae2670257673023af5f959acb356b47177ade90be234ddf4599da"
+    },
+    {
+      "path": "research/monthly_tax_2014_2026/consolidated_tax.csv",
+      "sha256": "ce68af59e5e6ac9f629db346160d29dca3385da02781556bff489e43b2c2557d"
+    },
+    {
+      "path": "research/monthly_tax_2014_2026/contributions_ledger.csv",
+      "sha256": "b8a9834af5a30815baf63df5c97b10f3971a120d6cc4248cdd9b3c1c6a0a1879"
+    },
+    {
+      "path": "research/monthly_tax_2014_2026/dividend_monthly_issuer_2026.csv",
+      "sha256": "6e89996d73a183c913884a1437102357128fe6af1d3bebc7b0a5a29630c7c477"
+    },
+    {
+      "path": "research/monthly_tax_2014_2026/final_liquidation_monthly_tax.csv",
+      "sha256": "95d615222bfdbabfb3c62cce9dcc89c286c55f313b3f3d8f3fdfb8af253709ae"
+    },
+    {
+      "path": "research/monthly_tax_2014_2026/final_liquidation_trades.csv",
+      "sha256": "4b72cfe773ad6f757a16a682089ae5cc3e5787acb7ed69c85fedca8213512a4b"
+    },
+    {
+      "path": "research/monthly_tax_2014_2026/income_coverage.csv",
+      "sha256": "746aff772865930ce7227e13cf8a19cd162e8deed4c750a8678e2b1f8ec4b5ff"
+    },
+    {
+      "path": "research/monthly_tax_2014_2026/inputs/event_tax_evidence.json",
+      "sha256": "29098015931eb818339c59fb52f66b58213a88e3bc77357aa58f9fa5cbe4aa76"
+    },
+    {
+      "path": "research/monthly_tax_2014_2026/inputs/event_tax_evidence_stage2.json",
+      "sha256": "98329a22330869c4bffc1d9578be1bfb606cfe916643a15e88746a77785a839b"
+    },
+    {
+      "path": "research/monthly_tax_2014_2026/inputs/evidence_sources.json",
+      "sha256": "73567500efb9e2a605ed3925bc733854c2de15a508fa3c24b1e8f799d69973be"
+    },
+    {
+      "path": "research/monthly_tax_2014_2026/inputs/protected_pr_heads.json",
+      "sha256": "bd99bbfb059e8cef9a86df6acc3b40c7786b667a69acfb7b66ccd9fba9e15b6c"
+    },
+    {
+      "path": "research/monthly_tax_2014_2026/inputs/sources/ITSA_BONUS_COST.gz",
+      "sha256": "f6b337c6cc65b29afb880ee7268892108bd5b2f02b4f925b19e38a9b6c631bdf"
+    },
+    {
+      "path": "research/monthly_tax_2014_2026/inputs/sources/PSSA_BONUS_COST.gz",
+      "sha256": "a84048ec2f4460932bbe2e1ea3a88afe4fcebcf72237c1d0a2f831976af09ccf"
+    },
+    {
+      "path": "research/monthly_tax_2014_2026/inputs/sources/itau_monthly_net_fact.json",
+      "sha256": "e80f0080c56cd96ad9d155e1cdf493462527bec0f026357ec319ae639ec7f6b2"
+    },
+    {
+      "path": "research/monthly_tax_2014_2026/inputs/sources/pr2_structural_sources.json",
+      "sha256": "25c69aca7d00a31ffbeb5c99e0d6bee44f1bd94fd8fb2362be230f717ac32ee2"
+    },
+    {
+      "path": "research/monthly_tax_2014_2026/inputs/stage2_sources.json",
+      "sha256": "04795986a0038d7b8ac96f77ffbf9913ad4015323fc9505f39e1c964bd4892b0"
+    },
+    {
+      "path": "research/monthly_tax_2014_2026/inputs/tax_policy_freeze.json",
+      "sha256": "e357bac84ed351332a68e7c991ff60840491ee4122ccb6d02e8182461770907d"
+    },
+    {
+      "path": "research/monthly_tax_2014_2026/june_tax_reviews.csv",
+      "sha256": "0bd359882f0c3a25f2158b5f188ebd2e490376fb586574700fc6a4cb722ae913"
+    },
+    {
+      "path": "research/monthly_tax_2014_2026/manifest.json",
+      "sha256": "35b40f650b3de95d0a4c451689b3b92fcedfd88de88d936c1bf3c48e7ff04319"
+    },
+    {
+      "path": "research/monthly_tax_2014_2026/monthly_tax_ledger.csv",
+      "sha256": "5d65ba2cb776b15f9d8865586fe33cf1d818511fe3f4221c0fb4c5adb70d48c3"
+    },
+    {
+      "path": "research/monthly_tax_2014_2026/monthly_taxed_wealth.csv",
+      "sha256": "7b03b94ec5e746bb430b38565f46bab058ee86138b7374bc6b40dc4771cc9622"
+    },
+    {
+      "path": "research/monthly_tax_2014_2026/sensitivities_tax.csv",
+      "sha256": "83da1ebf8e6b6d22a9af91f5b046ac10546921cc12ef942e9b1250cde5a3f2f8"
+    },
+    {
+      "path": "research/monthly_tax_2014_2026/tax_events_classification.csv",
+      "sha256": "8a353010ec1060ccf06005db62d667098bfff381dbb8c0bbe1855d78f4fc32bb"
+    },
+    {
+      "path": "research/monthly_tax_2014_2026/tax_payments.csv",
+      "sha256": "eaffbf66a3b107d96f44297af22047326ba6d8392f04fbec5dd0c315b4ce290b"
+    },
+    {
+      "path": "research/monthly_tax_2014_2026/tax_trades_basis.csv",
+      "sha256": "2d65131089e3709c50e17d506129c0e8ff4690426b5d5b157cb41da31dc540d7"
+    },
+    {
+      "path": "research/monthly_tax_2014_2026/taxed_operations.csv",
+      "sha256": "8e8c53c116e48de0db02cb19ee2b9dd5ccf84b50e2312a29b4511528720ec8f4"
+    },
+    {
+      "path": "research/monthly_tax_2014_2026/taxed_positions.csv",
+      "sha256": "0e08bbadb037a56c6e5f274dcfdf7dd31771d0db928d00eca8679abb621e976d"
+    },
+    {
+      "path": "research/monthly_tax_2014_2026/tributacao_aportes_mensais_cinco_carteiras.xlsx",
+      "sha256": "5f52e362c7e14ed08665fb0767d91cbdc7315ed49e814ff58fc7f0e941c59bcd"
+    },
+    {
+      "path": "research/monthly_tax_2014_2026/validation.json",
+      "sha256": "c30f4be676adb8d05b916ea580069c94aaeeceb554fec1a1575a12bcb3f6ed61"
+    },
+    {
+      "path": "scripts/monthly_tax_accounting.py",
+      "sha256": "5408807a7546bad872e4f0ef5c2ec77d7a96888e2081e9ea82c536b0340e6290"
+    },
+    {
+      "path": "scripts/monthly_tax_freeze.py",
+      "sha256": "95f59b18f0f2aadfc25c19b2ed94bfe50ef58ab01c1374b85ff0c5a6c447f513"
+    },
+    {
+      "path": "scripts/monthly_tax_income.py",
+      "sha256": "c60888ecd72c06e06d194bcf6e39ed12fcdf16799149560277a1937da54e64d5"
+    },
+    {
+      "path": "scripts/monthly_tax_report.py",
+      "sha256": "aaa3e3d9b066343b9968cf56ded12833ab3824effc8033f24eb909c37d8265e9"
+    },
+    {
+      "path": "scripts/monthly_tax_simulate.py",
+      "sha256": "5d04e10bb85d28d8473ce04538e46cf9de8f36111889792e389ffd25bde46e3b"
+    },
+    {
+      "path": "scripts/run_monthly_tax.py",
+      "sha256": "5d3a108910e51e8a249cc80233409b5d1c025b430f0658fc899cc27fed78774a"
+    },
+    {
+      "path": "tests/test_monthly_tax.py",
+      "sha256": "14c1fdeabf937d187b22b904a651d21e7e7153cb8c5819dffd43701e7f3884f3"
+    }
+  ]
+}
