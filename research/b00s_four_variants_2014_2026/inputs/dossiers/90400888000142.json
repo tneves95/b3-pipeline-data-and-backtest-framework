@@ -1660,591 +1660,935 @@
       "ticker": "SANB4",
       "category": "INDETERMINATE",
       "special_case": "",
-      "assessment_ref": null,
-      "assessment_status": "AWAITING_CHRONOLOGICAL_REVIEW",
-      "classification_changed": null,
-      "dimensions": {},
-      "dimension_evidence_updates": {
+      "assessment_ref": "90400888000142:2022",
+      "assessment_status": "ASSESSED",
+      "classification_changed": false,
+      "dimensions": {
         "durability": {
-          "favorable": "Banco Múltiplo com Carteira Comercial",
+          "status": "SATISFACTORY",
+          "reason": "Franquia bancária permanece após entrega Getnet aos acionistas; nota Getnet confirma negociação separada 18/10/2021. Receitas de tarifas caíram 10,2% no1T22, coerentes com mudança de perímetro.",
+          "favorable": "Banco legado amplo e contratos comerciais continuados.",
+          "contrary_evidence": "Cisão reduz receitas e cria relação comercial fora do consolidado.",
+          "missing": "",
           "evidence": [
             {
-              "cnpj": "90400888000142",
-              "received": "2022-03-15",
-              "name": "BCO SANTANDER (BRASIL) S.A.",
-              "sector": "Bancos",
-              "activity": "Banco Múltiplo com Carteira Comercial",
-              "cvm": "020532",
-              "docid": "112552",
-              "source": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=112552"
+              "docid": "sanb_ifrs_fy2021_ri",
+              "group": 0,
+              "pages": [
+                12,
+                43,
+                61,
+                87,
+                106,
+                110,
+                111,
+                158,
+                159
+              ],
+              "received": "2022-02-25",
+              "url": "https://cms.santander.com.br/sites/WRI/documentos/url-ifrs-4t21/22-02-25_202553_dfs%20ifrs%20-%204t21.pdf",
+              "original": "review_originals/sanb_ifrs_fy2021_ri.pdf.gz",
+              "original_sha256": "a74d1253cb0162f9518f66698038bde6064329da35ba3942fda52e35c1962499"
+            },
+            {
+              "docid": "sanb_ifrs_q12022_ri",
+              "group": 0,
+              "pages": [
+                18,
+                44,
+                59,
+                60,
+                61
+              ],
+              "received": "2022-04-26",
+              "url": "https://cms.santander.com.br/sites/WRI/documentos/url-df-if-1t22/22-04-26_082414_dfs%20ifrs%201t22.pdf",
+              "original": "review_originals/sanb_ifrs_q12022_ri.pdf.gz",
+              "original_sha256": "c3ea4d274baaa145d40b01a99a89036c65ff8cc9e9377943e5f24419f94c57d4"
+            },
+            {
+              "docid": "112400",
+              "group": 412,
+              "pages": [
+                1,
+                2,
+                3,
+                38,
+                40,
+                41,
+                45,
+                47,
+                50
+              ],
+              "received": "2022-03-10",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=112400",
+              "original": "review_originals/cvm_112400_g412.pdf.gz",
+              "original_sha256": "8796cbeab22537890a6b6cffdb212317c85ede26afde0a6b1c298d68e89c6200"
+            }
+          ],
+          "prior_year": 2021,
+          "review_2021": "Franquia diversificada de crédito, depósitos, veículos e serviços continua em 2021. A cisão Getnet foi aprovada em 31/03, mas as ações Santander ainda carregam o direito proporcional à Getnet até futura data de corte condicionada às aprovações; não se supõe perda do negócio sem compensação aos atuais titulares.",
+          "review_2022": "Franquia bancária permanece após entrega Getnet aos acionistas; nota Getnet confirma negociação separada 18/10/2021. Receitas de tarifas caíram 10,2% no1T22, coerentes com mudança de perímetro."
+        },
+        "capital_economics": {
+          "status": "SATISFACTORY",
+          "reason": "A pendência da economia do capital foi reavaliada com ponte efetiva: três lucros históricos recorrentes permanecem positivos e relevantes mesmo após deduções amplas, contribuindo ao exame do ciclo 2018–20. Patrimônio IFRS e bases contábeis são reconciliados; ROE contábil anualizado 14,36% no1T22 e margem líquida com juros 13,4482 bi mostram continuidade após cisão. O juízo SAT combina rentabilidade histórica, capital requerido e risco, não deriva apenas do P/L nem de limiar universal de ROE.",
+          "favorable": "Rentabilidade da franquia legada demonstrada por série reconciliada e continuidade pós-cisão, sem adicionar perdas do choque 2020.",
+          "contrary_evidence": "Lucro IFRS1T22 caiu 6% e perdas financeiras cresceram 43%; remuneração Getnet e aquisições mudam margens. ROE não garante retorno futuro nem prêmio reinvestidor.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "100531",
+              "group": 412,
+              "pages": [
+                42,
+                43,
+                49,
+                116,
+                119,
+                136,
+                155,
+                156,
+                160,
+                161,
+                164,
+                165,
+                170,
+                171,
+                187,
+                190,
+                191,
+                200,
+                201
+              ],
+              "received": "2021-02-26",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=100531",
+              "original": "review_originals/cvm_100531_g412.pdf.gz",
+              "original_sha256": "94aa966ad6b16460740ce9be870ad63d09d6d989191715b662d2713b784a52b9"
+            },
+            {
+              "docid": "100531",
+              "group": 412,
+              "pages": [
+                247
+              ],
+              "received": "2021-02-26",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=100531",
+              "original": "review_originals/cvm_100531_g412.pdf.gz",
+              "original_sha256": "94aa966ad6b16460740ce9be870ad63d09d6d989191715b662d2713b784a52b9"
+            },
+            {
+              "docid": "104371",
+              "group": 412,
+              "pages": [
+                2,
+                3,
+                51
+              ],
+              "received": "2021-06-25",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=104371",
+              "original": "review_originals/cvm_104371_g412.pdf.gz",
+              "original_sha256": "236e6b907692d06b455de9c90cd8506c36d09b427866f03332aa70d901501bc2"
+            },
+            {
+              "docid": "112400",
+              "group": 412,
+              "pages": [
+                1,
+                2,
+                37,
+                38,
+                40,
+                41,
+                45,
+                47,
+                50
+              ],
+              "received": "2022-03-10",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=112400",
+              "original": "review_originals/cvm_112400_g412.pdf.gz",
+              "original_sha256": "8796cbeab22537890a6b6cffdb212317c85ede26afde0a6b1c298d68e89c6200"
+            },
+            {
+              "docid": "super_publication_fy2019_p198",
+              "group": 0,
+              "pages": [
+                1
+              ],
+              "received": "2020-03-31",
+              "url": "https://diariooficial.imprensaoficial.com.br/doflash/prototipo/2020/Mar%C3%A7o/31/empresarial/pdf/pg_0198.pdf",
+              "original": "review_originals/super_publication_fy2019_p198.pdf.gz",
+              "original_sha256": "dcbf24da12b4c5edca6f14c967d8cfdb49f0a44adc46ea7679df3b9bd9a18b57"
+            },
+            {
+              "docid": "super_publication_fy2019_p199",
+              "group": 0,
+              "pages": [
+                1
+              ],
+              "received": "2020-03-31",
+              "url": "https://diariooficial.imprensaoficial.com.br/doflash/prototipo/2020/Mar%C3%A7o/31/empresarial/pdf/pg_0199.pdf",
+              "original": "review_originals/super_publication_fy2019_p199.pdf.gz",
+              "original_sha256": "5858a31f64116d66d49e07e6e785a70279ac0c4409d9f1688c861100d10d66f8"
+            },
+            {
+              "docid": "super_publication_fy2020_p424",
+              "group": 0,
+              "pages": [
+                1
+              ],
+              "received": "2021-03-31",
+              "url": "https://diariooficial.imprensaoficial.com.br/doflash/prototipo/2021/Mar%C3%A7o/31/empresarial/pdf/pg_0424.pdf",
+              "original": "review_originals/super_publication_fy2020_p424.pdf.gz",
+              "original_sha256": "6226ec5e43b38e17e249b7fc1743008eb7af72193bd8e8952f67fa4c2fa477e2"
+            },
+            {
+              "docid": "super_publication_fy2020_p425",
+              "group": 0,
+              "pages": [
+                1
+              ],
+              "received": "2021-03-31",
+              "url": "https://diariooficial.imprensaoficial.com.br/doflash/prototipo/2021/Mar%C3%A7o/31/empresarial/pdf/pg_0425.pdf",
+              "original": "review_originals/super_publication_fy2020_p425.pdf.gz",
+              "original_sha256": "8fdc1666d13f675123fe5ab850405504b3979b05f651b45d07b79401136f6a26"
+            },
+            {
+              "docid": "sanb_ifrs_q12022_ri",
+              "group": 0,
+              "pages": [
+                43,
+                44,
+                59,
+                60,
+                61
+              ],
+              "received": "2022-04-26",
+              "url": "https://cms.santander.com.br/sites/WRI/documentos/url-df-if-1t22/22-04-26_082414_dfs%20ifrs%201t22.pdf",
+              "original": "review_originals/sanb_ifrs_q12022_ri.pdf.gz",
+              "original_sha256": "c3ea4d274baaa145d40b01a99a89036c65ff8cc9e9377943e5f24419f94c57d4"
+            },
+            {
+              "docid": "sanb_ifrs_fy2021_ri",
+              "group": 0,
+              "pages": [
+                42,
+                43,
+                44,
+                87,
+                158,
+                159
+              ],
+              "received": "2022-02-25",
+              "url": "https://cms.santander.com.br/sites/WRI/documentos/url-ifrs-4t21/22-02-25_202553_dfs%20ifrs%20-%204t21.pdf",
+              "original": "review_originals/sanb_ifrs_fy2021_ri.pdf.gz",
+              "original_sha256": "a74d1253cb0162f9518f66698038bde6064329da35ba3942fda52e35c1962499"
+            }
+          ],
+          "prior_year": 2021,
+          "review_2021": "Mantém ND específico da economia do capital: lucro atribuível IFRS 2020 de R$ 13,418529 bilhões inclui benefícios tributários e efeitos financeiros que requerem normalização. Q1BRGAAP de R$ 2,816264 bilhões difere do recorrenteR$ 3,988812 bilhões, por ágio e baixa de crédito tributário Getnet. A margem operacional favorável é reconhecida, mas não se mistura ROE gerencial com capital prudencial ou patrimônioIFRS.",
+          "review_2022": "A pendência da economia do capital foi reavaliada com ponte efetiva: três lucros históricos recorrentes permanecem positivos e relevantes mesmo após deduções amplas, contribuindo ao exame do ciclo 2018–20. Patrimônio IFRS e bases contábeis são reconciliados; ROE contábil anualizado 14,36% no1T22 e margem líquida com juros 13,4482 bi mostram continuidade após cisão. O juízo SAT combina rentabilidade histórica, capital requerido e risco, não deriva apenas do P/L nem de limiar universal de ROE."
+        },
+        "earnings_reliability": {
+          "status": "SATISFACTORY",
+          "reason": "Demonstrações IFRS reconciliam BRGAAP, hedge cambial líquido neutro e ganho de opção 1,180949 bi em 2021. A cisão e novo contrato Getnet são identificáveis; a avaliação não mistura lucro Gerencial/BRGAAP/IFRS.",
+          "favorable": "Ponte contábil e transações discriminadas em notas.",
+          "contrary_evidence": "Atribuição de ganhos e eliminações intragrupo precisa cuidado; fonte contém diferenças residuais de arredondamento.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "sanb_ifrs_fy2021_ri",
+              "group": 0,
+              "pages": [
+                12,
+                43,
+                61,
+                87,
+                106,
+                110,
+                111,
+                158,
+                159
+              ],
+              "received": "2022-02-25",
+              "url": "https://cms.santander.com.br/sites/WRI/documentos/url-ifrs-4t21/22-02-25_202553_dfs%20ifrs%20-%204t21.pdf",
+              "original": "review_originals/sanb_ifrs_fy2021_ri.pdf.gz",
+              "original_sha256": "a74d1253cb0162f9518f66698038bde6064329da35ba3942fda52e35c1962499"
+            },
+            {
+              "docid": "sanb_ifrs_q12022_ri",
+              "group": 0,
+              "pages": [
+                18,
+                44,
+                59,
+                60,
+                61
+              ],
+              "received": "2022-04-26",
+              "url": "https://cms.santander.com.br/sites/WRI/documentos/url-df-if-1t22/22-04-26_082414_dfs%20ifrs%201t22.pdf",
+              "original": "review_originals/sanb_ifrs_q12022_ri.pdf.gz",
+              "original_sha256": "c3ea4d274baaa145d40b01a99a89036c65ff8cc9e9377943e5f24419f94c57d4"
+            },
+            {
+              "docid": "112400",
+              "group": 412,
+              "pages": [
+                1,
+                2,
+                3,
+                38,
+                40,
+                41,
+                45,
+                47,
+                50
+              ],
+              "received": "2022-03-10",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=112400",
+              "original": "review_originals/cvm_112400_g412.pdf.gz",
+              "original_sha256": "8796cbeab22537890a6b6cffdb212317c85ede26afde0a6b1c298d68e89c6200"
+            }
+          ],
+          "prior_year": 2021,
+          "review_2021": "Mantém SAT: notas separam lucro contábil/recorrente, mostram o hedge cambial com seus tributos e descrevem alienações, provisões e itens pós-emprego. A soma conjunta do hedge cambial é zero em 2018–20; remover só o benefício tributário produziria falsa perda econômica.",
+          "review_2022": "Demonstrações IFRS reconciliam BRGAAP, hedge cambial líquido neutro e ganho de opção 1,180949 bi em 2021. A cisão e novo contrato Getnet são identificáveis; a avaliação não mistura lucro Gerencial/BRGAAP/IFRS."
+        },
+        "financial_resilience": {
+          "status": "SATISFACTORY",
+          "reason": "Basileia 14,71%,Nível I 12,75% e CET1 11,74% em março excedem mínimos aplicáveis abril 11,5/9,5/8%. A conclusão preserva risco de crédito, sem tratar capital adicional como ordinário.",
+          "favorable": "Folga prudencial e operação lucrativa.",
+          "contrary_evidence": "Custo de crédito crescente e redução do índice total frente 14,91% de dezembro.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "sanb_ifrs_fy2021_ri",
+              "group": 0,
+              "pages": [
+                12,
+                43,
+                61,
+                87,
+                106,
+                110,
+                111,
+                158,
+                159
+              ],
+              "received": "2022-02-25",
+              "url": "https://cms.santander.com.br/sites/WRI/documentos/url-ifrs-4t21/22-02-25_202553_dfs%20ifrs%20-%204t21.pdf",
+              "original": "review_originals/sanb_ifrs_fy2021_ri.pdf.gz",
+              "original_sha256": "a74d1253cb0162f9518f66698038bde6064329da35ba3942fda52e35c1962499"
+            },
+            {
+              "docid": "sanb_ifrs_q12022_ri",
+              "group": 0,
+              "pages": [
+                18,
+                44,
+                59,
+                60,
+                61
+              ],
+              "received": "2022-04-26",
+              "url": "https://cms.santander.com.br/sites/WRI/documentos/url-df-if-1t22/22-04-26_082414_dfs%20ifrs%201t22.pdf",
+              "original": "review_originals/sanb_ifrs_q12022_ri.pdf.gz",
+              "original_sha256": "c3ea4d274baaa145d40b01a99a89036c65ff8cc9e9377943e5f24419f94c57d4"
+            },
+            {
+              "docid": "112400",
+              "group": 412,
+              "pages": [
+                1,
+                2,
+                3,
+                38,
+                40,
+                41,
+                45,
+                47,
+                50
+              ],
+              "received": "2022-03-10",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=112400",
+              "original": "review_originals/cvm_112400_g412.pdf.gz",
+              "original_sha256": "8796cbeab22537890a6b6cffdb212317c85ede26afde0a6b1c298d68e89c6200"
+            }
+          ],
+          "prior_year": 2021,
+          "review_2021": "CET1 de 12,63%, Nível I13,91% e Basileia 15,18% em 31/03/2021, com PRR$ 87,353958 bilhões e RWA R$ 575,642618 bilhões, sustentam continuidade financeiraSAT. A nota61 explicita mínimos6,75/8,25/10,25% em março e elevação de0,375pp emabril e0,375pp emoutubro, evitando usar indefinidamente o alívio.",
+          "review_2022": "Basileia 14,71%,Nível I 12,75% e CET1 11,74% em março excedem mínimos aplicáveis abril 11,5/9,5/8%. A conclusão preserva risco de crédito, sem tratar capital adicional como ordinário."
+        },
+        "capital_allocation": {
+          "status": "INDETERMINATE",
+          "reason": "Cisão Getnet foi concluída e ações entregues, resolvendo a pendência de execução 2021. Novas compras Toro/Paytec/Liderança/Solutions 4 Fleet e contrato Getnet deixam pendência de retorno econômico da nova alocação, sem presumir fracasso.",
+          "favorable": "Entrega de ativos aos acionistas e transparência das operações.",
+          "contrary_evidence": "Acordo de remuneração variável Getnet e goodwill de aquisições exigem acompanhamento específico.",
+          "missing": "Ainda insuficiente a demonstração de retorno incremental por ação das aquisições Toro/Liderança/Paytec/Solutions 4 Fleet e da remuneração variável Getnet. A contribuição dos negócios vendidos foi conciliada; não é mais essa a lacuna.",
+          "evidence": [
+            {
+              "docid": "sanb_ifrs_fy2021_ri",
+              "group": 0,
+              "pages": [
+                12,
+                43,
+                61,
+                87,
+                106,
+                110,
+                111,
+                158,
+                159
+              ],
+              "received": "2022-02-25",
+              "url": "https://cms.santander.com.br/sites/WRI/documentos/url-ifrs-4t21/22-02-25_202553_dfs%20ifrs%20-%204t21.pdf",
+              "original": "review_originals/sanb_ifrs_fy2021_ri.pdf.gz",
+              "original_sha256": "a74d1253cb0162f9518f66698038bde6064329da35ba3942fda52e35c1962499"
+            },
+            {
+              "docid": "sanb_ifrs_q12022_ri",
+              "group": 0,
+              "pages": [
+                18,
+                44,
+                59,
+                60,
+                61
+              ],
+              "received": "2022-04-26",
+              "url": "https://cms.santander.com.br/sites/WRI/documentos/url-df-if-1t22/22-04-26_082414_dfs%20ifrs%201t22.pdf",
+              "original": "review_originals/sanb_ifrs_q12022_ri.pdf.gz",
+              "original_sha256": "c3ea4d274baaa145d40b01a99a89036c65ff8cc9e9377943e5f24419f94c57d4"
+            },
+            {
+              "docid": "112400",
+              "group": 412,
+              "pages": [
+                1,
+                2,
+                3,
+                38,
+                40,
+                41,
+                45,
+                47,
+                50
+              ],
+              "received": "2022-03-10",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=112400",
+              "original": "review_originals/cvm_112400_g412.pdf.gz",
+              "original_sha256": "8796cbeab22537890a6b6cffdb212317c85ede26afde0a6b1c298d68e89c6200"
+            }
+          ],
+          "prior_year": 2021,
+          "review_2021": "Mantém ND após avaliação das mudanças: Olé foi incorporada em 2020 após compra residual porR$ 1,608772 bilhões; Getnet tem cisão aprovada com direitos proporcionais; Superdigital foi vendida porR$ 270 milhões; novos negócios Paytec/Gira são efetivados e Toro ainda condicionado na informação de abril.",
+          "review_2022": "Cisão Getnet foi concluída e ações entregues, resolvendo a pendência de execução 2021. Novas compras Toro/Paytec/Liderança/Solutions 4 Fleet e contrato Getnet deixam pendência de retorno econômico da nova alocação, sem presumir fracasso."
+        },
+        "governance": {
+          "status": "SATISFACTORY",
+          "reason": "Mantém SAT com cisão aprovada, entrega proporcional de ações, notas das partes relacionadas e controles atuais. O contrato Getnet não é presumido vantajoso apenas por pertencer ao mesmo grupo.",
+          "favorable": "Operação societária efetiva e divulgação das condições econômicas.",
+          "contrary_evidence": "Controle Santander Espanha e volumes materiais com Getnet criam potenciais conflitos.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "sanb_ifrs_fy2021_ri",
+              "group": 0,
+              "pages": [
+                12,
+                43,
+                61,
+                87,
+                106,
+                110,
+                111,
+                158,
+                159
+              ],
+              "received": "2022-02-25",
+              "url": "https://cms.santander.com.br/sites/WRI/documentos/url-ifrs-4t21/22-02-25_202553_dfs%20ifrs%20-%204t21.pdf",
+              "original": "review_originals/sanb_ifrs_fy2021_ri.pdf.gz",
+              "original_sha256": "a74d1253cb0162f9518f66698038bde6064329da35ba3942fda52e35c1962499"
+            },
+            {
+              "docid": "sanb_ifrs_q12022_ri",
+              "group": 0,
+              "pages": [
+                18,
+                44,
+                59,
+                60,
+                61
+              ],
+              "received": "2022-04-26",
+              "url": "https://cms.santander.com.br/sites/WRI/documentos/url-df-if-1t22/22-04-26_082414_dfs%20ifrs%201t22.pdf",
+              "original": "review_originals/sanb_ifrs_q12022_ri.pdf.gz",
+              "original_sha256": "c3ea4d274baaa145d40b01a99a89036c65ff8cc9e9377943e5f24419f94c57d4"
+            },
+            {
+              "docid": "112400",
+              "group": 412,
+              "pages": [
+                1,
+                2,
+                3,
+                38,
+                40,
+                41,
+                45,
+                47,
+                50
+              ],
+              "received": "2022-03-10",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=112400",
+              "original": "review_originals/cvm_112400_g412.pdf.gz",
+              "original_sha256": "8796cbeab22537890a6b6cffdb212317c85ede26afde0a6b1c298d68e89c6200"
+            }
+          ],
+          "prior_year": 2021,
+          "review_2021": "Mantém SAT com análise concreta do tratamento dos titulares: cisãoGetnet preserva participação proporcional por classe e depende de data de corte futura anunciada. Controle concentrado e transações com a Espanha permanecem explicitamente contrapostos aos controles e à prestação de contas anteriormente examinados.",
+          "review_2022": "Mantém SAT com cisão aprovada, entrega proporcional de ações, notas das partes relacionadas e controles atuais. O contrato Getnet não é presumido vantajoso apenas por pertencer ao mesmo grupo."
+        }
+      },
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "Banco legado amplo e contratos comerciais continuados.",
+          "evidence": [
+            {
+              "docid": "sanb_ifrs_fy2021_ri",
+              "group": 0,
+              "pages": [
+                12,
+                43,
+                61,
+                87,
+                106,
+                110,
+                111,
+                158,
+                159
+              ],
+              "received": "2022-02-25",
+              "url": "https://cms.santander.com.br/sites/WRI/documentos/url-ifrs-4t21/22-02-25_202553_dfs%20ifrs%20-%204t21.pdf",
+              "original": "review_originals/sanb_ifrs_fy2021_ri.pdf.gz",
+              "original_sha256": "a74d1253cb0162f9518f66698038bde6064329da35ba3942fda52e35c1962499"
+            },
+            {
+              "docid": "sanb_ifrs_q12022_ri",
+              "group": 0,
+              "pages": [
+                18,
+                44,
+                59,
+                60,
+                61
+              ],
+              "received": "2022-04-26",
+              "url": "https://cms.santander.com.br/sites/WRI/documentos/url-df-if-1t22/22-04-26_082414_dfs%20ifrs%201t22.pdf",
+              "original": "review_originals/sanb_ifrs_q12022_ri.pdf.gz",
+              "original_sha256": "c3ea4d274baaa145d40b01a99a89036c65ff8cc9e9377943e5f24419f94c57d4"
+            },
+            {
+              "docid": "112400",
+              "group": 412,
+              "pages": [
+                1,
+                2,
+                3,
+                38,
+                40,
+                41,
+                45,
+                47,
+                50
+              ],
+              "received": "2022-03-10",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=112400",
+              "original": "review_originals/cvm_112400_g412.pdf.gz",
+              "original_sha256": "8796cbeab22537890a6b6cffdb212317c85ede26afde0a6b1c298d68e89c6200"
             }
           ]
         },
         "capital_economics": {
-          "favorable": {
-            "roe_parent_5": [
-              0.15222475766283214,
-              0.20176643165691835,
-              0.5030544503126197,
-              null,
-              null
-            ],
-            "normalized_profit": 15819609795.9029
-          },
+          "favorable": "Rentabilidade da franquia legada demonstrada por série reconciliada e continuidade pós-cisão, sem adicionar perdas do choque 2020.",
           "evidence": [
             {
-              "fiscal_year": 2017,
-              "metric": "attributable_ni",
-              "value": 8924064000.0,
-              "docid": "80957",
-              "received": "2019-02-28",
-              "reference": "2018-12-31",
-              "period_end": "2017-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2018.csv",
-              "archive_sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2018.zip"
-            },
-            {
-              "fiscal_year": 2018,
-              "metric": "attributable_ni",
-              "value": 12582477000.0,
-              "docid": "91518",
-              "received": "2020-03-12",
-              "reference": "2019-12-31",
-              "period_end": "2018-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2019.csv",
-              "archive_sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2019.zip"
-            },
-            {
-              "fiscal_year": 2019,
-              "metric": "attributable_ni",
-              "value": 16406932000.0,
               "docid": "100531",
+              "group": 412,
+              "pages": [
+                42,
+                43,
+                49,
+                116,
+                119,
+                136,
+                155,
+                156,
+                160,
+                161,
+                164,
+                165,
+                170,
+                171,
+                187,
+                190,
+                191,
+                200,
+                201
+              ],
               "received": "2021-02-26",
-              "reference": "2020-12-31",
-              "period_end": "2019-12-31",
-              "perimeter": "con",
-              "account": "3.09.01",
-              "description": "Atribuído a Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2020.csv",
-              "archive_sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2020.zip"
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=100531",
+              "original": "review_originals/cvm_100531_g412.pdf.gz",
+              "original_sha256": "94aa966ad6b16460740ce9be870ad63d09d6d989191715b662d2713b784a52b9"
             },
             {
-              "fiscal_year": 2020,
-              "metric": "attributable_ni",
-              "value": 13418529000.0,
-              "docid": "112144",
-              "received": "2022-02-28",
-              "reference": "2021-12-31",
-              "period_end": "2020-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído aos Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2021.csv",
-              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+              "docid": "100531",
+              "group": 412,
+              "pages": [
+                247
+              ],
+              "received": "2021-02-26",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=100531",
+              "original": "review_originals/cvm_100531_g412.pdf.gz",
+              "original_sha256": "94aa966ad6b16460740ce9be870ad63d09d6d989191715b662d2713b784a52b9"
             },
             {
-              "fiscal_year": 2021,
-              "metric": "attributable_ni",
-              "value": 15528052000.0,
-              "docid": "112144",
-              "received": "2022-02-28",
-              "reference": "2021-12-31",
-              "period_end": "2021-12-31",
-              "perimeter": "con",
-              "account": "3.11.01",
-              "description": "Atribuído aos Sócios da Empresa Controladora",
-              "source": "dfp_cia_aberta_DRE_con_2021.csv",
-              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+              "docid": "104371",
+              "group": 412,
+              "pages": [
+                2,
+                3,
+                51
+              ],
+              "received": "2021-06-25",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=104371",
+              "original": "review_originals/cvm_104371_g412.pdf.gz",
+              "original_sha256": "236e6b907692d06b455de9c90cd8506c36d09b427866f03332aa70d901501bc2"
+            },
+            {
+              "docid": "112400",
+              "group": 412,
+              "pages": [
+                1,
+                2,
+                37,
+                38,
+                40,
+                41,
+                45,
+                47,
+                50
+              ],
+              "received": "2022-03-10",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=112400",
+              "original": "review_originals/cvm_112400_g412.pdf.gz",
+              "original_sha256": "8796cbeab22537890a6b6cffdb212317c85ede26afde0a6b1c298d68e89c6200"
+            },
+            {
+              "docid": "super_publication_fy2019_p198",
+              "group": 0,
+              "pages": [
+                1
+              ],
+              "received": "2020-03-31",
+              "url": "https://diariooficial.imprensaoficial.com.br/doflash/prototipo/2020/Mar%C3%A7o/31/empresarial/pdf/pg_0198.pdf",
+              "original": "review_originals/super_publication_fy2019_p198.pdf.gz",
+              "original_sha256": "dcbf24da12b4c5edca6f14c967d8cfdb49f0a44adc46ea7679df3b9bd9a18b57"
+            },
+            {
+              "docid": "super_publication_fy2019_p199",
+              "group": 0,
+              "pages": [
+                1
+              ],
+              "received": "2020-03-31",
+              "url": "https://diariooficial.imprensaoficial.com.br/doflash/prototipo/2020/Mar%C3%A7o/31/empresarial/pdf/pg_0199.pdf",
+              "original": "review_originals/super_publication_fy2019_p199.pdf.gz",
+              "original_sha256": "5858a31f64116d66d49e07e6e785a70279ac0c4409d9f1688c861100d10d66f8"
+            },
+            {
+              "docid": "super_publication_fy2020_p424",
+              "group": 0,
+              "pages": [
+                1
+              ],
+              "received": "2021-03-31",
+              "url": "https://diariooficial.imprensaoficial.com.br/doflash/prototipo/2021/Mar%C3%A7o/31/empresarial/pdf/pg_0424.pdf",
+              "original": "review_originals/super_publication_fy2020_p424.pdf.gz",
+              "original_sha256": "6226ec5e43b38e17e249b7fc1743008eb7af72193bd8e8952f67fa4c2fa477e2"
+            },
+            {
+              "docid": "super_publication_fy2020_p425",
+              "group": 0,
+              "pages": [
+                1
+              ],
+              "received": "2021-03-31",
+              "url": "https://diariooficial.imprensaoficial.com.br/doflash/prototipo/2021/Mar%C3%A7o/31/empresarial/pdf/pg_0425.pdf",
+              "original": "review_originals/super_publication_fy2020_p425.pdf.gz",
+              "original_sha256": "8fdc1666d13f675123fe5ab850405504b3979b05f651b45d07b79401136f6a26"
+            },
+            {
+              "docid": "sanb_ifrs_q12022_ri",
+              "group": 0,
+              "pages": [
+                43,
+                44,
+                59,
+                60,
+                61
+              ],
+              "received": "2022-04-26",
+              "url": "https://cms.santander.com.br/sites/WRI/documentos/url-df-if-1t22/22-04-26_082414_dfs%20ifrs%201t22.pdf",
+              "original": "review_originals/sanb_ifrs_q12022_ri.pdf.gz",
+              "original_sha256": "c3ea4d274baaa145d40b01a99a89036c65ff8cc9e9377943e5f24419f94c57d4"
+            },
+            {
+              "docid": "sanb_ifrs_fy2021_ri",
+              "group": 0,
+              "pages": [
+                42,
+                43,
+                44,
+                87,
+                158,
+                159
+              ],
+              "received": "2022-02-25",
+              "url": "https://cms.santander.com.br/sites/WRI/documentos/url-ifrs-4t21/22-02-25_202553_dfs%20ifrs%20-%204t21.pdf",
+              "original": "review_originals/sanb_ifrs_fy2021_ri.pdf.gz",
+              "original_sha256": "a74d1253cb0162f9518f66698038bde6064329da35ba3942fda52e35c1962499"
             }
           ]
         },
         "earnings_reliability": {
-          "favorable": {
-            "positive_attributable_years": 5,
-            "audit_records": 13
-          },
+          "favorable": "Ponte contábil e transações discriminadas em notas.",
           "evidence": [
             {
-              "docid": "112144",
-              "received": "2022-02-28",
-              "reference": "2021-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2021.csv",
-              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+              "docid": "sanb_ifrs_fy2021_ri",
+              "group": 0,
+              "pages": [
+                12,
+                43,
+                61,
+                87,
+                106,
+                110,
+                111,
+                158,
+                159
+              ],
+              "received": "2022-02-25",
+              "url": "https://cms.santander.com.br/sites/WRI/documentos/url-ifrs-4t21/22-02-25_202553_dfs%20ifrs%20-%204t21.pdf",
+              "original": "review_originals/sanb_ifrs_fy2021_ri.pdf.gz",
+              "original_sha256": "a74d1253cb0162f9518f66698038bde6064329da35ba3942fda52e35c1962499"
             },
             {
-              "docid": "112144",
-              "received": "2022-02-28",
-              "reference": "2021-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2021.csv",
-              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+              "docid": "sanb_ifrs_q12022_ri",
+              "group": 0,
+              "pages": [
+                18,
+                44,
+                59,
+                60,
+                61
+              ],
+              "received": "2022-04-26",
+              "url": "https://cms.santander.com.br/sites/WRI/documentos/url-df-if-1t22/22-04-26_082414_dfs%20ifrs%201t22.pdf",
+              "original": "review_originals/sanb_ifrs_q12022_ri.pdf.gz",
+              "original_sha256": "c3ea4d274baaa145d40b01a99a89036c65ff8cc9e9377943e5f24419f94c57d4"
             },
             {
-              "docid": "112144",
-              "received": "2022-02-28",
-              "reference": "2021-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2021.csv",
-              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
-            },
-            {
-              "docid": "112144",
-              "received": "2022-02-28",
-              "reference": "2021-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2021.csv",
-              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
-            },
-            {
-              "docid": "112144",
-              "received": "2022-02-28",
-              "reference": "2021-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2021.csv",
-              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
-            },
-            {
-              "docid": "112144",
-              "received": "2022-02-28",
-              "reference": "2021-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2021.csv",
-              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
-            },
-            {
-              "docid": "112144",
-              "received": "2022-02-28",
-              "reference": "2021-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2021.csv",
-              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
-            },
-            {
-              "docid": "112144",
-              "received": "2022-02-28",
-              "reference": "2021-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2021.csv",
-              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
-            },
-            {
-              "docid": "112144",
-              "received": "2022-02-28",
-              "reference": "2021-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2021.csv",
-              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
-            },
-            {
-              "docid": "112144",
-              "received": "2022-02-28",
-              "reference": "2021-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2021.csv",
-              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
-            },
-            {
-              "docid": "112144",
-              "received": "2022-02-28",
-              "reference": "2021-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2021.csv",
-              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
-            },
-            {
-              "docid": "112144",
-              "received": "2022-02-28",
-              "reference": "2021-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2021.csv",
-              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
-            },
-            {
-              "docid": "112144",
-              "received": "2022-02-28",
-              "reference": "2021-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2021.csv",
-              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+              "docid": "112400",
+              "group": 412,
+              "pages": [
+                1,
+                2,
+                3,
+                38,
+                40,
+                41,
+                45,
+                47,
+                50
+              ],
+              "received": "2022-03-10",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=112400",
+              "original": "review_originals/cvm_112400_g412.pdf.gz",
+              "original_sha256": "8796cbeab22537890a6b6cffdb212317c85ede26afde0a6b1c298d68e89c6200"
             }
           ]
         },
         "financial_resilience": {
-          "favorable": {
-            "parent_equity_latest": 0.0
-          },
+          "favorable": "Folga prudencial e operação lucrativa.",
           "evidence": [
             {
-              "docid": "112144",
-              "received": "2022-02-28",
-              "reference": "2021-12-31",
-              "period_end": "2021-12-31",
-              "perimeter": "ind",
-              "account": "2.07",
-              "description": "Patrimônio Líquido",
-              "source": "dfp_cia_aberta_BPP_ind_2021.csv",
-              "archive_sha256": "",
-              "url": ""
+              "docid": "sanb_ifrs_fy2021_ri",
+              "group": 0,
+              "pages": [
+                12,
+                43,
+                61,
+                87,
+                106,
+                110,
+                111,
+                158,
+                159
+              ],
+              "received": "2022-02-25",
+              "url": "https://cms.santander.com.br/sites/WRI/documentos/url-ifrs-4t21/22-02-25_202553_dfs%20ifrs%20-%204t21.pdf",
+              "original": "review_originals/sanb_ifrs_fy2021_ri.pdf.gz",
+              "original_sha256": "a74d1253cb0162f9518f66698038bde6064329da35ba3942fda52e35c1962499"
+            },
+            {
+              "docid": "sanb_ifrs_q12022_ri",
+              "group": 0,
+              "pages": [
+                18,
+                44,
+                59,
+                60,
+                61
+              ],
+              "received": "2022-04-26",
+              "url": "https://cms.santander.com.br/sites/WRI/documentos/url-df-if-1t22/22-04-26_082414_dfs%20ifrs%201t22.pdf",
+              "original": "review_originals/sanb_ifrs_q12022_ri.pdf.gz",
+              "original_sha256": "c3ea4d274baaa145d40b01a99a89036c65ff8cc9e9377943e5f24419f94c57d4"
+            },
+            {
+              "docid": "112400",
+              "group": 412,
+              "pages": [
+                1,
+                2,
+                3,
+                38,
+                40,
+                41,
+                45,
+                47,
+                50
+              ],
+              "received": "2022-03-10",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=112400",
+              "original": "review_originals/cvm_112400_g412.pdf.gz",
+              "original_sha256": "8796cbeab22537890a6b6cffdb212317c85ede26afde0a6b1c298d68e89c6200"
             }
           ]
         },
         "capital_allocation": {
-          "favorable": {
-            "historical_payout": [
-              0.8294,
-              0.5710000000000001,
-              0.8069,
-              0.2874,
-              null
-            ],
-            "distributions": [
-              6300000000.03,
-              6600000000.0,
-              10800000000.0,
-              3837085231.82,
-              null
-            ]
-          },
+          "favorable": "Entrega de ativos aos acionistas e transparência das operações.",
           "evidence": [
             {
-              "docid": "103768",
-              "received": "2021-05-11",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2020.csv",
-              "archive_sha256": "17d2d911201f64dc8ff501104ce8fe343cd4ab3bdb41ea03eb6bfc2c4f6b80ab",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=103768",
-              "fiscal_year": 2017,
-              "raw": {
-                "CNPJ_Companhia": "90.400.888/0001-42",
-                "Data_Referencia": "2020-01-01",
-                "Versao": "10",
-                "ID_Documento": "103768",
-                "Nome_Companhia": "BCO SANTANDER (BRASIL) S.A.",
-                "Data_Inicio_Exercicio_Social": "2017-01-01",
-                "Data_Fim_Exercicio_Social": "2017-12-31",
-                "Lucro_Liquido_Ajustado": "7596078435.18",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "14.59000000",
-                "Lucro_Liquido_Retido": "1695872037.03",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "82.94000000",
-                "Dividendo_Distribuido_Total": "6300000000.03",
-                "Data_Aprovacao_Retencao": "2018-04-27"
-              }
+              "docid": "sanb_ifrs_fy2021_ri",
+              "group": 0,
+              "pages": [
+                12,
+                43,
+                61,
+                87,
+                106,
+                110,
+                111,
+                158,
+                159
+              ],
+              "received": "2022-02-25",
+              "url": "https://cms.santander.com.br/sites/WRI/documentos/url-ifrs-4t21/22-02-25_202553_dfs%20ifrs%20-%204t21.pdf",
+              "original": "review_originals/sanb_ifrs_fy2021_ri.pdf.gz",
+              "original_sha256": "a74d1253cb0162f9518f66698038bde6064329da35ba3942fda52e35c1962499"
             },
             {
-              "docid": "115788",
-              "received": "2022-05-26",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2021.csv",
-              "archive_sha256": "882e4c19c0719b7ac75f8e906c264fdd69b899cf0a2942ad00c4eb14a1b855bd",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=115788",
-              "fiscal_year": 2018,
-              "raw": {
-                "CNPJ_Companhia": "90.400.888/0001-42",
-                "Data_Referencia": "2021-01-01",
-                "Versao": "19",
-                "ID_Documento": "115788",
-                "Nome_Companhia": "BCO SANTANDER (BRASIL) S.A.",
-                "Data_Inicio_Exercicio_Social": "2018-01-01",
-                "Data_Fim_Exercicio_Social": "2018-12-31",
-                "Lucro_Liquido_Ajustado": "11558074566.48",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "18.65000000",
-                "Lucro_Liquido_Retido": "5566394280.51",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "57.10000000",
-                "Dividendo_Distribuido_Total": "6600000000.00",
-                "Data_Aprovacao_Retencao": "2019-04-26"
-              }
+              "docid": "sanb_ifrs_q12022_ri",
+              "group": 0,
+              "pages": [
+                18,
+                44,
+                59,
+                60,
+                61
+              ],
+              "received": "2022-04-26",
+              "url": "https://cms.santander.com.br/sites/WRI/documentos/url-df-if-1t22/22-04-26_082414_dfs%20ifrs%201t22.pdf",
+              "original": "review_originals/sanb_ifrs_q12022_ri.pdf.gz",
+              "original_sha256": "c3ea4d274baaa145d40b01a99a89036c65ff8cc9e9377943e5f24419f94c57d4"
             },
             {
-              "docid": "115788",
-              "received": "2022-05-26",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2021.csv",
-              "archive_sha256": "882e4c19c0719b7ac75f8e906c264fdd69b899cf0a2942ad00c4eb14a1b855bd",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=115788",
-              "fiscal_year": 2019,
-              "raw": {
-                "CNPJ_Companhia": "90.400.888/0001-42",
-                "Data_Referencia": "2021-01-01",
-                "Versao": "19",
-                "ID_Documento": "115788",
-                "Nome_Companhia": "BCO SANTANDER (BRASIL) S.A.",
-                "Data_Inicio_Exercicio_Social": "2019-01-01",
-                "Data_Fim_Exercicio_Social": "2019-12-31",
-                "Lucro_Liquido_Ajustado": "14089180217.18",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "15.50000000",
-                "Lucro_Liquido_Retido": "2584721257.62",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "80.69000000",
-                "Dividendo_Distribuido_Total": "10800000000.00",
-                "Data_Aprovacao_Retencao": "2020-04-30"
-              }
-            },
-            {
-              "docid": "115788",
-              "received": "2022-05-26",
-              "reference": "",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "fre_cia_aberta_distribuicao_dividendos_2021.csv",
-              "archive_sha256": "882e4c19c0719b7ac75f8e906c264fdd69b899cf0a2942ad00c4eb14a1b855bd",
-              "url": "http://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=115788",
-              "fiscal_year": 2020,
-              "raw": {
-                "CNPJ_Companhia": "90.400.888/0001-42",
-                "Data_Referencia": "2021-01-01",
-                "Versao": "19",
-                "ID_Documento": "115788",
-                "Nome_Companhia": "BCO SANTANDER (BRASIL) S.A.",
-                "Data_Inicio_Exercicio_Social": "2020-01-01",
-                "Data_Fim_Exercicio_Social": "2020-12-31",
-                "Lucro_Liquido_Ajustado": "13353340927.27",
-                "Taxa_Retorno_Patrimonio_Liquido_Emissor": "17.75000000",
-                "Lucro_Liquido_Retido": "10219063112.67",
-                "Dividendo_Distribuido_Lucro_Liquido_Ajustado": "28.74000000",
-                "Dividendo_Distribuido_Total": "3837085231.82",
-                "Data_Aprovacao_Retencao": ""
-              }
+              "docid": "112400",
+              "group": 412,
+              "pages": [
+                1,
+                2,
+                3,
+                38,
+                40,
+                41,
+                45,
+                47,
+                50
+              ],
+              "received": "2022-03-10",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=112400",
+              "original": "review_originals/cvm_112400_g412.pdf.gz",
+              "original_sha256": "8796cbeab22537890a6b6cffdb212317c85ede26afde0a6b1c298d68e89c6200"
             }
           ]
         },
         "governance": {
-          "favorable": {
-            "dated_shareholder_right_records": 24,
-            "dated_related_party_records": 1145
-          },
+          "favorable": "Operação societária efetiva e divulgação das condições econômicas.",
           "evidence": [
             {
-              "docid": "112144",
-              "received": "2022-02-28",
-              "reference": "2021-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2021.csv",
-              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+              "docid": "sanb_ifrs_fy2021_ri",
+              "group": 0,
+              "pages": [
+                12,
+                43,
+                61,
+                87,
+                106,
+                110,
+                111,
+                158,
+                159
+              ],
+              "received": "2022-02-25",
+              "url": "https://cms.santander.com.br/sites/WRI/documentos/url-ifrs-4t21/22-02-25_202553_dfs%20ifrs%20-%204t21.pdf",
+              "original": "review_originals/sanb_ifrs_fy2021_ri.pdf.gz",
+              "original_sha256": "a74d1253cb0162f9518f66698038bde6064329da35ba3942fda52e35c1962499"
             },
             {
-              "docid": "112144",
-              "received": "2022-02-28",
-              "reference": "2021-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2021.csv",
-              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+              "docid": "sanb_ifrs_q12022_ri",
+              "group": 0,
+              "pages": [
+                18,
+                44,
+                59,
+                60,
+                61
+              ],
+              "received": "2022-04-26",
+              "url": "https://cms.santander.com.br/sites/WRI/documentos/url-df-if-1t22/22-04-26_082414_dfs%20ifrs%201t22.pdf",
+              "original": "review_originals/sanb_ifrs_q12022_ri.pdf.gz",
+              "original_sha256": "c3ea4d274baaa145d40b01a99a89036c65ff8cc9e9377943e5f24419f94c57d4"
             },
             {
-              "docid": "112144",
-              "received": "2022-02-28",
-              "reference": "2021-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2021.csv",
-              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
-            },
-            {
-              "docid": "112144",
-              "received": "2022-02-28",
-              "reference": "2021-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2021.csv",
-              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
-            },
-            {
-              "docid": "112144",
-              "received": "2022-02-28",
-              "reference": "2021-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2021.csv",
-              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
-            },
-            {
-              "docid": "112144",
-              "received": "2022-02-28",
-              "reference": "2021-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2021.csv",
-              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
-            },
-            {
-              "docid": "112144",
-              "received": "2022-02-28",
-              "reference": "2021-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2021.csv",
-              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
-            },
-            {
-              "docid": "112144",
-              "received": "2022-02-28",
-              "reference": "2021-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2021.csv",
-              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
-            },
-            {
-              "docid": "112144",
-              "received": "2022-02-28",
-              "reference": "2021-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2021.csv",
-              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
-            },
-            {
-              "docid": "112144",
-              "received": "2022-02-28",
-              "reference": "2021-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2021.csv",
-              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
-            },
-            {
-              "docid": "112144",
-              "received": "2022-02-28",
-              "reference": "2021-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2021.csv",
-              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
-            },
-            {
-              "docid": "112144",
-              "received": "2022-02-28",
-              "reference": "2021-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2021.csv",
-              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
-            },
-            {
-              "docid": "112144",
-              "received": "2022-02-28",
-              "reference": "2021-12-31",
-              "period_end": "",
-              "perimeter": "",
-              "account": "",
-              "description": "",
-              "source": "dfp_cia_aberta_parecer_2021.csv",
-              "archive_sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
-              "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2021.zip"
+              "docid": "112400",
+              "group": 412,
+              "pages": [
+                1,
+                2,
+                3,
+                38,
+                40,
+                41,
+                45,
+                47,
+                50
+              ],
+              "received": "2022-03-10",
+              "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=112400",
+              "original": "review_originals/cvm_112400_g412.pdf.gz",
+              "original_sha256": "8796cbeab22537890a6b6cffdb212317c85ede26afde0a6b1c298d68e89c6200"
             }
           ]
         }

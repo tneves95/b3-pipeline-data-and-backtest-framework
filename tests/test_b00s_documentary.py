@@ -99,3 +99,60 @@ def test_reviews_were_committed_before_portfolio_replay():
         for r in latest['files']:
             committed=subprocess.check_output(['git','show',latest['decision_commit']+':'+r['path']],cwd=m.ROOT)
             assert hashlib.sha256(committed).hexdigest()==r['sha256']
+
+
+@pytest.mark.parametrize('kind', ['DFP', 'ITR'])
+def test_submitted_xml_preserves_originals_and_checks_point_in_time(tmp_path, monkeypatch, kind):
+    import base64
+    import io
+    import zipfile
+    from pypdf import PdfWriter
+    import b00s_collect_notes as c
+    monkeypatch.setattr(c, 'INPUT', tmp_path)
+    monkeypatch.setattr(c, 'DEST', tmp_path)
+    pdf = io.BytesIO()
+    writer = PdfWriter()
+    writer.add_blank_page(width=100, height=100)
+    writer.write(pdf)
+    original = pdf.getvalue()
+    tag = '4' if kind == 'DFP' else '3'
+    schema = {'DFP': 'XmlDemonstracoesFinanceiras', 'ITR': 'XmlInformacoesTrimestraisFinanceiras'}[kind]
+    submitted = (
+        f'<{schema}><DadosEmpresa><CodigoCvm>018660</CodigoCvm>'
+        '<CnpjEmpresa>02429144000193</CnpjEmpresa></DadosEmpresa>'
+        f'<Documento><TipoDocumento>{tag}</TipoDocumento><VersaoDocumento>1</VersaoDocumento></Documento>'
+        f'<Dados{kind}><DataReferencia>31/12/2021</DataReferencia><AnexosDocumento><Anexo>'
+        '<NumeroGrupoRelacionado>412</NumeroGrupoRelacionado><ImagemObjetoArquivoPdf>'
+        + base64.b64encode(original).decode() + '</ImagemObjetoArquivoPdf></Anexo>'
+        f'</AnexosDocumento></Dados{kind}></{schema}>'
+    ).encode()
+    metadata = (
+        '<Documento><NumeroSequencialDocumento>112650</NumeroSequencialDocumento>'
+        '<DataEntrega>2022-03-17T19:15:29</DataEntrega><DataReferenciaDocumento>2021-12-31T00:00:00</DataReferenciaDocumento>'
+        f'<NumeroVersaoDocumento>1</NumeroVersaoDocumento><CodigoTipoDocumento>{tag}</CodigoTipoDocumento>'
+        '<CompanhiaAberta><CodigoCvm>01866-0</CodigoCvm><NumeroCnpjCompanhiaAberta>02.429.144/0001-93</NumeroCnpjCompanhiaAberta></CompanhiaAberta></Documento>'
+    ).encode()
+    def bundle(meta):
+        data = io.BytesIO()
+        with zipfile.ZipFile(data, 'w') as z:
+            z.writestr(f'018660{kind}31-12-2021v1.xml', submitted)
+            z.writestr(f'FormularioDemonstracaoFinanceira{kind}.xml', meta)
+            z.writestr('112650_GENERATED_TODAY.pdf', b'%PDF-NOT-HISTORICAL')
+        return data.getvalue()
+    job = dict(docid='112650', cutoff='2022-06-30', ticker='CPFE3')
+    row, = c.unpack_download(job, bundle(metadata))
+    assert gzip.decompress((tmp_path / row['original']).read_bytes()) == original
+    assert gzip.decompress((tmp_path / row['submission']['path']).read_bytes()) == submitted
+    assert row['original_sha256'] == hashlib.sha256(original).hexdigest()
+    assert row['submission']['sha256'] == hashlib.sha256(submitted).hexdigest()
+    assert row['received'] == '2022-03-17' and row['page_count'] == 1
+    for before, after, message in [
+        (b'2022-03-17', b'2022-07-01', 'Future'),
+        (b'>112650<', b'>112651<', 'identity'),
+        (b'2021-12-31', b'2020-12-31', 'reference'),
+        (b'0001-93', b'0001-94', 'identity'),
+        (b'01866-0', b'01867-0', 'identity'),
+        (b'<NumeroVersaoDocumento>1', b'<NumeroVersaoDocumento>2', 'version'),
+    ]:
+        with pytest.raises(ValueError, match=message):
+            c.unpack_download(job, bundle(metadata.replace(before, after)))

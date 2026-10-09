@@ -215,23 +215,44 @@ def test_downloaded_originals_match_delivery_version_and_embedded_pdf():
         assert root.findtext('.//NumeroSequencialDocumento')==r['docid']
         assert root.findtext('.//DataEntrega')[:10]==r['received']<=r['cutoff']
         assert root.findtext('.//NumeroVersaoDocumento')==s['version']
-        inner=zipfile.ZipFile(io.BytesIO(raw))
-        kind=Path(s['path']).suffixes[-2][1:].upper()
-        assert kind in ['DFP','ITR']
-        version=ET.fromstring(inner.read(f'FormularioDemonstracaoFinanceira{kind}.xml'))
-        assert version.findtext('.//NumeroVersaoDocumento')==s['version']
-        assert version.findtext('.//DataReferenciaDocumento')==s['reference']
-        if r.get('source_format')=='original_xml':
-            # Native audit/DFC records are verified against the actual submission,
-            # just as embedded PDFs are; logical units are not invented PDF pages.
-            member='InfoFinaDFin.xml' if r['group']==0 else 'AnexoTexto.xml'
-            original=inner.read(member)
-            ET.fromstring(original)
-            assert 'NOT PDF pagination' in r['extraction']
+        if s['path'].endswith('.submission.xml.gz'):
+            # Validate the submitted XML independently of the collection path;
+            # the download's newly generated aggregate PDF is not evidence.
+            import re
+            submitted=ET.fromstring(raw)
+            kind={'XmlDemonstracoesFinanceiras':'DFP',
+                  'XmlInformacoesTrimestraisFinanceiras':'ITR'}[submitted.tag]
+            assert submitted.findtext('Documento/VersaoDocumento')==s['version']
+            date=submitted.findtext(f'Dados{kind}/DataReferencia')
+            assert '-'.join(reversed(date.split('/')))==s['reference'][:10]
+            for child,metadata in [('CnpjEmpresa','NumeroCnpjCompanhiaAberta'),('CodigoCvm','CodigoCvm')]:
+                assert re.sub(r'\D','',submitted.findtext('DadosEmpresa/'+child))==re.sub(r'\D','',root.findtext('.//CompanhiaAberta/'+metadata))
+            assert submitted.findtext('Documento/TipoDocumento')==root.findtext('.//CodigoTipoDocumento')
+            if r.get('source_format')=='original_xml':
+                original=raw
+                assert 'NOT PDF pagination' in r['extraction']
+                assert submitted.find(f'Dados{kind}/Formulario') is not None
+            else:
+                notes=submitted.find(f'Dados{kind}/AnexosDocumento')
+                node=next(n for n in notes if int(n.findtext('NumeroGrupoRelacionado','0'))==r['group'])
+                original=base64.b64decode(node.findtext('ImagemObjetoArquivoPdf'),validate=True)
         else:
-            notes=ET.fromstring(inner.read('AnexoDocumento.xml'))
-            node=next(n for n in notes if int(n.findtext('NumeroGrupoRelacionado','0'))==r['group'])
-            original=base64.b64decode(node.findtext('ImagemObjetoArquivoPdf'),validate=True)
+            inner=zipfile.ZipFile(io.BytesIO(raw))
+            kind=Path(s['path']).suffixes[-2][1:].upper()
+            assert kind in ['DFP','ITR']
+            version=ET.fromstring(inner.read(f'FormularioDemonstracaoFinanceira{kind}.xml'))
+            assert version.findtext('.//NumeroVersaoDocumento')==s['version']
+            assert version.findtext('.//DataReferenciaDocumento')==s['reference']
+            if r.get('source_format')=='original_xml':
+                # Native audit/DFC records use logical units, not PDF pages.
+                member='InfoFinaDFin.xml' if r['group']==0 else 'AnexoTexto.xml'
+                original=inner.read(member)
+                ET.fromstring(original)
+                assert 'NOT PDF pagination' in r['extraction']
+            else:
+                notes=ET.fromstring(inner.read('AnexoDocumento.xml'))
+                node=next(n for n in notes if int(n.findtext('NumeroGrupoRelacionado','0'))==r['group'])
+                original=base64.b64decode(node.findtext('ImagemObjetoArquivoPdf'),validate=True)
         assert hashlib.sha256(original).hexdigest()==r['original_sha256']
         assert original==gzip.decompress((m.INPUT/r['original']).read_bytes())
 
@@ -490,3 +511,61 @@ def test_2021_credit_method_change_is_explicit_without_retrospective_rejection()
     assert any(e['docid']=='103273' and e['group']==192 and 25 in e['pages'] for e in d['evidence'])
     assert porto['quality_category']=='QUALIFIED_SATISFACTORY'
     assert next(r for r in rows if r['year']==2020 and r['ticker']=='PSSA3')['quality_category']=='QUALIFIED_SATISFACTORY'
+
+
+def test_2022_santander_three_floors_preserve_five_year_window_and_getnet_costs():
+    r=next(r for r in json.loads((m.INPUT/'fundamental_decisions.json').read_text()) if r['year']==2022 and r['ticker']=='SANB4')
+    a=r['documentary_assessment']; v=a['valuation']; p=a['numerical_proof']
+    assert set(v['profit_bounds'])=={'2017','2018','2019','2020','2021'}
+    for year in ['2017','2021']:
+        assert v['profit_bounds'][year]['lower'] is None
+        assert v['profit_bounds'][year]['upper'] is None
+    for proof in p['annual']:
+        assert proof['lower_nominal']==proof['reported_attributable_profit']-sum(proof['deductions'].values())
+        assert v['profit_bounds'][str(proof['fy'])]['lower']==proof['lower_nominal']
+        assert proof['lower_real']==pytest.approx(proof['lower_nominal']*proof['ipca_to_known_may'])
+        assert proof['deductions']['getnet_whole_ifrs_profit_before_eliminations']>0
+        assert proof['deductions']['superdigital_all_positive_revenues_and_tax']>0
+    assert p['median_lower']==pytest.approx(min(x['lower_real'] for x in p['annual']))
+    assert r['market_cap']==pytest.approx(3818695031*13.85+3679836020*15.14)
+    assert r['normalized_pe_interval']['upper']==pytest.approx(11.106253563647076)
+    assert r['valuation_status']=='PASS_MATURE'
+    assert r['normalized_profit'] is None and r['normalized_pe'] is None
+    assert r['real_eps_cagr'] is None and r['average_payout'] is None
+    assert a['dimensions']['capital_economics']['status']=='SATISFACTORY'
+    assert a['dimensions']['capital_allocation']['status']=='INDETERMINATE'
+    # A distinct contract sensitivity is not a guaranteed ceiling or a new
+    # historical-income deduction chosen after subsequent returns.
+    stress=p['new_contract_sensitivity']
+    assert stress['stress_pe']==pytest.approx(r['market_cap']/(p['median_lower']-stress['stress_current_q1_gross_charges']))
+    assert stress['stress_pe']<15
+    prior=load_reviews()[2021,r['cnpj']]
+    assert prior['valuation']['status']=='INDETERMINATE'
+
+
+def test_2022_rolling_review_preserves_old_floors_and_current_material_evidence():
+    rows={r['ticker']:r for r in json.loads((m.INPUT/'fundamental_decisions.json').read_text()) if r['year']==2022}
+    assert len(rows)==20 and set(rows)=={r['ticker'] for r in m.candidates() if r['year']==2022}
+    for r in rows.values():
+        a=r['documentary_assessment']
+        assert a['prior_assessment']=='2021:'+r['cnpj']
+        assert len(a['dimensions'])==6
+        for d in a['dimensions'].values():
+            assert d['reason'] and d['contrary_evidence'] and d['evidence']
+            assert all(e['received']<=r['cutoff'] for e in d['evidence'])
+    c=rows['CSMG3'];a=c['documentary_assessment'];p=a['numerical_proof']
+    assert c['valuation_status']=='PASS_MATURE'
+    assert a['dimensions']['governance']['status']=='INDETERMINATE'
+    assert load_reviews()[2021,c['cnpj']]['dimensions']['governance']['status']=='SATISFACTORY'
+    assert any(e['docid']=='116984' and e['group']==1654 for e in a['dimensions']['governance']['evidence'])
+    assert set(a['valuation']['profit_bounds'])=={'2017','2018','2019','2020','2021'}
+    previous=load_reviews()[2021,c['cnpj']]['numerical_proof']
+    for year, proof in p['fiscal_floors'].items():
+        assert proof['nominal_lower']==previous['fiscal_floors'][year]['nominal_lower']
+        assert proof['ipca_factor']>previous['fiscal_floors'][year]['ipca_factor']
+    assert c['normalized_pe_interval']['upper']==pytest.approx(9.812788996663288)
+    assert any(e['docid']=='114201' and 16 in e['pages'] for e in a['dimensions']['financial_resilience']['evidence'])
+    porto=rows['PSSA3']
+    assert porto['quality_category']=='QUALIFIED_SATISFACTORY'
+    assert porto['capital_classes']==[dict(share_class='ON',quantity=646586060.0,price=17.76)]
+    assert any(e['docid']=='114461' and e['group']==192 and 21 in e['pages'] for e in porto['documentary_assessment']['dimensions']['financial_resilience']['evidence'])

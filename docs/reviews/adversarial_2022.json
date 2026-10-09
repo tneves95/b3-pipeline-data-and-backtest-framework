@@ -1,0 +1,1451 @@
+{
+  "cutoff": "2022-06-30",
+  "status": "COMPLETE_BEFORE_2022_2023_RETURNS",
+  "independence": "Revisão adversarial documental concluída antes do cálculo de retornos de julho/2022 a junho/2023. O revisor não consultou esses retornos nem executou carteiras. Todos os cortes congelados até 2021 permanecem intocados.",
+  "criteria": "V2 original: mediana real de cinco exercícios e limites 15/25. O prêmio reinvestidor depende cumulativamente de payout médio <=80%, crescimento real por ação >=4% a.a. e mediana ROE/ROIC >= inflação histórica conhecida +6 pontos percentuais, com avaliação das deteriorações materiais. Nenhum ROE mínimo universal foi aplicado à qualidade ou à via madura. As seis dimensões não são somadas em score.",
+  "bank_proposal": {
+    "path": "/tmp/b00s-bank-proposals-2022.json",
+    "sha256": "e08d4e22ba102d0b6320289afd234532c2a42a17610e729a70f93e136e3a58bf"
+  },
+  "conclusion": "Concluída a revisão de 20 emissores e 120 dimensões. A ponte histórica Santander sustenta admissão pela via madura: P/L máximo 11,106254. Copasa reutiliza três pisos dentro da janela 2017–2021, com o IPCA conhecido no novo corte: P/L máximo 9,812789. A investigação específica da ressalva KPMG muda governança Copasa de SAT para ND; mantém a confiabilidade após reconciliação e a resiliência financeira após os waivers efetivos. Não há alteração dos lucros históricos pelos waivers ou por essa ressalva de classificação. Os demais juízos incorporam as operações, compromissos e documentos atuais, sem aprovação automática, acusação por ausência de informação ou saída adicional à regra B2. Após as correções documentadas, não resta objeção material ao congelamento deste lote.",
+  "material_findings": [
+    {
+      "ticker": "ABCB4",
+      "finding": "ON continua sem preço próprio. OriginalIFRS corrige leitura mecânicaFY2020zero: lucro atribuível340,688mi;2021=562,890mi e não563,585mi total com minoritários. Basileia15,08%, concentração dos dez maiores14,49%.",
+      "evidence": [
+        {
+          "docid": "113351",
+          "group": 412,
+          "pages": [
+            2,
+            32,
+            48
+          ]
+        },
+        {
+          "docid": "115858",
+          "group": 193,
+          "pages": [
+            32,
+            49,
+            50
+          ]
+        }
+      ]
+    },
+    {
+      "ticker": "BBAS3",
+      "finding": "IFRS1T22lucro4,975bi; Basileia17,7%/N115,5%/CET112,7%. Digio: ganho líquido efetivo222,981mi supera estimativa213mi; CIP240,189mi identificado. Não tratar como margem recorrente.",
+      "evidence": [
+        {
+          "docid": "114798",
+          "group": 192,
+          "pages": [
+            9,
+            20
+          ]
+        },
+        {
+          "docid": "114798",
+          "group": 193,
+          "pages": [
+            150,
+            151,
+            159
+          ]
+        }
+      ]
+    },
+    {
+      "ticker": "BBDC4",
+      "finding": "Digio100% efetivo25/02, preço645,060mi e goodwill376,258mi. Capital15,7%/13,7%/12,5%; liquidezLCR137,4%/NSFR118,1%. Arquivamento institucionalZelotes reconfirmado, processo pessoal sem sentença conhecida naDFP.",
+      "evidence": [
+        {
+          "docid": "114349",
+          "group": 193,
+          "pages": [
+            85,
+            189
+          ]
+        },
+        {
+          "docid": "112640",
+          "group": 412,
+          "pages": [
+            220
+          ]
+        }
+      ]
+    },
+    {
+      "ticker": "BBSE3",
+      "finding": "Leitura visual doITR rasterizado comprova suficiência atual, plano contingênciaBrasilprev e insuficiênciaBrasilcap revertida por ações2021. Registrar este fato em2022 sem retroatividade.",
+      "evidence": [
+        {
+          "docid": "114551",
+          "group": 193,
+          "pages": [
+            12,
+            13
+          ]
+        },
+        {
+          "docid": "111570",
+          "group": 412,
+          "pages": [
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "ticker": "ITUB4",
+      "finding": "XPart distribuída e nova aquisiçãoXP11,36%/8bi efetivada29/04. CorpBanca aporte4,296bi eleva56,60%. Basileia13,9%, folgaPR69,057bi menos adicionais34,930bi; nova compra reduz folga, não se inventa capitalpós-operação.",
+      "evidence": [
+        {
+          "docid": "111702",
+          "group": 412,
+          "pages": [
+            92,
+            93
+          ]
+        },
+        {
+          "docid": "114510",
+          "group": 193,
+          "pages": [
+            224,
+            225,
+            233,
+            234
+          ]
+        }
+      ]
+    },
+    {
+      "ticker": "SANB4",
+      "finding": "CisãoGetnet efetiva, capital integral108,601643522bi. Lucros própriosIFRSGetnet692,252/794,032/361,013mi são retirados; publicaçõesSuperdigital delimitam receitas. Contrato variável não exige teto infinito; estresse correntes separado.",
+      "evidence": [
+        {
+          "docid": "100531",
+          "group": 412,
+          "pages": [
+            42,
+            43,
+            49,
+            116,
+            119,
+            136,
+            155,
+            156,
+            160,
+            161,
+            164,
+            165,
+            170,
+            171,
+            187,
+            190,
+            191,
+            200,
+            201
+          ]
+        },
+        {
+          "docid": "100531",
+          "group": 412,
+          "pages": [
+            247
+          ]
+        },
+        {
+          "docid": "104371",
+          "group": 412,
+          "pages": [
+            2,
+            3,
+            51
+          ]
+        },
+        {
+          "docid": "112400",
+          "group": 412,
+          "pages": [
+            1,
+            2,
+            37,
+            38,
+            40,
+            41,
+            45,
+            47,
+            50
+          ]
+        },
+        {
+          "docid": "super_publication_fy2019_p198",
+          "group": 0,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "docid": "super_publication_fy2019_p199",
+          "group": 0,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "docid": "super_publication_fy2020_p424",
+          "group": 0,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "docid": "super_publication_fy2020_p425",
+          "group": 0,
+          "pages": [
+            1
+          ]
+        },
+        {
+          "docid": "sanb_ifrs_q12022_ri",
+          "group": 0,
+          "pages": [
+            43,
+            44,
+            59,
+            60,
+            61
+          ]
+        },
+        {
+          "docid": "sanb_ifrs_fy2021_ri",
+          "group": 0,
+          "pages": [
+            42,
+            43,
+            44,
+            87,
+            158,
+            159
+          ]
+        }
+      ]
+    }
+  ],
+  "bank_judgments": {
+    "ABCB4": {
+      "valuation": "INDETERMINATE",
+      "dimensions": {
+        "durability": "SATISFACTORY",
+        "capital_economics": "SATISFACTORY",
+        "earnings_reliability": "SATISFACTORY",
+        "financial_resilience": "SATISFACTORY",
+        "capital_allocation": "SATISFACTORY",
+        "governance": "SATISFACTORY"
+      }
+    },
+    "BBAS3": {
+      "valuation": "INDETERMINATE",
+      "dimensions": {
+        "durability": "SATISFACTORY",
+        "capital_economics": "INDETERMINATE",
+        "earnings_reliability": "SATISFACTORY",
+        "financial_resilience": "SATISFACTORY",
+        "capital_allocation": "INDETERMINATE",
+        "governance": "INDETERMINATE"
+      }
+    },
+    "BBDC4": {
+      "valuation": "INDETERMINATE",
+      "dimensions": {
+        "durability": "SATISFACTORY",
+        "capital_economics": "SATISFACTORY",
+        "earnings_reliability": "SATISFACTORY",
+        "financial_resilience": "SATISFACTORY",
+        "capital_allocation": "SATISFACTORY",
+        "governance": "SATISFACTORY"
+      }
+    },
+    "BBSE3": {
+      "valuation": "INDETERMINATE",
+      "dimensions": {
+        "durability": "SATISFACTORY",
+        "capital_economics": "SATISFACTORY",
+        "earnings_reliability": "SATISFACTORY",
+        "financial_resilience": "SATISFACTORY",
+        "capital_allocation": "SATISFACTORY",
+        "governance": "SATISFACTORY"
+      }
+    },
+    "ITUB4": {
+      "valuation": "INDETERMINATE",
+      "dimensions": {
+        "durability": "SATISFACTORY",
+        "capital_economics": "SATISFACTORY",
+        "earnings_reliability": "SATISFACTORY",
+        "financial_resilience": "SATISFACTORY",
+        "capital_allocation": "SATISFACTORY",
+        "governance": "INDETERMINATE"
+      }
+    },
+    "SANB4": {
+      "valuation": "COMPARABLE_BOUNDED",
+      "dimensions": {
+        "durability": "SATISFACTORY",
+        "capital_economics": "SATISFACTORY",
+        "earnings_reliability": "SATISFACTORY",
+        "financial_resilience": "SATISFACTORY",
+        "capital_allocation": "INDETERMINATE",
+        "governance": "SATISFACTORY"
+      }
+    }
+  },
+  "sanb_numerical_proof": {
+    "kind": "THREE_HISTORICAL_PROFIT_FLOORS_IN_ORIGINAL_FIVE_YEAR_MEDIAN",
+    "window": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021
+    ],
+    "capital": 108601643522.15,
+    "capital_classes": {
+      "ON": {
+        "shares": 3818695031,
+        "price": 13.85
+      },
+      "PN": {
+        "shares": 3679836020,
+        "price": 15.14
+      }
+    },
+    "required_median_at_15": 7240109568.1433325,
+    "annual": [
+      {
+        "fy": 2018,
+        "reported_attributable_profit": 12582477000,
+        "deductions": {
+          "positive_temporary_tax": 136353000,
+          "net_nontaxable_tax_reconciliation": 384554000,
+          "other_tax_adjustments": 551469000,
+          "all_other_operating_revenue": 556715000,
+          "post_employment_gain": 816230000,
+          "gross_disposal_gain": 11627000,
+          "property_provision_reversals": 159120000,
+          "guarantee_release": 48246000,
+          "equity_instrument_income": 32623000,
+          "equity_method_income": 65958000,
+          "other_financial_gains_intentional_overlap": 156258000,
+          "nontrading_equity_fair_value_gain": 121638000,
+          "administrative_recovery_conservative_reserve_year_label_inconsistent": 89409000,
+          "all_positive_ifrs_reconciliation": 817898000,
+          "getnet_whole_ifrs_profit_before_eliminations": 692252000,
+          "superdigital_all_positive_revenues_and_tax": 62280000
+        },
+        "positive_ifrs_reconciliation_components": {
+          "fv_oci": 28419000,
+          "credit": 140557000,
+          "effective_interest": 187425000,
+          "goodwill": 171677000,
+          "santusa": 29820000,
+          "tax_long": 260000000
+        },
+        "superdigital_components": {
+          "financial": 8054000,
+          "services": 48336000,
+          "other_operating": 5890000
+        },
+        "lower_nominal": 7879847000,
+        "ipca_to_known_may": 1.2572730946301671,
+        "lower_real": 9907119622.902239
+      },
+      {
+        "fy": 2019,
+        "reported_attributable_profit": 16406932000,
+        "deductions": {
+          "positive_temporary_tax": 70223000,
+          "net_nontaxable_tax_reconciliation": 214242000,
+          "csll_remeasurement": 2796493000,
+          "all_other_operating_revenue": 591125000,
+          "gross_disposal_gain": 55709000,
+          "property_provision_reversals": 251945000,
+          "guarantee_release": 57651000,
+          "equity_instrument_income": 18933000,
+          "equity_method_income": 149488000,
+          "service_income": 26852000,
+          "administrative_recoveries": 92408000,
+          "other_financial_gains_intentional_overlap": 20489000,
+          "post_employment_gain": 1101000,
+          "nontrading_equity_fair_value_gain": 49000,
+          "all_positive_ifrs_reconciliation": 2472351000,
+          "getnet_whole_ifrs_profit_before_eliminations": 794032000,
+          "superdigital_all_positive_revenues_and_tax": 90189000
+        },
+        "positive_ifrs_reconciliation_components": {
+          "fv_pnl": 422000,
+          "fv_oci": 451000,
+          "credit": 1872553000,
+          "categories": 6437000,
+          "effective_interest": 346298000,
+          "goodwill": 175257000,
+          "santusa": 29898000,
+          "other": 41035000
+        },
+        "superdigital_components": {
+          "financial": 10287000,
+          "services": 59452000,
+          "other_operating": 14050000,
+          "gross_software_sale": 6400000
+        },
+        "lower_nominal": 8703652000,
+        "ipca_to_known_may": 1.2053694060494118,
+        "lower_real": 10491115841.700775
+      },
+      {
+        "fy": 2020,
+        "reported_attributable_profit": 13418529000,
+        "deductions": {
+          "temporary_tax_conservative_reconciliation": 552000000,
+          "csll_remeasurement": 353777000,
+          "other_tax_adjustments": 665239000,
+          "all_other_operating_revenue": 792639000,
+          "gross_disposal_gain": 285335000,
+          "property_provision_reversals": 24751000,
+          "guarantee_release": 9961000,
+          "equity_instrument_income": 33754000,
+          "equity_method_income": 112261000,
+          "administrative_recoveries": 212850000,
+          "post_employment_gain": 142000,
+          "other_financial_gains_intentional_overlap": 308176000,
+          "parent_tax_release_without_assumed_overlap": 130820000,
+          "nontrading_equity_fair_value_gain": 247774000,
+          "all_positive_ifrs_reconciliation": 750075000,
+          "getnet_whole_ifrs_profit_before_eliminations": 361013000,
+          "superdigital_all_positive_revenues_and_tax": 99111000
+        },
+        "positive_ifrs_reconciliation_components": {
+          "fv_oci": 68960000,
+          "remeasurement": 907000,
+          "effective_interest": 185478000,
+          "goodwill": 145903000,
+          "put_option": 318929000,
+          "santusa": 29898000
+        },
+        "superdigital_components": {
+          "financial_positive": 5757000,
+          "services": 67696000,
+          "other_operating": 21537000,
+          "nonoperating": 13000,
+          "tax_benefit": 4108000
+        },
+        "lower_nominal": 8478851000,
+        "ipca_to_known_may": 1.1532721639724557,
+        "lower_real": 9778422840.77002
+      }
+    ],
+    "median_lower": 9778422840.77002,
+    "pe_upper": 11.106253563647076,
+    "headroom_to_15": 2538313272.626687,
+    "method": "Mesma mediana de cinco anos e mesmos fatores IPCA do motor;2017/2021 ficam ilimitados. Para cada piso retiram-se ganhos positivos históricos já examinados, todo lucro IFRSGetnet antes de eliminações, todas receitas positivas Superdigital e todos ajustes positivosBRGAAP→IFRS como dedução adicional conservadora. Nenhuma perda ou tributo é adicionado de volta; JCP ordinário permanece. Sobreposições nas retiradas somente reduzem o piso. Não é estimativa pontual do lucro normalizado nem projeção 2022.",
+    "new_contract_sensitivity": {
+      "known_contract_remuneration_2021": 488089000,
+      "known_terms": "Contrato 16/04/2021, remuneração por volumes e descontos comerciais; prazo indeterminado, não financiamento fixo. Despesas históricas com Getnet permanecem no banco após retirar lucro da controlada antes de eliminações.",
+      "stress_current_q1_gross_charges": 1229112000,
+      "stress_label": "Anualização diagnóstica das despesas brutas Q 12022 financeiras/depósitos/admin Getnet, sem receita compensatória e com possível dupla contagem. Não é teto contratual nem alimenta lucro certificado.",
+      "stress_pe": 12.702970513628962
+    },
+    "evidence": [
+      {
+        "docid": "100531",
+        "group": 412,
+        "pages": [
+          42,
+          43,
+          49,
+          116,
+          119,
+          136,
+          155,
+          156,
+          160,
+          161,
+          164,
+          165,
+          170,
+          171,
+          187,
+          190,
+          191,
+          200,
+          201
+        ]
+      },
+      {
+        "docid": "100531",
+        "group": 412,
+        "pages": [
+          247
+        ]
+      },
+      {
+        "docid": "104371",
+        "group": 412,
+        "pages": [
+          2,
+          3,
+          51
+        ]
+      },
+      {
+        "docid": "112400",
+        "group": 412,
+        "pages": [
+          1,
+          2,
+          37,
+          38,
+          40,
+          41,
+          45,
+          47,
+          50
+        ]
+      },
+      {
+        "docid": "super_publication_fy2019_p198",
+        "group": 0,
+        "pages": [
+          1
+        ]
+      },
+      {
+        "docid": "super_publication_fy2019_p199",
+        "group": 0,
+        "pages": [
+          1
+        ]
+      },
+      {
+        "docid": "super_publication_fy2020_p424",
+        "group": 0,
+        "pages": [
+          1
+        ]
+      },
+      {
+        "docid": "super_publication_fy2020_p425",
+        "group": 0,
+        "pages": [
+          1
+        ]
+      },
+      {
+        "docid": "sanb_ifrs_q12022_ri",
+        "group": 0,
+        "pages": [
+          43,
+          44,
+          59,
+          60,
+          61
+        ]
+      },
+      {
+        "docid": "sanb_ifrs_fy2021_ri",
+        "group": 0,
+        "pages": [
+          42,
+          43,
+          44,
+          87,
+          158,
+          159
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "issuers": 20,
+    "dimensions_explicitly_reviewed": 120,
+    "references_checked": 286,
+    "distinct_original_hashes_checked": 67,
+    "chronological_expand_incremental": "PASS",
+    "cutoff_dates_pages_hashes": "PASS",
+    "sanb_five_interval_arithmetic": "PASS",
+    "sanb_pe_upper": 11.106253563647076,
+    "conditional_stress_outside_gate": "PASS",
+    "proposal_hashes": {
+      "/tmp/b00s-bank-proposals-2022.json": "e08d4e22ba102d0b6320289afd234532c2a42a17610e729a70f93e136e3a58bf",
+      "/tmp/b00s-root-reviews-2022.json": "2010bae56a668786a5d3205e8f982da45239debf8ee98207cc38cdfea23d2ab2"
+    },
+    "copasa": {
+      "five_interval_arithmetic": "PASS",
+      "median_lower": 446408799.4116186,
+      "pe_upper": 9.812788996663288
+    },
+    "native_xml_provenance": "PASS: hashes do XML exato e metadados, identidade do documento, versão, recebimento e quantidade de unidades lógicas verificadas. Unidade lógica XML nunca é tratada como página PDF."
+  },
+  "supplement": {
+    "manifest": "/tmp/b00s-adversarial-supplement-2022/review_original_sources.json",
+    "sha256": "334d57fb9cfc7ac540f697cd3db4697c2352a26f2b15f90688bed289e6936d28",
+    "sources": 15,
+    "note": "Originais e arquivos submetidos/metadata entregues para integração. Manifestos principais e fontes aceitas anteriores não foram alterados pelo revisor."
+  },
+  "root_review": {
+    "status": "COMPLETE",
+    "records": 14,
+    "path": "/tmp/b00s-root-reviews-2022.json",
+    "sha256": "2010bae56a668786a5d3205e8f982da45239debf8ee98207cc38cdfea23d2ab2",
+    "conclusion": "Sem objeção material restante após as correções e a mudança dirigida da governança Copasa. Validações precedem qualquer cálculo dos retornos 2022–2023.",
+    "judgments": [
+      {
+        "ticker": "CMIG4",
+        "judgment": "ACCEPTED_AFTER_DIRECTED_REVIEW",
+        "reason": "Aceito o reuso dirigido. Volume e EBITDA ajustado sustentam a operação; a forte diferença do lucro contém câmbio/hedge e não comprova criação de valor. Venda Light efetiva não é tratada como evento futuro, e a exposição a investidas/garantias mantém a pendência financeira específica.",
+        "valuation": "INDETERMINATE",
+        "dimension_statuses": {
+          "durability": "SATISFACTORY",
+          "capital_economics": "INDETERMINATE",
+          "earnings_reliability": "SATISFACTORY",
+          "financial_resilience": "INDETERMINATE",
+          "capital_allocation": "INDETERMINATE",
+          "governance": "INDETERMINATE"
+        },
+        "evidence": [
+          {
+            "docid": "115221",
+            "group": 192,
+            "pages": [
+              1,
+              2,
+              3,
+              4
+            ]
+          }
+        ]
+      },
+      {
+        "ticker": "CPFE3",
+        "judgment": "ACCEPTED_AFTER_DIRECTED_REVIEW",
+        "reason": "Aceito ND econômico com diagnóstico quantificado. VNR 2019 de R$296,037 milhões é separado de outras receitas operacionais de R$587,668 milhões, evitando falsa prova por dedução incompleta. A OPA CEEE-T efetiva em abril/2022 acrescenta R$1,119412 bilhão e participação de 99,26%; caixa e dívida incorporam expansão e obrigações.",
+        "valuation": "INDETERMINATE",
+        "dimension_statuses": {
+          "durability": "SATISFACTORY",
+          "capital_economics": "INDETERMINATE",
+          "earnings_reliability": "SATISFACTORY",
+          "financial_resilience": "INDETERMINATE",
+          "capital_allocation": "INDETERMINATE",
+          "governance": "SATISFACTORY"
+        },
+        "evidence": [
+          {
+            "docid": "112650",
+            "group": 1653,
+            "pages": [
+              9,
+              10,
+              11,
+              12,
+              13
+            ]
+          },
+          {
+            "docid": "112650",
+            "group": 412,
+            "pages": [
+              1,
+              37,
+              42,
+              43,
+              45,
+              46,
+              58,
+              72,
+              75,
+              76
+            ]
+          },
+          {
+            "docid": "114924",
+            "group": 192,
+            "pages": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ]
+          },
+          {
+            "docid": "114924",
+            "group": 193,
+            "pages": [
+              26,
+              34,
+              52
+            ]
+          },
+          {
+            "docid": "102515",
+            "group": 412,
+            "pages": [
+              33,
+              36,
+              37,
+              69,
+              70,
+              71,
+              72
+            ]
+          }
+        ]
+      },
+      {
+        "ticker": "CPLE6",
+        "judgment": "ACCEPTED_AFTER_DIRECTED_REVIEW",
+        "reason": "Aceito a continuidade financeira com caixa e títulos identificados, excluindo depósitos vinculados; contrapontos de previdência e geração permanecem. A Telecom foi vendida em agosto/2021 e os comparativos descontinuados não são transportados como negócio atual. Classe PNA sem cotação própria continua impedindo capitalização integral certificada.",
+        "valuation": "INDETERMINATE",
+        "dimension_statuses": {
+          "durability": "SATISFACTORY",
+          "capital_economics": "INDETERMINATE",
+          "earnings_reliability": "SATISFACTORY",
+          "financial_resilience": "SATISFACTORY",
+          "capital_allocation": "INDETERMINATE",
+          "governance": "INDETERMINATE"
+        },
+        "evidence": [
+          {
+            "docid": "114816",
+            "group": 192,
+            "pages": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "docid": "114816",
+            "group": 193,
+            "pages": [
+              8,
+              32,
+              34,
+              35,
+              50,
+              55,
+              56,
+              67,
+              73
+            ]
+          }
+        ]
+      },
+      {
+        "ticker": "CSMG3",
+        "judgment": "ACCEPTED_AFTER_DIRECTED_REVIEW",
+        "reason": "Pisos, capital e IPCA conferidos. O waiver de março/2022 restabelece os prazos e não apaga a quebra de dezembro/2021. Auditor KPMG ressalva classificação de R$1,933212 bilhão; comitê discorda expressamente. Investigar essa oposição leva governança a ND. Receitas foram consideradas aceitáveis após testes substantivos ampliados por deficiências de TI; não há ajuste de lucro pela ressalva. Mantidos resultados SAT e finanças SAT com contrapontos, sem adicionar a provisão trabalhista de R$217,356 milhões ao lucro.",
+        "valuation": "COMPARABLE_BOUNDED",
+        "dimension_statuses": {
+          "durability": "SATISFACTORY",
+          "capital_economics": "INDETERMINATE",
+          "earnings_reliability": "SATISFACTORY",
+          "financial_resilience": "SATISFACTORY",
+          "capital_allocation": "INDETERMINATE",
+          "governance": "INDETERMINATE"
+        },
+        "evidence": [
+          {
+            "docid": "114201",
+            "group": 192,
+            "pages": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ]
+          },
+          {
+            "docid": "114201",
+            "group": 193,
+            "pages": [
+              2,
+              13,
+              14,
+              15,
+              16
+            ]
+          },
+          {
+            "docid": "80985",
+            "group": 1653,
+            "pages": [
+              15,
+              17,
+              18,
+              19
+            ]
+          },
+          {
+            "docid": "80985",
+            "group": 412,
+            "pages": [
+              34,
+              45,
+              64
+            ]
+          },
+          {
+            "docid": "91684",
+            "group": 1653,
+            "pages": [
+              14,
+              15,
+              16,
+              17,
+              18
+            ]
+          },
+          {
+            "docid": "91684",
+            "group": 412,
+            "pages": [
+              9,
+              21,
+              44,
+              76,
+              78
+            ]
+          },
+          {
+            "docid": "102985",
+            "group": 412,
+            "pages": [
+              38,
+              39,
+              40,
+              46,
+              68,
+              69
+            ]
+          },
+          {
+            "docid": "116984",
+            "group": 1654,
+            "pages": [
+              1,
+              2
+            ]
+          }
+        ]
+      },
+      {
+        "ticker": "ENBR3",
+        "judgment": "ACCEPTED_AFTER_DIRECTED_REVIEW",
+        "reason": "Aceito os juízos atuais. CELG-T fechada em fevereiro e financiamentos efetivamente recebidos atualizam o dossiê; maior encargo financeiro e consumo dos recursos pela compra são explicitados. Não se chama o valor captado de saldo livre remanescente nem se infere ROIC apenas pela entrega das linhas.",
+        "valuation": "INDETERMINATE",
+        "dimension_statuses": {
+          "durability": "SATISFACTORY",
+          "capital_economics": "INDETERMINATE",
+          "earnings_reliability": "SATISFACTORY",
+          "financial_resilience": "SATISFACTORY",
+          "capital_allocation": "INDETERMINATE",
+          "governance": "SATISFACTORY"
+        },
+        "evidence": [
+          {
+            "docid": "114285",
+            "group": 192,
+            "pages": [
+              1,
+              2,
+              4,
+              5,
+              6
+            ]
+          }
+        ]
+      },
+      {
+        "ticker": "EQTL3",
+        "judgment": "ACCEPTED_AFTER_DIRECTED_REVIEW",
+        "reason": "Aceito SAT financeiro com aumento material de dívida, cobertura da dívida curta e captação efetiva. A medida de covenant com EBITDA proforma de adquiridas é distinguida do indicador histórico. A perda Echo de R$32 milhões consta na tabela consolidada, sem confundir o trimestre proforma da seção de renováveis com contribuição integral ao grupo. Follow-on efetivo não é split, lucro ou crescimento automático por ação.",
+        "valuation": "INDETERMINATE",
+        "dimension_statuses": {
+          "durability": "SATISFACTORY",
+          "capital_economics": "INDETERMINATE",
+          "earnings_reliability": "SATISFACTORY",
+          "financial_resilience": "SATISFACTORY",
+          "capital_allocation": "INDETERMINATE",
+          "governance": "SATISFACTORY"
+        },
+        "evidence": [
+          {
+            "docid": "113382",
+            "group": 1653,
+            "pages": [
+              1,
+              2,
+              3
+            ]
+          },
+          {
+            "docid": "113382",
+            "group": 412,
+            "pages": [
+              214
+            ]
+          },
+          {
+            "docid": "115572",
+            "group": 192,
+            "pages": [
+              11,
+              12,
+              13,
+              14,
+              32
+            ]
+          }
+        ]
+      },
+      {
+        "ticker": "NEOE3",
+        "judgment": "ACCEPTED_AFTER_DIRECTED_REVIEW",
+        "reason": "Aceito o reuso: expansão operacional e consolidação Brasília são reconhecidas; VNR, IFRS15 e GSF impedem usar o crescimento bruto como prova econômica. Dívida de curto prazo, ponte CEB e CAPEX mantêm a pendência financeira dirigida. Não se presume inadimplemento nem má alocação pelo crescimento do CAPEX isoladamente.",
+        "valuation": "INDETERMINATE",
+        "dimension_statuses": {
+          "durability": "SATISFACTORY",
+          "capital_economics": "INDETERMINATE",
+          "earnings_reliability": "SATISFACTORY",
+          "financial_resilience": "INDETERMINATE",
+          "capital_allocation": "INDETERMINATE",
+          "governance": "INDETERMINATE"
+        },
+        "evidence": [
+          {
+            "docid": "111842",
+            "group": 1653,
+            "pages": [
+              1,
+              23,
+              24,
+              32,
+              38,
+              39,
+              53
+            ]
+          },
+          {
+            "docid": "113990",
+            "group": 192,
+            "pages": [
+              1,
+              3,
+              8,
+              9,
+              10,
+              12
+            ]
+          },
+          {
+            "docid": "91020",
+            "group": 412,
+            "pages": [
+              29,
+              31,
+              32,
+              39,
+              76
+            ]
+          },
+          {
+            "docid": "100039",
+            "group": 412,
+            "pages": [
+              29,
+              30,
+              36,
+              37,
+              38,
+              39
+            ]
+          }
+        ]
+      },
+      {
+        "ticker": "PSSA3",
+        "judgment": "ACCEPTED_AFTER_DIRECTED_REVIEW",
+        "reason": "Aceito seis SAT com deterioração trimestral explícita, sem limiar universal de ROE. PLA Q1/2022 de R$6,580 bilhões e necessidade R$4,959 bilhões dão excedente R$1,621 bilhão. Separados seguradoras, financeira e holding; sinistralidade, NPL e cobertura deteriorada não são omitidos. A comparação de mercado de dois meses não é rotulada como trimestre inteiro.",
+        "valuation": "INDETERMINATE",
+        "dimension_statuses": {
+          "durability": "SATISFACTORY",
+          "capital_economics": "SATISFACTORY",
+          "earnings_reliability": "SATISFACTORY",
+          "financial_resilience": "SATISFACTORY",
+          "capital_allocation": "SATISFACTORY",
+          "governance": "SATISFACTORY"
+        },
+        "evidence": [
+          {
+            "docid": "111606",
+            "group": 412,
+            "pages": [
+              34,
+              35
+            ]
+          },
+          {
+            "docid": "114461",
+            "group": 192,
+            "pages": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              11,
+              13,
+              21
+            ]
+          }
+        ]
+      },
+      {
+        "ticker": "SAPR4",
+        "judgment": "ACCEPTED_AFTER_DIRECTED_REVIEW",
+        "reason": "Aceito continuidade financeira com dívida e arrendamentos incluídos, caixa operacional e CAPEX explícitos. O reajuste de 4,963% em abril não equivale a liberação integral da Parcela B, suspensa até a revisão prevista para 2023. Mantida governança ND dos fatos concretos herdados.",
+        "valuation": "INDETERMINATE",
+        "dimension_statuses": {
+          "durability": "SATISFACTORY",
+          "capital_economics": "INDETERMINATE",
+          "earnings_reliability": "SATISFACTORY",
+          "financial_resilience": "SATISFACTORY",
+          "capital_allocation": "INDETERMINATE",
+          "governance": "INDETERMINATE"
+        },
+        "evidence": [
+          {
+            "docid": "114348",
+            "group": 192,
+            "pages": [
+              1,
+              2,
+              3,
+              5,
+              6,
+              8,
+              9,
+              10,
+              12,
+              13
+            ]
+          }
+        ]
+      },
+      {
+        "ticker": "SBSP3",
+        "judgment": "ACCEPTED_AFTER_DIRECTED_REVIEW",
+        "reason": "Aceito atualização dirigida. Ganho cambial não vira fluxo operacional ou prova de rentabilidade incremental; o aumento de perdas com créditos, químicos e energia é contraposto. Menor proporção cambial da dívida favorece a manutenção financeira, sem apagar CAPEX, PPPs e obrigações do dossiê anterior.",
+        "valuation": "INDETERMINATE",
+        "dimension_statuses": {
+          "durability": "SATISFACTORY",
+          "capital_economics": "INDETERMINATE",
+          "earnings_reliability": "SATISFACTORY",
+          "financial_resilience": "SATISFACTORY",
+          "capital_allocation": "INDETERMINATE",
+          "governance": "INDETERMINATE"
+        },
+        "evidence": [
+          {
+            "docid": "114487",
+            "group": 192,
+            "pages": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ]
+          }
+        ]
+      },
+      {
+        "ticker": "TAEE4",
+        "judgment": "ACCEPTED_AFTER_DIRECTED_REVIEW",
+        "reason": "Aceito ND de valuation dirigido ao terceiro piso após cortes RAP conhecidos, sem proibição genérica de mudança de perímetro. Corrigida a captação: emissão de R$1,25 bilhão em 15/04, liquidação em 10/05. Pagamento de principal e juros em 08/04 e dividendo de R$800,293 milhões são contrapontos reais. Retenção CPC47 não é prova de reinvestimento produtivo.",
+        "valuation": "INDETERMINATE",
+        "dimension_statuses": {
+          "durability": "SATISFACTORY",
+          "capital_economics": "INDETERMINATE",
+          "earnings_reliability": "SATISFACTORY",
+          "financial_resilience": "SATISFACTORY",
+          "capital_allocation": "INDETERMINATE",
+          "governance": "SATISFACTORY"
+        },
+        "evidence": [
+          {
+            "docid": "111877",
+            "group": 1653,
+            "pages": [
+              10,
+              11
+            ]
+          },
+          {
+            "docid": "111877",
+            "group": 412,
+            "pages": [
+              28,
+              29,
+              35,
+              36,
+              37,
+              38,
+              64,
+              66
+            ]
+          },
+          {
+            "docid": "114855",
+            "group": 192,
+            "pages": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ]
+          },
+          {
+            "docid": "114855",
+            "group": 193,
+            "pages": [
+              16,
+              39,
+              50,
+              55
+            ]
+          },
+          {
+            "docid": "91546",
+            "group": 412,
+            "pages": [
+              63,
+              74
+            ]
+          },
+          {
+            "docid": "114855",
+            "group": 193,
+            "pages": [
+              55
+            ]
+          }
+        ]
+      },
+      {
+        "ticker": "TBLE3",
+        "judgment": "ACCEPTED_AFTER_DIRECTED_REVIEW",
+        "reason": "Aceito os juízos mantidos após saída da Diamante, incluindo obrigação de compra de energia remanescente. Lucro ajustado R$636 milhões e contábil R$645 milhões foram distinguidos. Reversões, ganho de venda e GSF não são confundidos com lucro recorrente; dívida proporcional TAG e encargos continuam na pendência financeira.",
+        "valuation": "INDETERMINATE",
+        "dimension_statuses": {
+          "durability": "SATISFACTORY",
+          "capital_economics": "SATISFACTORY",
+          "earnings_reliability": "SATISFACTORY",
+          "financial_resilience": "INDETERMINATE",
+          "capital_allocation": "INDETERMINATE",
+          "governance": "SATISFACTORY"
+        },
+        "evidence": [
+          {
+            "docid": "114347",
+            "group": 192,
+            "pages": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              8,
+              12
+            ]
+          },
+          {
+            "docid": "114347",
+            "group": 192,
+            "pages": [
+              8,
+              12
+            ]
+          }
+        ]
+      },
+      {
+        "ticker": "TRPL4",
+        "judgment": "ACCEPTED_AFTER_DIRECTED_REVIEW",
+        "reason": "Aceito a continuidade e pendências específicas. Contratos e indicadores de rede sustentam durabilidade; remuneração RBSE, construção e revisão de PA explicam resultados. Custos maiores após PBTE e obrigações previdenciárias não são omitidos, nem resolvidos apenas pela ausência de default declarado.",
+        "valuation": "INDETERMINATE",
+        "dimension_statuses": {
+          "durability": "SATISFACTORY",
+          "capital_economics": "INDETERMINATE",
+          "earnings_reliability": "SATISFACTORY",
+          "financial_resilience": "INDETERMINATE",
+          "capital_allocation": "INDETERMINATE",
+          "governance": "INDETERMINATE"
+        },
+        "evidence": [
+          {
+            "docid": "114193",
+            "group": 192,
+            "pages": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ]
+          }
+        ]
+      },
+      {
+        "ticker": "VIVT3",
+        "judgment": "ACCEPTED_AFTER_DIRECTED_REVIEW",
+        "reason": "Aceito SAT financeiro com dependência explícita de geração operacional e menor folga após Oi. Caixa de março não é saldo pós-aquisição. Além dos R$4,884588 bilhões, em abril já foram pagos R$147,551 milhões de transição e R$40 milhões de adiantamento; retenção R$488,458 milhões continua obrigação. Citibank R$1 bilhão foi recebido, e leases, 5G e CAPEX permanecem na cobertura. DFC consolidada nativa comprova CFO Q1 de R$4,459610 bilhões e CAPEX pago R$1,815310 bilhão, sem anualização garantida ou dupla contagem.",
+        "valuation": "INDETERMINATE",
+        "dimension_statuses": {
+          "durability": "SATISFACTORY",
+          "capital_economics": "INDETERMINATE",
+          "earnings_reliability": "SATISFACTORY",
+          "financial_resilience": "SATISFACTORY",
+          "capital_allocation": "INDETERMINATE",
+          "governance": "INDETERMINATE"
+        },
+        "evidence": [
+          {
+            "docid": "111940",
+            "group": 1653,
+            "pages": [
+              1,
+              2,
+              3,
+              4
+            ]
+          },
+          {
+            "docid": "111940",
+            "group": 412,
+            "pages": [
+              7,
+              8,
+              24,
+              73
+            ]
+          },
+          {
+            "docid": "114647",
+            "group": 192,
+            "pages": [
+              1,
+              3,
+              4
+            ]
+          },
+          {
+            "docid": "114647",
+            "group": 193,
+            "pages": [
+              33,
+              34,
+              55,
+              60,
+              61
+            ]
+          },
+          {
+            "docid": "114647",
+            "group": 0,
+            "pages": [
+              1
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "methodological_resolutions": [
+    "Pisos são limites do lucro histórico comparável, não garantias de resultado futuro nem estimativas pontuais. Três pisos finitos dentro de cinco intervalos bastam para provar o limite inferior da mediana; os outros dois exercícios continuam ilimitados.",
+    "Não se exige perímetro eternamente estático. Em Santander a contribuição Getnet é retirada integralmente antes das eliminações, preservando as despesas efetivas suportadas pelo banco; receitas positivas Superdigital e reconciliações IFRS positivas adicionais também são retiradas. Custos variáveis atuais são discutidos e submetidos a estresse separado, sem inventar teto contratual eterno.",
+    "A normalização da Taesa distingue aquisições de cortes contratuais de RAP já efetivos. A pendência está no terceiro piso comparável após esses cortes, não na existência de aquisições por princípio. Nenhum diagnóstico condicional alimenta o gate.",
+    "A ressalva Copasa foi efetivamente investigada. Não há regra universal de reprovação por qualquer ressalva: a questão classifica dívida, não altera lucro; os testes ampliados sustentam a receita. O conflito material entre auditor, administração e comitê permanece como pendência específica de governança.",
+    "ND em nova formação não significa empresa comprovadamente ruim. A revisão não modifica posições históricas, retornos aceitos ou regras de permanência B2. Não concede prêmio reinvestidor porque a via madura mostrou P/L <=15."
+  ],
+  "corrections_resolved": [
+    {
+      "issuer": "CSMG3",
+      "issue": "Campos de cutoff e IPCA de 2021 apareciam no topo da prova de 2022.",
+      "resolution": "Ponte histórica agrupada e rotulada; novo cutoff, cinco intervalos, capital e IPCA atuais mantidos."
+    },
+    {
+      "issuer": "CSMG3",
+      "issue": "Administração não substitui auditor na investigação da divergência CPC26.",
+      "resolution": "XML original com opinião KPMG e COAUDI arquivado; governança SAT→ND, resultados SAT após investigação, finanças SAT após waiver efetivo. Sem alteração de lucro ou de qualquer corte anterior."
+    },
+    {
+      "issuer": "TAEE4",
+      "issue": "Emissão de abril era descrita como captação já liquidada em abril.",
+      "resolution": "Liquidação efetiva 10/05 e referência à p55 adicionadas; nenhuma mudança dos critérios."
+    },
+    {
+      "issuer": "VIVT3",
+      "issue": "Pagamentos de transição/adiantamento já efetivos precisavam ser distinguidos de obrigações futuras; suporte de caixa operacional tinha de ser comprovado.",
+      "resolution": "Pagamentos datados e DFC nativa consolidada acrescentados, com leases e 5G e sem dupla contagem do saldo de março."
+    },
+    {
+      "issuer": "TBLE3",
+      "issue": "Frase confundia lucro contábil e ajustado.",
+      "resolution": "Distinção corrigida para R$645 milhões contábeis e R$636 milhões ajustados, MR p12."
+    }
+  ],
+  "copasa_numerical_proof": {
+    "ticker": "CSMG3",
+    "cutoff": "2022-06-30",
+    "kind": "CERTIFIED_FIVE_YEAR_MEDIAN_LOWER_BOUND",
+    "limitations": "Reutiliza somente pisosnominais2018–20 já auditados, no novo conjunto de cincointervalos2017–21. 2017/2021 permanecem sem limites; reindexa atémaio2022 conhecido. Não estima lucro pontual, crescimento, payout ou canalprodutivo. Tarifa/custo/waiver recentes tratados no juízo, sem addback de perdas.",
+    "evidence": [
+      {
+        "docid": "80985",
+        "group": 1653,
+        "pages": [
+          15,
+          17,
+          18,
+          19
+        ]
+      },
+      {
+        "docid": "80985",
+        "group": 412,
+        "pages": [
+          34,
+          45,
+          64
+        ]
+      },
+      {
+        "docid": "91684",
+        "group": 1653,
+        "pages": [
+          14,
+          15,
+          16,
+          17,
+          18
+        ]
+      },
+      {
+        "docid": "91684",
+        "group": 412,
+        "pages": [
+          9,
+          21,
+          44,
+          76,
+          78
+        ]
+      },
+      {
+        "docid": "102985",
+        "group": 412,
+        "pages": [
+          38,
+          39,
+          40,
+          46,
+          68,
+          69
+        ]
+      }
+    ],
+    "capitalization": 4380515354.88,
+    "capital_classes": [
+      {
+        "share_class": "ON",
+        "quantity": 380253069.0,
+        "price": 11.52
+      }
+    ],
+    "fiscal_floors": {
+      "2018": {
+        "reported": 578700000,
+        "other_operating_revenue_removed": 198484000,
+        "financial_asset_gain_removed": 29114000,
+        "incentives_removed": 6049000,
+        "exceptional_cost_net_addback": 10008125,
+        "nominal_lower": 355061125,
+        "ipca_factor": 1.2572730946301671,
+        "real_lower": 446408799.4116186
+      },
+      "2019": {
+        "reported": 754374000,
+        "other_operating_revenue_removed": 111103000,
+        "all_gross_financial_revenue_removed": 121837000,
+        "incentives_and_subsidies_removed": 12521000,
+        "nominal_lower": 508913000,
+        "ipca_factor": 1.2053694060494118,
+        "real_lower": 613428160.5408243
+      },
+      "2020": {
+        "reported": 816477000,
+        "other_operating_revenue_removed": 177833000,
+        "all_gross_financial_revenue_removed": 152838000,
+        "incentives_and_subsidies_removed": 15248000,
+        "nominal_lower": 470558000,
+        "ipca_factor": 1.1532721639724557,
+        "real_lower": 542681442.9345508
+      }
+    },
+    "median_lower": 446408799.4116186,
+    "pe_upper": 9.812788996663288,
+    "window": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2021
+    ],
+    "2018_original_bridge_at_2021_cutoff": {
+      "reported_attributable_profit": 578700000,
+      "deductions": {
+        "all_other_operating_revenue_consolidated": 198484000,
+        "financial_asset_gain": 29114000,
+        "all_tax_incentives": 6049000
+      },
+      "documented_nonrecurring_cost": {
+        "published_amount": 16800000,
+        "conservative_amount_after_rounding": 16750000,
+        "income_tax_maximum_at_34pct": 5695000.0,
+        "incremental_profit_sharing_maximum": 1046875.0,
+        "net_addback_lower": 10008125.0,
+        "profit_sharing_formula": "25% of mandatory minimum dividends (25% of adjusted earnings); use6.25% of full pretax addback, without netting tax, as conservative extra expense.",
+        "reason": "Crédito no cartão alimentação de empregados é DESPESA extraordinária2018; não recuperação de tributo. MR2018aumentodespesa23mi eMR2019não repetição corroboram. Não se adicionam PCLD, contingências ou custos recorrentes."
+      },
+      "nominal_profit_lower": 355061125.0,
+      "ipca_to_may2021": 1.125266599070563,
+      "real_profit_lower": 399538424.59091806
+    }
+  },
+  "schema_notes": {
+    "CSMG3_116984_g1654": "XmlDemonstracoesFinanceiras; unidade1 DadosDFP/Formulario/PareceresDeclaracoes/RelatorioRevisaoEspecial/Relatorio; unidade2 DadosDFP/Formulario/PareceresDeclaracoes/ParecerRelatorioComiteAuditoria. Recebido 13/06/2022, versão3; pareceres assinados 29/03/2022. Original completo preservado; extrações são unidades lógicas, não páginas PDF.",
+    "VIVT3_114647_g0": "XmlInformacoesTrimestraisFinanceiras; unidade1 DadosITR/Formulario/DfConsolidadas/DemonstracaoFluxoCaixa. Recebido 10/05/2022, versão1; referência31/03/2022. Valores em milhares de reais; conta6.01=4.459.610 e conta6.02.01=−1.815.310. XML completo original preservado."
+  }
+}
