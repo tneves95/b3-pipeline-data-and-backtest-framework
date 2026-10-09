@@ -1,0 +1,1189 @@
+{
+  "sealed_utc": "2026-10-09T13:14:10.616106+00:00",
+  "stage": "FINAL_2014_SEALED_BEFORE_ANY_2025_READ",
+  "independence": "Revisão adversarial formada com protocolo redigido, decisões e provas primárias dos três pacotes2014. Não li implementação, .pr4-work, retornos, resultados, checkpoints, outros pareceres, GitHub ou notícias retrospectivas. Não recalculei carteiras.2025 não foi aberto antes deste selo.",
+  "supplement_disclosure": "A raiz corrigiu transporte do originalBRGAAP2011 e forneceu IPCA primário antes deste parecer; sem sugestão de juízo. A omissão inicial foi preservada no arquivo material_initial_transport_finding_2014_before_supplement.json. Nenhum feedback de mérito foi usado.",
+  "status_semantics": "PASS=decisão auditada suportada, incluindoINDETERMINATEcorretamente preservado;UNRESOLVED=lacunadeprova material;ISSUE=erro comprovado. Não são etiquetas de retorno nem promoção de B00S.",
+  "reports": [
+    {
+      "case": "PSSA3_2014",
+      "audit_status": "PASS",
+      "severity": "LOW",
+      "admission_review": {
+        "VVAL": "PASS_MATURE",
+        "VQ": "QUALIFIED_SATISFACTORY"
+      },
+      "conclusion": "Lucro recorrente atribuível2013 e capital prudencial têm suporte primário. P/L14,168997 recomposto. Não confundir lucro gerencial711m, lucro consolidado695,6m e atribuível703,5m; a compra via madura dispensa prêmio reinvestidor.",
+      "calculation": {
+        "reported_annual_ni": {
+          "2009": 318125000.0,
+          "2010": 623091000.0,
+          "2011": 580084000.0,
+          "2012": 682580000.0,
+          "2013": 1405207000.0
+        },
+        "independent_adjustment_nominal": {
+          "2009": 318125000.0,
+          "2010": 623091000.0,
+          "2011": 580084000.0,
+          "2012": 682580000.0,
+          "2013": 703500000
+        },
+        "null_lower_means": "negative_infinity_not_zero",
+        "inflation_factors": {
+          "2009": 1.3065276814749207,
+          "2010": 1.233631550030196,
+          "2011": 1.1583056693298883,
+          "2012": 1.094407908477792,
+          "2013": 1.033329671432607
+        },
+        "real_values": {
+          "2009": 415639118.6692091,
+          "2010": 768664716.1398648,
+          "2011": 671914585.8875589,
+          "2012": 747020950.1687713,
+          "2013": 726947423.852839
+        },
+        "normalized_median_or_lower": 726947423.852839,
+        "capitalization_recomputed": 10300115935.8,
+        "capital_classes": [
+          {
+            "share_class": "ON",
+            "quantity": 323293030.0,
+            "price": 31.86
+          }
+        ],
+        "pe_or_pe_upper": 14.168997093640053,
+        "minimum_profit_for_pe15": 686674395.7199999,
+        "profit_headroom_real": 40273028.13283908,
+        "fact_provenance": [
+          {
+            "cnpj": "02149205000169",
+            "year": 2009,
+            "period_start": "2009-01-01",
+            "period_end": "2009-12-31",
+            "reference": "2010-12-31",
+            "version": 2,
+            "received": "2011-03-01",
+            "docid": "5063",
+            "perimeter": "con",
+            "statement": "DRE",
+            "account": "3.11.01",
+            "description": "Atribuído a Sócios da Empresa Controladora",
+            "value": 318125.0,
+            "scale": "MIL",
+            "source": "dfp_cia_aberta_DRE_con_2010.csv",
+            "archive_sha256": "c6a9c95c2510e8a71bb583084492e9c52c3f423a3be56f1c5d2dd4f6960677ff",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2010.zip"
+          },
+          {
+            "cnpj": "02149205000169",
+            "year": 2010,
+            "period_start": "2010-01-01",
+            "period_end": "2010-12-31",
+            "reference": "2011-12-31",
+            "version": 1,
+            "received": "2012-02-27",
+            "docid": "14549",
+            "perimeter": "con",
+            "statement": "DRE",
+            "account": "3.11.01",
+            "description": "Atribuído a Sócios da Empresa Controladora",
+            "value": 623091.0,
+            "scale": "MIL",
+            "source": "dfp_cia_aberta_DRE_con_2011.csv",
+            "archive_sha256": "858423fba40124d7a30abea4e70248f7251e1d2c792e9fcece5a57afd3115f34",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2011.zip"
+          },
+          {
+            "cnpj": "02149205000169",
+            "year": 2011,
+            "period_start": "2011-01-01",
+            "period_end": "2011-12-31",
+            "reference": "2012-12-31",
+            "version": 1,
+            "received": "2013-02-26",
+            "docid": "24456",
+            "perimeter": "con",
+            "statement": "DRE",
+            "account": "3.11.01",
+            "description": "Atribuído a Sócios da Empresa Controladora",
+            "value": 580084.0,
+            "scale": "MIL",
+            "source": "dfp_cia_aberta_DRE_con_2012.csv",
+            "archive_sha256": "3aff7a726d324d29924887eed45bbc58bc30b66cd9079bafe701d55efdfe0849",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2012.zip"
+          },
+          {
+            "cnpj": "02149205000169",
+            "year": 2012,
+            "period_start": "2012-01-01",
+            "period_end": "2012-12-31",
+            "reference": "2013-12-31",
+            "version": 2,
+            "received": "2014-02-25",
+            "docid": "34786",
+            "perimeter": "con",
+            "statement": "DRE",
+            "account": "3.11.01",
+            "description": "Atribuído a Sócios da Empresa Controladora",
+            "value": 682580.0,
+            "scale": "MIL",
+            "source": "dfp_cia_aberta_DRE_con_2013.csv",
+            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+          },
+          {
+            "cnpj": "02149205000169",
+            "year": 2013,
+            "period_start": "2013-01-01",
+            "period_end": "2013-12-31",
+            "reference": "2013-12-31",
+            "version": 2,
+            "received": "2014-02-25",
+            "docid": "34786",
+            "perimeter": "con",
+            "statement": "DRE",
+            "account": "3.11.01",
+            "description": "Atribuído a Sócios da Empresa Controladora",
+            "value": 1405207.0,
+            "scale": "MIL",
+            "source": "dfp_cia_aberta_DRE_con_2013.csv",
+            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+          }
+        ],
+        "price_limitation": "Cotações de junho vieram de decision.json; nenhum original COTAHIST está no pacote para certificação independente do preço. Quantidades foram confrontadas com FRE capital emitido.",
+        "method": "Selecionar DRE consolidada anual atribuível mais recente recebida até corte; ajustar cada observação e multiplicar produto mensal SGS433 posterior a dezembro do exercício até maio/2014; calcular terceira ordem das cinco observações. Capital por classe própria. Código independente; não importou implementação."
+      },
+      "favorable_evidence": [
+        {
+          "docid": "34786",
+          "group": 1653,
+          "received": "2014-02-25",
+          "receipt_label": "25/02/2014 09:10:46",
+          "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34786",
+          "original_sha256": "90a9956db1eb42d428715c71b8a1d0b512318695b406f5f6a951b6cd536e2777",
+          "pages": [
+            4,
+            10,
+            12,
+            13
+          ],
+          "purpose": "Série atribuível e lucro recorrente703,5m, custos não recorrentes, dividendos e combinado96,0%"
+        },
+        {
+          "docid": "34786",
+          "group": 412,
+          "received": "2014-02-25",
+          "receipt_label": "25/02/2014 09:10:46",
+          "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34786",
+          "original_sha256": "54143e998bb221067d151f16b2ef1b5c81da24b2a7aa7701b14fe0722a73fc18",
+          "pages": [
+            7,
+            8,
+            19,
+            20,
+            46,
+            91,
+            92
+          ],
+          "purpose": "Reapresentação, TAP provisionado38,192m, capital excedente1086,837m, aquisição pequena"
+        },
+        {
+          "docid": "36561",
+          "group": 193,
+          "received": "2014-04-30",
+          "receipt_label": "30/04/2014 18:47:18",
+          "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36561",
+          "original_sha256": "376139eb07041813ca8c737ab1be74ca64a2d731eb4602f5cacc3c87f29043e7",
+          "pages": [
+            4,
+            28
+          ],
+          "purpose": "Excedente753,618m e garantia6584,740m para exigência6428,241m"
+        }
+      ],
+      "contrary_evidence": [
+        {
+          "docid": "34786",
+          "group": 412,
+          "received": "2014-02-25",
+          "receipt_label": "25/02/2014 09:10:46",
+          "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34786",
+          "original_sha256": "54143e998bb221067d151f16b2ef1b5c81da24b2a7aa7701b14fe0722a73fc18",
+          "pages": [
+            76
+          ],
+          "purpose": "COFINS líquido895,751m material; não basta subtrair da NI sem custos associados"
+        },
+        {
+          "docid": "36561",
+          "group": 192,
+          "received": "2014-04-30",
+          "receipt_label": "30/04/2014 18:47:18",
+          "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36561",
+          "original_sha256": "4cee7d9ae0216981a1269074159ff883e9801b929defb706c3f714fc9751b981",
+          "pages": [
+            3,
+            4,
+            15
+          ],
+          "purpose": "Combinado98,8%, sinistralidadeauto+4,1pp, benefícioCOFINS temporário2014;512m na holding não são excesso regulado"
+        },
+        {
+          "docid": "34786",
+          "group": 412,
+          "received": "2014-02-25",
+          "receipt_label": "25/02/2014 09:10:46",
+          "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34786",
+          "original_sha256": "54143e998bb221067d151f16b2ef1b5c81da24b2a7aa7701b14fe0722a73fc18",
+          "pages": [
+            67
+          ],
+          "purpose": "PLR administradores152,355m contra75,555m requer monitoramento"
+        }
+      ],
+      "dimensions": {
+        "durability": {
+          "status": "SATISFACTORY",
+          "reason": "Renovações, marcas e rede de distribuição documentadas; concentraçãoauto/SãoPaulo e concorrência limitam qualidadeHIGH."
+        },
+        "capital_economics": {
+          "status": "SATISFACTORY",
+          "reason": "ROE recorrente703,5/[(5067,1+5187,4)/2]=13,720829%; com PL reportado=12,8419%. Combinado recorrente96%; receita financeira segue importante."
+        },
+        "earnings_reliability": {
+          "status": "SATISFACTORY",
+          "reason": "Ponte agregada recorrente atribuível explícita, TAP provisionado, ajustes auditados; não certificar711m como NI atribuível."
+        },
+        "financial_resilience": {
+          "status": "SATISFACTORY",
+          "reason": "Capital excedente positivo; queda30,66% no excedente e55,94% na cobertura técnica são riscos observados, não infração regulatória."
+        },
+        "capital_allocation": {
+          "status": "SATISFACTORY",
+          "reason": "Dividendos50%recorrente/70%extraordinário; investimento375,1m, aquisição32,17m pequena. Sem retorno incremental certificado."
+        },
+        "governance": {
+          "status": "SATISFACTORY",
+          "reason": "ON,tagalong100%, arbitragem, comitê independente e transações detalhadas. PLR/materialCOFINS não provam desvio."
+        }
+      },
+      "additional_calculations": {
+        "roe_adjusted_equity": 0.1372080550002438,
+        "roe_reported_equity": 0.12841926562799486,
+        "capital_excess_decline": 0.3065951932074451,
+        "technical_guarantee_surplus": 156499,
+        "technical_guarantee_surplus_ratio": 0.02434554024965772,
+        "median_profit_nominal2013_tolerance": 38974036.30828156
+      },
+      "materiality": "Porto é a única seguradora elegível citada no protocolo na formação. Uma alteração na admissão afetaria presença setorial; não calculei pesos nem retornos. Lucro adicional removido de2013 acima38,974m poderia cruzar P/L15, até mudança de ordem da mediana.",
+      "specific_pending": [
+        "Monitorar trajetória do excesso de capital e cobertura técnica; não exigir limiar inventado.",
+        "Conferência de cotação COTAHIST fora do escopo do pacote."
+      ]
+    },
+    {
+      "case": "BBDC4_2014",
+      "audit_status": "UNRESOLVED",
+      "severity": "HIGH",
+      "admission_review": {
+        "VVAL": "INDETERMINATE_PENDING_IFRS_BRIDGE",
+        "VQ": "QUALIFIED_SATISFACTORY_WITH_LIMITATION_ON_EXACT_NORMALIZATION"
+      },
+      "conclusion": "A fórmula dos pisos e a mediana estão corretas, mas a neutralização do crédito/provisão2.911,634m está demonstrada no grupoBRGAAP, sem ponte quantitativa de reconhecimento para o lucro atribuívelIFRS usado no denominador. A decisão afirma reconciliação concluída; os originais incluídos sustentam natureza comum dos eventos, não igualdadeIFRS dos lançamentos. Não há reprovação fundamentalista comprovada.",
+      "calculation": {
+        "reported_annual_ni": {
+          "2009": 8283007000.0,
+          "2010": 9939575000.0,
+          "2011": 10958054000.0,
+          "2012": 11291570000.0,
+          "2013": 12395920000.0
+        },
+        "independent_adjustment_nominal": {
+          "2009": null,
+          "2010": 9860402000.0,
+          "2011": 7813816000.0,
+          "2012": 10498210000.0,
+          "2013": null
+        },
+        "null_lower_means": "negative_infinity_not_zero",
+        "inflation_factors": {
+          "2009": 1.3065276814749207,
+          "2010": 1.233631550030196,
+          "2011": 1.1583056693298883,
+          "2012": 1.094407908477792,
+          "2013": 1.033329671432607
+        },
+        "real_values": {
+          "2009": null,
+          "2010": 12164103003.180845,
+          "2011": 9050787371.90059,
+          "2012": 11489324048.860641,
+          "2013": null
+        },
+        "normalized_median_or_lower": 9050787371.90059,
+        "capitalization_recomputed": 135242824004.45999,
+        "capital_classes": [
+          {
+            "share_class": "ON",
+            "quantity": 2103637129.0,
+            "price": 32.24
+          },
+          {
+            "share_class": "PN",
+            "quantity": 2103636910.0,
+            "price": 32.05
+          }
+        ],
+        "pe_or_pe_upper": 14.942658406089603,
+        "minimum_profit_for_pe15": 9016188266.963999,
+        "profit_headroom_real": 34599104.9365921,
+        "fact_provenance": [
+          {
+            "cnpj": "60746948000112",
+            "year": 2009,
+            "period_start": "2009-01-01",
+            "period_end": "2009-12-31",
+            "reference": "2010-12-31",
+            "version": 3,
+            "received": "2011-07-19",
+            "docid": "10193",
+            "perimeter": "con",
+            "statement": "DRE",
+            "account": "3.09.01",
+            "description": "Atribuído a Sócios da Empresa Controladora",
+            "value": 8283007.0,
+            "scale": "MIL",
+            "source": "dfp_cia_aberta_DRE_con_2010.csv",
+            "archive_sha256": "c6a9c95c2510e8a71bb583084492e9c52c3f423a3be56f1c5d2dd4f6960677ff",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2010.zip"
+          },
+          {
+            "cnpj": "60746948000112",
+            "year": 2010,
+            "period_start": "2010-01-01",
+            "period_end": "2010-12-31",
+            "reference": "2011-12-31",
+            "version": 2,
+            "received": "2012-03-30",
+            "docid": "15827",
+            "perimeter": "con",
+            "statement": "DRE",
+            "account": "3.09.01",
+            "description": "Atribuído a Sócios da Empresa Controladora",
+            "value": 9939575.0,
+            "scale": "MIL",
+            "source": "dfp_cia_aberta_DRE_con_2011.csv",
+            "archive_sha256": "858423fba40124d7a30abea4e70248f7251e1d2c792e9fcece5a57afd3115f34",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2011.zip"
+          },
+          {
+            "cnpj": "60746948000112",
+            "year": 2011,
+            "period_start": "2011-01-01",
+            "period_end": "2011-12-31",
+            "reference": "2012-12-31",
+            "version": 2,
+            "received": "2013-03-28",
+            "docid": "25736",
+            "perimeter": "con",
+            "statement": "DRE",
+            "account": "3.09.01",
+            "description": "Atribuído a Sócios da Empresa Controladora",
+            "value": 10958054.0,
+            "scale": "MIL",
+            "source": "dfp_cia_aberta_DRE_con_2012.csv",
+            "archive_sha256": "3aff7a726d324d29924887eed45bbc58bc30b66cd9079bafe701d55efdfe0849",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2012.zip"
+          },
+          {
+            "cnpj": "60746948000112",
+            "year": 2012,
+            "period_start": "2012-01-01",
+            "period_end": "2012-12-31",
+            "reference": "2013-12-31",
+            "version": 2,
+            "received": "2014-03-31",
+            "docid": "35965",
+            "perimeter": "con",
+            "statement": "DRE",
+            "account": "3.09.01",
+            "description": "Atribuído a Sócios da Empresa Controladora",
+            "value": 11291570.0,
+            "scale": "MIL",
+            "source": "dfp_cia_aberta_DRE_con_2013.csv",
+            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+          },
+          {
+            "cnpj": "60746948000112",
+            "year": 2013,
+            "period_start": "2013-01-01",
+            "period_end": "2013-12-31",
+            "reference": "2013-12-31",
+            "version": 2,
+            "received": "2014-03-31",
+            "docid": "35965",
+            "perimeter": "con",
+            "statement": "DRE",
+            "account": "3.09.01",
+            "description": "Atribuído a Sócios da Empresa Controladora",
+            "value": 12395920.0,
+            "scale": "MIL",
+            "source": "dfp_cia_aberta_DRE_con_2013.csv",
+            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+          }
+        ],
+        "price_limitation": "Cotações de junho vieram de decision.json; nenhum original COTAHIST está no pacote para certificação independente do preço. Quantidades foram confrontadas com FRE capital emitido.",
+        "method": "Selecionar DRE consolidada anual atribuível mais recente recebida até corte; ajustar cada observação e multiplicar produto mensal SGS433 posterior a dezembro do exercício até maio/2014; calcular terceira ordem das cinco observações. Capital por classe própria. Código independente; não importou implementação."
+      },
+      "favorable_evidence": [
+        {
+          "docid": "bradesco_2011_publication",
+          "group": 0,
+          "received": "2012-02-08",
+          "receipt_label": "Data impressa da publicação do emissor no Diário Oficial Empresarial de São Paulo, 122 (26); não é protocolo CVM.",
+          "url": "https://www.pefran.com.br/empresas2012/banco_bradesco/legal/%5B22468%5D-banco_bradesco_legal_bal_anual_31-12-11_dc_doesp_jcrj/internet/arte/%5B22468%5D-BANCO_BRADESCO_LEGAL_BAL_ANUAL_31-12-11_DOESP_DC_JCRJ.pdf",
+          "original_sha256": "f8ff4818d3bbee237f988c4b756477930f5122331069ef479ce317c1171e13a4",
+          "pages": [
+            25,
+            28,
+            29
+          ],
+          "purpose": "BRGAAP grupo:2.911,634m crédito e provisão iguais;2.125,714m reversão;CPM79,173m/CETIP179,028m/Ibi55,356m;CSLL226,711m"
+        },
+        {
+          "docid": "15827",
+          "group": 412,
+          "received": "2012-03-30",
+          "receipt_label": "30/03/2012 19:09:30",
+          "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=15827",
+          "original_sha256": "a9671aaf7d1fdc69ef338080d32a6b17a238059c270937d024487cb60218f539",
+          "pages": [
+            81,
+            125
+          ],
+          "purpose": "IFRSBERJ405,983m e residualIR151,446m"
+        },
+        {
+          "docid": "25736",
+          "group": 412,
+          "received": "2013-03-28",
+          "receipt_label": "28/03/2013 19:32:45",
+          "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=25736",
+          "original_sha256": "9816e31cc42c334f8139e90f22bb86cbb7cffbb7a4b336b0828d7d898ececbba",
+          "pages": [
+            83,
+            128,
+            129
+          ],
+          "purpose": "IFRSSerasa793,360m e BERJ; perdas de crédito/impairment permanecem despesas"
+        },
+        {
+          "docid": "36377",
+          "group": 193,
+          "received": "2014-04-24",
+          "receipt_label": "24/04/2014 05:48:55",
+          "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36377",
+          "original_sha256": "0519de70588161136a805541b95216f041483f7e5088d6a09f6d58427191e026",
+          "pages": [
+            43,
+            44,
+            73
+          ],
+          "purpose": "Provisões e capitalBasileia15,7%,principal11,9%; não confundircursoanormal comNPL90"
+        }
+      ],
+      "contrary_evidence": [
+        {
+          "docid": "bradesco_2011_publication",
+          "group": 0,
+          "received": "2012-02-08",
+          "receipt_label": "Data impressa da publicação do emissor no Diário Oficial Empresarial de São Paulo, 122 (26); não é protocolo CVM.",
+          "url": "https://www.pefran.com.br/empresas2012/banco_bradesco/legal/%5B22468%5D-banco_bradesco_legal_bal_anual_31-12-11_dc_doesp_jcrj/internet/arte/%5B22468%5D-BANCO_BRADESCO_LEGAL_BAL_ANUAL_31-12-11_DOESP_DC_JCRJ.pdf",
+          "original_sha256": "f8ff4818d3bbee237f988c4b756477930f5122331069ef479ce317c1171e13a4",
+          "pages": [
+            29
+          ],
+          "purpose": "Publicação diz expressamente que demonstraçõesIFRS não fazem parte destasBRGAAP; expectativa de diferenças não significativas é declaração qualitativa da administração"
+        },
+        {
+          "docid": "15827",
+          "group": 412,
+          "received": "2012-03-30",
+          "receipt_label": "30/03/2012 19:09:30",
+          "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=15827",
+          "original_sha256": "a9671aaf7d1fdc69ef338080d32a6b17a238059c270937d024487cb60218f539",
+          "pages": [
+            81,
+            84,
+            116,
+            117,
+            118
+          ],
+          "purpose": "OutrasIFRS agregadas e provisões fiscais líquidas não individualizam a mesma neutralização2.911,634m"
+        },
+        {
+          "docid": "35965",
+          "group": 412,
+          "received": "2014-03-31",
+          "receipt_label": "31/03/2014 18:37:39",
+          "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35965",
+          "original_sha256": "3f6345302841476753c646fe2d9ae591278b072c4708e0782dcc0d14dfbe72e5",
+          "pages": [
+            88,
+            117
+          ],
+          "purpose": "IFRS compara2011 reapresentado e traz eventos materiais2013; não usar ganhos/perdas brutasNTN como lucro recorrente"
+        }
+      ],
+      "dimensions": {
+        "durability": {
+          "status": "SATISFACTORY",
+          "reason": "Franquia de depósitos/seguros/serviços e diversificação documentadas, sujeitas ao ciclo de crédito."
+        },
+        "capital_economics": {
+          "status": "SATISFACTORY_LIMITED",
+          "reason": "Operação bancária e seguradora lucrativa e absorção de perdas suportam qualidade satisfatória; ROE exato normalizado e pisoIFRS não certificados."
+        },
+        "earnings_reliability": {
+          "status": "SATISFACTORY_LIMITED",
+          "reason": "Perdas, renegociações e eventos divulgados; demonstrações críveis não implicam que todo lucro é recorrente. A lacuna da ponte bloqueia o piso deVVAL."
+        },
+        "financial_resilience": {
+          "status": "SATISFACTORY",
+          "reason": "Mar2014PR15,7%,principal11,9% contra exigência11%/4,5% da data; deduçõesprudenciais aumentaram e NívelII inclui dívida subordinada."
+        },
+        "capital_allocation": {
+          "status": "SATISFACTORY",
+          "reason": "Distribuição moderada, lucros retidos e manutenção de capital; aquisições e bônus não comprovam EPSorgânico/retornoincremental."
+        },
+        "governance": {
+          "status": "SATISFACTORY",
+          "reason": "Controles/partes relacionadas divulgados; concentração do controle e ON/PN diferentes preservados no capital. Sem prova primária de alerta estrutural não resolvido."
+        }
+      },
+      "additional_calculations": {
+        "profit_headroom_relative_to_lower": 0.003822772927359863,
+        "extra_gain2011_nominal_to_exhaust_bound": 29870444.264171336,
+        "if_full_credit2011_removed_without_IFRS_offset_pe_upper": 23.81779855093863
+      },
+      "materiality": "Folga apenas0,382269% no piso real (R$34,599m), equivalendo aR$29,870mnominais2011. Uma diferença de reconhecimentoIFRS desse tamanho já derruba a prova do limite superior15, sem provar queP/Lverdadeiro>15. Por isso nova compraVVAL não está comprovada apenas pelo pacote.",
+      "specific_pending": [
+        "Tabela lançamentos2011 por entidade/evento que reconcilie crédito/provisão2.911,634mBRGAAP comIFRS atribuível, incluindo tributação/NCI/reapresentação.",
+        "Conferir ganhospositivos2010/2011/2012 que poderiam excederR$29,870m no ano2011 central; não adicionar perdas para fabricar piso.",
+        "Regularizar ressalva da decisão income_modes_reconciled=true até prova quantitativa.",
+        "Conferência de cotações de ambas classes no originalCOTAHIST."
+      ]
+    },
+    {
+      "case": "CSMG3_2014",
+      "audit_status": "PASS",
+      "severity": "MEDIUM",
+      "admission_review": {
+        "VVAL": "PASS_MATURE_BY_BOUND",
+        "VQ": "INDETERMINATE"
+      },
+      "conclusion": "A mediana de cinco limites inferiores é robusta e passa a via madura, sem atribuir P/L pontual. A indefiniçãoVQ tem causa efetiva em economia do capital/alocação, não payout35%,CAPEXalto ou FCLnegativo como filtros automáticos. Não há prova de negócio estruturalmente ruim.",
+      "calculation": {
+        "reported_annual_ni": {
+          "2009": 519244000.0,
+          "2010": 669776000.0,
+          "2011": 464507000.0,
+          "2012": 481723000.0,
+          "2013": 419795000.0
+        },
+        "independent_adjustment_nominal": {
+          "2009": null,
+          "2010": 335695000.0,
+          "2011": 434816000.0,
+          "2012": 394184000.0,
+          "2013": 419795000.0
+        },
+        "null_lower_means": "negative_infinity_not_zero",
+        "inflation_factors": {
+          "2009": 1.3065276814749207,
+          "2010": 1.233631550030196,
+          "2011": 1.1583056693298883,
+          "2012": 1.094407908477792,
+          "2013": 1.033329671432607
+        },
+        "real_values": {
+          "2009": null,
+          "2010": 414123943.18738663,
+          "2011": 503649837.9153447,
+          "2012": 431398086.99540997,
+          "2013": 433786629.4190513
+        },
+        "normalized_median_or_lower": 431398086.99540997,
+        "capitalization_recomputed": 4847219415.0,
+        "capital_classes": [
+          {
+            "share_class": "ON",
+            "quantity": 119684430.0,
+            "price": 40.5
+          }
+        ],
+        "pe_or_pe_upper": 11.236070722426671,
+        "minimum_profit_for_pe15": 323147961.0,
+        "profit_headroom_real": 108250125.99540997,
+        "fact_provenance": [
+          {
+            "cnpj": "17281106000103",
+            "year": 2009,
+            "period_start": "2009-01-01",
+            "period_end": "2009-12-31",
+            "reference": "2010-12-31",
+            "version": 1,
+            "received": "2011-03-17",
+            "docid": "5323",
+            "perimeter": "con",
+            "statement": "DRE",
+            "account": "3.11.01",
+            "description": "Atribuído a Sócios da Empresa Controladora",
+            "value": 519244.0,
+            "scale": "MIL",
+            "source": "dfp_cia_aberta_DRE_con_2010.csv",
+            "archive_sha256": "c6a9c95c2510e8a71bb583084492e9c52c3f423a3be56f1c5d2dd4f6960677ff",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2010.zip"
+          },
+          {
+            "cnpj": "17281106000103",
+            "year": 2010,
+            "period_start": "2010-01-01",
+            "period_end": "2010-12-31",
+            "reference": "2011-12-31",
+            "version": 1,
+            "received": "2012-03-09",
+            "docid": "14868",
+            "perimeter": "con",
+            "statement": "DRE",
+            "account": "3.11.01",
+            "description": "Atribuído a Sócios da Empresa Controladora",
+            "value": 669776.0,
+            "scale": "MIL",
+            "source": "dfp_cia_aberta_DRE_con_2011.csv",
+            "archive_sha256": "858423fba40124d7a30abea4e70248f7251e1d2c792e9fcece5a57afd3115f34",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2011.zip"
+          },
+          {
+            "cnpj": "17281106000103",
+            "year": 2011,
+            "period_start": "2011-01-01",
+            "period_end": "2011-12-31",
+            "reference": "2012-12-31",
+            "version": 3,
+            "received": "2013-03-06",
+            "docid": "24718",
+            "perimeter": "con",
+            "statement": "DRE",
+            "account": "3.11.01",
+            "description": "Atribuído a Sócios da Empresa Controladora",
+            "value": 464507.0,
+            "scale": "MIL",
+            "source": "dfp_cia_aberta_DRE_con_2012.csv",
+            "archive_sha256": "3aff7a726d324d29924887eed45bbc58bc30b66cd9079bafe701d55efdfe0849",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2012.zip"
+          },
+          {
+            "cnpj": "17281106000103",
+            "year": 2012,
+            "period_start": "2012-01-01",
+            "period_end": "2012-12-31",
+            "reference": "2013-12-31",
+            "version": 1,
+            "received": "2014-01-30",
+            "docid": "34244",
+            "perimeter": "con",
+            "statement": "DRE",
+            "account": "3.11.01",
+            "description": "Atribuído a Sócios da Empresa Controladora",
+            "value": 481723.0,
+            "scale": "MIL",
+            "source": "dfp_cia_aberta_DRE_con_2013.csv",
+            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+          },
+          {
+            "cnpj": "17281106000103",
+            "year": 2013,
+            "period_start": "2013-01-01",
+            "period_end": "2013-12-31",
+            "reference": "2013-12-31",
+            "version": 1,
+            "received": "2014-01-30",
+            "docid": "34244",
+            "perimeter": "con",
+            "statement": "DRE",
+            "account": "3.11.01",
+            "description": "Atribuído a Sócios da Empresa Controladora",
+            "value": 419795.0,
+            "scale": "MIL",
+            "source": "dfp_cia_aberta_DRE_con_2013.csv",
+            "archive_sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
+            "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/DFP/DADOS/dfp_cia_aberta_2013.zip"
+          }
+        ],
+        "price_limitation": "Cotações de junho vieram de decision.json; nenhum original COTAHIST está no pacote para certificação independente do preço. Quantidades foram confrontadas com FRE capital emitido.",
+        "method": "Selecionar DRE consolidada anual atribuível mais recente recebida até corte; ajustar cada observação e multiplicar produto mensal SGS433 posterior a dezembro do exercício até maio/2014; calcular terceira ordem das cinco observações. Capital por classe própria. Código independente; não importou implementação."
+      },
+      "favorable_evidence": [
+        {
+          "docid": "14868",
+          "group": 412,
+          "received": "2012-03-09",
+          "receipt_label": "09/03/2012 18:15:41",
+          "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=14868",
+          "original_sha256": "befdca279c1fde4513ed668159712e13a30974d11da04c684750cde84efdfff9",
+          "pages": [
+            4,
+            52,
+            71
+          ],
+          "purpose": "Reversãoatuarial313,073m está dentro334,081m total2010;29,691m é reversãoconsolidada2011"
+        },
+        {
+          "docid": "24718",
+          "group": 412,
+          "received": "2013-03-06",
+          "receipt_label": "06/03/2013 07:58:24",
+          "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=24718",
+          "original_sha256": "b8cd26a894d5781b26e387649ddce29709c1772029e4d31d20f89b6cb07363a8",
+          "pages": [
+            84
+          ],
+          "purpose": "Reversãoconsolidada60,839m2012"
+        },
+        {
+          "docid": "34244",
+          "group": 1653,
+          "received": "2014-01-30",
+          "receipt_label": "30/01/2014 17:40:37",
+          "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34244",
+          "original_sha256": "b7601c2840b7c7578990b4f9198ecf322feb6743fca8d17949a00c85e0713d01",
+          "pages": [
+            13,
+            14,
+            15,
+            16,
+            18
+          ],
+          "purpose": "PRODES7,2m,correçãoIR7,5m,PAT12m2012;custosPDV preservados, distribuição35%,dadosEPS/EBITDA"
+        },
+        {
+          "docid": "34244",
+          "group": 412,
+          "received": "2014-01-30",
+          "receipt_label": "30/01/2014 17:40:37",
+          "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34244",
+          "original_sha256": "6aea964a1fdca22a0a8a8180766d7e6e5ff82484f7e3ce7660b3c143594ab41c",
+          "pages": [
+            20,
+            24,
+            114
+          ],
+          "purpose": "Reapresentação2012 mantémNI481,723m;CFO669,408m;ICMS investigado sem autuação/provisãoexigível documentada"
+        }
+      ],
+      "contrary_evidence": [
+        {
+          "docid": "34244",
+          "group": 1653,
+          "received": "2014-01-30",
+          "receipt_label": "30/01/2014 17:40:37",
+          "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34244",
+          "original_sha256": "b7601c2840b7c7578990b4f9198ecf322feb6743fca8d17949a00c85e0713d01",
+          "pages": [
+            2,
+            4,
+            14,
+            15
+          ],
+          "purpose": "CAPEX909,2m,EPS3,52vs4,04,EBITDAajustado+1,1%nominal e retorno7,9% não demonstram valorincremental"
+        },
+        {
+          "docid": "34244",
+          "group": 412,
+          "received": "2014-01-30",
+          "receipt_label": "30/01/2014 17:40:37",
+          "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34244",
+          "original_sha256": "6aea964a1fdca22a0a8a8180766d7e6e5ff82484f7e3ce7660b3c143594ab41c",
+          "pages": [
+            36,
+            37,
+            111
+          ],
+          "purpose": "SubsidiáriasPLnegativo86,346m;COPANORmútuo renegociado90%CDI e324meses por atraso de concessões"
+        },
+        {
+          "docid": "36764",
+          "group": 192,
+          "received": "2014-05-06",
+          "receipt_label": "06/05/2014 17:51:27",
+          "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36764",
+          "original_sha256": "1cd848b67bdd405b2751197dd05537d0675a085e8ea5fc24a1f79c83de244dc5",
+          "pages": [
+            5,
+            16
+          ],
+          "purpose": "Redução90%→50% tarifaesgoto e devoluções regulatórias atingem poderdepreço"
+        }
+      ],
+      "dimensions": {
+        "durability": {
+          "status": "SATISFACTORY",
+          "reason": "Demanda essencial, rede e concessões; tarifas/reembolsosARSAE limitam poderdepreço."
+        },
+        "capital_economics": {
+          "status": "INDETERMINATE",
+          "reason": "Expansão operacional documentada, mas lucroEPS eEBITDA real enfraquecem. Precisa explicar retorno regulado/entrada emoperação e custo econômico do capital; semWACCcertificado nem limiar universal deROE."
+        },
+        "earnings_reliability": {
+          "status": "SATISFACTORY",
+          "reason": "Reapresentação e lucros consolidados reconciliados; margem de construção sem caixa discriminada; não confundir opinião semressalva com prova de retornoincremental."
+        },
+        "financial_resilience": {
+          "status": "SATISFACTORY",
+          "reason": "Financiamento/projetos e covenants divulgados semviolação;CFO664,649m menor queinvestcash796,828m exige financiamento, não reprovação automática."
+        },
+        "capital_allocation": {
+          "status": "INDETERMINATE",
+          "reason": "CAPEXágua321,5m/esgoto566,4m/otros21,3m eJCP35% não provam manutenção versus expansão e produtividadeeconômicapor ação;COPANOR requer ponte econômica."
+        },
+        "governance": {
+          "status": "SATISFACTORY_LIMITED",
+          "reason": "ON,tagalong100%,arbitragem,auditoria e correçõestransparentes. Controleestatal51,1% e mútuos subsidiárias são conflitos; não há prova de fraude, capital inadequado ou lucroilusório."
+        }
+      },
+      "additional_calculations": {
+        "unadjusted_five_lower_median": 394184000,
+        "unadjusted_bound_pe_upper": 12.296844658839527,
+        "reported2013_eps_change": -0.12871287128712872,
+        "capex_to_ni2013": 2.165819030717374,
+        "operating_cash_minus_investing_cash2013_millions": -132.17899999999997
+      },
+      "materiality": "VVAL mantém admissibilidade por limite, comR$108,250m de folga real no lucro mínimo; remover2009 não reduz a janela, pois fica como menosinfinito. VQprincipal deve continuar sem nova compra enquanto duas dimensões materiaisND. Sem carteiras/retornos calculados.",
+      "specific_pending": [
+        "Retorno econômico dos projetos por safra, com ativos emoperação, tarifas, manutenção/expansão e custo de capitalPIT.",
+        "Reconciliação do crescimento por ação comCAPEX e retornoincremental normalizado; não exigirFCLpositivotodosanos.",
+        "Avaliação de recuperabilidade/sustentabilidade dos mútuos e concessõesCOPANOR."
+      ]
+    }
+  ],
+  "files_read": [
+    {
+      "path": ".pr4-state/audit-blind-20261009/protocol_v2_redacted.md",
+      "sha256": "add3c96fd9a63e5194e8fa6408f904bb5997ad517f896a38b38d82fcecec0508",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/PSSA3_2014/decision.json",
+      "sha256": "4e4e347ed15026f734634ed524179fcb3fd9792409aaa271921f0454e84dbc8c",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/PSSA3_2014/financial_extract.json",
+      "sha256": "575d9d154a58f41f291404e1aa7f0feb9678a03312112ce4118adc383466dc29",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/PSSA3_2014/sources.json",
+      "sha256": "4ec9319eb27a010a61b5598681b9fcb2d3b463b69827022c7f231b04fda4c5e2",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/PSSA3_2014/bundle_manifest.json",
+      "sha256": "ed4b069f421ae37ba50280fdff2ed363f0e64291c3e74537e8575479e1d10f86",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/PSSA3_2014/ipca_known.json",
+      "sha256": "b812584e24601e4c19ebd0a92d089ec7b44036f8c21c0a6de59d63dbc4eba355",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/PSSA3_2014/ipca_may_2014.zip",
+      "sha256": "73d1f04c01d1fcd0723408d4dc5221b04ee4156e32cb82ba50593d128a901887",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/PSSA3_2014/review_originals/cvm_14549_g412.pdf.gz",
+      "sha256": "9bfa6e2f711608dd6dc57bb754f6b69adca6891f0b0a59bef14f98313fd30000",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/PSSA3_2014/review_originals/cvm_14549_g412.pages.json.gz",
+      "sha256": "f023093a768ac858df2ce67e009c85364fcf2a89353b046bb8ce6156199585a8",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/PSSA3_2014/review_originals/cvm_14549_g1653.pdf.gz",
+      "sha256": "ea70372f15a1d389160a2fde6c9339e72c1dab220e1ee8054e489f21fcc22710",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/PSSA3_2014/review_originals/cvm_14549_g1653.pages.json.gz",
+      "sha256": "37ad2aa1b2a67636f05e928bbc6ab698bdf30549a6bc199ee4235d1c211986c5",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/PSSA3_2014/review_originals/cvm_34786_g412.pdf.gz",
+      "sha256": "74dc15e6cb59f62d5b03f65408f35b0796c0fa2c1c748764be0f34f170212676",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/PSSA3_2014/review_originals/cvm_34786_g412.pages.json.gz",
+      "sha256": "bbfaa1a5c08e8a74f067fa159bad12136e061b955290c8ec08c86a8f5639a05b",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/PSSA3_2014/review_originals/cvm_34786_g1653.pdf.gz",
+      "sha256": "c61df30df99d7366e6245204ce57423804fbd57d2d2732bc63e8db1bedd27995",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/PSSA3_2014/review_originals/cvm_34786_g1653.pages.json.gz",
+      "sha256": "a8a29adf5bceb549c964e922964dc89fe4279e285233cb29e9bfc3365c39b321",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/PSSA3_2014/review_originals/cvm_36561_g192.pdf.gz",
+      "sha256": "020adefb5802c7ac25818cbcb782d1e92c5c59ccf05a845cc6d8936f3fa85f9e",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/PSSA3_2014/review_originals/cvm_36561_g192.pages.json.gz",
+      "sha256": "5a223cf5d808a12f068efde721741bc42c15442dc41363d1a0ec3a580f969cae",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/PSSA3_2014/review_originals/cvm_36561_g193.pdf.gz",
+      "sha256": "28476b948517f4eccfee7952aa284431d0a13673ced2f15687c9421081b24f9e",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/PSSA3_2014/review_originals/cvm_36561_g193.pages.json.gz",
+      "sha256": "95a969a68947515cec53b5d71c0ce1ce9cc82a3a065da8970d4059580f54a6f7",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/BBDC4_2014/decision.json",
+      "sha256": "34cfb69c86d845d130008eabca75110eca264ab1b6636ada7a1ce1a26234e092",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/BBDC4_2014/financial_extract.json",
+      "sha256": "713c0021df2a0620e7b194a4a858a3838fccb64872b8380fd0e3f7aeee8c67f3",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/BBDC4_2014/sources.json",
+      "sha256": "f33145bf925396cd2f71de6e22be928ed6ddcd8713452285ebbe94fcc2fafbe6",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/BBDC4_2014/bundle_manifest.json",
+      "sha256": "ec1e6713d6eb973284b1ac681495d479fc2100c85ce6f205a8fb9410fd1505ed",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/BBDC4_2014/ipca_known.json",
+      "sha256": "b812584e24601e4c19ebd0a92d089ec7b44036f8c21c0a6de59d63dbc4eba355",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/BBDC4_2014/ipca_may_2014.zip",
+      "sha256": "73d1f04c01d1fcd0723408d4dc5221b04ee4156e32cb82ba50593d128a901887",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/BBDC4_2014/review_originals/cvm_15827_g412.pdf.gz",
+      "sha256": "16f8f7420ec620c87de260650a0ffaf19d26f8936ac77bb6354b908541bbeab7",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/BBDC4_2014/review_originals/cvm_15827_g412.pages.json.gz",
+      "sha256": "e754bcc17a272631c0c9a4ccc5e76cdb6ff4cf344d2e7595d1e0543097fe651c",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/BBDC4_2014/review_originals/cvm_25736_g412.pdf.gz",
+      "sha256": "5b93ce5815cc1a28d24973ec61887f8210d0173efb8a8015242188d579b23ffe",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/BBDC4_2014/review_originals/cvm_25736_g412.pages.json.gz",
+      "sha256": "1344794e0c0af11dafd4cb49e2c4b43e744cc3d7a0ea6285dfe0dbe6a777db55",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/BBDC4_2014/review_originals/cvm_35965_g412.pdf.gz",
+      "sha256": "5285216eddf350abc3ddde3c06683f81ec9158a706a13a4feb098a500b0079b5",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/BBDC4_2014/review_originals/cvm_35965_g412.pages.json.gz",
+      "sha256": "57304fa1c480bed4f63c30f10d902443fa98da8b5b5a15a35dfbf069139ae43a",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/BBDC4_2014/review_originals/cvm_35965_g1653.pdf.gz",
+      "sha256": "5a5865bce032d16c32f887bfc523410bbe01522f23d52dd84521b731aca6cc0b",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/BBDC4_2014/review_originals/cvm_35965_g1653.pages.json.gz",
+      "sha256": "a3331248d5a518c0c2e6ff445513addad0ee298bf4ac59a3979e68bce98cb1b3",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/BBDC4_2014/review_originals/cvm_36377_g192.pdf.gz",
+      "sha256": "1a5a8f80c91bd451af64de94bc53916c7a11c08b30498689ed364b5ddddedfdf",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/BBDC4_2014/review_originals/cvm_36377_g192.pages.json.gz",
+      "sha256": "bf62fa82c0d379d0127a094934ad80f4315a21dbcbcb5d7537cd050776c46345",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/BBDC4_2014/review_originals/cvm_36377_g193.pdf.gz",
+      "sha256": "ced1c399b5802a18c341f5fa5959c67b2043d67533ce4ddcb744fc3819eab6c5",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/BBDC4_2014/review_originals/cvm_36377_g193.pages.json.gz",
+      "sha256": "1cdea1496b09f70f9081ac6dd0440bd71127f16bcd3e736d17b9a9c179c5a095",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/BBDC4_2014/review_originals/bradesco_2011_publication.pdf.gz",
+      "sha256": "e0dce32c20e12ec729b606691958220a5d132655f863e4134b0a2e5583deb403",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/BBDC4_2014/review_originals/bradesco_2011_publication.pages.json.gz",
+      "sha256": "832e96016527420a9c1bfd9c1364fa961f03e78cee9edf744add0292171ab84d",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/CSMG3_2014/decision.json",
+      "sha256": "b9de10ba36814340049bd2aadc807d9360aa8570085a5aa861c0c22f5f020565",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/CSMG3_2014/financial_extract.json",
+      "sha256": "3a3b9abff3e2c6ea1f740a5035197a4fd23dfae9bc70c0f50fc200dc2e80cd02",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/CSMG3_2014/sources.json",
+      "sha256": "6d4a90b9f202c024865e78f63917381a84ba1ec7bf35717290bd3b80de588797",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/CSMG3_2014/bundle_manifest.json",
+      "sha256": "33d19cba3e11cc4d94d4437dd30abad88157a1cc33bbfcd5f717b1d6192b30fc",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/CSMG3_2014/ipca_known.json",
+      "sha256": "b812584e24601e4c19ebd0a92d089ec7b44036f8c21c0a6de59d63dbc4eba355",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/CSMG3_2014/ipca_may_2014.zip",
+      "sha256": "73d1f04c01d1fcd0723408d4dc5221b04ee4156e32cb82ba50593d128a901887",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/CSMG3_2014/review_originals/cvm_14868_g412.pdf.gz",
+      "sha256": "045b03057853b6962e36e47eb0b0f6e7891152fe1d9261432184f5b473f1e4dc",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/CSMG3_2014/review_originals/cvm_14868_g412.pages.json.gz",
+      "sha256": "8586ec36ae92a12031823f4abe3f862885219111421d3d38edcf95882d6d7580",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/CSMG3_2014/review_originals/cvm_14868_g1653.pdf.gz",
+      "sha256": "17def8ce246916d20f55868d3fd8fd64b073ab39250d7ffad4b00f4c25a4fd90",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/CSMG3_2014/review_originals/cvm_14868_g1653.pages.json.gz",
+      "sha256": "977d3b3d156164956a1764094dc4c9158d951dac92a376e0e764988f3385ef10",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/CSMG3_2014/review_originals/cvm_24718_g412.pdf.gz",
+      "sha256": "e82836b0b3bfc8278021f2ffc52ab87211162ad96956b76901dea0394fe6ada9",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/CSMG3_2014/review_originals/cvm_24718_g412.pages.json.gz",
+      "sha256": "3ac4d82cb8dc95ffb23f5c06234961b7cc5053b81f403964c93783abab382b82",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/CSMG3_2014/review_originals/cvm_24718_g1653.pdf.gz",
+      "sha256": "8b2ffc587413646855917afa7289147da0a2081a6ef54151a3df2ce327630984",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/CSMG3_2014/review_originals/cvm_24718_g1653.pages.json.gz",
+      "sha256": "d96f7f2a4b7c79d822ec5029e983722247b8f6f2a4d071a4fc873e2520c589b1",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/CSMG3_2014/review_originals/cvm_34244_g412.pdf.gz",
+      "sha256": "6bed0f5d6f98268ef739f14457692fbbfab5d56cb4d24bcccedb76875e8ff89d",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/CSMG3_2014/review_originals/cvm_34244_g412.pages.json.gz",
+      "sha256": "4e028dbc1eaf49f738158fcf0ea2754e236c707eb10442c441594e3500a5428b",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/CSMG3_2014/review_originals/cvm_34244_g1653.pdf.gz",
+      "sha256": "070abee9a27d179f6de8048cb223d7b1e0926ade38f9e7f40a213626290947c4",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/CSMG3_2014/review_originals/cvm_34244_g1653.pages.json.gz",
+      "sha256": "404b2ab65e56060a2169fde6edf51c99afc7f3342faa10db7d5c031c61b74145",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/CSMG3_2014/review_originals/cvm_36764_g192.pdf.gz",
+      "sha256": "8809b263be9bd5f89685ea9576f23c7f55637c2d172a9a6991d0bd545c0368e5",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/CSMG3_2014/review_originals/cvm_36764_g192.pages.json.gz",
+      "sha256": "aa8f19d2209b2959815e7522e000b6145807ed501fd157aeb1d98741f583846c",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/CSMG3_2014/review_originals/cvm_36764_g193.pdf.gz",
+      "sha256": "93e3b002f0af10c66eb8c52165bca1ef6a4f16b550112a8584bd7eb9df88ebf1",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    },
+    {
+      "path": ".pr4-state/audit-blind-20261009/CSMG3_2014/review_originals/cvm_36764_g193.pages.json.gz",
+      "sha256": "fc340895c64ab1401b650475dd4b020709273fed6dedd99863275fabd098aa5c",
+      "purpose": "Pacote primário, decisão congelada ou protocolo autorizado; sem resultados/retornos"
+    }
+  ],
+  "limits": [
+    "Cotações congeladas não confrontadas com originalCOTAHIST ausente.",
+    "Hashes de todosPDFs descompactados conferidos; páginas consultadas via extração congelada. Não foi feita inspeção visual de todosPDFs.",
+    "Busca automatizada nas extrações não equivale a leitura humana integral de todaspáginas.",
+    "ZIPIBGE conferido porhash; conteúdoPDF não extraído porfalta de biblioteca disponível. SGS433 e recibometadadospré-corte foram recalculados."
+  ]
+}

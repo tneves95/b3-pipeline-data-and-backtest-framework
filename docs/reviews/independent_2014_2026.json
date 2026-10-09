@@ -1,0 +1,168 @@
+{
+  "baseline_commit": "229e60035d89c524eb274a1adb28207d67011087",
+  "audit_gate": "UNRESOLVED",
+  "final_methodological_certification": false,
+  "new_independent_agents": 3,
+  "sample_cases": [
+    {
+      "ticker": "IRBR3",
+      "year": 2019,
+      "audit_status": "PASS",
+      "severity": "LOW",
+      "baseline_vval": "REJECTED_PRICE",
+      "baseline_vq": "QUALIFIED_SATISFACTORY",
+      "report": "irbr_2019/first_findings.json",
+      "baseline_reclassified": false
+    },
+    {
+      "ticker": "PSSA3",
+      "year": 2014,
+      "audit_status": "PASS",
+      "severity": "LOW",
+      "baseline_vval": "PASS_MATURE",
+      "baseline_vq": "QUALIFIED_SATISFACTORY",
+      "report": "material_cases/material_review_2014_sealed.json",
+      "baseline_reclassified": false
+    },
+    {
+      "ticker": "BBDC4",
+      "year": 2014,
+      "audit_status": "UNRESOLVED",
+      "severity": "HIGH",
+      "baseline_vval": "PASS_MATURE",
+      "baseline_vq": "QUALIFIED_SATISFACTORY",
+      "report": "material_cases/material_review_2014_sealed.json",
+      "baseline_reclassified": false
+    },
+    {
+      "ticker": "CSMG3",
+      "year": 2014,
+      "audit_status": "PASS",
+      "severity": "MEDIUM",
+      "baseline_vval": "PASS_MATURE",
+      "baseline_vq": "INDETERMINATE",
+      "report": "material_cases/material_review_2014_sealed.json",
+      "baseline_reclassified": false
+    },
+    {
+      "ticker": "PSSA3",
+      "year": 2025,
+      "audit_status": "PASS",
+      "severity": "MEDIUM",
+      "baseline_vval": "INDETERMINATE",
+      "baseline_vq": "QUALIFIED_SATISFACTORY",
+      "report": "material_cases/material_review_2025.json",
+      "baseline_reclassified": false
+    },
+    {
+      "ticker": "CSMG3",
+      "year": 2025,
+      "audit_status": "PASS",
+      "severity": "MEDIUM",
+      "baseline_vval": "INDETERMINATE",
+      "baseline_vq": "INDETERMINATE",
+      "report": "material_cases/material_review_2025.json",
+      "baseline_reclassified": false
+    },
+    {
+      "ticker": "TIMP3",
+      "year": 2014,
+      "audit_status": "ISSUE",
+      "severity": "MEDIUM",
+      "baseline_vval": "INDETERMINATE",
+      "baseline_vq": "INDETERMINATE",
+      "report": "channels_b2/first_opinion.json",
+      "baseline_reclassified": false
+    },
+    {
+      "ticker": "SBSP3",
+      "year": 2014,
+      "audit_status": "PASS",
+      "severity": "MEDIUM",
+      "baseline_vval": "PASS_MATURE",
+      "baseline_vq": "INDETERMINATE",
+      "report": "channels_b2/first_opinion.json",
+      "baseline_reclassified": false
+    }
+  ],
+  "limitations": [
+    "Directed risk sample; no general certification of229original source sets.",
+    "Outcome-blind adjudication declared by new reviewers; shared filesystem with reading-scope restrictions, not OS-level isolation.",
+    "Root knew outcomes and aggregates sealed reports; no classification or portfolio mutation."
+  ],
+  "material_findings": [
+    {
+      "id": "BBDC_2014_IFRS_BOUND",
+      "status": "UNRESOLVED",
+      "severity": "HIGH",
+      "potential_admission_impact": "25percent of initialVVAL; does not demonstrate truePE>15",
+      "pe_upper_as_frozen": 14.942658406089603,
+      "profit_headroom_real_brl": 34599104.9365921,
+      "extra_positive_nominal2011_brl": 29870444.264171336,
+      "required_evidence": "Dated2011BRGAAP-to-attributableIFRS quantitative bridge for2.911634bn credit/provision, taxation/NCI and restatements."
+    },
+    {
+      "id": "UNOBSERVED_REINVESTOR",
+      "status": "ISSUE",
+      "severity": "HIGH",
+      "certified_point_price_candidates": 4,
+      "intersecting_intervals": 2,
+      "mechanical_price_only": 15,
+      "pass_reinvestor": 0,
+      "necessary_failures_in_baseline_proof": 2,
+      "no_criterion_change": true
+    },
+    {
+      "id": "VQ_DOCUMENTARY_ASYMMETRY",
+      "status": "ISSUE",
+      "severity": "MEDIUM",
+      "qualified": 48,
+      "nd": 181,
+      "rejected_evidenced": 0,
+      "no_forced_rejection": true,
+      "source_scope": "All229texts/metadata inventories; original documentary review restricted to8samplecases."
+    },
+    {
+      "id": "TIM_2014_ROIC_GOVERNANCE",
+      "status": "UNRESOLVED",
+      "severity": "MEDIUM",
+      "diagnostic_roc": 0.11802479,
+      "required_roc": 0.12375074396149172,
+      "admission_impact": "No current newadmission; may changefinancialND to necessaryrejection if normalization proved. VQ alreadyND; governanceSAT rationale needs mitigation justification."
+    },
+    {
+      "id": "PORTO_2025_CAPITAL_PERIMETER",
+      "status": "PASS",
+      "severity": "MEDIUM",
+      "type": "APPENDED_CLARIFICATION",
+      "regulated_surplus_brl": 1166000000,
+      "holding_resources_brl": 2905000000,
+      "aggregate_surplus_brl": 4071000000,
+      "original_aggregate_numbers_correct": true,
+      "no_baseline_mutation": true
+    },
+    {
+      "id": "IRB_2019_PROVISION_BRIDGE",
+      "status": "UNRESOLVED",
+      "severity": "LOW",
+      "difference_brl": 17142000,
+      "no_demonstrated_admission_change": true
+    },
+    {
+      "id": "B2_ACTIVE_FUNDING",
+      "status": "PASS",
+      "severity": "LOW",
+      "synthetic_scenarios_passed": 18,
+      "actual_lineage_metadata_not_reaudited": true,
+      "latent_generic_route_risk_documented": true
+    }
+  ],
+  "portfolio_regeneration": false,
+  "threshold_change": false,
+  "taxes": false,
+  "contributions": false,
+  "merge": false,
+  "pr_draft": true,
+  "robustness_new_cohorts_started": false,
+  "attachments_directory": "independent_audit_20261009"
+}

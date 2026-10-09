@@ -1,0 +1,363 @@
+{
+  "version": "INDEPENDENT_DIRECT_REEXTRACTION_ADDENDUM",
+  "created_utc": "2026-10-09T13:29:24.115229+00:00",
+  "technical_status": "PASS",
+  "independent_admission_judgement": "UNRESOLVED",
+  "pages_reextracted": 15,
+  "originals_hash_verified": 5,
+  "normalized_text_matches": 15,
+  "numeric_token_differences": 0,
+  "rendered_pages": [],
+  "rendering_reason": "Extração direta permitiu verificação de trechos e tabelas críticos.",
+  "claims_checked": [
+    {
+      "id": "INTELIG_LOSS",
+      "status": "PASS",
+      "source": {
+        "case": "TIMP3_2014",
+        "docid": "34545",
+        "group": 412,
+        "page": 24,
+        "received": "2014-02-13",
+        "receipt_label": "13/02/2014 21:53:31",
+        "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34545",
+        "original_sha256": "156496399624cf2801d00a75d761378e5be1842d613d92d01fc66e648b81a95f"
+      },
+      "facts_present": [
+        "118.678",
+        "117.871",
+        "1.521.331"
+      ],
+      "interpretation": "Prejuízo subsidiária antes/depois de lucros não realizados; tabela da controladora não é retorno incremental consolidado."
+    },
+    {
+      "id": "INTELIG_GOODWILL",
+      "status": "PASS",
+      "source": {
+        "case": "TIMP3_2014",
+        "docid": "34545",
+        "group": 412,
+        "page": 28,
+        "received": "2014-02-13",
+        "receipt_label": "13/02/2014 21:53:31",
+        "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34545",
+        "original_sha256": "156496399624cf2801d00a75d761378e5be1842d613d92d01fc66e648b81a95f"
+      },
+      "facts_present": [
+        "529.714",
+        "739.729",
+        "210.015"
+      ],
+      "interpretation": "Ágio é diferença de preço e ativos líquidos; expectativa futura não prova retorno realizado."
+    },
+    {
+      "id": "FIBER_IMPAIRMENT",
+      "status": "PASS",
+      "source": {
+        "case": "TIMP3_2014",
+        "docid": "34545",
+        "group": 412,
+        "page": 29,
+        "received": "2014-02-13",
+        "receipt_label": "13/02/2014 21:53:31",
+        "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34545",
+        "original_sha256": "156496399624cf2801d00a75d761378e5be1842d613d92d01fc66e648b81a95f"
+      },
+      "facts_present": [
+        "1.159.648",
+        "12,56%",
+        "13,03%"
+      ],
+      "interpretation": "Taxas de Intelig/Fiber distintas; ausência de impairment não certifica rentabilidade incremental."
+    },
+    {
+      "id": "DIVIDEND2013_MINIMUM",
+      "status": "PASS",
+      "source": {
+        "case": "TIMP3_2014",
+        "docid": "34545",
+        "group": 412,
+        "page": 59,
+        "received": "2014-02-13",
+        "receipt_label": "13/02/2014 21:53:31",
+        "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34545",
+        "original_sha256": "156496399624cf2801d00a75d761378e5be1842d613d92d01fc66e648b81a95f"
+      },
+      "facts_present": [
+        "1.505.614",
+        "75.281",
+        "1.430.333",
+        "357.583"
+      ],
+      "interpretation": "Denominador de lucro atribuível é distinto do ajustado por reserva legal."
+    },
+    {
+      "id": "TAX2010_DETAIL",
+      "status": "PASS",
+      "source": {
+        "case": "TIMP3_2014",
+        "docid": "14958",
+        "group": 412,
+        "page": 60,
+        "received": "2012-03-13",
+        "receipt_label": "13/03/2012 15:39:54",
+        "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=14958",
+        "original_sha256": "7f5c39f46c0002a3521a22578ce0b10964002927819461290456874be7c765ed"
+      },
+      "facts_present": [
+        "1.064.076",
+        "383.614",
+        "1.447.690",
+        "1.257.038"
+      ],
+      "interpretation": "Reconhecimento tributário deve ser tratado separadamente do imposto corrente e incentivos."
+    },
+    {
+      "id": "TAX2010_EPS_BASE",
+      "status": "PASS",
+      "source": {
+        "case": "TIMP3_2014",
+        "docid": "14958",
+        "group": 412,
+        "page": 61,
+        "received": "2012-03-13",
+        "receipt_label": "13/03/2012 15:39:54",
+        "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=14958",
+        "original_sha256": "7f5c39f46c0002a3521a22578ce0b10964002927819461290456874be7c765ed"
+      },
+      "facts_present": [
+        "1.435.245",
+        "2.216.909",
+        "2.475.735"
+      ],
+      "interpretation": "Base antiga da nota EPS difere da reapresentada; ambas as alternativas ficam abaixo da mediana central."
+    },
+    {
+      "id": "REGULATORY_SEGREGATION",
+      "status": "PASS",
+      "source": {
+        "case": "TIMP3_2014",
+        "docid": "37056",
+        "group": 193,
+        "page": 65,
+        "received": "2014-05-08",
+        "receipt_label": "08/05/2014 19:29:11",
+        "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37056",
+        "original_sha256": "3758fd225f726bbc71e532f6e30a5fe28bd36560b1e7ba68219e9d8f9052f045"
+      },
+      "facts_present": [
+        "68.276/2007",
+        "53500.012487/2007"
+      ],
+      "interpretation": "Restrições e compromisso de segregação são salvaguardas contemporâneas documentadas."
+    },
+    {
+      "id": "RELATED_PARTIES_AND_REMEDY",
+      "status": "PASS",
+      "source": {
+        "case": "TIMP3_2014",
+        "docid": "37056",
+        "group": 193,
+        "page": 66,
+        "received": "2014-05-08",
+        "receipt_label": "08/05/2014 19:29:11",
+        "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37056",
+        "original_sha256": "3758fd225f726bbc71e532f6e30a5fe28bd36560b1e7ba68219e9d8f9052f045"
+      },
+      "facts_present": [
+        "alienação",
+        "independência",
+        "328.137",
+        "223.934"
+      ],
+      "interpretation": "Afirmação administrativa de autonomia não certifica independentemente a execução da medida de controle."
+    },
+    {
+      "id": "DIVIDEND2013_COMPLEMENT",
+      "status": "PASS",
+      "source": {
+        "case": "TIMP3_2014",
+        "docid": "37056",
+        "group": 193,
+        "page": 76,
+        "received": "2014-05-08",
+        "receipt_label": "08/05/2014 19:29:11",
+        "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37056",
+        "original_sha256": "3758fd225f726bbc71e532f6e30a5fe28bd36560b1e7ba68219e9d8f9052f045"
+      },
+      "facts_present": [
+        "10 de abril de 2014",
+        "485.722"
+      ],
+      "interpretation": "Complemento aprovado antes do corte soma ao mínimo para a ponte de2013."
+    },
+    {
+      "id": "RESERVOIR_LITIGATION",
+      "status": "PASS",
+      "source": {
+        "case": "SBSP3_2014",
+        "docid": "35848",
+        "group": 412,
+        "page": 43,
+        "received": "2014-03-28",
+        "receipt_label": "28/03/2014 20:35:53",
+        "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35848",
+        "original_sha256": "f78d1d7fb5802fe611f272ec3b3fc1413d1ec2d0e2f7c7e539df7e8bb22ab631"
+      },
+      "facts_present": [
+        "desfavorável",
+        "provável"
+      ],
+      "interpretation": "Decisão não definitiva e perda provável sobre transferência, sem presumir expropriação abusiva provada."
+    },
+    {
+      "id": "CONTROLLER_REFUSAL",
+      "status": "PASS",
+      "source": {
+        "case": "SBSP3_2014",
+        "docid": "35848",
+        "group": 412,
+        "page": 44,
+        "received": "2014-03-28",
+        "receipt_label": "28/03/2014 20:35:53",
+        "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35848",
+        "original_sha256": "f78d1d7fb5802fe611f272ec3b3fc1413d1ec2d0e2f7c7e539df7e8bb22ab631"
+      },
+      "facts_present": [
+        "696.283",
+        "negaram",
+        "2009",
+        "2010"
+      ],
+      "interpretation": "Negativa trata parcela controversa; reservatórios incontroversos têm risco jurídico próprio."
+    },
+    {
+      "id": "GESP_AMOUNTS",
+      "status": "PASS",
+      "source": {
+        "case": "SBSP3_2014",
+        "docid": "35848",
+        "group": 412,
+        "page": 45,
+        "received": "2014-03-28",
+        "receipt_label": "28/03/2014 20:35:53",
+        "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=35848",
+        "original_sha256": "f78d1d7fb5802fe611f272ec3b3fc1413d1ec2d0e2f7c7e539df7e8bb22ab631"
+      },
+      "facts_present": [
+        "1.412.479",
+        "716.196",
+        "696.283",
+        "1.780.268"
+      ],
+      "interpretation": "Total contingente não reconhecido não é ativo ocultado; obrigação atuarial está reconhecida."
+    },
+    {
+      "id": "ALLOCATION_AND_TARIFF",
+      "status": "PASS",
+      "source": {
+        "case": "SBSP3_2014",
+        "docid": "37910",
+        "group": 193,
+        "page": 51,
+        "received": "2014-05-15",
+        "receipt_label": "15/05/2014 20:38:36",
+        "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37910",
+        "original_sha256": "55420f288272c1d9cebd592e9860685f08042ace51fdc0bf9e0be24324d468a9"
+      },
+      "facts_present": [
+        "1.923.559",
+        "456.845",
+        "80.620",
+        "1.289.916",
+        "5,4408%",
+        "0,9386%"
+      ],
+      "interpretation": "Distribuição moderada e regra tarifária documentadas; postergação não é aplicação efetiva do reajuste."
+    },
+    {
+      "id": "TARIFF_DELAY_AND_CONSUMPTION",
+      "status": "PASS",
+      "source": {
+        "case": "SBSP3_2014",
+        "docid": "37910",
+        "group": 193,
+        "page": 52,
+        "received": "2014-05-15",
+        "receipt_label": "15/05/2014 20:38:36",
+        "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37910",
+        "original_sha256": "55420f288272c1d9cebd592e9860685f08042ace51fdc0bf9e0be24324d468a9"
+      },
+      "facts_present": [
+        "30%",
+        "20%",
+        "16 de abril de 2014",
+        "dezembro de 2014"
+      ],
+      "interpretation": "0,8×0,7 é fatura de consumidor elegível hipotético, não receita total da emissora."
+    },
+    {
+      "id": "DROUGHT_AND_PPP",
+      "status": "PASS",
+      "source": {
+        "case": "SBSP3_2014",
+        "docid": "37910",
+        "group": 193,
+        "page": 53,
+        "received": "2014-05-15",
+        "receipt_label": "15/05/2014 20:38:36",
+        "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=37910",
+        "original_sha256": "55420f288272c1d9cebd592e9860685f08042ace51fdc0bf9e0be24324d468a9"
+      },
+      "facts_present": [
+        "33 m³/s",
+        "27,9 m³/s",
+        "25 anos",
+        "6,0 bilhões",
+        "2,21 bilhões"
+      ],
+      "interpretation": "CompromissoPPP e redução temporária de vazão conhecidos no corte; não comprovam retorno incremental."
+    }
+  ],
+  "calculations": {
+    "TIMP2013_distribution": 843305000,
+    "TIMP2013_payout_attributable": 0.5601070393872533,
+    "TIMP2013_payout_statutory_adjusted": 0.5895864809103893,
+    "old_EPS_2010_profit": 2216909000,
+    "restated_2010_profit": 2211715000,
+    "profit_base_difference": 5194000,
+    "old_EPS_adjusted_profit": 781664000,
+    "restated_adjusted_profit": 776470000,
+    "median_under_both_profit_bases": 1480135108.0248504,
+    "SBSP2013_distribution": 537465000,
+    "GESP_contingent_total": 1412479000,
+    "eligible_consumer_bill_ratio": 0.5599999999999999
+  },
+  "unchanged_judgements": [
+    {
+      "case": "TIMP3_2014",
+      "quality": "INDETERMINATE",
+      "governance_dimension": "UNRESOLVED",
+      "severity": "MEDIUM",
+      "own_divergence": "SAT com conflito dito material não resolvido precisa justificar suficiência das salvaguardas. A reextração confirma os textos, não elimina a divergência.",
+      "pending": "LPA ajustado e economia do capital; ROIC diagnóstico abaixo do mínimo continua dependente de normalização econômica/tributária antes de rejeição formal.",
+      "potential_admission_impact": "Não abre compra; fechar demais dimensões exige decidir governança; conciliaçãoROIC pode mudar ND para reprovação necessária."
+    },
+    {
+      "case": "SBSP3_2014",
+      "quality": "INDETERMINATE",
+      "status": "PASS_ND_DOCUMENTAL_SUPPORTED",
+      "severity": "MEDIUM",
+      "pending": "Ponte proporcional tarifa/volume/custo/retorno e limitação econômica do conflito controlador/minoritários.",
+      "potential_admission_impact": "Resolver pode admitirVQ; payout moderado, seca ou expansão não são rejeição automática."
+    }
+  ],
+  "first_opinion_preserved_sha256": {
+    "first_opinion.md": "01297cd837456819bc3a8ffc6c22f1c986aa34e8eaf0f45d13d4b3eb71289e04",
+    "first_opinion.json": "4d8a0a1fe46c6efe26d70a31fae8327abf4b2919f5063bf54d74fb970a23c15b"
+  },
+  "scope_access_log_artifact": "critical_pages_direct_reextraction.json",
+  "no_portfolio_returns_accessed": true,
+  "network_calls": 0,
+  "not_original_229_reaudit": true
+}

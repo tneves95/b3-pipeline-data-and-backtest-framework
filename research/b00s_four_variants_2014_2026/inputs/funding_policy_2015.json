@@ -1,0 +1,18 @@
+{
+  "effective_from": 2015,
+  "scope": [
+    "VVAL",
+    "VQ"
+  ],
+  "coordinator_comment": "https://github.com/tneves95/b3-pipeline-data-and-backtest-framework/pull/4#issuecomment-6071009589",
+  "sector_reference": 0.2,
+  "denominator": "Unique union of retained non-FAIL economic lineages and qualified candidates in each of the five BESST sectors",
+  "empty_sectors": "Reference share is not redistributed",
+  "funding": "FAIL releases first; allocate max(released, requested); distribute excess FAIL release to entrants in request ratios; shortfall reduces all surviving physical holdings proportionally",
+  "no_entries": "Retain unchanged; redistribute only compulsory FAIL proceeds proportionally; all FAIL without a destination is explicitly blocked",
+  "preserved": "V0/V10, original base FAIL semantics, initial2014 selections and accepted2014-2015 observations unchanged",
+  "code_sha256": "a0aea3e0ce6ec2df8086d5bb795db81dee9f9181bf3a4a3b9c01b53ff06feafb",
+  "test_sha256": "86d35d98bafe5dd7c0602cc8c75e2ee904c9e79e6a6182a2dc12903b7a7721ae",
+  "frozen_before_2015_decisions_and_returns": true,
+  "identity_conflict": "A FAIL lineage cannot reenter under another PASS ticker without explicit status/identity reconciliation; block before trading"
+}

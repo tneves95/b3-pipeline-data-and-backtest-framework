@@ -1,0 +1,933 @@
+{
+  "initial_assessment": {
+    "year": 2014,
+    "cutoff": "2014-06-30",
+    "ticker": "GETI4",
+    "cnpj": "02998609000127",
+    "company": "AES TIETE SA",
+    "sector": "Energia",
+    "category": "INDETERMINATE",
+    "assessment_status": "ASSESSED",
+    "dimensions": {
+      "durability": {
+        "status": "SATISFACTORY",
+        "favorable": "Concessão1999 de30 anos, capacidade2.658 MW, garantia1.278 MW médios; contrato longo reajustado com Eletropaulo.",
+        "contrary_evidence": "Contrato concentra quase toda energia e vence em2015; não elimina risco hidrológico.",
+        "reason": "Ativos e concessão sustentam continuidade, embora repricing de2016 seja gatilho material.",
+        "missing": "",
+        "evidence": [
+          {
+            "docid": "34821",
+            "group": 412,
+            "pages": [
+              1
+            ],
+            "received": "2014-02-25",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34821",
+            "original": "review_originals/cvm_34821_g412.pdf.gz",
+            "original_sha256": "29b4c287b64fb22673ef435656d62a80a087c7746d952019b3eadbe95fe86331"
+          },
+          {
+            "docid": "36869",
+            "group": 192,
+            "pages": [
+              3
+            ],
+            "received": "2014-05-07",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36869",
+            "original": "review_originals/cvm_36869_g192.pdf.gz",
+            "original_sha256": "9d4074a47c43aca697b9e804780a897206eec65b1afbcdf6eecfbf0f2e4c419b"
+          }
+        ]
+      },
+      "capital_economics": {
+        "status": "INDETERMINATE",
+        "favorable": "Lucro881,359 mi e cobertura EBITDA/juros16,4x em2013.",
+        "contrary_evidence": "Contrato de venda expirará em2015 e expansão compulsória398 MW está sem solução executável.",
+        "reason": "Retorno histórico forte não demonstra economia do reinvestimento obrigatório e do novo contrato.",
+        "missing": "Retorno contratado pós2015 e custo/retorno da expansão.",
+        "evidence": [
+          {
+            "docid": "34821",
+            "group": 412,
+            "pages": [
+              2,
+              3,
+              45
+            ],
+            "received": "2014-02-25",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34821",
+            "original": "review_originals/cvm_34821_g412.pdf.gz",
+            "original_sha256": "29b4c287b64fb22673ef435656d62a80a087c7746d952019b3eadbe95fe86331"
+          },
+          {
+            "docid": "34821",
+            "group": 1653,
+            "pages": [
+              5
+            ],
+            "received": "2014-02-25",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34821",
+            "original": "review_originals/cvm_34821_g1653.pdf.gz",
+            "original_sha256": "e985631dc276bc892be67d3176bc00be45e3719ce5efc4fed0aa74faa526562d"
+          }
+        ]
+      },
+      "earnings_reliability": {
+        "status": "SATISFACTORY",
+        "favorable": "IAS19 afeta OCI; lucro e ganhos pequenos identificados; 1T14 lucro357,920 mi explicado por venda spot/sazonalização.",
+        "contrary_evidence": "Ganho spot1T14 cresce com seca e PLD; não extrapolar trimestre como lucro permanente.",
+        "reason": "Ponte operacional permite distinguir recorrência contratual de oportunidade sazonal; não se normaliza por lucro1T anualizado.",
+        "missing": "",
+        "evidence": [
+          {
+            "docid": "34821",
+            "group": 412,
+            "pages": [
+              17,
+              18,
+              34,
+              46
+            ],
+            "received": "2014-02-25",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34821",
+            "original": "review_originals/cvm_34821_g412.pdf.gz",
+            "original_sha256": "29b4c287b64fb22673ef435656d62a80a087c7746d952019b3eadbe95fe86331"
+          },
+          {
+            "docid": "36869",
+            "group": 192,
+            "pages": [
+              3,
+              6
+            ],
+            "received": "2014-05-07",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36869",
+            "original": "review_originals/cvm_36869_g192.pdf.gz",
+            "original_sha256": "9d4074a47c43aca697b9e804780a897206eec65b1afbcdf6eecfbf0f2e4c419b"
+          }
+        ]
+      },
+      "financial_resilience": {
+        "status": "SATISFACTORY",
+        "favorable": "Dívida1.116,676 mi; dívida/EBITDA0,7 vs limite2,5; líquida/EBITDA0,4 vs3,5; cobertura16,4 vs1,75; covenants cumpridos.",
+        "contrary_evidence": "Obrigação de expansão e vencimento2015 do contrato podem consumir folga.",
+        "reason": "Capacidade de serviço demonstrada é ampla no corte; manter revisão dos compromissos futuros.",
+        "missing": "",
+        "evidence": [
+          {
+            "docid": "34821",
+            "group": 412,
+            "pages": [
+              45,
+              46
+            ],
+            "received": "2014-02-25",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34821",
+            "original": "review_originals/cvm_34821_g412.pdf.gz",
+            "original_sha256": "29b4c287b64fb22673ef435656d62a80a087c7746d952019b3eadbe95fe86331"
+          }
+        ]
+      },
+      "capital_allocation": {
+        "status": "INDETERMINATE",
+        "favorable": "Dividendo952,7 mi reconcilia lucro881,4 mais reservas realizadas70,7 e prescritos0,7.",
+        "contrary_evidence": "Plano Termo São Paulo550 MW depende de gás e leilão; ação por expansão suspensa para novas alternativas.",
+        "reason": "Distribuição maior que lucro tem origem explicada, mas compatibilidade com CAPEX compulsório ainda não está demonstrada.",
+        "missing": "Financiamento/retorno da obrigação de expansão.",
+        "evidence": [
+          {
+            "docid": "34821",
+            "group": 1653,
+            "pages": [
+              5
+            ],
+            "received": "2014-02-25",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34821",
+            "original": "review_originals/cvm_34821_g1653.pdf.gz",
+            "original_sha256": "e985631dc276bc892be67d3176bc00be45e3719ce5efc4fed0aa74faa526562d"
+          },
+          {
+            "docid": "34821",
+            "group": 412,
+            "pages": [
+              2,
+              3
+            ],
+            "received": "2014-02-25",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34821",
+            "original": "review_originals/cvm_34821_g412.pdf.gz",
+            "original_sha256": "29b4c287b64fb22673ef435656d62a80a087c7746d952019b3eadbe95fe86331"
+          }
+        ]
+      },
+      "governance": {
+        "status": "INDETERMINATE",
+        "favorable": "Conselho fiscal com representantes minoritários ON/PN e BNDESPAR; divulgação do contrato e processo.",
+        "contrary_evidence": "Sete de dez conselheiros indicados pelo controlador, um independente; principal cliente relacionado.",
+        "reason": "Proteções reais coexistem com dependência contratual relacionada; comutatividade do preço/renovação material não está concluída.",
+        "missing": "Condições econômicas da contratação relacionada e fiscalização independente.",
+        "evidence": [
+          {
+            "docid": "34821",
+            "group": 1653,
+            "pages": [
+              10
+            ],
+            "received": "2014-02-25",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34821",
+            "original": "review_originals/cvm_34821_g1653.pdf.gz",
+            "original_sha256": "e985631dc276bc892be67d3176bc00be45e3719ce5efc4fed0aa74faa526562d"
+          },
+          {
+            "docid": "34821",
+            "group": 412,
+            "pages": [
+              1,
+              2,
+              3
+            ],
+            "received": "2014-02-25",
+            "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34821",
+            "original": "review_originals/cvm_34821_g412.pdf.gz",
+            "original_sha256": "29b4c287b64fb22673ef435656d62a80a087c7746d952019b3eadbe95fe86331"
+          }
+        ]
+      }
+    },
+    "limitation": "Documentary economic review of originals",
+    "special_case": ""
+  },
+  "annual_evidence_updates": [
+    {
+      "year": 2015,
+      "cutoff": "2015-06-30",
+      "ticker": "GETI4",
+      "category": "INDETERMINATE",
+      "special_case": "",
+      "assessment_ref": "02998609000127:2015",
+      "assessment_status": "ASSESSED",
+      "classification_changed": false,
+      "dimensions": {
+        "durability": {
+          "status": "SATISFACTORY",
+          "favorable": "Concessão1999 de30 anos, capacidade2.658 MW, garantia1.278 MW médios; contrato longo reajustado com Eletropaulo.",
+          "contrary_evidence": "Contrato concentra quase toda energia e vence em2015; não elimina risco hidrológico.",
+          "reason": "Concessão e parque gerador permanecem duráveis, mas o contrato concentradoEletropaulo se encerra2015. A continuidade física sustentaSAT; a economia da recontratação permanece pendente na dimensão de capital.",
+          "evidence": [
+            {
+              "docid": "34821",
+              "group": 412,
+              "pages": [
+                1
+              ],
+              "received": "2014-02-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34821",
+              "original": "review_originals/cvm_34821_g412.pdf.gz",
+              "original_sha256": "29b4c287b64fb22673ef435656d62a80a087c7746d952019b3eadbe95fe86331"
+            },
+            {
+              "docid": "36869",
+              "group": 192,
+              "pages": [
+                3
+              ],
+              "received": "2014-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36869",
+              "original": "review_originals/cvm_36869_g192.pdf.gz",
+              "original_sha256": "9d4074a47c43aca697b9e804780a897206eec65b1afbcdf6eecfbf0f2e4c419b"
+            },
+            {
+              "docid": "44287",
+              "group": 1653,
+              "pages": [
+                3,
+                4,
+                5,
+                6,
+                10
+              ],
+              "received": "2015-02-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=44287",
+              "original": "review_originals/cvm_44287_g1653.pdf.gz",
+              "original_sha256": "afd0c5c3557fd7bcc771616dfe9b82d7521891f27edc6b3a408cc86c7dd12938"
+            },
+            {
+              "docid": "46703",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2015-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=46703",
+              "original": "review_originals/cvm_46703_g192.pdf.gz",
+              "original_sha256": "a45f92eb62225cc7fc782e41ae59c1cc07f10752c79526c1fe046551c1cf9e77"
+            }
+          ],
+          "prior_year": 2014,
+          "review_2015": "Lucro2014 cai49%para449,344mi por hidrologia. Dividendosintermediários643,8mi excedem lucro e absorvem reservas; dívida líquida1.121,6mi,+70%, notas501mi vencemdezembro2015. ContratoEletropaulo expira2015."
+        },
+        "capital_economics": {
+          "status": "INDETERMINATE",
+          "favorable": "Lucro881,359 mi e cobertura EBITDA/juros16,4x em2013.",
+          "contrary_evidence": "Contrato de venda expirará em2015 e expansão compulsória398 MW está sem solução executável.",
+          "reason": "A queda porGSF e expiração contratual impedem inferir retorno futuro com margens históricas; expansão obrigatória e recontratação ainda precisam de prova de rentabilidade.",
+          "missing": "Retorno contratado pós2015 e custo/retorno da expansão.",
+          "evidence": [
+            {
+              "docid": "34821",
+              "group": 412,
+              "pages": [
+                2,
+                3,
+                45
+              ],
+              "received": "2014-02-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34821",
+              "original": "review_originals/cvm_34821_g412.pdf.gz",
+              "original_sha256": "29b4c287b64fb22673ef435656d62a80a087c7746d952019b3eadbe95fe86331"
+            },
+            {
+              "docid": "34821",
+              "group": 1653,
+              "pages": [
+                5
+              ],
+              "received": "2014-02-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34821",
+              "original": "review_originals/cvm_34821_g1653.pdf.gz",
+              "original_sha256": "e985631dc276bc892be67d3176bc00be45e3719ce5efc4fed0aa74faa526562d"
+            },
+            {
+              "docid": "44287",
+              "group": 1653,
+              "pages": [
+                3,
+                4,
+                5,
+                6,
+                10
+              ],
+              "received": "2015-02-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=44287",
+              "original": "review_originals/cvm_44287_g1653.pdf.gz",
+              "original_sha256": "afd0c5c3557fd7bcc771616dfe9b82d7521891f27edc6b3a408cc86c7dd12938"
+            },
+            {
+              "docid": "46703",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2015-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=46703",
+              "original": "review_originals/cvm_46703_g192.pdf.gz",
+              "original_sha256": "a45f92eb62225cc7fc782e41ae59c1cc07f10752c79526c1fe046551c1cf9e77"
+            }
+          ],
+          "prior_year": 2014,
+          "review_2015": "Lucro2014 cai49%para449,344mi por hidrologia. Dividendosintermediários643,8mi excedem lucro e absorvem reservas; dívida líquida1.121,6mi,+70%, notas501mi vencemdezembro2015. ContratoEletropaulo expira2015."
+        },
+        "earnings_reliability": {
+          "status": "SATISFACTORY",
+          "favorable": "IAS19 afeta OCI; lucro e ganhos pequenos identificados; 1T14 lucro357,920 mi explicado por venda spot/sazonalização.",
+          "contrary_evidence": "Ganho spot1T14 cresce com seca e PLD; não extrapolar trimestre como lucro permanente.",
+          "reason": "Ponte operacional permite distinguir recorrência contratual de oportunidade sazonal; não se normaliza por lucro1T anualizado. Revisão de 2015: a mudança material descrita na atualização foi examinada e não invalida esta tese nesta dimensão; mantém-se o juízo anterior e suas limitações.",
+          "evidence": [
+            {
+              "docid": "34821",
+              "group": 412,
+              "pages": [
+                17,
+                18,
+                34,
+                46
+              ],
+              "received": "2014-02-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34821",
+              "original": "review_originals/cvm_34821_g412.pdf.gz",
+              "original_sha256": "29b4c287b64fb22673ef435656d62a80a087c7746d952019b3eadbe95fe86331"
+            },
+            {
+              "docid": "36869",
+              "group": 192,
+              "pages": [
+                3,
+                6
+              ],
+              "received": "2014-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36869",
+              "original": "review_originals/cvm_36869_g192.pdf.gz",
+              "original_sha256": "9d4074a47c43aca697b9e804780a897206eec65b1afbcdf6eecfbf0f2e4c419b"
+            },
+            {
+              "docid": "44287",
+              "group": 1653,
+              "pages": [
+                3,
+                4,
+                5,
+                6,
+                10
+              ],
+              "received": "2015-02-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=44287",
+              "original": "review_originals/cvm_44287_g1653.pdf.gz",
+              "original_sha256": "afd0c5c3557fd7bcc771616dfe9b82d7521891f27edc6b3a408cc86c7dd12938"
+            },
+            {
+              "docid": "46703",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2015-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=46703",
+              "original": "review_originals/cvm_46703_g192.pdf.gz",
+              "original_sha256": "a45f92eb62225cc7fc782e41ae59c1cc07f10752c79526c1fe046551c1cf9e77"
+            }
+          ],
+          "prior_year": 2014,
+          "review_2015": "Sem alteração material desta dimensão após confronto da tese anterior com os fatos descritos na atualização de 2015. Lucro2014 cai49%para449,344mi por hidrologia. Dividendosintermediários643,8mi excedem lucro e absorvem reservas; dívida líquida1.121,6mi,+70%, notas501mi vencemdezembro2015. ContratoEletropaulo expira2015."
+        },
+        "financial_resilience": {
+          "status": "INDETERMINATE",
+          "favorable": "Dívida1.116,676 mi; dívida/EBITDA0,7 vs limite2,5; líquida/EBITDA0,4 vs3,5; cobertura16,4 vs1,75; covenants cumpridos.",
+          "contrary_evidence": "Obrigação de expansão e vencimento2015 do contrato podem consumir folga.",
+          "reason": "Dividendos643,8mi superiores ao lucro449,3mi, dívida líquida+70% e vencimento501mi emdezembro2015 reduzem a folga. RebaixaSATparaNDde cobertura; não identifica default nem autoriza saída foraB00S.",
+          "missing": "Dividendos643,8mi superiores ao lucro449,3mi, dívida líquida+70% e vencimento501mi emdezembro2015 reduzem a folga. RebaixaSATparaNDde cobertura; não identifica default nem autoriza saída foraB00S.",
+          "evidence": [
+            {
+              "docid": "34821",
+              "group": 412,
+              "pages": [
+                45,
+                46
+              ],
+              "received": "2014-02-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34821",
+              "original": "review_originals/cvm_34821_g412.pdf.gz",
+              "original_sha256": "29b4c287b64fb22673ef435656d62a80a087c7746d952019b3eadbe95fe86331"
+            },
+            {
+              "docid": "44287",
+              "group": 1653,
+              "pages": [
+                3,
+                4,
+                5,
+                6,
+                10
+              ],
+              "received": "2015-02-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=44287",
+              "original": "review_originals/cvm_44287_g1653.pdf.gz",
+              "original_sha256": "afd0c5c3557fd7bcc771616dfe9b82d7521891f27edc6b3a408cc86c7dd12938"
+            },
+            {
+              "docid": "46703",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2015-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=46703",
+              "original": "review_originals/cvm_46703_g192.pdf.gz",
+              "original_sha256": "a45f92eb62225cc7fc782e41ae59c1cc07f10752c79526c1fe046551c1cf9e77"
+            }
+          ],
+          "prior_year": 2014,
+          "review_2015": "Lucro2014 cai49%para449,344mi por hidrologia. Dividendosintermediários643,8mi excedem lucro e absorvem reservas; dívida líquida1.121,6mi,+70%, notas501mi vencemdezembro2015. ContratoEletropaulo expira2015."
+        },
+        "capital_allocation": {
+          "status": "INDETERMINATE",
+          "favorable": "Dividendo952,7 mi reconcilia lucro881,4 mais reservas realizadas70,7 e prescritos0,7.",
+          "contrary_evidence": "Plano Termo São Paulo550 MW depende de gás e leilão; ação por expansão suspensa para novas alternativas.",
+          "reason": "Distribuição antecipada excedeu o lucro anual, consumindo reserva legal41,4mi e gerando prejuízo acumulado82,9mi após ajustes. Não considerar payout elevado prova de qualidade; permaneceNDsobre sustentabilidade.",
+          "missing": "Financiamento/retorno da obrigação de expansão.",
+          "evidence": [
+            {
+              "docid": "34821",
+              "group": 1653,
+              "pages": [
+                5
+              ],
+              "received": "2014-02-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34821",
+              "original": "review_originals/cvm_34821_g1653.pdf.gz",
+              "original_sha256": "e985631dc276bc892be67d3176bc00be45e3719ce5efc4fed0aa74faa526562d"
+            },
+            {
+              "docid": "34821",
+              "group": 412,
+              "pages": [
+                2,
+                3
+              ],
+              "received": "2014-02-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34821",
+              "original": "review_originals/cvm_34821_g412.pdf.gz",
+              "original_sha256": "29b4c287b64fb22673ef435656d62a80a087c7746d952019b3eadbe95fe86331"
+            },
+            {
+              "docid": "44287",
+              "group": 1653,
+              "pages": [
+                3,
+                4,
+                5,
+                6,
+                10
+              ],
+              "received": "2015-02-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=44287",
+              "original": "review_originals/cvm_44287_g1653.pdf.gz",
+              "original_sha256": "afd0c5c3557fd7bcc771616dfe9b82d7521891f27edc6b3a408cc86c7dd12938"
+            },
+            {
+              "docid": "46703",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2015-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=46703",
+              "original": "review_originals/cvm_46703_g192.pdf.gz",
+              "original_sha256": "a45f92eb62225cc7fc782e41ae59c1cc07f10752c79526c1fe046551c1cf9e77"
+            }
+          ],
+          "prior_year": 2014,
+          "review_2015": "Lucro2014 cai49%para449,344mi por hidrologia. Dividendosintermediários643,8mi excedem lucro e absorvem reservas; dívida líquida1.121,6mi,+70%, notas501mi vencemdezembro2015. ContratoEletropaulo expira2015."
+        },
+        "governance": {
+          "status": "INDETERMINATE",
+          "favorable": "Conselho fiscal com representantes minoritários ON/PN e BNDESPAR; divulgação do contrato e processo.",
+          "contrary_evidence": "Sete de dez conselheiros indicados pelo controlador, um independente; principal cliente relacionado.",
+          "reason": "Proteções reais coexistem com dependência contratual relacionada; comutatividade do preço/renovação material não está concluída. Revisão de 2015: a mudança material descrita na atualização foi examinada e não invalida esta tese nesta dimensão; mantém-se o juízo anterior e suas limitações.",
+          "missing": "Condições econômicas da contratação relacionada e fiscalização independente.",
+          "evidence": [
+            {
+              "docid": "34821",
+              "group": 1653,
+              "pages": [
+                10
+              ],
+              "received": "2014-02-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34821",
+              "original": "review_originals/cvm_34821_g1653.pdf.gz",
+              "original_sha256": "e985631dc276bc892be67d3176bc00be45e3719ce5efc4fed0aa74faa526562d"
+            },
+            {
+              "docid": "34821",
+              "group": 412,
+              "pages": [
+                1,
+                2,
+                3
+              ],
+              "received": "2014-02-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34821",
+              "original": "review_originals/cvm_34821_g412.pdf.gz",
+              "original_sha256": "29b4c287b64fb22673ef435656d62a80a087c7746d952019b3eadbe95fe86331"
+            },
+            {
+              "docid": "44287",
+              "group": 1653,
+              "pages": [
+                3,
+                4,
+                5,
+                6,
+                10
+              ],
+              "received": "2015-02-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=44287",
+              "original": "review_originals/cvm_44287_g1653.pdf.gz",
+              "original_sha256": "afd0c5c3557fd7bcc771616dfe9b82d7521891f27edc6b3a408cc86c7dd12938"
+            },
+            {
+              "docid": "46703",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2015-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=46703",
+              "original": "review_originals/cvm_46703_g192.pdf.gz",
+              "original_sha256": "a45f92eb62225cc7fc782e41ae59c1cc07f10752c79526c1fe046551c1cf9e77"
+            }
+          ],
+          "prior_year": 2014,
+          "review_2015": "Sem alteração material desta dimensão após confronto da tese anterior com os fatos descritos na atualização de 2015. Lucro2014 cai49%para449,344mi por hidrologia. Dividendosintermediários643,8mi excedem lucro e absorvem reservas; dívida líquida1.121,6mi,+70%, notas501mi vencemdezembro2015. ContratoEletropaulo expira2015."
+        }
+      },
+      "dimension_evidence_updates": {
+        "durability": {
+          "favorable": "Concessão1999 de30 anos, capacidade2.658 MW, garantia1.278 MW médios; contrato longo reajustado com Eletropaulo.",
+          "evidence": [
+            {
+              "docid": "34821",
+              "group": 412,
+              "pages": [
+                1
+              ],
+              "received": "2014-02-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34821",
+              "original": "review_originals/cvm_34821_g412.pdf.gz",
+              "original_sha256": "29b4c287b64fb22673ef435656d62a80a087c7746d952019b3eadbe95fe86331"
+            },
+            {
+              "docid": "36869",
+              "group": 192,
+              "pages": [
+                3
+              ],
+              "received": "2014-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36869",
+              "original": "review_originals/cvm_36869_g192.pdf.gz",
+              "original_sha256": "9d4074a47c43aca697b9e804780a897206eec65b1afbcdf6eecfbf0f2e4c419b"
+            },
+            {
+              "docid": "44287",
+              "group": 1653,
+              "pages": [
+                3,
+                4,
+                5,
+                6,
+                10
+              ],
+              "received": "2015-02-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=44287",
+              "original": "review_originals/cvm_44287_g1653.pdf.gz",
+              "original_sha256": "afd0c5c3557fd7bcc771616dfe9b82d7521891f27edc6b3a408cc86c7dd12938"
+            },
+            {
+              "docid": "46703",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2015-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=46703",
+              "original": "review_originals/cvm_46703_g192.pdf.gz",
+              "original_sha256": "a45f92eb62225cc7fc782e41ae59c1cc07f10752c79526c1fe046551c1cf9e77"
+            }
+          ]
+        },
+        "capital_economics": {
+          "favorable": "Lucro881,359 mi e cobertura EBITDA/juros16,4x em2013.",
+          "evidence": [
+            {
+              "docid": "34821",
+              "group": 412,
+              "pages": [
+                2,
+                3,
+                45
+              ],
+              "received": "2014-02-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34821",
+              "original": "review_originals/cvm_34821_g412.pdf.gz",
+              "original_sha256": "29b4c287b64fb22673ef435656d62a80a087c7746d952019b3eadbe95fe86331"
+            },
+            {
+              "docid": "34821",
+              "group": 1653,
+              "pages": [
+                5
+              ],
+              "received": "2014-02-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34821",
+              "original": "review_originals/cvm_34821_g1653.pdf.gz",
+              "original_sha256": "e985631dc276bc892be67d3176bc00be45e3719ce5efc4fed0aa74faa526562d"
+            },
+            {
+              "docid": "44287",
+              "group": 1653,
+              "pages": [
+                3,
+                4,
+                5,
+                6,
+                10
+              ],
+              "received": "2015-02-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=44287",
+              "original": "review_originals/cvm_44287_g1653.pdf.gz",
+              "original_sha256": "afd0c5c3557fd7bcc771616dfe9b82d7521891f27edc6b3a408cc86c7dd12938"
+            },
+            {
+              "docid": "46703",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2015-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=46703",
+              "original": "review_originals/cvm_46703_g192.pdf.gz",
+              "original_sha256": "a45f92eb62225cc7fc782e41ae59c1cc07f10752c79526c1fe046551c1cf9e77"
+            }
+          ]
+        },
+        "earnings_reliability": {
+          "favorable": "IAS19 afeta OCI; lucro e ganhos pequenos identificados; 1T14 lucro357,920 mi explicado por venda spot/sazonalização.",
+          "evidence": [
+            {
+              "docid": "34821",
+              "group": 412,
+              "pages": [
+                17,
+                18,
+                34,
+                46
+              ],
+              "received": "2014-02-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34821",
+              "original": "review_originals/cvm_34821_g412.pdf.gz",
+              "original_sha256": "29b4c287b64fb22673ef435656d62a80a087c7746d952019b3eadbe95fe86331"
+            },
+            {
+              "docid": "36869",
+              "group": 192,
+              "pages": [
+                3,
+                6
+              ],
+              "received": "2014-05-07",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=36869",
+              "original": "review_originals/cvm_36869_g192.pdf.gz",
+              "original_sha256": "9d4074a47c43aca697b9e804780a897206eec65b1afbcdf6eecfbf0f2e4c419b"
+            },
+            {
+              "docid": "44287",
+              "group": 1653,
+              "pages": [
+                3,
+                4,
+                5,
+                6,
+                10
+              ],
+              "received": "2015-02-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=44287",
+              "original": "review_originals/cvm_44287_g1653.pdf.gz",
+              "original_sha256": "afd0c5c3557fd7bcc771616dfe9b82d7521891f27edc6b3a408cc86c7dd12938"
+            },
+            {
+              "docid": "46703",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2015-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=46703",
+              "original": "review_originals/cvm_46703_g192.pdf.gz",
+              "original_sha256": "a45f92eb62225cc7fc782e41ae59c1cc07f10752c79526c1fe046551c1cf9e77"
+            }
+          ]
+        },
+        "financial_resilience": {
+          "favorable": "Dívida1.116,676 mi; dívida/EBITDA0,7 vs limite2,5; líquida/EBITDA0,4 vs3,5; cobertura16,4 vs1,75; covenants cumpridos.",
+          "evidence": [
+            {
+              "docid": "34821",
+              "group": 412,
+              "pages": [
+                45,
+                46
+              ],
+              "received": "2014-02-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34821",
+              "original": "review_originals/cvm_34821_g412.pdf.gz",
+              "original_sha256": "29b4c287b64fb22673ef435656d62a80a087c7746d952019b3eadbe95fe86331"
+            },
+            {
+              "docid": "44287",
+              "group": 1653,
+              "pages": [
+                3,
+                4,
+                5,
+                6,
+                10
+              ],
+              "received": "2015-02-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=44287",
+              "original": "review_originals/cvm_44287_g1653.pdf.gz",
+              "original_sha256": "afd0c5c3557fd7bcc771616dfe9b82d7521891f27edc6b3a408cc86c7dd12938"
+            },
+            {
+              "docid": "46703",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2015-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=46703",
+              "original": "review_originals/cvm_46703_g192.pdf.gz",
+              "original_sha256": "a45f92eb62225cc7fc782e41ae59c1cc07f10752c79526c1fe046551c1cf9e77"
+            }
+          ]
+        },
+        "capital_allocation": {
+          "favorable": "Dividendo952,7 mi reconcilia lucro881,4 mais reservas realizadas70,7 e prescritos0,7.",
+          "evidence": [
+            {
+              "docid": "34821",
+              "group": 1653,
+              "pages": [
+                5
+              ],
+              "received": "2014-02-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34821",
+              "original": "review_originals/cvm_34821_g1653.pdf.gz",
+              "original_sha256": "e985631dc276bc892be67d3176bc00be45e3719ce5efc4fed0aa74faa526562d"
+            },
+            {
+              "docid": "34821",
+              "group": 412,
+              "pages": [
+                2,
+                3
+              ],
+              "received": "2014-02-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34821",
+              "original": "review_originals/cvm_34821_g412.pdf.gz",
+              "original_sha256": "29b4c287b64fb22673ef435656d62a80a087c7746d952019b3eadbe95fe86331"
+            },
+            {
+              "docid": "44287",
+              "group": 1653,
+              "pages": [
+                3,
+                4,
+                5,
+                6,
+                10
+              ],
+              "received": "2015-02-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=44287",
+              "original": "review_originals/cvm_44287_g1653.pdf.gz",
+              "original_sha256": "afd0c5c3557fd7bcc771616dfe9b82d7521891f27edc6b3a408cc86c7dd12938"
+            },
+            {
+              "docid": "46703",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2015-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=46703",
+              "original": "review_originals/cvm_46703_g192.pdf.gz",
+              "original_sha256": "a45f92eb62225cc7fc782e41ae59c1cc07f10752c79526c1fe046551c1cf9e77"
+            }
+          ]
+        },
+        "governance": {
+          "favorable": "Conselho fiscal com representantes minoritários ON/PN e BNDESPAR; divulgação do contrato e processo.",
+          "evidence": [
+            {
+              "docid": "34821",
+              "group": 1653,
+              "pages": [
+                10
+              ],
+              "received": "2014-02-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34821",
+              "original": "review_originals/cvm_34821_g1653.pdf.gz",
+              "original_sha256": "e985631dc276bc892be67d3176bc00be45e3719ce5efc4fed0aa74faa526562d"
+            },
+            {
+              "docid": "34821",
+              "group": 412,
+              "pages": [
+                1,
+                2,
+                3
+              ],
+              "received": "2014-02-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=34821",
+              "original": "review_originals/cvm_34821_g412.pdf.gz",
+              "original_sha256": "29b4c287b64fb22673ef435656d62a80a087c7746d952019b3eadbe95fe86331"
+            },
+            {
+              "docid": "44287",
+              "group": 1653,
+              "pages": [
+                3,
+                4,
+                5,
+                6,
+                10
+              ],
+              "received": "2015-02-25",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=44287",
+              "original": "review_originals/cvm_44287_g1653.pdf.gz",
+              "original_sha256": "afd0c5c3557fd7bcc771616dfe9b82d7521891f27edc6b3a408cc86c7dd12938"
+            },
+            {
+              "docid": "46703",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "received": "2015-05-08",
+              "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=46703",
+              "original": "review_originals/cvm_46703_g192.pdf.gz",
+              "original_sha256": "a45f92eb62225cc7fc782e41ae59c1cc07f10752c79526c1fe046551c1cf9e77"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

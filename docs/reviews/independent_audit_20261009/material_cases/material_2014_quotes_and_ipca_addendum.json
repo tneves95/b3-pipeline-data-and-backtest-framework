@@ -1,0 +1,204 @@
+{
+  "recorded_utc": "2026-10-09T13:31:03.183669+00:00",
+  "type": "POST_SEAL_FACTUAL_TRANSPORT_ADDENDUM",
+  "initial_2014_sealed_utc": "2026-10-09T13:14:10.616106+00:00",
+  "initial_opinions_preserved": [
+    {
+      "path": "/workspaces/b3-pipeline-data-and-backtest-framework/returns_2014_2026_stage1/.pr4-state/independent-material-cases/material_review_2014_sealed.json",
+      "sha256": "09b26d015e09965b3f2058da508d580598f2a159e6ce1590f670d1571f731c8f"
+    },
+    {
+      "path": "/workspaces/b3-pipeline-data-and-backtest-framework/returns_2014_2026_stage1/.pr4-state/independent-material-cases/material_review_2014_sealed.md",
+      "sha256": "ed927627d059fb5c37a275fc61800495659269a62dc878f587cd14d795232483"
+    }
+  ],
+  "scope": "COTAHIST2014 selection-day records arrived after initial seal. This dated addendum only verifies price/factor and original IPCA transport/readability; it does not revise2014 judgements or use2025 facts to judge2014.",
+  "selection_quotes": {
+    "PSSA3_2014": {
+      "source": {
+        "file": "COTAHIST_A2014.ZIP",
+        "sha256": "613d76f8a64c7ffba0406cb54c1fd187266f55ed8b6037cb85993b2071a5aae7",
+        "url": "https://bvmf.bmfbovespa.com.br/InstDados/SerHist/COTAHIST_A2014.ZIP",
+        "member": "COTAHIST_A2014.TXT"
+      },
+      "quotes": [
+        {
+          "ticker": "PSSA3",
+          "date": "2014-06-30",
+          "close": 31.86,
+          "isin": "BRPSSAACNOR7",
+          "quotation_factor": 1,
+          "line": 183764,
+          "record_sha256": "347e78be0b64e3ec6c9cb531b6422060e59fb5d0230fcc3bda6ad43084336c24",
+          "raw_record": "012014063002PSSA3       010PORTO SEGUROON      NM   R$  000000000312400000000031860000000003115000000000315400000000031860000000003156000000000318602742000000000000621600000000001960845200000000000000009999123100000010000000000000BRPSSAACNOR7122\r\n",
+          "independent_close": 31.86,
+          "independent_quotation_factor": 1,
+          "independent_date": "20140630",
+          "independent_ticker": "PSSA3"
+        }
+      ],
+      "scope": "Only selection-day records; no later trading prices."
+    },
+    "BBDC4_2014": {
+      "source": {
+        "file": "COTAHIST_A2014.ZIP",
+        "sha256": "613d76f8a64c7ffba0406cb54c1fd187266f55ed8b6037cb85993b2071a5aae7",
+        "url": "https://bvmf.bmfbovespa.com.br/InstDados/SerHist/COTAHIST_A2014.ZIP",
+        "member": "COTAHIST_A2014.TXT"
+      },
+      "quotes": [
+        {
+          "ticker": "BBDC3",
+          "date": "2014-06-30",
+          "close": 32.24,
+          "isin": "BRBBDCACNOR1",
+          "quotation_factor": 1,
+          "line": 182808,
+          "record_sha256": "39f38d9e864ba1b7b3859cd6ce1a31a37d97effd88c5ff8cd5324ede442e2fcd",
+          "raw_record": "012014063002BBDC3       010BRADESCO    ON  ED  N1   R$  000000000329700000000032970000000003219000000000323800000000032240000000003224000000000323204934000000000001301200000000004213804300000000000000009999123100000010000000000000BRBBDCACNOR1618\r\n",
+          "independent_close": 32.24,
+          "independent_quotation_factor": 1,
+          "independent_date": "20140630",
+          "independent_ticker": "BBDC3"
+        },
+        {
+          "ticker": "BBDC4",
+          "date": "2014-06-30",
+          "close": 32.05,
+          "isin": "BRBBDCACNPR8",
+          "quotation_factor": 1,
+          "line": 182811,
+          "record_sha256": "b4c20c19193982c3f9e429791197476fc25d10a877911bc00b481233e1b4f9d9",
+          "raw_record": "012014063002BBDC4       010BRADESCO    PN  ED  N1   R$  000000000324000000000032620000000003191000000000322700000000032050000000003205000000000321112113000000000006716500000000021676407400000000000000009999123100000010000000000000BRBBDCACNPR8618\r\n",
+          "independent_close": 32.05,
+          "independent_quotation_factor": 1,
+          "independent_date": "20140630",
+          "independent_ticker": "BBDC4"
+        }
+      ],
+      "scope": "Only selection-day records; no later trading prices."
+    },
+    "CSMG3_2014": {
+      "source": {
+        "file": "COTAHIST_A2014.ZIP",
+        "sha256": "613d76f8a64c7ffba0406cb54c1fd187266f55ed8b6037cb85993b2071a5aae7",
+        "url": "https://bvmf.bmfbovespa.com.br/InstDados/SerHist/COTAHIST_A2014.ZIP",
+        "member": "COTAHIST_A2014.TXT"
+      },
+      "quotes": [
+        {
+          "ticker": "CSMG3",
+          "date": "2014-06-30",
+          "close": 40.5,
+          "isin": "BRCSMGACNOR5",
+          "quotation_factor": 1,
+          "line": 183066,
+          "record_sha256": "e05ca0b9c1b2269843971a2d70908fcbd5269f7befde41f1476cc8bf9c07047d",
+          "raw_record": "012014063002CSMG3       010COPASA      ON  EJ  NM   R$  000000000394700000000040500000000003833000000000399300000000040500000000003940000000000405000838000000000000214000000000000854535400000000000000009999123100000010000000000000BRCSMGACNOR5131\r\n",
+          "independent_close": 40.5,
+          "independent_quotation_factor": 1,
+          "independent_date": "20140630",
+          "independent_ticker": "CSMG3"
+        }
+      ],
+      "scope": "Only selection-day records; no later trading prices."
+    }
+  },
+  "ipca_primary_documents": [
+    {
+      "case": "PSSA3_2014",
+      "zip_sha256": "73d1f04c01d1fcd0723408d4dc5221b04ee4156e32cb82ba50593d128a901887",
+      "pdf_member": "ipca-inpc_201405caderno.pdf",
+      "pdf_sha256": "c4126c191d02d1502939c92312c6381d5b23e17ad971ecb7ed8d81eb787b58d9",
+      "pdf_cover_read_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "coverage": "May2014 cover independently readable with pypdf. Precise publication June6 is supplied contemporary receipt metadata; not printed as timestamp on cover.",
+      "release_date": "2014-06-06",
+      "publication_url_supplied_not_browsed": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/14622-asi-ipca-de-maio-fica-em-046"
+    },
+    {
+      "case": "BBDC4_2014",
+      "zip_sha256": "73d1f04c01d1fcd0723408d4dc5221b04ee4156e32cb82ba50593d128a901887",
+      "pdf_member": "ipca-inpc_201405caderno.pdf",
+      "pdf_sha256": "c4126c191d02d1502939c92312c6381d5b23e17ad971ecb7ed8d81eb787b58d9",
+      "pdf_cover_read_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "coverage": "May2014 cover independently readable with pypdf. Precise publication June6 is supplied contemporary receipt metadata; not printed as timestamp on cover.",
+      "release_date": "2014-06-06",
+      "publication_url_supplied_not_browsed": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/14622-asi-ipca-de-maio-fica-em-046"
+    },
+    {
+      "case": "CSMG3_2014",
+      "zip_sha256": "73d1f04c01d1fcd0723408d4dc5221b04ee4156e32cb82ba50593d128a901887",
+      "pdf_member": "ipca-inpc_201405caderno.pdf",
+      "pdf_sha256": "c4126c191d02d1502939c92312c6381d5b23e17ad971ecb7ed8d81eb787b58d9",
+      "pdf_cover_read_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "coverage": "May2014 cover independently readable with pypdf. Precise publication June6 is supplied contemporary receipt metadata; not printed as timestamp on cover.",
+      "release_date": "2014-06-06",
+      "publication_url_supplied_not_browsed": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/14622-asi-ipca-de-maio-fica-em-046"
+    }
+  ],
+  "financial_consequence": "Independent parsed closes match sealed inputs: PSSA3 31.86; BBDC3 ON32.24 plus BBDC4 PN32.05; CSMG3 40.50. Quotation factor1. Therefore original market capitalizations and arithmetic margins remain unchanged. Archived annualZIP may have later records; no annual COTAHIST archive was opened, only isolated cutoff records.",
+  "v2_category_clarification": "Any SATISFACTORY_LIMITED wording in the sealed2014 opinion denotes SATISFACTORY with a textual documentary limitation; it is not an added V2 category, not a score, and not a protocol amendment. BBDC2014 VVAL remains INDETERMINATE_PENDING_IFRS_BRIDGE; other effective2014 findings unchanged.",
+  "independence": "No future prices/returns/portfolio files, implementation, other audits/checkpoints or retrospectively sourced news were read. Original2014 byte-identical opinions preserved.",
+  "sources_read_ledger": [
+    {
+      "path": "/workspaces/b3-pipeline-data-and-backtest-framework/returns_2014_2026_stage1/.pr4-state/audit-blind-20261009/PSSA3_2014/selection_quotes.json",
+      "sha256_bytes": "533fb86feb63c2baaf2d8082c625f0de2be94563ae68a49e7ac7b5e77dcc715b",
+      "purpose": "Only raw selection-day COTAHIST records; no archive/future prices opened"
+    },
+    {
+      "path": "/workspaces/b3-pipeline-data-and-backtest-framework/returns_2014_2026_stage1/.pr4-state/audit-blind-20261009/PSSA3_2014/ipca_known.json",
+      "sha256_bytes": "b812584e24601e4c19ebd0a92d089ec7b44036f8c21c0a6de59d63dbc4eba355",
+      "purpose": "2014 addendum: primary IPCA availability facts only"
+    },
+    {
+      "path": "/workspaces/b3-pipeline-data-and-backtest-framework/returns_2014_2026_stage1/.pr4-state/audit-blind-20261009/PSSA3_2014/ipca_may_2014.zip",
+      "sha256_bytes": "73d1f04c01d1fcd0723408d4dc5221b04ee4156e32cb82ba50593d128a901887",
+      "purpose": "2014 addendum: original May2014 IBGE ZIP hash and PDF cover"
+    },
+    {
+      "path": "/workspaces/b3-pipeline-data-and-backtest-framework/returns_2014_2026_stage1/.pr4-state/audit-blind-20261009/BBDC4_2014/selection_quotes.json",
+      "sha256_bytes": "485be1d75db750b87c7bbe73a599d99fe3ba9b8b2ea90cbdfff91284d283cac8",
+      "purpose": "Only raw selection-day COTAHIST records; no archive/future prices opened"
+    },
+    {
+      "path": "/workspaces/b3-pipeline-data-and-backtest-framework/returns_2014_2026_stage1/.pr4-state/audit-blind-20261009/BBDC4_2014/ipca_known.json",
+      "sha256_bytes": "b812584e24601e4c19ebd0a92d089ec7b44036f8c21c0a6de59d63dbc4eba355",
+      "purpose": "2014 addendum: primary IPCA availability facts only"
+    },
+    {
+      "path": "/workspaces/b3-pipeline-data-and-backtest-framework/returns_2014_2026_stage1/.pr4-state/audit-blind-20261009/BBDC4_2014/ipca_may_2014.zip",
+      "sha256_bytes": "73d1f04c01d1fcd0723408d4dc5221b04ee4156e32cb82ba50593d128a901887",
+      "purpose": "2014 addendum: original May2014 IBGE ZIP hash and PDF cover"
+    },
+    {
+      "path": "/workspaces/b3-pipeline-data-and-backtest-framework/returns_2014_2026_stage1/.pr4-state/audit-blind-20261009/CSMG3_2014/selection_quotes.json",
+      "sha256_bytes": "85a7df6c8ac15a260e90eb3a449a7eee7fcb62679ba31d40f1abbcd70e241488",
+      "purpose": "Only raw selection-day COTAHIST records; no archive/future prices opened"
+    },
+    {
+      "path": "/workspaces/b3-pipeline-data-and-backtest-framework/returns_2014_2026_stage1/.pr4-state/audit-blind-20261009/CSMG3_2014/ipca_known.json",
+      "sha256_bytes": "b812584e24601e4c19ebd0a92d089ec7b44036f8c21c0a6de59d63dbc4eba355",
+      "purpose": "2014 addendum: primary IPCA availability facts only"
+    },
+    {
+      "path": "/workspaces/b3-pipeline-data-and-backtest-framework/returns_2014_2026_stage1/.pr4-state/audit-blind-20261009/CSMG3_2014/ipca_may_2014.zip",
+      "sha256_bytes": "73d1f04c01d1fcd0723408d4dc5221b04ee4156e32cb82ba50593d128a901887",
+      "purpose": "2014 addendum: original May2014 IBGE ZIP hash and PDF cover"
+    }
+  ]
+}

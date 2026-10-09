@@ -1,0 +1,24 @@
+{
+  "source_cache": "research/returns_2014_2026_selection/cache/continuation_irb_quotes_2019.json.gz",
+  "source_cache_sha256": "175efb8a6e8c6e4808a0d35c717e98d1078b6852a55ce1ae33c03cc03f6c57bb",
+  "source": {
+    "file": "COTAHIST_A2019.ZIP",
+    "sha256": "5170d3f8f079c3306424b36c2fae9b467391f8fa37d16d389f487b4c5c28edb9",
+    "url": "https://bvmf.bmfbovespa.com.br/InstDados/SerHist/COTAHIST_A2019.ZIP",
+    "provenance": "LOCAL_PREEXISTING"
+  },
+  "quote": {
+    "ticker": "IRBR3",
+    "date": "2019-06-28",
+    "close": 98.5,
+    "isin": "BRIRBRACNOR4",
+    "quotation_factor": 1,
+    "line": 107116,
+    "record_sha256": "a1cadc7b034084886fb24feb7c87e5e0702400e070599070d2ded4cb8c1d00ea"
+  },
+  "qualification": "Only the historical selection-day quote is supplied. Annual source filename does not imply future annual file was available at selection; the trade record itself was historical.",
+  "raw_record_file": "selection_quote_record.txt",
+  "raw_record_sha256": "a1cadc7b034084886fb24feb7c87e5e0702400e070599070d2ded4cb8c1d00ea",
+  "zip_member": "COTAHIST_A2019.TXT",
+  "read_scope": "Read only archive hash and designated selection-day record; no future prices delivered."
+}

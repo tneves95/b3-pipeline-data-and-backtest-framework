@@ -1,0 +1,2049 @@
+{
+  "reviewer": "Independent adversarial reviewer /root/adversarial_2014",
+  "base_commit": "5d50cc5",
+  "coordinator_comment": "6071009589 (proposal transmitted verbatim in delegated task)",
+  "cutoff": "2015-06-30",
+  "scope": "Independent review of post2014 VVAL/VQ B2 and potentially admission-changing2015 banking valuation evidence, before reading any post-June2015 portfolio returns. Approved2014 data and results unchanged.",
+  "approved_2014_review_sha256": "e28deda1a9288e2dc1042feebb5e2b03edde685ee0dfc0d3fedcd4d5f87e7cc0",
+  "b2": {
+    "verdict": "NO_DETERMINISTIC_OBJECTION_WITH_EXPLICIT_EDGE_RULES",
+    "frozen_invariants": [
+      "V0 and V10 use their accepted algorithm unchanged.",
+      "Initial2014 formation, its weights and accepted first-year results remain unchanged.",
+      "VVAL thresholds15/25 and reinvestment requirements unchanged; VQ remains six noncompensatory documentary dimensions.",
+      "Only B00S-base FAIL or proven corporate action authorizes removal; unknown valuation/quality or a higher P/L does not authorize sale."
+    ],
+    "definition": "At each post2014 renewal, N_s is the count of the union of qualified candidate issuer/lineages and nonFAIL incumbent issuer/lineages in sector s. Each genuinely new qualified issuer requests0.20/N_s of pre-trade NAV. Count legal classes and inherited rights/successors once, using only effective PIT corporate events. Empty sectors supply no request and are not renormalized.",
+    "equations": {
+      "nav": "V=sum(values of all existing positions/rights)",
+      "forced_exits": "E=sum(values with evidenced base FAIL)",
+      "survivors": "S=V-E",
+      "request": "q_i=0.20/N_sector(i); D=V*sum(q_i) for new issuers only",
+      "new_allocation_if_entries": "A=max(E,D); buy_i=A*q_i/sum(q)",
+      "survivor_if_entries": "value_after=value_before*(1-(A-E)/S), when S>0",
+      "no_entries_with_exits": "Preserve existing B2 compulsory redistribution: value_after=value_before*V/S. If S=0, explicit unresolved/no destination error; do not invent a cash return.",
+      "no_entries_no_exits": "Preserve all values and shares."
+    },
+    "proof": "Each sector contributes at most0.20 to new requests because new_count<=N_sector; hence D<=V. If a survivor exists and every survivor has a valid BESST lineage/sector, its sector contributes strictly less than0.20, therefore D<V. With0<=E<=V, A=max(E,D)<=V; survivor values remain nonnegative and strictly positive whenever survivors exist. Their sum is S-(A-E)=V-A; new purchases sum A, preserving NAV. Relative weights of survivors are unchanged. Duplicate economic representations cannot increase N or create an entry.",
+    "material_implementation_conditions": [
+      "Existing stage1_continuity.renew_b2 requires targets to sum to1. Do not feed partial requests and renormalize them to satisfy this validation. Introduce an isolated VVAL/VQ post2014 branch or explicit partial-target mode while preserving accepted controls.",
+      "20%/N is the initial request, not a final sector cap. Example: FAIL exits80% and a single new request10% allocate80% to that newcomer. This follows the supplied excess-exit policy, not empty-sector target redistribution; show request and executed allocation separately.",
+      "Resolve PASS/FAIL/INDETERMINATE by effective economic lineage before denominator and entry detection. A FAIL ticker and PASS alternate class of the same issuer must not silently cause sell-and-rebuy; conflicting base facts require explicit resolution.",
+      "Every positive inherited right contributes to NAV and proportional financing; holdings in the same issuer lineage occupy one denominator slot. Economic succession is determined by accepted PIT event identity, not future ticker lookup or the number of instruments.",
+      "The case of exits without entrants retains accepted B2 proportional redistribution to survivors. With all holdings FAIL and no eligible destination, halt with a precise unresolved state. Keeping FAIL positions or creating a theoretical cash series would change policy.",
+      "For synthetic verification preserve portfolio share counts of unaffected holdings when no trades occur, ensure no positive nonFAIL position is liquidated by funding, and separately check executed return attribution when replay is authorized."
+    ],
+    "synthetic_test_method": "Independent arithmetic model, not imported production allocation code. The expected portfolios below were specified explicitly and checked for NAV and identity consistency. These tests validate the rule; implementation tests remain the parent task.",
+    "synthetic_tests": [
+      {
+        "name": "single_new_same_sector",
+        "holdings_before": {
+          "B1": 100
+        },
+        "base_status": {},
+        "qualified_candidates": [
+          "B2"
+        ],
+        "nav": 100,
+        "sector_lineage_counts": {
+          "banks": 2
+        },
+        "requested_nav_fractions": {
+          "B2": 0.1
+        },
+        "released": 0,
+        "after": {
+          "B1": 90.0,
+          "B2": 10.0
+        },
+        "result": "PASS"
+      },
+      {
+        "name": "empty_sectors_not_normalized",
+        "holdings_before": {
+          "B1": 50,
+          "E1": 50
+        },
+        "base_status": {},
+        "qualified_candidates": [
+          "B2"
+        ],
+        "nav": 100,
+        "sector_lineage_counts": {
+          "banks": 2,
+          "energy": 1
+        },
+        "requested_nav_fractions": {
+          "B2": 0.1
+        },
+        "released": 0,
+        "after": {
+          "B1": 45.0,
+          "E1": 45.0,
+          "B2": 10.0
+        },
+        "result": "PASS"
+      },
+      {
+        "name": "several_new",
+        "holdings_before": {
+          "B1": 60,
+          "E1": 40
+        },
+        "base_status": {},
+        "qualified_candidates": [
+          "B2",
+          "B3",
+          "E2",
+          "S1"
+        ],
+        "nav": 100,
+        "sector_lineage_counts": {
+          "banks": 3,
+          "energy": 2,
+          "sanitation": 1
+        },
+        "requested_nav_fractions": {
+          "B2": 0.06666666666666667,
+          "B3": 0.06666666666666667,
+          "E2": 0.1,
+          "S1": 0.2
+        },
+        "released": 0,
+        "after": {
+          "B1": 34.0,
+          "E1": 22.666666666666664,
+          "B2": 6.666666666666666,
+          "B3": 6.666666666666666,
+          "E2": 10.000000000000002,
+          "S1": 20.000000000000004
+        },
+        "result": "PASS"
+      },
+      {
+        "name": "fail_proceeds_exceed_requests",
+        "holdings_before": {
+          "B1": 20,
+          "E1": 80
+        },
+        "base_status": {
+          "E1": "FAIL"
+        },
+        "qualified_candidates": [
+          "B2"
+        ],
+        "nav": 100,
+        "sector_lineage_counts": {
+          "banks": 2
+        },
+        "requested_nav_fractions": {
+          "B2": 0.1
+        },
+        "released": 80,
+        "after": {
+          "B1": 20,
+          "B2": 80.0
+        },
+        "result": "PASS"
+      },
+      {
+        "name": "exits_without_new",
+        "holdings_before": {
+          "B1": 60,
+          "E1": 40
+        },
+        "base_status": {
+          "E1": "FAIL"
+        },
+        "qualified_candidates": [],
+        "nav": 100,
+        "sector_lineage_counts": {
+          "banks": 1
+        },
+        "requested_nav_fractions": {},
+        "released": 40,
+        "after": {
+          "B1": 100.0
+        },
+        "result": "PASS"
+      },
+      {
+        "name": "right_does_not_create_second_issuer",
+        "holdings_before": {
+          "B1": 60,
+          "B1R": 10,
+          "E1": 30
+        },
+        "base_status": {},
+        "qualified_candidates": [
+          "B2"
+        ],
+        "nav": 100,
+        "sector_lineage_counts": {
+          "banks": 2,
+          "energy": 1
+        },
+        "requested_nav_fractions": {
+          "B2": 0.1
+        },
+        "released": 0,
+        "after": {
+          "B1": 54.0,
+          "B1R": 9.0,
+          "E1": 27.0,
+          "B2": 10.0
+        },
+        "result": "PASS"
+      },
+      {
+        "name": "successor_not_a_new_purchase",
+        "holdings_before": {
+          "B1": 70,
+          "E1": 30
+        },
+        "base_status": {},
+        "qualified_candidates": [
+          "B1NEW"
+        ],
+        "nav": 100,
+        "sector_lineage_counts": {
+          "banks": 1,
+          "energy": 1
+        },
+        "requested_nav_fractions": {},
+        "released": 0,
+        "after": {
+          "B1": 70,
+          "E1": 30
+        },
+        "result": "PASS"
+      },
+      {
+        "name": "indeterminate_incumbent_counts",
+        "holdings_before": {
+          "B1": 100
+        },
+        "base_status": {
+          "B1": "INDETERMINATE"
+        },
+        "qualified_candidates": [
+          "B2"
+        ],
+        "nav": 100,
+        "sector_lineage_counts": {
+          "banks": 2
+        },
+        "requested_nav_fractions": {
+          "B2": 0.1
+        },
+        "released": 0,
+        "after": {
+          "B1": 90.0,
+          "B2": 10.0
+        },
+        "result": "PASS"
+      },
+      {
+        "name": "all_fail_with_new_destination",
+        "holdings_before": {
+          "E1": 100
+        },
+        "base_status": {
+          "E1": "FAIL"
+        },
+        "qualified_candidates": [
+          "B2"
+        ],
+        "nav": 100,
+        "sector_lineage_counts": {
+          "banks": 1
+        },
+        "requested_nav_fractions": {
+          "B2": 0.2
+        },
+        "released": 100,
+        "after": {
+          "B2": 100.0
+        },
+        "result": "PASS"
+      },
+      {
+        "name": "no_trades_preserves_drift",
+        "holdings_before": {
+          "B1": 77,
+          "E1": 23
+        },
+        "base_status": {},
+        "qualified_candidates": [],
+        "nav": 100,
+        "sector_lineage_counts": {
+          "banks": 1,
+          "energy": 1
+        },
+        "requested_nav_fractions": {},
+        "released": 0,
+        "after": {
+          "B1": 77,
+          "E1": 23
+        },
+        "result": "PASS"
+      },
+      {
+        "name": "all_fail_without_destination",
+        "result": "PASS_EXPECTED_ERROR",
+        "error": "ALL_FAIL_NO_DESTINATION"
+      }
+    ],
+    "implementation_review": {
+      "file": "scripts/b00s_funding.py",
+      "counterexample": "Initial version sold OLD base FAIL and repurchased qualified NEW base PASS with identical issuer CNPJ, allocating all released NAV back to the same lineage. Reported to author before freeze.",
+      "resolution": "Current version has failed_lineages and raises Conflicting FAIL and PASS in the same economic lineage. Independently reproduced with OLD100/NEW same CNPJ: expected ValueError observed.",
+      "verdict": "NO_DETERMINISTIC_OBJECTION_TO_REVIEWED_PATCH"
+    }
+  },
+  "company_reviews": [
+    {
+      "ticker": "ITUB4",
+      "cnpj": "60872504000123",
+      "cutoff": "2015-06-30",
+      "verdict": "COMPARABLE_BOUNDED_GATE15_PROVED_WITH_DOCUMENTED_CAPITAL_INTERVAL",
+      "valuation_proposal": {
+        "status": "COMPARABLE_BOUNDED",
+        "income_modes_reconciled": true,
+        "profit_bounds": {
+          "2010": {
+            "lower": null,
+            "upper": null,
+            "reason": "Outside the three-year lower-bound proof; no certified normalization assigned."
+          },
+          "2011": {
+            "lower": 11910500000,
+            "upper": null,
+            "reason": "BRL million: attributed IFRS13,837 - all other revenues1,158 - positive residual tax benefit767 =11,912; deduct additional1.5 for rounding of the three disclosed million-unit lines. The former11,890.196 parent profit is not an IFRS consolidated input."
+          },
+          "2012": {
+            "lower": null,
+            "upper": null,
+            "reason": "Outside the lower-bound proof. Serasa gain and Redecard changes are not silently treated as recurring; unrestricted interval avoids relying on a falsely precise correction."
+          },
+          "2013": {
+            "lower": 13708000000,
+            "upper": null,
+            "reason": "BRL million: attributed IFRS16,424 - all other revenues1,395 (including REFIS624) - reorganization tax release639 - Porto Seguro COFINS equity contribution272 - IRB reclassification gain131 - positive residual total-tax benefit276 =13,711; deduct3 for rounding of six million-unit lines."
+          },
+          "2014": {
+            "lower": 18714000000,
+            "upper": null,
+            "reason": "BRL million: attributed IFRS21,555 - all other revenues2,154 (including ISSC sale1,151 and REFIS158) - reorganization tax release639 - positive residual current-tax benefit46 =18,716; deduct2 for rounding of four million-unit lines. Ordinary temporary-difference tax accounting retained; negative prior-period deferred-tax reversal1,079 is not added back."
+          }
+        },
+        "reason": "A null lower/upper is unbounded, not zero. The median of five is monotone in each argument: three proved positive lower bounds make its lower bound their minimum after the unchanged IPCA correction, even if the other two exercises are unrestricted. No point estimate of normalized income or P/L is certified. Gains are deducted gross with no invented tax benefit; actual credit costs, impairments, expenses and losses remain. This is a proof of the unchanged <=15 gate, not a new criterion. FY2011 is reconciled to attributed IFRS13.837bn in the published EPS note; do not reuse the parent-only amount11.890196bn. FY2012/13/14 attributed IFRS amounts are confirmed by DFP43750 EPS."
+      },
+      "evidence": [
+        {
+          "docid": "36223",
+          "group": 412,
+          "pages": [
+            28,
+            29,
+            30,
+            31,
+            52,
+            68,
+            70,
+            72,
+            178
+          ],
+          "received": "2014-04-11",
+          "original_sha256": "9f15226abe5c857799b2319f2d1dbbcadabeb80d438b35f665313144af14da50"
+        },
+        {
+          "docid": "43750",
+          "group": 412,
+          "pages": [
+            103,
+            104,
+            105,
+            137,
+            146,
+            148,
+            151,
+            188,
+            206
+          ],
+          "received": "2015-02-03",
+          "original_sha256": "82a980ef84cdeb876e50f9ba6efe677c6965b198deb5a4989c31183254b59f6c"
+        },
+        {
+          "docid": "46366",
+          "group": 193,
+          "pages": [
+            51,
+            127,
+            128
+          ],
+          "received": "2015-05-05",
+          "original_sha256": "9053d8dd32494044545a7a884b1d1b52887274e44b088aca19cfb2130382859c"
+        }
+      ],
+      "numerical_proof": {
+        "ipca_month": "2015-05",
+        "ipca_factors_from_fy_end": {
+          "2010": 1.3381582517694295,
+          "2011": 1.2564499420002362,
+          "2012": 1.1871380668688587,
+          "2013": 1.1208846163118074,
+          "2014": 1.0533875789769491
+        },
+        "annual_real_lower_bounds": {
+          "2011": 14964947034.193813,
+          "2013": 15365086320.402256,
+          "2014": 19713095152.974625
+        },
+        "normalized_profit_lower": 14964947034.193813,
+        "normalized_profit_upper": null,
+        "maximum_market_cap_consistent_with_gate15": 224474205512.9072,
+        "market_cap_interval": {
+          "lower": 186467357434.38,
+          "upper": 205114093174.8
+        },
+        "pe_upper": 13.706302648858646
+      },
+      "capital_pending": "Exact point capitalization withheld; the documented pre/post10% bonus bases bracket the relevant capitalization and the upper-cap/lower-profit ratio proves <=15. No post-cut disclosure is used as a PIT decision input. Share purchase and return replay must use the separately evidenced corporate action effective date.",
+      "comparability_review": "Unibanco combination predates the2010-14 window. Redecard2012 acquires already-controlled noncontrolling interests; tax gains removed where relied upon. BSF49% and FAI95m transactions, Credicard2.948bn acquisition with8.614bn assets, BMG changes expressly described as not producing relevant accounting result effects, and ISSC disposal are documented. They do not replace the diversified banking business; the bounded proof does not annualize acquisition earnings or include proposed CorpBanca combination before its effective closure. Disposal gain is removed. This is economic comparability at issuer level, not a claim of identical legal subsidiaries in every year.",
+      "adversarial_constraints": [
+        "No 25x reinvestor premium inferred or required.",
+        "Do not deduct Redecard tax asset3,791 as if a2012 P&L gain: DFP36223 p30 locates it in equity; FY2012 remains unrestricted in the bound anyway.",
+        "Do not mix FY2013 residual tax276 from the total current+deferred presentation with the later current-only negative2,884: the latter is offset by3,160 deferred.",
+        "The conservative interval is based on identified source items and normal bank tax accounting; it does not purport to bound undisclosed fraud or hypothetical unknown gains."
+      ],
+      "market_cap_interval": {
+        "lower": 186467357434.38,
+        "upper": 205114093174.8,
+        "reason": "ITR46366 g193 pp51,127-128 (received2015-05-05) outstanding legal capital before the proposed2015 bonus: ON2,770,036,544 and PN2,760,796,137. FRE46825 (received2015-05-11, approval2015-04-29) reports after the10% increase ON3,047,040,198 and PN3,036,875,751. June30 class-specific quotes: ON33.21, PN34.22. The effective/ex-trading distinction is not certified at the cutoff, so use the larger capitalization as an upper bound only; do not publish a falsely precise capitalization. The same gate holds across both documented bases. No other issued-capital change identified in cutoff documents."
+      }
+    },
+    {
+      "ticker": "BRSR6",
+      "cnpj": "92702067000196",
+      "cutoff": "2015-06-30",
+      "verdict": "INDETERMINATE_CAPITALIZATION_WITH_RESOLVED_PROFIT_LOWER_BOUND",
+      "valuation_proposal": {
+        "status": "COMPARABLE_BOUNDED",
+        "income_modes_reconciled": true,
+        "profit_bounds": {
+          "2010": {
+            "lower": null,
+            "upper": null,
+            "reason": "Not relied upon for the three-year lower-bound proof."
+          },
+          "2011": {
+            "lower": null,
+            "upper": null,
+            "reason": "Not relied upon for the three-year lower-bound proof."
+          },
+          "2012": {
+            "lower": 690117500,
+            "upper": null,
+            "reason": "BRL thousand:833,587 - labor reversal768 - civil44 - securitization4,335 - other provisions49,267(includes PAT tax recovery40,629) - payables20,449 - asset gains10,047 - other unidentified revenue21,063 - residual tax benefit37,492 =690,122; deduct4.5thousand for rounding of nine lines."
+          },
+          "2013": {
+            "lower": 665219500,
+            "upper": null,
+            "reason": "BRL thousand:748,803 - labor reversal179 - civil37 - securitization1,536 - other provisions2,211 - payables47,115 - asset gains5,986 - other unidentified revenue16,082 - residual tax benefit10,433 =665,224; deduct4.5thousand for rounding of nine lines."
+          },
+          "2014": {
+            "lower": 280379500,
+            "upper": null,
+            "reason": "BRL thousand:620,654 - fiscal reversal10,912 - labor1,196 - securitization1,255 - other provisions12,288 - payables6,140 - asset gains13,787 - other unidentified revenue29,117 - Icatu exclusivity115,000 - pension migration gain83,628 - residual tax benefit66,946 =280,385; deduct5.5thousand for rounding of eleven lines. Keep pension migration expense288,309 and incentive retirement costs; do not replace IFRS income with managerial recurring753m."
+          }
+        },
+        "reason": "A null lower/upper is unbounded, not zero. The median of five is monotone in each argument: three proved positive lower bounds make its lower bound their minimum after the unchanged IPCA correction, even if the other two exercises are unrestricted. No point estimate of normalized income or P/L is certified. Gains are deducted gross with no invented tax benefit; actual credit costs, impairments, expenses and losses remain. This is a proof of the unchanged <=15 gate, not a new criterion. IFRS attributed620.654m differs from BRGAAP691.416m and managerial recurring753m; the DFP bridge explicitly reconciles both accounting standards. The normalized median lower bound is documentary, but cannot certify a VVAL admission without capitalization across all classes."
+      },
+      "evidence": [
+        {
+          "docid": "35198",
+          "group": 412,
+          "pages": [
+            68,
+            69
+          ],
+          "received": "2014-03-14",
+          "original_sha256": "06e42a3fcc365fb9a09b731c6585f20dad63f9fd841526a135b9838c5efbcbf8"
+        },
+        {
+          "docid": "44817",
+          "group": 412,
+          "pages": [
+            40,
+            57,
+            61,
+            62,
+            112
+          ],
+          "received": "2015-03-06",
+          "original_sha256": "05d6383e9f3b3c45a03ece0eff74fd72f2c2380edf11fc9dc57511f8c255be9d"
+        },
+        {
+          "docid": "44817",
+          "group": 1653,
+          "pages": [
+            9
+          ],
+          "received": "2015-03-06",
+          "original_sha256": "783a08490e67fe92b0d1898731abf54398ef3e2caea5dfda94726b5f7ea1db88"
+        },
+        {
+          "docid": "47021",
+          "group": 193,
+          "pages": [
+            36,
+            37
+          ],
+          "received": "2015-05-13",
+          "original_sha256": "d387202a055f025291a188ee8a0fcf0bd1c6cad701a4fa3270ea63716134c266"
+        }
+      ],
+      "numerical_proof": {
+        "ipca_month": "2015-05",
+        "ipca_factors_from_fy_end": {
+          "2010": 1.3381582517694295,
+          "2011": 1.2564499420002362,
+          "2012": 1.1871380668688587,
+          "2013": 1.1208846163118074,
+          "2014": 1.0533875789769491
+        },
+        "annual_real_lower_bounds": {
+          "2012": 819264754.8623695,
+          "2013": 745634304.0206324,
+          "2014": 295348282.69976753
+        },
+        "normalized_profit_lower": 295348282.69976753,
+        "normalized_profit_upper": null,
+        "market_cap": null,
+        "pe_upper": null,
+        "maximum_market_cap_consistent_with_gate15": 4430224240.496513
+      },
+      "capital_pending": "Positive PNA shares must have their own contemporaneous quote. DFP Dec2014: ON205,043,395; PNA3,529,851; PNB200,401,231. ITR Mar2015: ON205,043,395; PNA3,529,351; PNB200,401,731. FRE46884 received2015-05-12 reports aggregate PN203,931,082 only. Parent reports official COTAHIST last PNA trade2015-03-16 at11.07 with no2015-06-30 quote. Do not value all PN with BRSR6 quote8.91, or relabel stale BRSR5 quote as June30. Therefore no final capital/P-L/admission certified; resolve with a contemporary class price or an explicitly preexisting permitted policy, not an ad hoc new pricing exception.",
+      "rejected_adjustments": [
+        "Do not substitute the higher parent BRGAAP profit or managerial recurring result for attributed consolidated IFRS income.",
+        "Do not annualize the115m twenty-year exclusivity payment as115/20 without a supported accounting schedule. Entire positive gain removed for the lower bound.",
+        "Do not add migration expense288.309m or early-retirement expense64.1m to manufacture a recurring point estimate.",
+        "Routine customer fees, payment revenues and credit recoveries remain ordinary operating income; they are not labelled exceptional simply because in other operating revenue."
+      ]
+    },
+    {
+      "ticker": "BBAS3",
+      "cnpj": "00000000000191",
+      "cutoff": "2015-06-30",
+      "verdict": "COMPARABLE_BOUNDED_GATE15_PROVED_AT_DOCUMENTED_CUTOFF_FINANCING_REFERENCE",
+      "valuation_proposal": {
+        "status": "COMPARABLE_BOUNDED",
+        "income_modes_reconciled": true,
+        "profit_bounds": {
+          "2010": {
+            "lower": null,
+            "upper": null,
+            "reason": "Unrestricted: not needed for the three-year median lower-bound proof."
+          },
+          "2011": {
+            "lower": 4209994019,
+            "upper": null,
+            "reason": "BRL nominal floor: IFRS historical floor 6548613000 minus half of gross card receipts rounded upward 2628479000, minus BBSE ownership equalization 574841000, minus cutoff-money costs 564822598.027020931 divided by FY IPCA factor 1.2564499420002362; then floor to whole BRL. New costs are Cateno amortization386m times50.14% attributable stake,17.822m entire issuance/start-up fees, and Cielo financing attributable at28.76%, annualized using pre-cut CDI. All historical costs retained; no receipt, synergy, future margin or loss addback."
+          },
+          "2012": {
+            "lower": null,
+            "upper": null,
+            "reason": "Unrestricted: not needed for the three-year median lower-bound proof."
+          },
+          "2013": {
+            "lower": 4260462613,
+            "upper": null,
+            "reason": "BRL nominal floor: IFRS historical floor 6669361500 minus half of gross card receipts rounded upward 3522484000, minus BBSE ownership equalization 143749000, minus cutoff-money costs 564822598.027020931 divided by FY IPCA factor 1.1208846163118074; then floor to whole BRL. New costs are Cateno amortization386m times50.14% attributable stake,17.822m entire issuance/start-up fees, and Cielo financing attributable at28.76%, annualized using pre-cut CDI. All historical costs retained; no receipt, synergy, future margin or loss addback."
+          },
+          "2014": {
+            "lower": 4857408628,
+            "upper": null,
+            "reason": "BRL nominal floor: IFRS historical floor 7669014500 minus half of gross card receipts rounded upward 4550819000, minus BBSE ownership equalization 0, minus cutoff-money costs 564822598.027020931 divided by FY IPCA factor 1.0533875789769491; then floor to whole BRL. New costs are Cateno amortization386m times50.14% attributable stake,17.822m entire issuance/start-up fees, and Cielo financing attributable at28.76%, annualized using pre-cut CDI. All historical costs retained; no receipt, synergy, future margin or loss addback."
+          }
+        },
+        "reason": "Attributed IFRS and BBSE IPO equity treatment are reconciled, including recurrent ownership: equalize pre-IPO insurance profits to66.25%. Cateno bridge removes50% of all historical card receipts while retaining100% of historical costs, deducts new amortization at a conservatively rounded50.14% economic stake, all disclosed deal/issuance fees and attributable Cielo financing at the known pre-cut CDI reference. Three documented real lower bounds certify median>=4.775486bn and P/L<=14.56864 under the unchanged15 gate; no point recurring profit is asserted. The financing annualization is a stated cutoff normalization, not a future interest-rate cap. No25 premium or VQ approval follows from this gate.",
+        "evidence": [
+          {
+            "docid": "35587",
+            "group": 412,
+            "pages": [
+              6,
+              35,
+              36,
+              39,
+              41,
+              43,
+              44,
+              46,
+              48,
+              49,
+              73,
+              90
+            ]
+          },
+          {
+            "docid": "45354",
+            "group": 412,
+            "pages": [
+              30,
+              31,
+              35,
+              36,
+              48,
+              49,
+              50,
+              73,
+              87,
+              94,
+              159
+            ]
+          },
+          {
+            "docid": "47093",
+            "group": 193,
+            "pages": [
+              12,
+              13,
+              16,
+              26,
+              27,
+              114,
+              115
+            ]
+          },
+          {
+            "docid": "46190",
+            "group": 193,
+            "pages": [
+              3,
+              22,
+              24,
+              26,
+              27,
+              39
+            ]
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "docid": "35587",
+          "group": 412,
+          "pages": [
+            6,
+            35,
+            36,
+            39,
+            41,
+            43,
+            44,
+            46,
+            48,
+            49,
+            73,
+            90
+          ],
+          "received": "2014-03-27",
+          "original_sha256": "f57723c5c41bd9769fc8757fd265d552ba9f95adbbd2b6613c962952be02e360"
+        },
+        {
+          "docid": "45354",
+          "group": 412,
+          "pages": [
+            30,
+            31,
+            35,
+            36,
+            48,
+            49,
+            50,
+            73,
+            87,
+            94,
+            159
+          ],
+          "received": "2015-03-27",
+          "original_sha256": "a5f65190ff60b836ad32cd9af30857378bf33878b7d6da1e694748a32b49658e"
+        },
+        {
+          "docid": "47093",
+          "group": 193,
+          "pages": [
+            12,
+            13,
+            16,
+            26,
+            27,
+            114,
+            115
+          ],
+          "received": "2015-05-14",
+          "original_sha256": "a7dad351caf0987e5860a039c0e05bf74f93ce610dc49fc133c4e91b96e2869b"
+        },
+        {
+          "docid": "46190",
+          "group": 193,
+          "pages": [
+            3,
+            22,
+            24,
+            26,
+            27,
+            39
+          ],
+          "received": "2015-04-29",
+          "original_sha256": "279458ff838442842b31261a55ef9cb2f5cb659fdf235f1edeebc47b928a39c7"
+        }
+      ],
+      "resolved_questions": [
+        "DFP35587 p6 restates FY2011/12 for IAS19R and IFRS11 without changing attributed net profits12,681.922m and11,245.922m. DFP45354 p94 confirms attributed IFRS2012/13/14=11,245.922m/10,438.066m/11,853.096m. Do not mix managerial or BRGAAP totals.",
+        "IPO BB Seguridade2013: DFP45354 p35 states11,475m sale minus1,983.401m cost,172.037m transaction costs and3,727.825m taxes yields5,591.737m recognized in EQUITY. P159 explains control retained and IFRS10. Do not deduct that net gain a second time from IFRS net income, or isolate the IFRS tax conversion reversal as a recurring tax windfall.",
+        "The5-year base no longer relies on2009 Visanet income. Routine bank trading, credit recoveries, interest income and associated-company earnings remain operating results; no credit costs or losses are added back.",
+        "Historical pension/Previ gains, disposals, positive provision reversals and positive unexplained tax reconciliation amounts are stripped gross for lower bounds. No invented tax benefit or precise recurring estimate.",
+        "Cielo original ITR46190 received29Apr2015 resolves the previously open amortization and financing terms. Cateno bridge is now explicit; older ND was a resolved finding, not the final conclusion.",
+        "BBSE retained-control IPO also required a recurrent ownership bridge: the original IFRS subsidiary and segment disclosures now quantify that deduction. The intermediate Cateno-only proof was superseded before formation/replay, with both old stress and final attributable amortization disclosed."
+      ],
+      "historical_profit_bounds_NOT_current_perimeter": {
+        "2010": {
+          "lower": null,
+          "upper": null,
+          "reason": "Not relied on for the historical three-year bound."
+        },
+        "2011": {
+          "lower": 6548613000,
+          "upper": null,
+          "reason": "BRL thousand: attributed IFRS12,681,922 - Previ2,981,314 - pension surplus1,014,423 - payables53,432 - assets26,065 - Mapfre association957,725 - all residual other revenue1,096,649 - intangible reversal3,697 =6,548,617; subtract4thousand for8 rounded lines. Keep actual credit costs and negative tax residual; no loss addbacks. DFP35587 pp6/49/73/90."
+        },
+        "2012": {
+          "lower": 5994610000,
+          "upper": null,
+          "reason": "BRL thousand:11,245,922 - Previ1,355,235 - surplus1,091,079 - asset sales1,250,051 - payables reversal32,062 - investment sales64,757 - other revenue1,089,136 - residual positive tax263,314 - other asset reversal102,562 - intangible impairment reversal3,111 =5,994,615; minus5thousand rounding for10 lines."
+        },
+        "2013": {
+          "lower": 6669361500,
+          "upper": null,
+          "reason": "BRL thousand:10,438,066 - Previ598,311 - surplus968,787 - asset sales84,070 - payables196,116 - investment sales187,700 - other revenue1,118,730 - REFIS289,168 - residual positive tax322,544 - asset reversal3,225 - intangible reversal48 =6,669,367; minus5.5thousand rounding for11 lines."
+        },
+        "2014": {
+          "lower": 7669014500,
+          "upper": null,
+          "reason": "BRL thousand:11,853,096 - Previ1,348,061 - surplus906,727 - asset sales159,769 - payables98,453 - investment sales2,275 - other revenue1,316,072 - residual positive tax349,292 - asset reversal3,428 =7,669,019; minus4.5thousand rounding for9 lines."
+        }
+      },
+      "historical_numerical_proof_NOT_admission": {
+        "ipca_month": "2015-05",
+        "ipca_factors_from_fy_end": {
+          "2010": 1.3381582517694295,
+          "2011": 1.2564499420002362,
+          "2012": 1.1871380668688587,
+          "2013": 1.1208846163118074,
+          "2014": 1.0533875789769491
+        },
+        "annual_real_lower_bounds": {
+          "2012": 7116429727.032729,
+          "2013": 7475584705.97224,
+          "2014": 8078444617.294118
+        },
+        "historical_normalized_profit_lower": 7116429727.032729,
+        "historical_pe_upper_before_CATENO_bridge": 9.776296248850747,
+        "market_cap": 69572325245.6,
+        "gate15_requires_current_perimeter_normalized_profit_at_least": 4638155016.373334
+      },
+      "cateno": {
+        "closed": "2015-02-27",
+        "rights_transferred_value": 11572000000,
+        "BB_direct_stake": 0.3,
+        "BB_effective_stake_ITR": 0.5013,
+        "BB_effective_stake_DFP_initial_disclosure": 0.5005,
+        "cash_for_taxes": 4640951000,
+        "Cielo_debentures_received": 3459449000,
+        "retained_equity": 3471600000,
+        "Q1_BRGAAP_net_gain_NOT_in_FY_window": 3211700000,
+        "known_effect": "New entity now owns rights to manage post-paid payment-account transactions and debit purchasing functions; this is a real economic transfer known before June30. Credit and customer banking franchise remain, but the bank no longer owns100% of these payment rights. Cateno jointly controlled via Cielo, not a newly100%-controlled BB business.",
+        "rejected_shortcuts": [
+          "Do not annualize Q1 gain3.2117bn or feed it into FY2014 profit.",
+          "Do not assume unchanged100% ownership or that business names imply unchanged economics.",
+          "Do not subtract only the old segment Meios de Pagamento profit: original card fees and card-related business also reside in the banking segment (ITRp26).",
+          "Do not infer a constant amortization life or revenue-sharing contract from a post-cut annual report."
+        ],
+        "resolved_bridge": {
+          "historical_gross_card_receipts": {
+            "2011": 2628479000,
+            "2013": 3522484000,
+            "2014": 4550819000
+          },
+          "card_receipts_definition": "Service-fee card revenue plus all separately disclosed other card-operation revenue.2011=2,295.988m+332.490m;2013=3,072.593m+449.890m (take the higher available rounded comparative by1thousand);2014=3,789.885m+760.933m. This includes more than the transferred Ourocard rights, whose exclusions are explicit in Cielo note p3. The deduction50% exceeds the49.87% lost economic stake. Each sum is increased by1thousand to cover the sum of two line-item rounding errors.",
+          "operating_bridge": "For any transferred recurring card revenue R<=all card receipts C and nonnegative associated cost K, lost profit fraction q*(R-K)<=q*R<=0.5*C. Keeping all existing costs and deducting half of the broader gross revenue therefore understates retained recurring profit. No credit for cost transfer, tax savings, synergies, growth, BB interest on the received debentures or disposal proceeds. Distinct new costs must also be subtracted and are handled below.",
+          "intangible_value": 11572000000,
+          "documented_life_years": 30,
+          "annual_linear_amortization": 385733333.3333333,
+          "amortization_deduction": 193540399.99999997,
+          "amortization_conservatism": "BB economic stake is50.13% rounded; use50.14% of the full annual amortization rounded up from385.733333m to386m. Both direct30% and indirect via Cielo are included exactly once. The separately shown100% stress is not used as the attributable expense.",
+          "deal_expense": 7447000,
+          "promissory_issue_costs": 10374000,
+          "fee_treatment": "Deduct100% of7.447m deal costs plus10.374m issuance costs, then add1thousand rounding protection:17.822m from each annual floor. No tax benefit, stake reduction or fee amortization improves the floor.",
+          "financing": {
+            "debtor": "Cielo S.A.; not Cateno",
+            "new_principal": 8059449000,
+            "promissory_principal": 4600000000,
+            "debenture_principal": 3459449000,
+            "documented_BB_stake_Cielo": 0.2875,
+            "conservative_BB_stake_used": 0.2876,
+            "stake_basis": "BB ITR47093 p16 gives28.75% rounded economic ownership. Use28.76%, a whole last reported basis point higher, to avoid understating from rounding. Do not substitute BB50.13% of Cateno.",
+            "maximum_documented_CDI_multiplier_used_for_all_debt": 1.11,
+            "contract_rates": "NP106.50% CDI; debentures100% to111% CDI with transition clauses. Use111% for all8.059449bn principal for a full year, including the short-duration NP. Do not assume principal repayment reduces costs.",
+            "reference_date": "2015-06-26",
+            "daily_CDI_percent": 0.050753,
+            "annual_rate_formula": "(1 + (0.050753/100)*1.11)^252 - 1",
+            "annualized_rate": 0.1524917271304227,
+            "annual_BB_attributable_cost": 353460198.02702093,
+            "reference_source": {
+              "path": "cdi_sgs12_june2015.json",
+              "sha256": "98779f51e28e3d8e6623f0b0c01a495d941ae39334bf864a9af6b1bae94bd1a1",
+              "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.12/dados?formato=json&dataInicial=26/06/2015&dataFinal=29/06/2015"
+            },
+            "scope_limit": "An explicit annualization at the daily reference known before formation. Floating rates and the future refinancing rate are not contractually capped by111% of this fixed reference. The normalized valuation is conditional on the documented cutoff financing reference, not a future-profit guarantee. No future rate, margin or receipt is forecast or credited."
+          },
+          "cutoff_money_new_annual_deduction": 564822598.0270209,
+          "conversion": "Correct historical profit and card receipts by the same FY-end-to-May2015 IPCA factor; then subtract the new costs measured in cutoff money. When storing FY nominal floors, divide new cutoff costs by that FY factor so the engine does not inflate them twice.",
+          "amortization_attributable_stake": 0.5014,
+          "fees_rounded_up": 17822000
+        }
+      },
+      "source_extraction_note": {
+        "source_docid": "45354",
+        "source_group": 412,
+        "received": "2015-03-27",
+        "original_pdf_sha256": "a5f65190ff60b836ad32cd9af30857378bf33878b7d6da1e694748a32b49658e",
+        "original_extracted_pages_sha256": "8678188adaac30dc7e8eec7b66e9d41a8a8f59134938495259e23d6ad7043553",
+        "derived_pages": "review_originals/cvm_45354_g412.decoded.pages.json.gz",
+        "derived_payload_sha256": "15d1c1065931ab6d17160db43cc70e6a48f197f21be19a719d31043a75806a80",
+        "derived_gzip_sha256": "2fe900717ebdced1d788aabfd7b11937e27d1757e7295551adb743ed63785821",
+        "page_count": 302,
+        "method": "Read every embedded font /Encoding /Differences array with pypdf; map each /gNN glyph name to its original WinAnsi source byte decoded as Windows-1252. Replace /gNN tokens in the original extracted page strings. No OCR, guessed numeric offsets or reconstructed financial statements. The sole conflicting glyph is /g3 (space versus control byte 0x01), normalized to space. All other glyph maps agree; no unresolved /gNN tokens remain. One-to-one original PDF page numbering preserved. Original PDF and original extraction are unchanged.",
+        "observed_glyph_conflict_occurrences": 2
+      },
+      "numerical_proof": {
+        "ipca_month": "2015-05",
+        "ipca_factors_from_fy_end": {
+          "2010": 1.3381582517694295,
+          "2011": 1.2564499420002362,
+          "2012": 1.1871380668688587,
+          "2013": 1.1208846163118074,
+          "2014": 1.0533875789769491
+        },
+        "annual_real_lower_bounds_after_all_bridge_costs": {
+          "2011": 5289646740.993892,
+          "2013": 4775487001.283305,
+          "2014": 5116733914.750664
+        },
+        "normalized_profit_lower": 4775487001.283305,
+        "normalized_profit_upper": null,
+        "market_cap": 69572325245.6,
+        "pe_upper": 14.568634618187422,
+        "gate": 15,
+        "threshold_required_profit": 4638155016.373334,
+        "proof": "At least three of five annual observations are at or above their documented positive floors. The median of five therefore cannot be below the smallest of those three, regardless of the two unrestricted years. No observed returns enter this arithmetic.",
+        "binding_year_for_lower_bound": "2013",
+        "binding_real_profit_before_finance": 5128947199.859794,
+        "break_even_BB_attributable_finance_cost_under_gate15": 490792183.48645973,
+        "break_even_annual_rate_on_entire_new_Cielo_principal": 0.2117402415879373,
+        "remaining_profit_margin_above_gate": 137331984.90997124,
+        "separate_stress_with_100pct_amortization": {
+          "annual_real_lower_bounds": {
+            "2011": 5097187141.346195,
+            "2013": 4583027401.832773,
+            "2014": 4924274314.880947
+          },
+          "median_lower": 4583027401.832773,
+          "pe_upper": 15.18042969103299,
+          "interpretation": "This deliberately removes twice the attributable amortization approximately. It does not prove admission. Final documented ownership50.14% resolves the expense allocation; it does not change15/25 or any return-based criterion."
+        }
+      },
+      "bbse_ownership_bridge": {
+        "retained_fraction": 0.6625,
+        "lost_fraction": 0.3375,
+        "scope": "BB Seguridade owns the preexisting insurance, pension, capitalization and brokerage holdings. The IPO retains accounting control but reduces attributable recurring profit; equity treatment of the disposal gain alone did not settle this issue.",
+        "2011": {
+          "segment_managerial_profit": 936221000,
+          "IFRS_segment_adjustment": 767010000,
+          "IFRS_segment_profit": 1703231000,
+          "ownership_deduction_unrounded": 574840462.5,
+          "conservative_deduction": 574841000,
+          "source": "DFP35587 g412 pp35–36 identify the insurance holdings consolidated into BBSE; pp39–43 describe and report the insurance segment; p46 bridges that segment to IFRS. Deduct33.75% of the whole positive IFRS segment profit, including the Mapfre gain already removed from the base, so no removed extraordinary gain is added back."
+        },
+        "2013": {
+          "BBSE_IFRS_profit": 2433643000,
+          "noncontrolling_profit_already_allocated": 677608000,
+          "reported_attributable_profit": 1756035000,
+          "target_attributable_profit": 1612288487.5,
+          "ownership_deduction_unrounded": 143746512.5,
+          "conservative_deduction": 143749000,
+          "source": "DFP45354 g412 p31 directly discloses full BBSE IFRS income and allocated NCI. Additional deduction =33.75% of full-year income minus NCI already allocated. Round up to143.749m, exceeding the worst rounding effect of the two inputs. Do not subtract33.75% twice from the whole year."
+        },
+        "2014": {
+          "additional_deduction": 0,
+          "source": "DFP45354 g412 pp30–31 and35: the entire year already reflects66.25% ownership;3,433.458m full profit and1,158.792m NCI are consistent with the retained share within rounding."
+        },
+        "Cateno_amortization_resolution": "The prior100% amortization stress deduction exceeded BB economic ownership. The final perimeter uses50.14% (rounded upward from50.13% in ITR47093 pp12–16), not100%, while still rounding total annual amortization upward to386m and retaining100% of disclosed fees. This is alignment of expenses with the already-established ownership perimeter, fixed before any new returns; the broader100% amortization stress case is separately retained below."
+      }
+    }
+  ],
+  "limitations": [
+    "No post-June2015 portfolio return inspected. Synthetic allocation cases and fiscal accounting data only.",
+    "Company conclusions apply solely at2015-06-30. Later cutoffs require their own new-information review.",
+    "Banrisul profit proof is complete; no contemporaneous own PNA price means no complete issuer capitalization."
+  ],
+  "incremental_quality_reviews": [
+    {
+      "ticker": "ITUB4",
+      "cnpj": "60872504000123",
+      "cutoff": "2015-06-30",
+      "verdict": "NO_MATERIAL_OBJECTION_TO_SIX_SATISFACTORY_DIMENSIONS",
+      "prior_review": "docs/reviews/adversarial_2014.json",
+      "dimensions": {
+        "durability": {
+          "status": "SATISFACTORY",
+          "reason": "A franquia diversificada anterior continua sustentada por receita de serviços e base de crédito; a integração planejada não é antecipada como fato consumado.",
+          "favorable": "Receitas de serviços de R$7,4 bilhões no 1T15 contra R$6,5 bilhões no 1T14.",
+          "contrary_evidence": "Risco do ciclo brasileiro e de execução de aquisições; não inferir moat apenas pelo porte.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "46366",
+              "group": 192,
+              "pages": [
+                3,
+                6
+              ],
+              "received": "2015-05-05",
+              "original_sha256": "352a53e0725216631c3b2719db2cabff18ee7d3359a1df12bbdd66750717a20b"
+            }
+          ]
+        },
+        "capital_economics": {
+          "status": "SATISFACTORY",
+          "reason": "Retorno positivo é cotejado com custo de crédito e capital efetivo; não usar o P/L barato ou um ROE universal para conceder qualidade.",
+          "favorable": "ROE contábil gerencial/BRGAAP de24,2% no 1T15 e lucro R$5,7 bilhões; inadimplência >90 dias de3,0%, contra3,5% no 1T14.",
+          "contrary_evidence": "Despesa de provisão R$5,5 bilhões contra R$4,2 bilhões (+29,4%); não afirmar redução uniforme do risco com base somente na inadimplência.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "46366",
+              "group": 192,
+              "pages": [
+                3,
+                6
+              ],
+              "received": "2015-05-05",
+              "original_sha256": "352a53e0725216631c3b2719db2cabff18ee7d3359a1df12bbdd66750717a20b"
+            },
+            {
+              "docid": "46366",
+              "group": 193,
+              "pages": [
+                51,
+                127,
+                128,
+                172
+              ],
+              "received": "2015-05-05",
+              "original_sha256": "9053d8dd32494044545a7a884b1d1b52887274e44b088aca19cfb2130382859c"
+            }
+          ]
+        },
+        "earnings_reliability": {
+          "status": "SATISFACTORY",
+          "reason": "As diferenças entre IFRS atribuído, BRGAAP e lucro gerencial são identificáveis; a ponte de valuation e a exposição ao crédito são examinadas separadamente.",
+          "favorable": "DFP explicita alienação ISSC e reconciliações de impostos; o ITR explica os efeitos de hedge fiscal entre margem e imposto.",
+          "contrary_evidence": "O efeito positivo de R$2,6 bilhões na linha fiscal do trimestre não deve ser isolado da contrapartida financeira como lucro recorrente adicional. Os pisos de valuation não são estimativas pontuais de resultado recorrente.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "43750",
+              "group": 412,
+              "pages": [
+                146,
+                148,
+                151
+              ],
+              "received": "2015-02-03",
+              "original_sha256": "82a980ef84cdeb876e50f9ba6efe677c6965b198deb5a4989c31183254b59f6c"
+            },
+            {
+              "docid": "46366",
+              "group": 192,
+              "pages": [
+                3,
+                6
+              ],
+              "received": "2015-05-05",
+              "original_sha256": "352a53e0725216631c3b2719db2cabff18ee7d3359a1df12bbdd66750717a20b"
+            }
+          ]
+        },
+        "financial_resilience": {
+          "status": "SATISFACTORY",
+          "reason": "Há capital prudencial e funding documentados no corte, com riscos de crédito explícitos; não pressupõe apoio ou capital futuro.",
+          "favorable": "PR prudencial R$120,903 bilhões, exigência R$86,773 bilhões e folga R$34,130 bilhões; capital principal R$91,451 bilhões, RWA R$788,844 bilhões, Basileia15,3% e capital principal11,6%; crédito/captação80,1%.",
+          "contrary_evidence": "Rating sob revisão e perspectiva de rating rebaixada em abril são alertas conhecidos. A maior provisão de crédito exige acompanhamento.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "46366",
+              "group": 192,
+              "pages": [
+                3,
+                6
+              ],
+              "received": "2015-05-05",
+              "original_sha256": "352a53e0725216631c3b2719db2cabff18ee7d3359a1df12bbdd66750717a20b"
+            },
+            {
+              "docid": "46366",
+              "group": 193,
+              "pages": [
+                51,
+                127,
+                128,
+                172
+              ],
+              "received": "2015-05-05",
+              "original_sha256": "9053d8dd32494044545a7a884b1d1b52887274e44b088aca19cfb2130382859c"
+            }
+          ]
+        },
+        "capital_allocation": {
+          "status": "SATISFACTORY",
+          "reason": "A tese anterior de retenção, distribuição e negócios comprados permanece sustentável diante do capital disponível; não antecipar resultados da CorpBanca.",
+          "favorable": "Folga prudencial R$34,130 bilhões; bonificação10% aprovada é tratada como mudança de quantidade, sem criação de valor econômico.",
+          "contrary_evidence": "A data econômica exata da bonificação não foi inferida de aviso posterior ao corte; valuation usa capitalização intervalar. Risco de execução das integrações permanece.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "46366",
+              "group": 193,
+              "pages": [
+                51,
+                127,
+                128,
+                172
+              ],
+              "received": "2015-05-05",
+              "original_sha256": "9053d8dd32494044545a7a884b1d1b52887274e44b088aca19cfb2130382859c"
+            }
+          ]
+        },
+        "governance": {
+          "status": "SATISFACTORY",
+          "reason": "Reutiliza os controles e direitos comprovados em2014, após examinar as novas operações e transparência das reconciliações. Não houve nova evidência material que justificasse reclassificação nesta dimensão.",
+          "favorable": "Capital por classes, resultados atribuíveis e reconciliações contábeis divulgados nos documentos do corte.",
+          "contrary_evidence": "Controle concentrado e partes relacionadas continuam conflitos explícitos; afirmação de condições de mercado não é certificação independente de todas as operações.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "46366",
+              "group": 193,
+              "pages": [
+                51,
+                127,
+                128,
+                172
+              ],
+              "received": "2015-05-05",
+              "original_sha256": "9053d8dd32494044545a7a884b1d1b52887274e44b088aca19cfb2130382859c"
+            },
+            {
+              "docid": "43750",
+              "group": 412,
+              "pages": [
+                137,
+                151
+              ],
+              "received": "2015-02-03",
+              "original_sha256": "82a980ef84cdeb876e50f9ba6efe677c6965b198deb5a4989c31183254b59f6c"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "ticker": "BRSR6",
+      "cnpj": "92702067000196",
+      "cutoff": "2015-06-30",
+      "verdict": "THREE_SATISFACTORY_THREE_SPECIFIC_INDETERMINATE_RETAINED",
+      "prior_review": "docs/reviews/adversarial_2014.json",
+      "dimensions": {
+        "durability": {
+          "status": "SATISFACTORY",
+          "reason": "A base regional e os canais mantêm demanda e acesso a funding; há evidência concreta além do controle estatal.",
+          "favorable": "Depósitos R$34,6951 bilhões (+12,8% anual), crédito R$31,027 bilhões e volume Vero R$4,3792 bilhões (+44,4%); convênio de folha de2012 tem prazo de cinco anos.",
+          "contrary_evidence": "Concentração no Rio Grande do Sul, exposição ao setor público e custos de manutenção da rede; não presumir renovação perpétua do convênio.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "47021",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                10,
+                11
+              ],
+              "received": "2015-05-13",
+              "original_sha256": "437977eeaf6efc98badca485d17cff2c5d0fd3ca7263e7ed33c56489c64e1ace"
+            },
+            {
+              "docid": "47021",
+              "group": 193,
+              "pages": [
+                36,
+                37,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63
+              ],
+              "received": "2015-05-13",
+              "original_sha256": "d387202a055f025291a188ee8a0fcf0bd1c6cad701a4fa3270ea63716134c266"
+            }
+          ]
+        },
+        "capital_economics": {
+          "status": "INDETERMINATE",
+          "reason": "A melhora do lucro contábil e o capital regulatório suficiente não provam retorno econômico normalizado satisfatório do capital sob aumento de risco.",
+          "favorable": "Lucro BRGAAP1T15 R$147,0 milhões, positivo; ROAE anualizado10,7%.",
+          "contrary_evidence": "A provisão de crédito cresceu deR$196,396 milhões paraR$404,620 milhões; carteira cresceu13,9% anual. O lucro2014 contém recebimento antecipado Icatu e efeitos previdenciários, retirados dos limites de valuation.",
+          "missing": "Retorno econômico por carteira e capital requerido após a expansão, sem converter o recebimento de exclusividade de20 anos em lucro anual recorrente.",
+          "evidence": [
+            {
+              "docid": "47021",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                10,
+                11
+              ],
+              "received": "2015-05-13",
+              "original_sha256": "437977eeaf6efc98badca485d17cff2c5d0fd3ca7263e7ed33c56489c64e1ace"
+            },
+            {
+              "docid": "47021",
+              "group": 193,
+              "pages": [
+                36,
+                37,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63
+              ],
+              "received": "2015-05-13",
+              "original_sha256": "d387202a055f025291a188ee8a0fcf0bd1c6cad701a4fa3270ea63716134c266"
+            },
+            {
+              "docid": "44817",
+              "group": 412,
+              "pages": [
+                40,
+                57,
+                61,
+                62,
+                112
+              ],
+              "received": "2015-03-06",
+              "original_sha256": "05d6383e9f3b3c45a03ece0eff74fd72f2c2380edf11fc9dc57511f8c255be9d"
+            }
+          ]
+        },
+        "earnings_reliability": {
+          "status": "SATISFACTORY",
+          "reason": "A conciliação IFRS/BRGAAP, os itens extraordinários e provisões são divulgados e foram efetivamente separados; manter a despesa real de crédito.",
+          "favorable": "IFRS atribuível2014 R$620,654 milhões reconciliado nas notas; custo de migração previdenciária e PAI não são adicionados de volta ao piso.",
+          "contrary_evidence": "A série gerencial ajustada não substitui a IFRS. O piso amplo de lucro mostra incerteza de magnitude, e não fraude ou indício automático de demonstrações não confiáveis.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "44817",
+              "group": 412,
+              "pages": [
+                40,
+                57,
+                61,
+                62,
+                112
+              ],
+              "received": "2015-03-06",
+              "original_sha256": "05d6383e9f3b3c45a03ece0eff74fd72f2c2380edf11fc9dc57511f8c255be9d"
+            },
+            {
+              "docid": "47021",
+              "group": 193,
+              "pages": [
+                36,
+                37,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63
+              ],
+              "received": "2015-05-13",
+              "original_sha256": "d387202a055f025291a188ee8a0fcf0bd1c6cad701a4fa3270ea63716134c266"
+            }
+          ]
+        },
+        "financial_resilience": {
+          "status": "SATISFACTORY",
+          "reason": "O novo perímetro prudencial tem folgas de capital documentadas, sem projetar capitalização estatal.",
+          "favorable": "PR R$6,927654 bilhões, capital principal R$5,684051 bilhões, RWA R$40,787506 bilhões; Basileia16,98%, principal13,94% e margem incluindo RBAN R$1,649820 bilhão.",
+          "contrary_evidence": "Desde janeiro2015 o prudencial inclui cartões e consórcios. Não comparar diretamente com a antiga série financeira17,1%/14,0%, nem ignorar o faseamento de subordinadas.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "47021",
+              "group": 193,
+              "pages": [
+                36,
+                37,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63
+              ],
+              "received": "2015-05-13",
+              "original_sha256": "d387202a055f025291a188ee8a0fcf0bd1c6cad701a4fa3270ea63716134c266"
+            },
+            {
+              "docid": "47021",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                10,
+                11
+              ],
+              "received": "2015-05-13",
+              "original_sha256": "437977eeaf6efc98badca485d17cff2c5d0fd3ca7263e7ed33c56489c64e1ace"
+            }
+          ]
+        },
+        "capital_allocation": {
+          "status": "INDETERMINATE",
+          "reason": "Distribuição e investimento existem, mas a operação Icatu e a expansão do consignado não demonstram por si o retorno do novo capital.",
+          "favorable": "R$77,0 milhões distribuídos/JCP e R$70,0 milhões retidos no trimestre; investimentos tecnológicos R$78,6 milhões.",
+          "contrary_evidence": "Crédito via correspondentes e operações adquiridas cresce; a operação seguradora ainda estava em constituição, apesar das autorizações.",
+          "missing": "Economia incremental da parceria Icatu e da expansão do consignado, considerando os custos e riscos reconhecidos.",
+          "evidence": [
+            {
+              "docid": "47021",
+              "group": 192,
+              "pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                10,
+                11
+              ],
+              "received": "2015-05-13",
+              "original_sha256": "437977eeaf6efc98badca485d17cff2c5d0fd3ca7263e7ed33c56489c64e1ace"
+            },
+            {
+              "docid": "47021",
+              "group": 193,
+              "pages": [
+                36,
+                37,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63
+              ],
+              "received": "2015-05-13",
+              "original_sha256": "d387202a055f025291a188ee8a0fcf0bd1c6cad701a4fa3270ea63716134c266"
+            }
+          ]
+        },
+        "governance": {
+          "status": "INDETERMINATE",
+          "reason": "Há contraprestação documentada no convênio; não tratar serviços gratuitos isolados como prova de abuso. Ainda não há avaliação suficiente do equilíbrio econômico do conjunto para elevar esta dimensão.",
+          "favorable": "Exclusividade de folha e canal de consignado por cinco anos em troca de serviços; transações remuneradas dizem seguir mercado, captações do Estado pagam100% Selic e cessões de funcionários são ressarcidas.",
+          "contrary_evidence": "Serviços de arrecadação, programas sociais, SIAC e pregão eletrônico ao controlador sem remuneração direta; conflitos materiais estão explicitados e não resolvidos apenas pela existência de comitês.",
+          "missing": "Equilíbrio econômico e proteção de minoritários no pacote de reciprocidades com o controlador, não a mera existência de controle estatal.",
+          "evidence": [
+            {
+              "docid": "47021",
+              "group": 193,
+              "pages": [
+                36,
+                37,
+                58,
+                59,
+                60,
+                61,
+                62,
+                63
+              ],
+              "received": "2015-05-13",
+              "original_sha256": "d387202a055f025291a188ee8a0fcf0bd1c6cad701a4fa3270ea63716134c266"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "ticker": "BBAS3",
+      "cnpj": "00000000000191",
+      "cutoff": "2015-06-30",
+      "verdict": "THREE_SATISFACTORY_THREE_SPECIFIC_INDETERMINATE_RETAINED",
+      "prior_review": "docs/reviews/adversarial_2014.json",
+      "dimensions": {
+        "durability": {
+          "status": "SATISFACTORY",
+          "reason": "A rede bancária, funding e distribuição permanecem; as cessões parciais BBSE/Cateno mudam a participação nos resultados, sem eliminar a franquia.",
+          "favorable": "Carteira BRGAAP consolidada R$700,824805 bilhões, participação BBSE66,25% e participação econômica Cateno50,13%.",
+          "contrary_evidence": "Dependência de políticas públicas e ciclo de crédito; retenção de controle contábil não significa retenção de100% dos lucros.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "47093",
+              "group": 193,
+              "pages": [
+                12,
+                13,
+                16,
+                26,
+                27,
+                44,
+                45,
+                46,
+                47,
+                77,
+                78,
+                86,
+                87,
+                114,
+                115,
+                116
+              ],
+              "received": "2015-05-14",
+              "original_sha256": "a7dad351caf0987e5860a039c0e05bf74f93ce610dc49fc133c4e91b96e2869b"
+            },
+            {
+              "docid": "45354",
+              "group": 412,
+              "pages": [
+                30,
+                31,
+                35,
+                48,
+                49,
+                50,
+                73,
+                87,
+                94
+              ],
+              "received": "2015-03-27",
+              "original_sha256": "a5f65190ff60b836ad32cd9af30857378bf33878b7d6da1e694748a32b49658e"
+            }
+          ]
+        },
+        "capital_economics": {
+          "status": "INDETERMINATE",
+          "reason": "A ponte limitada de lucro sustenta um preço até15 na referência declarada, mas não prova retorno ajustado ao risco do capital e dos novos compromissos.",
+          "favorable": "Três exercícios têm pisos econômicos positivos após os ajustes BBSE/Cateno; há lucro bancário recorrente substancial.",
+          "contrary_evidence": "Curso anormal sobe deR$21,794404 bilhões em dezembro paraR$28,113734 bilhões em março; não chamar esse saldo de inadimplência90dias. Cateno introduz amortização e financiamento flutuante que foram explicitamente custeados no valuation.",
+          "missing": "Retorno ajustado ao risco das carteiras e das novas participações sobre o capital necessário; preço baixo e piso conservador não substituem essa prova.",
+          "evidence": [
+            {
+              "docid": "47093",
+              "group": 193,
+              "pages": [
+                12,
+                13,
+                16,
+                26,
+                27,
+                44,
+                45,
+                46,
+                47,
+                77,
+                78,
+                86,
+                87,
+                114,
+                115,
+                116
+              ],
+              "received": "2015-05-14",
+              "original_sha256": "a7dad351caf0987e5860a039c0e05bf74f93ce610dc49fc133c4e91b96e2869b"
+            },
+            {
+              "docid": "45354",
+              "group": 412,
+              "pages": [
+                30,
+                31,
+                35,
+                48,
+                49,
+                50,
+                73,
+                87,
+                94
+              ],
+              "received": "2015-03-27",
+              "original_sha256": "a5f65190ff60b836ad32cd9af30857378bf33878b7d6da1e694748a32b49658e"
+            },
+            {
+              "docid": "46190",
+              "group": 193,
+              "pages": [
+                22,
+                24,
+                26,
+                27
+              ],
+              "received": "2015-04-29",
+              "original_sha256": "279458ff838442842b31261a55ef9cb2f5cb659fdf235f1edeebc47b928a39c7"
+            }
+          ]
+        },
+        "earnings_reliability": {
+          "status": "SATISFACTORY",
+          "reason": "Os documentos permitem reconciliar a atribuição IFRS, o IPO patrimonial e o ganho de Cateno. Houve trabalho efetivo sobre as discrepâncias, sem usar o pico BRGAAP como lucro econômico.",
+          "favorable": "DFPIFRS atribuído2012/13/14 R$11,245922/10,438066/11,853096 bilhões; ganho líquido Cateno1T15 deR$3,2117 bilhões é separado e não anualizado nem incluído em2014.",
+          "contrary_evidence": "Previ, reversões, ganhos fiscais e operações societárias são materiais. O intervalo não certifica um lucro recorrente pontual e a normalização de financiamento usa taxa conhecida, sem prometer juros futuros.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "47093",
+              "group": 193,
+              "pages": [
+                12,
+                13,
+                16,
+                26,
+                27,
+                44,
+                45,
+                46,
+                47,
+                77,
+                78,
+                86,
+                87,
+                114,
+                115,
+                116
+              ],
+              "received": "2015-05-14",
+              "original_sha256": "a7dad351caf0987e5860a039c0e05bf74f93ce610dc49fc133c4e91b96e2869b"
+            },
+            {
+              "docid": "45354",
+              "group": 412,
+              "pages": [
+                30,
+                31,
+                35,
+                48,
+                49,
+                50,
+                73,
+                87,
+                94
+              ],
+              "received": "2015-03-27",
+              "original_sha256": "a5f65190ff60b836ad32cd9af30857378bf33878b7d6da1e694748a32b49658e"
+            }
+          ]
+        },
+        "financial_resilience": {
+          "status": "SATISFACTORY",
+          "reason": "Há solvência regulatória atual demonstrada e supervisão do capital, com sua composição explicitada.",
+          "favorable": "No perímetro prudencial: PR R$128,704988 bilhões, RWA R$803,429615 bilhões, exigência R$88,377258 bilhões e folga R$40,327730 bilhões; Basileia16,02%, principal8,68%, nívelI11,36%.",
+          "contrary_evidence": "O principal incluiR$8,1 bilhões de instrumento híbrido do Tesouro reclassificado em agosto2014; não chamar tudo de ações ordinárias. Além disso, subordinadas e híbridos antigos têm faseamento. A série financeira paralela15,96%/8,60% tem outro perímetro.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "47093",
+              "group": 193,
+              "pages": [
+                12,
+                13,
+                16,
+                26,
+                27,
+                44,
+                45,
+                46,
+                47,
+                77,
+                78,
+                86,
+                87,
+                114,
+                115,
+                116
+              ],
+              "received": "2015-05-14",
+              "original_sha256": "a7dad351caf0987e5860a039c0e05bf74f93ce610dc49fc133c4e91b96e2869b"
+            }
+          ]
+        },
+        "capital_allocation": {
+          "status": "INDETERMINATE",
+          "reason": "BBSE e Cateno têm racional e contraprestação documentados, mas o intervalo de valuation não prova criação de valor do capital incremental.",
+          "favorable": "Cateno recebe ativos avaliados por laudo e entrega caixa para tributos, debêntures e participação retida; BBSE mantém66,25%.",
+          "contrary_evidence": "A parceria monetiza direitos e reduz exposição futura aos lucros; o ganho contábil não atesta retorno econômico. Novos custos conhecidos foram cobrados no piso.",
+          "missing": "Retorno ajustado ao risco sobre capital empregado nas carteiras em expansão e nas novas estruturas, sem anualizar alienações.",
+          "evidence": [
+            {
+              "docid": "47093",
+              "group": 193,
+              "pages": [
+                12,
+                13,
+                16,
+                26,
+                27,
+                44,
+                45,
+                46,
+                47,
+                77,
+                78,
+                86,
+                87,
+                114,
+                115,
+                116
+              ],
+              "received": "2015-05-14",
+              "original_sha256": "a7dad351caf0987e5860a039c0e05bf74f93ce610dc49fc133c4e91b96e2869b"
+            },
+            {
+              "docid": "45354",
+              "group": 412,
+              "pages": [
+                30,
+                31,
+                35,
+                48,
+                49,
+                50,
+                73,
+                87,
+                94
+              ],
+              "received": "2015-03-27",
+              "original_sha256": "a5f65190ff60b836ad32cd9af30857378bf33878b7d6da1e694748a32b49658e"
+            },
+            {
+              "docid": "46190",
+              "group": 193,
+              "pages": [
+                3,
+                22,
+                24,
+                26,
+                27,
+                39
+              ],
+              "received": "2015-04-29",
+              "original_sha256": "279458ff838442842b31261a55ef9cb2f5cb659fdf235f1edeebc47b928a39c7"
+            }
+          ]
+        },
+        "governance": {
+          "status": "INDETERMINATE",
+          "reason": "A transparência de partes relacionadas e de estruturas de capital é favorável, mas não liquida a avaliação de comutatividade sob controle da União.",
+          "favorable": "União detém57,9% do capital; operações com controlador, condições de instrumentos e governança de riscos são detalhadas nas notas.",
+          "contrary_evidence": "Direcionamento de crédito, alongamento rural, equalização e instrumentos híbridos com controlador são relações economicamente materiais. Não acusar irregularidade por controle estatal, nem aprovar apenas por comitês.",
+          "missing": "Avaliação econômica das obrigações e contrapartidas materiais com controlador e proteção dos minoritários.",
+          "evidence": [
+            {
+              "docid": "47093",
+              "group": 193,
+              "pages": [
+                12,
+                13,
+                16,
+                26,
+                27,
+                44,
+                45,
+                46,
+                47,
+                77,
+                78,
+                86,
+                87,
+                114,
+                115,
+                116
+              ],
+              "received": "2015-05-14",
+              "original_sha256": "a7dad351caf0987e5860a039c0e05bf74f93ce610dc49fc133c4e91b96e2869b"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "ticker": "ABCB4",
+      "cnpj": "28195667000106",
+      "cutoff": "2015-06-30",
+      "verdict": "NO_MATERIAL_OBJECTION_TO_SIX_SATISFACTORY_DIMENSIONS",
+      "prior_review": "docs/reviews/adversarial_2014.json",
+      "dimensions": {
+        "durability": {
+          "status": "SATISFACTORY",
+          "reason": "A franquia corporate/middle continua operando com escala e receita, reutilizando o dossiê anterior.",
+          "favorable": "Crédito incluindo garantias R$19,907 bilhões contraR$17,410 bilhões no1T14.",
+          "contrary_evidence": "Concentração empresarial e sensibilidade ao ciclo de crédito.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "46642",
+              "group": 192,
+              "pages": [
+                1,
+                2
+              ],
+              "received": "2015-05-08",
+              "original_sha256": "e06f00ce129bd3ddaf81159c3640405e34d839e6021272352be9755cb31f0c52"
+            }
+          ]
+        },
+        "capital_economics": {
+          "status": "SATISFACTORY",
+          "reason": "Retorno e custo de risco são avaliados conjuntamente, sem usar um ROE mínimo universal.",
+          "favorable": "LucroBRGAAP1T15 R$80,3 milhões eROAE14,5%.",
+          "contrary_evidence": "AA–C95,5% contra96,5% em dezembro e97,1% no1T14; PDD/carteira2,4% contra2,0% e1,9%. Há deterioração, não uma afirmação de risco estável.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "46642",
+              "group": 192,
+              "pages": [
+                1,
+                2
+              ],
+              "received": "2015-05-08",
+              "original_sha256": "e06f00ce129bd3ddaf81159c3640405e34d839e6021272352be9755cb31f0c52"
+            }
+          ]
+        },
+        "earnings_reliability": {
+          "status": "SATISFACTORY",
+          "reason": "O crescimento do crédito é acompanhado das provisões e das notas; a conciliação IFRS anterior é preservada.",
+          "favorable": "Lucro e classes de risco divulgados conjuntamente.",
+          "contrary_evidence": "Lucratividade de um trimestre e ratings de crédito não asseguram perdas futuras; não adicionar PDD de volta.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "46642",
+              "group": 192,
+              "pages": [
+                1,
+                2
+              ],
+              "received": "2015-05-08",
+              "original_sha256": "e06f00ce129bd3ddaf81159c3640405e34d839e6021272352be9755cb31f0c52"
+            },
+            {
+              "docid": "46642",
+              "group": 193,
+              "pages": [
+                42,
+                43,
+                50
+              ],
+              "received": "2015-05-08",
+              "original_sha256": "ef673969f8b6f84018425a23c7ea663e7b034985229b7a6e17e277dbfde7f1b7"
+            }
+          ]
+        },
+        "financial_resilience": {
+          "status": "SATISFACTORY",
+          "reason": "A capitalização presente tem folga explícita e não depende de aporte presumido do controlador.",
+          "favorable": "PR R$2,933002 bilhões, mínimoR$2,275525 bilhões, excessoR$657,477 milhões.",
+          "contrary_evidence": "Basileia14,18% financeiro e14,05% econômico são séries distintas; acompanhar aumento de risco e necessidade de capital.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "46642",
+              "group": 193,
+              "pages": [
+                42,
+                43,
+                50
+              ],
+              "received": "2015-05-08",
+              "original_sha256": "ef673969f8b6f84018425a23c7ea663e7b034985229b7a6e17e277dbfde7f1b7"
+            }
+          ]
+        },
+        "capital_allocation": {
+          "status": "SATISFACTORY",
+          "reason": "A alocação empresarial já examinada mantém retorno positivo com provisões e capital disponíveis.",
+          "favorable": "Crescimento de crédito financiado com capital regulatório excedente documentado.",
+          "contrary_evidence": "Crescimento não prova alto retorno incremental; classificação satisfatória não é reinvestidora de qualidade elevada.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "46642",
+              "group": 192,
+              "pages": [
+                1,
+                2
+              ],
+              "received": "2015-05-08",
+              "original_sha256": "e06f00ce129bd3ddaf81159c3640405e34d839e6021272352be9755cb31f0c52"
+            },
+            {
+              "docid": "46642",
+              "group": 193,
+              "pages": [
+                42,
+                43,
+                50
+              ],
+              "received": "2015-05-08",
+              "original_sha256": "ef673969f8b6f84018425a23c7ea663e7b034985229b7a6e17e277dbfde7f1b7"
+            }
+          ]
+        },
+        "governance": {
+          "status": "SATISFACTORY",
+          "reason": "Controles anteriores permanecem e os vínculos materiais estão divulgados, sem aprovação automática por segmento de listagem.",
+          "favorable": "Pelo menos50% da remuneração variável diferida em ações e ajustável a resultados/erros; operações relacionadas são itemizadas.",
+          "contrary_evidence": "Depósitos do controlador R$258,980 milhões e empréstimo R$132,980 milhões; a afirmação de mercado é da administração.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "46642",
+              "group": 193,
+              "pages": [
+                42,
+                43,
+                50
+              ],
+              "received": "2015-05-08",
+              "original_sha256": "ef673969f8b6f84018425a23c7ea663e7b034985229b7a6e17e277dbfde7f1b7"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "ticker": "BBDC4",
+      "cnpj": "60746948000112",
+      "cutoff": "2015-06-30",
+      "verdict": "NO_MATERIAL_OBJECTION_TO_SIX_SATISFACTORY_DIMENSIONS",
+      "prior_review": "docs/reviews/adversarial_2014.json",
+      "dimensions": {
+        "durability": {
+          "status": "SATISFACTORY",
+          "reason": "A franquia bancária/seguros e a distribuição anteriores continuam sustentadas pelo novo trimestre.",
+          "favorable": "LucroBRGAAP/gerencial R$4,244 bilhões ePLR$83,937 bilhões.",
+          "contrary_evidence": "Escala não elimina competição e risco de crédito.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "46191",
+              "group": 192,
+              "pages": [
+                1,
+                2
+              ],
+              "received": "2015-04-29",
+              "original_sha256": "490b332e1dfcd58dbe57a8fdf2b5beedeee741570947666c9399913c45ffed1a"
+            }
+          ]
+        },
+        "capital_economics": {
+          "status": "SATISFACTORY",
+          "reason": "Resultado e capital são confrontados com a deterioração observada da carteira.",
+          "favorable": "ROEreportado22,1%; banco múltiplo individual tem provisõesR$18,847083 bilhões contra mínimoR$15,404735 bilhões.",
+          "contrary_evidence": "No banco individual, curso anormal sobeR$16,493184→19,278153 bilhões. Parcela vencida totalR$7,506638 bilhões não é inadimplência90dias e inclui salto em1–14dias.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "46191",
+              "group": 192,
+              "pages": [
+                1,
+                2
+              ],
+              "received": "2015-04-29",
+              "original_sha256": "490b332e1dfcd58dbe57a8fdf2b5beedeee741570947666c9399913c45ffed1a"
+            },
+            {
+              "docid": "46191",
+              "group": 193,
+              "pages": [
+                39,
+                40
+              ],
+              "received": "2015-04-29",
+              "original_sha256": "714b700660b9e53ed6d816ba3cb03dfde9493fbf4c12c8da414f0896538d0546"
+            }
+          ]
+        },
+        "earnings_reliability": {
+          "status": "SATISFACTORY",
+          "reason": "Reutiliza a ponte IFRS e a avaliação de provisões, distinguindo banco individual e conglomerado.",
+          "favorable": "Excesso de provisão individualR$3,442348 bilhões é demonstrado, incluindo regras para garantias.",
+          "contrary_evidence": "O excesso cai ligeiramente deR$3,469949 bilhões e não demonstra sozinho suficiência em cenários futuros; não somar carteiras de perímetros diferentes.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "46191",
+              "group": 193,
+              "pages": [
+                39,
+                40
+              ],
+              "received": "2015-04-29",
+              "original_sha256": "714b700660b9e53ed6d816ba3cb03dfde9493fbf4c12c8da414f0896538d0546"
+            }
+          ]
+        },
+        "financial_resilience": {
+          "status": "SATISFACTORY",
+          "reason": "A folga de capital atual permanece demonstrada.",
+          "favorable": "Basileia15,6% ante exigência11%; distribuiçãoJCPR$1,494 bilhão diante do lucro trimestral.",
+          "contrary_evidence": "Imobilização47,9% prudencial e49,8% financeira ficam próximas do limite50%; preservar os rótulos de cada perímetro.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "46191",
+              "group": 192,
+              "pages": [
+                1,
+                2
+              ],
+              "received": "2015-04-29",
+              "original_sha256": "490b332e1dfcd58dbe57a8fdf2b5beedeee741570947666c9399913c45ffed1a"
+            }
+          ]
+        },
+        "capital_allocation": {
+          "status": "SATISFACTORY",
+          "reason": "A política anterior é revisitada frente à distribuição e capital, sem inferir valor econômico da bonificação.",
+          "favorable": "Bonificação20% aprovada10março e homologada17março é evento de quantidade; lucro retido e capital são divulgados.",
+          "contrary_evidence": "Não tratar bonificação como rendimento e não inferir alto retorno incremental pelo ROE do trimestre.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "46191",
+              "group": 192,
+              "pages": [
+                1,
+                2
+              ],
+              "received": "2015-04-29",
+              "original_sha256": "490b332e1dfcd58dbe57a8fdf2b5beedeee741570947666c9399913c45ffed1a"
+            }
+          ]
+        },
+        "governance": {
+          "status": "SATISFACTORY",
+          "reason": "Mantém os direitos e controles comprovados em2014 após examinar a continuidade contábil e os atos de capital.",
+          "favorable": "Notas e relatório mantêm segregação de perímetros, transparência da distribuição e homologação de capital.",
+          "contrary_evidence": "Controle concentrado e relações com partes relacionadas permanecem riscos descritos no dossiê anterior; não é aprovação QUALIFIED_HIGH.",
+          "missing": "",
+          "evidence": [
+            {
+              "docid": "46191",
+              "group": 192,
+              "pages": [
+                1,
+                2
+              ],
+              "received": "2015-04-29",
+              "original_sha256": "490b332e1dfcd58dbe57a8fdf2b5beedeee741570947666c9399913c45ffed1a"
+            },
+            {
+              "docid": "46191",
+              "group": 193,
+              "pages": [
+                39,
+                40
+              ],
+              "received": "2015-04-29",
+              "original_sha256": "714b700660b9e53ed6d816ba3cb03dfde9493fbf4c12c8da414f0896538d0546"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "critical_reinvestment_reviews": [
+    {
+      "ticker": "TIMP3",
+      "cutoff": "2015-06-30",
+      "verdict": "NO_OBJECTION_TO_PREMIUM_REJECTION_BY_ROIC",
+      "annual_recalculation": [
+        {
+          "year": 2012,
+          "nopat": 1563192094.9161358,
+          "average_capital": 13570792500.0,
+          "roic": 0.11518797409334317
+        },
+        {
+          "year": 2013,
+          "nopat": 1718978618.5830321,
+          "average_capital": 14084349500.0,
+          "roic": 0.12204884709677448
+        },
+        {
+          "year": 2014,
+          "nopat": 1752878334.0596108,
+          "average_capital": 15774727000.0,
+          "roic": 0.11111940853617377
+        }
+      ],
+      "median_roic": 0.11518797409334317,
+      "hurdle": 0.1447309,
+      "reason": "A mediana11,5187974% é inferior ao IPCA conhecido mais6p.p. Os arrendamentos financeiros2013/14 estão incluídos uma única vez em interest_debt; goodwill/licenças/ativos em construção não são excluídos para inflar retorno. Reclassificar obrigações de700MHz como dívida elevaria capital2014 e reduziria um ROIC já inferior à mediana, preservando a rejeição. Nem o caixa da alienação de torres deabril2015 nem parcelas futuras entram como lucro recorrente FY2010–14.",
+      "evidence": [
+        {
+          "docid": "34545",
+          "group": 412,
+          "pages": [
+            27,
+            30,
+            76
+          ],
+          "received": "2014-02-13",
+          "original_sha256": "156496399624cf2801d00a75d761378e5be1842d613d92d01fc66e648b81a95f"
+        },
+        {
+          "docid": "44085",
+          "group": 412,
+          "pages": [
+            30,
+            31,
+            33,
+            68
+          ],
+          "received": "2015-02-13",
+          "original_sha256": "1da4f1ebfe69c262efd1015e06f40d9014166350f8246a1fec8b0ee17d8d74db"
+        },
+        {
+          "docid": "44085",
+          "group": 1653,
+          "pages": [
+            30,
+            31
+          ],
+          "received": "2015-02-13",
+          "original_sha256": "2b39adecf041f47b6b424a2b649d4047f4584b2c1fca81e73a243e5ed6447264"
+        }
+      ]
+    },
+    {
+      "ticker": "PSSA3",
+      "cutoff": "2015-06-30",
+      "verdict": "NO_OBJECTION_TO_PREMIUM_REJECTION_BY_ADJUSTED_ROE_NOT_RAW_EPS",
+      "reason": "A objeção ao uso de CAGR bruto foi resolvida:2,90535% reportado e3,45167% após retirar o benefício fiscal2010 de13,058m são diagnósticos, não prova final de LPA normalizado. A reprovação é independente: ROE2012≈13,9771% e2013 ajustado≈13,7208%, ambos inferiores ao hurdle14,47309%; duas observações inferiores bastam para limitar a mediana de três, qualquer que seja2014. Arredondamentos favoráveis ao emissor não mudam a desigualdade. A classificação VQ satisfatória não usa o hurdle de VVAL como veto universal.",
+      "endpoint_tax_benefit": 13058000,
+      "reported_growth": 0.029053505949908187,
+      "tax_adjusted_growth_diagnostic": 0.03451667179722362,
+      "roe2012": 0.13977536832836768,
+      "roe2013_adjusted": 0.1372080550002438,
+      "hurdle": 0.1447309,
+      "evidence": [
+        {
+          "docid": "14549",
+          "group": 412,
+          "pages": [
+            59,
+            60,
+            62,
+            93
+          ],
+          "received": "2012-02-27",
+          "original_sha256": "7ec805d492f4501b20e63ceb4b9dd26e9bae41a8f51836e2495dced84e851b2d"
+        },
+        {
+          "docid": "44245",
+          "group": 1653,
+          "pages": [
+            4
+          ],
+          "received": "2015-02-25",
+          "original_sha256": "c6ffc15145b124f4265e329a0f90edadaf5eb1b3e9b088109437ba5ba2f2ac49"
+        },
+        {
+          "docid": "34786",
+          "group": 1653,
+          "pages": [
+            12,
+            13
+          ],
+          "received": "2014-02-25",
+          "original_sha256": "90a9956db1eb42d428715c71b8a1d0b512318695b406f5f6a951b6cd536e2777"
+        },
+        {
+          "docid": "44245",
+          "group": 412,
+          "pages": [
+            80
+          ],
+          "received": "2015-02-25",
+          "original_sha256": "9ba75c587f465ed554ff1a6a158b306a5dff53a320d4cf160eebbd28a49b9d1c"
+        }
+      ]
+    }
+  ],
+  "conclusion_before_new_returns": {
+    "phase": "documentary review complete for the requested banks and critical reinvestment cases at2015 formation",
+    "new_returns_observed": false,
+    "VVAL": "ITUB bounded admission and BBAS bounded admission have no remaining material documentary objection under their explicitly recorded capital/financing-reference assumptions. BRSR remains indeterminate due to a nonzero PNA class without own contemporaneous cutoff price. TIM and PSSA cannot receive the15–25 premium because an independently established cumulative return-on-capital condition fails.",
+    "VQ": "No material objection to six SAT classifications for ITUB, ABCB and BBDC after the updates above. BBAS/BRSR retain three SAT and three specific ND; valuation proof does not automatically approve quality.",
+    "preservation": "Approved2014 review and V0/V10 selections/results were not changed. No post-June2015 portfolio returns were read. The prior2014 documentary evidence was reused as authorized. Main economic_reviews_2015.json belongs to the parent and was not edited here.",
+    "remaining_scope": "This independent update is not a blanket certification of all other issuers or later cutoffs. Banking risks and financing rates require renewed review when materially changed; do not extrapolate these verdicts through2026."
+  },
+  "verification": {
+    "documentary_references_checked": 72,
+    "all_references_received_by_cutoff": true,
+    "all_pages_within_archived_originals": true,
+    "approved_2014_review_hash_preserved": true,
+    "TIM_ROIC_recalculated_independently": true,
+    "BBAS_median_bound_recalculated_independently": true,
+    "post_cutoff_portfolio_returns_read": false
+  }
+}

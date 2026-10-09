@@ -1,0 +1,99 @@
+{
+  "formation_year": 2017,
+  "cutoff": "2017-06-30",
+  "decision_commit": "2986ca2f81380d2f41b0dea25f5c6d0d7c290050",
+  "files": [
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/economic_reviews.json",
+      "sha256": "99f09b4330bf196704b82c19ef4ea9ad0b4f8cdd1a8900cea3e279ae57505922"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/fundamental_decisions.json",
+      "sha256": "bc28130f60f161271b15d13d4bad6df0fb80888a7a4854dcfdae2239bbeaecba"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/fundamental_decisions_lock.json",
+      "sha256": "fe478b77e49203597009dea4a6afe437ae445ea598dac257257d8845f8650347"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_original_sources.json",
+      "sha256": "1dd076626d4aaa5bae0e7f6ea05a47c43ceb0a1ae975e92a03aa4736768acf92"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/funding_policy_2015.json",
+      "sha256": "f7f95d5a86a91ebb6df3ac933ae29c9ce0faa0304c55011d50ea82b9bc45ee40"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/cvm_directed_extract.json.gz",
+      "sha256": "58a63d2709f49de09e1ad238344bf3fbb1d79a9697e8ee709d8e7df48091c6e7"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/ipca_sgs433.json",
+      "sha256": "d538119d8a84569b60d9c3ff535a00a5fe21fea10c25feddb84c92e702023abc"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/ipca_availability.json",
+      "sha256": "9ff50cf76d3888b82533aa34a1df03f6df4de7b8a008dc2e8909f9ed0217f80f"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/review_progress.json",
+      "sha256": "f00be6c08800767a11be6a81781f89748f928ba72fb9b1de8ed71e416dd90e69"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/economic_reviews_2015.json",
+      "sha256": "c6fcad8ac230c7a10afbeeb5a49c64142c01102a4cd49e80a20c89609bdedce5"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/economic_reviews_2016.json",
+      "sha256": "72efced6b70faa57072a5a771a8643c74e8d585cf7c455d92a2fe069af852a9d"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/economic_reviews_2017.json",
+      "sha256": "2aa9e0ade7e059baaa0a8dcb39435d05211098eb5fedc4e77bdb29921c1112fd"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/ipc_fipe_availability_2017.json",
+      "sha256": "f82ccbf348d066f24a7413e544d36de406a29c5c3e33d2eacb04b4998f6139ea"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/ipc_fipe_sgs193_january_may2017.json",
+      "sha256": "6776569759b134162ebdc53289e7304209a9b8e5c7449a9913f1439b8e670f19"
+    },
+    {
+      "path": "research/b00s_four_variants_2014_2026/inputs/ipc_fipe_sgs193_june2016_may2017.json",
+      "sha256": "0fc4cedbe62f105854d6e41d6253a693953bb84869565789fa88149fc03fecc0"
+    },
+    {
+      "path": "docs/reviews/adversarial_2017.json",
+      "sha256": "4e0f7f94b7511279791ee408efb7bbf3239bd2767dcb329277034522a46995cb"
+    },
+    {
+      "path": "scripts/b00s_documentary.py",
+      "sha256": "a91a10f638159896774ea353516c452b03f9e2640b74bfc9556d74517db26d0e"
+    },
+    {
+      "path": "scripts/b00s_fundamentals.py",
+      "sha256": "c27f9b23e354c97b3989166a72af2327cbe403af59d590a8d6d6b7b20fcff70c"
+    },
+    {
+      "path": "scripts/b00s_incremental.py",
+      "sha256": "d98272b5ab1f4101c50fa63158d3edd26d6348dae80f31c615b59a026385fdf9"
+    },
+    {
+      "path": "scripts/b00s_funding.py",
+      "sha256": "a0aea3e0ce6ec2df8086d5bb795db81dee9f9181bf3a4a3b9c01b53ff06feafb"
+    },
+    {
+      "path": "tests/test_b00s_funding.py",
+      "sha256": "86d35d98bafe5dd7c0602cc8c75e2ee904c9e79e6a6182a2dc12903b7a7721ae"
+    }
+  ],
+  "scope": "Incremental economic and six-dimension reviews frozen before any actual 2017–2018 VVAL/VQ return replay. Prior numerical checkpoints and original criteria preserved.",
+  "preserved_initial_commit": "5d50cc55c0ad07aa4dea6c76a7f7b7ca4c032f14",
+  "criteria_commit": "7fea064530bd494fb3edf9410c63980908a2197c",
+  "funding_frozen_commits": [
+    "d34c7fb",
+    "f0558a1"
+  ],
+  "returns_observed_before_freeze": false
+}

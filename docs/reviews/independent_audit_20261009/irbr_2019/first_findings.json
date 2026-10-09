@@ -1,0 +1,1179 @@
+{
+  "reviewer_role": "independent_adversarial",
+  "ticker": "IRBR3",
+  "cnpj": "33376989000191",
+  "cutoff": "2019-06-28",
+  "first_opinion_frozen_at_utc": "2026-10-09T13:20:00.500969+00:00",
+  "review_decision": "PASS",
+  "quality_review_decision": "PASS",
+  "valuation_review_decision": "PASS",
+  "quality_category_supported": "QUALIFIED_SATISFACTORY",
+  "valuation_category_supported": "REJECTED_PRICE",
+  "six_dimensions_sufficient": true,
+  "material_unresolved_admission_alert": false,
+  "company_rejection_proved": false,
+  "fraud_inferred": false,
+  "thresholds_changed": false,
+  "portfolios_reclassified": false,
+  "report": "first_opinion.md",
+  "calculations": "independent_calculations.json",
+  "read_log": "read_log.jsonl",
+  "dimensions": [
+    {
+      "dimension": "durability",
+      "review_status": "PASS",
+      "vq_status_supported": "SATISFACTORY",
+      "favorable": "Franquia doméstica, escala e demanda contratual demonstradas; negócio satisfatório.",
+      "contrary": "Expansão exterior e dependência de seguradoras acionistas; vantagem doméstica não comprova moat internacional.",
+      "material_unresolved_alert": false,
+      "sources": [
+        {
+          "docid": "67429",
+          "group": 412,
+          "received": "2017-07-31",
+          "original_sha256": "4e5d2579c3871c7456296ee6b9d68ad516adb2f760fedd14d94cda03bb835e06",
+          "original": "review_originals/cvm_67429_g412.pdf.gz",
+          "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=67429",
+          "pages_1_based": [
+            28,
+            29
+          ],
+          "page_kind": "pdf_page"
+        },
+        {
+          "docid": "81090",
+          "group": 1653,
+          "received": "2019-03-08",
+          "original_sha256": "86090c9492d997d038004ef31e2e5c98cab00b0fb64e86a52a602a5efab0b8ad",
+          "original": "review_originals/cvm_81090_g1653.pdf.gz",
+          "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=81090",
+          "pages_1_based": [
+            4,
+            5,
+            6
+          ],
+          "page_kind": "pdf_page"
+        },
+        {
+          "docid": "82684",
+          "group": 192,
+          "received": "2019-05-06",
+          "original_sha256": "ba05c313c7cfe605c4c65e238a1f53bb1d5826d31790aae7d3b8f527f6121ded",
+          "original": "review_originals/cvm_82684_g192.pdf.gz",
+          "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=82684",
+          "pages_1_based": [
+            1,
+            4
+          ],
+          "page_kind": "pdf_page"
+        }
+      ]
+    },
+    {
+      "dimension": "capital_economics",
+      "review_status": "PASS",
+      "vq_status_supported": "SATISFACTORY",
+      "favorable": "ROE recalculado 26,14/26,78/32,15%, capital excedente e resultados técnicos positivos; sensibilidade limitada conserva rentabilidade coerente.",
+      "contrary": "Rentabilidade externa cai, resultado financeiro e efeitos fiscais/atuariais afetam comparação; retorno incremental não certificado.",
+      "material_unresolved_alert": false,
+      "sources": [
+        {
+          "docid": "67429",
+          "group": 412,
+          "received": "2017-07-31",
+          "original_sha256": "4e5d2579c3871c7456296ee6b9d68ad516adb2f760fedd14d94cda03bb835e06",
+          "original": "review_originals/cvm_67429_g412.pdf.gz",
+          "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=67429",
+          "pages_1_based": [
+            28,
+            29,
+            30
+          ],
+          "page_kind": "pdf_page"
+        },
+        {
+          "docid": "71429",
+          "group": 412,
+          "received": "2018-02-08",
+          "original_sha256": "563b4d7df01a6b0a0b58715c395d48c864d1a36da19bca44211767e1aa4f847e",
+          "original": "review_originals/cvm_71429_g412.pdf.gz",
+          "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=71429",
+          "pages_1_based": [
+            21,
+            22,
+            23
+          ],
+          "page_kind": "pdf_page"
+        },
+        {
+          "docid": "81090",
+          "group": 412,
+          "received": "2019-03-08",
+          "original_sha256": "cf672bd2dfe39a35df4ff9901cbefa9e20416a967e2e09e3a03884775f44b1c7",
+          "original": "review_originals/cvm_81090_g412.pdf.gz",
+          "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=81090",
+          "pages_1_based": [
+            16,
+            18,
+            19,
+            20,
+            67,
+            68,
+            69,
+            74,
+            75
+          ],
+          "page_kind": "pdf_page"
+        },
+        {
+          "docid": "81090",
+          "group": 1653,
+          "received": "2019-03-08",
+          "original_sha256": "86090c9492d997d038004ef31e2e5c98cab00b0fb64e86a52a602a5efab0b8ad",
+          "original": "review_originals/cvm_81090_g1653.pdf.gz",
+          "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=81090",
+          "pages_1_based": [
+            6,
+            7,
+            8
+          ],
+          "page_kind": "pdf_page"
+        }
+      ]
+    },
+    {
+      "dimension": "earnings_reliability",
+      "review_status": "PASS",
+      "vq_status_supported": "SATISFACTORY",
+      "favorable": "Auditoria específica dos prêmios e provisões, XML original reconciliado, recebimentos efetivos e aging dão prova afirmativa suficiente para SAT.",
+      "contrary": "Estimados crescem, PDD é revertida, PREViRB e benefícios fiscais são positivos não extrapoláveis; diferença narrativa de provisões sem ponte, pequena para admissão.",
+      "material_unresolved_alert": false,
+      "sources": [
+        {
+          "docid": "81090",
+          "group": 412,
+          "received": "2019-03-08",
+          "original_sha256": "cf672bd2dfe39a35df4ff9901cbefa9e20416a967e2e09e3a03884775f44b1c7",
+          "original": "review_originals/cvm_81090_g412.pdf.gz",
+          "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=81090",
+          "pages_1_based": [
+            30,
+            31,
+            32,
+            67,
+            68,
+            69,
+            74,
+            75
+          ],
+          "page_kind": "pdf_page"
+        },
+        {
+          "docid": "81090",
+          "group": 1654,
+          "received": "2019-03-08",
+          "original_sha256": "cf83c41d1091fcebab5dc1105407b8142398d4f09e23b557f80a1e4b87702906",
+          "original": "review_originals/cvm_81090_g1654.xml.gz",
+          "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=81090",
+          "pages_1_based": [
+            1,
+            2,
+            3,
+            5
+          ],
+          "page_kind": "logical_xml_unit"
+        },
+        {
+          "docid": "82684",
+          "group": 193,
+          "received": "2019-05-06",
+          "original_sha256": "f23032f301d3a80343d22a84e7090a0ec5d992f2c73545272c8a507203572de0",
+          "original": "review_originals/cvm_82684_g193.pdf.gz",
+          "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=82684",
+          "pages_1_based": [
+            30,
+            31,
+            32
+          ],
+          "page_kind": "pdf_page"
+        },
+        {
+          "docid": "81090",
+          "group": 0,
+          "received": "2019-03-08",
+          "original_sha256": "408c1f62d72954b42416f62619b3b4d63bc4305039178bc4f6876603d7621a6d",
+          "original": "review_originals/cvm_81090_g0.xml.gz",
+          "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=81090",
+          "pages_1_based": [
+            1
+          ],
+          "page_kind": "logical_xml_unit"
+        },
+        {
+          "docid": "82684",
+          "group": 0,
+          "received": "2019-05-06",
+          "original_sha256": "6d052a59aa6954472314b3d3bda5c79689a438c58065952db61987c08cee8787",
+          "original": "review_originals/cvm_82684_g0.xml.gz",
+          "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=82684",
+          "pages_1_based": [
+            1
+          ],
+          "page_kind": "logical_xml_unit"
+        }
+      ]
+    },
+    {
+      "dimension": "financial_resilience",
+      "review_status": "PASS",
+      "vq_status_supported": "SATISFACTORY",
+      "favorable": "PLA/CMR 3,209 e 2,715, TAP sem insuficiência, retrocessão e ativos vinculados divulgados.",
+      "contrary": "Excedente cai16,1%; liquidez depende de direitos creditórios; crescimento internacional e sinistralidade aumentam risco. Sem descumprimento prudencial demonstrado.",
+      "material_unresolved_alert": false,
+      "sources": [
+        {
+          "docid": "81090",
+          "group": 412,
+          "received": "2019-03-08",
+          "original_sha256": "cf672bd2dfe39a35df4ff9901cbefa9e20416a967e2e09e3a03884775f44b1c7",
+          "original": "review_originals/cvm_81090_g412.pdf.gz",
+          "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=81090",
+          "pages_1_based": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            16,
+            17,
+            50,
+            51,
+            52,
+            53,
+            54,
+            89
+          ],
+          "page_kind": "pdf_page"
+        },
+        {
+          "docid": "82684",
+          "group": 193,
+          "received": "2019-05-06",
+          "original_sha256": "f23032f301d3a80343d22a84e7090a0ec5d992f2c73545272c8a507203572de0",
+          "original": "review_originals/cvm_82684_g193.pdf.gz",
+          "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=82684",
+          "pages_1_based": [
+            15,
+            16
+          ],
+          "page_kind": "pdf_page"
+        },
+        {
+          "docid": "82684",
+          "group": 192,
+          "received": "2019-05-06",
+          "original_sha256": "ba05c313c7cfe605c4c65e238a1f53bb1d5826d31790aae7d3b8f527f6121ded",
+          "original": "review_originals/cvm_82684_g192.pdf.gz",
+          "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=82684",
+          "pages_1_based": [
+            5
+          ],
+          "page_kind": "pdf_page"
+        }
+      ]
+    },
+    {
+      "dimension": "capital_allocation",
+      "review_status": "PASS",
+      "vq_status_supported": "SATISFACTORY",
+      "favorable": "Pagadora madura com distribuição e excedentes compatíveis no corte; oferta secundária corretamente atribuída ao vendedor.",
+      "contrary": "Payout bruto73,30% depende de lucro com itens excepcionais; prêmio reinvestidor não comprovado.",
+      "material_unresolved_alert": false,
+      "sources": [
+        {
+          "docid": "67429",
+          "group": 412,
+          "received": "2017-07-31",
+          "original_sha256": "4e5d2579c3871c7456296ee6b9d68ad516adb2f760fedd14d94cda03bb835e06",
+          "original": "review_originals/cvm_67429_g412.pdf.gz",
+          "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=67429",
+          "pages_1_based": [
+            31
+          ],
+          "page_kind": "pdf_page"
+        },
+        {
+          "docid": "81090",
+          "group": 412,
+          "received": "2019-03-08",
+          "original_sha256": "cf672bd2dfe39a35df4ff9901cbefa9e20416a967e2e09e3a03884775f44b1c7",
+          "original": "review_originals/cvm_81090_g412.pdf.gz",
+          "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=81090",
+          "pages_1_based": [
+            21,
+            61,
+            62
+          ],
+          "page_kind": "pdf_page"
+        },
+        {
+          "docid": "81090",
+          "group": 1653,
+          "received": "2019-03-08",
+          "original_sha256": "86090c9492d997d038004ef31e2e5c98cab00b0fb64e86a52a602a5efab0b8ad",
+          "original": "review_originals/cvm_81090_g1653.pdf.gz",
+          "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=81090",
+          "pages_1_based": [
+            8
+          ],
+          "page_kind": "pdf_page"
+        },
+        {
+          "docid": "82684",
+          "group": 192,
+          "received": "2019-05-06",
+          "original_sha256": "ba05c313c7cfe605c4c65e238a1f53bb1d5826d31790aae7d3b8f527f6121ded",
+          "original": "review_originals/cvm_82684_g192.pdf.gz",
+          "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=82684",
+          "pages_1_based": [
+            1
+          ],
+          "page_kind": "pdf_page"
+        },
+        {
+          "docid": "82684",
+          "group": 193,
+          "received": "2019-05-06",
+          "original_sha256": "f23032f301d3a80343d22a84e7090a0ec5d992f2c73545272c8a507203572de0",
+          "original": "review_originals/cvm_82684_g193.pdf.gz",
+          "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=82684",
+          "pages_1_based": [
+            15,
+            58
+          ],
+          "page_kind": "pdf_page"
+        }
+      ]
+    },
+    {
+      "dimension": "governance",
+      "review_status": "PASS",
+      "vq_status_supported": "SATISFACTORY",
+      "favorable": "Órgãos de fiscalização e trabalhos de auditoria/comitê efetivamente descritos; prestação de contas satisfatória.",
+      "contrary": "Cedentes acionistas, incentivo ligado a valor de mercado, serviços adicionais de auditor e golden share; conflitos potenciais sem abuso material provado.",
+      "material_unresolved_alert": false,
+      "sources": [
+        {
+          "docid": "71429",
+          "group": 1653,
+          "received": "2018-02-08",
+          "original_sha256": "3f4a72d3d0ba77ebb9ad113a3d0a532b5820ee364cfa6f6d81e26f14c219754b",
+          "original": "review_originals/cvm_71429_g1653.pdf.gz",
+          "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=71429",
+          "pages_1_based": [
+            7
+          ],
+          "page_kind": "pdf_page"
+        },
+        {
+          "docid": "81090",
+          "group": 412,
+          "received": "2019-03-08",
+          "original_sha256": "cf672bd2dfe39a35df4ff9901cbefa9e20416a967e2e09e3a03884775f44b1c7",
+          "original": "review_originals/cvm_81090_g412.pdf.gz",
+          "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=81090",
+          "pages_1_based": [
+            54,
+            55,
+            61
+          ],
+          "page_kind": "pdf_page"
+        },
+        {
+          "docid": "81090",
+          "group": 1653,
+          "received": "2019-03-08",
+          "original_sha256": "86090c9492d997d038004ef31e2e5c98cab00b0fb64e86a52a602a5efab0b8ad",
+          "original": "review_originals/cvm_81090_g1653.pdf.gz",
+          "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=81090",
+          "pages_1_based": [
+            9,
+            10
+          ],
+          "page_kind": "pdf_page"
+        },
+        {
+          "docid": "81090",
+          "group": 1654,
+          "received": "2019-03-08",
+          "original_sha256": "cf83c41d1091fcebab5dc1105407b8142398d4f09e23b557f80a1e4b87702906",
+          "original": "review_originals/cvm_81090_g1654.xml.gz",
+          "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=81090",
+          "pages_1_based": [
+            6,
+            9,
+            10
+          ],
+          "page_kind": "logical_xml_unit"
+        },
+        {
+          "docid": "82684",
+          "group": 207,
+          "received": "2019-05-06",
+          "original_sha256": "3b572a74532578fc966e9528ef7938dbb4ba51e3a60aa864f6d1e5017bdfdcf4",
+          "original": "review_originals/cvm_82684_g207.xml.gz",
+          "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=82684",
+          "pages_1_based": [
+            1,
+            2,
+            3,
+            6
+          ],
+          "page_kind": "logical_xml_unit"
+        }
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "IRB19-F01",
+      "status": "PASS",
+      "severity": "none",
+      "topic": "valuation_bound",
+      "summary": "Reexecução independente confirma rejeição por preço sob os dois canais15/25.",
+      "economic_materiality": "Decisiva para nova compra VVAL; P/L mínimo25,456017 sem tesouraria.",
+      "blocks_admission": false,
+      "potential_admission_impact": "Corrobora REJECTED_PRICE; não se calcula lucro pontual nem se concede premium.",
+      "sources": [
+        {
+          "docid": "67429",
+          "group": 412,
+          "received": "2017-07-31",
+          "original_sha256": "4e5d2579c3871c7456296ee6b9d68ad516adb2f760fedd14d94cda03bb835e06",
+          "original": "review_originals/cvm_67429_g412.pdf.gz",
+          "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=67429",
+          "pages_1_based": [
+            28,
+            29,
+            30,
+            31,
+            85,
+            86,
+            87,
+            88
+          ],
+          "page_kind": "pdf_page"
+        },
+        {
+          "docid": "71429",
+          "group": 412,
+          "received": "2018-02-08",
+          "original_sha256": "563b4d7df01a6b0a0b58715c395d48c864d1a36da19bca44211767e1aa4f847e",
+          "original": "review_originals/cvm_71429_g412.pdf.gz",
+          "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=71429",
+          "pages_1_based": [
+            3,
+            21,
+            22,
+            23,
+            74,
+            75,
+            76
+          ],
+          "page_kind": "pdf_page"
+        },
+        {
+          "docid": "82684",
+          "group": 193,
+          "received": "2019-05-06",
+          "original_sha256": "f23032f301d3a80343d22a84e7090a0ec5d992f2c73545272c8a507203572de0",
+          "original": "review_originals/cvm_82684_g193.pdf.gz",
+          "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=82684",
+          "pages_1_based": [
+            58
+          ],
+          "page_kind": "pdf_page"
+        }
+      ],
+      "calculation_reference": "independent_calculations.json:valuation",
+      "limitations": "Tetos econômicos condicionais ao tratamento consistente de custos ordinários; folga limitada. Não resolve sensibilidade18/30.",
+      "pending_action": "Reabrir prova apenas se despesa extraordinária PIT não coberta for demonstrada; preservar componentes e IPCA."
+    },
+    {
+      "id": "IRB19-F02",
+      "status": "UNRESOLVED",
+      "severity": "low",
+      "topic": "reserve_audit_narrative_bridge",
+      "summary": "Narrativa do auditor R$8.823,037mi versus balanço/notas v4 R$8.805,895mi; diferença R$17,142mi sem ponte.",
+      "economic_materiality": "0,195% das provisões,1,41% do lucro,0,571% do PLA,0,829% do excedente2018; não altera suficiência por si.",
+      "blocks_admission": false,
+      "potential_admission_impact": "Nenhuma mudança demonstrada em VQ; pendência documental não equivale a provisões gravemente insuficientes.",
+      "sources": [
+        {
+          "docid": "81090",
+          "group": 1654,
+          "received": "2019-03-08",
+          "original_sha256": "cf83c41d1091fcebab5dc1105407b8142398d4f09e23b557f80a1e4b87702906",
+          "original": "review_originals/cvm_81090_g1654.xml.gz",
+          "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=81090",
+          "pages_1_based": [
+            2
+          ],
+          "page_kind": "logical_xml_unit"
+        },
+        {
+          "docid": "81090",
+          "group": 412,
+          "received": "2019-03-08",
+          "original_sha256": "cf672bd2dfe39a35df4ff9901cbefa9e20416a967e2e09e3a03884775f44b1c7",
+          "original": "review_originals/cvm_81090_g412.pdf.gz",
+          "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=81090",
+          "pages_1_based": [
+            5,
+            16,
+            54
+          ],
+          "page_kind": "pdf_page"
+        },
+        {
+          "docid": "81090",
+          "group": 0,
+          "received": "2019-03-08",
+          "original_sha256": "408c1f62d72954b42416f62619b3b4d63bc4305039178bc4f6876603d7621a6d",
+          "original": "review_originals/cvm_81090_g0.xml.gz",
+          "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=81090",
+          "pages_1_based": [
+            1
+          ],
+          "page_kind": "logical_xml_unit"
+        }
+      ],
+      "pending_action": "Anexar ponte de versões ou explicação histórica que reconcilie o saldo narrativo; não substituir por texto posterior."
+    },
+    {
+      "id": "IRB19-F03",
+      "status": "ISSUE",
+      "severity": "medium",
+      "topic": "foreign_economic_deterioration_disclosure",
+      "summary": "Contraponto congelado merece quantificar margem externa: R$376,000mi→R$194,011mi, apesar de expansão de prêmios.",
+      "economic_materiality": "Queda48,4%; margem/prêmio ganho22,75%→8,27%; sinistros brutos/prêmio externo69,25%→84,75%.",
+      "blocks_admission": false,
+      "potential_admission_impact": "Veda extrapolação otimista ou HIGH; não demonstra perda estrutural duradoura. Margem externa positiva e recuperação trimestral dão contraponto favorável.",
+      "sources": [
+        {
+          "docid": "81090",
+          "group": 412,
+          "received": "2019-03-08",
+          "original_sha256": "cf672bd2dfe39a35df4ff9901cbefa9e20416a967e2e09e3a03884775f44b1c7",
+          "original": "review_originals/cvm_81090_g412.pdf.gz",
+          "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=81090",
+          "pages_1_based": [
+            18,
+            19
+          ],
+          "page_kind": "pdf_page"
+        },
+        {
+          "docid": "82684",
+          "group": 193,
+          "received": "2019-05-06",
+          "original_sha256": "f23032f301d3a80343d22a84e7090a0ec5d992f2c73545272c8a507203572de0",
+          "original": "review_originals/cvm_82684_g193.pdf.gz",
+          "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=82684",
+          "pages_1_based": [
+            17,
+            18
+          ],
+          "page_kind": "pdf_page"
+        }
+      ],
+      "pending_action": "Adicionar valores e distinguir visão contábil bruta de sinistralidade retida gerencial nas dimensões1,2,4."
+    },
+    {
+      "id": "IRB19-F04",
+      "status": "ISSUE",
+      "severity": "medium",
+      "topic": "credit_conversion_and_gross_aging_precision",
+      "summary": "Queda de estimados não prova recebimento da mesma coorte; aging líquido deve preservar débitos compensados e crédito bruto.",
+      "economic_materiality": "Estimados/RVNE agregados de R$2.868,098mi em2018 e R$2.795,163mi no1T19; créditos vencidos brutos R$671,800mi versus líquido R$320,602mi.",
+      "blocks_admission": false,
+      "potential_admission_impact": "Aumenta cautela sobre lucros/cobertura; auditoria específica e notas de compensação sustentam SAT, sem reprovação material comprovada.",
+      "sources": [
+        {
+          "docid": "81090",
+          "group": 412,
+          "received": "2019-03-08",
+          "original_sha256": "cf672bd2dfe39a35df4ff9901cbefa9e20416a967e2e09e3a03884775f44b1c7",
+          "original": "review_originals/cvm_81090_g412.pdf.gz",
+          "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=81090",
+          "pages_1_based": [
+            11,
+            12,
+            31,
+            32,
+            86
+          ],
+          "page_kind": "pdf_page"
+        },
+        {
+          "docid": "82684",
+          "group": 193,
+          "received": "2019-05-06",
+          "original_sha256": "f23032f301d3a80343d22a84e7090a0ec5d992f2c73545272c8a507203572de0",
+          "original": "review_originals/cvm_82684_g193.pdf.gz",
+          "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=82684",
+          "pages_1_based": [
+            30,
+            31,
+            32
+          ],
+          "page_kind": "pdf_page"
+        },
+        {
+          "docid": "81090",
+          "group": 1654,
+          "received": "2019-03-08",
+          "original_sha256": "cf83c41d1091fcebab5dc1105407b8142398d4f09e23b557f80a1e4b87702906",
+          "original": "review_originals/cvm_81090_g1654.xml.gz",
+          "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=81090",
+          "pages_1_based": [
+            2,
+            3
+          ],
+          "page_kind": "logical_xml_unit"
+        }
+      ],
+      "pending_action": "Explicitar conversão estimado→efetivo, recebimentos efetivos e três parcelas do aging. Se houver prova PIT de falha de compensação/estimativa, reavaliar."
+    },
+    {
+      "id": "IRB19-F05",
+      "status": "PASS",
+      "severity": "none",
+      "topic": "prudential_capital_and_liquidity",
+      "summary": "Capital e liquidez positivos pela metodologia regulatória histórica divulgada; dependência de direitos creditórios foi quantificada.",
+      "economic_materiality": "PLA/CMR2,715 emmarço, excedenteR$1,734bi; excluir direitos creditórios da liquidez é cenário, não regra nova.",
+      "blocks_admission": false,
+      "potential_admission_impact": "SAT com acompanhamento; sem capital insuficiente demonstrado.",
+      "sources": [
+        {
+          "docid": "81090",
+          "group": 412,
+          "received": "2019-03-08",
+          "original_sha256": "cf672bd2dfe39a35df4ff9901cbefa9e20416a967e2e09e3a03884775f44b1c7",
+          "original": "review_originals/cvm_81090_g412.pdf.gz",
+          "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=81090",
+          "pages_1_based": [
+            16,
+            17,
+            54,
+            89
+          ],
+          "page_kind": "pdf_page"
+        },
+        {
+          "docid": "82684",
+          "group": 193,
+          "received": "2019-05-06",
+          "original_sha256": "f23032f301d3a80343d22a84e7090a0ec5d992f2c73545272c8a507203572de0",
+          "original": "review_originals/cvm_82684_g193.pdf.gz",
+          "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=82684",
+          "pages_1_based": [
+            15,
+            16
+          ],
+          "page_kind": "pdf_page"
+        }
+      ],
+      "pending_action": "Monitorar mix, arrecadação e capital com dados PIT novos; não atualizar este corte com fatos futuros."
+    },
+    {
+      "id": "IRB19-F06",
+      "status": "PASS",
+      "severity": "none",
+      "topic": "cash_and_nonrecurring_profit",
+      "summary": "CFO consolidado original e subtotais analíticos conferem; PREViRB/PDD não foram tratados como lucros perpetuáveis.",
+      "economic_materiality": "Remoção bruta estreita R$212,834mi deixa lucroR$1.005,962mi, ROE26,54% e payout88,81%; não normalização completa.",
+      "blocks_admission": false,
+      "potential_admission_impact": "SAT pagadora madura; não certifica premium reinvestidor.",
+      "sources": [
+        {
+          "docid": "81090",
+          "group": 0,
+          "received": "2019-03-08",
+          "original_sha256": "408c1f62d72954b42416f62619b3b4d63bc4305039178bc4f6876603d7621a6d",
+          "original": "review_originals/cvm_81090_g0.xml.gz",
+          "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=81090",
+          "pages_1_based": [
+            1
+          ],
+          "page_kind": "logical_xml_unit"
+        },
+        {
+          "docid": "82684",
+          "group": 0,
+          "received": "2019-05-06",
+          "original_sha256": "6d052a59aa6954472314b3d3bda5c79689a438c58065952db61987c08cee8787",
+          "original": "review_originals/cvm_82684_g0.xml.gz",
+          "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=82684",
+          "pages_1_based": [
+            1
+          ],
+          "page_kind": "logical_xml_unit"
+        },
+        {
+          "docid": "81090",
+          "group": 412,
+          "received": "2019-03-08",
+          "original_sha256": "cf672bd2dfe39a35df4ff9901cbefa9e20416a967e2e09e3a03884775f44b1c7",
+          "original": "review_originals/cvm_81090_g412.pdf.gz",
+          "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=81090",
+          "pages_1_based": [
+            62,
+            67,
+            68,
+            69,
+            74,
+            75
+          ],
+          "page_kind": "pdf_page"
+        }
+      ],
+      "pending_action": "Preservar ressalva da ponte de caixa e separar demais efeitos fiscais/atuariais se pretender normalização pontual."
+    },
+    {
+      "id": "IRB19-F07",
+      "status": "PASS",
+      "severity": "none",
+      "topic": "governance_conflicts",
+      "summary": "Conflitos potenciais específicos cotejados com fiscalização e informações históricas; sem abuso material demonstrado.",
+      "economic_materiality": "Cedentes acionistas27,89% dos prêmios2018; incentivo de valor de mercado e serviços adicionais36% dos honorários.",
+      "blocks_admission": false,
+      "potential_admission_impact": "Não sustenta HIGH, fraude ou rejeição estrutural; SAT com contrapontos.",
+      "sources": [
+        {
+          "docid": "71429",
+          "group": 1653,
+          "received": "2018-02-08",
+          "original_sha256": "3f4a72d3d0ba77ebb9ad113a3d0a532b5820ee364cfa6f6d81e26f14c219754b",
+          "original": "review_originals/cvm_71429_g1653.pdf.gz",
+          "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=71429",
+          "pages_1_based": [
+            7
+          ],
+          "page_kind": "pdf_page"
+        },
+        {
+          "docid": "81090",
+          "group": 412,
+          "received": "2019-03-08",
+          "original_sha256": "cf672bd2dfe39a35df4ff9901cbefa9e20416a967e2e09e3a03884775f44b1c7",
+          "original": "review_originals/cvm_81090_g412.pdf.gz",
+          "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=81090",
+          "pages_1_based": [
+            54,
+            55,
+            61
+          ],
+          "page_kind": "pdf_page"
+        },
+        {
+          "docid": "81090",
+          "group": 1653,
+          "received": "2019-03-08",
+          "original_sha256": "86090c9492d997d038004ef31e2e5c98cab00b0fb64e86a52a602a5efab0b8ad",
+          "original": "review_originals/cvm_81090_g1653.pdf.gz",
+          "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=81090",
+          "pages_1_based": [
+            9,
+            10
+          ],
+          "page_kind": "pdf_page"
+        },
+        {
+          "docid": "81090",
+          "group": 1654,
+          "received": "2019-03-08",
+          "original_sha256": "cf83c41d1091fcebab5dc1105407b8142398d4f09e23b557f80a1e4b87702906",
+          "original": "review_originals/cvm_81090_g1654.xml.gz",
+          "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=81090",
+          "pages_1_based": [
+            6,
+            9,
+            10
+          ],
+          "page_kind": "logical_xml_unit"
+        },
+        {
+          "docid": "82684",
+          "group": 207,
+          "received": "2019-05-06",
+          "original_sha256": "3b572a74532578fc966e9528ef7938dbb4ba51e3a60aa864f6d1e5017bdfdcf4",
+          "original": "review_originals/cvm_82684_g207.xml.gz",
+          "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=82684",
+          "pages_1_based": [
+            1,
+            2,
+            3,
+            6
+          ],
+          "page_kind": "logical_xml_unit"
+        }
+      ],
+      "pending_action": "Preservar os conflitos na ficha; investigar apenas fatos pontuais historicamente publicados."
+    }
+  ],
+  "scope_declaration": {
+    "authorized_package": "/workspaces/b3-pipeline-data-and-backtest-framework/returns_2014_2026_stage1/.pr4-state/audit-blind-20261009/IRBR3_2019",
+    "protocol": "/workspaces/b3-pipeline-data-and-backtest-framework/returns_2014_2026_stage1/.pr4-state/audit-blind-20261009/protocol_v2_redacted.md",
+    "only_authorized_documents_and_new_review_artifacts_accessed": true,
+    "github_accessed": false,
+    "conversation_history_accessed": false,
+    "future_returns_accessed": false,
+    "portfolio_results_accessed": false,
+    "future_irb_news_used": false,
+    "post_cutoff_company_documents_accessed": false,
+    "web_browsing_used": false,
+    "pr4_work_accessed": false,
+    "implementation_participation": false,
+    "parent_merits_feedback_before_first_opinion": false,
+    "numeric_source_complements_during_review": [
+      "ipca_known.json",
+      "selection_quote.json",
+      "selection_quote_record.txt"
+    ],
+    "source_paths_mentioned_inside_metadata_but_not_opened": [
+      "COTAHIST_A2019.ZIP",
+      "continuation_irb_quotes_2019.json.gz",
+      "ipca_may_2019.pdf.gz"
+    ],
+    "historical_pre_cutoff_share_performance_mentions": "Inerentes a relatórios históricos autorizados; não usadas no julgamento."
+  },
+  "limitations": [
+    "Revisão dirigida; não auditoria integral de cada página ou recálculo atuarial a partir dos contratos.",
+    "PDFs: extrações fornecidas, integridade dos originais e leitura visual das tabelas críticasp31; renderização integral não realizada.",
+    "Algumas saídas agregadas iniciais truncadas; não reivindicadas como leitura substantiva integral.",
+    "Proveniência do ZIP anual e disponibilidade SGS/IBGE aceitas pela trilha entregue, sem reabrir arquivos externos.",
+    "Nenhum lucro normalizado pontual, CAGR real5anos, retenção média ou retorno incremental certificado.",
+    "Limite de P/L condicionado ao tratamento econômico de custos ordinários e à ausência de extraordinário elegível não coberto nas fontes examinadas."
+  ],
+  "numeric_source_provenance": [
+    {
+      "path": "/workspaces/b3-pipeline-data-and-backtest-framework/returns_2014_2026_stage1/.pr4-state/audit-blind-20261009/IRBR3_2019/ipca_known.json",
+      "sha256": "12c48fbccc3b165c86a3dc0947b3afde605bf6c392052879ef2cb3bb43005274"
+    },
+    {
+      "path": "/workspaces/b3-pipeline-data-and-backtest-framework/returns_2014_2026_stage1/.pr4-state/audit-blind-20261009/IRBR3_2019/selection_quote.json",
+      "sha256": "05cdeddffd731c2224913b774a76fcef6f90b85463102eaabb402065836503f2"
+    },
+    {
+      "path": "/workspaces/b3-pipeline-data-and-backtest-framework/returns_2014_2026_stage1/.pr4-state/audit-blind-20261009/IRBR3_2019/selection_quote_record.txt",
+      "sha256": "a1cadc7b034084886fb24feb7c87e5e0702400e070599070d2ded4cb8c1d00ea"
+    }
+  ],
+  "source_catalog": [
+    {
+      "docid": "67429",
+      "group": 412,
+      "status": "ARCHIVED",
+      "received": "2017-07-31",
+      "receipt_label": "31/07/2017 17:50:51",
+      "cutoff": "2019-06-28",
+      "ticker": "IRBR3",
+      "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=67429",
+      "original_sha256": "4e5d2579c3871c7456296ee6b9d68ad516adb2f760fedd14d94cda03bb835e06",
+      "original": "review_originals/cvm_67429_g412.pdf.gz",
+      "pages": "review_originals/cvm_67429_g412.pages.json.gz",
+      "page_count": 115,
+      "extraction": "Decoded original PDF embedded by the public CVM attachment viewer; page numbers are 1-based"
+    },
+    {
+      "docid": "67429",
+      "group": 1653,
+      "status": "ARCHIVED",
+      "received": "2017-07-31",
+      "receipt_label": "31/07/2017 17:50:51",
+      "cutoff": "2019-06-28",
+      "ticker": "IRBR3",
+      "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=67429",
+      "original_sha256": "f4a96eb2977d49ba902977e74167ca7cbd4e6cb9dbb647ce091c081290adfc8e",
+      "original": "review_originals/cvm_67429_g1653.pdf.gz",
+      "pages": "review_originals/cvm_67429_g1653.pages.json.gz",
+      "page_count": 8,
+      "extraction": "Decoded original PDF embedded by the public CVM attachment viewer; page numbers are 1-based"
+    },
+    {
+      "docid": "71429",
+      "group": 412,
+      "status": "ARCHIVED",
+      "received": "2018-02-08",
+      "receipt_label": "2018-02-08T20:26:43.403",
+      "cutoff": "2019-06-28",
+      "ticker": "IRBR3",
+      "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=71429",
+      "original_sha256": "563b4d7df01a6b0a0b58715c395d48c864d1a36da19bca44211767e1aa4f847e",
+      "original": "review_originals/cvm_71429_g412.pdf.gz",
+      "pages": "review_originals/cvm_71429_g412.pages.json.gz",
+      "page_count": 99,
+      "extraction": "Original PDF from AnexoDocumento.xml in submitted DFP/ITR. Delivery/version checked against CVM download metadata; generated aggregate PDF ignored.",
+      "submission": {
+        "path": "review_originals/cvm_71429.dfp.gz",
+        "sha256": "d2f99bdda543047634c11cff7a0d21be4f74c7d42a31fab98fa096e2903a1317",
+        "metadata": "review_originals/cvm_71429.delivery.xml.gz",
+        "metadata_sha256": "70d3905261714a5b6d9cfc57c1148b84c5915455313067df31e0d942e9d1837e",
+        "version": "1",
+        "reference": "2017-12-31T00:00:00"
+      }
+    },
+    {
+      "docid": "71429",
+      "group": 1653,
+      "status": "ARCHIVED",
+      "received": "2018-02-08",
+      "receipt_label": "2018-02-08T20:26:43.403",
+      "cutoff": "2019-06-28",
+      "ticker": "IRBR3",
+      "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=71429",
+      "original_sha256": "3f4a72d3d0ba77ebb9ad113a3d0a532b5820ee364cfa6f6d81e26f14c219754b",
+      "original": "review_originals/cvm_71429_g1653.pdf.gz",
+      "pages": "review_originals/cvm_71429_g1653.pages.json.gz",
+      "page_count": 8,
+      "extraction": "Original PDF from AnexoDocumento.xml in submitted DFP/ITR. Delivery/version checked against CVM download metadata; generated aggregate PDF ignored.",
+      "submission": {
+        "path": "review_originals/cvm_71429.dfp.gz",
+        "sha256": "d2f99bdda543047634c11cff7a0d21be4f74c7d42a31fab98fa096e2903a1317",
+        "metadata": "review_originals/cvm_71429.delivery.xml.gz",
+        "metadata_sha256": "70d3905261714a5b6d9cfc57c1148b84c5915455313067df31e0d942e9d1837e",
+        "version": "1",
+        "reference": "2017-12-31T00:00:00"
+      }
+    },
+    {
+      "docid": "81090",
+      "group": 0,
+      "status": "ARCHIVED",
+      "received": "2019-03-08",
+      "receipt_label": "2019-03-08T18:12:12.64",
+      "cutoff": "2019-06-28",
+      "ticker": "IRBR3",
+      "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=81090",
+      "original_sha256": "408c1f62d72954b42416f62619b3b4d63bc4305039178bc4f6876603d7621a6d",
+      "original": "review_originals/cvm_81090_g0.xml.gz",
+      "pages": "review_originals/cvm_81090_g0.pages.json.gz",
+      "page_count": 1,
+      "extraction": "Exact InfoFinaDFin.xml original from submitted CVM document. Single logical unit contains every account and value column, NOT PDF pagination. Scope1 individual/scope2 consolidated; DFP columns1/2/3 FY2018/17/16; ITR columns4/6 Q1 2019/18. No later public CSV restatement is used.",
+      "source_format": "original_xml",
+      "submission": {
+        "path": "review_originals/cvm_81090.dfp.gz",
+        "sha256": "3dce9dd85db2de21f351b8e8a5a74dd7f41c7404f7dc9d6a2218af4af2d8cf5d",
+        "metadata": "review_originals/cvm_81090.delivery.xml.gz",
+        "metadata_sha256": "44e312d2583bbd6610b2c890fe03bae4c6d8f27aff76fa1fc7019806b811f1aa",
+        "version": "4",
+        "reference": "2018-12-31T00:00:00"
+      }
+    },
+    {
+      "docid": "81090",
+      "group": 412,
+      "status": "ARCHIVED",
+      "received": "2019-03-08",
+      "receipt_label": "08/03/2019 18:12:12",
+      "cutoff": "2019-06-28",
+      "ticker": "IRBR3",
+      "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=81090",
+      "original_sha256": "cf672bd2dfe39a35df4ff9901cbefa9e20416a967e2e09e3a03884775f44b1c7",
+      "original": "review_originals/cvm_81090_g412.pdf.gz",
+      "pages": "review_originals/cvm_81090_g412.pages.json.gz",
+      "page_count": 97,
+      "extraction": "Decoded original PDF embedded by the public CVM attachment viewer; page numbers are 1-based"
+    },
+    {
+      "docid": "81090",
+      "group": 413,
+      "status": "ARCHIVED",
+      "received": "2019-03-08",
+      "receipt_label": "2019-03-08T18:12:12.64",
+      "cutoff": "2019-06-28",
+      "ticker": "IRBR3",
+      "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=81090",
+      "original_sha256": "9d7a1c2a46c3c9ee884373e14b838bb2f6730224b578f77562ddea02d6d9b0a4",
+      "original": "review_originals/cvm_81090_g413.pdf.gz",
+      "pages": "review_originals/cvm_81090_g413.pages.json.gz",
+      "page_count": 1,
+      "extraction": "Original PDF from submitted CVM document; dated delivery metadata and document identity verified. No later restatement.",
+      "submission": {
+        "path": "review_originals/cvm_81090.dfp.gz",
+        "sha256": "3dce9dd85db2de21f351b8e8a5a74dd7f41c7404f7dc9d6a2218af4af2d8cf5d",
+        "metadata": "review_originals/cvm_81090.delivery.xml.gz",
+        "metadata_sha256": "44e312d2583bbd6610b2c890fe03bae4c6d8f27aff76fa1fc7019806b811f1aa",
+        "version": "4",
+        "reference": "2018-12-31T00:00:00"
+      }
+    },
+    {
+      "docid": "81090",
+      "group": 416,
+      "status": "ARCHIVED",
+      "received": "2019-03-08",
+      "receipt_label": "2019-03-08T18:12:12.64",
+      "cutoff": "2019-06-28",
+      "ticker": "IRBR3",
+      "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=81090",
+      "original_sha256": "560a04aed6fc2fe511faa179b16a67ced63bcaf2f4a9a12fefc820203ffbec35",
+      "original": "review_originals/cvm_81090_g416.pdf.gz",
+      "pages": "review_originals/cvm_81090_g416.pages.json.gz",
+      "page_count": 1,
+      "extraction": "Original PDF from submitted CVM document; dated delivery metadata and document identity verified. No later restatement.",
+      "submission": {
+        "path": "review_originals/cvm_81090.dfp.gz",
+        "sha256": "3dce9dd85db2de21f351b8e8a5a74dd7f41c7404f7dc9d6a2218af4af2d8cf5d",
+        "metadata": "review_originals/cvm_81090.delivery.xml.gz",
+        "metadata_sha256": "44e312d2583bbd6610b2c890fe03bae4c6d8f27aff76fa1fc7019806b811f1aa",
+        "version": "4",
+        "reference": "2018-12-31T00:00:00"
+      }
+    },
+    {
+      "docid": "81090",
+      "group": 1653,
+      "status": "ARCHIVED",
+      "received": "2019-03-08",
+      "receipt_label": "08/03/2019 18:12:12",
+      "cutoff": "2019-06-28",
+      "ticker": "IRBR3",
+      "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=81090",
+      "original_sha256": "86090c9492d997d038004ef31e2e5c98cab00b0fb64e86a52a602a5efab0b8ad",
+      "original": "review_originals/cvm_81090_g1653.pdf.gz",
+      "pages": "review_originals/cvm_81090_g1653.pages.json.gz",
+      "page_count": 11,
+      "extraction": "Decoded original PDF embedded by the public CVM attachment viewer; page numbers are 1-based"
+    },
+    {
+      "docid": "81090",
+      "group": 1654,
+      "status": "ARCHIVED",
+      "received": "2019-03-08",
+      "receipt_label": "2019-03-08T18:12:12.64",
+      "cutoff": "2019-06-28",
+      "ticker": "IRBR3",
+      "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=81090",
+      "original_sha256": "cf83c41d1091fcebab5dc1105407b8142398d4f09e23b557f80a1e4b87702906",
+      "original": "review_originals/cvm_81090_g1654.xml.gz",
+      "pages": "review_originals/cvm_81090_g1654.pages.json.gz",
+      "page_count": 10,
+      "extraction": "Exact UTF-8 XML original from CVM submitted document. pages are ordered AnexoTexto records (logical units), NOT PDF pagination; original group/quadro/item retained in each unit. Audit opinion and committee statements include their historical dates.",
+      "source_format": "original_xml",
+      "submission": {
+        "path": "review_originals/cvm_81090.dfp.gz",
+        "sha256": "3dce9dd85db2de21f351b8e8a5a74dd7f41c7404f7dc9d6a2218af4af2d8cf5d",
+        "metadata": "review_originals/cvm_81090.delivery.xml.gz",
+        "metadata_sha256": "44e312d2583bbd6610b2c890fe03bae4c6d8f27aff76fa1fc7019806b811f1aa",
+        "version": "4",
+        "reference": "2018-12-31T00:00:00"
+      }
+    },
+    {
+      "docid": "82684",
+      "group": 0,
+      "status": "ARCHIVED",
+      "received": "2019-05-06",
+      "receipt_label": "2019-05-06T11:36:51.903",
+      "cutoff": "2019-06-28",
+      "ticker": "IRBR3",
+      "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=82684",
+      "original_sha256": "6d052a59aa6954472314b3d3bda5c79689a438c58065952db61987c08cee8787",
+      "original": "review_originals/cvm_82684_g0.xml.gz",
+      "pages": "review_originals/cvm_82684_g0.pages.json.gz",
+      "page_count": 1,
+      "extraction": "Exact InfoFinaDFin.xml original from submitted CVM document. Single logical unit contains every account and value column, NOT PDF pagination. Scope1 individual/scope2 consolidated; DFP columns1/2/3 FY2018/17/16; ITR columns4/6 Q1 2019/18. No later public CSV restatement is used.",
+      "source_format": "original_xml",
+      "submission": {
+        "path": "review_originals/cvm_82684.itr.gz",
+        "sha256": "c874abf8a239b1affd5440b863a0e0b3c11b0ac8554cf4561c7f54e9001d2d18",
+        "metadata": "review_originals/cvm_82684.delivery.xml.gz",
+        "metadata_sha256": "ca6892dcd505b9e09522d78843a1c621babd50d88b59cefff751346235d640c7",
+        "version": "2",
+        "reference": "2019-03-31T00:00:00"
+      }
+    },
+    {
+      "docid": "82684",
+      "group": 192,
+      "status": "ARCHIVED",
+      "received": "2019-05-06",
+      "receipt_label": "06/05/2019 11:36:51",
+      "cutoff": "2019-06-28",
+      "ticker": "IRBR3",
+      "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=82684",
+      "original_sha256": "ba05c313c7cfe605c4c65e238a1f53bb1d5826d31790aae7d3b8f527f6121ded",
+      "original": "review_originals/cvm_82684_g192.pdf.gz",
+      "pages": "review_originals/cvm_82684_g192.pages.json.gz",
+      "page_count": 10,
+      "extraction": "Decoded original PDF embedded by the public CVM attachment viewer; page numbers are 1-based"
+    },
+    {
+      "docid": "82684",
+      "group": 193,
+      "status": "ARCHIVED",
+      "received": "2019-05-06",
+      "receipt_label": "06/05/2019 11:36:51",
+      "cutoff": "2019-06-28",
+      "ticker": "IRBR3",
+      "url": "https://www.rad.cvm.gov.br/ENET/frmGerenciaPaginaFRE.aspx?CodigoTipoInstituicao=1&NumeroSequencialDocumento=82684",
+      "original_sha256": "f23032f301d3a80343d22a84e7090a0ec5d992f2c73545272c8a507203572de0",
+      "original": "review_originals/cvm_82684_g193.pdf.gz",
+      "pages": "review_originals/cvm_82684_g193.pages.json.gz",
+      "page_count": 92,
+      "extraction": "Decoded original PDF embedded by the public CVM attachment viewer; page numbers are 1-based"
+    },
+    {
+      "docid": "82684",
+      "group": 194,
+      "status": "ARCHIVED",
+      "received": "2019-05-06",
+      "receipt_label": "2019-05-06T11:36:51.903",
+      "cutoff": "2019-06-28",
+      "ticker": "IRBR3",
+      "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=82684",
+      "original_sha256": "45de384de8dc0e4025e204745fbab6fcac46eec36f23a7e2b7ed023bd324b9ae",
+      "original": "review_originals/cvm_82684_g194.pdf.gz",
+      "pages": "review_originals/cvm_82684_g194.pages.json.gz",
+      "page_count": 1,
+      "extraction": "Original PDF from submitted CVM document; dated delivery metadata and document identity verified. No later restatement.",
+      "submission": {
+        "path": "review_originals/cvm_82684.itr.gz",
+        "sha256": "c874abf8a239b1affd5440b863a0e0b3c11b0ac8554cf4561c7f54e9001d2d18",
+        "metadata": "review_originals/cvm_82684.delivery.xml.gz",
+        "metadata_sha256": "ca6892dcd505b9e09522d78843a1c621babd50d88b59cefff751346235d640c7",
+        "version": "2",
+        "reference": "2019-03-31T00:00:00"
+      }
+    },
+    {
+      "docid": "82684",
+      "group": 207,
+      "status": "ARCHIVED",
+      "received": "2019-05-06",
+      "receipt_label": "2019-05-06T11:36:51.903",
+      "cutoff": "2019-06-28",
+      "ticker": "IRBR3",
+      "url": "https://www.rad.cvm.gov.br/ENETCONSULTA/frmDownloadDocumento.aspx?CodigoInstituicao=1&NumeroSequencialDocumento=82684",
+      "original_sha256": "3b572a74532578fc966e9528ef7938dbb4ba51e3a60aa864f6d1e5017bdfdcf4",
+      "original": "review_originals/cvm_82684_g207.xml.gz",
+      "pages": "review_originals/cvm_82684_g207.pages.json.gz",
+      "page_count": 6,
+      "extraction": "Exact UTF-8 XML original from CVM submitted document. pages are ordered AnexoTexto records (logical units), NOT PDF pagination; original group/quadro/item retained in each unit. Audit opinion and committee statements include their historical dates.",
+      "source_format": "original_xml",
+      "submission": {
+        "path": "review_originals/cvm_82684.itr.gz",
+        "sha256": "c874abf8a239b1affd5440b863a0e0b3c11b0ac8554cf4561c7f54e9001d2d18",
+        "metadata": "review_originals/cvm_82684.delivery.xml.gz",
+        "metadata_sha256": "ca6892dcd505b9e09522d78843a1c621babd50d88b59cefff751346235d640c7",
+        "version": "2",
+        "reference": "2019-03-31T00:00:00"
+      }
+    }
+  ]
+}

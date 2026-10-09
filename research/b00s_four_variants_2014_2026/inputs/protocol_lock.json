@@ -1,0 +1,24 @@
+{
+  "commit": "7fea064530bd494fb3edf9410c63980908a2197c",
+  "specification_sha256": "7310e2868ec3920a8f41bc5166426b2241ecefa4cef761eb9706cd83957d072b",
+  "coordinator": "https://github.com/tneves95/b3-pipeline-data-and-backtest-framework/pull/4#issuecomment-6069027018",
+  "valuation_thresholds": [
+    15,
+    25
+  ],
+  "sensitivities": [
+    [
+      12,
+      20
+    ],
+    [
+      18,
+      30
+    ]
+  ],
+  "real_eps_cagr_min": 0.04,
+  "retained_profit_min": 0.2,
+  "real_return_premium": 0.06,
+  "decision_policy": "UNKNOWN_IS_NOT_FAIL; ADDITIONAL_FILTERS_ENTRY_ONLY",
+  "coverage_inventory_sha256": "bbec92b4b7fccf26cda9a75d1f8a691ae1d26eb6fd21748d3ceae5d83a90a015"
+}
