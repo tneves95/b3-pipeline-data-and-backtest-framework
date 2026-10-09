@@ -3,7 +3,7 @@ from b00s_variants import *
 from b00s_report import table
 
 def retained_review_sections(year, facts, ledger):
-    """Document retained non-PASS issuers without inventing a buy decision."""
+    """Document held issuers outside the original universe for new purchases."""
     from b00s_documentary import load_reviews
     from b00s_fundamentals import quality_gate
     candidates={r['cnpj'] for r in facts}
@@ -18,7 +18,8 @@ def retained_review_sections(year, facts, ledger):
         summary+=table(positions,['variant','ticker','base_status','before','after'])+'\n'
         summary+=f"\nQualidade atual: **{category}**. {review['incremental_review']['reason']} "
         summary+='A ficha atualiza o acompanhamento da posição; não altera o status B00S-base nem autoriza uma venda extraordinária. A decisão de entrada de anos anteriores permanece congelada.\n'
-        dossiers+=f"\n## {review['ticker']} — acompanhamento de posição anterior, sem nova candidatura PASS\n\n"
+        label='fora do universo original de novas compras' if year>=2023 else 'sem nova candidatura PASS'
+        dossiers+=f"\n## {review['ticker']} — acompanhamento de posição anterior, {label}\n\n"
         dossiers+=f"VQ atual: **{category}**. {review['incremental_review']['reason']}\n\n"
         dossiers+=f"Valuation: {review['valuation']['reason']}\n\n"
         for name,dimension in review['dimensions'].items():

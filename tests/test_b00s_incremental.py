@@ -569,3 +569,70 @@ def test_2022_rolling_review_preserves_old_floors_and_current_material_evidence(
     assert porto['quality_category']=='QUALIFIED_SATISFACTORY'
     assert porto['capital_classes']==[dict(share_class='ON',quantity=646586060.0,price=17.76)]
     assert any(e['docid']=='114461' and e['group']==192 and 21 in e['pages'] for e in porto['documentary_assessment']['dimensions']['financial_resilience']['evidence'])
+
+
+def test_2023_four_copasa_bounds_keep_the_unknown_year_in_the_median():
+    import statistics
+    r=next(r for r in json.loads((m.INPUT/'fundamental_decisions.json').read_text()) if r['year']==2023 and r['ticker']=='CSMG3')
+    a=r['documentary_assessment'];p=a['numerical_proof'];floors=p['fiscal_floors']
+    assert p['cutoff']==r['cutoff']=='2023-06-30'
+    assert set(a['valuation']['profit_bounds'])=={'2018','2019','2020','2021','2022'}
+    assert a['valuation']['profit_bounds']['2021']['lower'] is None
+    old=load_reviews()[2022,r['cnpj']]['numerical_proof']['fiscal_floors']
+    for year in ('2018','2019','2020'):
+        assert floors[year]['nominal_lower']==old[year]['nominal_lower']
+    current=floors['2022']
+    assert current['reported_attributable_profit']-sum(v for k,v in current.items() if k.endswith('_removed'))==current['nominal_lower']==550200000
+    assert current['financial_asset_and_other_revenue']-current['ordinary_amortized_cost_accretion_retained']==current['financial_asset_and_other_revenue_removed']
+    assert current['judicial_provision_reversals_removed']==38103000
+    assert current['prodes_subsidy_removed']==2407000
+    lower=statistics.median([float('-inf')]+[v['real_lower'] for v in floors.values()])
+    assert lower==pytest.approx(floors['2020']['real_lower'])
+    assert p['median_lower']==pytest.approx(lower)
+    assert r['normalized_pe_interval']['upper']==pytest.approx(14.258466868652224)
+    assert r['valuation_status']=='PASS_MATURE'
+    assert r['normalized_profit'] is None and r['normalized_pe'] is None
+    assert r['real_eps_cagr'] is None and r['average_payout'] is None
+    assert a['dimensions']['governance']['status']=='INDETERMINATE'
+
+
+def test_2023_retained_pass_issuer_does_not_expand_original_buy_universe():
+    rows=[r for r in json.loads((m.INPUT/'fundamental_decisions.json').read_text()) if r['year']==2023]
+    assert len(rows)==19
+    assert {r['ticker'] for r in rows}=={r['ticker'] for r in m.candidates() if r['year']==2023}
+    assert 'TBLE3' not in {r['ticker'] for r in rows}
+    assert m.selection('B00S',2023)[0]['TBLE3']=='PASS'
+    retained=load_reviews()[2023,'02474103000119']
+    assert retained['prior_assessment']=='2022:02474103000119'
+    assert len(retained['dimensions'])==6
+    from b00s_incremental_report import retained_review_sections
+    ledger=[dict(year='2023',variant='VQ',ticker='TBLE3',base_status='PASS',before='0.3',after='0.3')]
+    summary,dossier=retained_review_sections(2023,rows,ledger)
+    assert 'fora do universo original de novas compras' in dossier
+    assert 'sem nova candidatura PASS' not in dossier
+    assert 'TBLE3' in summary and 'venda extraordinária' in summary
+
+
+def test_2023_material_changes_use_current_documents_and_no_diagnostic_admission():
+    rows={r['ticker']:r for r in json.loads((m.INPUT/'fundamental_decisions.json').read_text()) if r['year']==2023}
+    for r in rows.values():
+        a=r['documentary_assessment']
+        assert a['prior_assessment']=='2022:'+r['cnpj']
+        assert len(a['dimensions'])==6
+        for d in a['dimensions'].values():
+            assert d['reason'] and d['contrary_evidence'] and d['evidence']
+            assert all(e['received']<=r['cutoff'] for e in d['evidence'])
+    assert rows['CPLE6']['market_cap']==pytest.approx(1054090460*8.23+3128000*26.85+1679335290*8.29)
+    assert rows['CPFE3']['documentary_assessment']['dimensions']['financial_resilience']['status']=='SATISFACTORY'
+    assert load_reviews()[2022,rows['CPFE3']['cnpj']]['dimensions']['financial_resilience']['status']=='INDETERMINATE'
+    porto=rows['PSSA3']['documentary_assessment']
+    assert rows['PSSA3']['quality_category']=='QUALIFIED_SATISFACTORY'
+    assert any(e['docid']=='126312' and e['group']==193 and 18 in e['pages'] for e in porto['dimensions']['earnings_reliability']['evidence'])
+    taee=rows['TAEE4']['documentary_assessment']
+    assert taee['numerical_proof']['kind']=='NON_CERTIFYING_2022_COMPONENT_BRIDGE'
+    assert taee['valuation']['status']==rows['TAEE4']['valuation_status']=='INDETERMINATE'
+    assert 'profit_bounds' not in taee['valuation'] and 'profit_overrides' not in taee['valuation']
+    sanb=rows['SANB4']
+    assert sanb['valuation_status']=='PASS_MATURE'
+    assert sanb['normalized_pe_interval']['upper']==pytest.approx(11.298540120717973)
+    assert sanb['real_eps_cagr'] is None
