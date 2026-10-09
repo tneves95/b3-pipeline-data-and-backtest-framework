@@ -195,3 +195,99 @@ def test_accepted_shared_events_are_not_changed_or_processed_twice():
     current=[e for ds in events().values() for e in ds]
     assert len({e['id'] for e in current})==len(current)
     assert all(Counter(fields(e) for e in current)[k]==v for k,v in b.items())
+
+
+def test_five_real_portfolios_have_720_deposits_and_benchmark_has_144():
+    deposits=read(STUDY/'contributions_ledger.csv');bench=read(STUDY/'benchmark_contributions_ledger.csv')
+    assert len(deposits)==720 and len(bench)==144
+    assert {r['portfolio'] for r in deposits}=={'VVAL','V0','V10','BH padrão','BESST-10 BH'}
+    for p in {r['portfolio'] for r in deposits}:
+        rows=[r for r in deposits if r['portfolio']==p]
+        assert len(rows)==144 and sum(float(r['external_deposit']) for r in rows)==360000
+        assert [r['date'] for r in rows]==[r['date'] for r in bench]
+        assert all(float(r['investor_cash_flow'])==-2500 for r in rows)
+
+
+def test_final_books_reconcile_cash_and_securities_without_negative_balances():
+    from collections import defaultdict
+    positions=read(STUDY/'monthly_positions.csv');wealth=read(STUDY/'monthly_wealth.csv');groups=defaultdict(list)
+    for r in positions:
+        assert float(r['units'])>=0
+        groups[r['portfolio'],r['date'],r['phase']].append(r)
+    for r in wealth:
+        assert float(r['cash'])>=0
+        if r['nav']:
+            group=groups[r['portfolio'],r['date'],r['phase']]
+            assert all(p['position_value'] for p in group)
+            assert sum(float(p['position_value']) for p in group)+float(r['cash'])==pytest.approx(float(r['nav']),rel=3e-12)
+        else:assert r['valuation_status'].startswith('MISSING_EXACT_CLOSE')
+
+
+def test_all_voluntary_sales_are_june_and_bh_never_sells():
+    operations=read(STUDY/'operations.csv')
+    assert all(r['date'][5:7]=='06' for r in operations if r['side']=='SELL')
+    assert not any(r['side']=='SELL' and 'BH' in r['portfolio'] for r in operations)
+    assert not any(r['ticker']=='XPBR31' and r['reason']=='MONTHLY_DEFICIT_BUY' for r in operations)
+    assert not any(r['date']=='2026-06-30' and r['side']=='SELL' for r in operations)
+
+
+def test_lineage_gains_reconcile_full_gain_after_external_capital():
+    summaries=read(STUDY/'consolidated.csv');attribution=read(STUDY/'lineage_cash_attribution.csv')
+    for s in summaries:
+        if s['portfolio']=='IBOV':continue
+        gain=sum(float(r['economic_gain']) for r in attribution if r['portfolio']==s['portfolio'])
+        assert gain+float(s['cash'])==pytest.approx(float(s['final_wealth'])-460000,rel=3e-12)
+
+
+def test_full_twr_is_product_of_monthly_returns_only_when_marks_are_complete():
+    monthly=read(STUDY/'monthly_returns.csv');summaries=read(STUDY/'consolidated.csv')
+    for s in summaries:
+        rows=[r for r in monthly if r['portfolio']==s['portfolio']]
+        assert len(rows)==144
+        if s['twr_pct']:
+            assert all(r['monthly_twr_pct'] for r in rows)
+            assert 100*(math.prod(1+float(r['monthly_twr_pct'])/100 for r in rows)-1)==pytest.approx(float(s['twr_pct']),abs=2e-10)
+        else:assert any(not r['monthly_twr_pct'] for r in rows)
+
+
+def test_bradesco_sensitivity_reenters_only_at_frozen_june_2015_pass():
+    path=STUDY/'sensitivities/BBDC4_2014_NOT_ADMITTED/operations.csv'
+    trades=[r for r in read(path) if r['ticker']=='BBDC4']
+    assert trades and min(r['date'] for r in trades)=='2015-06-30'
+    assert all(r['reason']=='JUNE_COMPOSITION_REBALANCE' for r in trades if r['date']=='2015-06-30')
+
+
+def test_final_controls_equal_the_published_second_checkpoint():
+    final={r['portfolio']:r for r in read(STUDY/'consolidated.csv')}
+    for r in read(STUDY/'checkpoints/lote2_2026/consolidated.csv'):
+        for k in ['final_wealth','xirr_pct','twr_pct','maximum_lineage_weight','june_turnover_sum','events_processed']:
+            assert final[r['portfolio']][k]==r[k]
+
+
+def test_protected_pr3_pr4_and_published_manifest_hashes():
+    from monthly_publish import verify_protected
+    assert verify_protected()==3567
+    manifest=json.loads((STUDY/'manifest.json').read_text())
+    assert manifest['selection_changed'] is False and manifest['older_results_modified'] is False
+    assert manifest['principal_contribution_rows']==720 and manifest['benchmark_contribution_rows']==144
+    root=STUDY.parents[1]
+    for r in manifest['sources_and_outputs']+manifest['implementation']:assert sha(root/r['path'])==r['sha256']
+
+
+def test_unit_constraint_respects_the_observed_unit_price():
+    rows={r['ticker']:r for r in read(STUDY/'besst10_bh_ranking_2014.csv')}
+    sula=rows['SULA11'];on=float(sula['on_shares']);pn=float(sula['pn_shares'])
+    unit_price=3*float(sula['on_price_used'])
+    assert float(sula['unit_cap_max'])==pytest.approx(unit_price*max(on,pn/2))
+    assert float(sula['unit_cap_max'])<float(rows['PSSA3']['market_cap'])
+    assert float(sula['missing_class_double_price_scenario'])>float(rows['PSSA3']['market_cap'])
+    # Doubling both imputed class prices is incompatible with a fixed unit price.
+    assert 2*float(sula['on_price_used'])+4*float(sula['pn_price_used'])==pytest.approx(2*unit_price)
+
+
+def test_taxonomy_does_not_confuse_gas_brokers_holding_or_multi_issuer_units():
+    rows=read(STUDY/'besst10_bh_ranking_2014.csv');excluded=read(STUDY/'inputs/besst_universe_exclusions_2014.csv')
+    assert not any(r['ticker'] in ['CGAS5','BRIN3','ITSA4','BBTG11'] for r in rows)
+    assert any(r['ticker']=='ELPL4' and r['sector']=='Energia' for r in rows)
+    assert any(r['company']=='COMPANHIA DE GÁS DE SÃO PAULO - COMGÁS' and r['reason']=='OUTSIDE_STRICT_BESST_TAXONOMY' for r in excluded)
+    assert any(r['ticker']=='BBTG11' for r in read(STUDY/'inputs/unresolved_equity_identities_2014.csv'))

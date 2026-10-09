@@ -199,7 +199,9 @@ def process_events(book, buyers, quote, event_list, day):
                 ledger.append(dict(date=day,lineage=c,ticker=t,units_before=before[c].get(t,0),
                     units_after=after[c].get(t,0),event_ids=';'.join(e['id'] for e in relevant),
                     event_kinds=';'.join(sorted({e['kind'] for e in relevant})),external_flow=0,
-                    source=';'.join(sorted({e['source'] for e in relevant}))))
+                    source=';'.join(sorted({e['source'] for e in relevant})),
+                    compulsory_cash_entitlement=math.fsum(before[c].get(t,0)*e['amount'] for e in relevant if e['ticker']==t and e['kind']=='REDEMPTION'),
+                    gross_distribution_entitlement=math.fsum(before[c].get(t,0)*e['amount'] for e in relevant if e['ticker']==t and e['kind']=='DISTRIBUTION')))
     return after,buyers,redemption,ledger
 
 
@@ -292,18 +294,16 @@ def simulate(portfolio,quote=None,byday=None,compositions=None,end=END,monthly=2
             book,buyers,principal,led=process_events(book,buyers,quote,relevant,day)
             event_ledger.extend(dict(portfolio=portfolio,**r) for r in led)
             shadow,shadow_buyers,shadow_principal,_=process_events(shadow,shadow_buyers,quote,byday[day],day)
-            if shadow_principal:
-                sv,sm=mark(shadow,quote,day)
-                if sm:raise ValueError(('Unpriced shadow redemption',sm))
-                total=math.fsum(sv.values())
-                for c,u in shadow.items():
-                    for t,q in list(u.items()):u[t]+=shadow_principal*q/total
+            # The shadow measures each maintained issuer's own total return.
+            # Principal from a different redeemed issuer is an internal funding
+            # transfer in the actual book, not return earned by its recipients.
             if principal:
                 cash+=principal
                 spent,why=buy_cash(day,principal,'COMPULSORY_REDEMPTION_REINVESTMENT')
                 event_ledger.append(dict(portfolio=portfolio,date=day,lineage='REDEMPTION_CASH',ticker='',units_before=0,
                     units_after=0,event_ids=';'.join(e['id'] for e in relevant if e['kind']=='REDEMPTION'),
-                    event_kinds='REDEMPTION_CASH',external_flow=0,source=f'principal={principal}; invested={spent}; {why}'))
+                    event_kinds='REDEMPTION_CASH',external_flow=0,source='Accepted compulsory redemption',
+                    cash_in=principal,cash_reinvested=spent,status=why))
         if day not in sampledays:continue
         values,missing,nav=values_now(day)
         if missing or previous_nav is None:

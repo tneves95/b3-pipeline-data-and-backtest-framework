@@ -93,6 +93,12 @@ def rank_besst(raw_root=DATA):
     Emitted capital is the primary measure; treasury maximum deduction is shown.
     A stock must have a real close at formation to be bought at formation.
     """
+    frozen=STUDY/'inputs/ranking_freeze.json'
+    if frozen.exists():
+        for r in json.loads(frozen.read_text())['files']:
+            if sha(ROOT/r['path'])!=r['sha256']:raise ValueError(('Frozen ranking changed',r['path']))
+        print('Existing pre-return ranking retained',flush=True)
+        return read(STUDY/'besst10_bh_selection_2014.csv')
     E=Evidence();_,sectors,caps=E.asof(2014)
     p=STUDY/'inputs/universe_quotes_2014.json.gz'
     if not p.exists():gzwrite(p,archive_quotes(raw_root/'data/raw/COTAHIST_A2014.ZIP',cutoff=START))
