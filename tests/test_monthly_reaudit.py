@@ -63,6 +63,8 @@ def synthetic(monkeypatch,fail=False,entry=False):
 def test_new_engine_winner_above_twice_kept_whole(monkeypatch):
     r=synthetic(monkeypatch)
     assert r['book']['0']['T0']==5000 and r['summary']['voluntary_sales']==0
+    # Revaluation never resets the historical acquisition cost of a survivor.
+    assert r['fiscal'].basis['T0']==5000 and r['fiscal'].basis['T0']/r['book']['0']['T0']==1
     assert any(j['lineage']=='0' and j['winner_flag'] for j in r['junes'])
 
 
@@ -179,3 +181,38 @@ def test_net_jcp_not_withheld_twice():
 def test_reaudited_input_manifest():
     m=json.loads((OUT/'maintenance_manifest.json').read_text())
     for path,h in m['files'].items():assert hashlib.sha256((ROOT/path).read_bytes()).hexdigest()==h
+
+
+def test_independent_cashflow_npv_residual():
+    from datetime import date
+    for mode in MODES:
+        flows=rows(OUT/mode/'investor_flows.csv')
+        name={'GROSS':'consolidated_policy_corrected.csv','CG_ONLY':'consolidated_tax_corrected.csv',
+            'CG_PLUS_JCP_CERTIFIED_PARTIAL':'consolidated_income_corrected.csv'}[mode]
+        for s in rows(OUT/name):
+            p=s['portfolio'];origin=date(2014,6,30);rate=float(s['xirr_pct'])/100
+            residual=sum(float(r['amount'])/(1+rate)**((date.fromisoformat(r['date'])-origin).days/365)
+                for r in flows if r['portfolio']==p)
+            assert abs(residual)<1e-6
+
+
+def test_workbook_independently_matches_all_fifteen_consolidated_rows():
+    import openpyxl
+    book=openpyxl.load_workbook(OUT/'aportes_reauditados_2014_2026.xlsx',read_only=True,data_only=True)
+    data=list(book['Consolidado'].values);keys=list(data[0])
+    actual={(r[keys.index('mode')],r[keys.index('portfolio')]):r for r in data[1:]}
+    expected=rows(OUT/'all_reaudited_scenarios.csv')
+    assert len(actual)==len(expected)==15
+    for r in expected:
+        row=actual[r['mode'],r['portfolio']]
+        for k in ['final_wealth','xirr_pct','tax_paid','income_withheld','liquidation_wealth','maximum_issuer_weight','rank']:
+            assert math.isclose(row[keys.index(k)],float(r[k]),rel_tol=1e-12)
+    book.close()
+
+
+def test_all_generated_outputs_and_price_inputs_match_delivery_manifest():
+    manifest=json.loads((OUT/'delivery_manifest.json').read_text())
+    for p,h in manifest['files'].items():assert hashlib.sha256((ROOT/p).read_bytes()).hexdigest()==h,p
+    for mode in MODES:
+        m=json.loads((OUT/mode/'manifest.json').read_text())
+        for p,h in m.items():assert hashlib.sha256((ROOT/p).read_bytes()).hexdigest()==h,p

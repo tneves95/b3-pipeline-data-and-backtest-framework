@@ -1,11 +1,10 @@
 """Small numerical checkpoints for reaudited maintenance; preserve prior reports."""
-from collections import Counter,defaultdict
+from collections import defaultdict
 from datetime import datetime
 import argparse
 import csv
 import hashlib
 import json
-from pathlib import Path
 import xlsxwriter
 from run_monthly_reaudited import ROOT,OUT,guard_legacy
 from monthly_maintenance_reaudit import guard_prior
@@ -72,7 +71,7 @@ def full_checkpoint(gross):
     by={(r['mode'],r['portfolio']):r for r in allrows}
     text='''# Checkpoint tributário após reauditoria de permanência — PR #6
 
-15 trajetórias recalculadas mensalmente, comR$100 mil iniciais e144 aportes deR$2.500. Os nove FAIL questionados foram retirados; suas empresas/sucessoras tiveram revisão posterior. Checkpoints anteriores preservados em seus diretórios. PR #6 draft, sem merge.
+15 trajetórias recalculadas mensalmente, com R$100 mil iniciais e 144 aportes de R$2.500. Os nove FAIL questionados foram retirados; suas empresas/sucessoras tiveram revisão posterior. Checkpoints anteriores preservados em seus diretórios. PR #6 draft, sem merge.
 
 | Carteira | Bruto R$ | CG_ONLY R$ | JCP sustentado parcial R$ | TIR parcial % a.a. | IR realizações pago R$ | JCP adicional R$ | IR modelado total R$ | Δ parcial anterior R$ |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -92,7 +91,7 @@ def full_checkpoint(gross):
         text+=f"| {p} | {fmt(g['xirr_pct'],4)} | {fmt(c['xirr_pct'],4)} | {fmt(float(g['final_wealth'])-float(r['final_wealth']))} | {fmt(float(r['maximum_issuer_weight'])*100)} | {fmt(r['issuer_hhi'],6)} | {fmt(float(r['june_turnover_sum'])*100)} | {r['voluntary_sales']} |\n"
     text+='\n'+NOTES
     text+='''
-## Liquidação integral separada em30/06/2026
+## Liquidação integral separada em 30/06/2026
 
 As posições efetivas e custos médios do caso com JCP parcial são liquidados em cópia independente. O imposto incremental é deduzido economicamente, ainda que o DARF vença depois do horizonte; nenhuma dessas vendas ocorre no caso principal de manutenção.
 
@@ -123,9 +122,9 @@ As posições efetivas e custos médios do caso com JCP parcial são liquidados 
     text+='''
 ## Limites da camada fiscal e proventos
 
-Custo médio por título, isenção mensal de ações atéR$20mil por CPF alternativo, perdas prospectivas, IRRF como crédito, reserva antes de reinvestir e pagamento posterior de DARF reutilizam o código fiscal anterior. Não há capital externo para pagar imposto. Caixa disponível/restrito/obrigação, operações, pagamentos e imposto anual estão discriminados. Sem obrigação pendente no fim do caso principal.
+Custo médio por título, isenção mensal de ações até R$20 mil por CPF alternativo, perdas prospectivas, IRRF como crédito, reserva antes de reinvestir e pagamento posterior de DARF reutilizam o código fiscal anterior. Não há capital externo para pagar imposto. Caixa disponível/restrito/obrigação, operações, pagamentos e imposto anual estão discriminados. Sem obrigação pendente no fim do caso principal.
 
-JCP adicional incide somente sobre valores sustentados como brutos, nas alíquotas já congeladas (15% até2025;17,5% na regra de2026). Valores já líquidos não sofrem segunda retenção. Bruto/líquido ou tipo desconhecidos e tributação integral do BDR continuam ND. Nenhum envelope mensal por pagadora em2026 ultrapassouR$50mil; data de pagamento conhecida é usada, data-ex fica como proxy explícita quando ausente. Não certifica imposto mínimo de altas rendas sem as demais rendas do CPF. Não foram adicionadas novas variantes de JCP.
+JCP adicional incide somente sobre valores sustentados como brutos, nas alíquotas já congeladas (15% até 2025;17,5% na regra de 2026). Valores já líquidos não sofrem segunda retenção. Bruto/líquido ou tipo desconhecidos e tributação integral do BDR continuam ND. Nenhum envelope mensal por pagadora em 2026 ultrapassou R$50 mil; data de pagamento conhecida é usada, data-ex fica como proxy explícita quando ausente. Não certifica imposto mínimo de altas rendas sem as demais rendas do CPF. Não foram adicionadas novas variantes de JCP.
 
 | Carteira | JCP bruto/líquido desconhecido R$ | Proventos de tipo desconhecido R$ | Distribuições BDR R$ | Maior envelope mensal2026 R$ |
 |---|---:|---:|---:|---:|
@@ -149,7 +148,9 @@ python scripts/monthly_reaudit_report.py
 python -m pytest -q tests/test_monthly_reaudit.py tests/test_monthly_maintenance_fail_audit.py tests/test_monthly_policy_corrected.py tests/test_monthly_tax.py
 ```
 
-`research/monthly_reaudited_2014_2026/` contém os15 casos e os três modos de trajetória, patrimônio, posições/custos, caixa, aportes, fluxos, operações, revisões, eventos, apuração mensal, imposto anual, pagamentos e liquidação. `maintenance_reviews.csv` e `maintenance_pit_facts.csv` dão a autorização substantiva, não apenas um rótulo FAIL herdado. `gross_sales_substantive_evidence.csv` discrimina as10 saídas reais. Os consolidados comparam cada modo ao checkpoint anterior e ao PR5 original. A planilha exporta os mesmos livros, sem números reconstruídos de logs. Manifestos registram hashes e verificam a preservação dos resultados anteriores. O teste e o replay devem passar antes de encerrar este checkpoint.
+`research/monthly_reaudited_2014_2026/` contém os 15 casos e os três modos de trajetória, patrimônio, posições/custos, caixa, aportes, fluxos, operações, revisões, eventos, apuração mensal, imposto anual, pagamentos e liquidação. `maintenance_reviews.csv` e `maintenance_pit_facts.csv` dão a autorização substantiva, não apenas um rótulo FAIL herdado. `gross_sales_substantive_evidence.csv` discrimina as 10 saídas reais. Os consolidados comparam cada modo ao checkpoint anterior e ao PR5 original. A planilha exporta os mesmos livros, sem números reconstruídos de logs. Manifestos registram hashes e verificam a preservação dos resultados anteriores.
+
+**85 testes passaram**: 26 específicos da reauditoria e 59 regressões preservadas. Incluem as regras obrigatórias de vendas/aportes, vagas V10, provas PIT de sucessores, custo médio preservado, caixa/reserva, imposto anual versus total, 144 depósitos, TIR pela equação de valor presente, liquidação separada, dupla retenção e leitura independente da planilha. O replay completo dos 15 casos conciliou byte a byte 75 arquivos, incluindo CSVs e planilha. Os 40 arquivos legados e os arquivos protegidos do checkpoint anterior permanecem intactos.
 '''
     (ROOT/'docs/checkpoint_reauditoria_aportes_tributos_2014_2026.md').write_text(text)
     (OUT/'checkpoint_tax_comment.md').write_text(text)
@@ -180,7 +181,6 @@ python -m pytest -q tests/test_monthly_reaudit.py tests/test_monthly_maintenance
     files=[p for p in OUT.rglob('*') if p.is_file() and p.name!='delivery_manifest.json' and p.suffix not in ['.xml','.log']]
     files += [ROOT/'scripts'/f for f in ['monthly_maintenance_reaudit.py','monthly_reaudit_simulate.py','run_monthly_reaudited.py','monthly_reaudit_report.py']]
     files += [ROOT/'tests/test_monthly_reaudit.py',ROOT/'docs/checkpoint_reauditoria_aportes_tributos_2014_2026.md',ROOT/'docs/checkpoint_reauditoria_aportes_bruto_2014_2026.md']
-    prices=sorted((ROOT/'research/monthly_contributions_2014_2026/inputs').glob('quotes_*.json.gz'))
     # STUDY is deliberately imported rather than assuming a directory name.
     import monthly_contributions as economic
     prices=sorted((economic.STUDY/'inputs').glob('quotes_*.json.gz'))

@@ -1,0 +1,21 @@
+name: Recalculate monthly portfolios after maintenance reaudits
+on:
+  pull_request:
+    paths: ['scripts/*reaudit*.py', 'tests/test_monthly_reaudit.py', 'research/monthly_reaudited_2014_2026/**', 'docs/checkpoint_reauditoria_aportes*.md', '.github/workflows/monthly-maintenance-reaudit.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  recalculate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - run: python -m pip install pytest==8.3.5 pandas==2.2.3 XlsxWriter==3.2.5 openpyxl==3.1.5
+      - run: python scripts/monthly_maintenance_reaudit.py
+      - run: python scripts/run_monthly_reaudited.py --mode GROSS
+      - run: python scripts/run_monthly_reaudited.py --mode CG_ONLY
+      - run: python scripts/run_monthly_reaudited.py --mode CG_PLUS_JCP_CERTIFIED_PARTIAL
+      - run: python scripts/monthly_reaudit_report.py
+      - run: python -m pytest -q tests/test_monthly_reaudit.py tests/test_monthly_maintenance_fail_audit.py tests/test_monthly_policy_corrected.py tests/test_monthly_tax.py
+      - run: git diff --exit-code -- research/monthly_reaudited_2014_2026 research/monthly_fail_audit_2014_2026 research/monthly_policy_corrected_2014_2026 research/monthly_tax_2014_2026 docs/checkpoint_reauditoria_aportes_bruto_2014_2026.md docs/checkpoint_reauditoria_aportes_tributos_2014_2026.md
