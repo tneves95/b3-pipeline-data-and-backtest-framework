@@ -1,5 +1,7 @@
 """Cross-artifact checks on the published V2 experiment, including ND semantics."""
 import json
+import hashlib
+import subprocess
 import sys
 from collections import defaultdict
 from decimal import Decimal, localcontext
@@ -8,6 +10,26 @@ import pytest
 
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
 import b00s_variants as m
+
+def test_2024_metadata_correction_preserves_every_decision_byte():
+    correction=json.loads((m.ROOT/'docs/reviews/metadata_correction_2024.json').read_text())
+    original=m.ROOT/correction['original_freeze_path']
+    assert m.sha(original)==correction['original_freeze_sha256']
+    freeze=json.loads(original.read_text())
+    assert freeze['decision_commit']==correction['original_decision_commit']
+    raw=(m.ROOT/correction['path']).read_bytes()
+    assert hashlib.sha256(raw).hexdigest()==correction['corrected_sha256']
+    rows=json.loads(raw)
+    row=next(r for r in rows if r['cnpj']==correction['cnpj'])
+    dimension=row['dimension_updates'][correction['dimension']]
+    assert dimension['status']=='INDETERMINATE'
+    assert dimension['missing']==dimension['reason']==correction['after']
+    dimension['missing']=correction['before']
+    before=(json.dumps(rows,ensure_ascii=False,indent=2)+'\n').encode()
+    assert hashlib.sha256(before).hexdigest()==correction['pre_return_sha256']
+    committed=subprocess.check_output(['git','show',freeze['decision_commit']+':'+correction['path']],cwd=m.ROOT)
+    assert before==committed
+    assert not any(correction[k] for k in ['decisions_changed','criteria_changed','returns_changed'])
 
 def test_published_references_are_literal_and_unreviewed_years_are_blank():
     annual=m.read(m.RESULT/'annual_returns_pct.csv')
