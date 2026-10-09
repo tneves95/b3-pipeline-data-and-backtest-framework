@@ -106,3 +106,92 @@ def test_coverage_reports_missing_actual_price_instead_of_filling():
     assert missing and all(r['close']=='' for r in missing)
     assert any(r['ticker']=='ABCB2' and r['date']=='2014-07-01' for r in missing)
     assert all(r['ticker'] in ['ABCB2','ENBR3'] for r in missing)
+
+
+def test_spinoff_does_not_create_new_buy_target_or_duplicate_entitlement():
+    from monthly_contributions import process_events
+    es=[dict(id='S',ticker='A',ex_date='2014-07-01',kind='SPINOFF',successor='X',ratio=.2,source='synthetic'),
+        dict(id='D',ticker='A',ex_date='2014-07-01',kind='DISTRIBUTION',amount=1.,source='synthetic'),
+        dict(id='B',ticker='A',ex_date='2014-07-01',kind='SHARES',factor=2.,source='synthetic')]
+    book,buyers,principal,ledger=process_events({'origin':{'A':10.}},{'origin':'A'},{('A','2014-07-01'):5.},es,'2014-07-01')
+    assert book=={'origin':{'A':22.,'X':2.}}
+    assert buyers=={'origin':'A'} and principal==0
+    assert len(ledger)==2 and all(r['external_flow']==0 for r in ledger)
+
+
+def test_compulsory_redemption_uses_actual_units_and_internal_cash():
+    from monthly_contributions import process_events
+    e=dict(id='R',ticker='A',ex_date='2014-07-01',kind='REDEMPTION',amount=12.,source='synthetic')
+    book,buyers,principal,ledger=process_events({'a':{'A':10.},'b':{'B':3.}},{'a':'A','b':'B'},{},[e],e['ex_date'])
+    assert principal==120 and book['a']=={} and buyers=={'b':'B'}
+    assert ledger[0]['external_flow']==0
+
+
+def test_missing_price_keeps_contribution_cash_and_does_not_invent_mark():
+    from monthly_contributions import simulate
+    q={('A',START):100.,('B',START):100.,('A','2014-07-01'):110.,
+       ('A','2014-07-31'):120.,('B','2014-07-31'):90.}
+    r=simulate('V0',q,{}, {('V0',2014):{'a':'A','b':'B'}},end='2014-07-31')
+    assert all(t['reason']=='INITIAL_EQUAL_ALLOCATION' for t in r['trades']) and r['summary']['cash']==2500
+    assert r['summary']['final_wealth']==107500
+    assert r['summary']['twr_pct'] is None
+    assert r['contributions'][0]['nav_before'] is None
+
+
+def test_twr_links_before_and_after_external_flow():
+    from monthly_contributions import simulate
+    q={('A',START):100.,('B',START):100.,('A','2014-07-01'):110.,('B','2014-07-01'):90.,
+       ('A','2014-07-31'):121.,('B','2014-07-31'):81.}
+    r=simulate('V0',q,{}, {('V0',2014):{'a':'A','b':'B'}},end='2014-07-31')
+    assert r['summary']['final_wealth']==pytest.approx(103250.)
+    assert r['summary']['twr_pct']==pytest.approx(100*(103250/102500-1))
+    monthly=[t for t in r['trades'] if t['reason']=='MONTHLY_DEFICIT_BUY']
+    assert len(monthly)==1 and monthly[0]['ticker']=='B'
+
+
+def test_zero_contributions_same_equal_weight_bh_reproduces_existing_engine():
+    from monthly_contributions import simulate,load_quotes,events
+    from stage1_buyhold import trajectory,quotes,INITIAL
+    from stage1_pit import DATES,OUT,gzread
+    q,_=load_quotes();r=simulate('BH padrão',q,events(),frozen_compositions(),monthly=0)
+    accepted,_=trajectory(quotes(),gzread(OUT/'cache/bh_owned_events.json.gz'),dict.fromkeys(INITIAL,1/8),list(DATES.values()))
+    for d in DATES.values():
+        expected=sum(x['index_component'] for x in accepted if x['date']==d)*100000
+        actual=next(w['nav'] for w in r['wealth'] if w['date']==d and w['phase'] in ['INITIAL','MONTH_END'])
+        assert actual==pytest.approx(expected,rel=3e-12)
+    assert r['summary']['external_capital']==100000
+    assert all(t['reason']=='INITIAL_EQUAL_ALLOCATION' for t in r['trades'])
+
+
+def test_full_simulation_trades_and_external_flows_reconcile():
+    from monthly_contributions import simulate,load_quotes,events
+    q,_=load_quotes();r=simulate('V0',q,events(),frozen_compositions(),end='2016-06-30')
+    assert len(r['contributions'])==24
+    assert sum(x['external_deposit'] for x in r['contributions'])==60000
+    assert r['summary']['external_capital']==160000
+    assert all(t['date'][5:7]=='06' for t in r['trades'] if t['side']=='SELL')
+    assert all(p['units']>=0 for p in r['positions'])
+    assert all(w['cash']>=0 for w in r['wealth'])
+
+
+def test_ibov_gets_the_same_exact_144_dated_contributions():
+    from monthly_contributions import benchmark
+    b=benchmark();c=read(STUDY/'contribution_calendar.csv')
+    assert [r['date'] for r in b['contributions']]==[r['date'] for r in c]
+    assert b['summary']['external_capital']==460000
+    assert sum(r['external_deposit'] for r in b['contributions'])==360000
+
+
+def test_accepted_shared_events_are_not_changed_or_processed_twice():
+    from collections import Counter
+    from monthly_contributions import events
+    from b00s_variants import market
+    from stage1_pit import OUT,gzread
+    fields=lambda e:(e['ticker'],e['ex_date'],e['kind'],e.get('amount'),e.get('factor'),e.get('ratio'),e.get('successor'))
+    _,old=market();bh=gzread(OUT/'cache/bh_owned_events.json.gz');names={e['ticker'] for e in bh}
+    a=Counter(fields(e) for ds in old.values() for e in ds if e['ticker'] in names)
+    b=Counter(fields(e) for e in bh)
+    assert not (a-b)
+    current=[e for ds in events().values() for e in ds]
+    assert len({e['id'] for e in current})==len(current)
+    assert all(Counter(fields(e) for e in current)[k]==v for k,v in b.items())
