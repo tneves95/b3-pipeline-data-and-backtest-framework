@@ -20,6 +20,7 @@ import subprocess
 import tempfile
 import zipfile
 from collections import defaultdict
+from bisect import bisect_right
 from pathlib import Path
 
 import pandas as pd
@@ -280,14 +281,42 @@ def make_panel(quotes, meta, funds, isinmap, tickermap, companies, sectors, outp
     return panel
 
 
-def outcome_readiness(panel, quotes, skipped, output, last_observation):
-    endpoints = {(r.year, r.ticker, r.isin): r for r in quotes.itertuples()}
+def outcome_readiness(panel, quotes, skipped, output, last_observation, *, calendar=None):
+    """Select an observed trade at or before maturity, never a later H1 quote.
+
+    ``quotes`` must contain daily trades, or last-trade snapshots tagged with
+    their exact ``cutoff``. A June-only sample cannot establish continuity.
+    ISIN, rather than the current ticker spelling, identifies the same right;
+    successor ISINs require a separately audited economic conversion.
+    ``calendar`` is the observed exchange calendar from the original archives.
+    This is a quote-availability check, not certification of shareholder return.
+    """
+    if calendar is None:
+        raise ValueError("An observed exchange calendar is required; H1 snapshots are insufficient")
+    sessions = sorted(set(str(day) for day in calendar))
+    by_isin = {}
+    for isin, group in quotes.groupby("isin"):
+        ordered = group.sort_values(["date", "ticker"])
+        by_isin[isin] = (ordered.date.tolist(), list(ordered.itertuples()))
     rows = []
     for p in panel[panel.company_representative].itertuples():
         for horizon in [3, 5]:
             target = pd.Timestamp(p.formation_date) + pd.DateOffset(years=horizon)
             complete = target <= pd.Timestamp(last_observation)
-            end = endpoints.get((p.year + horizon, p.ticker, p.isin))
+            target_date = target.strftime("%Y-%m-%d")
+            session_index = bisect_right(sessions, target_date) - 1
+            endpoint_session = sessions[session_index] if session_index >= 0 else None
+            dates, trades = by_isin.get(p.isin, ([], []))
+            if "cutoff" in quotes.columns:
+                # A bounded streaming extract is valid only for its declared cutoff.
+                valid = [r for r in trades if r.cutoff == target_date and r.date <= target_date]
+                end = max(valid, key=lambda r: r.date) if valid else None
+            else:
+                position = bisect_right(dates, target_date) - 1
+                end = trades[position] if position >= 0 else None
+            end = end if end is not None and end.date >= p.formation_date else None
+            age_sessions = (session_index - (bisect_right(sessions, end.date) - 1)
+                            if end is not None and endpoint_session else None)
             # Only count skipped events in the economic observation window; a count of zero is not certification.
             ev = skipped[(skipped.isin_code == p.isin) & (skipped.event_date > p.formation_date) &
                          (skipped.event_date <= target.strftime("%Y-%m-%d"))]
@@ -295,7 +324,10 @@ def outcome_readiness(panel, quotes, skipped, output, last_observation):
                          "formation_date": p.formation_date, "horizon_years": horizon,
                          "calendar_endpoint": target.strftime("%Y-%m-%d"),
                          "calendar_complete": complete,
-                         "last_h1_same_security_quote": end.date if end is not None else None,
+                         "endpoint_session_date": endpoint_session,
+                         "last_available_same_security_quote": end.date if end is not None else None,
+                         "endpoint_observed_ticker": end.ticker if end is not None else None,
+                         "quote_age_sessions": age_sessions,
                          "same_security_near_endpoint": bool(end is not None and 0 <= (target-pd.Timestamp(end.date)).days <= 10),
                          "skipped_events_in_window": len(ev),
                          "status": "TOTAL_RETURN_UNCERTIFIED" if complete else "INCOMPLETE_HORIZON",
@@ -333,6 +365,8 @@ def plot_coverage(panel, output):
 
 
 def run(source: Path, output: Path, scratch: Path):
+    if (output / "manifest.json").exists():
+        raise ValueError("Existing audit checkpoint: choose a new output directory")
     output.mkdir(parents=True, exist_ok=True)
     scratch.mkdir(parents=True, exist_ok=True)
     guard_space(output, scratch)
@@ -398,7 +432,11 @@ def run(source: Path, output: Path, scratch: Path):
     sources.append({"path": str(sectors_path.relative_to(ROOT)), "bytes": sectors_path.stat().st_size,
                     "sha256": sha256(sectors_path), "role": "sector_cache_receipt_filtered_not_recertified"})
     panel = make_panel(quotes, meta, funds, isinmap, tickermap, companies, sectors, output)
-    outcomes = outcome_readiness(panel, quotes, skipped, output, str(raw.last_date.max()))
+    from .quotes import collect_endpoint_quotes
+    cutoffs = [(pd.Timestamp(day) + pd.DateOffset(years=h)).strftime("%Y-%m-%d")
+               for day in panel.formation_date.unique() for h in [3, 5]]
+    endpoints, calendar = collect_endpoint_quotes(source, cutoffs)
+    outcomes = outcome_readiness(panel, endpoints, skipped, output, max(calendar), calendar=calendar)
     plot_coverage(panel, output)
     # Explicitly demonstrate classes and adjusted price valuation distortion on June snapshots.
     sql_samples = []

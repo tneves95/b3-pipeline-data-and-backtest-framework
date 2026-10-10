@@ -11,6 +11,7 @@ from research.fundamental_multipliers_pilot.audit import (
     choose_known_filing,
     ratio,
     resolve_company,
+    outcome_readiness,
 )
 
 
@@ -86,3 +87,57 @@ def test_original_quotes_include_distressed_bdi_and_normalize_quotation_factor(t
     assert (quotes.close == 5.).all()
     assert quotes.iloc[0].raw_sha256 == hashlib.sha256(record(2014, "08")).hexdigest()
     assert (output / "raw_formation_quotes.csv").exists()
+
+
+@pytest.mark.parametrize("formation,target,earlier,later", [
+    ("2018-06-29", "2021-06-29", "2021-06-29", "2021-06-30"),
+    ("2019-06-28", "2022-06-28", "2022-06-28", "2022-06-30"),
+    ("2017-06-30", "2020-06-30", "2020-06-30", "2020-07-01"),
+])
+def test_readiness_never_uses_a_post_maturity_quote(tmp_path, formation, target, earlier, later):
+    panel = pd.DataFrame([dict(year=int(formation[:4]), formation_date=formation,
+        cnpj="001", ticker="OLD3", isin="ISIN_A", company_representative=True)])
+    quotes = pd.DataFrame([
+        dict(ticker="OLD3", isin="ISIN_A", date=earlier),
+        dict(ticker="OLD3", isin="ISIN_A", date=later)])
+    skipped = pd.DataFrame(columns=["isin_code", "event_date"])
+    result = outcome_readiness(panel, quotes, skipped, tmp_path, "2026-10-01",
+                               calendar=[formation, earlier, later])
+    row = result[result.horizon_years == 3].iloc[0]
+    assert row.last_available_same_security_quote == target
+    assert row.same_security_near_endpoint
+    assert row.quote_age_sessions == 0
+
+
+def test_readiness_weekend_and_ticker_rename_preserve_isin_without_reusing_ticker(tmp_path):
+    panel = pd.DataFrame([dict(year=2018, formation_date="2018-06-29", cnpj="001",
+                              ticker="OLD3", isin="ISIN_A", company_representative=True)])
+    quotes = pd.DataFrame([
+        dict(ticker="NEW3", isin="ISIN_A", date="2023-06-28"),
+        dict(ticker="OLD3", isin="ISIN_B", date="2023-06-29"),
+        dict(ticker="NEW3", isin="ISIN_A", date="2023-06-30")])
+    result = outcome_readiness(panel, quotes, pd.DataFrame(columns=["isin_code", "event_date"]),
+        tmp_path, "2026-10-01", calendar=["2018-06-29", "2021-06-28", "2021-06-30",
+        "2023-06-28", "2023-06-29", "2023-06-30"])
+    row = result[result.horizon_years == 5].iloc[0]
+    assert row.last_available_same_security_quote == "2023-06-28"
+    assert row.endpoint_observed_ticker == "NEW3"
+    assert row.quote_age_sessions == 1
+    weekend = panel.copy(); weekend.formation_date = "2016-06-30"; weekend.year = 2016
+    weekend_quotes = pd.DataFrame([dict(ticker="OLD3", isin="ISIN_A", date="2019-06-28")])
+    row = outcome_readiness(weekend, weekend_quotes, pd.DataFrame(columns=["isin_code", "event_date"]),
+        tmp_path, "2026-10-01", calendar=["2016-06-30", "2019-06-28", "2019-07-01"]).iloc[0]
+    assert row.endpoint_session_date == "2019-06-28"
+    assert row.quote_age_sessions == 0
+
+
+def test_readiness_requires_calendar_and_exact_snapshot_cutoff(tmp_path):
+    panel = pd.DataFrame([dict(year=2018, formation_date="2018-06-29", cnpj="001",
+        ticker="OLD3", isin="ISIN_A", company_representative=True)])
+    quotes = pd.DataFrame([dict(ticker="OLD3", isin="ISIN_A", date="2021-06-28", cutoff="2021-06-30")])
+    skipped = pd.DataFrame(columns=["isin_code", "event_date"])
+    with pytest.raises(ValueError, match="calendar"):
+        outcome_readiness(panel, quotes, skipped, tmp_path, "2026-10-01")
+    result = outcome_readiness(panel, quotes, skipped, tmp_path, "2026-10-01",
+                               calendar=["2018-06-29", "2021-06-28", "2021-06-30"])
+    assert not result.iloc[0].same_security_near_endpoint
