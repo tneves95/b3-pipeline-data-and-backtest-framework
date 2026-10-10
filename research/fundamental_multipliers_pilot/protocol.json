@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "frozen_on": "2026-10-09",
+  "stage": "inventory_before_predictive_estimation",
+  "unit": "CNPJ and formation date; one security per company chosen using only trailing liquidity",
+  "formation": "Last B3 session in June; filings received strictly before the formation session",
+  "first_cohort": 2014,
+  "last_cohort": 2023,
+  "horizons_years": [3, 5],
+  "ten_year_horizon": "Excluded from first round",
+  "security_selection": "Highest January to June financial volume within each unambiguous CNPJ; include distressed equities; no current listing requirement",
+  "minimum_history_sessions": 60,
+  "stale_quote_calendar_days": 10,
+  "missing_values": "Keep null and an explicit reason; no zero imputation or outcome based filling",
+  "outcomes": {
+    "continuous": "Gross shareholder total return with fractional dividend reinvestment at ex date close; full economic successors and cash proceeds retained",
+    "real": "(1 + nominal total return) / IPCA factor - 1",
+    "relative_ibov": "(1 + nominal total return) / (1 + Ibovespa return) - 1",
+    "winner": "Top decile within formation cohort, average ranks with ties reported",
+    "multiplier_5y_wealth": 3.0,
+    "severe_loss_5y_wealth": 0.5,
+    "sensitivities_multiplier_5y_wealth": [2.0, 4.0],
+    "sensitivities_loss_5y_wealth": [0.3, 0.7],
+    "failure_events": "Bankruptcy, judicial recovery and delisting with economic loss are separate labels; acquisition is not automatically failure",
+    "unresolved_events": "Keep censored, never treat last quote as terminal proceeds and never assume zero or forward fill indefinitely",
+    "early_cash_exit": "Cash held at nominal value to horizon; CDI sensitivity declared separately, no redistribution into other companies"
+  },
+  "indicator_family": [
+    "pe", "pb", "ev_ebitda", "fcf_yield", "roic", "roe_average_equity",
+    "operating_margin", "ocf_to_positive_income", "revenue_direction",
+    "income_positive", "income_consistency_3y", "income_growth",
+    "real_revenue_cagr_3y", "real_revenue_cagr_5y",
+    "real_eps_cagr_3y", "real_eps_cagr_5y", "net_debt_ebitda",
+    "current_ratio", "financial_debt_assets", "dividend_yield", "historical_payout"
+  ],
+  "financial_sector": "Exclude banks and insurers from ROIC, operating margin, OCF conversion, debt EBITDA and current ratio screening. Evaluate financial ROE only after attribution, average equity and prudential capital audit.",
+  "valuation": "Actual ON and each PN class outstanding excluding treasury times contemporaneous raw class prices; units require basket composition and no double counting",
+  "initial_filters": {
+    "pe_low": "0 < PE <= 10",
+    "pb_low": "0 < PB <= 1.5",
+    "roe_high": "ROE on positive average equity >= 0.15",
+    "cash_conversion": "Positive net income and OCF / net income >= 1",
+    "margin_positive": "EBIT / positive revenue > 0",
+    "liquidity": "Current assets / positive current liabilities >= 1",
+    "positive_income": "Annual net income > 0"
+  },
+  "pairs": [
+    ["pe_low", "roe_high"], ["pb_low", "roe_high"],
+    ["positive_income", "cash_conversion"],
+    ["margin_positive", "cash_conversion"], ["positive_income", "liquidity"]
+  ],
+  "triples": [
+    ["pe_low", "roe_high", "cash_conversion"],
+    ["positive_income", "cash_conversion", "liquidity"]
+  ],
+  "univariate": "Within cohort Spearman and quintiles; pooled estimates additionally control sector, log actual market cap and lagged turnover. Report failed and inconclusive filters.",
+  "inference": "Company and formation time dependence must be preserved. Use company clustering and calendar blocks at least horizon years, 95% intervals and BH FDR 5% across all tested indicators and declared filter contrasts, including both horizons and all three outcomes. Never apply independent daily IC t statistics. Insufficient time blocks prohibit confirmatory significance claims.",
+  "oos": {
+    "3y": {"development": [2014, 2015, 2016], "purged": [2017, 2018, 2019], "evaluation": [2020, 2021, 2022, 2023]},
+    "5y": {"development": [2014, 2015], "purged": [2016, 2017, 2018, 2019, 2020], "evaluation": [2021]},
+    "condition": "All development endpoints precede first evaluation formation. Lock rules, indicator direction and exclusions before any held out outcome inspection. One 5y evaluation cohort cannot establish time stability. Any rolling scheme must be separately preregistered."
+  },
+  "filter_metrics": ["mean_return", "median_return", "multiplier_rate", "severe_loss_rate", "bombs_avoided_over_all_bombs", "winners_excluded_over_all_winners", "n_approved", "distinct_companies", "sector_concentration", "annual_stability", "coverage_and_censoring"],
+  "simulation_gate": "Only filters with adequate reliable coverage and consistent economic validation; equal company weights at formation, no winner rebalancing, separately report control universe and Ibov. Existing Graham Barsi histories remain qualified external benchmarks, not new backtests.",
+  "execution_gate": "No predictive estimates until shareholder total return, distressed coverage, identity continuity, filing versions and indicator definitions pass material audits; this stage exports inventory and diagnostic panel only."
+}
