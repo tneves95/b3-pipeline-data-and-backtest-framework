@@ -1,0 +1,556 @@
+{
+  "stage": "AUDITED_NOMINAL_TOTAL_RETURNS_COMPUTED_INCOMPLETE_UNIVERSE",
+  "source_sqlite_unchanged": true,
+  "sqlite_sha256": "0ab5d487ec8e6efe7c995a7bec5f0ae4e6602fc734dfbd4bc96e7cc4c82c3211",
+  "previous_local_manifest_sha256": "b1da7d0a284da27c292a11a99b2c98b408edeb309a147b8f5059bc731b7b9af8",
+  "mapped_company_observations": 2588,
+  "unmapped_eligible_security_observations": 94,
+  "unmapped_return_observations": 188,
+  "return_observations": 5176,
+  "certified_nominal_total_returns": 24,
+  "certified_distinct_companies": 3,
+  "certified_3y": 15,
+  "certified_5y": 9,
+  "certified_wealth_at_most_half": 1,
+  "real_and_relative_returns_certified": false,
+  "economic_censored": 955,
+  "time_censored": 623,
+  "uncertified": 3574,
+  "recovered_missing_equity_quotes": 66518,
+  "overlay_quote_rows": 74015,
+  "overlay_bytes": 17678336,
+  "identified_missing_filing_observations": 85,
+  "exact_originals_recovered": 85,
+  "remaining_originals": 0,
+  "reused_fre_rows_verified": 272,
+  "reconciled_economic_event_records": 3025,
+  "predictive_gate": {
+    "passed": false,
+    "indicators": [
+      "income_positive",
+      "operating_margin",
+      "ocf_to_positive_income",
+      "current_ratio"
+    ],
+    "complex_indicators_required": false,
+    "mapped_complete_observations": 4553,
+    "certified_total_returns": 24,
+    "certified_share_of_complete": 0.005271249725455744,
+    "unmapped_eligible_security_observations": 94,
+    "minimum_complete_coverage_overall_and_each_cohort": 0.95,
+    "minimum_distinct_certified_companies": 100,
+    "economic_censoring_allowed": 0,
+    "unmapped_formation_securities_allowed": 0,
+    "reasons": [
+      "Less than 95% of complete trajectories certified overall or within cohort/horizon",
+      "Fewer than 100 distinct certified companies; company/sector coverage not representative",
+      "Known distressed/disappearing trajectories still have unresolved economic censoring",
+      "Eligible historical formation securities still lack unambiguous issuer identity"
+    ],
+    "estimates_computed": false,
+    "returns_computed": true
+  },
+  "publication_scope": "Only aggregate counts, documentation, code, tests and provenance",
+  "code": [
+    {
+      "file": "__init__.py",
+      "sha256": "764c71012b1d94e10f9ce3d91af7192c33de33b2c36acb27a61a7dc4a630f8f3"
+    },
+    {
+      "file": "audit.py",
+      "sha256": "22b015199f3d926e75a687d6bc51900e932f29619c880dbdc648cce6b483f9db"
+    },
+    {
+      "file": "events.py",
+      "sha256": "fbd0ed95c8d7c98fbce14c775cad1c8b4dbd69df12094377c5e84789084a2638"
+    },
+    {
+      "file": "fetch_filings.py",
+      "sha256": "63a1a8a0ab0df022f6977549f93605d68d1410ccdabde6a7fc61a61122c2d0db"
+    },
+    {
+      "file": "fetch_sources.py",
+      "sha256": "b234708dcde55b2efdac555b8ae437da3f6c815bfc563c05e8aaa0197fd6c202"
+    },
+    {
+      "file": "filings.py",
+      "sha256": "3075394515cbf83387902a77adacdbb2257261ab464400ed4b47c42c7c8f34bb"
+    },
+    {
+      "file": "publication.py",
+      "sha256": "3167adb9d96dfabe30077ab474647ec6229afe57fac0fa596113bef2903d322a"
+    },
+    {
+      "file": "publish_round2.py",
+      "sha256": "b6dfb8fc8db89f9665f3ebc152d69b76844d2604707aced16dc0e1e94ece41bc"
+    },
+    {
+      "file": "quotes.py",
+      "sha256": "eefa9dd6af2ee9d41078310901d562a17713e8d048b090e4feb77164f3ca240b"
+    },
+    {
+      "file": "returns.py",
+      "sha256": "ef7bd4141c3f37e84f1522216eb7749235757a408bb9943ad8dbf87d9d2ebc21"
+    },
+    {
+      "file": "round2.py",
+      "sha256": "279d323e101696fb6388b910dc0421d41bbc4076c76361c371daa5ce5ac62bbf"
+    }
+  ],
+  "local_manifest_sha256": "a2de0db0ace202f1daa3dfab3c4ed6a7b99658f396e542f489d809433bdbe4e9",
+  "publication_code_sha256": "b6dfb8fc8db89f9665f3ebc152d69b76844d2604707aced16dc0e1e94ece41bc",
+  "source_files": [
+    {
+      "path": "b3_market_data.sqlite",
+      "bytes": 634359808,
+      "sha256": "0ab5d487ec8e6efe7c995a7bec5f0ae4e6602fc734dfbd4bc96e7cc4c82c3211",
+      "role": "read_only_database"
+    },
+    {
+      "path": "data/cvm/dfp_cia_aberta_2010.zip",
+      "bytes": 8900829,
+      "sha256": "c6a9c95c2510e8a71bb583084492e9c52c3f423a3be56f1c5d2dd4f6960677ff",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/dfp_cia_aberta_2011.zip",
+      "bytes": 9225478,
+      "sha256": "858423fba40124d7a30abea4e70248f7251e1d2c792e9fcece5a57afd3115f34",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/dfp_cia_aberta_2012.zip",
+      "bytes": 9201737,
+      "sha256": "3aff7a726d324d29924887eed45bbc58bc30b66cd9079bafe701d55efdfe0849",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/dfp_cia_aberta_2013.zip",
+      "bytes": 9171449,
+      "sha256": "ef379ac9aab9567434ca6d36053d8bd1f0a2a47a0c65a2e1d218259da530e224",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/dfp_cia_aberta_2014.zip",
+      "bytes": 9079931,
+      "sha256": "b8795dba134754475a485c0f88b6542face6613bb418d261caa011d90e032f28",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/dfp_cia_aberta_2015.zip",
+      "bytes": 8987623,
+      "sha256": "39a7001be9eaa91a6acc83831c816794df4f92441d7702b80da6c4b234352b4e",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/dfp_cia_aberta_2016.zip",
+      "bytes": 9832691,
+      "sha256": "772f06a73c5fe80534b61365ea5d03f9d8fcce21b87823bd5c9d48699bcf71d5",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/dfp_cia_aberta_2017.zip",
+      "bytes": 10150935,
+      "sha256": "1ff8185d61759e49b406c55c5d0b593587c2e76e9032c95f836f7fea02fc9d58",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/dfp_cia_aberta_2018.zip",
+      "bytes": 10237924,
+      "sha256": "280dcf5acd7bdb529acc186c9a1195092a1e06cf1e33ddcdca0b11c31261296f",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/dfp_cia_aberta_2019.zip",
+      "bytes": 11185526,
+      "sha256": "bc82a1162b44686e8953b521e3424a5938b6661ff4655f832db4ea9488296a0d",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/dfp_cia_aberta_2020.zip",
+      "bytes": 12637854,
+      "sha256": "8fb97d1887aed1e1e2d85e54cb133baf9f65b9f46f60fa8720f09c1f7a74362e",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/dfp_cia_aberta_2021.zip",
+      "bytes": 13283026,
+      "sha256": "64b8693b709538a0357c5179ae02231cb380d0000956ee57a873a21d4efda2e4",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/dfp_cia_aberta_2022.zip",
+      "bytes": 13448916,
+      "sha256": "b9ac4eed33ef64346c826ef25aa7a59b6098822dcac04c131e52305e29e3e4ae",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/dfp_cia_aberta_2023.zip",
+      "bytes": 13563376,
+      "sha256": "be508606d186cda7ee86dcf461993b392e1151dd1a01d9290f8b627d7d4b5cbb",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/dfp_cia_aberta_2024.zip",
+      "bytes": 13396369,
+      "sha256": "fea8592888271d4b7cab04328b2b5c586a6c44adb2399d74b61bfa822400dcf3",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/dfp_cia_aberta_2025.zip",
+      "bytes": 12784140,
+      "sha256": "d7aec54e7c67998e4cd3ef94c463ab247f09a6baaa2254878d1e431f28130e2a",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/dfp_cia_aberta_2026.zip",
+      "bytes": 243348,
+      "sha256": "7eab96451f58476d37b52653dabdd4fd423feb0870b97d44df5925feb42cdd93",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/fre_cia_aberta_2010.zip",
+      "bytes": 6327657,
+      "sha256": "a83d0dd42ed2fc57d83245ef75561585179eaff68351454a9c804dac2611970b",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/fre_cia_aberta_2011.zip",
+      "bytes": 7050662,
+      "sha256": "7ef45a3f8fa9d62f396cc11a692566e9d16137cc6d0ffccaaff8d8d507b4cad8",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/fre_cia_aberta_2012.zip",
+      "bytes": 7427318,
+      "sha256": "cd48dd32bab6d410dc523a3de0d27ca3bb7ebd8c403e6fa1de647b1454fbd069",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/fre_cia_aberta_2013.zip",
+      "bytes": 7741288,
+      "sha256": "2c746f2cf0636236972a06be1d4e15dabaac15281e88753505acae9385a76f79",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/fre_cia_aberta_2014.zip",
+      "bytes": 7929118,
+      "sha256": "8797e5b66f4c126d9266746ab704bdb0d787ed5d92dca917ceffa2749b150a50",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/fre_cia_aberta_2015.zip",
+      "bytes": 7853370,
+      "sha256": "21be79d408fcc08e9edafcee941f02a339c5664e96b3ad83afd84f27ed838d60",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/fre_cia_aberta_2016.zip",
+      "bytes": 7583877,
+      "sha256": "bfd0513d903cb3e5a43360dcb1673b3c9ac1f23396974726cca764df64d481cc",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/fre_cia_aberta_2017.zip",
+      "bytes": 7605478,
+      "sha256": "cb90963d1e7d6b2416265eb7aa0a463b98d067ade096f47b724467184273b0ab",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/fre_cia_aberta_2018.zip",
+      "bytes": 7824065,
+      "sha256": "7a349acbce124fdb0846c371b3e68e5ff06781ead4b8713d6080eabf6737d082",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/fre_cia_aberta_2019.zip",
+      "bytes": 7935765,
+      "sha256": "30f461d5d3b3cdbab84faac20c158c6a41cea1ee0223c40d988db9845e2c6a51",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/fre_cia_aberta_2020.zip",
+      "bytes": 9233986,
+      "sha256": "17d2d911201f64dc8ff501104ce8fe343cd4ab3bdb41ea03eb6bfc2c4f6b80ab",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/fre_cia_aberta_2021.zip",
+      "bytes": 10494738,
+      "sha256": "882e4c19c0719b7ac75f8e906c264fdd69b899cf0a2942ad00c4eb14a1b855bd",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/fre_cia_aberta_2022.zip",
+      "bytes": 10754788,
+      "sha256": "90485eccf2df09c035cde0cac389961473707c1cecebfcbe2070b5b8373121e5",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/fre_cia_aberta_2023.zip",
+      "bytes": 8132763,
+      "sha256": "a3bddcd8d8bc9feda017fdc7018eed0c29f107e2e705a88899f9ba9c6153c1eb",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/fre_cia_aberta_2024.zip",
+      "bytes": 8409803,
+      "sha256": "9d214d1e02409f3a45b8725274fa8b0ec017b168e7891046e8ea97937abce88f",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/fre_cia_aberta_2025.zip",
+      "bytes": 8497399,
+      "sha256": "23cacdb758cffcce79732d2092ce0823988e64749992b2b83907dc0880fc33de",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/fre_cia_aberta_2026.zip",
+      "bytes": 8126598,
+      "sha256": "a04a1079f2807b3d53c25d0ff6978bba844f5f665ac6df62303c5d0aae46b624",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/itr_cia_aberta_2011.zip",
+      "bytes": 24581120,
+      "sha256": "11f0d8cc47bad618a6e705a4615f8444d652967cc210dd29af8d18cad11b2a9a",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/itr_cia_aberta_2012.zip",
+      "bytes": 24650791,
+      "sha256": "f1d642a1a644e2528ae96c7963e6319a87537d083d003f965cee637ff9d39842",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/itr_cia_aberta_2013.zip",
+      "bytes": 24514311,
+      "sha256": "a336c9d5d5f2e4650bf2c16a80600daf3a423d7bbcd594f1d8dd94bf12f148ea",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/itr_cia_aberta_2014.zip",
+      "bytes": 24468760,
+      "sha256": "c10271ea978a7da9c0fb2ef57d6b485dc9eb8032c0634479d8f4afa90ba0ead9",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/itr_cia_aberta_2015.zip",
+      "bytes": 24295580,
+      "sha256": "2755f06e74668144620b4265e59db8149284252a1b3a5bb6404c0db22b21c64b",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/itr_cia_aberta_2016.zip",
+      "bytes": 23803768,
+      "sha256": "3c2954a0d7e2c4c1c6dec157134e959fd0dea0ba53001d4bab01d04727d67c21",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/itr_cia_aberta_2017.zip",
+      "bytes": 24127956,
+      "sha256": "f2e626260461ec4e04614d32212ca8dc5a1be7c5b56c261343eb8866c9ed5f26",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/itr_cia_aberta_2018.zip",
+      "bytes": 23460448,
+      "sha256": "a551278c83e5c0584edd2a29b6035e34e833176176827e3f04a28f8373df536b",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/itr_cia_aberta_2019.zip",
+      "bytes": 24435666,
+      "sha256": "dbfe1e32296563a9efdcb993ed5811876e3d50b778bc547fe004af15b9a75021",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/itr_cia_aberta_2020.zip",
+      "bytes": 27151708,
+      "sha256": "4ca11b431eb21aa98f813a3c18086ca600f234f5eb0dcec0c51a8641fccbca0a",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/itr_cia_aberta_2021.zip",
+      "bytes": 31230595,
+      "sha256": "c8723d5ccd4a6e99e9bc1566f2a558139cee1c2d96e4b940c4bcbedcb46a173a",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/itr_cia_aberta_2022.zip",
+      "bytes": 32324776,
+      "sha256": "d601fd8130b217c23d399ffae72b57e6308ce9ed034d7b2b233243cc2301e31a",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/itr_cia_aberta_2023.zip",
+      "bytes": 32350760,
+      "sha256": "e4e00db0a75b47c7e92524991efda71a47f23a147a2ba0a358623b35a5168e2d",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/itr_cia_aberta_2024.zip",
+      "bytes": 32723955,
+      "sha256": "6158b55d85bcada12c7d319a940aeb78439e593e4ddf67e5ae811a67e1a016b7",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/itr_cia_aberta_2025.zip",
+      "bytes": 31660219,
+      "sha256": "efe754841bed9eac2a3138c92a187060842c1746845e9471749be5c91819dc51",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/cvm/itr_cia_aberta_2026.zip",
+      "bytes": 19634453,
+      "sha256": "0e1ef74291d2143e7bb55247b01c8bbd94995d995536f70f0d19de1d79d7e38c",
+      "role": "filing_metadata"
+    },
+    {
+      "path": "data/raw/COTAHIST_A2014.ZIP",
+      "bytes": 13684612,
+      "sha256": "613d76f8a64c7ffba0406cb54c1fd187266f55ed8b6037cb85993b2071a5aae7",
+      "role": "original_equity_prices"
+    },
+    {
+      "path": "data/raw/COTAHIST_A2015.ZIP",
+      "bytes": 14129467,
+      "sha256": "593f8740ec1aa87c80c54c623f1759530b6b32cdadd34a64f0fc66a529f34e35",
+      "role": "original_equity_prices"
+    },
+    {
+      "path": "data/raw/COTAHIST_A2016.ZIP",
+      "bytes": 15715361,
+      "sha256": "ffc82a9b973cb5901e68dc11bea1bbc9bf0a2c46749e0efe5a7a89229bc0d81f",
+      "role": "original_equity_prices"
+    },
+    {
+      "path": "data/raw/COTAHIST_A2017.ZIP",
+      "bytes": 16527191,
+      "sha256": "af6aaa85187c1d58ec6565522644066da573a7dc5b579c1d4c906ae95a2dea86",
+      "role": "original_equity_prices"
+    },
+    {
+      "path": "data/raw/COTAHIST_A2018.ZIP",
+      "bytes": 19488404,
+      "sha256": "9d66136179d9822476c6035000167aecf2665f4396619e4d74c0011745a0c507",
+      "role": "original_equity_prices"
+    },
+    {
+      "path": "data/raw/COTAHIST_A2019.ZIP",
+      "bytes": 26650371,
+      "sha256": "5170d3f8f079c3306424b36c2fae9b467391f8fa37d16d389f487b4c5c28edb9",
+      "role": "original_equity_prices"
+    },
+    {
+      "path": "data/raw/COTAHIST_A2020.ZIP",
+      "bytes": 37181542,
+      "sha256": "86442168939b9da7b3cc1ec1662c333ee5ab4c75f2be1865b5bf55ba4c52168f",
+      "role": "original_equity_prices"
+    },
+    {
+      "path": "data/raw/COTAHIST_A2021.ZIP",
+      "bytes": 49678679,
+      "sha256": "b0d4aed17d609c7ba615a23320c2fd513b580a251ae7d884a5015ef8a3fe4705",
+      "role": "original_equity_prices"
+    },
+    {
+      "path": "data/raw/COTAHIST_A2022.ZIP",
+      "bytes": 58597842,
+      "sha256": "a4f9015b755f797d9c08b0d13f19dbfab18a6c75f379c0271a1cf1b5f6323cd8",
+      "role": "original_equity_prices"
+    },
+    {
+      "path": "data/raw/COTAHIST_A2023.ZIP",
+      "bytes": 70216090,
+      "sha256": "ad1603788d78aaa1de806498572277f1d9443f88ae116452751b5800cb23523e",
+      "role": "original_equity_prices"
+    },
+    {
+      "path": "data/raw/COTAHIST_A2024.ZIP",
+      "bytes": 79261198,
+      "sha256": "96a003d10fab0fa2ace0c64cdc2b892b4c111adf9da8e538aa0b28437bd2a172",
+      "role": "original_equity_prices"
+    },
+    {
+      "path": "data/raw/COTAHIST_A2025.ZIP",
+      "bytes": 89056788,
+      "sha256": "6cc0ad851c8f605ca30418acac48be81f1767f6ed05b4f563772d06ae448047d",
+      "role": "original_equity_prices"
+    },
+    {
+      "path": "data/raw/COTAHIST_A2026.ZIP",
+      "bytes": 92505617,
+      "sha256": "6aa0558c7d2571a6ec28393402f9ccceb6a0fa859af196d29d9ee137ff99efdf",
+      "role": "original_equity_prices"
+    },
+    {
+      "path": "research/returns_2014_2026_selection/identity_sector.csv",
+      "bytes": 719791,
+      "sha256": "1ffdce27a5e9599edba0007e9dae8f0fc8404f2396c0954bd565e46479a4afec",
+      "role": "sector_cache_receipt_filtered_not_recertified"
+    }
+  ],
+  "directed_primary_sources": [
+    {
+      "file": "irb_cash.html.gz",
+      "url": "https://ri.irbre.com/servicos-aos-investidores/historico-de-dividendos-e-remuneracao-aos-acionistas/",
+      "bytes": 64758,
+      "sha256": "52429e5619ad0fb16fb599c0bb5b489b0270415ac595d0210df86cec44c86add",
+      "compressed_sha256": "88978c737618f608106f7dff3adab513b488b75085687fcb59490f52b2cc3d99"
+    },
+    {
+      "file": "irb_capital.html.gz",
+      "url": "https://ri.irbre.com/servicos-aos-investidores/recompra-de-acoes-desdobramentos-e-subscricao/",
+      "bytes": 69362,
+      "sha256": "3a7e9b65a7eba7afc1f5a49a95092191a0b7ca54ec8ed5efce2cfc2b6e48f0ae",
+      "compressed_sha256": "d6fbf731516471172c507b9ae47401d0df8c48d31bfd1f2991d219c0f712ff96"
+    },
+    {
+      "file": "irb_offer_2022.pdf.gz",
+      "url": "https://api.mziq.com/mzfilemanager/v2/d/0d797649-90df-4c56-aa01-6ee9c8a13d75/815cf4c8-5e02-116d-7f9e-ac7f924bd297?origin=2",
+      "bytes": 798897,
+      "sha256": "358c914973208c8df6743e476cdd060f0792fd6d21eb990ac8e5c56e615c53e2",
+      "compressed_sha256": "5540e6721212441e48f34242c41866e4ac6868ec860ed7d1563763fe70531fe3"
+    },
+    {
+      "file": "light_cash.html.gz",
+      "url": "https://ri.light.com.br/divulgacoes-e-resultados/dividendos-e-jscp/",
+      "bytes": 65050,
+      "sha256": "da1cbd4a5816c437b3861b796f80f68aaece4144343d4a1376503dab51435fa1",
+      "compressed_sha256": "9df6434eba205a90c83baa3cd84c0f0d299d9f48b3be559fd50b7ae30afb307b"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "filing_recovery_by_cohort.csv",
+      "bytes": 157,
+      "sha256": "311d7aee23c65c37361efcaad4d3ec36ecb829fccf4953a6e1f124c6f8352274"
+    },
+    {
+      "file": "local_artifact_inventory.csv",
+      "bytes": 18818,
+      "sha256": "4eb5419eae4421415c0be4edd0168a1b59af004d2867ddd84ec1e5cd4e531818"
+    },
+    {
+      "file": "quote_reconstruction_by_year.csv",
+      "bytes": 608,
+      "sha256": "b26bd944c73d810e31884e0eea676fe86b79c7488ad1037f48b9852347c702c8"
+    },
+    {
+      "file": "remaining_causes_by_cohort.csv",
+      "bytes": 9810,
+      "sha256": "9a82cd423dd605537fd1812e235d190898c8a48d0cf0bf49ba962c4273e06e5d"
+    },
+    {
+      "file": "return_coverage_by_cohort.csv",
+      "bytes": 1015,
+      "sha256": "4d683c51497a69ebc836856fc68e134ac7f5a1ac54be59c39f7d205d71709b62"
+    },
+    {
+      "file": "simple_indicator_coverage.csv",
+      "bytes": 3371,
+      "sha256": "cf8fe6aa74b25493b50498005b982785beef07b11d31ba5cb08fac6d72f548d4"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "authorization": "User explicitly authorized public branch and draft PR after file audit, excluding raw B3 data and uncertain redistribution",
+  "base_commit": "8d394e9ab563daebe43603a3e85f35f43c1402bc",
+  "publication_branch": "study/fundamentals-multipliers-pilot-20261009",
+  "local_evidence_branch": "local/fundamentals-multipliers-evidence-20261009",
+  "previous_checkpoints_modified": false,
+  "contains_local_evidence_commit": false,
+  "secret_scan_patterns": [
+    "private_key",
+    "github_token",
+    "aws_access_key",
+    "credential_url",
+    "credential_assignment"
+  ],
+  "secret_scan_findings": 0,
+  "tests_passed": 12,
+  "granular_evidence_local_bytes": 14696806,
+  "reviewed_file_count_excluding_this_record": 21,
+  "reviewed_bytes_excluding_this_record": 300886,
+  "files": [
+    {
+      "file": "research/fundamental_multipliers_pilot/.gitignore",
+      "bytes": 20,
+      "sha256": "b8c2d6891d152272a83fd7ed39cf3398704678ffececd9681427269be690a5fa"
+    },
+    {
+      "file": "research/fundamental_multipliers_pilot/PUBLICACAO.md",
+      "bytes": 4829,
+      "sha256": "65d626d52aa149405abb51184a509763a2bfe0a8b7d2967534e1eb188b8870e7"
+    },
+    {
+      "file": "research/fundamental_multipliers_pilot/RELATORIO.md",
+      "bytes": 23589,
+      "sha256": "3326afbe480d29f8081f1f000cb2acc9f8a571db1de72f6672037f2890a0d761"
+    },
+    {
+      "file": "research/fundamental_multipliers_pilot/__init__.py",
+      "bytes": 80,
+      "sha256": "764c71012b1d94e10f9ce3d91af7192c33de33b2c36acb27a61a7dc4a630f8f3"
+    },
+    {
+      "file": "research/fundamental_multipliers_pilot/audit.py",
+      "bytes": 26288,
+      "sha256": "3d575bfa0da06da8395e93a51349f5a4d954aae7cc503e39615a2950ea60ae10"
+    },
+    {
+      "file": "research/fundamental_multipliers_pilot/protocol.json",
+      "bytes": 5203,
+      "sha256": "80800cec5212f1ec1f5d9ca1c76e21e93c5dea843c4563eac6c57bd717de25b0"
+    },
+    {
+      "file": "research/fundamental_multipliers_pilot/publication.py",
+      "bytes": 9451,
+      "sha256": "3167adb9d96dfabe30077ab474647ec6229afe57fac0fa596113bef2903d322a"
+    },
+    {
+      "file": "research/fundamental_multipliers_pilot/published/database_tables.csv",
+      "bytes": 259,
+      "sha256": "f85d6ae722714d615bd1a3c92ae6170305ef026e0c120e38a4a7c1f9f700b114"
+    },
+    {
+      "file": "research/fundamental_multipliers_pilot/published/diagnostic_coverage.png",
+      "bytes": 166742,
+      "sha256": "5ff794173d45edd5994da741f5cfa1111707e4d115d25b054d446680bce44b5b"
+    },
+    {
+      "file": "research/fundamental_multipliers_pilot/published/filing_versions_by_year.csv",
+      "bytes": 1621,
+      "sha256": "a989fd319eee03d32362186491a083231c999074bd4b8b40756a2b160813a73a"
+    },
+    {
+      "file": "research/fundamental_multipliers_pilot/published/indicator_coverage_by_cohort.csv",
+      "bytes": 2319,
+      "sha256": "c934d2f5463771b6d79714852eb3dba9f030ad7f03fde25a5ad30581394080b5"
+    },
+    {
+      "file": "research/fundamental_multipliers_pilot/published/manifest.json",
+      "bytes": 17767,
+      "sha256": "0a6a38cd2a80d7c20d932d1b6af425e2c5499b5c8f17e0847c27cae977e7a4a9"
+    },
+    {
+      "file": "research/fundamental_multipliers_pilot/published/outcome_readiness_by_cohort.csv",
+      "bytes": 518,
+      "sha256": "a7db00ca7b1f0d48478fac0fc187822454a8cf5726543c6008f0d608213b0ce1"
+    },
+    {
+      "file": "research/fundamental_multipliers_pilot/published/panel_coverage_by_cohort.csv",
+      "bytes": 453,
+      "sha256": "10ffd803573fa7216da457b2657c322d1ac905257356a0a75db27ea10c66cf15"
+    },
+    {
+      "file": "research/fundamental_multipliers_pilot/published/publication_inventory.csv",
+      "bytes": 3814,
+      "sha256": "3733ef59c965ad285e55e30dfb2e9f3ea53e10cc6990e2efefa9582646c4caf2"
+    },
+    {
+      "file": "research/fundamental_multipliers_pilot/published/quote_coverage_by_year.csv",
+      "bytes": 392,
+      "sha256": "fb25ea9960e4085c66cc59b3b55d06452332829faf93eb1ee7d7f46631c1511b"
+    },
+    {
+      "file": "research/fundamental_multipliers_pilot/published/quotes_by_bdi_year.csv",
+      "bytes": 767,
+      "sha256": "b6cf05afc7470d8eaa78b67c484b985fb6e5234184c03a01afce6c1e229a91dd"
+    },
+    {
+      "file": "research/fundamental_multipliers_pilot/published/raw_coverage_year_indicator.csv",
+      "bytes": 28070,
+      "sha256": "60a6ae120ee545861e33c7be54926ae28c4dca4ea6b89d4e375e4ca80c76cbe8"
+    },
+    {
+      "file": "research/fundamental_multipliers_pilot/published/unhandled_events_by_type.csv",
+      "bytes": 161,
+      "sha256": "96fe7f2c6d33c8fef21bf680ea53d56016ad203e0b8d043d10638b6ee8badd7c"
+    },
+    {
+      "file": "tests/test_fundamental_multipliers_audit.py",
+      "bytes": 3737,
+      "sha256": "98f82855763ffbf29a5305e6d992c02cd7f85c7ee8b9e0b57334fffff05a1418"
+    },
+    {
+      "file": "tests/test_fundamental_multipliers_publication.py",
+      "bytes": 4806,
+      "sha256": "b09da79cff6539edbff3d6cad99fefcce0aec0bc65b8a7f15c510293a3d2a01a"
+    }
+  ]
+}
