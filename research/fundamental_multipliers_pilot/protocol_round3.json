@@ -1,0 +1,204 @@
+{
+  "version": 3,
+  "frozen_utc": "2026-10-10T02:31:30.923949+00:00",
+  "supersedes_only": "Exploratory execution gate and return precision policy of rounds 1/2; original checkpoints preserved",
+  "authorized_reorientation": "User explicitly accepts economically close return approximations; preserve material events, PIT, historical denominator, validation split and publication limits",
+  "formation_and_universe": "Reuse accepted company/date representatives; never select security or include/exclude company by outcome",
+  "grades": {
+    "A": "Previously reconciled economic path, including 24 round2 certificates; documentary corrections may extend coverage without claiming complete cents-level reconciliation",
+    "B": "Raw-price/event shareholder path, bounded endpoint staleness, known material structural events handled, no uncorroborated mechanical adjustment or material unresolved event; sampling checks by cohort, sector and economic state",
+    "C": "Material lineage/event/identity/gap uncertainty; retain full denominator and explicit causes; never zero or last-price-fill as observed return"
+  },
+  "prices": {
+    "endpoint_max_age_sessions": 5,
+    "formation_max_age_sessions": 5,
+    "event_max_age_sessions": 5,
+    "observed_calendar": true,
+    "adj_close": "Comparator only unless independently validated; no use in market cap",
+    "detected_splits": "Price-only DETECTED factors cannot turn actual crashes into artificial flat returns; require documentary or other independent corroboration",
+    "documentary_factor_match_relative_tolerance": 0.02,
+    "documentary_exdate_matching_sessions": 10,
+    "suspension_max_gap_sessions": 60
+  },
+  "materiality": {
+    "B_wealth_sensitivity_fraction": 0.15,
+    "wide_B_wealth_sensitivity_fraction": 0.3,
+    "independent_method_material_relative_wealth_gap": 0.15,
+    "small_residual_event_fraction_initial_wealth": 0.02,
+    "threshold_rule": "Preserve ambiguity if sensitivity range crosses wealth 0.5/3 or market benchmark; report lower/upper frequencies, never convenient classification"
+  },
+  "exploration_sufficiency": {
+    "minimum_usable_windows_per_horizon": 500,
+    "minimum_distinct_companies": 150,
+    "minimum_cohort_usable_fraction": 0.5,
+    "minimum_cohorts": 6,
+    "minimum_major_sector_usable_fraction": 0.4,
+    "major_sector_minimum_observations": 50,
+    "minimum_size_tercile_usable_fraction": 0.4,
+    "model_minimum_complete_pairs": 200,
+    "model_minimum_distinct_companies": 80,
+    "model_minimum_selected_and_rejected": 30,
+    "economic_state_rule": "Publish A/B/C coverage of historical BDI distress, exits and materially unresolved events; no broad reliable claim if worst-case missing-loss bounds reverse effect or problematic coverage gap exceeds 20 percentage points",
+    "insufficient_strata": "Publish computed conditional exploratory effects and conservative bounds, explicitly withholding general predictive claims; do not use gate as a reason to skip all empirical computation"
+  },
+  "indicators": [
+    "income_positive",
+    "operating_margin",
+    "ocf_to_positive_income",
+    "current_ratio",
+    "financial_debt_assets",
+    "roe_average_equity",
+    "ocf_assets",
+    "net_margin",
+    "revenue_growth_1y",
+    "income_consistency_3y",
+    "revenue_growth_3y",
+    "pe",
+    "pb",
+    "ev_ebitda",
+    "roic",
+    "dividend_yield",
+    "payout"
+  ],
+  "indicator_conditions": {
+    "financial": "Banks/insurers separately; no industrial EBIT margin, cash conversion, current ratio, ROIC, EV/EBITDA or leverage screening for financial firms",
+    "valuation": "Raw contemporaneous class prices, documented shares public before formation, treasury/class/unit compatibility; otherwise missing with explicit cause",
+    "ebitda": "Do not relabel parser EBIT as EBITDA",
+    "growth": "Exact reference/version/receipt known at formation, no later comparative-period values"
+  },
+  "frozen_filters": {
+    "positive_income": "income_positive == 1",
+    "cash_conversion": "ocf_to_positive_income >= 1",
+    "margin_positive": "operating_margin > 0",
+    "liquidity": "current_ratio >= 1",
+    "leverage_low": "financial_debt_assets <= 0.40",
+    "roe_high": "roe_average_equity >= 0.15",
+    "cash_assets_positive": "ocf_assets > 0",
+    "revenue_growing": "revenue_growth_1y > 0",
+    "income_consistent": "income_consistency_3y == 1",
+    "pe_low": "0 < pe <= 10",
+    "pb_low": "0 < pb <= 1.5",
+    "dividend_yield_high": "dividend_yield >= 0.04"
+  },
+  "pairs": [
+    [
+      "positive_income",
+      "cash_conversion"
+    ],
+    [
+      "margin_positive",
+      "cash_conversion"
+    ],
+    [
+      "positive_income",
+      "liquidity"
+    ],
+    [
+      "roe_high",
+      "leverage_low"
+    ],
+    [
+      "revenue_growing",
+      "cash_conversion"
+    ],
+    [
+      "pe_low",
+      "roe_high"
+    ],
+    [
+      "pb_low",
+      "roe_high"
+    ]
+  ],
+  "triples": [
+    [
+      "positive_income",
+      "cash_conversion",
+      "liquidity"
+    ],
+    [
+      "roe_high",
+      "leverage_low",
+      "cash_conversion"
+    ],
+    [
+      "pe_low",
+      "roe_high",
+      "cash_conversion"
+    ]
+  ],
+  "univariate": "Spearman within formation cohort plus equal-cohort pooled ranks; quintiles formed within cohort, deterministic ties, aggregate lower/upper threshold frequencies",
+  "metrics": [
+    "mean_return",
+    "median_return",
+    "multiplier_rate",
+    "severe_loss_rate",
+    "bombs_avoided",
+    "winners_excluded",
+    "selected_companies",
+    "coverage",
+    "sector_neutral_difference",
+    "relative_ibov",
+    "cohort_stability",
+    "oos",
+    "return_sensitivity"
+  ],
+  "oos": {
+    "3y": {
+      "development": [
+        2014,
+        2015,
+        2016
+      ],
+      "purged": [
+        2017,
+        2018,
+        2019
+      ],
+      "evaluation": [
+        2020,
+        2021,
+        2022,
+        2023
+      ]
+    },
+    "5y": {
+      "development": [
+        2014,
+        2015
+      ],
+      "purged": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "evaluation": [
+        2021
+      ]
+    },
+    "rule": "Freeze all directions/thresholds/combinations before inspecting feature/outcome relations; one 5y evaluation cohort is not temporal validation"
+  },
+  "inference": {
+    "seed": 20261010,
+    "bootstrap_replications": 999,
+    "company_cluster": true,
+    "calendar_block_min_years": "horizon",
+    "time_condition": "Fewer than four independent horizon-sized calendar blocks prohibits time-general confirmatory p-values. Cluster-company intervals are conditional on observed calendar; horizon-block sensitivity also reported",
+    "multiplicity": "BH and dependence-robust BY across entire declared indicator/horizon nominal/relative family where valid resampling p-values exist; never daily IC iid t-test",
+    "no_pvalue_shortcut": "Economic magnitude, persistence, OOS and missing-loss robustness required; no isolated p-value promise"
+  },
+  "sensitivity": [
+    "A+B central",
+    "A only descriptive, no representative claim",
+    "B lower and upper 15% wealth",
+    "B lower and upper 30% wealth",
+    "missing-C binary worst-case bounds across full model-eligible universe",
+    "C all-zero recovery scenario explicitly hypothetical, not observed returns",
+    "adjusted-price comparator",
+    "nonoverlapping formation cohorts by horizon",
+    "leave-one-company-out influence"
+  ],
+  "publication": "Only own aggregated statistics, code, synthetic tests, provenance and documentation; individual B3 trajectories and source files remain local; PR draft without merge"
+}
